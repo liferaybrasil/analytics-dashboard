@@ -6,19 +6,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.liferay.analytics.dashboard.workflow.domain.WorkflowProcessAvg;
-import com.liferay.analytics.dashboard.workflow.repositories.WorkflowProcessAvgRepository;
+import com.liferay.analytics.dashboard.workflow.repository.WorkflowProcessAvgRepository;
 
 @RestController
-@RequestMapping("/workflow/api")
+@RequestMapping("/api/workflow")
 public class WorkflowController {
 
-
-	@GetMapping("/processavg")
-    public Iterable<WorkflowProcessAvg> listProducts(){
+    @GetMapping("/processavg")
+    public Iterable<WorkflowProcessAvg> listProducts() {
         return workflowProcessAvgRepository.findAll();
     }
 
-	@Autowired
-	private WorkflowProcessAvgRepository workflowProcessAvgRepository;
+    @Autowired
+    private WorkflowProcessAvgRepository workflowProcessAvgRepository;
 
 }
