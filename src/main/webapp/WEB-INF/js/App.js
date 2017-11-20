@@ -5,7 +5,7 @@ import Ajax from 'metal-ajax';
 
 class App extends JSXComponent {
   attached() {
-    Ajax.request('http://localhost:8082/api/workflow/processavg').then((xhr) => {
+    Ajax.request(location.origin + '/api/workflow/processavg').then((xhr) => {
       let json = JSON.parse(xhr.response);
       let columns = [];
 
