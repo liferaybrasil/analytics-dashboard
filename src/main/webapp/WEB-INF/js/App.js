@@ -12,7 +12,7 @@ class App extends JSXComponent {
       json.forEach(function(value) {
         let throughput = Math.floor(value.totalDuration / value.total);
 
-        columns.push({'id': value.kaleoDefinitionVersionId.toString(), 'data': [throughput]})
+        columns.push({'id': value.name, 'data': [throughput]})
       });
 
       this.props.columns = columns;

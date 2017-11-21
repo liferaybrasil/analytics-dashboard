@@ -21,6 +21,8 @@ public class WorkflowProcessAvg implements Serializable {
     @CassandraType(type = DataType.Name.BIGINT)
     private long totalDuration;
 
+    private String name = "Unknown";
+
     public long getKaleoDefinitionVersionId() {
         return kaleoDefinitionVersionId;
     }
@@ -33,16 +35,12 @@ public class WorkflowProcessAvg implements Serializable {
         return totalDuration;
     }
 
-    public void setKaleoDefinitionVersionId(long kaleoDefinitionVersionId) {
-        this.kaleoDefinitionVersionId = kaleoDefinitionVersionId;
+    public String getName() {
+        return name;
     }
 
-    public void setTotal(long total) {
-        this.total = total;
-    }
-
-    public void setTotalDuration(long totalDuration) {
-        this.totalDuration = totalDuration;
+    public void setName(String name) {
+        this.name = name;
     }
 
 }

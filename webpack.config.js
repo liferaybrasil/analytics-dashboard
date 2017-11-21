@@ -24,6 +24,7 @@ module.exports = {
       xmlhttprequest: '{XMLHttpRequest:XMLHttpRequest}'
     }
   ],
+  devtool: 'cheap-module-source-map',
   output: {
     library: 'Dashboard',
     libraryTarget: 'this',

@@ -6008,14 +6008,14 @@ var App = function (_JSXComponent) {
     value: function attached() {
       var _this2 = this;
 
-      _metalAjax2.default.request('http://localhost:8082/api/workflow/processavg').then(function (xhr) {
+      _metalAjax2.default.request(location.origin + '/api/workflow/processavg').then(function (xhr) {
         var json = JSON.parse(xhr.response);
         var columns = [];
 
         json.forEach(function (value) {
           var throughput = Math.floor(value.totalDuration / value.total);
 
-          columns.push({ 'id': value.kaleoDefinitionVersionId.toString(), 'data': [throughput] });
+          columns.push({ 'id': value.name, 'data': [throughput] });
         });
 
         _this2.props.columns = columns;
@@ -54221,3 +54221,4 @@ exports.default = ProgressPromise;
 
 /***/ })
 /******/ ]);
+//# sourceMappingURL=Dashboard.js.map
