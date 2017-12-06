@@ -61,7 +61,7 @@ this["Dashboard"] =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 34);
+/******/ 	return __webpack_require__(__webpack_require__.s = 68);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -76,7 +76,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.string = exports.object = exports.Disposable = exports.async = exports.array = undefined;
 
-var _core = __webpack_require__(18);
+var _core = __webpack_require__(30);
 
 Object.keys(_core).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -90,23 +90,23 @@ Object.keys(_core).forEach(function (key) {
 
 var _core2 = _interopRequireDefault(_core);
 
-var _array = __webpack_require__(36);
+var _array = __webpack_require__(32);
 
 var _array2 = _interopRequireDefault(_array);
 
-var _async = __webpack_require__(37);
+var _async = __webpack_require__(33);
 
 var _async2 = _interopRequireDefault(_async);
 
-var _Disposable = __webpack_require__(40);
+var _Disposable = __webpack_require__(36);
 
 var _Disposable2 = _interopRequireDefault(_Disposable);
 
-var _object = __webpack_require__(41);
+var _object = __webpack_require__(37);
 
 var _object2 = _interopRequireDefault(_object);
 
-var _string = __webpack_require__(42);
+var _string = __webpack_require__(38);
 
 var _string2 = _interopRequireDefault(_string);
 
@@ -131,15 +131,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.State = exports.Config = exports.validators = undefined;
 
-var _validators = __webpack_require__(17);
+var _validators = __webpack_require__(15);
 
 var _validators2 = _interopRequireDefault(_validators);
 
-var _Config = __webpack_require__(43);
+var _Config = __webpack_require__(39);
 
 var _Config2 = _interopRequireDefault(_Config);
 
-var _State = __webpack_require__(44);
+var _State = __webpack_require__(40);
 
 var _State2 = _interopRequireDefault(_State);
 
@@ -160,15 +160,99 @@ exports.State = _State2.default;
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
+exports.ComponentRenderer = exports.ComponentRegistry = exports.ComponentDataManager = exports.Component = undefined;
+
+var _events = __webpack_require__(25);
+
+Object.keys(_events).forEach(function (key) {
+	if (key === "default" || key === "__esModule") return;
+	Object.defineProperty(exports, key, {
+		enumerable: true,
+		get: function get() {
+			return _events[key];
+		}
+	});
+});
+
+var _Component = __webpack_require__(60);
+
+var _Component2 = _interopRequireDefault(_Component);
+
+var _ComponentDataManager = __webpack_require__(26);
+
+var _ComponentDataManager2 = _interopRequireDefault(_ComponentDataManager);
+
+var _ComponentRegistry = __webpack_require__(62);
+
+var _ComponentRegistry2 = _interopRequireDefault(_ComponentRegistry);
+
+var _ComponentRenderer = __webpack_require__(27);
+
+var _ComponentRenderer2 = _interopRequireDefault(_ComponentRenderer);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _Component2.default;
+exports.Component = _Component2.default;
+exports.ComponentDataManager = _ComponentDataManager2.default;
+exports.ComponentRegistry = _ComponentRegistry2.default;
+exports.ComponentRenderer = _ComponentRenderer2.default;
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+// This file exists just for backwards compatibility, making sure that old
+// default imports for this file still work. It's best to use the named exports
+// for each function instead though, since that allows bundlers like Rollup to
+// reduce the bundle size by removing unused code.
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.dom = undefined;
+
+var _domNamed = __webpack_require__(53);
+
+Object.keys(_domNamed).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _domNamed[key];
+    }
+  });
+});
+
+var dom = _interopRequireWildcard(_domNamed);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+exports.default = dom;
+exports.dom = dom;
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
 exports.ChartJSX = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _ChartBase = __webpack_require__(15);
+var _ChartBase = __webpack_require__(65);
 
 var _ChartBase2 = _interopRequireDefault(_ChartBase);
 
-var _metalJsx = __webpack_require__(16);
+var _metalJsx = __webpack_require__(29);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -252,7 +336,7 @@ exports.default = ChartJSX;
 //# sourceMappingURL=Chart.js.map
 
 /***/ }),
-/* 3 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -278,7 +362,78 @@ exports.default = types;
 //# sourceMappingURL=types.js.map
 
 /***/ }),
-/* 4 */
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.EventHandler = exports.EventHandle = exports.EventEmitterProxy = exports.EventEmitter = undefined;
+
+var _EventEmitter = __webpack_require__(41);
+
+var _EventEmitter2 = _interopRequireDefault(_EventEmitter);
+
+var _EventEmitterProxy = __webpack_require__(42);
+
+var _EventEmitterProxy2 = _interopRequireDefault(_EventEmitterProxy);
+
+var _EventHandle = __webpack_require__(16);
+
+var _EventHandle2 = _interopRequireDefault(_EventHandle);
+
+var _EventHandler = __webpack_require__(43);
+
+var _EventHandler2 = _interopRequireDefault(_EventHandler);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _EventEmitter2.default;
+exports.EventEmitter = _EventEmitter2.default;
+exports.EventEmitterProxy = _EventEmitterProxy2.default;
+exports.EventHandle = _EventHandle2.default;
+exports.EventHandler = _EventHandler2.default;
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.clearData = clearData;
+exports.getData = getData;
+var RENDERER_DATA = '__METAL_IC_RENDERER_DATA__';
+
+/**
+ * Removes the incremental dom renderer data object for this component.
+ * @param {!Component} component
+ */
+function clearData(component) {
+  component[RENDERER_DATA] = null;
+}
+
+/**
+ * Gets the incremental dom renderer data object for this component, creating
+ * it if it doesn't exist yet.
+ * @param {!Component} component
+ * @return {!Object}
+ */
+function getData(component) {
+  if (!component[RENDERER_DATA]) {
+    component[RENDERER_DATA] = {};
+  }
+  return component[RENDERER_DATA];
+}
+
+/***/ }),
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -289,15 +444,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Chart = undefined;
 
-var _ChartBase = __webpack_require__(15);
+var _ChartBase = __webpack_require__(65);
 
 var _ChartBase2 = _interopRequireDefault(_ChartBase);
 
-var _metalComponent = __webpack_require__(5);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(32);
+var _metalSoy = __webpack_require__(66);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -340,91 +495,7 @@ exports.default = Chart;
 //# sourceMappingURL=Chart.js.map
 
 /***/ }),
-/* 5 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.ComponentRenderer = exports.ComponentRegistry = exports.ComponentDataManager = exports.Component = undefined;
-
-var _events = __webpack_require__(28);
-
-Object.keys(_events).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _events[key];
-    }
-  });
-});
-
-var _Component = __webpack_require__(64);
-
-var _Component2 = _interopRequireDefault(_Component);
-
-var _ComponentDataManager = __webpack_require__(29);
-
-var _ComponentDataManager2 = _interopRequireDefault(_ComponentDataManager);
-
-var _ComponentRegistry = __webpack_require__(66);
-
-var _ComponentRegistry2 = _interopRequireDefault(_ComponentRegistry);
-
-var _ComponentRenderer = __webpack_require__(30);
-
-var _ComponentRenderer2 = _interopRequireDefault(_ComponentRenderer);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _Component2.default;
-exports.Component = _Component2.default;
-exports.ComponentDataManager = _ComponentDataManager2.default;
-exports.ComponentRegistry = _ComponentRegistry2.default;
-exports.ComponentRenderer = _ComponentRenderer2.default;
-
-/***/ }),
-/* 6 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-// This file exists just for backwards compatibility, making sure that old
-// default imports for this file still work. It's best to use the named exports
-// for each function instead though, since that allows bundlers like Rollup to
-// reduce the bundle size by removing unused code.
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.dom = undefined;
-
-var _domNamed = __webpack_require__(57);
-
-Object.keys(_domNamed).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _domNamed[key];
-    }
-  });
-});
-
-var dom = _interopRequireWildcard(_domNamed);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-exports.default = dom;
-exports.dom = dom;
-
-/***/ }),
-/* 7 */
+/* 9 */
 /***/ (function(module, exports) {
 
 var g;
@@ -451,43 +522,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 8 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.EventHandler = exports.EventHandle = exports.EventEmitterProxy = exports.EventEmitter = undefined;
-
-var _EventEmitter = __webpack_require__(45);
-
-var _EventEmitter2 = _interopRequireDefault(_EventEmitter);
-
-var _EventEmitterProxy = __webpack_require__(46);
-
-var _EventEmitterProxy2 = _interopRequireDefault(_EventEmitterProxy);
-
-var _EventHandle = __webpack_require__(19);
-
-var _EventHandle2 = _interopRequireDefault(_EventHandle);
-
-var _EventHandler = __webpack_require__(47);
-
-var _EventHandler2 = _interopRequireDefault(_EventHandler);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _EventEmitter2.default;
-exports.EventEmitter = _EventEmitter2.default;
-exports.EventEmitterProxy = _EventEmitterProxy2.default;
-exports.EventHandle = _EventHandle2.default;
-exports.EventHandler = _EventHandler2.default;
-
-/***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -498,11 +533,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.HTML2IncDom = undefined;
 
-var _HTML2IncDom = __webpack_require__(50);
+var _HTML2IncDom = __webpack_require__(46);
 
 var _HTML2IncDom2 = _interopRequireDefault(_HTML2IncDom);
 
-var _IncrementalDomRenderer = __webpack_require__(53);
+var _IncrementalDomRenderer = __webpack_require__(49);
 
 var _IncrementalDomRenderer2 = _interopRequireDefault(_IncrementalDomRenderer);
 
@@ -512,41 +547,6 @@ exports.HTML2IncDom = _HTML2IncDom2.default;
 exports.default = _IncrementalDomRenderer2.default;
 
 /***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.clearData = clearData;
-exports.getData = getData;
-var RENDERER_DATA = '__METAL_IC_RENDERER_DATA__';
-
-/**
- * Removes the incremental dom renderer data object for this component.
- * @param {!Component} component
- */
-function clearData(component) {
-  component[RENDERER_DATA] = null;
-}
-
-/**
- * Gets the incremental dom renderer data object for this component, creating
- * it if it doesn't exist yet.
- * @param {!Component} component
- * @return {!Object}
- */
-function getData(component) {
-  if (!component[RENDERER_DATA]) {
-    component[RENDERER_DATA] = {};
-  }
-  return component[RENDERER_DATA];
-}
-
-/***/ }),
 /* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -554,20 +554,20 @@ function getData(component) {
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 exports.globalEvalStyles = exports.globalEval = exports.features = exports.DomEventHandle = exports.DomEventEmitterProxy = exports.domData = undefined;
 
-var _dom = __webpack_require__(6);
+var _dom = __webpack_require__(3);
 
 Object.keys(_dom).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _dom[key];
-    }
-  });
+	if (key === "default" || key === "__esModule") return;
+	Object.defineProperty(exports, key, {
+		enumerable: true,
+		get: function get() {
+			return _dom[key];
+		}
+	});
 });
 
 var _dom2 = _interopRequireDefault(_dom);
@@ -576,27 +576,27 @@ var _domData = __webpack_require__(14);
 
 var _domData2 = _interopRequireDefault(_domData);
 
-var _DomEventEmitterProxy = __webpack_require__(59);
+var _DomEventEmitterProxy = __webpack_require__(55);
 
 var _DomEventEmitterProxy2 = _interopRequireDefault(_DomEventEmitterProxy);
 
-var _DomEventHandle = __webpack_require__(25);
+var _DomEventHandle = __webpack_require__(22);
 
 var _DomEventHandle2 = _interopRequireDefault(_DomEventHandle);
 
-var _features = __webpack_require__(26);
+var _features = __webpack_require__(23);
 
 var _features2 = _interopRequireDefault(_features);
 
-var _globalEval = __webpack_require__(60);
+var _globalEval = __webpack_require__(56);
 
 var _globalEval2 = _interopRequireDefault(_globalEval);
 
-var _globalEvalStyles = __webpack_require__(61);
+var _globalEvalStyles = __webpack_require__(57);
 
 var _globalEvalStyles2 = _interopRequireDefault(_globalEvalStyles);
 
-__webpack_require__(62);
+__webpack_require__(58);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -813,7 +813,7 @@ exports.getOriginalFn = getOriginalFn;
 exports.startInterception = startInterception;
 exports.stopInterception = stopInterception;
 
-__webpack_require__(21);
+__webpack_require__(18);
 
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
@@ -912,7 +912,7 @@ function handleCall() {
 	var name = this.name; // eslint-disable-line
 	var stack = getStack();
 	var fn = stack && stack[name] || originalFns[name];
-	return fn.apply(null, arguments);
+	return fn.apply(undefined, arguments);
 }
 
 IncrementalDOM.attr = buildHandleCall('attr');
@@ -938,9 +938,15 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
+var _metal = __webpack_require__(0);
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var METAL_DATA = '__metal_data__';
+
+/**
+ * Set of utilities for dom data operations
+ */
 
 var domData = function () {
 	function domData() {
@@ -953,22 +959,22 @@ var domData = function () {
 		/**
    * Gets Metal.js's data for the given element.
    * @param {!Element} element
-   * @param {string=} opt_name Optional property from the data to be returned.
-   * @param {*} opt_initialVal Optinal value to the set the requested property
+   * @param {string=} name Optional property from the data to be returned.
+   * @param {*=} initialValue Optional value to the set the requested property
    *     to if it doesn't exist yet in the data.
    * @return {!Object}
    */
-		value: function get(element, opt_name, opt_initialVal) {
+		value: function get(element, name, initialValue) {
 			if (!element[METAL_DATA]) {
 				element[METAL_DATA] = {};
 			}
-			if (!opt_name) {
+			if (!name) {
 				return element[METAL_DATA];
 			}
-			if (!element[METAL_DATA][opt_name] && opt_initialVal) {
-				element[METAL_DATA][opt_name] = opt_initialVal;
+			if (!(0, _metal.isDef)(element[METAL_DATA][name]) && (0, _metal.isDef)(initialValue)) {
+				element[METAL_DATA][name] = initialValue;
 			}
-			return element[METAL_DATA][opt_name];
+			return element[METAL_DATA][name];
 		}
 
 		/**
@@ -981,6 +987,27 @@ var domData = function () {
 		key: 'has',
 		value: function has(element) {
 			return !!element[METAL_DATA];
+		}
+
+		/**
+   * Sets Metal.js's data for the given element.
+   * @param {!Element} element
+   * @param {string=} name Property from the data to be set.
+   * @param {*=} value Value to be set on the element.
+   * @return {!Object|*}
+   */
+
+	}, {
+		key: 'set',
+		value: function set(element, name, value) {
+			if (!element[METAL_DATA]) {
+				element[METAL_DATA] = {};
+			}
+			if (!name || !(0, _metal.isDef)(value)) {
+				return element[METAL_DATA];
+			}
+			element[METAL_DATA][name] = value;
+			return element[METAL_DATA][name];
 		}
 	}]);
 
@@ -999,1229 +1026,14 @@ exports.default = domData;
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
-exports.ChartBase = exports.d3 = exports.bb = undefined;
-
-var _types = __webpack_require__(3);
-
-var _types2 = _interopRequireDefault(_types);
-
-var _metalState = __webpack_require__(1);
-
-var _billboard = __webpack_require__(71);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var PROP_NAME_MAP = {
-	axis: 'axes',
-	class: 'classes',
-	color: 'colors',
-	name: 'names',
-	regions: 'regions',
-	type: 'types',
-	x: 'xs'
-};
-
-var DEFAULT_COLORS = ['#4B9BFF', '#FFD76E', '#FF5F5F', '#9CE269', '#AF78FF', '#50D2A0', '#FF73C3', '#FFB64E', '#5FC8FF'];
-
-/**
- * Chart Base prototype.
- *
- * @mixin
- */
-var ChartBase = {
-	/**
-  * @inheritDoc
-  */
-	attached: function attached() {
-		var config = this.constructChartConfig_();
-
-		this.bbChart = _billboard.bb.generate(config);
-
-		this.on('columnsChanged', this.handleColumnsChanged_.bind(this));
-		this.on('groupsChanged', this.handleGroupsChanged_.bind(this));
-		this.on('loadingChanged', this.handleLoadingChanged_.bind(this));
-		this.on('regionsChanged', this.handleRegionsChanged_.bind(this));
-		this.on('sizeChanged', this.handleSizeChanged_.bind(this));
-		this.on('typeChanged', this.handleTypeChanged_.bind(this));
-		this.on('xChanged', this.handleXChanged_.bind(this));
-	},
-
-	/**
-  * @inheritDoc
-  */
-	shouldUpdate: function shouldUpdate() {
-		return false;
-	},
-
-
-	/**
-  * Constructs `axis` billboard config property.
-  * @return {Object}
-  * @protected
-  */
-	constructAxisConfig_: function constructAxisConfig_() {
-		var state = this.getStateObj_();
-
-		return {
-			rotated: state.axisRotated,
-			x: state.axisX,
-			y2: state.axisY2,
-			y: state.axisY
-		};
-	},
-
-	/**
-  * Constructs config object for `bb.generate` method.
-  * @return {Object}
-  * @protected
-  */
-	constructChartConfig_: function constructChartConfig_() {
-		var state = this.getStateObj_();
-
-		var axis = this.constructAxisConfig_();
-		var data = this.constructDataConfig_();
-		var zoom = this.constructZoomConfig_();
-
-		var config = {
-			area: state.area,
-			axis: axis,
-			bindto: this.refs.chart,
-			color: state.color,
-			data: data,
-			grid: state.grid,
-			legend: state.legend,
-			line: state.line,
-			loading: state.loading,
-			padding: state.padding,
-			pie: state.pie,
-			point: state.point,
-			regions: state.regions,
-			resize: state.resizeAuto,
-			size: state.size,
-			spline: state.splineInterpolationType,
-			subchart: state.subchart,
-			svg: state.svgClassname,
-			title: state.title,
-			tooltip: state.tooltip,
-			transition: state.transitionDuration,
-			zoom: zoom
-		};
-
-		/**
-   * Chart init event.
-   * @event chartInit
-   * @memberof ChartBase
-   */
-		config.oninit = this.emitChartEvent_.bind(this, 'chartInit');
-		/**
-   * Chart mouse out event.
-   * @event chartMouseout
-   * @memberof ChartBase
-   */
-		config.onout = this.emitChartEvent_.bind(this, 'chartMouseout');
-		/**
-   * Chart mouse over event.
-   * @event chartMouseover
-   * @memberof ChartBase
-   */
-		config.onover = this.emitChartEvent_.bind(this, 'chartMouseover');
-		/**
-   * Chart rendered event.
-   * @event chartRendered
-   * @memberof ChartBase
-   */
-		config.onrendered = this.emitChartEvent_.bind(this, 'chartRendered');
-		/**
-   * Chart resize event.
-   * @event chartResize
-   * @memberof ChartBase
-   */
-		config.onresize = this.emitChartEvent_.bind(this, 'chartResize');
-		/**
-   * Chart resized event.
-   * @event chartResized
-   * @memberof ChartBase
-   */
-		config.onresized = this.emitChartEvent_.bind(this, 'chartResized');
-
-		return config;
-	},
-
-	/**
-  * Constructs various `data` billboard properties from columns state.
-  * @return {Object}
-  * @protected
-  */
-	constructColumnsConfig_: function constructColumnsConfig_() {
-		var _getStateObj_ = this.getStateObj_(),
-		    columns = _getStateObj_.columns;
-
-		var config = {
-			columns: this.createColumnsArray_(columns)
-		};
-
-		for (var i = 0; i < columns.length; i++) {
-			var column = columns[i];
-
-			var id = column.id;
-
-
-			var keys = Object.keys(column);
-
-			for (var j = 0; j < keys.length; j++) {
-				var key = keys[j];
-
-				if (key === 'data' || key === 'id') {
-					continue;
-				}
-
-				if (key === 'hide') {
-					config.hide = config.hide || [];
-
-					if (column.hide) {
-						config.hide.push(column.id);
-					}
-				} else {
-					// eslint-disable-next-line
-					config[PROP_NAME_MAP[key]] = config[PROP_NAME_MAP[key]] || {};
-
-					config[PROP_NAME_MAP[key]][id] = column[key];
-				}
-			}
-		}
-
-		return config;
-	},
-
-	/**
-  * Constructs `data` billboard config property.
-  * @param {boolean} attachListeners
-  * @return {Object}
-  * @protected
-  */
-	constructDataConfig_: function constructDataConfig_() {
-		var attachListeners = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : true;
-
-		var state = this.getStateObj_();
-
-		var config = {
-			color: state.colorFormatter,
-			colors: state.colors,
-			empty: state.emptyLabelText,
-			groups: state.groups,
-			hide: state.hide,
-			json: state.json,
-			keys: state.keys,
-			labels: state.labels,
-			mimeType: state.mimeType,
-			order: state.order,
-			rows: state.rows,
-			selection: state.selection,
-			type: state.type,
-			url: state.url,
-			x: state.x,
-			xFormat: state.xFormat,
-			xLocaltime: state.xLocaltime,
-			xSort: state.xSort,
-			xs: state.xs
-		};
-
-		var columnsConfig = this.constructColumnsConfig_();
-
-		Object.assign(config, columnsConfig);
-
-		if (attachListeners) {
-			/**
-    * Point click event.
-    * @event pointClick
-    * @memberof ChartBase
-    */
-			config.onclick = this.emitChartEvent_.bind(this, 'pointClick');
-			/**
-    * Point mouse out event.
-    * @event pointMouseout
-    * @memberof ChartBase
-    */
-			config.onout = this.emitChartEvent_.bind(this, 'pointMouseout');
-			/**
-    * Point mouse over event.
-    * @event pointMouseoever
-    * @memberof ChartBase
-    */
-			config.onover = this.emitChartEvent_.bind(this, 'pointMouseover');
-			/**
-    * Data select event.
-    * @event dataSelect
-    * @memberof ChartBase
-    */
-			config.onselect = this.emitChartEvent_.bind(this, 'dataSelect');
-			/**
-    * Data unselected event.
-    * @event dataUnselected
-    * @memberof ChartBase
-    */
-			config.onunselected = this.emitChartEvent_.bind(this, 'dataUnselected');
-		}
-
-		return config;
-	},
-
-	/**
-  * Constructs `zoom` billboard config property.
-  * @return {Object}
-  * @protected
-  */
-	constructZoomConfig_: function constructZoomConfig_() {
-		var state = this.getStateObj_();
-
-		var zoom = state.zoom;
-
-		var config = zoom || {};
-
-		/**
-   * Zoom event.
-   * @event zoom
-   * @memberof ChartBase
-   */
-		config.onzoom = this.emitChartEvent_.bind(this, 'zoom');
-		/**
-   * Zoom end event.
-   * @event zoomEnd
-   * @memberof ChartBase
-   */
-		config.onzoomend = this.emitChartEvent_.bind(this, 'zoomEnd');
-		/**
-   * Zoom start event.
-   * @event zoomStart
-   * @memberof ChartBase
-   */
-		config.onzoomstart = this.emitChartEvent_.bind(this, 'zoomStart');
-
-		return config;
-	},
-
-	/**
-  * Converts `columns` state into consumable array for billboard.js
-  * @param {Array} columns
-  * @return {Array}
-  * @protected
-  */
-	createColumnsArray_: function createColumnsArray_(columns) {
-		return columns.map(function (_ref) {
-			var data = _ref.data,
-			    id = _ref.id;
-
-			return [id].concat(data);
-		});
-	},
-
-	/**
-  * Emits event based on arguments array.
-  * @protected
-  */
-	emitChartEvent_: function emitChartEvent_() {
-		this.emit.apply(this, arguments); // eslint-disable-line
-	},
-
-	/**
-  * Gets column by column id.
-  * @param {string} id column id
-  * @return {?Object}
-  * @protected
-  */
-	getColumn_: function getColumn_(id) {
-		return this.columns.find(function (column) {
-			return column.id === id;
-		});
-	},
-
-	/**
-  * Retrieves state object, used to allow JSX implementation.
-  * @return {Object}
-  * @protected
-  */
-	getStateObj_: function getStateObj_() {
-		return this;
-	},
-
-	/**
-  * Maps `columns` state to chart via `bb.load` method.
-  * @protected
-  */
-	handleColumnsChanged_: function handleColumnsChanged_(_ref2) {
-		var prevVal = _ref2.prevVal;
-
-		var data = this.constructDataConfig_(false);
-
-		var newVal = data.columns;
-		prevVal = this.createColumnsArray_(prevVal);
-
-		var removedIds = this.resolveRemovedColumns_(newVal, prevVal);
-
-		if (removedIds.length) {
-			data.unload = removedIds;
-		}
-
-		this.bbChart.load(data);
-
-		if (data.xs) {
-			this.bbChart.xs(this.mapXSValues_(data.xs));
-		}
-	},
-
-	/**
-  * Maps `groups` state to chart via `bb.groups` method.
-  * @protected
-  */
-	handleGroupsChanged_: function handleGroupsChanged_(_ref3) {
-		var newVal = _ref3.newVal;
-
-		this.bbChart.groups(newVal);
-	},
-
-	/**
-  * Handles `loading` state.
-  * @protected
-  */
-	handleLoadingChanged_: function handleLoadingChanged_(_ref4) {
-		var newVal = _ref4.newVal;
-
-		if (!newVal) {
-			this.refs.chart.removeAttribute('hidden');
-			this.refs.placeholder.setAttribute('hidden', 'hidden');
-		} else {
-			this.refs.chart.setAttribute('hidden', 'hidden');
-			this.refs.placeholder.removeAttribute('hidden');
-		}
-	},
-
-	/**
-  * Maps `regions` state to chart via `bb.regions` method.
-  * @protected
-  */
-	handleRegionsChanged_: function handleRegionsChanged_(_ref5) {
-		var newVal = _ref5.newVal;
-
-		this.bbChart.regions(newVal);
-	},
-
-	/**
-  * Maps `size` state to chart via `bb.resize` method.
-  * @protected
-  */
-	handleSizeChanged_: function handleSizeChanged_(_ref6) {
-		var newVal = _ref6.newVal;
-
-		this.bbChart.resize(newVal);
-	},
-
-	/**
-  * Maps `type` state to chart via `bb.transform` method.
-  * @protected
-  */
-	handleTypeChanged_: function handleTypeChanged_(_ref7) {
-		var newVal = _ref7.newVal;
-
-		this.bbChart.transform(newVal);
-	},
-
-	/**
-  * Maps `x` state to chart via `bb.x` method.
-  * @protected
-  */
-	handleXChanged_: function handleXChanged_(_ref8) {
-		var newVal = _ref8.newVal;
-
-		var column = this.getColumn_(newVal);
-
-		this.bbChart.x(column.data);
-	},
-
-	/**
-  * Maps xs value to data points.
-  * @param {Object} xs
-  * @return {Object}
-  * @protected
-  */
-	mapXSValues_: function mapXSValues_(xs) {
-		var _this = this;
-
-		return Object.keys(xs).reduce(function (xsValues, key) {
-			var value = xs[key];
-
-			var xColumn = _this.getColumn_(value);
-
-			xsValues[key] = xColumn.data;
-
-			return xsValues;
-		}, {});
-	},
-
-	/**
-  * Determines which ids should be passed to the unload property.
-  * @static
-  * @param {Array} newColumns
-  * @param {Array} prevColumns
-  * @return {Array}
-  */
-	resolveRemovedColumns_: function resolveRemovedColumns_(newColumns, prevColumns) {
-		var ids = newColumns.map(function (column) {
-			return column[0];
-		});
-
-		return prevColumns.reduce(function (removedIds, column) {
-			var id = column[0];
-
-			if (ids.indexOf(id) === -1) {
-				removedIds.push(id);
-			}
-
-			return removedIds;
-		}, []);
-	}
-};
-
-/**
- * State definition.
- * @static
- * @type {!Object}
- */
-ChartBase.STATE = {
-	/**
-  * Data that will be rendered to the chart.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	area: _metalState.Config.shapeOf({
-		above: _metalState.Config.bool().value(false),
-		zerobased: _metalState.Config.bool().value(true)
-	}),
-
-	/**
-  * Switches the x and y axis.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	axisRotated: _metalState.Config.bool(),
-
-	/**
-  * Styling and behavior of x axis.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	axisX: _metalState.Config.shapeOf({
-		categories: _metalState.Config.array(),
-		extent: _metalState.Config.array(),
-		height: _metalState.Config.number(),
-		label: _metalState.Config.object().string(),
-		localtime: _metalState.Config.bool(),
-		max: _metalState.Config.number(),
-		min: _metalState.Config.number(),
-		padding: _metalState.Config.object(),
-		show: _metalState.Config.bool(),
-		tick: _metalState.Config.shapeOf({
-			centered: _metalState.Config.bool(),
-			count: _metalState.Config.number(),
-			culling: _metalState.Config.bool().shapeOf({
-				max: _metalState.Config.number()
-			}),
-			fit: _metalState.Config.bool(),
-			format: _metalState.Config.func(),
-			multiline: _metalState.Config.bool(),
-			outer: _metalState.Config.bool(),
-			rotate: _metalState.Config.number(),
-			values: _metalState.Config.array(),
-			width: _metalState.Config.number()
-		}),
-		type: _metalState.Config.oneOf(['category', 'indexed', 'timeseries'])
-	}),
-
-	/**
-  * Styling and behavior of y2 axis.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	axisY2: _metalState.Config.shapeOf({
-		center: _metalState.Config.number(),
-		default: _metalState.Config.array(),
-		inner: _metalState.Config.bool(),
-		inverted: _metalState.Config.bool(),
-		label: _metalState.Config.object().string(),
-		max: _metalState.Config.number(),
-		min: _metalState.Config.number(),
-		padding: _metalState.Config.number(),
-		show: _metalState.Config.bool(),
-		tick: _metalState.Config.shapeOf({
-			count: _metalState.Config.number(),
-			format: _metalState.Config.func(),
-			outer: _metalState.Config.bool(),
-			values: _metalState.Config.array()
-		})
-	}),
-
-	/**
-  * Styling and behavior of y axis.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	axisY: _metalState.Config.shapeOf({
-		center: _metalState.Config.number(),
-		default: _metalState.Config.array(),
-		format: _metalState.Config.func(),
-		inner: _metalState.Config.bool(),
-		inverted: _metalState.Config.bool(),
-		label: _metalState.Config.object().string(),
-		max: _metalState.Config.number(),
-		min: _metalState.Config.number(),
-		padding: _metalState.Config.object().string(),
-		show: _metalState.Config.bool(),
-		tick: _metalState.Config.shapeOf({
-			count: _metalState.Config.bool(),
-			outer: _metalState.Config.bool(),
-			values: _metalState.Config.array()
-		}),
-		type: _metalState.Config.oneOf(['category', 'indexed', 'timeseries'])
-	}),
-
-	/**
-  * Styling and behavior of bars.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	bar: _metalState.Config.shapeOf({
-		width: _metalState.Config.number(),
-		zerobased: _metalState.Config.bool()
-	}),
-
-	/**
-  * Defines a custom color pattern for chart.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	color: _metalState.Config.shapeOf({
-		pattern: _metalState.Config.array(),
-		threshhold: _metalState.Config.shapeOf({
-			unit: _metalState.Config.string(),
-			value: _metalState.Config.array(),
-			max: _metalState.Config.number()
-		})
-	}).value({
-		pattern: DEFAULT_COLORS,
-		threshhold: null
-	}),
-
-	/**
-  * Sets billboard's data.color config.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Function|undefined}
-  * @default undefined
-  */
-	colorFormatter: _metalState.Config.func(),
-
-	/**
-  * Data that will be rendered to the chart.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Array|undefined}
-  * @default undefined
-  */
-	columns: _metalState.Config.arrayOf(_metalState.Config.shapeOf({
-		axis: _metalState.Config.oneOf(['y', 'y2']),
-		class: _metalState.Config.string(),
-		color: _metalState.Config.string(),
-		data: _metalState.Config.array().required(),
-		hide: _metalState.Config.bool(),
-		id: _metalState.Config.required().string(),
-		name: _metalState.Config.string(),
-		regions: _metalState.Config.array(),
-		type: _metalState.Config.oneOf(_types2.default.all),
-		x: _metalState.Config.string()
-	})),
-
-	/**
-  * Configuration options for donut chart.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	donut: _metalState.Config.shapeOf({
-		label: _metalState.Config.shapeOf({
-			show: _metalState.Config.bool(),
-			format: _metalState.Config.func(),
-			threshhold: _metalState.Config.number(),
-			ratio: _metalState.Config.func().number()
-		}),
-		expand: _metalState.Config.bool(),
-		width: _metalState.Config.number(),
-		title: _metalState.Config.string(),
-		padAngle: _metalState.Config.number()
-	}),
-
-	/**
-  * Sets label for when no data is loaded.
-  * @instance
-  * @memberof ChartBase
-  * @type {?string|undefined}
-  * @default undefined
-  */
-	emptyLabelText: _metalState.Config.string().setter(function (value) {
-		return value ? {
-			empty: {
-				label: {
-					text: value
-				}
-			}
-		} : value;
-	}),
-
-	/**
-  * Configuration options for guage chart.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	gauge: _metalState.Config.shapeOf({
-		fullCircle: _metalState.Config.bool(),
-		lable: _metalState.Config.shapeOf({
-			show: _metalState.Config.bool(),
-			format: _metalState.Config.func()
-		}),
-		expand: _metalState.Config.bool(),
-		min: _metalState.Config.number(),
-		max: _metalState.Config.number(),
-		startingAngle: _metalState.Config.number(),
-		units: _metalState.Config.string(),
-		width: _metalState.Config.number()
-	}),
-
-	/**
-  * Configuration options for grid chart.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	grid: _metalState.Config.shapeOf({
-		// Cross reference this with source code, have a feeling this info is wrong
-		focus: _metalState.Config.shapeOf({
-			show: _metalState.Config.bool()
-		}),
-		lines: _metalState.Config.shapeOf({
-			front: _metalState.Config.bool()
-		}),
-		x: _metalState.Config.shapeOf({
-			show: _metalState.Config.bool(),
-			lines: _metalState.Config.shapeOf({
-				class: _metalState.Config.string(),
-				position: _metalState.Config.oneOf(['start', 'middle', 'end']),
-				text: _metalState.Config.string(),
-				value: _metalState.Config.string()
-			})
-		}),
-		y: _metalState.Config.shapeOf({
-			show: _metalState.Config.bool(),
-			lines: _metalState.Config.shapeOf({
-				class: _metalState.Config.string(),
-				position: _metalState.Config.oneOf(['start', 'middle', 'end']),
-				text: _metalState.Config.string(),
-				value: _metalState.Config.string()
-			})
-		}),
-		ticks: _metalState.Config.number()
-	}).value({
-		x: {
-			show: true
-		},
-		y: {
-			show: true
-		}
-	}),
-
-	/**
-  * Sets billboard's data.groups config.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Array|undefined}
-  * @default undefined
-  */
-	groups: _metalState.Config.array(),
-
-	/**
-  * If set to true hides all data.
-  * @instance
-  * @memberof ChartBase
-  * @type {boolean|undefined}
-  * @default false
-  */
-	hide: _metalState.Config.bool().value(false),
-
-	/**
-  * Intersection display options.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	intersection: _metalState.Config.shapeOf({
-		enabled: _metalState.Config.bool(),
-		brighten: _metalState.Config.bool(),
-		inputType: _metalState.Config.shapeOf({
-			mouse: _metalState.Config.bool(),
-			touch: _metalState.Config.bool()
-		})
-	}),
-
-	/**
-  * Sets billboard's data.json config.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Array|boolean|undefined}
-  * @default undefined
-  */
-	json: _metalState.Config.array(),
-
-	/**
-  * Sets billboard's data.keys config.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Array|undefined}
-  * @default undefined
-  */
-	keys: _metalState.Config.array().setter(function (value) {
-		return value ? {
-			value: value
-		} : value;
-	}),
-
-	/**
-  * Sets billboard's data.labels config.
-  * @instance
-  * @memberof ChartBase
-  * @type {?boolean|function|undefined}
-  * @default undefined
-  */
-	labels: _metalState.Config.bool().func().setter(function (value) {
-		if (!value) {
-			return value;
-		} else if (typeof value === 'boolean') {
-			return {
-				labels: value
-			};
-		} else {
-			return {
-				labels: {
-					format: value
-				}
-			};
-		}
-	}),
-
-	/**
-  * Legend display options.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	legend: _metalState.Config.shapeOf({
-		hide: _metalState.Config.bool(),
-		position: _metalState.Config.oneOf(['bottom', 'inset', 'right']),
-		inset: _metalState.Config.shapeOf({
-			anchor: _metalState.Config.oneOf(['bottom-left', 'bottom-right', 'top-left', 'top-right']),
-			step: _metalState.Config.number(),
-			x: _metalState.Config.number(),
-			y: _metalState.Config.number()
-		}),
-		show: _metalState.Config.bool()
-	}),
-
-	/**
-  * Display settings for chart lines.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	line: _metalState.Config.shapeOf({
-		connectNull: _metalState.Config.bool(),
-		step: _metalState.Config.shapeOf({
-			type: _metalState.Config.oneOf(['step', 'step-after', 'step-before'])
-		})
-	}),
-
-	/**
-  * Sets the `loading` state.
-  */
-	loading: _metalState.Config.bool().value(false),
-
-	/**
-  * Sets billboard's data.mimeType config.
-  * @instance
-  * @memberof ChartBase
-  * @type {?string|undefined}
-  * @default undefined
-  */
-	mimeType: _metalState.Config.string(),
-
-	/**
-  * Sets billboard's data.order config.
-  * @instance
-  * @memberof ChartBase
-  * @type {?string|undefined}
-  * @default "desc"
-  */
-	order: _metalState.Config.string().value('desc'),
-
-	/**
-  * Sets padding on chart.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	padding: _metalState.Config.shapeOf({
-		bottom: _metalState.Config.number(),
-		left: _metalState.Config.number(),
-		right: _metalState.Config.number(),
-		top: _metalState.Config.number()
-	}),
-
-	/**
-  * Configuration options for pie chart.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	pie: _metalState.Config.shapeOf({
-		label: _metalState.Config.shapeOf({
-			show: _metalState.Config.bool(),
-			format: _metalState.Config.func(),
-			threshhold: _metalState.Config.number(),
-			ratio: _metalState.Config.func().number()
-		}),
-		expand: _metalState.Config.bool(),
-		padAngle: _metalState.Config.number()
-	}),
-
-	/**
-  * Configuration options for chart points.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	point: _metalState.Config.shapeOf({
-		show: _metalState.Config.bool(),
-		r: _metalState.Config.number(),
-		focus: _metalState.Config.shapeOf({
-			expand: _metalState.Config.shapeOf({
-				enabled: _metalState.Config.bool(),
-				r: _metalState.Config.bool()
-			}),
-			select: _metalState.Config.shapeOf({
-				r: _metalState.Config.number()
-			})
-		})
-	}),
-
-	/**
-  * Creates custom regions on chart that can be styled.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	regions: _metalState.Config.shapeOf({
-		class: _metalState.Config.string(),
-		enabled: _metalState.Config.oneOf(['x', 'y']).required(),
-		end: _metalState.Config.array().required(),
-		start: _metalState.Config.number().required()
-	}),
-
-	/**
-  * Determines if chart auto resizes when viewport size changes.
-  * @instance
-  * @memberof ChartBase
-  * @type {?boolean|undefined}
-  * @default undefined
-  */
-	resizeAuto: _metalState.Config.bool().setter(function (value) {
-		return value ? {
-			auto: value
-		} : value;
-	}),
-
-	/**
-  * Load data from a multidimensional array. Sets billboard's `data.rows`
-  * config.
-  * @instance
-  * @memberof ChartBase
-  * @type {?array|undefined}
-  * @default undefined
-  */
-	rows: _metalState.Config.array(),
-
-	/**
-  * Sets billboard's `data.selection` config.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	selection: _metalState.Config.shapeOf({
-		draggable: _metalState.Config.bool(),
-		enabled: _metalState.Config.bool(),
-		grouped: _metalState.Config.bool(),
-		isselectable: _metalState.Config.func(),
-		multiple: _metalState.Config.bool()
-	}),
-
-	/**
-  * Sets size of chart.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	size: _metalState.Config.shapeOf({
-		height: _metalState.Config.number(),
-		width: _metalState.Config.number()
-	}),
-
-	/**
-  * Determines interpolation type of spline charts.
-  * @instance
-  * @memberof ChartBase
-  * @type {?string|undefined}
-  * @default undefined
-  */
-	splineInterpolationType: _metalState.Config.string().setter(function (value) {
-		return value ? {
-			interpolation: {
-				type: value
-			}
-		} : value;
-	}),
-
-	/**
-  * Config options for subcharts.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	subchart: _metalState.Config.shapeOf({
-		show: _metalState.Config.bool(),
-		size: _metalState.Config.shapeOf({
-			height: _metalState.Config.number()
-		}),
-		onbrush: _metalState.Config.func()
-	}),
-
-	/**
-  * Customizes classname for svg element.
-  * @instance
-  * @memberof ChartBase
-  * @type {?string|undefined}
-  * @default undefined
-  */
-	svgClassname: _metalState.Config.string().setter(function (value) {
-		return value ? {
-			classname: value
-		} : value;
-	}),
-
-	/**
-  * Display options for title element.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	title: _metalState.Config.shapeOf({
-		text: _metalState.Config.string(),
-		padding: _metalState.Config.shapeOf({
-			bottom: _metalState.Config.number(),
-			left: _metalState.Config.number(),
-			right: _metalState.Config.number(),
-			top: _metalState.Config.number()
-		}),
-		position: _metalState.Config.string()
-	}),
-
-	/**
-  * Display options for tooltip.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	tooltip: _metalState.Config.shapeOf({
-		show: _metalState.Config.bool(),
-		grouped: _metalState.Config.bool(),
-		format: _metalState.Config.shapeOf({
-			name: _metalState.Config.func(),
-			title: _metalState.Config.func(),
-			value: _metalState.Config.func()
-		}),
-		contents: _metalState.Config.func()
-	}),
-
-	/**
-  * Sets duration of transitions.
-  * @instance
-  * @memberof ChartBase
-  * @type {?number|undefined}
-  * @default undefined
-  */
-	transitionDuration: _metalState.Config.number().setter(function (value) {
-		return value ? {
-			duration: value
-		} : value;
-	}),
-
-	/**
-  * The variety of chart that will be rendered.
-  * @instance
-  * @memberof ChartBase
-  * @type {?string|undefined}
-  * @default line
-  */
-	type: _metalState.Config.oneOf(_types2.default.all).value('line'),
-
-	/**
-  * Load a CSV or JSON file from a URL.
-  * @instance
-  * @memberof ChartBase
-  * @type {?string|undefined}
-  * @default undefined
-  */
-	url: _metalState.Config.string(),
-
-	/**
-  * Sets billboard's data.x config.
-  * @instance
-  * @memberof ChartBase
-  * @type {?string|undefined}
-  * @default undefined
-  */
-	x: _metalState.Config.string(),
-
-	/**
-  * Sets billboard's data.xFormat config.
-  * @instance
-  * @memberof ChartBase
-  * @type {?string|undefined}
-  * @default undefined
-  */
-	xFormat: _metalState.Config.string(),
-
-	/**
-  * Sets billboard's data.xLocaltime config.
-  * @instance
-  * @memberof ChartBase
-  * @type {boolean|undefined}
-  * @default undefined
-  */
-	xLocaltime: _metalState.Config.bool(),
-
-	/**
-  * Sets billboard's data.xSort config.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	xSort: _metalState.Config.bool(),
-
-	/**
-  * Configuration for bb chart zoom capabilities.
-  * @instance
-  * @memberof ChartBase
-  * @type {?Object|undefined}
-  * @default undefined
-  */
-	zoom: _metalState.Config.shapeOf({
-		enabled: _metalState.Config.bool().value(true),
-		rescale: _metalState.Config.bool().value(false),
-		extent: _metalState.Config.array()
-	})
-};
-
-exports.bb = _billboard.bb;
-exports.d3 = _billboard.d3;
-exports.ChartBase = ChartBase;
-exports.default = ChartBase;
-//# sourceMappingURL=ChartBase.js.map
-
-/***/ }),
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.JSXComponent = exports.Config = exports.validators = exports.DangerouslySetHTML = undefined;
-
-var _metalState = __webpack_require__(1);
-
-var _DangerouslySetHTML = __webpack_require__(48);
-
-var _DangerouslySetHTML2 = _interopRequireDefault(_DangerouslySetHTML);
-
-var _JSXComponent = __webpack_require__(20);
-
-var _JSXComponent2 = _interopRequireDefault(_JSXComponent);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _JSXComponent2.default;
-exports.DangerouslySetHTML = _DangerouslySetHTML2.default;
-exports.validators = _metalState.validators;
-exports.Config = _metalState.Config;
-exports.JSXComponent = _JSXComponent2.default;
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var _metal = __webpack_require__(0);
 
-var ERROR_ARRAY_OF_TYPE = 'Expected an array of single type.';
 var ERROR_OBJECT_OF_TYPE = 'Expected object of one type.';
 var ERROR_ONE_OF = 'Expected one of the following values:';
 var ERROR_ONE_OF_TYPE = 'Expected one of given types.';
-var ERROR_SHAPE_OF = 'Expected object with a specific shape.';
 
 /**
  * Provides access to various type validators that will return an
@@ -2249,6 +1061,9 @@ var validators = {
   * @return {!function()}
   */
 	arrayOf: function arrayOf(validator) {
+		if (isInvalid(validators.func(validator))) {
+			throwConfigError('function', validator, 'arrayOf');
+		}
 		return maybe(function (value, name, context) {
 			var result = validators.array(value, name, context);
 			if (isInvalid(result)) {
@@ -2280,6 +1095,9 @@ var validators = {
   * @return {!function()}
   */
 	objectOf: function objectOf(validator) {
+		if (isInvalid(validators.func(validator))) {
+			throwConfigError('function', validator, 'objectOf');
+		}
 		return maybe(function (value, name, context) {
 			for (var key in value) {
 				if (isInvalid(validator(value[key]))) {
@@ -2302,7 +1120,8 @@ var validators = {
 			if (isInvalid(result)) {
 				return result;
 			}
-			return arrayOfValues.indexOf(value) === -1 ? composeError(composeOneOfErrorMessage(arrayOfValues), name, context) : true;
+			return arrayOfValues.indexOf(value) === -1 ? composeError(composeOneOfErrorMessage(arrayOfValues), name, context) // eslint-disable-line
+			: true;
 		});
 	},
 
@@ -2315,12 +1134,13 @@ var validators = {
   */
 	oneOfType: function oneOfType(arrayOfTypeValidators) {
 		return maybe(function (value, name, context) {
-			var result = validators.array(arrayOfTypeValidators, name, context);
+			var result = validators.array(arrayOfTypeValidators, name, context); // eslint-disable-line
 			if (isInvalid(result)) {
 				return result;
 			}
 
 			for (var i = 0; i < arrayOfTypeValidators.length; i++) {
+				// eslint-disable-next-line
 				if (!isInvalid(arrayOfTypeValidators[i](value, name, context))) {
 					return true;
 				}
@@ -2336,21 +1156,25 @@ var validators = {
   * @return {!function()}
   */
 	shapeOf: function shapeOf(shape) {
+		if (isInvalid(validators.object(shape))) {
+			throwConfigError('object', shape, 'shapeOf');
+		}
 		return maybe(function (value, name, context) {
-			var result = validators.object(shape, name, context);
-			if (isInvalid(result)) {
-				return result;
+			var valueResult = validators.object(value, name, context);
+			if (isInvalid(valueResult)) {
+				return valueResult;
 			}
-
 			for (var key in shape) {
-				var validator = shape[key];
-				var required = false;
-				if (validator.config) {
-					required = validator.config.required;
-					validator = validator.config.validator;
-				}
-				if (required && !(0, _metal.isDefAndNotNull)(value[key]) || isInvalid(validator(value[key]))) {
-					return composeError(ERROR_SHAPE_OF, name, context);
+				if (Object.prototype.hasOwnProperty.call(shape, key)) {
+					var validator = shape[key];
+					var required = false;
+					if (validator.config) {
+						required = validator.config.required;
+						validator = validator.config.validator;
+					}
+					if (required && !(0, _metal.isDefAndNotNull)(value[key]) || isInvalid(validator(value[key]))) {
+						return validator(value[key], name + '.' + key, context);
+					}
 				}
 			}
 			return true;
@@ -2394,7 +1218,7 @@ function composeError(error, name, context) {
 	var parent = renderer && renderer.getParent && renderer.getParent();
 	var parentName = parent ? (0, _metal.getFunctionName)(parent.constructor) : null;
 	var location = parentName ? 'Check render method of \'' + parentName + '\'.' : '';
-	return new Error('Warning: Invalid state passed to \'' + name + '\'. ' + (error + ' Passed to \'' + compName + '\'. ' + location));
+	return new Error('Invalid state passed to \'' + name + '\'.' + (' ' + error + ' Passed to \'' + compName + '\'. ' + location));
 }
 
 /**
@@ -2433,8 +1257,19 @@ function isInvalid(result) {
  */
 function maybe(typeValidator) {
 	return function (value, name, context) {
-		return (0, _metal.isDefAndNotNull)(value) ? typeValidator(value, name, context) : true;
+		return (0, _metal.isDefAndNotNull)(value) ? typeValidator(value, name, context) : true; // eslint-disable-line
 	};
+}
+
+/**
+ * Throws error if validator is invoked with incorrect type.
+ * @param {string} expectedType String representing the expected type.
+ * @param {*} value The value to match the type of.
+ * @param {!string} name Name of the function the validator is intended for.
+ */
+function throwConfigError(expectedType, value, name) {
+	var type = getType(value);
+	throw new Error('Expected type ' + expectedType + ', but received type ' + type + '. passed to ' + name + '.');
 }
 
 /**
@@ -2448,7 +1283,9 @@ function maybe(typeValidator) {
 function validateArrayItems(validator, value, name, context) {
 	for (var i = 0; i < value.length; i++) {
 		if (isInvalid(validator(value[i], name, context))) {
-			return composeError(ERROR_ARRAY_OF_TYPE, name, context);
+			var itemValidatorError = validator(value[i], name, context);
+			var errorMessage = 'Validator for ' + name + '[' + i + '] says: "' + itemValidatorError + '"';
+			return composeError(errorMessage, name, context);
 		}
 	}
 	return true;
@@ -2474,43 +1311,7 @@ function validateType(expectedType, value, name, context) {
 exports.default = validators;
 
 /***/ }),
-/* 18 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-// This file exists just for backwards compatibility, making sure that old
-// default imports for this file still work. It's best to use the named exports
-// for each function instead though, since that allows bundlers like Rollup to
-// reduce the bundle size by removing unused code.
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.core = undefined;
-
-var _coreNamed = __webpack_require__(35);
-
-Object.keys(_coreNamed).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _coreNamed[key];
-    }
-  });
-});
-
-var core = _interopRequireWildcard(_coreNamed);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-exports.default = core;
-exports.core = core;
-
-/***/ }),
-/* 19 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2536,15 +1337,17 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
  * EventHandle is a Disposable, but it's important to note that the
  * EventEmitter that created it is not the one responsible for disposing it.
  * That responsibility is for the code that holds a reference to it.
- * @param {!EventEmitter} emitter Emitter the event was subscribed to.
- * @param {string} event The name of the event that was subscribed to.
- * @param {!Function} listener The listener subscribed to the event.
- * @constructor
  * @extends {Disposable}
  */
 var EventHandle = function (_Disposable) {
 	_inherits(EventHandle, _Disposable);
 
+	/**
+  * EventHandle constructor
+  * @param {!EventEmitter} emitter Emitter the event was subscribed to.
+  * @param {string} event The name of the event that was subscribed to.
+  * @param {!Function} listener The listener subscribed to the event.
+  */
 	function EventHandle(emitter, event, listener) {
 		_classCallCheck(this, EventHandle);
 
@@ -2606,7 +1409,7 @@ var EventHandle = function (_Disposable) {
 exports.default = EventHandle;
 
 /***/ }),
-/* 20 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2618,23 +1421,23 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-__webpack_require__(49);
+__webpack_require__(45);
 
 var _metal = __webpack_require__(0);
 
-var _metalComponent = __webpack_require__(5);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalIncrementalDom = __webpack_require__(9);
+var _metalIncrementalDom = __webpack_require__(10);
 
 var _metalIncrementalDom2 = _interopRequireDefault(_metalIncrementalDom);
 
-var _JSXDataManager = __webpack_require__(68);
+var _JSXDataManager = __webpack_require__(64);
 
 var _JSXDataManager2 = _interopRequireDefault(_JSXDataManager);
 
-var _JSXRenderer = __webpack_require__(31);
+var _JSXRenderer = __webpack_require__(28);
 
 var _JSXRenderer2 = _interopRequireDefault(_JSXRenderer);
 
@@ -2744,17 +1547,17 @@ JSXComponent.RENDERER = _JSXRenderer2.default;
 exports.default = JSXComponent;
 
 /***/ }),
-/* 21 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global) {
 
-var _incrementalDom = __webpack_require__(54);
+var _incrementalDom = __webpack_require__(50);
 
 var IncrementalDOM = _interopRequireWildcard(_incrementalDom);
 
-var _incrementalDomString = __webpack_require__(55);
+var _incrementalDomString = __webpack_require__(51);
 
 var IncrementalDOMString = _interopRequireWildcard(_incrementalDomString);
 
@@ -2773,10 +1576,10 @@ if ((0, _metal.isServerSide)()) {
 
 	scope.IncrementalDOM = IncrementalDOM;
 }
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 22 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2789,7 +1592,7 @@ exports.clearChanges = clearChanges;
 exports.getChanges = getChanges;
 exports.trackChanges = trackChanges;
 
-var _data = __webpack_require__(10);
+var _data = __webpack_require__(7);
 
 /**
  * Clears the changes tracked so far.
@@ -2832,7 +1635,7 @@ function trackChanges(component) {
 }
 
 /***/ }),
-/* 23 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2847,7 +1650,7 @@ exports.isChildTag = isChildTag;
 exports.getOwner = getOwner;
 exports.renderChildTree = renderChildTree;
 
-var _callArgs = __webpack_require__(24);
+var _callArgs = __webpack_require__(21);
 
 var _metal = __webpack_require__(0);
 
@@ -2908,19 +1711,19 @@ function getOwner(node) {
 
 /**
  * Renders a children tree through incremental dom.
- * @param {!{args: Array, children: !Array, isText: ?boolean}}
- * @param {function()=} opt_skipNode Optional function that is called for
+ * @param {!{args: Array, children: !Array, isText: ?boolean}} tree
+ * @param {function()=} skipNode Optional function that is called for
  *     each node to be rendered. If it returns true, the node will be skipped.
  * @protected
  */
-function renderChildTree(tree, opt_skipNode) {
+function renderChildTree(tree, skipNode) {
 	if (isCapturing_) {
 		// If capturing, just add the node directly to the captured tree.
 		addChildToTree(tree);
 		return;
 	}
 
-	if (opt_skipNode && opt_skipNode.call(null, tree)) {
+	if (skipNode && skipNode.call(null, tree)) {
 		return;
 	}
 
@@ -2937,7 +1740,7 @@ function renderChildTree(tree, opt_skipNode) {
 		IncrementalDOM.elementOpen.apply(null, _args);
 		if (tree.props.children) {
 			for (var i = 0; i < tree.props.children.length; i++) {
-				renderChildTree(tree.props.children[i], opt_skipNode);
+				renderChildTree(tree.props.children[i], skipNode);
 			}
 		}
 		IncrementalDOM.elementClose(tree.tag);
@@ -2954,16 +1757,19 @@ var tree_ = void 0;
 /**
  * Adds a child element to the tree.
  * @param {!Array} args The arguments passed to the incremental dom call.
- * @param {boolean=} opt_isText Optional flag indicating if the child is a
+ * @param {boolean=} isText Optional flag indicating if the child is a
  *     text element.
  * @protected
+ * @return {Object}
  */
-function addChildCallToTree_(args, opt_isText) {
+function addChildCallToTree_(args) {
+	var isText = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+
 	var child = _defineProperty({
 		parent: currentParent_
 	}, CHILD_OWNER, owner_);
 
-	if (opt_isText) {
+	if (isText) {
 		child.text = args[0];
 		if (args.length > 1) {
 			child.args = args;
@@ -2987,6 +1793,7 @@ function addChildToTree(child) {
  * Handles an intercepted call to the `elementClose` function from incremental
  * dom.
  * @protected
+ * @return {Element | boolean}
  */
 function handleInterceptedCloseCall_() {
 	if (currentParent_ === tree_) {
@@ -3033,7 +1840,7 @@ function handleInterceptedTextCall_() {
 }
 
 /***/ }),
-/* 24 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3081,7 +1888,7 @@ function buildCallFromConfig(tag, config) {
 }
 
 /***/ }),
-/* 25 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3093,7 +1900,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _metalEvents = __webpack_require__(8);
+var _metalEvents = __webpack_require__(6);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -3114,16 +1921,16 @@ var DomEventHandle = function (_EventHandle) {
   * @param {!EventEmitter} emitter Emitter the event was subscribed to.
   * @param {string} event The name of the event that was subscribed to.
   * @param {!Function} listener The listener subscribed to the event.
-  * @param {boolean} opt_capture Flag indicating if listener should be triggered
+  * @param {boolean} capture Flag indicating if listener should be triggered
   *   during capture phase, instead of during the bubbling phase. Defaults to false.
   * @constructor
   */
-	function DomEventHandle(emitter, event, listener, opt_capture) {
+	function DomEventHandle(emitter, event, listener, capture) {
 		_classCallCheck(this, DomEventHandle);
 
 		var _this = _possibleConstructorReturn(this, (DomEventHandle.__proto__ || Object.getPrototypeOf(DomEventHandle)).call(this, emitter, event, listener));
 
-		_this.capture_ = opt_capture;
+		_this.capture_ = capture;
 		return _this;
 	}
 
@@ -3145,7 +1952,7 @@ var DomEventHandle = function (_EventHandle) {
 exports.default = DomEventHandle;
 
 /***/ }),
-/* 26 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3157,7 +1964,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _dom = __webpack_require__(6);
+var _dom = __webpack_require__(3);
 
 var _metal = __webpack_require__(0);
 
@@ -3206,9 +2013,10 @@ var features = function () {
 				features.animationElement_ = document.createElement('div');
 			}
 			for (var i = 0; i < prefixes.length; i++) {
-				if (features.animationElement_.style[prefixes[i] + typeTitleCase] !== undefined) {
-					return prefixes[i].toLowerCase() + suffixes[i];
-				}
+				if (features.animationElement_.style[prefixes[i] + typeTitleCase] !== undefined // eslint-disable-line
+				) {
+						return prefixes[i].toLowerCase() + suffixes[i];
+					}
 			}
 			return type + 'end';
 		}
@@ -3243,7 +2051,7 @@ features.attrOrderChange_ = undefined;
 exports.default = features;
 
 /***/ }),
-/* 27 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3261,31 +2069,33 @@ exports.render = render;
 exports.renderChild = renderChild;
 exports.renderFunction = renderFunction;
 
-var _attributes = __webpack_require__(63);
+var _attributes = __webpack_require__(59);
 
-var _callArgs = __webpack_require__(24);
+var _callArgs = __webpack_require__(21);
 
-var _children = __webpack_require__(23);
+var _children = __webpack_require__(20);
 
-var _changes = __webpack_require__(22);
+var _changes = __webpack_require__(19);
 
 var _metalDom = __webpack_require__(11);
 
-var _data = __webpack_require__(10);
+var _data = __webpack_require__(7);
 
 var _metal = __webpack_require__(0);
 
-var _unused = __webpack_require__(67);
+var _unused = __webpack_require__(63);
 
 var _incrementalDomAop = __webpack_require__(13);
 
-var _metalComponent = __webpack_require__(5);
+var _metalComponent = __webpack_require__(2);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
 var renderingComponents_ = [];
 var emptyChildren_ = [];
@@ -3387,7 +2197,7 @@ function getCurrentData() {
 	var element = IncrementalDOM.currentElement();
 	var comp = getComponentBeingRendered();
 	var obj = (0, _data.getData)(comp);
-	if (obj.rootElementReached && element !== comp.element.parentNode) {
+	if (obj.rootElementReached && comp.element && element !== comp.element.parentNode) {
 		obj = _metalDom.domData.get(element);
 	}
 	obj.icComponentsData = obj.icComponentsData || {};
@@ -3457,6 +2267,7 @@ function getSubComponent_(tagOrCtor, config, owner) {
  * Handles the event of children having finished being captured.
  * @param {!Object} tree The captured children in tree format.
  * @private
+ * @return {Object}
  */
 function handleChildrenCaptured_(tree, _ref) {
 	var props = _ref.props,
@@ -3499,12 +2310,13 @@ function handleInterceptedAttributesCall_(element, name, value) {
  * dom.
  * @param {string} tag
  * @private
+ * @return {Object}
  */
 function handleInterceptedOpenCall_(tag) {
 	if (isComponentTag_(tag)) {
-		return handleSubComponentCall_.apply(null, arguments);
+		return handleSubComponentCall_.apply(undefined, arguments);
 	} else {
-		return handleRegularCall_.apply(null, arguments);
+		return handleRegularCall_.apply(undefined, arguments);
 	}
 }
 
@@ -3543,7 +2355,7 @@ function handleRegularCall_() {
 	(0, _attributes.convertListenerNamesToFns)(comp, config);
 
 	var call = (0, _callArgs.buildCallFromConfig)(tag, config);
-	var node = (0, _incrementalDomAop.getOriginalFn)('elementOpen').apply(null, call);
+	var node = (0, _incrementalDomAop.getOriginalFn)('elementOpen').apply(undefined, _toConsumableArray(call));
 	resetNodeData_(node);
 	updateElementIfNotReached_(comp, node);
 
@@ -3599,7 +2411,7 @@ function inheritElementClasses_(parent, config) {
  * @private
  */
 function isComponentTag_(tag) {
-	return (0, _metal.isFunction)(tag) || (0, _metal.isString)(tag) && tag[0] === tag[0].toUpperCase();
+	return (0, _metal.isFunction)(tag) || (0, _metal.isString)(tag) && tag[0] === tag[0].toUpperCase(); // eslint-disable-line
 }
 
 /**
@@ -3709,12 +2521,13 @@ function renderChild(child) {
  * Renders the contents for the given tag.
  * @param {!function()|string} tag
  * @param {!Object} config
- * @param {Component=} opt_owner
+ * @param {Component=} owner
  * @private
+ * @return {Object}
  */
-function renderFromTag_(tag, config, opt_owner) {
+function renderFromTag_(tag, config, owner) {
 	if ((0, _metal.isString)(tag) || tag.prototype.getRenderer) {
-		var comp = renderSubComponent_(tag, config, opt_owner);
+		var comp = renderSubComponent_(tag, config, owner);
 		updateElementIfNotReached_(getComponentBeingRendered(), comp.element);
 		return comp.element;
 	} else {
@@ -3728,12 +2541,12 @@ function renderFromTag_(tag, config, opt_owner) {
  * @param {!IncrementalDomRenderer} renderer
  * @param {!function()} fnOrCtor Either a simple incremental dom function or a
  *     component constructor.
- * @param {Object|Element=} opt_dataOrElement Optional config data for the
+ * @param {Object|Element=} dataOrElement Optional config data for the
  *     function or parent for the rendered content.
- * @param {Element=} opt_parent Optional parent for the rendered content.
+ * @param {Element=} parent Optional parent for the rendered content.
  * @return {!Component} The rendered component's instance.
  */
-function renderFunction(renderer, fnOrCtor, opt_dataOrElement, opt_parent) {
+function renderFunction(renderer, fnOrCtor, dataOrElement, parent) {
 	if (!_metalComponent.Component.isComponentCtor(fnOrCtor)) {
 		var fn = fnOrCtor;
 
@@ -3767,7 +2580,7 @@ function renderFunction(renderer, fnOrCtor, opt_dataOrElement, opt_parent) {
 		TempComponent.RENDERER = renderer;
 		fnOrCtor = TempComponent;
 	}
-	return _metalComponent.Component.render(fnOrCtor, opt_dataOrElement, opt_parent);
+	return _metalComponent.Component.render(fnOrCtor, dataOrElement, parent);
 }
 
 /**
@@ -3777,13 +2590,13 @@ function renderFunction(renderer, fnOrCtor, opt_dataOrElement, opt_parent) {
  * updated instead.
  * @param {string|!function()} tagOrCtor The tag name or constructor function.
  * @param {!Object} config The config object for the sub component.
- * @param {ComponentRenderer=} opt_owner
+ * @param {ComponentRenderer=} owner
  * @return {!Component} The updated sub component.
  * @private
  */
-function renderSubComponent_(tagOrCtor, config, opt_owner) {
+function renderSubComponent_(tagOrCtor, config, owner) {
 	var parent = getComponentBeingRendered();
-	var owner = opt_owner || parent;
+	owner = owner || parent;
 
 	inheritElementClasses_(parent, config);
 
@@ -3834,11 +2647,12 @@ function resetNodeData_(node) {
  * Updates the given component's context according to the data from the
  * component that is currently being rendered.
  * @param {!Component} comp
+ * @param {!Component} parent
  * @protected
  */
 function updateContext_(comp, parent) {
 	var context = comp.context;
-	var childContext = parent.getChildContext ? parent.getChildContext() : null;
+	var childContext = parent.getChildContext ? parent.getChildContext() : null; // eslint-disable-line
 	_metal.object.mixin(context, parent.context, childContext);
 	comp.context = context;
 }
@@ -3861,7 +2675,7 @@ function updateElementIfNotReached_(component, node) {
 }
 
 /***/ }),
-/* 28 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3889,7 +2703,7 @@ function addListenersFromObj(component, events) {
 		if (info.fn) {
 			var handle = void 0;
 			if (info.selector) {
-				handle = component.delegate(eventNames[i], info.selector, info.fn);
+				handle = component.delegate(eventNames[i], info.selector, info.fn); // eslint-disable-line
 			} else {
 				handle = component.on(eventNames[i], info.fn);
 			}
@@ -3902,8 +2716,7 @@ function addListenersFromObj(component, events) {
 /**
  * Extracts listener info from the given value.
  * @param {!Component} component
- * @param {!Component} component
- * @param {function()|string|{selector:string,fn:function()|string}} value
+ * @param {function()|string|{selector:string,fn:function()}|string} value
  * @return {!{selector:string,fn:function()}}
  * @protected
  */
@@ -3936,7 +2749,7 @@ function getComponentFn(component, fnName) {
 }
 
 /***/ }),
-/* 29 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3969,6 +2782,10 @@ var BLACKLIST = {
 };
 var DATA_MANAGER_DATA = '__DATA_MANAGER_DATA__';
 
+/**
+ * Class to handle Component Data
+ */
+
 var ComponentDataManager = function () {
 	function ComponentDataManager() {
 		_classCallCheck(this, ComponentDataManager);
@@ -3984,7 +2801,7 @@ var ComponentDataManager = function () {
    * @protected
    */
 		value: function createState_(component, data) {
-			var state = new _metalState2.default(component.getInitialConfig(), component, component);
+			var state = new _metalState2.default(component.getInitialConfig(), component, component); // eslint-disable-line
 			state.setKeysBlacklist(BLACKLIST);
 			state.configState(_metal.object.mixin({}, data, _metalState2.default.getStateStatic(component.constructor)));
 			this.getManagerData(component).state_ = state;
@@ -4083,13 +2900,14 @@ var ComponentDataManager = function () {
    * value if none is given).
    * @param {!Component} component
    * @param {!Object} data
-   * @param {State=} opt_state
+   * @param {State=} state
    */
 
 	}, {
 		key: 'replaceNonInternal',
-		value: function replaceNonInternal(component, data, opt_state) {
-			var state = opt_state || this.getManagerData(component).state_;
+		value: function replaceNonInternal(component, data) {
+			var state = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : this.getManagerData(component).state_;
+
 			var keys = state.getStateKeys();
 			for (var i = 0; i < keys.length; i++) {
 				var key = keys[i];
@@ -4106,16 +2924,16 @@ var ComponentDataManager = function () {
 		/**
    * Sets the value of all the specified state keys.
    * @param {!Component} component
-   * @param {!Object.<string,*>} values A map of state keys to the values they
+   * @param {!Object.<string,*>} state A map of state keys to the values they
    *   should be set to.
-   * @param {function()=} opt_callback An optional function that will be run
+   * @param {function()=} callback An optional function that will be run
    *   after the next batched update is triggered.
    */
 
 	}, {
 		key: 'setState',
-		value: function setState(component, state, opt_callback) {
-			this.getManagerData(component).state_.setState(state, opt_callback);
+		value: function setState(component, state, callback) {
+			this.getManagerData(component).state_.setState(state, callback);
 		}
 
 		/**
@@ -4138,7 +2956,7 @@ var ComponentDataManager = function () {
 exports.default = new ComponentDataManager();
 
 /***/ }),
-/* 30 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4165,7 +2983,6 @@ var ComponentRenderer = function () {
 	_createClass(ComponentRenderer, [{
 		key: 'dispose',
 
-
 		/**
    * Disposes of any data specific to the given component.
    * @param {!Component} component
@@ -4177,7 +2994,6 @@ var ComponentRenderer = function () {
    * Sub classes can override to return `State` config for properties that
    * should be added to the component.
    * @param {!Component} component
-   * @return {Object}
    */
 
 	}, {
@@ -4231,7 +3047,7 @@ var ComponentRenderer = function () {
 exports.default = new ComponentRenderer();
 
 /***/ }),
-/* 31 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4247,7 +3063,7 @@ var _get = function get(object, property, receiver) { if (object === null) objec
 
 var _metal = __webpack_require__(0);
 
-var _metalIncrementalDom = __webpack_require__(9);
+var _metalIncrementalDom = __webpack_require__(10);
 
 var _metalIncrementalDom2 = _interopRequireDefault(_metalIncrementalDom);
 
@@ -4327,6 +3143,7 @@ var JSXRenderer = function (_IncrementalDomRender) {
 
 		/**
    * Increments the number of children in the current element.
+   * @return {number}
    */
 
 	}, {
@@ -4402,1759 +3219,73 @@ jsxRenderer_.RENDERER_NAME = 'jsx';
 exports.default = jsxRenderer_;
 
 /***/ }),
-/* 32 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-exports.validators = exports.SoyAop = exports.Soy = exports.Config = undefined;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-__webpack_require__(74);
-
-var _metalComponent = __webpack_require__(5);
-
-var _metal = __webpack_require__(0);
-
-var _metalState = __webpack_require__(1);
-
-var _metalIncrementalDom = __webpack_require__(9);
-
-var _metalIncrementalDom2 = _interopRequireDefault(_metalIncrementalDom);
-
-var _SoyAop = __webpack_require__(75);
-
-var _SoyAop2 = _interopRequireDefault(_SoyAop);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-// The injected data that will be passed to soy templates.
-var ijData = {};
-
-var Soy = function (_IncrementalDomRender) {
-	_inherits(Soy, _IncrementalDomRender);
-
-	function Soy() {
-		_classCallCheck(this, Soy);
-
-		return _possibleConstructorReturn(this, (Soy.__proto__ || Object.getPrototypeOf(Soy)).apply(this, arguments));
-	}
-
-	_createClass(Soy, [{
-		key: 'getExtraDataConfig',
-
-		/**
-   * Adds the template params to the component's state, if they don't exist yet.
-   * @param {!Component} component
-   * @return {Object}
-   */
-		value: function getExtraDataConfig(component) {
-			var elementTemplate = component.constructor.TEMPLATE;
-			if (!(0, _metal.isFunction)(elementTemplate)) {
-				return;
-			}
-
-			elementTemplate = _SoyAop2.default.getOriginalFn(elementTemplate);
-			this.soyParamTypes_ = elementTemplate.types || {};
-
-			var keys = elementTemplate.params || [];
-			var configs = {};
-			for (var i = 0; i < keys.length; i++) {
-				if (!component[keys[i]]) {
-					configs[keys[i]] = {};
-				}
-			}
-			return configs;
-		}
-
-		/**
-   * Copies the component's state to an object so it can be passed as it's
-   * template call's data. The copying needs to be done because, if the component
-   * itself is passed directly, some problems occur when soy tries to merge it
-   * with other data, due to property getters and setters. This is safer.
-   * Also calls the component's "prepareStateForRender" to let it change the
-   * data passed to the template.
-   * @param {!Component} component
-   * @param {!Array<string>} params The params used by this template.
-   * @return {!Object}
-   * @protected
-   */
-
-	}, {
-		key: 'buildTemplateData_',
-		value: function buildTemplateData_(component, params) {
-			var _this2 = this;
-
-			var data = _metal.object.mixin({}, this.getConfig(component));
-			component.getStateKeys().forEach(function (key) {
-				var value = component[key];
-				if (_this2.isHtmlParam_(component, key)) {
-					value = soyRenderer_.toIncDom(value);
-				}
-				data[key] = value;
-			});
-
-			for (var i = 0; i < params.length; i++) {
-				if (!data[params[i]] && (0, _metal.isFunction)(component[params[i]])) {
-					data[params[i]] = component[params[i]].bind(component);
-				}
-			}
-
-			if ((0, _metal.isFunction)(component.prepareStateForRender)) {
-				return component.prepareStateForRender(data) || data;
-			} else {
-				return data;
-			}
-		}
-
-		/**
-   * Returns the requested template function. This function will be wrapped in
-   * another though, just to defer the requirement of the template's module
-   * being ready until the function is actually called.
-   * @param {string} namespace The soy template's namespace.
-   * @param {string} templateName The name of the template function.
-   * @return {!function()}
-   */
-
-	}, {
-		key: 'getTemplate',
-		value: function getTemplate(namespace, templateName) {
-			return function (opt_data, opt_ignored, opt_ijData) {
-				if (!goog.loadedModules_[namespace]) {
-					throw new Error('No template with namespace "' + namespace + '" has been loaded yet.');
-				}
-				return goog.loadedModules_[namespace][templateName](opt_data, opt_ignored, opt_ijData);
-			};
-		}
-
-		/**
-   * Handles an intercepted soy template call. If the call is for a component's
-   * main template, then it will be replaced with a call that incremental dom
-   * can use for both handling an instance of that component and rendering it.
-   * @param {!function()} originalFn The original template function that was
-   *     intercepted.
-   * @param {Object} data The data the template was called with.
-   * @protected
-   */
-
-	}, {
-		key: 'handleInterceptedCall_',
-		value: function handleInterceptedCall_(originalFn) {
-			var opt_data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-
-			var args = [originalFn.componentCtor, null, []];
-			for (var key in opt_data) {
-				args.push(key, opt_data[key]);
-			}
-			IncrementalDOM.elementVoid.apply(null, args);
-		}
-
-		/**
-   * Checks if the given param type is html.
-   * @param {!Component} component
-   * @param {string} name
-   * @protected
-   */
-
-	}, {
-		key: 'isHtmlParam_',
-		value: function isHtmlParam_(component, name) {
-			var state = component.getDataManager().getStateInstance(component);
-			if (state.getStateKeyConfig(name).isHtml) {
-				return true;
-			}
-
-			var elementTemplate = _SoyAop2.default.getOriginalFn(component.constructor.TEMPLATE);
-			var type = (elementTemplate.types || {})[name] || '';
-			return type.split('|').indexOf('html') !== -1;
-		}
-
-		/**
-   * Registers the given templates to be used by `Soy` for the specified
-   * component constructor.
-   * @param {!Function} componentCtor The constructor of the component that
-   *     should use the given templates.
-   * @param {!Object} templates Object containing soy template functions.
-   * @param {string=} mainTemplate The name of the main template that should be
-   *     used to render the component. Defaults to "render".
-   */
-
-	}, {
-		key: 'register',
-		value: function register(componentCtor, templates) {
-			var mainTemplate = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'render';
-
-			componentCtor.RENDERER = soyRenderer_;
-			componentCtor.TEMPLATE = _SoyAop2.default.getOriginalFn(templates[mainTemplate]);
-			componentCtor.TEMPLATE.componentCtor = componentCtor;
-			_SoyAop2.default.registerForInterception(templates, mainTemplate);
-			_metalComponent.ComponentRegistry.register(componentCtor);
-		}
-
-		/**
-   * Overrides the default method from `IncrementalDomRenderer` so the component's
-   * soy template can be used for rendering.
-   * @param {!Component} component
-   * @param {!Object} data Data passed to the component when rendering it.
-   * @override
-   */
-
-	}, {
-		key: 'renderIncDom',
-		value: function renderIncDom(component) {
-			var elementTemplate = component.constructor.TEMPLATE;
-			if ((0, _metal.isFunction)(elementTemplate) && !component.render) {
-				elementTemplate = _SoyAop2.default.getOriginalFn(elementTemplate);
-				_SoyAop2.default.startInterception(this.handleInterceptedCall_);
-				var data = this.buildTemplateData_(component, elementTemplate.params || []);
-				elementTemplate(data, null, ijData);
-				_SoyAop2.default.stopInterception();
-			} else {
-				_get(Soy.prototype.__proto__ || Object.getPrototypeOf(Soy.prototype), 'renderIncDom', this).call(this, component);
-			}
-		}
-
-		/**
-   * Sets the injected data object that should be passed to templates.
-   * @param {Object} data
-   */
-
-	}, {
-		key: 'setInjectedData',
-		value: function setInjectedData(data) {
-			ijData = data || {};
-		}
-
-		/**
-   * Overrides the original `IncrementalDomRenderer` method so that only
-   * state keys used by the main template can cause updates.
-   * @param {!Component} component
-   * @param {Object} changes
-   * @return {boolean}
-   */
-
-	}, {
-		key: 'shouldUpdate',
-		value: function shouldUpdate(component, changes) {
-			var should = _get(Soy.prototype.__proto__ || Object.getPrototypeOf(Soy.prototype), 'shouldUpdate', this).call(this, component, changes);
-			if (!should || component.shouldUpdate) {
-				return should;
-			}
-
-			var fn = component.constructor.TEMPLATE;
-			var params = fn ? _SoyAop2.default.getOriginalFn(fn).params : [];
-			for (var i = 0; i < params.length; i++) {
-				if (changes.props[params[i]]) {
-					return true;
-				}
-			}
-			return false;
-		}
-
-		/**
-   * Converts the given incremental dom function into an html string.
-   * @param {!function()} incDomFn
-   * @return {string}
-   */
-
-	}, {
-		key: 'toHtmlString',
-		value: function toHtmlString(incDomFn) {
-			var element = document.createElement('div');
-			IncrementalDOM.patch(element, incDomFn);
-			return element.innerHTML;
-		}
-
-		/**
-   * Converts the given html string into an incremental dom function.
-   * @param {string|{contentKind: string, content: string}} value
-   * @return {!function()}
-   */
-
-	}, {
-		key: 'toIncDom',
-		value: function toIncDom(value) {
-			if ((0, _metal.isObject)(value) && (0, _metal.isString)(value.content) && value.contentKind === 'HTML') {
-				value = value.content;
-			}
-			if ((0, _metal.isString)(value)) {
-				value = _metalIncrementalDom.HTML2IncDom.buildFn(value);
-			}
-			return value;
-		}
-	}]);
-
-	return Soy;
-}(_metalIncrementalDom2.default.constructor);
-
-var soyRenderer_ = new Soy();
-soyRenderer_.RENDERER_NAME = 'soy';
-
-exports.default = soyRenderer_;
-exports.Config = _metalState.Config;
-exports.Soy = soyRenderer_;
-exports.SoyAop = _SoyAop2.default;
-exports.validators = _metalState.validators;
-
-/***/ }),
-/* 33 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/*!
- * Promises polyfill from Google's Closure Library.
- *
- *      Copyright 2013 The Closure Library Authors. All Rights Reserved.
- *
- * NOTE(eduardo): Promise support is not ready on all supported browsers,
- * therefore metal-promise is temporarily using Google's promises as polyfill.
- * It supports cancellable promises and has clean and fast implementation.
- */
-
 
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.CancellablePromise = undefined;
+exports.JSXComponent = exports.Config = exports.validators = exports.DangerouslySetHTML = undefined;
 
-var _FreeList = __webpack_require__(108);
+var _metalState = __webpack_require__(1);
 
-var _FreeList2 = _interopRequireDefault(_FreeList);
+var _DangerouslySetHTML = __webpack_require__(44);
 
-var _Thenable = __webpack_require__(109);
+var _DangerouslySetHTML2 = _interopRequireDefault(_DangerouslySetHTML);
 
-var _Thenable2 = _interopRequireDefault(_Thenable);
+var _JSXComponent = __webpack_require__(17);
 
-var _metal = __webpack_require__(0);
+var _JSXComponent2 = _interopRequireDefault(_JSXComponent);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * Like bind(), except that a 'this object' is not required. Useful when the
- * target function is already bound.
- *
- * Usage:
- * var g = partial(f, arg1, arg2);
- * g(arg3, arg4);
- *
- * @param {Function} fn A function to partially apply.
- * @param {...*} var_args Additional arguments that are partially applied to fn.
- * @return {!Function} A partially-applied form of the function bind() was
- *     invoked as a method of.
- */
-var partial = function partial(fn) {
-  var args = Array.prototype.slice.call(arguments, 1);
-  return function () {
-    // Clone the array (with slice()) and append additional arguments
-    // to the existing arguments.
-    var newArgs = args.slice();
-    newArgs.push.apply(newArgs, arguments);
-    return fn.apply(this, newArgs);
-  };
-};
-
-/**
- * NOTE: This class was created in anticipation of the built-in Promise type
- * being standardized and implemented across browsers. Now that Promise is
- * available in modern browsers, and is automatically polyfilled by the Closure
- * Compiler, by default, most new code should use native {@code Promise}
- * instead of {@code CancellablePromise}. However, {@code CancellablePromise} has the
- * concept of cancellation which native Promises do not yet have. So code
- * needing cancellation may still want to use {@code CancellablePromise}.
- *
- * Promises provide a result that may be resolved asynchronously. A Promise may
- * be resolved by being fulfilled with a fulfillment value, rejected with a
- * rejection reason, or blocked by another Promise. A Promise is said to be
- * settled if it is either fulfilled or rejected. Once settled, the Promise
- * result is immutable.
- *
- * Promises may represent results of any type, including undefined. Rejection
- * reasons are typically Errors, but may also be of any type. Closure Promises
- * allow for optional type annotations that enforce that fulfillment values are
- * of the appropriate types at compile time.
- *
- * The result of a Promise is accessible by calling {@code then} and registering
- * {@code onFulfilled} and {@code onRejected} callbacks. Once the Promise
- * is settled, the relevant callbacks are invoked with the fulfillment value or
- * rejection reason as argument. Callbacks are always invoked in the order they
- * were registered, even when additional {@code then} calls are made from inside
- * another callback. A callback is always run asynchronously sometime after the
- * scope containing the registering {@code then} invocation has returned.
- *
- * If a Promise is resolved with another Promise, the first Promise will block
- * until the second is settled, and then assumes the same result as the second
- * Promise. This allows Promises to depend on the results of other Promises,
- * linking together multiple asynchronous operations.
- *
- * This implementation is compatible with the Promises/A+ specification and
- * passes that specification's conformance test suite. A Closure Promise may be
- * resolved with a Promise instance (or sufficiently compatible Promise-like
- * object) created by other Promise implementations. From the specification,
- * Promise-like objects are known as "Thenables".
- *
- * @see http://promisesaplus.com/
- *
- * @param {function(
- *             this:RESOLVER_CONTEXT,
- *             function((TYPE|IThenable<TYPE>|Thenable)=),
- *             function(*=)): void} resolver
- *     Initialization function that is invoked immediately with {@code resolve}
- *     and {@code reject} functions as arguments. The Promise is resolved or
- *     rejected with the first argument passed to either function.
- * @param {RESOLVER_CONTEXT=} opt_context An optional context for executing the
- *     resolver function. If unspecified, the resolver function will be executed
- *     in the default scope.
- * @constructor
- * @struct
- * @final
- * @implements {Thenable<TYPE>}
- * @template TYPE,RESOLVER_CONTEXT
- */
-var CancellablePromise = function CancellablePromise(resolver, opt_context) {
-  /**
-   * The internal state of this Promise. Either PENDING, FULFILLED, REJECTED, or
-   * BLOCKED.
-   * @private {CancellablePromise.State_}
-   */
-  this.state_ = CancellablePromise.State_.PENDING;
-
-  /**
-   * The settled result of the Promise. Immutable once set with either a
-   * fulfillment value or rejection reason.
-   * @private {*}
-   */
-  this.result_ = undefined;
-
-  /**
-   * For Promises created by calling {@code then()}, the originating parent.
-   * @private {CancellablePromise}
-   */
-  this.parent_ = null;
-
-  /**
-   * The linked list of {@code onFulfilled} and {@code onRejected} callbacks
-   * added to this Promise by calls to {@code then()}.
-   * @private {?CancellablePromise.CallbackEntry_}
-   */
-  this.callbackEntries_ = null;
-
-  /**
-   * The tail of the linked list of {@code onFulfilled} and {@code onRejected}
-   * callbacks added to this Promise by calls to {@code then()}.
-   * @private {?CancellablePromise.CallbackEntry_}
-   */
-  this.callbackEntriesTail_ = null;
-
-  /**
-   * Whether the Promise is in the queue of Promises to execute.
-   * @private {boolean}
-   */
-  this.executing_ = false;
-
-  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
-    /**
-     * A timeout ID used when the {@code UNHANDLED_REJECTION_DELAY} is greater
-     * than 0 milliseconds. The ID is set when the Promise is rejected, and
-     * cleared only if an {@code onRejected} callback is invoked for the
-     * Promise (or one of its descendants) before the delay is exceeded.
-     *
-     * If the rejection is not handled before the timeout completes, the
-     * rejection reason is passed to the unhandled rejection handler.
-     * @private {number}
-     */
-    this.unhandledRejectionId_ = 0;
-  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
-    /**
-     * When the {@code UNHANDLED_REJECTION_DELAY} is set to 0 milliseconds, a
-     * boolean that is set if the Promise is rejected, and reset to false if an
-     * {@code onRejected} callback is invoked for the Promise (or one of its
-     * descendants). If the rejection is not handled before the next timestep,
-     * the rejection reason is passed to the unhandled rejection handler.
-     * @private {boolean}
-     */
-    this.hadUnhandledRejection_ = false;
-  }
-
-  if (CancellablePromise.LONG_STACK_TRACES) {
-    /**
-     * A list of stack trace frames pointing to the locations where this Promise
-     * was created or had callbacks added to it. Saved to add additional context
-     * to stack traces when an exception is thrown.
-     * @private {!Array<string>}
-     */
-    this.stack_ = [];
-    this.addStackTrace_(new Error('created'));
-
-    /**
-     * Index of the most recently executed stack frame entry.
-     * @private {number}
-     */
-    this.currentStep_ = 0;
-  }
-
-  // As an optimization, we can skip this if resolver is nullFunction.
-  // This value is passed internally when creating a promise which will be
-  // resolved through a more optimized path.
-  if (resolver != _metal.nullFunction) {
-    try {
-      var self = this;
-      resolver.call(opt_context, function (value) {
-        self.resolve_(CancellablePromise.State_.FULFILLED, value);
-      }, function (reason) {
-        if (!reason.IS_CANCELLATION_ERROR) {
-          try {
-            // Promise was rejected. Step up one call frame to see why.
-            if (reason instanceof Error) {
-              throw reason;
-            } else {
-              throw new Error('Promise rejected.');
-            }
-          } catch (e) {
-            // Only thrown so browser dev tools can catch rejections of
-            // promises when the option to break on caught exceptions is
-            // activated.
-          }
-        }
-        self.resolve_(CancellablePromise.State_.REJECTED, reason);
-      });
-    } catch (e) {
-      this.resolve_(CancellablePromise.State_.REJECTED, e);
-    }
-  }
-};
-
-/**
- * Whether traces of {@code then} calls should be included in
- * exceptions thrown
- * @type {boolean}
- */
-CancellablePromise.LONG_STACK_TRACES = false;
-
-/**
- * The delay in milliseconds before a rejected Promise's reason
- * is passed to the rejection handler. By default, the rejection handler
- * rethrows the rejection reason so that it appears in the developer console or
- * {@code window.onerror} handler.
- *
- * Rejections are rethrown as quickly as possible by default. A negative value
- * disables rejection handling entirely.
- * @type {number}
- */
-CancellablePromise.UNHANDLED_REJECTION_DELAY = 0;
-
-/**
- * The possible internal states for a Promise. These states are not directly
- * observable to external callers.
- * @enum {number}
- * @private
- */
-CancellablePromise.State_ = {
-  /** The Promise is waiting for resolution. */
-  PENDING: 0,
-
-  /** The Promise is blocked waiting for the result of another Thenable. */
-  BLOCKED: 1,
-
-  /** The Promise has been resolved with a fulfillment value. */
-  FULFILLED: 2,
-
-  /** The Promise has been resolved with a rejection reason. */
-  REJECTED: 3
-};
-
-/**
- * Entries in the callback chain. Each call to {@code then},
- * {@code thenCatch}, or {@code thenAlways} creates an entry containing the
- * functions that may be invoked once the Promise is settled.
- *
- * @private @final @struct @constructor
- */
-CancellablePromise.CallbackEntry_ = function () {
-  /** @type {?CancellablePromise} */
-  this.child = null;
-  /** @type {Function} */
-  this.onFulfilled = null;
-  /** @type {Function} */
-  this.onRejected = null;
-  /** @type {?} */
-  this.context = null;
-  /** @type {?CancellablePromise.CallbackEntry_} */
-  this.next = null;
-
-  /**
-   * A boolean value to indicate this is a "thenAlways" callback entry.
-   * Unlike a normal "then/thenVoid" a "thenAlways doesn't participate
-   * in "cancel" considerations but is simply an observer and requires
-   * special handling.
-   * @type {boolean}
-   */
-  this.always = false;
-};
-
-/** clear the object prior to reuse */
-CancellablePromise.CallbackEntry_.prototype.reset = function () {
-  this.child = null;
-  this.onFulfilled = null;
-  this.onRejected = null;
-  this.context = null;
-  this.always = false;
-};
-
-/**
- * The number of currently unused objects to keep around for
- *    reuse.
- * @type {number}
- */
-CancellablePromise.DEFAULT_MAX_UNUSED = 100;
-
-/** @const @private {FreeList<!CancellablePromise.CallbackEntry_>} */
-CancellablePromise.freelist_ = new _FreeList2.default(function () {
-  return new CancellablePromise.CallbackEntry_();
-}, function (item) {
-  item.reset();
-}, CancellablePromise.DEFAULT_MAX_UNUSED);
-
-/**
- * @param {Function} onFulfilled
- * @param {Function} onRejected
- * @param {?} context
- * @return {!CancellablePromise.CallbackEntry_}
- * @private
- */
-CancellablePromise.getCallbackEntry_ = function (onFulfilled, onRejected, context) {
-  var entry = CancellablePromise.freelist_.get();
-  entry.onFulfilled = onFulfilled;
-  entry.onRejected = onRejected;
-  entry.context = context;
-  return entry;
-};
-
-/**
- * @param {!CancellablePromise.CallbackEntry_} entry
- * @private
- */
-CancellablePromise.returnEntry_ = function (entry) {
-  CancellablePromise.freelist_.put(entry);
-};
-
-// NOTE: this is the same template expression as is used for
-// goog.IThenable.prototype.then
-
-
-/**
- * @param {VALUE=} opt_value
- * @return {RESULT} A new Promise that is immediately resolved
- *     with the given value. If the input value is already a CancellablePromise, it
- *     will be returned immediately without creating a new instance.
- * @template VALUE
- * @template RESULT := type('CancellablePromise',
- *     cond(isUnknown(VALUE), unknown(),
- *       mapunion(VALUE, (V) =>
- *         cond(isTemplatized(V) && sub(rawTypeOf(V), 'IThenable'),
- *           templateTypeOf(V, 0),
- *           cond(sub(V, 'Thenable'),
- *              unknown(),
- *              V)))))
- * =:
- */
-CancellablePromise.resolve = function (opt_value) {
-  if (opt_value instanceof CancellablePromise) {
-    // Avoid creating a new object if we already have a promise object
-    // of the correct type.
-    return opt_value;
-  }
-
-  // Passing nullFunction will cause the constructor to take an optimized
-  // path that skips calling the resolver function.
-  var promise = new CancellablePromise(_metal.nullFunction);
-  promise.resolve_(CancellablePromise.State_.FULFILLED, opt_value);
-  return promise;
-};
-
-/**
- * @param {*=} opt_reason
- * @return {!CancellablePromise} A new Promise that is immediately rejected with the
- *     given reason.
- */
-CancellablePromise.reject = function (opt_reason) {
-  return new CancellablePromise(function (resolve, reject) {
-    reject(opt_reason);
-  });
-};
-
-/**
- * This is identical to
- * {@code CancellablePromise.resolve(value).then(onFulfilled, onRejected)}, but it
- * avoids creating an unnecessary wrapper Promise when {@code value} is already
- * thenable.
- *
- * @param {?(Thenable<TYPE>|Thenable|TYPE)} value
- * @param {function(TYPE): ?} onFulfilled
- * @param {function(*): *} onRejected
- * @template TYPE
- * @private
- */
-CancellablePromise.resolveThen_ = function (value, onFulfilled, onRejected) {
-  var isThenable = CancellablePromise.maybeThen_(value, onFulfilled, onRejected, null);
-  if (!isThenable) {
-    _metal.async.run(partial(onFulfilled, value));
-  }
-};
-
-/**
- * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
- *     promises
- * @return {!CancellablePromise<TYPE>} A Promise that receives the result of the
- *     first Promise (or Promise-like) input to settle immediately after it
- *     settles.
- * @template TYPE
- */
-CancellablePromise.race = function (promises) {
-  return new CancellablePromise(function (resolve, reject) {
-    if (!promises.length) {
-      resolve(undefined);
-    }
-    for (var i = 0, promise; i < promises.length; i++) {
-      promise = promises[i];
-      CancellablePromise.resolveThen_(promise, resolve, reject);
-    }
-  });
-};
-
-/**
- * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
- *     promises
- * @return {!CancellablePromise<!Array<TYPE>>} A Promise that receives a list of
- *     every fulfilled value once every input Promise (or Promise-like) is
- *     successfully fulfilled, or is rejected with the first rejection reason
- *     immediately after it is rejected.
- * @template TYPE
- */
-CancellablePromise.all = function (promises) {
-  return new CancellablePromise(function (resolve, reject) {
-    var toFulfill = promises.length;
-    var values = [];
-
-    if (!toFulfill) {
-      resolve(values);
-      return;
-    }
-
-    var onFulfill = function onFulfill(index, value) {
-      toFulfill--;
-      values[index] = value;
-      if (toFulfill == 0) {
-        resolve(values);
-      }
-    };
-
-    var onReject = function onReject(reason) {
-      reject(reason);
-    };
-
-    for (var i = 0, promise; i < promises.length; i++) {
-      promise = promises[i];
-      CancellablePromise.resolveThen_(promise, partial(onFulfill, i), onReject);
-    }
-  });
-};
-
-/**
- * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
- *     promises
- * @return {!CancellablePromise<!Array<{
- *     fulfilled: boolean,
- *     value: (TYPE|undefined),
- *     reason: (*|undefined)}>>} A Promise that resolves with a list of
- *         result objects once all input Promises (or Promise-like) have
- *         settled. Each result object contains a 'fulfilled' boolean indicating
- *         whether an input Promise was fulfilled or rejected. For fulfilled
- *         Promises, the resulting value is stored in the 'value' field. For
- *         rejected Promises, the rejection reason is stored in the 'reason'
- *         field.
- * @template TYPE
- */
-CancellablePromise.allSettled = function (promises) {
-  return new CancellablePromise(function (resolve, reject) {
-    var toSettle = promises.length;
-    var results = [];
-
-    if (!toSettle) {
-      resolve(results);
-      return;
-    }
-
-    var onSettled = function onSettled(index, fulfilled, result) {
-      toSettle--;
-      results[index] = fulfilled ? { fulfilled: true, value: result } : { fulfilled: false, reason: result };
-      if (toSettle == 0) {
-        resolve(results);
-      }
-    };
-
-    for (var i = 0, promise; i < promises.length; i++) {
-      promise = promises[i];
-      CancellablePromise.resolveThen_(promise, partial(onSettled, i, true /* fulfilled */), partial(onSettled, i, false /* fulfilled */));
-    }
-  });
-};
-
-/**
- * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
- *     promises
- * @return {!CancellablePromise<TYPE>} A Promise that receives the value of the first
- *     input to be fulfilled, or is rejected with a list of every rejection
- *     reason if all inputs are rejected.
- * @template TYPE
- */
-CancellablePromise.firstFulfilled = function (promises) {
-  return new CancellablePromise(function (resolve, reject) {
-    var toReject = promises.length;
-    var reasons = [];
-
-    if (!toReject) {
-      resolve(undefined);
-      return;
-    }
-
-    var onFulfill = function onFulfill(value) {
-      resolve(value);
-    };
-
-    var onReject = function onReject(index, reason) {
-      toReject--;
-      reasons[index] = reason;
-      if (toReject == 0) {
-        reject(reasons);
-      }
-    };
-
-    for (var i = 0, promise; i < promises.length; i++) {
-      promise = promises[i];
-      CancellablePromise.resolveThen_(promise, onFulfill, partial(onReject, i));
-    }
-  });
-};
-
-/**
- * @return {!CancellablePromise.Resolver<TYPE>} Resolver wrapping the promise and its
- *     resolve / reject functions. Resolving or rejecting the resolver
- *     resolves or rejects the promise.
- * @template TYPE
- */
-CancellablePromise.withResolver = function () {
-  var resolve, reject;
-  var promise = new CancellablePromise(function (rs, rj) {
-    resolve = rs;
-    reject = rj;
-  });
-  return new CancellablePromise.Resolver_(promise, resolve, reject);
-};
-
-/**
- * Adds callbacks that will operate on the result of the Promise, returning a
- * new child Promise.
- *
- * If the Promise is fulfilled, the {@code onFulfilled} callback will be invoked
- * with the fulfillment value as argument, and the child Promise will be
- * fulfilled with the return value of the callback. If the callback throws an
- * exception, the child Promise will be rejected with the thrown value instead.
- *
- * If the Promise is rejected, the {@code onRejected} callback will be invoked
- * with the rejection reason as argument, and the child Promise will be resolved
- * with the return value or rejected with the thrown value of the callback.
- *
- * @override
- */
-CancellablePromise.prototype.then = function (opt_onFulfilled, opt_onRejected, opt_context) {
-
-  if (CancellablePromise.LONG_STACK_TRACES) {
-    this.addStackTrace_(new Error('then'));
-  }
-
-  return this.addChildPromise_((0, _metal.isFunction)(opt_onFulfilled) ? opt_onFulfilled : null, (0, _metal.isFunction)(opt_onRejected) ? opt_onRejected : null, opt_context);
-};
-_Thenable2.default.addImplementation(CancellablePromise);
-
-/**
- * Adds callbacks that will operate on the result of the Promise without
- * returning a child Promise (unlike "then").
- *
- * If the Promise is fulfilled, the {@code onFulfilled} callback will be invoked
- * with the fulfillment value as argument.
- *
- * If the Promise is rejected, the {@code onRejected} callback will be invoked
- * with the rejection reason as argument.
- *
- * @param {?(function(this:THIS, TYPE):?)=} opt_onFulfilled A
- *     function that will be invoked with the fulfillment value if the Promise
- *     is fulfilled.
- * @param {?(function(this:THIS, *): *)=} opt_onRejected A function that will
- *     be invoked with the rejection reason if the Promise is rejected.
- * @param {THIS=} opt_context An optional context object that will be the
- *     execution context for the callbacks. By default, functions are executed
- *     with the default this.
- * @package
- * @template THIS
- */
-CancellablePromise.prototype.thenVoid = function (opt_onFulfilled, opt_onRejected, opt_context) {
-
-  if (CancellablePromise.LONG_STACK_TRACES) {
-    this.addStackTrace_(new Error('then'));
-  }
-
-  // Note: no default rejection handler is provided here as we need to
-  // distinguish unhandled rejections.
-  this.addCallbackEntry_(CancellablePromise.getCallbackEntry_(opt_onFulfilled || _metal.nullFunction, opt_onRejected || null, opt_context));
-};
-
-/**
- * Adds a callback that will be invoked when the Promise is settled (fulfilled
- * or rejected). The callback receives no argument, and no new child Promise is
- * created. This is useful for ensuring that cleanup takes place after certain
- * asynchronous operations. Callbacks added with {@code thenAlways} will be
- * executed in the same order with other calls to {@code then},
- * {@code thenAlways}, or {@code thenCatch}.
- *
- * Since it does not produce a new child Promise, cancellation propagation is
- * not prevented by adding callbacks with {@code thenAlways}. A Promise that has
- * a cleanup handler added with {@code thenAlways} will be canceled if all of
- * its children created by {@code then} (or {@code thenCatch}) are canceled.
- * Additionally, since any rejections are not passed to the callback, it does
- * not stop the unhandled rejection handler from running.
- *
- * @param {function(this:THIS): void} onSettled A function that will be invoked
- *     when the Promise is settled (fulfilled or rejected).
- * @param {THIS=} opt_context An optional context object that will be the
- *     execution context for the callbacks. By default, functions are executed
- *     in the global scope.
- * @return {!CancellablePromise<TYPE>} This Promise, for chaining additional calls.
- * @template THIS
- */
-CancellablePromise.prototype.thenAlways = function (onSettled, opt_context) {
-  if (CancellablePromise.LONG_STACK_TRACES) {
-    this.addStackTrace_(new Error('thenAlways'));
-  }
-
-  var entry = CancellablePromise.getCallbackEntry_(onSettled, onSettled, opt_context);
-  entry.always = true;
-  this.addCallbackEntry_(entry);
-  return this;
-};
-
-/**
- * Adds a callback that will be invoked only if the Promise is rejected. This
- * is equivalent to {@code then(null, onRejected)}.
- *
- * @param {function(this:THIS, *): *} onRejected A function that will be
- *     invoked with the rejection reason if the Promise is rejected.
- * @param {THIS=} opt_context An optional context object that will be the
- *     execution context for the callbacks. By default, functions are executed
- *     in the global scope.
- * @return {!CancellablePromise} A new Promise that will receive the result of the
- *     callback.
- * @template THIS
- */
-CancellablePromise.prototype.thenCatch = function (onRejected, opt_context) {
-  if (CancellablePromise.LONG_STACK_TRACES) {
-    this.addStackTrace_(new Error('thenCatch'));
-  }
-  return this.addChildPromise_(null, onRejected, opt_context);
-};
-
-/**
- * Alias of {@link CancellablePromise.prototype.thenCatch}
- */
-CancellablePromise.prototype.catch = CancellablePromise.prototype.thenCatch;
-
-/**
- * Cancels the Promise if it is still pending by rejecting it with a cancel
- * Error. No action is performed if the Promise is already resolved.
- *
- * All child Promises of the canceled Promise will be rejected with the same
- * cancel error, as with normal Promise rejection. If the Promise to be canceled
- * is the only child of a pending Promise, the parent Promise will also be
- * canceled. Cancellation may propagate upward through multiple generations.
- *
- * @param {string=} opt_message An optional debugging message for describing the
- *     cancellation reason.
- */
-CancellablePromise.prototype.cancel = function (opt_message) {
-  if (this.state_ == CancellablePromise.State_.PENDING) {
-    _metal.async.run(function () {
-      var err = new CancellablePromise.CancellationError(opt_message);
-      err.IS_CANCELLATION_ERROR = true;
-      this.cancelInternal_(err);
-    }, this);
-  }
-};
-
-/**
- * Cancels this Promise with the given error.
- *
- * @param {!Error} err The cancellation error.
- * @private
- */
-CancellablePromise.prototype.cancelInternal_ = function (err) {
-  if (this.state_ == CancellablePromise.State_.PENDING) {
-    if (this.parent_) {
-      // Cancel the Promise and remove it from the parent's child list.
-      this.parent_.cancelChild_(this, err);
-      this.parent_ = null;
-    } else {
-      this.resolve_(CancellablePromise.State_.REJECTED, err);
-    }
-  }
-};
-
-/**
- * Cancels a child Promise from the list of callback entries. If the Promise has
- * not already been resolved, reject it with a cancel error. If there are no
- * other children in the list of callback entries, propagate the cancellation
- * by canceling this Promise as well.
- *
- * @param {!CancellablePromise} childPromise The Promise to cancel.
- * @param {!Error} err The cancel error to use for rejecting the Promise.
- * @private
- */
-CancellablePromise.prototype.cancelChild_ = function (childPromise, err) {
-  if (!this.callbackEntries_) {
-    return;
-  }
-  var childCount = 0;
-  var childEntry = null;
-  var beforeChildEntry = null;
-
-  // Find the callback entry for the childPromise, and count whether there are
-  // additional child Promises.
-  for (var entry = this.callbackEntries_; entry; entry = entry.next) {
-    if (!entry.always) {
-      childCount++;
-      if (entry.child == childPromise) {
-        childEntry = entry;
-      }
-      if (childEntry && childCount > 1) {
-        break;
-      }
-    }
-    if (!childEntry) {
-      beforeChildEntry = entry;
-    }
-  }
-
-  // Can a child entry be missing?
-
-  // If the child Promise was the only child, cancel this Promise as well.
-  // Otherwise, reject only the child Promise with the cancel error.
-  if (childEntry) {
-    if (this.state_ == CancellablePromise.State_.PENDING && childCount == 1) {
-      this.cancelInternal_(err);
-    } else {
-      if (beforeChildEntry) {
-        this.removeEntryAfter_(beforeChildEntry);
-      } else {
-        this.popEntry_();
-      }
-
-      this.executeCallback_(childEntry, CancellablePromise.State_.REJECTED, err);
-    }
-  }
-};
-
-/**
- * Adds a callback entry to the current Promise, and schedules callback
- * execution if the Promise has already been settled.
- *
- * @param {CancellablePromise.CallbackEntry_} callbackEntry Record containing
- *     {@code onFulfilled} and {@code onRejected} callbacks to execute after
- *     the Promise is settled.
- * @private
- */
-CancellablePromise.prototype.addCallbackEntry_ = function (callbackEntry) {
-  if (!this.hasEntry_() && (this.state_ == CancellablePromise.State_.FULFILLED || this.state_ == CancellablePromise.State_.REJECTED)) {
-    this.scheduleCallbacks_();
-  }
-  this.queueEntry_(callbackEntry);
-};
-
-/**
- * Creates a child Promise and adds it to the callback entry list. The result of
- * the child Promise is determined by the state of the parent Promise and the
- * result of the {@code onFulfilled} or {@code onRejected} callbacks as
- * specified in the Promise resolution procedure.
- *
- * @see http://promisesaplus.com/#the__method
- *
- * @param {?function(this:THIS, TYPE):
- *          (RESULT|CancellablePromise<RESULT>|Thenable)} onFulfilled A callback that
- *     will be invoked if the Promise is fulfilled, or null.
- * @param {?function(this:THIS, *): *} onRejected A callback that will be
- *     invoked if the Promise is rejected, or null.
- * @param {THIS=} opt_context An optional execution context for the callbacks.
- *     in the default calling context.
- * @return {!CancellablePromise} The child Promise.
- * @template RESULT,THIS
- * @private
- */
-CancellablePromise.prototype.addChildPromise_ = function (onFulfilled, onRejected, opt_context) {
-
-  /** @type {CancellablePromise.CallbackEntry_} */
-  var callbackEntry = CancellablePromise.getCallbackEntry_(null, null, null);
-
-  callbackEntry.child = new CancellablePromise(function (resolve, reject) {
-    // Invoke onFulfilled, or resolve with the parent's value if absent.
-    callbackEntry.onFulfilled = onFulfilled ? function (value) {
-      try {
-        var result = onFulfilled.call(opt_context, value);
-        resolve(result);
-      } catch (err) {
-        reject(err);
-      }
-    } : resolve;
-
-    // Invoke onRejected, or reject with the parent's reason if absent.
-    callbackEntry.onRejected = onRejected ? function (reason) {
-      try {
-        var result = onRejected.call(opt_context, reason);
-        if (!(0, _metal.isDef)(result) && reason.IS_CANCELLATION_ERROR) {
-          // Propagate cancellation to children if no other result is returned.
-          reject(reason);
-        } else {
-          resolve(result);
-        }
-      } catch (err) {
-        reject(err);
-      }
-    } : reject;
-  });
-
-  callbackEntry.child.parent_ = this;
-  this.addCallbackEntry_(callbackEntry);
-  return callbackEntry.child;
-};
-
-/**
- * Unblocks the Promise and fulfills it with the given value.
- *
- * @param {TYPE} value
- * @private
- */
-CancellablePromise.prototype.unblockAndFulfill_ = function (value) {
-  this.state_ = CancellablePromise.State_.PENDING;
-  this.resolve_(CancellablePromise.State_.FULFILLED, value);
-};
-
-/**
- * Unblocks the Promise and rejects it with the given rejection reason.
- *
- * @param {*} reason
- * @private
- */
-CancellablePromise.prototype.unblockAndReject_ = function (reason) {
-  this.state_ = CancellablePromise.State_.PENDING;
-  this.resolve_(CancellablePromise.State_.REJECTED, reason);
-};
-
-/**
- * Attempts to resolve a Promise with a given resolution state and value. This
- * is a no-op if the given Promise has already been resolved.
- *
- * If the given result is a Thenable (such as another Promise), the Promise will
- * be settled with the same state and result as the Thenable once it is itself
- * settled.
- *
- * If the given result is not a Thenable, the Promise will be settled (fulfilled
- * or rejected) with that result based on the given state.
- *
- * @see http://promisesaplus.com/#the_promise_resolution_procedure
- *
- * @param {CancellablePromise.State_} state
- * @param {*} x The result to apply to the Promise.
- * @private
- */
-CancellablePromise.prototype.resolve_ = function (state, x) {
-  if (this.state_ != CancellablePromise.State_.PENDING) {
-    return;
-  }
-
-  if (this === x) {
-    state = CancellablePromise.State_.REJECTED;
-    x = new TypeError('Promise cannot resolve to itself');
-  }
-
-  this.state_ = CancellablePromise.State_.BLOCKED;
-  var isThenable = CancellablePromise.maybeThen_(x, this.unblockAndFulfill_, this.unblockAndReject_, this);
-  if (isThenable) {
-    return;
-  }
-
-  this.result_ = x;
-  this.state_ = state;
-  // Since we can no longer be canceled, remove link to parent, so that the
-  // child promise does not keep the parent promise alive.
-  this.parent_ = null;
-  this.scheduleCallbacks_();
-
-  if (state == CancellablePromise.State_.REJECTED && !x.IS_CANCELLATION_ERROR) {
-    CancellablePromise.addUnhandledRejection_(this, x);
-  }
-};
-
-/**
- * Invokes the "then" method of an input value if that value is a Thenable. This
- * is a no-op if the value is not thenable.
- *
- * @param {?} value A potentially thenable value.
- * @param {!Function} onFulfilled
- * @param {!Function} onRejected
- * @param {?} context
- * @return {boolean} Whether the input value was thenable.
- * @private
- */
-CancellablePromise.maybeThen_ = function (value, onFulfilled, onRejected, context) {
-  if (value instanceof CancellablePromise) {
-    value.thenVoid(onFulfilled, onRejected, context);
-    return true;
-  } else if (_Thenable2.default.isImplementedBy(value)) {
-    value = /** @type {!Thenable} */value;
-    value.then(onFulfilled, onRejected, context);
-    return true;
-  } else if ((0, _metal.isObject)(value)) {
-    try {
-      var then = value['then'];
-      if ((0, _metal.isFunction)(then)) {
-        CancellablePromise.tryThen_(value, then, onFulfilled, onRejected, context);
-        return true;
-      }
-    } catch (e) {
-      onRejected.call(context, e);
-      return true;
-    }
-  }
-
-  return false;
-};
-
-/**
- * Attempts to call the {@code then} method on an object in the hopes that it is
- * a Promise-compatible instance. This allows interoperation between different
- * Promise implementations, however a non-compliant object may cause a Promise
- * to hang indefinitely. If the {@code then} method throws an exception, the
- * dependent Promise will be rejected with the thrown value.
- *
- * @see http://promisesaplus.com/#point-70
- *
- * @param {Thenable} thenable An object with a {@code then} method that may be
- *     compatible with the Promise/A+ specification.
- * @param {!Function} then The {@code then} method of the Thenable object.
- * @param {!Function} onFulfilled
- * @param {!Function} onRejected
- * @param {*} context
- * @private
- */
-CancellablePromise.tryThen_ = function (thenable, then, onFulfilled, onRejected, context) {
-
-  var called = false;
-  var resolve = function resolve(value) {
-    if (!called) {
-      called = true;
-      onFulfilled.call(context, value);
-    }
-  };
-
-  var reject = function reject(reason) {
-    if (!called) {
-      called = true;
-      onRejected.call(context, reason);
-    }
-  };
-
-  try {
-    then.call(thenable, resolve, reject);
-  } catch (e) {
-    reject(e);
-  }
-};
-
-/**
- * Executes the pending callbacks of a settled Promise after a timeout.
- *
- * Section 2.2.4 of the Promises/A+ specification requires that Promise
- * callbacks must only be invoked from a call stack that only contains Promise
- * implementation code, which we accomplish by invoking callback execution after
- * a timeout. If {@code startExecution_} is called multiple times for the same
- * Promise, the callback chain will be evaluated only once. Additional callbacks
- * may be added during the evaluation phase, and will be executed in the same
- * event loop.
- *
- * All Promises added to the waiting list during the same browser event loop
- * will be executed in one batch to avoid using a separate timeout per Promise.
- *
- * @private
- */
-CancellablePromise.prototype.scheduleCallbacks_ = function () {
-  if (!this.executing_) {
-    this.executing_ = true;
-    _metal.async.run(this.executeCallbacks_, this);
-  }
-};
-
-/**
- * @return {boolean} Whether there are any pending callbacks queued.
- * @private
- */
-CancellablePromise.prototype.hasEntry_ = function () {
-  return !!this.callbackEntries_;
-};
-
-/**
- * @param {CancellablePromise.CallbackEntry_} entry
- * @private
- */
-CancellablePromise.prototype.queueEntry_ = function (entry) {
-  if (this.callbackEntriesTail_) {
-    this.callbackEntriesTail_.next = entry;
-    this.callbackEntriesTail_ = entry;
-  } else {
-    // It the work queue was empty set the head too.
-    this.callbackEntries_ = entry;
-    this.callbackEntriesTail_ = entry;
-  }
-};
-
-/**
- * @return {CancellablePromise.CallbackEntry_} entry
- * @private
- */
-CancellablePromise.prototype.popEntry_ = function () {
-  var entry = null;
-  if (this.callbackEntries_) {
-    entry = this.callbackEntries_;
-    this.callbackEntries_ = entry.next;
-    entry.next = null;
-  }
-  // It the work queue is empty clear the tail too.
-  if (!this.callbackEntries_) {
-    this.callbackEntriesTail_ = null;
-  }
-  return entry;
-};
-
-/**
- * @param {CancellablePromise.CallbackEntry_} previous
- * @private
- */
-CancellablePromise.prototype.removeEntryAfter_ = function (previous) {
-  // If the last entry is being removed, update the tail
-  if (previous.next == this.callbackEntriesTail_) {
-    this.callbackEntriesTail_ = previous;
-  }
-
-  previous.next = previous.next.next;
-};
-
-/**
- * Executes all pending callbacks for this Promise.
- *
- * @private
- */
-CancellablePromise.prototype.executeCallbacks_ = function () {
-  var entry = null;
-  while (entry = this.popEntry_()) {
-    if (CancellablePromise.LONG_STACK_TRACES) {
-      this.currentStep_++;
-    }
-    this.executeCallback_(entry, this.state_, this.result_);
-  }
-  this.executing_ = false;
-};
-
-/**
- * Executes a pending callback for this Promise. Invokes an {@code onFulfilled}
- * or {@code onRejected} callback based on the settled state of the Promise.
- *
- * @param {!CancellablePromise.CallbackEntry_} callbackEntry An entry containing the
- *     onFulfilled and/or onRejected callbacks for this step.
- * @param {CancellablePromise.State_} state The resolution status of the Promise,
- *     either FULFILLED or REJECTED.
- * @param {*} result The settled result of the Promise.
- * @private
- */
-CancellablePromise.prototype.executeCallback_ = function (callbackEntry, state, result) {
-  // Cancel an unhandled rejection if the then/thenVoid call had an onRejected.
-  if (state == CancellablePromise.State_.REJECTED && callbackEntry.onRejected && !callbackEntry.always) {
-    this.removeUnhandledRejection_();
-  }
-
-  if (callbackEntry.child) {
-    // When the parent is settled, the child no longer needs to hold on to it,
-    // as the parent can no longer be canceled.
-    callbackEntry.child.parent_ = null;
-    CancellablePromise.invokeCallback_(callbackEntry, state, result);
-  } else {
-    // Callbacks created with thenAlways or thenVoid do not have the rejection
-    // handling code normally set up in the child Promise.
-    try {
-      callbackEntry.always ? callbackEntry.onFulfilled.call(callbackEntry.context) : CancellablePromise.invokeCallback_(callbackEntry, state, result);
-    } catch (err) {
-      CancellablePromise.handleRejection_.call(null, err);
-    }
-  }
-  CancellablePromise.returnEntry_(callbackEntry);
-};
-
-/**
- * Executes the onFulfilled or onRejected callback for a callbackEntry.
- *
- * @param {!CancellablePromise.CallbackEntry_} callbackEntry
- * @param {CancellablePromise.State_} state
- * @param {*} result
- * @private
- */
-CancellablePromise.invokeCallback_ = function (callbackEntry, state, result) {
-  if (state == CancellablePromise.State_.FULFILLED) {
-    callbackEntry.onFulfilled.call(callbackEntry.context, result);
-  } else if (callbackEntry.onRejected) {
-    callbackEntry.onRejected.call(callbackEntry.context, result);
-  }
-};
-
-/**
- * Records a stack trace entry for functions that call {@code then} or the
- * Promise constructor. May be disabled by unsetting {@code LONG_STACK_TRACES}.
- *
- * @param {!Error} err An Error object created by the calling function for
- *     providing a stack trace.
- * @private
- */
-CancellablePromise.prototype.addStackTrace_ = function (err) {
-  if (CancellablePromise.LONG_STACK_TRACES && (0, _metal.isString)(err.stack)) {
-    // Extract the third line of the stack trace, which is the entry for the
-    // user function that called into Promise code.
-    var trace = err.stack.split('\n', 4)[3];
-    var message = err.message;
-
-    // Pad the message to align the traces.
-    message += Array(11 - message.length).join(' ');
-    this.stack_.push(message + trace);
-  }
-};
-
-/**
- * Adds extra stack trace information to an exception for the list of
- * asynchronous {@code then} calls that have been run for this Promise. Stack
- * trace information is recorded in {@see #addStackTrace_}, and appended to
- * rethrown errors when {@code LONG_STACK_TRACES} is enabled.
- *
- * @param {*} err An unhandled exception captured during callback execution.
- * @private
- */
-CancellablePromise.prototype.appendLongStack_ = function (err) {
-  if (CancellablePromise.LONG_STACK_TRACES && err && (0, _metal.isString)(err.stack) && this.stack_.length) {
-    var longTrace = ['Promise trace:'];
-
-    for (var promise = this; promise; promise = promise.parent_) {
-      for (var i = this.currentStep_; i >= 0; i--) {
-        longTrace.push(promise.stack_[i]);
-      }
-      longTrace.push('Value: ' + '[' + (promise.state_ == CancellablePromise.State_.REJECTED ? 'REJECTED' : 'FULFILLED') + '] ' + '<' + String(promise.result_) + '>');
-    }
-    err.stack += '\n\n' + longTrace.join('\n');
-  }
-};
-
-/**
- * Marks this rejected Promise as having being handled. Also marks any parent
- * Promises in the rejected state as handled. The rejection handler will no
- * longer be invoked for this Promise (if it has not been called already).
- *
- * @private
- */
-CancellablePromise.prototype.removeUnhandledRejection_ = function () {
-  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
-    for (var p = this; p && p.unhandledRejectionId_; p = p.parent_) {
-      clearTimeout(p.unhandledRejectionId_);
-      p.unhandledRejectionId_ = 0;
-    }
-  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
-    for (var p = this; p && p.hadUnhandledRejection_; p = p.parent_) {
-      p.hadUnhandledRejection_ = false;
-    }
-  }
-};
-
-/**
- * Marks this rejected Promise as unhandled. If no {@code onRejected} callback
- * is called for this Promise before the {@code UNHANDLED_REJECTION_DELAY}
- * expires, the reason will be passed to the unhandled rejection handler. The
- * handler typically rethrows the rejection reason so that it becomes visible in
- * the developer console.
- *
- * @param {!CancellablePromise} promise The rejected Promise.
- * @param {*} reason The Promise rejection reason.
- * @private
- */
-CancellablePromise.addUnhandledRejection_ = function (promise, reason) {
-  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
-    promise.unhandledRejectionId_ = setTimeout(function () {
-      promise.appendLongStack_(reason);
-      CancellablePromise.handleRejection_.call(null, reason);
-    }, CancellablePromise.UNHANDLED_REJECTION_DELAY);
-  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
-    promise.hadUnhandledRejection_ = true;
-    _metal.async.run(function () {
-      if (promise.hadUnhandledRejection_) {
-        promise.appendLongStack_(reason);
-        CancellablePromise.handleRejection_.call(null, reason);
-      }
-    });
-  }
-};
-
-/**
- * A method that is invoked with the rejection reasons for Promises that are
- * rejected but have no {@code onRejected} callbacks registered yet.
- * @type {function(*)}
- * @private
- */
-CancellablePromise.handleRejection_ = _metal.async.throwException;
-
-/**
- * Sets a handler that will be called with reasons from unhandled rejected
- * Promises. If the rejected Promise (or one of its descendants) has an
- * {@code onRejected} callback registered, the rejection will be considered
- * handled, and the rejection handler will not be called.
- *
- * By default, unhandled rejections are rethrown so that the error may be
- * captured by the developer console or a {@code window.onerror} handler.
- *
- * @param {function(*)} handler A function that will be called with reasons from
- *     rejected Promises. Defaults to {@code async.throwException}.
- */
-CancellablePromise.setUnhandledRejectionHandler = function (handler) {
-  CancellablePromise.handleRejection_ = handler;
-};
-
-/**
- * Error used as a rejection reason for canceled Promises.
- *
- * @param {string=} opt_message
- * @constructor
- * @extends {Error}
- * @final
- */
-CancellablePromise.CancellationError = function (_Error) {
-  _inherits(_class, _Error);
-
-  function _class(opt_message) {
-    _classCallCheck(this, _class);
-
-    var _this = _possibleConstructorReturn(this, (_class.__proto__ || Object.getPrototypeOf(_class)).call(this, opt_message));
-
-    if (opt_message) {
-      _this.message = opt_message;
-    }
-    return _this;
-  }
-
-  return _class;
-}(Error);
-
-/** @override */
-CancellablePromise.CancellationError.prototype.name = 'cancel';
-
-/**
- * Internal implementation of the resolver interface.
- *
- * @param {!CancellablePromise<TYPE>} promise
- * @param {function((TYPE|CancellablePromise<TYPE>|Thenable)=)} resolve
- * @param {function(*=): void} reject
- * @implements {CancellablePromise.Resolver<TYPE>}
- * @final @struct
- * @constructor
- * @private
- * @template TYPE
- */
-CancellablePromise.Resolver_ = function (promise, resolve, reject) {
-  /** @const */
-  this.promise = promise;
-
-  /** @const */
-  this.resolve = resolve;
-
-  /** @const */
-  this.reject = reject;
-};
-
-exports.CancellablePromise = CancellablePromise;
-exports.default = CancellablePromise;
+exports.default = _JSXComponent2.default;
+exports.DangerouslySetHTML = _DangerouslySetHTML2.default;
+exports.validators = _metalState.validators;
+exports.Config = _metalState.Config;
+exports.JSXComponent = _JSXComponent2.default;
 
 /***/ }),
-/* 34 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
+// This file exists just for backwards compatibility, making sure that old
+// default imports for this file still work. It's best to use the named exports
+// for each function instead though, since that allows bundlers like Rollup to
+// reduce the bundle size by removing unused code.
+
 Object.defineProperty(exports, "__esModule", {
-	value: true
+  value: true
 });
-exports.WorkflowTaskAvg = exports.WorkflowProcessAvg = undefined;
+exports.core = undefined;
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+var _coreNamed = __webpack_require__(31);
 
-var _metalJsx = __webpack_require__(16);
+Object.keys(_coreNamed).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _coreNamed[key];
+    }
+  });
+});
 
-var _metalJsx2 = _interopRequireDefault(_metalJsx);
+var core = _interopRequireWildcard(_coreNamed);
 
-var _charts = __webpack_require__(69);
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
-var _metalState = __webpack_require__(1);
-
-var _metalAjax = __webpack_require__(97);
-
-var _metalAjax2 = _interopRequireDefault(_metalAjax);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var WorkflowProcessAvg = function (_JSXComponent) {
-	_inherits(WorkflowProcessAvg, _JSXComponent);
-
-	function WorkflowProcessAvg() {
-		_classCallCheck(this, WorkflowProcessAvg);
-
-		return _possibleConstructorReturn(this, (WorkflowProcessAvg.__proto__ || Object.getPrototypeOf(WorkflowProcessAvg)).apply(this, arguments));
-	}
-
-	_createClass(WorkflowProcessAvg, [{
-		key: 'attached',
-		value: function attached() {
-			var _this2 = this;
-
-			_metalAjax2.default.request(location.origin + '/api/workflow/processavg').then(function (xhr) {
-				var json = JSON.parse(xhr.response);
-				var columns = [];
-
-				json.forEach(function (value) {
-					var throughput = Math.floor(value.totalDuration / value.total);
-
-					columns.push({
-						'id': value.name,
-						'data': [throughput]
-					});
-				});
-
-				_this2.props.columns = columns;
-			});
-			setTimeout(function () {
-				_this2.props.columns = _this2.props.columns;
-			}, 10);
-			setTimeout(function () {
-				_this2.props.columns = _this2.props.columns;
-			}, 100);
-		}
-	}, {
-		key: 'render',
-		value: function render() {
-			return IncrementalDOM.elementVoid(_charts.BarChart, null, null, 'colors', {}, 'columns', this.props.columns, 'ref', 'bar');
-		}
-	}]);
-
-	return WorkflowProcessAvg;
-}(_metalJsx2.default);
-
-WorkflowProcessAvg.PROPS = {
-	columns: _metalState.Config.any().value([{
-		id: '',
-		data: []
-	}])
-};
-
-var WorkflowTaskAvg = function (_JSXComponent2) {
-	_inherits(WorkflowTaskAvg, _JSXComponent2);
-
-	function WorkflowTaskAvg() {
-		_classCallCheck(this, WorkflowTaskAvg);
-
-		return _possibleConstructorReturn(this, (WorkflowTaskAvg.__proto__ || Object.getPrototypeOf(WorkflowTaskAvg)).apply(this, arguments));
-	}
-
-	_createClass(WorkflowTaskAvg, [{
-		key: 'attached',
-		value: function attached() {
-			var _this4 = this;
-
-			_metalAjax2.default.request(location.origin + '/api/workflow/taskavg').then(function (xhr) {
-				var json = JSON.parse(xhr.response);
-				var columns = [];
-
-				json.forEach(function (value) {
-					var throughput = Math.floor(value.totalDuration / value.total);
-
-					columns.push({
-						'id': value.name,
-						'data': [throughput]
-					});
-				});
-
-				_this4.props.columns = columns;
-			});
-			setTimeout(function () {
-				_this4.props.columns = _this4.props.columns;
-			}, 10);
-			setTimeout(function () {
-				_this4.props.columns = _this4.props.columns;
-			}, 100);
-		}
-	}, {
-		key: 'render',
-		value: function render() {
-			return IncrementalDOM.elementVoid(_charts.BarChart, null, null, 'colors', {}, 'columns', this.props.columns, 'ref', 'bar');
-		}
-	}]);
-
-	return WorkflowTaskAvg;
-}(_metalJsx2.default);
-
-WorkflowTaskAvg.PROPS = {
-	columns: _metalState.Config.any().value([{
-		id: '',
-		data: []
-	}])
-};
-
-exports.WorkflowProcessAvg = WorkflowProcessAvg;
-exports.WorkflowTaskAvg = WorkflowTaskAvg;
-exports.default = WorkflowProcessAvg;
+exports.default = core;
+exports.core = core;
 
 /***/ }),
-/* 35 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6239,7 +3370,7 @@ function disableCompatibilityMode() {
  *       using "key" to keep working like before. NOTE: this may cause
  *       problems, since "key" is meant to be used differently. Only use this
  *       if it's not possible to upgrade the code to use "ref" instead.
- * @param {Object=} opt_data Optional object with data to specify more
+ * @param {Object=} data Optional object with data to specify more
  *     details, such as:
  *         - renderers {Array} the template renderers that should be in
  *           compatibility mode, either their constructors or strings
@@ -6248,9 +3379,9 @@ function disableCompatibilityMode() {
  * @type {Object}
  */
 function enableCompatibilityMode() {
-  var opt_data = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var data = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
-  compatibilityModeData_ = opt_data;
+  compatibilityModeData_ = data;
 }
 
 /**
@@ -6303,17 +3434,20 @@ function getFunctionName(fn) {
  * be recalculated even if this function is called multiple times.
  * @param {!function()} ctor Class constructor.
  * @param {string} propertyName Property name to be merged.
- * @param {function(*, *):*=} opt_mergeFn Function that receives the merged
+ * @param {function(*, *):*=} mergeFn Function that receives the merged
  *     value of the property so far and the next value to be merged to it.
  *     Should return these two merged together. If not passed the final property
  *     will be the first truthy value among ancestors.
+ * @return {Object}
  */
-function getStaticProperty(ctor, propertyName, opt_mergeFn) {
+function getStaticProperty(ctor, propertyName) {
+  var mergeFn = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : getFirstTruthy_;
+
   var mergedName = propertyName + '_MERGED';
   if (!ctor.hasOwnProperty(mergedName)) {
+    // eslint-disable-next-line
     var merged = ctor.hasOwnProperty(propertyName) ? ctor[propertyName] : null;
     if (ctor.__proto__ && !ctor.__proto__.isPrototypeOf(Function)) {
-      var mergeFn = opt_mergeFn || getFirstTruthy_;
       merged = mergeFn(merged, getStaticProperty(ctor.__proto__, propertyName, mergeFn));
     }
     ctor[mergedName] = merged;
@@ -6322,34 +3456,35 @@ function getStaticProperty(ctor, propertyName, opt_mergeFn) {
 }
 
 /**
- * Gets an unique id. If `opt_object` argument is passed, the object is
+ * Gets an unique id. If `object` argument is passed, the object is
  * mutated with an unique id. Consecutive calls with the same object
  * reference won't mutate the object again, instead the current object uid
  * returns. See {@link UID_PROPERTY}.
- * @param {Object=} opt_object Optional object to be mutated with the uid. If
+ * @param {Object=} object Optional object to be mutated with the uid. If
  *     not specified this method only returns the uid.
- * @param {boolean=} opt_noInheritance Optional flag indicating if this
+ * @param {boolean=} noInheritance Optional flag indicating if this
  *     object's uid property can be inherited from parents or not.
  * @throws {Error} when invoked to indicate the method should be overridden.
+ * @return {number}
  */
-function getUid(opt_object, opt_noInheritance) {
-  if (opt_object) {
-    var id = opt_object[UID_PROPERTY];
-    if (opt_noInheritance && !opt_object.hasOwnProperty(UID_PROPERTY)) {
+function getUid(object, noInheritance) {
+  if (object) {
+    var id = object[UID_PROPERTY];
+    if (noInheritance && !object.hasOwnProperty(UID_PROPERTY)) {
       id = null;
     }
-    return id || (opt_object[UID_PROPERTY] = uniqueIdCounter_++);
+    return id || (object[UID_PROPERTY] = uniqueIdCounter_++);
   }
   return uniqueIdCounter_++;
 }
 
 /**
  * The identity function. Returns its first argument.
- * @param {*=} opt_returnValue The single value that will be returned.
+ * @param {*=} returnValue The single value that will be returned.
  * @return {?} The first argument.
  */
-function identityFunction(opt_returnValue) {
-  return opt_returnValue;
+function identityFunction(returnValue) {
+  return returnValue;
 }
 
 /**
@@ -6489,19 +3624,21 @@ function nullFunction() {}
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 36 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
+
+/**
+ * Set of utilities for array operations
+ */
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _core = __webpack_require__(18);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -6553,14 +3690,15 @@ var array = function () {
 		/**
    * Transforms the input nested array to become flat.
    * @param {Array.<*|Array.<*>>} arr Nested array to flatten.
-   * @param {Array.<*>} opt_output Optional output array.
+   * @param {Array.<*>=} output Optional output array.
    * @return {Array.<*>} Flat array.
    */
 
 	}, {
 		key: 'flatten',
-		value: function flatten(arr, opt_output) {
-			var output = opt_output || [];
+		value: function flatten(arr) {
+			var output = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];
+
 			for (var i = 0; i < arr.length; i++) {
 				if (Array.isArray(arr[i])) {
 					array.flatten(arr[i], output);
@@ -6608,7 +3746,7 @@ var array = function () {
    * is faster and working on all array-like objects (like arguments).
    * @param {!Object} arr Array-like object to slice.
    * @param {number} start The index that should start the slice.
-   * @param {number=} opt_end The index where the slice should end, not
+   * @param {number=} end The index where the slice should end, not
    *   included in the final array. If not given, all elements after the
    *   start index will be included.
    * @return {!Array}
@@ -6616,9 +3754,10 @@ var array = function () {
 
 	}, {
 		key: 'slice',
-		value: function slice(arr, start, opt_end) {
+		value: function slice(arr, start) {
+			var end = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : arr.length;
+
 			var sliced = [];
-			var end = (0, _core.isDef)(opt_end) ? opt_end : arr.length;
 			for (var i = start; i < end; i++) {
 				sliced.push(arr[i]);
 			}
@@ -6632,11 +3771,11 @@ var array = function () {
 exports.default = array;
 
 /***/ }),
-/* 37 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(setImmediate) {/*!
+/* WEBPACK VAR INJECTION */(function(setImmediate) {/* !
  * Polyfill from Google's Closure Library.
  * Copyright 2013 The Closure Library Authors. All Rights Reserved.
  */
@@ -6666,18 +3805,18 @@ async.throwException = function (exception) {
  * Fires the provided callback just before the current callstack unwinds, or as
  * soon as possible after the current JS execution context.
  * @param {function(this:THIS)} callback
- * @param {THIS=} opt_context Object to use as the "this value" when calling
+ * @param {THIS=} context Object to use as the "this value" when calling
  *     the provided function.
  * @template THIS
  */
-async.run = function (callback, opt_context) {
+async.run = function (callback, context) {
 	if (!async.run.workQueueScheduled_) {
 		// Nothing is currently scheduled, schedule it now.
 		async.nextTick(async.run.processWorkQueue);
 		async.run.workQueueScheduled_ = true;
 	}
 
-	async.run.workQueue_.push(new async.run.WorkItem_(callback, opt_context));
+	async.run.workQueue_.push(new async.run.WorkItem_(callback, context));
 };
 
 /** @private {boolean} */
@@ -6733,13 +3872,13 @@ async.run.WorkItem_ = function (fn, scope) {
  * reasons.
  * @param {function(this:SCOPE)} callback Callback function to fire as soon as
  *     possible.
- * @param {SCOPE=} opt_context Object in whose scope to call the listener.
+ * @param {SCOPE=} context Object in whose scope to call the listener.
  * @template SCOPE
  */
-async.nextTick = function (callback, opt_context) {
+async.nextTick = function (callback, context) {
 	var cb = callback;
-	if (opt_context) {
-		cb = callback.bind(opt_context);
+	if (context) {
+		cb = callback.bind(context);
 	}
 	cb = async.nextTick.wrapCallback_(cb);
 	// Introduced and currently only supported by IE10.
@@ -6753,6 +3892,7 @@ async.nextTick = function (callback, opt_context) {
 	}
 	// Look for and cache the custom fallback version of setImmediate.
 	if (!async.nextTick.setImmediate_) {
+		// eslint-disable-next-line
 		async.nextTick.setImmediate_ = async.nextTick.getSetImmediateEmulator_();
 	}
 	async.nextTick.setImmediate_(cb);
@@ -6869,15 +4009,15 @@ async.nextTick.getSetImmediateEmulator_ = function () {
  * @return {function()} The wrapped callback.
  * @private
  */
-async.nextTick.wrapCallback_ = function (opt_returnValue) {
-	return opt_returnValue;
+async.nextTick.wrapCallback_ = function (callback) {
+	return callback;
 };
 
 exports.default = async;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(38).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(34).setImmediate))
 
 /***/ }),
-/* 38 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var apply = Function.prototype.apply;
@@ -6930,13 +4070,13 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(39);
+__webpack_require__(35);
 exports.setImmediate = setImmediate;
 exports.clearImmediate = clearImmediate;
 
 
 /***/ }),
-/* 39 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -7126,10 +4266,10 @@ exports.clearImmediate = clearImmediate;
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7), __webpack_require__(12)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9), __webpack_require__(12)))
 
 /***/ }),
-/* 40 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7152,6 +4292,9 @@ var _createClass = function () { function defineProperties(target, props) { for 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Disposable = function () {
+	/**
+  * Disposable constructor
+  */
 	function Disposable() {
 		_classCallCheck(this, Disposable);
 
@@ -7205,11 +4348,15 @@ var Disposable = function () {
 exports.default = Disposable;
 
 /***/ }),
-/* 41 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
+
+/**
+ * Set of utilities for object operations
+ */
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -7234,10 +4381,18 @@ var object = function () {
    * @return {Object} Returns the target object reference.
    */
 		value: function mixin(target) {
-			var key = void 0,
-			    source = void 0;
-			for (var i = 1; i < arguments.length; i++) {
-				source = arguments[i];
+			var key = void 0;
+			var source = void 0;
+
+			for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+				args[_key - 1] = arguments[_key];
+			}
+
+			for (var i = 0; i < args.length; i++) {
+				source = args[i];
+				// Possible prototype chain leak, breaks 1 metal-dom and
+				// 1 metal-incremental-dom test if guard-for-in rule is addressed
+				// eslint-disable-next-line
 				for (key in source) {
 					target[key] = source[key];
 				}
@@ -7248,15 +4403,16 @@ var object = function () {
 		/**
    * Returns an object based on its fully qualified external name.
    * @param {string} name The fully qualified name.
-   * @param {object=} opt_obj The object within which to look; default is
+   * @param {object=} scope The object within which to look; default is
    *     <code>window</code>.
    * @return {?} The value (object or primitive) or, if not found, undefined.
    */
 
 	}, {
 		key: 'getObjectByName',
-		value: function getObjectByName(name, opt_obj) {
-			var scope = opt_obj || window;
+		value: function getObjectByName(name) {
+			var scope = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : window;
+
 			var parts = name.split('.');
 			return parts.reduce(function (part, key) {
 				return part[key];
@@ -7285,6 +4441,8 @@ var object = function () {
 		/**
    * Checks if the two given objects are equal. This is done via a shallow
    * check, including only the keys directly contained by the 2 objects.
+   * @param {Object} obj1
+   * @param {Object} obj2
    * @return {boolean}
    */
 
@@ -7316,11 +4474,15 @@ var object = function () {
 exports.default = object;
 
 /***/ }),
-/* 42 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
+
+/**
+ * Set of utilities for string operations
+ */
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -7373,22 +4535,22 @@ var string = function () {
 		}
 
 		/**
-  * Escapes characters in the string that are not safe to use in a RegExp.
-  * @param {*} str The string to escape. If not a string, it will be casted
-  *     to one.
-  * @return {string} A RegExp safe, escaped copy of {@code s}.
-  */
+   * Escapes characters in the string that are not safe to use in a RegExp.
+   * @param {*} str The string to escape. If not a string, it will be casted
+   *     to one.
+   * @return {string} A RegExp safe, escaped copy of {@code s}.
+   */
 
 	}, {
 		key: 'escapeRegex',
 		value: function escapeRegex(str) {
-			return String(str).replace(/([-()\[\]{}+?*.$\^|,:#<!\\])/g, '\\$1').replace(/\x08/g, '\\x08');
+			return String(str).replace(/([-()[\]{}+?*.$^|,:#<!\\])/g, '\\$1').replace(/\x08/g, '\\x08'); // eslint-disable-line
 		}
 
 		/**
-  * Returns a string with at least 64-bits of randomness.
-  * @return {string} A random string, e.g. sn1s7vb4gcic.
-  */
+   * Returns a string with at least 64-bits of randomness.
+   * @return {string} A random string, e.g. sn1s7vb4gcic.
+   */
 
 	}, {
 		key: 'getRandomString',
@@ -7441,7 +4603,7 @@ var string = function () {
 exports.default = string;
 
 /***/ }),
-/* 43 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7451,9 +4613,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _metal = __webpack_require__(0);
-
-var _validators = __webpack_require__(17);
+var _validators = __webpack_require__(15);
 
 var _validators2 = _interopRequireDefault(_validators);
 
@@ -7484,9 +4644,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  */
 var Config = {
 	/**
- * An object that contains a validator function.
- * @typedef {!Object} ConfigWithValidator
- */
+  * An object that contains a validator function.
+  * @typedef {!Object} ConfigWithValidator
+  */
 
 	/**
   * Function that creates `State` object with an `any` validator.
@@ -7585,7 +4745,7 @@ var Config = {
 
 	/**
   * Adds the `internal` flag to the `State` configuration.
-  * @param {boolean} required Flag to set "internal" to. True by default.
+  * @param {boolean} internal Flag to set "internal" to. True by default.
   * @return {!Object} `State` configuration object.
   */
 	internal: function internal() {
@@ -7700,19 +4860,20 @@ function destructShapeOfConfigs(shape) {
  */
 function mergeConfig(context, config) {
 	var obj = context;
-	if (obj === Config) {
-		obj = Object.create(Config);
-		obj.config = {};
-	}
-	_metal.object.mixin(obj.config, config);
+	var objConfig = obj.config || {};
+
+	obj = Object.create(Config);
+	obj.config = {};
+
+	Object.assign(obj.config, objConfig, config);
 	return obj;
 }
 
 /**
-* Calls validators with provided argument.
-* @param {string} name The name of the validator.
-* @param {!function()}
-*/
+ * Calls validators with provided argument.
+ * @param {string} name The name of the validator.
+ * @return {function()}
+ */
 function setExplicitValueValidators(name) {
 	return function (arg) {
 		return this.validator(_validators2.default[name](arg));
@@ -7720,10 +4881,10 @@ function setExplicitValueValidators(name) {
 }
 
 /**
-* Calls validators with a single nested config.
-* @param {string} name The name of the validator.
-* @return {!function()}
-*/
+ * Calls validators with a single nested config.
+ * @param {string} name The name of the validator.
+ * @return {!function()}
+ */
 function setNestedValidators(name) {
 	return function (arg) {
 		return this.validator(_validators2.default[name](arg.config.validator));
@@ -7731,10 +4892,10 @@ function setNestedValidators(name) {
 }
 
 /**
-* Adds primitive type validators to the config object.
-* @param {string} name The name of the validator.
-* @return {!function()}
-*/
+ * Adds primitive type validators to the config object.
+ * @param {string} name The name of the validator.
+ * @return {!function()}
+ */
 function setPrimitiveValidators(name) {
 	return function () {
 		return this.validator(_validators2.default[name]);
@@ -7744,7 +4905,7 @@ function setPrimitiveValidators(name) {
 exports.default = Config;
 
 /***/ }),
-/* 44 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7760,7 +4921,7 @@ var _get = function get(object, property, receiver) { if (object === null) objec
 
 var _metal = __webpack_require__(0);
 
-var _metalEvents = __webpack_require__(8);
+var _metalEvents = __webpack_require__(6);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -7780,15 +4941,15 @@ var State = function (_EventEmitter) {
 
 	/**
   * Constructor function for `State`.
-  * @param {Object=} opt_config Optional config object with initial values to
+  * @param {Object=} config Optional config object with initial values to
   *     set state properties to.
-  * @param {Object=} opt_obj Optional object that should hold the state
+  * @param {Object=} obj Optional object that should hold the state
   *     properties. If none is given, they will be added directly to `this`
   *     instead.
-  * @param {Object=} opt_context Optional context to call functions (like
+  * @param {Object=} context Optional context to call functions (like
   *     validators and setters) on. Defaults to `this`.
   */
-	function State(opt_config, opt_obj, opt_context) {
+	function State(config, obj, context) {
 		_classCallCheck(this, State);
 
 		/**
@@ -7798,7 +4959,7 @@ var State = function (_EventEmitter) {
    */
 		var _this = _possibleConstructorReturn(this, (State.__proto__ || Object.getPrototypeOf(State)).call(this));
 
-		_this.context_ = opt_context || _this;
+		_this.context_ = context || _this;
 
 		/**
    * Map of keys that can not be used as state keys.
@@ -7812,7 +4973,7 @@ var State = function (_EventEmitter) {
    * @type {!Object}
    * @protected
    */
-		_this.obj_ = opt_obj || _this;
+		_this.obj_ = obj || _this;
 
 		_this.eventData_ = null;
 
@@ -7833,7 +4994,7 @@ var State = function (_EventEmitter) {
 
 		_this.stateConfigs_ = {};
 
-		_this.initialValues_ = _metal.object.mixin({}, opt_config);
+		_this.initialValues_ = _metal.object.mixin({}, config);
 
 		_this.setShouldUseFacade(true);
 		_this.configStateFromStaticHint_();
@@ -7931,7 +5092,7 @@ var State = function (_EventEmitter) {
    * Calls the requested function, running the appropriate code for when it's
    * passed as an actual function object or just the function's name.
    * @param {!Function|string} fn Function, or name of the function to run.
-   * @param {!Array} An optional array of parameters to be passed to the
+   * @param {!Array} args optional array of parameters to be passed to the
    *   function that will be called.
    * @return {*} The return value of the called function.
    * @protected
@@ -7941,7 +5102,7 @@ var State = function (_EventEmitter) {
 		key: 'callFunction_',
 		value: function callFunction_(fn, args) {
 			if ((0, _metal.isString)(fn)) {
-				return this.context_[fn].apply(this.context_, args);
+				return this.context_[fn].apply(this.context_, args); // eslint-disable-line
 			} else if ((0, _metal.isFunction)(fn)) {
 				return fn.apply(this.context_, args);
 			}
@@ -8025,27 +5186,27 @@ var State = function (_EventEmitter) {
    *     first time.
    * @param {!Object.<string, !Object>|string} configs An object that maps
    *     configuration options for keys to be added to the state.
-   * @param {boolean|Object|*=} opt_context The context where the added state
+   * @param {boolean|Object|*=} context The context where the added state
    *     keys will be defined (defaults to `this`), or false if they shouldn't
    *     be defined at all.
    */
 
 	}, {
 		key: 'configState',
-		value: function configState(configs, opt_context) {
+		value: function configState(configs, context) {
 			var names = Object.keys(configs);
 			if (names.length === 0) {
 				return;
 			}
 
-			if (opt_context !== false) {
+			if (context !== false) {
 				var props = {};
 				for (var i = 0; i < names.length; i++) {
 					var name = names[i];
 					this.assertValidStateKeyName_(name);
 					props[name] = this.buildKeyPropertyDef_(name);
 				}
-				Object.defineProperties(opt_context || this.obj_, props);
+				Object.defineProperties(context || this.obj_, props);
 			}
 
 			this.stateConfigs_ = configs;
@@ -8073,7 +5234,7 @@ var State = function (_EventEmitter) {
 
 					ctor[staticKey] = ctor[staticKey] || {};
 
-					defineContext = ctor[staticKey][ctor.name] ? false : ctor.prototype;
+					defineContext = ctor[staticKey][ctor.name] ? false : ctor.prototype; // eslint-disable-line
 					ctor[staticKey][ctor.name] = true;
 				}
 				this.configState(State.getStateStatic(ctor), defineContext);
@@ -8128,16 +5289,17 @@ var State = function (_EventEmitter) {
 
 		/**
    * Returns an object that maps state keys to their values.
-   * @param {Array<string>=} opt_names A list of names of the keys that should
+   * @param {Array<string>=} names A list of names of the keys that should
    *   be returned. If none is given, the whole state will be returned.
    * @return {Object.<string, *>}
    */
 
 	}, {
 		key: 'getState',
-		value: function getState(opt_names) {
+		value: function getState() {
+			var names = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.getStateKeys();
+
 			var state = {};
-			var names = opt_names || this.getStateKeys();
 
 			for (var i = 0; i < names.length; i++) {
 				state[names[i]] = this.get(names[i]);
@@ -8221,7 +5383,8 @@ var State = function (_EventEmitter) {
    */
 		value: function hasBeenSet(name) {
 			var info = this.getStateInfo(name);
-			return info.state === State.KeyStates.INITIALIZED || this.hasInitialValue_(name);
+			return info.state === State.KeyStates.INITIALIZED || this.hasInitialValue_(name) // eslint-disable-line
+			;
 		}
 
 		/**
@@ -8350,7 +5513,6 @@ var State = function (_EventEmitter) {
    * actually needed.
    * @param {string} name
    * @param {*} value
-   * @return {*}
    */
 
 	}, {
@@ -8364,7 +5526,6 @@ var State = function (_EventEmitter) {
 		/**
    * Sets the default value of the requested state key.
    * @param {string} name The name of the key.
-   * @return {*}
    */
 
 	}, {
@@ -8381,7 +5542,7 @@ var State = function (_EventEmitter) {
 
 		/**
    * Sets data to be sent with all events emitted from this instance.
-   * @param {Object}
+   * @param {Object} data
    */
 
 	}, {
@@ -8393,7 +5554,6 @@ var State = function (_EventEmitter) {
 		/**
    * Sets the initial value of the requested state key.
    * @param {string} name The name of the key.
-   * @return {*}
    * @protected
    */
 
@@ -8408,7 +5568,7 @@ var State = function (_EventEmitter) {
 
 		/**
    * Sets a map of keys that are not valid state keys.
-   * @param {!Object<string, boolean>}
+   * @param {!Object<string, boolean>} blacklist
    */
 
 	}, {
@@ -8421,20 +5581,20 @@ var State = function (_EventEmitter) {
    * Sets the value of all the specified state keys.
    * @param {!Object.<string,*>} values A map of state keys to the values they
    *   should be set to.
-   * @param {function()=} opt_callback An optional function that will be run
+   * @param {function()=} callback An optional function that will be run
    *   after the next batched update is triggered.
    */
 
 	}, {
 		key: 'setState',
-		value: function setState(values, opt_callback) {
+		value: function setState(values, callback) {
 			var _this2 = this;
 
 			Object.keys(values).forEach(function (name) {
 				return _this2.set(name, values[name]);
 			});
-			if (opt_callback && this.scheduledBatchData_) {
-				this.context_.once('stateChanged', opt_callback);
+			if (callback && this.scheduledBatchData_) {
+				this.context_.once('stateChanged', callback);
 			}
 		}
 
@@ -8504,7 +5664,6 @@ var State = function (_EventEmitter) {
 		key: 'validateInitialValue_',
 		value: function validateInitialValue_(name) {
 			if (this.initialValues_.hasOwnProperty(name) && !this.callValidator_(name, this.initialValues_[name])) {
-
 				delete this.initialValues_[name];
 			}
 		}
@@ -8585,7 +5744,7 @@ State.KeyStates = {
 exports.default = State;
 
 /***/ }),
-/* 45 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8599,7 +5758,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _metal = __webpack_require__(0);
 
-var _EventHandle = __webpack_require__(19);
+var _EventHandle = __webpack_require__(16);
 
 var _EventHandle2 = _interopRequireDefault(_EventHandle);
 
@@ -8615,13 +5774,15 @@ var singleArray_ = [0];
 
 /**
  * EventEmitter utility.
- * @constructor
  * @extends {Disposable}
  */
 
 var EventEmitter = function (_Disposable) {
 	_inherits(EventEmitter, _Disposable);
 
+	/**
+  * EventEmitter constructor
+  */
 	function EventEmitter() {
 		_classCallCheck(this, EventEmitter);
 
@@ -8681,7 +5842,7 @@ var EventEmitter = function (_Disposable) {
    * Adds a listener to the end of the listeners array for the specified events.
    * @param {!(Array|string)} event
    * @param {!Function} listener
-   * @param {boolean} opt_default Flag indicating if this listener is a default
+   * @param {boolean} defaultListener Flag indicating if this listener is a default
    *   action for this event. Default actions are run last, and only if no previous
    *   listener call `preventDefault()` on the received event facade.
    * @return {!EventHandle} Can be used to remove the listener.
@@ -8689,12 +5850,12 @@ var EventEmitter = function (_Disposable) {
 
 	}, {
 		key: 'addListener',
-		value: function addListener(event, listener, opt_default) {
+		value: function addListener(event, listener, defaultListener) {
 			this.validateListener_(listener);
 
 			var events = this.toEventsArray_(event);
 			for (var i = 0; i < events.length; i++) {
-				this.addSingleListener_(events[i], listener, opt_default);
+				this.addSingleListener_(events[i], listener, defaultListener);
 			}
 
 			return new _EventHandle2.default(this, event, listener);
@@ -8704,24 +5865,23 @@ var EventEmitter = function (_Disposable) {
    * Adds a listener to the end of the listeners array for a single event.
    * @param {string} event
    * @param {!Function} listener
-   * @param {boolean} opt_default Flag indicating if this listener is a default
+   * @param {boolean} defaultListener Flag indicating if this listener is a default
    *   action for this event. Default actions are run last, and only if no previous
    *   listener call `preventDefault()` on the received event facade.
-   * @return {!EventHandle} Can be used to remove the listener.
-   * @param {Function=} opt_origin The original function that was added as a
+   * @param {Function=} origin The original function that was added as a
    *   listener, if there is any.
    * @protected
    */
 
 	}, {
 		key: 'addSingleListener_',
-		value: function addSingleListener_(event, listener, opt_default, opt_origin) {
+		value: function addSingleListener_(event, listener, defaultListener, origin) {
 			this.runListenerHandlers_(event);
-			if (opt_default || opt_origin) {
+			if (defaultListener || origin) {
 				listener = {
-					default: opt_default,
+					default: defaultListener,
 					fn: listener,
-					origin: opt_origin
+					origin: origin
 				};
 			}
 			this.events_ = this.events_ || {};
@@ -8776,7 +5936,7 @@ var EventEmitter = function (_Disposable) {
 				return false;
 			}
 
-			var args = _metal.array.slice(arguments, 1);
+			var args = _metal.array.slice(arguments, 1); // eslint-disable-line
 			this.runListeners_(listeners, args, this.buildFacade_(event));
 			return true;
 		}
@@ -8864,11 +6024,14 @@ var EventEmitter = function (_Disposable) {
 				return;
 			}
 
+			/**
+    *
+    */
 			function handlerInternal() {
 				if (--amount === 0) {
 					self.removeListener(event, handlerInternal);
 				}
-				listener.apply(self, arguments);
+				listener.apply(self, arguments); // eslint-disable-line
 			}
 
 			self.addSingleListener_(event, handlerInternal, false, listener);
@@ -8887,13 +6050,14 @@ var EventEmitter = function (_Disposable) {
 		key: 'matchesListener_',
 		value: function matchesListener_(listenerObj, listener) {
 			var fn = listenerObj.fn || listenerObj;
-			return fn === listener || listenerObj.origin && listenerObj.origin === listener;
+			return fn === listener || listenerObj.origin && listenerObj.origin === listener // eslint-disable-line
+			;
 		}
 
 		/**
    * Removes a listener for the specified events.
    * Caution: changes array indices in the listener array behind the listener.
-   * @param {!(Array|string)} events
+   * @param {!(Array|string)} event
    * @param {!Function} listener
    * @return {!Object} Returns emitter, so calls can be chained.
    */
@@ -8924,19 +6088,19 @@ var EventEmitter = function (_Disposable) {
 	}, {
 		key: 'on',
 		value: function on() {
-			return this.addListener.apply(this, arguments);
+			return this.addListener.apply(this, arguments); // eslint-disable-line
 		}
 
 		/**
    * Adds handler that gets triggered when an event is listened to on this
    * instance.
-   * @param {!function()}
+   * @param {!function()} handler
    */
 
 	}, {
 		key: 'onListener',
 		value: function onListener(handler) {
-			this.listenerHandlers_ = this.addHandler_(this.listenerHandlers_, handler);
+			this.listenerHandlers_ = this.addHandler_(this.listenerHandlers_, handler); // eslint-disable-line
 		}
 
 		/**
@@ -8957,16 +6121,16 @@ var EventEmitter = function (_Disposable) {
    * Removes all listeners, or those of the specified events. It's not a good
    * idea to remove listeners that were added elsewhere in the code,
    * especially when it's on an emitter that you didn't create.
-   * @param {(Array|string)=} opt_events
+   * @param {(Array|string)=} event
    * @return {!Object} Returns emitter, so calls can be chained.
    */
 
 	}, {
 		key: 'removeAllListeners',
-		value: function removeAllListeners(opt_events) {
+		value: function removeAllListeners(event) {
 			if (this.events_) {
-				if (opt_events) {
-					var events = this.toEventsArray_(opt_events);
+				if (event) {
+					var events = this.toEventsArray_(event);
 					for (var i = 0; i < events.length; i++) {
 						this.events_[events[i]] = null;
 					}
@@ -9009,7 +6173,7 @@ var EventEmitter = function (_Disposable) {
 	}, {
 		key: 'removeListener',
 		value: function removeListener() {
-			return this.off.apply(this, arguments);
+			return this.off.apply(this, arguments); // eslint-disable-line
 		}
 
 		/**
@@ -9034,7 +6198,7 @@ var EventEmitter = function (_Disposable) {
    * Runs the given listeners.
    * @param {!Array} listeners
    * @param {!Array} args
-   * @param (Object) facade
+   * @param {Object} facade
    * @protected
    */
 
@@ -9113,6 +6277,13 @@ var EventEmitter = function (_Disposable) {
 	return EventEmitter;
 }(_metal.Disposable);
 
+/**
+ * Converts to an array
+ * @param {Object} val
+ * @return {Array}
+ */
+
+
 function toArray(val) {
 	val = val || [];
 	return Array.isArray(val) ? val : [val];
@@ -9121,7 +6292,7 @@ function toArray(val) {
 exports.default = EventEmitter;
 
 /***/ }),
-/* 46 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9146,19 +6317,21 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
  * instances together, emitting events from the first emitter through the
  * second one. That means that listening to a supported event on the target
  * emitter will mean listening to it on the origin emitter as well.
- * @param {EventEmitter} originEmitter Events originated on this emitter
- *   will be fired for the target emitter's listeners as well.
- * @param {EventEmitter} targetEmitter Event listeners attached to this emitter
- *   will also be triggered when the event is fired by the origin emitter.
- * @param {Object} opt_blacklist Optional blacklist of events that should not be
- *   proxied.
- * @constructor
  * @extends {Disposable}
  */
 var EventEmitterProxy = function (_Disposable) {
 	_inherits(EventEmitterProxy, _Disposable);
 
-	function EventEmitterProxy(originEmitter, targetEmitter, opt_blacklist, opt_whitelist) {
+	/**
+  * @param {EventEmitter} originEmitter Events originated on this emitter
+  * will be fired for the target emitter's listeners as well.
+  * @param {EventEmitter} targetEmitter Event listeners attached to this emitter
+  * will also be triggered when the event is fired by the origin emitter.
+  * @param {Object} blacklist Optional blacklist of events that should not be
+  * proxied.
+  * @param {Object} whitelist
+  */
+	function EventEmitterProxy(originEmitter, targetEmitter, blacklist, whitelist) {
 		_classCallCheck(this, EventEmitterProxy);
 
 		/**
@@ -9168,7 +6341,7 @@ var EventEmitterProxy = function (_Disposable) {
    */
 		var _this = _possibleConstructorReturn(this, (EventEmitterProxy.__proto__ || Object.getPrototypeOf(EventEmitterProxy)).call(this));
 
-		_this.blacklist_ = opt_blacklist;
+		_this.blacklist_ = blacklist;
 
 		/**
    * The origin emitter. This emitter's events will be proxied through the
@@ -9207,7 +6380,7 @@ var EventEmitterProxy = function (_Disposable) {
    * @type {Object}
    * @protected
    */
-		_this.whitelist_ = opt_whitelist;
+		_this.whitelist_ = whitelist;
 
 		_this.startProxy_();
 		return _this;
@@ -9249,7 +6422,9 @@ var EventEmitterProxy = function (_Disposable) {
 	}, {
 		key: 'emitOnTarget_',
 		value: function emitOnTarget_() {
-			this.targetEmitter_.emit.apply(this.targetEmitter_, arguments);
+			var _targetEmitter_;
+
+			(_targetEmitter_ = this.targetEmitter_).emit.apply(_targetEmitter_, arguments);
 		}
 
 		/**
@@ -9361,7 +6536,7 @@ var EventEmitterProxy = function (_Disposable) {
 exports.default = EventEmitterProxy;
 
 /***/ }),
-/* 47 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9384,12 +6559,14 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 /**
  * EventHandler utility. It's useful for easily removing a group of
  * listeners from different EventEmitter instances.
- * @constructor
  * @extends {Disposable}
  */
 var EventHandler = function (_Disposable) {
 	_inherits(EventHandler, _Disposable);
 
+	/**
+  * EventHandler constructor
+  */
 	function EventHandler() {
 		_classCallCheck(this, EventHandler);
 
@@ -9415,8 +6592,12 @@ var EventHandler = function (_Disposable) {
 	_createClass(EventHandler, [{
 		key: 'add',
 		value: function add() {
+			for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+				args[_key] = arguments[_key];
+			}
+
 			for (var i = 0; i < arguments.length; i++) {
-				this.eventHandles_.push(arguments[i]);
+				this.eventHandles_.push(args[i]);
 			}
 		}
 
@@ -9452,7 +6633,7 @@ var EventHandler = function (_Disposable) {
 exports.default = EventHandler;
 
 /***/ }),
-/* 48 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9464,7 +6645,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _JSXComponent = __webpack_require__(20);
+var _JSXComponent = __webpack_require__(17);
 
 var _JSXComponent2 = _interopRequireDefault(_JSXComponent);
 
@@ -9524,7 +6705,7 @@ DangerouslySetHTML.PROPS = {
 exports.default = DangerouslySetHTML;
 
 /***/ }),
-/* 49 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9536,11 +6717,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var _metalIncrementalDom = __webpack_require__(9);
+var _metalIncrementalDom = __webpack_require__(10);
 
 var _metalIncrementalDom2 = _interopRequireDefault(_metalIncrementalDom);
 
-var _JSXRenderer = __webpack_require__(31);
+var _JSXRenderer = __webpack_require__(28);
 
 var _JSXRenderer2 = _interopRequireDefault(_JSXRenderer);
 
@@ -9571,7 +6752,7 @@ scope.iDOMHelpers.forOwn = function (object, iterator) {
 
 scope.iDOMHelpers.jsxWrapper = function (elementClosure, args) {
 	var wrapper = args ? function () {
-		return elementClosure.apply(this, args);
+		return elementClosure.apply(this, args); // eslint-disable-line
 	} : elementClosure;
 	wrapper.__jsxDOMWrapper = true;
 	return wrapper;
@@ -9598,10 +6779,10 @@ scope.iDOMHelpers.renderArbitrary = function (child) {
 };
 
 exports.default = scope.iDOMHelpers;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 50 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9613,11 +6794,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _HTMLParser = __webpack_require__(51);
+var _HTMLParser = __webpack_require__(47);
 
 var _HTMLParser2 = _interopRequireDefault(_HTMLParser);
 
-var _unescape = __webpack_require__(52);
+var _unescape = __webpack_require__(48);
 
 var _unescape2 = _interopRequireDefault(_unescape);
 
@@ -9625,7 +6806,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var parser_;
+var parser_ = void 0;
 
 var HTML2IncDom = function () {
 	function HTML2IncDom() {
@@ -9674,7 +6855,7 @@ var HTML2IncDom = function () {
 					for (var i = 0; i < attrs.length; i++) {
 						args.push(attrs[i].name, attrs[i].value);
 					}
-					fn.apply(null, args);
+					fn.apply(undefined, args);
 				},
 
 				end: function end(tag) {
@@ -9694,7 +6875,7 @@ var HTML2IncDom = function () {
    * any function that follows that same api, basically accepting the html
    * string and an object with `start`, `end` and `chars` functions to be called
    * during the parsing.
-   * @param {!function(string, !Object} newParser
+   * @param {!function(string, !Object)} newParser
    */
 
 	}, {
@@ -9710,7 +6891,7 @@ var HTML2IncDom = function () {
 exports.default = HTML2IncDom;
 
 /***/ }),
-/* 51 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9812,23 +6993,23 @@ var startTag = /^<([-A-Za-z0-9_]+)((?:\s+[a-zA-Z_:][-a-zA-Z0-9_:.]*(?:\s*=\s*(?:
     attr = /([a-zA-Z_:][-a-zA-Z0-9_:.]*)(?:\s*=\s*(?:(?:"((?:\\.|[^"])*)")|(?:'((?:\\.|[^'])*)')|([^>\s]+)))?/g;
 
 // Empty Elements - HTML 5
-var empty = makeMap("area,base,basefont,br,col,frame,hr,img,input,link,meta,param,embed,command,keygen,source,track,wbr");
+var empty = makeMap('area,base,basefont,br,col,frame,hr,img,input,link,meta,param,embed,command,keygen,source,track,wbr');
 
 // Block Elements - HTML 5
-var block = makeMap("a,address,article,applet,aside,audio,blockquote,button,canvas,center,dd,del,dir,div,dl,dt,fieldset,figcaption,figure,footer,form,frameset,h1,h2,h3,h4,h5,h6,header,hgroup,hr,iframe,ins,isindex,li,map,menu,noframes,noscript,object,ol,output,p,pre,section,script,table,tbody,td,tfoot,th,thead,tr,ul,video");
+var block = makeMap('a,address,article,applet,aside,audio,blockquote,button,canvas,center,dd,del,dir,div,dl,dt,fieldset,figcaption,figure,footer,form,frameset,h1,h2,h3,h4,h5,h6,header,hgroup,hr,iframe,ins,isindex,li,map,menu,noframes,noscript,object,ol,output,p,pre,section,script,table,tbody,td,tfoot,th,thead,tr,ul,video');
 
 // Inline Elements - HTML 5
-var inline = makeMap("abbr,acronym,applet,b,basefont,bdo,big,br,button,cite,code,del,dfn,em,font,i,iframe,img,input,ins,kbd,label,map,object,q,s,samp,script,select,small,span,strike,strong,sub,sup,textarea,tt,u,var");
+var inline = makeMap('abbr,acronym,applet,b,basefont,bdo,big,br,button,cite,code,del,dfn,em,font,i,iframe,img,input,ins,kbd,label,map,object,q,s,samp,script,select,small,span,strike,strong,sub,sup,textarea,tt,u,var');
 
 // Elements that you can, intentionally, leave open
 // (and which close themselves)
-var closeSelf = makeMap("colgroup,dd,dt,li,options,p,td,tfoot,th,thead,tr");
+var closeSelf = makeMap('colgroup,dd,dt,li,options,p,td,tfoot,th,thead,tr');
 
 // Attributes that have their values filled in disabled="disabled"
-var fillAttrs = makeMap("checked,compact,declare,defer,disabled,ismap,multiple,nohref,noresize,noshade,nowrap,readonly,selected");
+var fillAttrs = makeMap('checked,compact,declare,defer,disabled,ismap,multiple,nohref,noresize,noshade,nowrap,readonly,selected');
 
 // Special Elements (can contain anything)
-var special = makeMap("script,style");
+var special = makeMap('script,style');
 
 var HTMLParser = function HTMLParser(html, handler) {
 	var index,
@@ -9845,10 +7026,9 @@ var HTMLParser = function HTMLParser(html, handler) {
 
 		// Make sure we're not in a script or style element
 		if (!stack.last() || !special[stack.last()]) {
-
 			// Comment
-			if (html.indexOf("<!--") == 0) {
-				index = html.indexOf("-->");
+			if (html.indexOf('<!--') == 0) {
+				index = html.indexOf('-->');
 
 				if (index >= 0) {
 					if (handler.comment) handler.comment(html.substring(4, index));
@@ -9857,7 +7037,7 @@ var HTMLParser = function HTMLParser(html, handler) {
 				}
 
 				// end tag
-			} else if (html.indexOf("</") == 0) {
+			} else if (html.indexOf('</') == 0) {
 				match = html.match(endTag);
 
 				if (match) {
@@ -9867,7 +7047,7 @@ var HTMLParser = function HTMLParser(html, handler) {
 				}
 
 				// start tag
-			} else if (html.indexOf("<") == 0) {
+			} else if (html.indexOf('<') == 0) {
 				match = html.match(startTag);
 
 				if (match) {
@@ -9878,25 +7058,25 @@ var HTMLParser = function HTMLParser(html, handler) {
 			}
 
 			if (chars) {
-				index = html.indexOf("<");
+				index = html.indexOf('<');
 
 				var text = index < 0 ? html : html.substring(0, index);
-				html = index < 0 ? "" : html.substring(index);
+				html = index < 0 ? '' : html.substring(index);
 
 				if (handler.chars) handler.chars(text);
 			}
 		} else {
-			html = html.replace(new RegExp("([\\s\\S]*?)<\/" + stack.last() + "[^>]*>"), function (all, text) {
-				text = text.replace(/<!--([\s\S]*?)-->|<!\[CDATA\[([\s\S]*?)]]>/g, "$1$2");
+			html = html.replace(new RegExp('([\\s\\S]*?)</' + stack.last() + '[^>]*>'), function (all, text) {
+				text = text.replace(/<!--([\s\S]*?)-->|<!\[CDATA\[([\s\S]*?)]]>/g, '$1$2');
 				if (handler.chars) handler.chars(text);
 
-				return "";
+				return '';
 			});
 
-			parseEndTag("", stack.last());
+			parseEndTag('', stack.last());
 		}
 
-		if (html == last) throw "Parse Error: " + html;
+		if (html == last) throw 'Parse Error: ' + html;
 		last = html;
 	}
 
@@ -9912,12 +7092,12 @@ var HTMLParser = function HTMLParser(html, handler) {
 			// Note: this exception for "span" was added manually (i.e. it's not
 			// present in the original code).
 			while (stack.last() && inline[stack.last()] && stack.last() !== 'span') {
-				parseEndTag("", stack.last());
+				parseEndTag('', stack.last());
 			}
 		}
 
 		if (closeSelf[tagName] && stack.last() == tagName) {
-			parseEndTag("", tagName);
+			parseEndTag('', tagName);
 		}
 
 		unary = empty[tagName] || !!unary;
@@ -9928,12 +7108,12 @@ var HTMLParser = function HTMLParser(html, handler) {
 			var attrs = [];
 
 			rest.replace(attr, function (match, name) {
-				var value = arguments[2] ? arguments[2] : arguments[3] ? arguments[3] : arguments[4] ? arguments[4] : fillAttrs[name] ? name : "";
+				var value = arguments[2] ? arguments[2] : arguments[3] ? arguments[3] : arguments[4] ? arguments[4] : fillAttrs[name] ? name : '';
 
 				attrs.push({
 					name: name,
 					value: value,
-					escaped: value.replace(/(^|[^\\])"/g, '$1\\\"') //"
+					escaped: value.replace(/(^|[^\\])"/g, '$1\\"') //"
 				});
 			});
 
@@ -9943,10 +7123,9 @@ var HTMLParser = function HTMLParser(html, handler) {
 
 	function parseEndTag(tag, tagName) {
 		// If no tag name is provided, clean shop
-		if (!tagName) var pos = 0;
-
-		// Find the closest opened tag of the same type
-		else for (var pos = stack.length - 1; pos >= 0; pos--) {
+		if (!tagName) var pos = 0;else
+			// Find the closest opened tag of the same type
+			for (var pos = stack.length - 1; pos >= 0; pos--) {
 				if (stack[pos] == tagName) break;
 			}if (pos >= 0) {
 			// Close all the open elements, up the stack
@@ -9960,7 +7139,7 @@ var HTMLParser = function HTMLParser(html, handler) {
 
 function makeMap(str) {
 	var obj = {},
-	    items = str.split(",");
+	    items = str.split(',');
 	for (var i = 0; i < items.length; i++) {
 		obj[items[i]] = true;
 	}return obj;
@@ -9971,7 +7150,7 @@ exports.default = HTMLParser;
 /* eslint-enable */
 
 /***/ }),
-/* 52 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10000,44 +7179,44 @@ exports.default = HTMLParser;
  */
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 function unescape(str) {
-  /** @type {!Object<string, string>} */
-  var seen = { '&amp;': '&', '&lt;': '<', '&gt;': '>', '&quot;': '"' };
-  var div = document.createElement('div');
+	/** @type {!Object<string, string>} */
+	var seen = { '&amp;': '&', '&lt;': '<', '&gt;': '>', '&quot;': '"' };
+	var div = document.createElement('div');
 
-  // Match as many valid entity characters as possible. If the actual entity
-  // happens to be shorter, it will still work as innerHTML will return the
-  // trailing characters unchanged. Since the entity characters do not include
-  // open angle bracket, there is no chance of XSS from the innerHTML use.
-  // Since no whitespace is passed to innerHTML, whitespace is preserved.
-  return str.replace(HTML_ENTITY_PATTERN_, function (s, entity) {
-    // Check for cached entity.
-    var value = seen[s];
-    if (value) {
-      return value;
-    }
-    // Check for numeric entity.
-    if (entity.charAt(0) === '#') {
-      // Prefix with 0 so that hex entities (e.g. &#x10) parse as hex numbers.
-      var n = Number('0' + entity.substr(1));
-      if (!isNaN(n)) {
-        value = String.fromCharCode(n);
-      }
-    }
-    // Fall back to innerHTML otherwise.
-    if (!value) {
-      // Append a non-entity character to avoid a bug in Webkit that parses
-      // an invalid entity at the end of innerHTML text as the empty string.
-      div.innerHTML = s + ' ';
-      // Then remove the trailing character from the result.
-      value = div.firstChild.nodeValue.slice(0, -1);
-    }
-    // Cache and return.
-    seen[s] = value;
-    return value;
-  });
+	// Match as many valid entity characters as possible. If the actual entity
+	// happens to be shorter, it will still work as innerHTML will return the
+	// trailing characters unchanged. Since the entity characters do not include
+	// open angle bracket, there is no chance of XSS from the innerHTML use.
+	// Since no whitespace is passed to innerHTML, whitespace is preserved.
+	return str.replace(HTML_ENTITY_PATTERN_, function (s, entity) {
+		// Check for cached entity.
+		var value = seen[s];
+		if (value) {
+			return value;
+		}
+		// Check for numeric entity.
+		if (entity.charAt(0) === '#') {
+			// Prefix with 0 so that hex entities (e.g. &#x10) parse as hex numbers.
+			var n = Number('0' + entity.substr(1));
+			if (!isNaN(n)) {
+				value = String.fromCharCode(n);
+			}
+		}
+		// Fall back to innerHTML otherwise.
+		if (!value) {
+			// Append a non-entity character to avoid a bug in Webkit that parses
+			// an invalid entity at the end of innerHTML text as the empty string.
+			div.innerHTML = s + ' ';
+			// Then remove the trailing character from the result.
+			value = div.firstChild.nodeValue.slice(0, -1);
+		}
+		// Cache and return.
+		seen[s] = value;
+		return value;
+	});
 }
 
 exports.default = unescape;
@@ -10050,7 +7229,7 @@ exports.default = unescape;
 var HTML_ENTITY_PATTERN_ = /&([^;\s<&]+);?/g;
 
 /***/ }),
-/* 53 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10062,19 +7241,19 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-__webpack_require__(21);
+__webpack_require__(18);
 
-var _changes = __webpack_require__(22);
+var _changes = __webpack_require__(19);
 
-var _data = __webpack_require__(10);
+var _data = __webpack_require__(7);
 
-var _children = __webpack_require__(23);
+var _children = __webpack_require__(20);
 
-var _patch2 = __webpack_require__(56);
+var _patch2 = __webpack_require__(52);
 
-var _render = __webpack_require__(27);
+var _render = __webpack_require__(24);
 
-var _metalComponent = __webpack_require__(5);
+var _metalComponent = __webpack_require__(2);
 
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
@@ -10221,22 +7400,21 @@ var IncrementalDomRenderer = function (_ComponentRenderer$co) {
    * through incremental dom function calls. If the first arg is a function
    * instead of a component instance, creates and renders this function, which
    * can either be a simple incremental dom function or a component constructor.
-   * @param {!Component} component
    * @param {!Component|function()} component Can be a component instance, a
    *     simple incremental dom function or a component constructor.
-   * @param {Object|Element=} opt_dataOrElement Optional config data for the
+   * @param {Object|Element=} dataOrElement Optional config data for the
    *     function, or parent for the rendered content.
-   * @param {Element=} opt_parent Optional parent for the rendered content.
+   * @param {Element=} parent Optional parent for the rendered content.
    * @return {!Component} The rendered component's instance.
    */
 
 	}, {
 		key: 'render',
-		value: function render(component, opt_dataOrElement, opt_parent) {
+		value: function render(component, dataOrElement, parent) {
 			if (component instanceof _metalComponent.Component) {
 				this.patch(component);
 			} else {
-				return (0, _render.renderFunction)(this, component, opt_dataOrElement, opt_parent);
+				return (0, _render.renderFunction)(this, component, dataOrElement, parent);
 			}
 		}
 
@@ -10320,7 +7498,7 @@ var IncrementalDomRenderer = function (_ComponentRenderer$co) {
 				return false;
 			}
 			if (component.shouldUpdate) {
-				return component.shouldUpdate.apply(component, _toConsumableArray(this.buildShouldUpdateArgs(changes)));
+				return component.shouldUpdate.apply(component, _toConsumableArray(this.buildShouldUpdateArgs(changes))); // eslint-disable-line
 			}
 			return true;
 		}
@@ -10395,7 +7573,7 @@ renderer.RENDERER_NAME = 'incremental-dom';
 exports.default = renderer;
 
 /***/ }),
-/* 54 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11821,7 +8999,7 @@ exports.importNode = importNode;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 55 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 (function (global, factory) {
@@ -12099,7 +9277,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 
 /***/ }),
-/* 56 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12113,9 +9291,9 @@ exports.patch = patch;
 
 var _metalDom = __webpack_require__(11);
 
-var _data = __webpack_require__(10);
+var _data = __webpack_require__(7);
 
-var _render = __webpack_require__(27);
+var _render = __webpack_require__(24);
 
 var patchingComponents_ = [];
 
@@ -12123,6 +9301,7 @@ var patchingComponents_ = [];
  * Guarantees that the component's element has a parent. That's necessary
  * when calling incremental dom's `patchOuter` for now, as otherwise it will
  * throw an error if the element needs to be replaced.
+ * @param {Element} element
  * @return {Element} The parent, in case it was added.
  * @private
  */
@@ -12143,11 +9322,11 @@ function buildParentIfNecessary_(element) {
  * Calls incremental dom's patch function.
  * @param {!Component} component The component to patch.
  * @param {!Element} element The element the component should be patched on.
- * @param {boolean=} opt_outer Flag indicating if `patchOuter` should be used
+ * @param {boolean=} outer Flag indicating if `patchOuter` should be used
  *     instead of `patch`.
  * @private
  */
-function callPatch_(component, element, opt_outer) {
+function callPatch_(component, element, outer) {
 	patchingComponents_.push(component);
 
 	var data = (0, _data.getData)(component);
@@ -12156,7 +9335,7 @@ function callPatch_(component, element, opt_outer) {
 		data.render = _render.render.bind(null, component);
 	}
 
-	var patchFn = opt_outer ? IncrementalDOM.patchOuter : IncrementalDOM.patch;
+	var patchFn = outer ? IncrementalDOM.patchOuter : IncrementalDOM.patch;
 	patchFn(element, data.render);
 
 	patchingComponents_.pop();
@@ -12223,7 +9402,7 @@ function tryPatchWithNoParent_(component) {
 }
 
 /***/ }),
-/* 57 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12249,6 +9428,7 @@ exports.next = next;
 exports.on = on;
 exports.once = once;
 exports.parent = parent;
+exports.prepend = prepend;
 exports.registerCustomEvent = registerCustomEvent;
 exports.removeChildren = removeChildren;
 exports.removeClasses = removeClasses;
@@ -12264,11 +9444,11 @@ var _domData = __webpack_require__(14);
 
 var _domData2 = _interopRequireDefault(_domData);
 
-var _DomDelegatedEventHandle = __webpack_require__(58);
+var _DomDelegatedEventHandle = __webpack_require__(54);
 
 var _DomDelegatedEventHandle2 = _interopRequireDefault(_DomDelegatedEventHandle);
 
-var _DomEventHandle = __webpack_require__(25);
+var _DomEventHandle = __webpack_require__(22);
 
 var _DomEventHandle2 = _interopRequireDefault(_DomEventHandle);
 
@@ -12485,20 +9665,20 @@ function contains(element1, element2) {
  *     that should match the event for the listener to be triggered.
  * @param {!function(!Object)} callback Function to be called when the event
  *     is triggered. It will receive the normalized event object.
- * @param {boolean=} opt_default Optional flag indicating if this is a default
+ * @param {boolean=} defaultListener Optional flag indicating if this is a default
  *     listener. That means that it would only be executed after all non
  *     default listeners, and only if the event isn't prevented via
  *     `preventDefault`.
  * @return {!EventHandle} Can be used to remove the listener.
  */
-function delegate(element, eventName, selectorOrTarget, callback, opt_default) {
+function delegate(element, eventName, selectorOrTarget, callback, defaultListener) {
 	var customConfig = customEvents[eventName];
 	if (customConfig && customConfig.delegate) {
 		eventName = customConfig.originalEvent;
 		callback = customConfig.handler.bind(customConfig, callback);
 	}
 
-	if (opt_default) {
+	if (defaultListener) {
 		// Wrap callback so we don't set property directly on it.
 		callback = callback.bind();
 		callback.defaultListener_ = true;
@@ -12519,10 +9699,12 @@ function delegate(element, eventName, selectorOrTarget, callback, opt_default) {
  * simulating browsers behaviour, avoiding event listeners to be called by triggerEvent method.
  * @param {Element} node Element to be checked.
  * @param {string} eventName The event name.
+ * @param {Object=} eventObj
  * @private
+ * @return {boolean}
  */
-function isAbleToInteractWith_(node, eventName, opt_eventObj) {
-	if (opt_eventObj && eventName === 'click' && opt_eventObj.button === 2) {
+function isAbleToInteractWith_(node, eventName, eventObj) {
+	if (eventObj && eventName === 'click' && eventObj.button === 2) {
 		// Firefox triggers "click" events on the document for right clicks. This
 		// causes our delegate logic to trigger it for regular elements too, which
 		// shouldn't happen. Ignoring them here.
@@ -12674,6 +9856,7 @@ function matchFallback_(element, selector) {
  * selector, or null if there is none.
  * @param {!Element} element
  * @param {?string} selector
+ * @return {Element|null}
  */
 function next(element, selector) {
 	do {
@@ -12704,11 +9887,11 @@ function normalizeDelegateEvent_(event) {
  * @param {string} eventName The name of the event to listen to.
  * @param {!function(!Object)} callback Function to be called when the event is
  *   triggered. It will receive the normalized event object.
- * @param {boolean} opt_capture Flag indicating if listener should be triggered
+ * @param {boolean} capture Flag indicating if listener should be triggered
  *   during capture phase, instead of during the bubbling phase. Defaults to false.
  * @return {!DomEventHandle} Can be used to remove the listener.
  */
-function on(element, eventName, callback, opt_capture) {
+function on(element, eventName, callback, capture) {
 	if ((0, _metal.isString)(element)) {
 		return delegate(document, eventName, element, callback);
 	}
@@ -12717,8 +9900,8 @@ function on(element, eventName, callback, opt_capture) {
 		eventName = customConfig.originalEvent;
 		callback = customConfig.handler.bind(customConfig, callback);
 	}
-	element.addEventListener(eventName, callback, opt_capture);
-	return new _DomEventHandle2.default(element, eventName, callback, opt_capture);
+	element.addEventListener(eventName, callback, capture);
+	return new _DomEventHandle2.default(element, eventName, callback, capture);
 }
 
 /**
@@ -12734,7 +9917,7 @@ function on(element, eventName, callback, opt_capture) {
 function once(element, eventName, callback) {
 	var domEventHandle = on(element, eventName, function () {
 		domEventHandle.removeListener();
-		return callback.apply(this, arguments);
+		return callback.apply(this, arguments); // eslint-disable-line
 	});
 	return domEventHandle;
 }
@@ -12748,6 +9931,34 @@ function once(element, eventName, callback) {
  */
 function parent(element, selector) {
 	return closest(element.parentNode, selector);
+}
+
+/**
+ * Inserts a node before first child of the parent. If child is a HTML string
+ * it will be converted to document fragment before prepending it to the parent.
+ * @param {!Element} parent The node to prepend to.
+ * @param {!(Element|NodeList|string)} child The thing to prepend to the parent.
+ * @return {!Element} The prepended child.
+ */
+function prepend(parent, child) {
+	if ((0, _metal.isString)(child)) {
+		child = buildFragment(child);
+	}
+
+	if (!isNodeListLike(child) && !(0, _metal.isDefAndNotNull)(parent.firstChild)) {
+		return append(parent, child);
+	}
+
+	if (isNodeListLike(child)) {
+		var childArr = Array.prototype.slice.call(child);
+		for (var i = childArr.length - 1; i >= 0; i--) {
+			parent.insertBefore(childArr[i], parent.firstChild);
+		}
+	} else {
+		parent.insertBefore(child, parent.firstChild);
+	}
+
+	return child;
 }
 
 /**
@@ -12887,7 +10098,7 @@ function supportsEvent(element, eventName) {
 
 /**
  * This triggers all default matched delegated listeners of a given event type.
- * @param {!Array} defaultFns Array to collect default listeners in, instead
+ * @param {!Array} defFns Array to collect default listeners in, instead
  * @param {!Event} event
  * @return {boolean} False if at least one of the triggered callbacks returns
  *     false, or true otherwise.
@@ -13006,7 +10217,7 @@ function toggleClassesWithoutNative_(element, classes) {
 			elementClassName = '' + elementClassName + classes[i] + ' ';
 		} else {
 			var before = elementClassName.substring(0, classIndex);
-			var after = elementClassName.substring(classIndex + className.length);
+			var after = elementClassName.substring(classIndex + className.length); // eslint-disable-line
 			elementClassName = before + ' ' + after;
 		}
 	}
@@ -13039,15 +10250,15 @@ function triggerElementListeners_(element, event, defaultFns) {
  * NOTE: This should mostly be used for testing, not on real code.
  * @param {!Element} element The node that should trigger the event.
  * @param {string} eventName The name of the event to be triggred.
- * @param {Object=} opt_eventObj An object with data that should be on the
+ * @param {Object=} eventObj An object with data that should be on the
  *   triggered event's payload.
  */
-function triggerEvent(element, eventName, opt_eventObj) {
-	if (isAbleToInteractWith_(element, eventName, opt_eventObj)) {
-		var eventObj = document.createEvent('HTMLEvents');
-		eventObj.initEvent(eventName, true, true);
-		_metal.object.mixin(eventObj, opt_eventObj);
-		element.dispatchEvent(eventObj);
+function triggerEvent(element, eventName, eventObj) {
+	if (isAbleToInteractWith_(element, eventName, eventObj)) {
+		var payload = document.createEvent('HTMLEvents');
+		payload.initEvent(eventName, true, true);
+		_metal.object.mixin(payload, eventObj);
+		element.dispatchEvent(payload);
 	}
 }
 
@@ -13104,7 +10315,7 @@ function triggerSelectorListeners_(container, element, event, defaultFns) {
 }
 
 /***/ }),
-/* 58 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13122,7 +10333,7 @@ var _domData = __webpack_require__(14);
 
 var _domData2 = _interopRequireDefault(_domData);
 
-var _metalEvents = __webpack_require__(8);
+var _metalEvents = __webpack_require__(6);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13145,16 +10356,16 @@ var DomDelegatedEventHandle = function (_EventHandle) {
   * @param {!Event} emitter Element the event was subscribed to.
   * @param {string} event The name of the event that was subscribed to.
   * @param {!Function} listener The listener subscribed to the event.
-  * @param {string=} opt_selector An optional selector used when delegating
+  * @param {string=} selector An optional selector used when delegating
   *     the event.
   * @constructor
   */
-	function DomDelegatedEventHandle(emitter, event, listener, opt_selector) {
+	function DomDelegatedEventHandle(emitter, event, listener, selector) {
 		_classCallCheck(this, DomDelegatedEventHandle);
 
 		var _this = _possibleConstructorReturn(this, (DomDelegatedEventHandle.__proto__ || Object.getPrototypeOf(DomDelegatedEventHandle)).call(this, emitter, event, listener));
 
-		_this.selector_ = opt_selector;
+		_this.selector_ = selector;
 		return _this;
 	}
 
@@ -13185,7 +10396,7 @@ var DomDelegatedEventHandle = function (_EventHandle) {
 exports.default = DomDelegatedEventHandle;
 
 /***/ }),
-/* 59 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13199,9 +10410,9 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
-var _dom = __webpack_require__(6);
+var _dom = __webpack_require__(3);
 
-var _metalEvents = __webpack_require__(8);
+var _metalEvents = __webpack_require__(6);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -13240,7 +10451,7 @@ var DomEventEmitterProxy = function (_EventEmitterProxy) {
 					var index = event.indexOf(':', 9);
 					var eventName = event.substring(9, index);
 					var selector = event.substring(index + 1);
-					return (0, _dom.delegate)(this.originEmitter_, eventName, selector, listener);
+					return (0, _dom.delegate)(this.originEmitter_, eventName, selector, listener); // eslint-disable-line
 				} else {
 					return (0, _dom.on)(this.originEmitter_, event, listener);
 				}
@@ -13266,6 +10477,7 @@ var DomEventEmitterProxy = function (_EventEmitterProxy) {
    * Checks if the given event is supported by the origin element.
    * @param {string} event
    * @protected
+   * @return {boolean}
    */
 
 	}, {
@@ -13288,7 +10500,7 @@ var DomEventEmitterProxy = function (_EventEmitterProxy) {
 	}, {
 		key: 'shouldProxyEvent_',
 		value: function shouldProxyEvent_(event) {
-			return _get(DomEventEmitterProxy.prototype.__proto__ || Object.getPrototypeOf(DomEventEmitterProxy.prototype), 'shouldProxyEvent_', this).call(this, event) && this.isSupportedDomEvent_(event);
+			return _get(DomEventEmitterProxy.prototype.__proto__ || Object.getPrototypeOf(DomEventEmitterProxy.prototype), 'shouldProxyEvent_', this).call(this, event) && this.isSupportedDomEvent_(event); // eslint-disable-line
 		}
 	}]);
 
@@ -13298,7 +10510,7 @@ var DomEventEmitterProxy = function (_EventEmitterProxy) {
 exports.default = DomEventEmitterProxy;
 
 /***/ }),
-/* 60 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13312,7 +10524,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _metal = __webpack_require__(0);
 
-var _dom = __webpack_require__(6);
+var _dom = __webpack_require__(3);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -13330,15 +10542,15 @@ var globalEval = function () {
 		/**
    * Evaluates the given string in the global scope.
    * @param {string} text
-   * @param {function()=} opt_appendFn Optional function to append the node
+   * @param {function()=} appendFn Optional function to append the node
    *   into document.
    * @return {Element} script
    */
-		value: function run(text, opt_appendFn) {
+		value: function run(text, appendFn) {
 			var script = document.createElement('script');
 			script.text = text;
-			if (opt_appendFn) {
-				opt_appendFn(script);
+			if (appendFn) {
+				appendFn(script);
 			} else {
 				document.head.appendChild(script);
 			}
@@ -13349,28 +10561,28 @@ var globalEval = function () {
 		/**
    * Evaluates the given javascript file in the global scope.
    * @param {string} src The file's path.
-   * @param {function()=} opt_callback Optional function to be called
+   * @param {function()=} defaultFn Optional function to be called
    *   when the script has been run.
-   * @param {function()=} opt_appendFn Optional function to append the node
+   * @param {function()=} appendFn Optional function to append the node
    *   into document.
    * @return {Element} script
    */
 
 	}, {
 		key: 'runFile',
-		value: function runFile(src, opt_callback, opt_appendFn) {
+		value: function runFile(src, defaultFn, appendFn) {
 			var script = document.createElement('script');
 			script.src = src;
 
 			var callback = function callback() {
 				(0, _dom.exitDocument)(script);
-				opt_callback && opt_callback();
+				defaultFn && defaultFn();
 			};
 			(0, _dom.once)(script, 'load', callback);
 			(0, _dom.once)(script, 'error', callback);
 
-			if (opt_appendFn) {
-				opt_appendFn(script);
+			if (appendFn) {
+				appendFn(script);
 			} else {
 				document.head.appendChild(script);
 			}
@@ -13381,18 +10593,18 @@ var globalEval = function () {
 		/**
    * Evaluates the code referenced by the given script element.
    * @param {!Element} script
-   * @param {function()=} opt_callback Optional function to be called
+   * @param {function()=} defaultFn Optional function to be called
    *   when the script has been run.
-   * @param {function()=} opt_appendFn Optional function to append the node
+   * @param {function()=} appendFn Optional function to append the node
    *   into document.
    * @return {Element} script
    */
 
 	}, {
 		key: 'runScript',
-		value: function runScript(script, opt_callback, opt_appendFn) {
+		value: function runScript(script, defaultFn, appendFn) {
 			var callback = function callback() {
-				opt_callback && opt_callback();
+				defaultFn && defaultFn();
 			};
 			if (script.type && script.type !== 'text/javascript') {
 				_metal.async.nextTick(callback);
@@ -13400,30 +10612,30 @@ var globalEval = function () {
 			}
 			(0, _dom.exitDocument)(script);
 			if (script.src) {
-				return globalEval.runFile(script.src, opt_callback, opt_appendFn);
+				return globalEval.runFile(script.src, defaultFn, appendFn);
 			} else {
 				_metal.async.nextTick(callback);
-				return globalEval.run(script.text, opt_appendFn);
+				return globalEval.run(script.text, appendFn);
 			}
 		}
 
 		/**
    * Evaluates any script tags present in the given element.
    * @param {!Element} element
-   * @param {function()=} opt_callback Optional function to be called
+   * @param {function()=} defaultFn Optional function to be called
    *   when the script has been run.
-   * @param {function()=} opt_appendFn Optional function to append the node
+   * @param {function()=} appendFn Optional function to append the node
    *   into document.
    */
 
 	}, {
 		key: 'runScriptsInElement',
-		value: function runScriptsInElement(element, opt_callback, opt_appendFn) {
+		value: function runScriptsInElement(element, defaultFn, appendFn) {
 			var scripts = element.querySelectorAll('script');
 			if (scripts.length) {
-				globalEval.runScriptsInOrder(scripts, 0, opt_callback, opt_appendFn);
-			} else if (opt_callback) {
-				_metal.async.nextTick(opt_callback);
+				globalEval.runScriptsInOrder(scripts, 0, defaultFn, appendFn);
+			} else if (defaultFn) {
+				_metal.async.nextTick(defaultFn);
 			}
 		}
 
@@ -13431,22 +10643,22 @@ var globalEval = function () {
    * Runs the given scripts elements in the order that they appear.
    * @param {!NodeList} scripts
    * @param {number} index
-   * @param {function()=} opt_callback Optional function to be called
+   * @param {function()=} defaultFn Optional function to be called
    *   when the script has been run.
-   * @param {function()=} opt_appendFn Optional function to append the node
+   * @param {function()=} appendFn Optional function to append the node
    *   into document.
    */
 
 	}, {
 		key: 'runScriptsInOrder',
-		value: function runScriptsInOrder(scripts, index, opt_callback, opt_appendFn) {
+		value: function runScriptsInOrder(scripts, index, defaultFn, appendFn) {
 			globalEval.runScript(scripts.item(index), function () {
 				if (index < scripts.length - 1) {
-					globalEval.runScriptsInOrder(scripts, index + 1, opt_callback, opt_appendFn);
-				} else if (opt_callback) {
-					_metal.async.nextTick(opt_callback);
+					globalEval.runScriptsInOrder(scripts, index + 1, defaultFn, appendFn); // eslint-disable-line
+				} else if (defaultFn) {
+					_metal.async.nextTick(defaultFn);
 				}
-			}, opt_appendFn);
+			}, appendFn);
 		}
 	}]);
 
@@ -13456,7 +10668,7 @@ var globalEval = function () {
 exports.default = globalEval;
 
 /***/ }),
-/* 61 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13470,7 +10682,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _metal = __webpack_require__(0);
 
-var _dom = __webpack_require__(6);
+var _dom = __webpack_require__(3);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -13488,15 +10700,15 @@ var globalEvalStyles = function () {
 		/**
    * Evaluates the given style.
    * @param {string} text
-   * @param {function()=} opt_appendFn Optional function to append the node
+   * @param {function()=} appendFn Optional function to append the node
    *   into document.
    * @return {Element} style
    */
-		value: function run(text, opt_appendFn) {
+		value: function run(text, appendFn) {
 			var style = document.createElement('style');
 			style.innerHTML = text;
-			if (opt_appendFn) {
-				opt_appendFn(style);
+			if (appendFn) {
+				appendFn(style);
 			} else {
 				document.head.appendChild(style);
 			}
@@ -13506,38 +10718,38 @@ var globalEvalStyles = function () {
 		/**
    * Evaluates the given style file.
    * @param {string} href The file's path.
-   * @param {function()=} opt_callback Optional function to be called
+   * @param {function()=} defaultFn Optional function to be called
    *   when the styles has been run.
-   * @param {function()=} opt_appendFn Optional function to append the node
+   * @param {function()=} appendFn Optional function to append the node
    *   into document.
    * @return {Element} style
    */
 
 	}, {
 		key: 'runFile',
-		value: function runFile(href, opt_callback, opt_appendFn) {
+		value: function runFile(href, defaultFn, appendFn) {
 			var link = document.createElement('link');
 			link.rel = 'stylesheet';
 			link.href = href;
-			globalEvalStyles.runStyle(link, opt_callback, opt_appendFn);
+			globalEvalStyles.runStyle(link, defaultFn, appendFn);
 			return link;
 		}
 
 		/**
    * Evaluates the code referenced by the given style/link element.
    * @param {!Element} style
-   * @param {function()=} opt_callback Optional function to be called
+   * @param {function()=} defaultFn Optional function to be called
    *   when the script has been run.
-   * @param {function()=} opt_appendFn Optional function to append the node
+   * @param {function()=} appendFn Optional function to append the node
    *   into document.
    *  @return {Element} style
    */
 
 	}, {
 		key: 'runStyle',
-		value: function runStyle(style, opt_callback, opt_appendFn) {
+		value: function runStyle(style, defaultFn, appendFn) {
 			var callback = function callback() {
-				opt_callback && opt_callback();
+				defaultFn && defaultFn();
 			};
 			if (style.rel && style.rel !== 'stylesheet') {
 				_metal.async.nextTick(callback);
@@ -13551,8 +10763,8 @@ var globalEvalStyles = function () {
 				(0, _dom.once)(style, 'error', callback);
 			}
 
-			if (opt_appendFn) {
-				opt_appendFn(style);
+			if (appendFn) {
+				appendFn(style);
 			} else {
 				document.head.appendChild(style);
 			}
@@ -13563,29 +10775,29 @@ var globalEvalStyles = function () {
 		/**
    * Evaluates any style present in the given element.
    * @param {!Element} element
-   * @param {function()=} opt_callback Optional function to be called when the
+   * @param {function()=} defaultFn Optional function to be called when the
    *   style has been run.
-   * @param {function()=} opt_appendFn Optional function to append the node
+   * @param {function()=} appendFn Optional function to append the node
    *   into document.
    */
 
 	}, {
 		key: 'runStylesInElement',
-		value: function runStylesInElement(element, opt_callback, opt_appendFn) {
+		value: function runStylesInElement(element, defaultFn, appendFn) {
 			var styles = element.querySelectorAll('style,link');
-			if (styles.length === 0 && opt_callback) {
-				_metal.async.nextTick(opt_callback);
+			if (styles.length === 0 && defaultFn) {
+				_metal.async.nextTick(defaultFn);
 				return;
 			}
 
 			var loadCount = 0;
 			var callback = function callback() {
-				if (opt_callback && ++loadCount === styles.length) {
-					_metal.async.nextTick(opt_callback);
+				if (defaultFn && ++loadCount === styles.length) {
+					_metal.async.nextTick(defaultFn);
 				}
 			};
 			for (var i = 0; i < styles.length; i++) {
-				globalEvalStyles.runStyle(styles[i], callback, opt_appendFn);
+				globalEvalStyles.runStyle(styles[i], callback, appendFn);
 			}
 		}
 	}]);
@@ -13596,7 +10808,7 @@ var globalEvalStyles = function () {
 exports.default = globalEvalStyles;
 
 /***/ }),
-/* 62 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13604,9 +10816,9 @@ exports.default = globalEvalStyles;
 
 var _metal = __webpack_require__(0);
 
-var _dom = __webpack_require__(6);
+var _dom = __webpack_require__(3);
 
-var _features = __webpack_require__(26);
+var _features = __webpack_require__(23);
 
 var _features2 = _interopRequireDefault(_features);
 
@@ -13628,6 +10840,7 @@ function registerEvents() {
 			handler: function handler(callback, event) {
 				var related = event.relatedTarget;
 				var target = event.delegateTarget;
+				// eslint-disable-next-line
 				if (!related || related !== target && !(0, _dom.contains)(target, related)) {
 					event.customType = eventName;
 					return callback(event);
@@ -13660,7 +10873,7 @@ if (!(0, _metal.isServerSide)()) {
 }
 
 /***/ }),
-/* 63 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13676,7 +10889,7 @@ var _metal = __webpack_require__(0);
 
 var _metalDom = __webpack_require__(11);
 
-var _metalComponent = __webpack_require__(5);
+var _metalComponent = __webpack_require__(2);
 
 var _incrementalDomAop = __webpack_require__(13);
 
@@ -13849,7 +11062,7 @@ function setValueAttrAsProperty_(element, name, value) {
 }
 
 /***/ }),
-/* 64 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13863,23 +11076,23 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
-var _events = __webpack_require__(28);
+var _events = __webpack_require__(25);
 
 var _metal = __webpack_require__(0);
 
-var _sync = __webpack_require__(65);
+var _sync = __webpack_require__(61);
 
 var _metalDom = __webpack_require__(11);
 
-var _ComponentDataManager = __webpack_require__(29);
+var _ComponentDataManager = __webpack_require__(26);
 
 var _ComponentDataManager2 = _interopRequireDefault(_ComponentDataManager);
 
-var _ComponentRenderer = __webpack_require__(30);
+var _ComponentRenderer = __webpack_require__(27);
 
 var _ComponentRenderer2 = _interopRequireDefault(_ComponentRenderer);
 
-var _metalEvents = __webpack_require__(8);
+var _metalEvents = __webpack_require__(6);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13960,15 +11173,15 @@ var Component = function (_EventEmitter) {
 
 	/**
   * Constructor function for `Component`.
-  * @param {Object=} opt_config An object with the initial values for this
+  * @param {Object=} config An object with the initial values for this
   *     component's state.
-  * @param {boolean|string|Element=} opt_parentElement The element where the
+  * @param {boolean|string|Element=} parentElement The element where the
   *     component should be rendered. Can be given as a selector or an element.
   *     If `false` is passed, the component won't be rendered automatically
   *     after created.
   * @constructor
   */
-	function Component(opt_config, opt_parentElement) {
+	function Component(config, parentElement) {
 		_classCallCheck(this, Component);
 
 		/**
@@ -14006,7 +11219,7 @@ var Component = function (_EventEmitter) {
    * @type {!Object}
    * @protected
    */
-		_this.initialConfig_ = opt_config || {};
+		_this.initialConfig_ = config || {};
 
 		/**
    * Whether the element was rendered.
@@ -14036,8 +11249,8 @@ var Component = function (_EventEmitter) {
 
 		_this.created();
 		_this.componentCreated_ = true;
-		if (opt_parentElement !== false) {
-			_this.renderComponent(opt_parentElement);
+		if (parentElement !== false) {
+			_this.renderComponent(parentElement);
 		}
 		return _this;
 	}
@@ -14072,26 +11285,27 @@ var Component = function (_EventEmitter) {
    * appended to the DOM and any other action to be performed must be
    * implemented in this method, such as, binding DOM events. A component can
    * be re-attached multiple times.
-   * @param {(string|Element)=} opt_parentElement Optional parent element
+   * @param {(string|Element)=} parentElement Optional parent element
    *     to render the component.
-   * @param {(string|Element)=} opt_siblingElement Optional sibling element
+   * @param {(string|Element)=} siblingElement Optional sibling element
    *     to render the component before it. Relevant when the component needs
    *     to be rendered before an existing element in the DOM.
    * @protected
    * @chainable
+   * @return {Component}
    */
 
 	}, {
 		key: 'attach',
-		value: function attach(opt_parentElement, opt_siblingElement) {
+		value: function attach(parentElement, siblingElement) {
 			if (!this.inDocument) {
 				this.emit('willAttach');
 				this.willAttach();
-				this.attachElement(opt_parentElement, opt_siblingElement);
+				this.attachElement(parentElement, siblingElement);
 				this.inDocument = true;
 				this.attachData_ = {
-					parent: opt_parentElement,
-					sibling: opt_siblingElement
+					parent: parentElement,
+					sibling: siblingElement
 				};
 				this.emit('attached', this.attachData_);
 				this.attached();
@@ -14113,9 +11327,9 @@ var Component = function (_EventEmitter) {
 
 		/**
    * Attaches the component element into the DOM.
-   * @param {(string|Element)=} opt_parentElement Optional parent element
+   * @param {(string|Element)=} parentElement Optional parent element
    *     to render the component.
-   * @param {(string|Element)=} opt_siblingElement Optional sibling element
+   * @param {(string|Element)=} siblingElement Optional sibling element
    *     to render the component before it. Relevant when the component needs
    *     to be rendered before an existing element in the DOM, e.g.
    *     `component.attach(null, existingElement)`.
@@ -14123,11 +11337,11 @@ var Component = function (_EventEmitter) {
 
 	}, {
 		key: 'attachElement',
-		value: function attachElement(opt_parentElement, opt_siblingElement) {
+		value: function attachElement(parentElement, siblingElement) {
 			var element = this.element;
-			if (element && (opt_siblingElement || !element.parentNode)) {
-				var parent = (0, _metalDom.toElement)(opt_parentElement) || this.DEFAULT_ELEMENT_PARENT;
-				parent.insertBefore(element, (0, _metalDom.toElement)(opt_siblingElement));
+			if (element && (siblingElement || !element.parentNode)) {
+				var parent = (0, _metalDom.toElement)(parentElement) || this.DEFAULT_ELEMENT_PARENT; // eslint-disable-line
+				parent.insertBefore(element, (0, _metalDom.toElement)(siblingElement));
 			}
 		}
 
@@ -14162,6 +11376,7 @@ var Component = function (_EventEmitter) {
    * implemented in this method, such as, unbinding DOM events. A component
    * can be detached multiple times.
    * @chainable
+   * @return {Component}
    */
 
 	}, {
@@ -14210,6 +11425,7 @@ var Component = function (_EventEmitter) {
 		value: function disposeInternal() {
 			this.detach();
 			this.disposed();
+			this.emit('disposed');
 
 			this.elementEventProxy_.dispose();
 			this.elementEventProxy_ = null;
@@ -14226,12 +11442,13 @@ var Component = function (_EventEmitter) {
 		/**
    * Forces an update that ignores the `shouldUpdate` lifecycle method for
    * components whose render depends on external variables.
+   * @param {function()} callback
    */
 
 	}, {
 		key: 'forceUpdate',
-		value: function forceUpdate(opt_callback) {
-			this.forceUpdateCallback_ = opt_callback;
+		value: function forceUpdate(callback) {
+			this.forceUpdateCallback_ = callback;
 
 			this.updateRenderer_({
 				forceUpdate: true
@@ -14454,9 +11671,9 @@ var Component = function (_EventEmitter) {
    * will always make sure that the constructor runs without rendering the
    * component, having the `render` step happen only after it has finished.
    * @param {!function()} Ctor The component's constructor function.
-   * @param {Object|Element=} opt_configOrElement Optional config data or parent
+   * @param {Object|Element=} configOrElement Optional config data or parent
    *     for the component.
-   * @param {Element=} opt_element Optional parent for the component.
+   * @param {Element=} element Optional parent for the component.
    * @return {!Component} The rendered component's instance.
    */
 
@@ -14467,12 +11684,12 @@ var Component = function (_EventEmitter) {
 		/**
    * Renders the component into the DOM via its `ComponentRenderer`. Stores the
    * given parent element to be used when the renderer is done (`informRendered`).
-   * @param {(string|Element|boolean)=} opt_parentElement Optional parent element
+   * @param {(string|Element|boolean)=} parentElement Optional parent element
    *     to render the component. If set to `false`, the element won't be
    *     attached to any element after rendering. In this case, `attach` should
    *     be called manually later to actually attach it to the dom.
    */
-		value: function renderComponent(opt_parentElement) {
+		value: function renderComponent(parentElement) {
 			if (!this.hasRendererRendered_) {
 				if (!(0, _metal.isServerSide)() && window.__METAL_DEV_TOOLS_HOOK__) {
 					window.__METAL_DEV_TOOLS_HOOK__(this);
@@ -14481,7 +11698,7 @@ var Component = function (_EventEmitter) {
 			}
 			this.emit('render');
 			(0, _sync.syncState)(this);
-			this.attach(opt_parentElement);
+			this.attach(parentElement);
 			this.wasRendered = true;
 		}
 
@@ -14496,13 +11713,13 @@ var Component = function (_EventEmitter) {
 
 		/**
    * Sets the value of all the specified state keys.
-   * @param {!Object.<string,*>} values A map of state keys to the values they
+   * @param {!Object.<string,*>} state A map of state keys to the values they
    *   should be set to.
-   * @param {function()=} opt_callback An optional function that will be run
+   * @param {function()=} callback An optional function that will be run
    *   after the next batched update is triggered.
    */
-		value: function setState(state, opt_callback) {
-			this.dataManager_.setState(this, state, opt_callback);
+		value: function setState(state, callback) {
+			this.dataManager_.setState(this, state, callback);
 		}
 
 		/**
@@ -14532,7 +11749,8 @@ var Component = function (_EventEmitter) {
 		key: 'setUpDataManager_',
 		value: function setUpDataManager_() {
 			this.dataManager_ = (0, _metal.getStaticProperty)(this.constructor, 'DATA_MANAGER');
-			this.dataManager_.setUp(this, _metal.object.mixin({}, this.renderer_.getExtraDataConfig(this), Component.DATA));
+			this.dataManager_.setUp(this, _metal.object.mixin({}, this.renderer_.getExtraDataConfig(this), Component.DATA) // eslint-disable-line
+			);
 		}
 
 		/**
@@ -14698,12 +11916,11 @@ var Component = function (_EventEmitter) {
 		}
 	}, {
 		key: 'render',
-		value: function render(Ctor, opt_configOrElement, opt_element) {
-			var config = opt_configOrElement;
-			var element = opt_element;
-			if ((0, _metal.isElement)(opt_configOrElement)) {
+		value: function render(Ctor, configOrElement, element) {
+			var config = configOrElement;
+			if ((0, _metal.isElement)(configOrElement)) {
 				config = null;
-				element = opt_configOrElement;
+				element = configOrElement;
 			}
 			var instance = new Ctor(config, false);
 			instance.renderComponent(element);
@@ -14716,14 +11933,14 @@ var Component = function (_EventEmitter) {
    * rendering the component, having the `render` step happen only after it
    * has finished.
    * @param {!function()} Ctor The component's constructor function.
-   * @param {Object|Element=} opt_configOrElement Optional config data or
+   * @param {Object|Element=} configOrElement Optional config data or
    *     parent for the component.
    * @return {!String} The rendered component's content as string.
    */
 
 	}, {
 		key: 'renderToString',
-		value: function renderToString(Ctor, opt_config) {
+		value: function renderToString(Ctor, configOrElement) {
 			var rendererName = Ctor.RENDERER && Ctor.RENDERER.RENDERER_NAME;
 			switch (rendererName) {
 				case 'jsx':
@@ -14741,12 +11958,12 @@ var Component = function (_EventEmitter) {
 						var interceptedComponentStrings = [];
 						var patch = IncrementalDOM.patch;
 						var patchInterceptor = function patchInterceptor() {
-							var currentElement = patch.apply(null, arguments);
+							var currentElement = patch.apply(undefined, arguments);
 							interceptedComponentStrings.push(currentElement.innerHTML);
 							IncrementalDOM.patch = patch;
 						};
 						IncrementalDOM.patch = patchInterceptor;
-						Component.render(Ctor, opt_config).dispose();
+						Component.render(Ctor, configOrElement).dispose();
 						return interceptedComponentStrings[0];
 					}
 				default:
@@ -14858,7 +12075,7 @@ var proxyBlackList_ = {
 exports.default = Component;
 
 /***/ }),
-/* 65 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14910,16 +12127,16 @@ function getSyncFns_(component) {
 /**
  * Calls "sync" functions for the given component's state.
  * @param {!Component} component
- * @param {Object=} opt_changes When given, only the properties inside it will
+ * @param {Object=} changes When given, only the properties inside it will
  *     be synced. Otherwise all state properties will be synced.
  */
-function syncState(component, opt_changes) {
+function syncState(component, changes) {
 	var syncFns = getSyncFns_(component);
-	var keys = Object.keys(opt_changes || syncFns);
+	var keys = Object.keys(changes || syncFns);
 	for (var i = 0; i < keys.length; i++) {
 		var fn = syncFns[keys[i]];
 		if ((0, _metal.isFunction)(fn)) {
-			var change = opt_changes && opt_changes[keys[i]];
+			var change = changes && changes[keys[i]];
 			var manager = component.getDataManager();
 			fn.call(component, change ? change.newVal : manager.get(component, keys[i]), change ? change.prevVal : undefined);
 		}
@@ -14927,7 +12144,7 @@ function syncState(component, opt_changes) {
 }
 
 /***/ }),
-/* 66 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14974,7 +12191,7 @@ var ComponentRegistry = function () {
 		/**
    * Registers a component, so it can be found by its name.
    * @param {!Function} constructorFn The component's constructor function.
-   * @param {string=} opt_name Name of the registered component. If none is given
+   * @param {string=} name Name of the registered component. If none is given
    *   the name defined by the NAME static variable will be used instead. If that
    *   isn't set as well, the name of the constructor function will be used.
    * @static
@@ -14982,8 +12199,7 @@ var ComponentRegistry = function () {
 
 	}, {
 		key: 'register',
-		value: function register(constructorFn, opt_name) {
-			var name = opt_name;
+		value: function register(constructorFn, name) {
 			if (!name) {
 				if (constructorFn.hasOwnProperty('NAME')) {
 					name = constructorFn.NAME;
@@ -15012,7 +12228,7 @@ ComponentRegistry.components_ = {};
 exports.default = ComponentRegistry;
 
 /***/ }),
-/* 67 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15024,7 +12240,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.disposeUnused = disposeUnused;
 exports.schedule = schedule;
 
-var _data = __webpack_require__(10);
+var _data = __webpack_require__(7);
 
 var comps_ = [];
 var disposing_ = false;
@@ -15067,7 +12283,7 @@ function schedule(comps) {
 }
 
 /***/ }),
-/* 68 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15081,7 +12297,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _metal = __webpack_require__(0);
 
-var _metalComponent = __webpack_require__(5);
+var _metalComponent = __webpack_require__(2);
 
 var _metalState = __webpack_require__(1);
 
@@ -15095,6 +12311,9 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+/**
+ * DataManager for JSX
+ */
 var JSXDataManager = function (_ComponentDataManager) {
 	_inherits(JSXDataManager, _ComponentDataManager);
 
@@ -15220,7 +12439,7 @@ var JSXDataManager = function (_ComponentDataManager) {
 			}
 
 			var props = this.getManagerData(component).props_;
-			_metalComponent.ComponentDataManager.replaceNonInternal.call(this, component, data, props);
+			_metalComponent.ComponentDataManager.replaceNonInternal.call(this, component, data, props); // eslint-disable-line
 			this.addUnconfiguredProps_(component, props, data);
 			if (component.propsChanged) {
 				component.propsChanged(prevProps);
@@ -15232,6 +12451,2957 @@ var JSXDataManager = function (_ComponentDataManager) {
 }(_metalComponent.ComponentDataManager.constructor);
 
 exports.default = new JSXDataManager();
+
+/***/ }),
+/* 65 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports.ChartBase = exports.d3 = exports.bb = undefined;
+
+var _types = __webpack_require__(5);
+
+var _types2 = _interopRequireDefault(_types);
+
+var _metalState = __webpack_require__(1);
+
+var _billboard = __webpack_require__(71);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var PROP_NAME_MAP = {
+	axis: 'axes',
+	class: 'classes',
+	color: 'colors',
+	name: 'names',
+	regions: 'regions',
+	type: 'types',
+	x: 'xs'
+};
+
+var DEFAULT_COLORS = ['#4B9BFF', '#FFD76E', '#FF5F5F', '#9CE269', '#AF78FF', '#50D2A0', '#FF73C3', '#FFB64E', '#5FC8FF'];
+
+/**
+ * Chart Base prototype.
+ *
+ * @mixin
+ */
+var ChartBase = {
+	/**
+  * @inheritDoc
+  */
+	attached: function attached() {
+		var config = this.constructChartConfig_();
+
+		this.bbChart = _billboard.bb.generate(config);
+
+		this.on('columnsChanged', this.handleColumnsChanged_.bind(this));
+		this.on('groupsChanged', this.handleGroupsChanged_.bind(this));
+		this.on('loadingChanged', this.handleLoadingChanged_.bind(this));
+		this.on('regionsChanged', this.handleRegionsChanged_.bind(this));
+		this.on('sizeChanged', this.handleSizeChanged_.bind(this));
+		this.on('typeChanged', this.handleTypeChanged_.bind(this));
+		this.on('xChanged', this.handleXChanged_.bind(this));
+	},
+
+	/**
+  * @inheritDoc
+  */
+	shouldUpdate: function shouldUpdate() {
+		return false;
+	},
+
+
+	/**
+  * Constructs `axis` billboard config property.
+  * @return {Object}
+  * @protected
+  */
+	constructAxisConfig_: function constructAxisConfig_() {
+		var state = this.getStateObj_();
+
+		return {
+			rotated: state.axisRotated,
+			x: state.axisX,
+			y2: state.axisY2,
+			y: state.axisY
+		};
+	},
+
+	/**
+  * Constructs config object for `bb.generate` method.
+  * @return {Object}
+  * @protected
+  */
+	constructChartConfig_: function constructChartConfig_() {
+		var state = this.getStateObj_();
+
+		var axis = this.constructAxisConfig_();
+		var data = this.constructDataConfig_();
+		var zoom = this.constructZoomConfig_();
+
+		var config = {
+			area: state.area,
+			axis: axis,
+			bindto: this.refs.chart,
+			color: state.color,
+			data: data,
+			grid: state.grid,
+			legend: state.legend,
+			line: state.line,
+			loading: state.loading,
+			padding: state.padding,
+			pie: state.pie,
+			point: state.point,
+			regions: state.regions,
+			resize: state.resizeAuto,
+			size: state.size,
+			spline: state.splineInterpolationType,
+			subchart: state.subchart,
+			svg: state.svgClassname,
+			title: state.title,
+			tooltip: state.tooltip,
+			transition: state.transitionDuration,
+			zoom: zoom
+		};
+
+		/**
+   * Chart init event.
+   * @event chartInit
+   * @memberof ChartBase
+   */
+		config.oninit = this.emitChartEvent_.bind(this, 'chartInit');
+		/**
+   * Chart mouse out event.
+   * @event chartMouseout
+   * @memberof ChartBase
+   */
+		config.onout = this.emitChartEvent_.bind(this, 'chartMouseout');
+		/**
+   * Chart mouse over event.
+   * @event chartMouseover
+   * @memberof ChartBase
+   */
+		config.onover = this.emitChartEvent_.bind(this, 'chartMouseover');
+		/**
+   * Chart rendered event.
+   * @event chartRendered
+   * @memberof ChartBase
+   */
+		config.onrendered = this.emitChartEvent_.bind(this, 'chartRendered');
+		/**
+   * Chart resize event.
+   * @event chartResize
+   * @memberof ChartBase
+   */
+		config.onresize = this.emitChartEvent_.bind(this, 'chartResize');
+		/**
+   * Chart resized event.
+   * @event chartResized
+   * @memberof ChartBase
+   */
+		config.onresized = this.emitChartEvent_.bind(this, 'chartResized');
+
+		return config;
+	},
+
+	/**
+  * Constructs various `data` billboard properties from columns state.
+  * @return {Object}
+  * @protected
+  */
+	constructColumnsConfig_: function constructColumnsConfig_() {
+		var _getStateObj_ = this.getStateObj_(),
+		    columns = _getStateObj_.columns;
+
+		var config = {
+			columns: this.createColumnsArray_(columns)
+		};
+
+		for (var i = 0; i < columns.length; i++) {
+			var column = columns[i];
+
+			var id = column.id;
+
+
+			var keys = Object.keys(column);
+
+			for (var j = 0; j < keys.length; j++) {
+				var key = keys[j];
+
+				if (key === 'data' || key === 'id') {
+					continue;
+				}
+
+				if (key === 'hide') {
+					config.hide = config.hide || [];
+
+					if (column.hide) {
+						config.hide.push(column.id);
+					}
+				} else {
+					// eslint-disable-next-line
+					config[PROP_NAME_MAP[key]] = config[PROP_NAME_MAP[key]] || {};
+
+					config[PROP_NAME_MAP[key]][id] = column[key];
+				}
+			}
+		}
+
+		return config;
+	},
+
+	/**
+  * Constructs `data` billboard config property.
+  * @param {boolean} attachListeners
+  * @return {Object}
+  * @protected
+  */
+	constructDataConfig_: function constructDataConfig_() {
+		var attachListeners = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : true;
+
+		var state = this.getStateObj_();
+
+		var config = {
+			color: state.colorFormatter,
+			colors: state.colors,
+			empty: state.emptyLabelText,
+			groups: state.groups,
+			hide: state.hide,
+			json: state.json,
+			keys: state.keys,
+			labels: state.labels,
+			mimeType: state.mimeType,
+			order: state.order,
+			rows: state.rows,
+			selection: state.selection,
+			type: state.type,
+			url: state.url,
+			x: state.x,
+			xFormat: state.xFormat,
+			xLocaltime: state.xLocaltime,
+			xSort: state.xSort,
+			xs: state.xs
+		};
+
+		var columnsConfig = this.constructColumnsConfig_();
+
+		Object.assign(config, columnsConfig);
+
+		if (attachListeners) {
+			/**
+    * Point click event.
+    * @event pointClick
+    * @memberof ChartBase
+    */
+			config.onclick = this.emitChartEvent_.bind(this, 'pointClick');
+			/**
+    * Point mouse out event.
+    * @event pointMouseout
+    * @memberof ChartBase
+    */
+			config.onout = this.emitChartEvent_.bind(this, 'pointMouseout');
+			/**
+    * Point mouse over event.
+    * @event pointMouseoever
+    * @memberof ChartBase
+    */
+			config.onover = this.emitChartEvent_.bind(this, 'pointMouseover');
+			/**
+    * Data select event.
+    * @event dataSelect
+    * @memberof ChartBase
+    */
+			config.onselect = this.emitChartEvent_.bind(this, 'dataSelect');
+			/**
+    * Data unselected event.
+    * @event dataUnselected
+    * @memberof ChartBase
+    */
+			config.onunselected = this.emitChartEvent_.bind(this, 'dataUnselected');
+		}
+
+		return config;
+	},
+
+	/**
+  * Constructs `zoom` billboard config property.
+  * @return {Object}
+  * @protected
+  */
+	constructZoomConfig_: function constructZoomConfig_() {
+		var state = this.getStateObj_();
+
+		var zoom = state.zoom;
+
+		var config = zoom || {};
+
+		/**
+   * Zoom event.
+   * @event zoom
+   * @memberof ChartBase
+   */
+		config.onzoom = this.emitChartEvent_.bind(this, 'zoom');
+		/**
+   * Zoom end event.
+   * @event zoomEnd
+   * @memberof ChartBase
+   */
+		config.onzoomend = this.emitChartEvent_.bind(this, 'zoomEnd');
+		/**
+   * Zoom start event.
+   * @event zoomStart
+   * @memberof ChartBase
+   */
+		config.onzoomstart = this.emitChartEvent_.bind(this, 'zoomStart');
+
+		return config;
+	},
+
+	/**
+  * Converts `columns` state into consumable array for billboard.js
+  * @param {Array} columns
+  * @return {Array}
+  * @protected
+  */
+	createColumnsArray_: function createColumnsArray_(columns) {
+		return columns.map(function (_ref) {
+			var data = _ref.data,
+			    id = _ref.id;
+
+			return [id].concat(data);
+		});
+	},
+
+	/**
+  * Emits event based on arguments array.
+  * @protected
+  */
+	emitChartEvent_: function emitChartEvent_() {
+		this.emit.apply(this, arguments); // eslint-disable-line
+	},
+
+	/**
+  * Gets column by column id.
+  * @param {string} id column id
+  * @return {?Object}
+  * @protected
+  */
+	getColumn_: function getColumn_(id) {
+		return this.columns.find(function (column) {
+			return column.id === id;
+		});
+	},
+
+	/**
+  * Retrieves state object, used to allow JSX implementation.
+  * @return {Object}
+  * @protected
+  */
+	getStateObj_: function getStateObj_() {
+		return this;
+	},
+
+	/**
+  * Maps `columns` state to chart via `bb.load` method.
+  * @protected
+  */
+	handleColumnsChanged_: function handleColumnsChanged_(_ref2) {
+		var prevVal = _ref2.prevVal;
+
+		var data = this.constructDataConfig_(false);
+
+		var newVal = data.columns;
+		prevVal = this.createColumnsArray_(prevVal);
+
+		var removedIds = this.resolveRemovedColumns_(newVal, prevVal);
+
+		if (removedIds.length) {
+			data.unload = removedIds;
+		}
+
+		this.bbChart.load(data);
+
+		if (data.xs) {
+			this.bbChart.xs(this.mapXSValues_(data.xs));
+		}
+	},
+
+	/**
+  * Maps `groups` state to chart via `bb.groups` method.
+  * @protected
+  */
+	handleGroupsChanged_: function handleGroupsChanged_(_ref3) {
+		var newVal = _ref3.newVal;
+
+		this.bbChart.groups(newVal);
+	},
+
+	/**
+  * Handles `loading` state.
+  * @protected
+  */
+	handleLoadingChanged_: function handleLoadingChanged_(_ref4) {
+		var newVal = _ref4.newVal;
+
+		if (!newVal) {
+			this.refs.chart.removeAttribute('hidden');
+			this.refs.placeholder.setAttribute('hidden', 'hidden');
+		} else {
+			this.refs.chart.setAttribute('hidden', 'hidden');
+			this.refs.placeholder.removeAttribute('hidden');
+		}
+	},
+
+	/**
+  * Maps `regions` state to chart via `bb.regions` method.
+  * @protected
+  */
+	handleRegionsChanged_: function handleRegionsChanged_(_ref5) {
+		var newVal = _ref5.newVal;
+
+		this.bbChart.regions(newVal);
+	},
+
+	/**
+  * Maps `size` state to chart via `bb.resize` method.
+  * @protected
+  */
+	handleSizeChanged_: function handleSizeChanged_(_ref6) {
+		var newVal = _ref6.newVal;
+
+		this.bbChart.resize(newVal);
+	},
+
+	/**
+  * Maps `type` state to chart via `bb.transform` method.
+  * @protected
+  */
+	handleTypeChanged_: function handleTypeChanged_(_ref7) {
+		var newVal = _ref7.newVal;
+
+		this.bbChart.transform(newVal);
+	},
+
+	/**
+  * Maps `x` state to chart via `bb.x` method.
+  * @protected
+  */
+	handleXChanged_: function handleXChanged_(_ref8) {
+		var newVal = _ref8.newVal;
+
+		var column = this.getColumn_(newVal);
+
+		this.bbChart.x(column.data);
+	},
+
+	/**
+  * Maps xs value to data points.
+  * @param {Object} xs
+  * @return {Object}
+  * @protected
+  */
+	mapXSValues_: function mapXSValues_(xs) {
+		var _this = this;
+
+		return Object.keys(xs).reduce(function (xsValues, key) {
+			var value = xs[key];
+
+			var xColumn = _this.getColumn_(value);
+
+			xsValues[key] = xColumn.data;
+
+			return xsValues;
+		}, {});
+	},
+
+	/**
+  * Determines which ids should be passed to the unload property.
+  * @static
+  * @param {Array} newColumns
+  * @param {Array} prevColumns
+  * @return {Array}
+  */
+	resolveRemovedColumns_: function resolveRemovedColumns_(newColumns, prevColumns) {
+		var ids = newColumns.map(function (column) {
+			return column[0];
+		});
+
+		return prevColumns.reduce(function (removedIds, column) {
+			var id = column[0];
+
+			if (ids.indexOf(id) === -1) {
+				removedIds.push(id);
+			}
+
+			return removedIds;
+		}, []);
+	}
+};
+
+/**
+ * State definition.
+ * @static
+ * @type {!Object}
+ */
+ChartBase.STATE = {
+	/**
+  * Data that will be rendered to the chart.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	area: _metalState.Config.shapeOf({
+		above: _metalState.Config.bool().value(false),
+		zerobased: _metalState.Config.bool().value(true)
+	}),
+
+	/**
+  * Switches the x and y axis.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	axisRotated: _metalState.Config.bool(),
+
+	/**
+  * Styling and behavior of x axis.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	axisX: _metalState.Config.shapeOf({
+		categories: _metalState.Config.array(),
+		extent: _metalState.Config.array(),
+		height: _metalState.Config.number(),
+		label: _metalState.Config.object().string(),
+		localtime: _metalState.Config.bool(),
+		max: _metalState.Config.number(),
+		min: _metalState.Config.number(),
+		padding: _metalState.Config.object(),
+		show: _metalState.Config.bool(),
+		tick: _metalState.Config.shapeOf({
+			centered: _metalState.Config.bool(),
+			count: _metalState.Config.number(),
+			culling: _metalState.Config.bool().shapeOf({
+				max: _metalState.Config.number()
+			}),
+			fit: _metalState.Config.bool(),
+			format: _metalState.Config.func(),
+			multiline: _metalState.Config.bool(),
+			outer: _metalState.Config.bool(),
+			rotate: _metalState.Config.number(),
+			values: _metalState.Config.array(),
+			width: _metalState.Config.number()
+		}),
+		type: _metalState.Config.oneOf(['category', 'indexed', 'timeseries'])
+	}),
+
+	/**
+  * Styling and behavior of y2 axis.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	axisY2: _metalState.Config.shapeOf({
+		center: _metalState.Config.number(),
+		default: _metalState.Config.array(),
+		inner: _metalState.Config.bool(),
+		inverted: _metalState.Config.bool(),
+		label: _metalState.Config.object().string(),
+		max: _metalState.Config.number(),
+		min: _metalState.Config.number(),
+		padding: _metalState.Config.number(),
+		show: _metalState.Config.bool(),
+		tick: _metalState.Config.shapeOf({
+			count: _metalState.Config.number(),
+			format: _metalState.Config.func(),
+			outer: _metalState.Config.bool(),
+			values: _metalState.Config.array()
+		})
+	}),
+
+	/**
+  * Styling and behavior of y axis.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	axisY: _metalState.Config.shapeOf({
+		center: _metalState.Config.number(),
+		default: _metalState.Config.array(),
+		format: _metalState.Config.func(),
+		inner: _metalState.Config.bool(),
+		inverted: _metalState.Config.bool(),
+		label: _metalState.Config.object().string(),
+		max: _metalState.Config.number(),
+		min: _metalState.Config.number(),
+		padding: _metalState.Config.object().string(),
+		show: _metalState.Config.bool(),
+		tick: _metalState.Config.shapeOf({
+			count: _metalState.Config.bool(),
+			outer: _metalState.Config.bool(),
+			values: _metalState.Config.array()
+		}),
+		type: _metalState.Config.oneOf(['category', 'indexed', 'timeseries'])
+	}),
+
+	/**
+  * Styling and behavior of bars.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	bar: _metalState.Config.shapeOf({
+		width: _metalState.Config.number(),
+		zerobased: _metalState.Config.bool()
+	}),
+
+	/**
+  * Defines a custom color pattern for chart.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	color: _metalState.Config.shapeOf({
+		pattern: _metalState.Config.array(),
+		threshhold: _metalState.Config.shapeOf({
+			unit: _metalState.Config.string(),
+			value: _metalState.Config.array(),
+			max: _metalState.Config.number()
+		})
+	}).value({
+		pattern: DEFAULT_COLORS,
+		threshhold: null
+	}),
+
+	/**
+  * Defines a custom colors for data in chart.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	colors: _metalState.Config.object().value({}),
+
+	/**
+  * Sets billboard's data.color config.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Function|undefined}
+  * @default undefined
+  */
+	colorFormatter: _metalState.Config.func(),
+
+	/**
+  * Data that will be rendered to the chart.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Array|undefined}
+  * @default undefined
+  */
+	columns: _metalState.Config.arrayOf(_metalState.Config.shapeOf({
+		axis: _metalState.Config.oneOf(['y', 'y2']),
+		class: _metalState.Config.string(),
+		color: _metalState.Config.string(),
+		data: _metalState.Config.array().required(),
+		hide: _metalState.Config.bool(),
+		id: _metalState.Config.required().string(),
+		name: _metalState.Config.string(),
+		regions: _metalState.Config.array(),
+		type: _metalState.Config.oneOf(_types2.default.all),
+		x: _metalState.Config.string()
+	})),
+
+	/**
+  * Configuration options for donut chart.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	donut: _metalState.Config.shapeOf({
+		label: _metalState.Config.shapeOf({
+			show: _metalState.Config.bool(),
+			format: _metalState.Config.func(),
+			threshhold: _metalState.Config.number(),
+			ratio: _metalState.Config.func().number()
+		}),
+		expand: _metalState.Config.bool(),
+		width: _metalState.Config.number(),
+		title: _metalState.Config.string(),
+		padAngle: _metalState.Config.number()
+	}),
+
+	/**
+  * Sets label for when no data is loaded.
+  * @instance
+  * @memberof ChartBase
+  * @type {?string|undefined}
+  * @default undefined
+  */
+	emptyLabelText: _metalState.Config.string().setter(function (value) {
+		return value ? {
+			empty: {
+				label: {
+					text: value
+				}
+			}
+		} : value;
+	}),
+
+	/**
+  * Configuration options for guage chart.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	gauge: _metalState.Config.shapeOf({
+		fullCircle: _metalState.Config.bool(),
+		lable: _metalState.Config.shapeOf({
+			show: _metalState.Config.bool(),
+			format: _metalState.Config.func()
+		}),
+		expand: _metalState.Config.bool(),
+		min: _metalState.Config.number(),
+		max: _metalState.Config.number(),
+		startingAngle: _metalState.Config.number(),
+		units: _metalState.Config.string(),
+		width: _metalState.Config.number()
+	}),
+
+	/**
+  * Configuration options for grid chart.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	grid: _metalState.Config.shapeOf({
+		// Cross reference this with source code, have a feeling this info is wrong
+		focus: _metalState.Config.shapeOf({
+			show: _metalState.Config.bool()
+		}),
+		lines: _metalState.Config.shapeOf({
+			front: _metalState.Config.bool()
+		}),
+		x: _metalState.Config.shapeOf({
+			show: _metalState.Config.bool(),
+			lines: _metalState.Config.shapeOf({
+				class: _metalState.Config.string(),
+				position: _metalState.Config.oneOf(['start', 'middle', 'end']),
+				text: _metalState.Config.string(),
+				value: _metalState.Config.string()
+			})
+		}),
+		y: _metalState.Config.shapeOf({
+			show: _metalState.Config.bool(),
+			lines: _metalState.Config.shapeOf({
+				class: _metalState.Config.string(),
+				position: _metalState.Config.oneOf(['start', 'middle', 'end']),
+				text: _metalState.Config.string(),
+				value: _metalState.Config.string()
+			})
+		}),
+		ticks: _metalState.Config.number()
+	}).value({
+		x: {
+			show: true
+		},
+		y: {
+			show: true
+		}
+	}),
+
+	/**
+  * Sets billboard's data.groups config.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Array|undefined}
+  * @default undefined
+  */
+	groups: _metalState.Config.array(),
+
+	/**
+  * If set to true hides all data.
+  * @instance
+  * @memberof ChartBase
+  * @type {boolean|undefined}
+  * @default false
+  */
+	hide: _metalState.Config.bool().value(false),
+
+	/**
+  * Intersection display options.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	intersection: _metalState.Config.shapeOf({
+		enabled: _metalState.Config.bool(),
+		brighten: _metalState.Config.bool(),
+		inputType: _metalState.Config.shapeOf({
+			mouse: _metalState.Config.bool(),
+			touch: _metalState.Config.bool()
+		})
+	}),
+
+	/**
+  * Sets billboard's data.json config.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Array|boolean|undefined}
+  * @default undefined
+  */
+	json: _metalState.Config.array(),
+
+	/**
+  * Sets billboard's data.keys config.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Array|undefined}
+  * @default undefined
+  */
+	keys: _metalState.Config.array().setter(function (value) {
+		return value ? {
+			value: value
+		} : value;
+	}),
+
+	/**
+  * Sets billboard's data.labels config.
+  * @instance
+  * @memberof ChartBase
+  * @type {?boolean|function|undefined}
+  * @default undefined
+  */
+	labels: _metalState.Config.bool().func().setter(function (value) {
+		if (!value) {
+			return value;
+		} else if (typeof value === 'boolean') {
+			return {
+				labels: value
+			};
+		} else {
+			return {
+				labels: {
+					format: value
+				}
+			};
+		}
+	}),
+
+	/**
+  * Legend display options.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	legend: _metalState.Config.shapeOf({
+		hide: _metalState.Config.bool(),
+		position: _metalState.Config.oneOf(['bottom', 'inset', 'right']),
+		inset: _metalState.Config.shapeOf({
+			anchor: _metalState.Config.oneOf(['bottom-left', 'bottom-right', 'top-left', 'top-right']),
+			step: _metalState.Config.number(),
+			x: _metalState.Config.number(),
+			y: _metalState.Config.number()
+		}),
+		show: _metalState.Config.bool()
+	}),
+
+	/**
+  * Display settings for chart lines.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	line: _metalState.Config.shapeOf({
+		connectNull: _metalState.Config.bool(),
+		step: _metalState.Config.shapeOf({
+			type: _metalState.Config.oneOf(['step', 'step-after', 'step-before'])
+		})
+	}),
+
+	/**
+  * Sets the `loading` state.
+  */
+	loading: _metalState.Config.bool().value(false),
+
+	/**
+  * Sets billboard's data.mimeType config.
+  * @instance
+  * @memberof ChartBase
+  * @type {?string|undefined}
+  * @default undefined
+  */
+	mimeType: _metalState.Config.string(),
+
+	/**
+  * Sets billboard's data.order config.
+  * @instance
+  * @memberof ChartBase
+  * @type {?string|undefined}
+  * @default "desc"
+  */
+	order: _metalState.Config.string().value('desc'),
+
+	/**
+  * Sets padding on chart.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	padding: _metalState.Config.shapeOf({
+		bottom: _metalState.Config.number(),
+		left: _metalState.Config.number(),
+		right: _metalState.Config.number(),
+		top: _metalState.Config.number()
+	}),
+
+	/**
+  * Configuration options for pie chart.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	pie: _metalState.Config.shapeOf({
+		label: _metalState.Config.shapeOf({
+			show: _metalState.Config.bool(),
+			format: _metalState.Config.func(),
+			threshhold: _metalState.Config.number(),
+			ratio: _metalState.Config.func().number()
+		}),
+		expand: _metalState.Config.bool(),
+		padAngle: _metalState.Config.number()
+	}),
+
+	/**
+  * Configuration options for chart points.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	point: _metalState.Config.shapeOf({
+		show: _metalState.Config.bool(),
+		r: _metalState.Config.number(),
+		focus: _metalState.Config.shapeOf({
+			expand: _metalState.Config.shapeOf({
+				enabled: _metalState.Config.bool(),
+				r: _metalState.Config.bool()
+			}),
+			select: _metalState.Config.shapeOf({
+				r: _metalState.Config.number()
+			})
+		})
+	}),
+
+	/**
+  * Creates custom regions on chart that can be styled.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	regions: _metalState.Config.shapeOf({
+		class: _metalState.Config.string(),
+		enabled: _metalState.Config.oneOf(['x', 'y']).required(),
+		end: _metalState.Config.array().required(),
+		start: _metalState.Config.number().required()
+	}),
+
+	/**
+  * Determines if chart auto resizes when viewport size changes.
+  * @instance
+  * @memberof ChartBase
+  * @type {?boolean|undefined}
+  * @default undefined
+  */
+	resizeAuto: _metalState.Config.bool().setter(function (value) {
+		return value ? {
+			auto: value
+		} : value;
+	}),
+
+	/**
+  * Load data from a multidimensional array. Sets billboard's `data.rows`
+  * config.
+  * @instance
+  * @memberof ChartBase
+  * @type {?array|undefined}
+  * @default undefined
+  */
+	rows: _metalState.Config.array(),
+
+	/**
+  * Sets billboard's `data.selection` config.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	selection: _metalState.Config.shapeOf({
+		draggable: _metalState.Config.bool(),
+		enabled: _metalState.Config.bool(),
+		grouped: _metalState.Config.bool(),
+		isselectable: _metalState.Config.func(),
+		multiple: _metalState.Config.bool()
+	}),
+
+	/**
+  * Sets size of chart.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	size: _metalState.Config.shapeOf({
+		height: _metalState.Config.number(),
+		width: _metalState.Config.number()
+	}),
+
+	/**
+  * Determines interpolation type of spline charts.
+  * @instance
+  * @memberof ChartBase
+  * @type {?string|undefined}
+  * @default undefined
+  */
+	splineInterpolationType: _metalState.Config.string().setter(function (value) {
+		return value ? {
+			interpolation: {
+				type: value
+			}
+		} : value;
+	}),
+
+	/**
+  * Config options for subcharts.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	subchart: _metalState.Config.shapeOf({
+		show: _metalState.Config.bool(),
+		size: _metalState.Config.shapeOf({
+			height: _metalState.Config.number()
+		}),
+		onbrush: _metalState.Config.func()
+	}),
+
+	/**
+  * Customizes classname for svg element.
+  * @instance
+  * @memberof ChartBase
+  * @type {?string|undefined}
+  * @default undefined
+  */
+	svgClassname: _metalState.Config.string().setter(function (value) {
+		return value ? {
+			classname: value
+		} : value;
+	}),
+
+	/**
+  * Display options for title element.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	title: _metalState.Config.shapeOf({
+		text: _metalState.Config.string(),
+		padding: _metalState.Config.shapeOf({
+			bottom: _metalState.Config.number(),
+			left: _metalState.Config.number(),
+			right: _metalState.Config.number(),
+			top: _metalState.Config.number()
+		}),
+		position: _metalState.Config.string()
+	}),
+
+	/**
+  * Display options for tooltip.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	tooltip: _metalState.Config.shapeOf({
+		show: _metalState.Config.bool(),
+		grouped: _metalState.Config.bool(),
+		format: _metalState.Config.shapeOf({
+			name: _metalState.Config.func(),
+			title: _metalState.Config.func(),
+			value: _metalState.Config.func()
+		}),
+		contents: _metalState.Config.func()
+	}),
+
+	/**
+  * Sets duration of transitions.
+  * @instance
+  * @memberof ChartBase
+  * @type {?number|undefined}
+  * @default undefined
+  */
+	transitionDuration: _metalState.Config.number().setter(function (value) {
+		return value ? {
+			duration: value
+		} : value;
+	}),
+
+	/**
+  * The variety of chart that will be rendered.
+  * @instance
+  * @memberof ChartBase
+  * @type {?string|undefined}
+  * @default line
+  */
+	type: _metalState.Config.oneOf(_types2.default.all).value('line'),
+
+	/**
+  * Load a CSV or JSON file from a URL.
+  * @instance
+  * @memberof ChartBase
+  * @type {?string|undefined}
+  * @default undefined
+  */
+	url: _metalState.Config.string(),
+
+	/**
+  * Sets billboard's data.x config.
+  * @instance
+  * @memberof ChartBase
+  * @type {?string|undefined}
+  * @default undefined
+  */
+	x: _metalState.Config.string(),
+
+	/**
+  * Sets billboard's data.xFormat config.
+  * @instance
+  * @memberof ChartBase
+  * @type {?string|undefined}
+  * @default undefined
+  */
+	xFormat: _metalState.Config.string(),
+
+	/**
+  * Sets billboard's data.xLocaltime config.
+  * @instance
+  * @memberof ChartBase
+  * @type {boolean|undefined}
+  * @default undefined
+  */
+	xLocaltime: _metalState.Config.bool(),
+
+	/**
+  * Sets billboard's data.xSort config.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	xSort: _metalState.Config.bool(),
+
+	/**
+  * Configuration for bb chart zoom capabilities.
+  * @instance
+  * @memberof ChartBase
+  * @type {?Object|undefined}
+  * @default undefined
+  */
+	zoom: _metalState.Config.shapeOf({
+		enabled: _metalState.Config.bool().value(true),
+		rescale: _metalState.Config.bool().value(false),
+		extent: _metalState.Config.array()
+	})
+};
+
+exports.bb = _billboard.bb;
+exports.d3 = _billboard.d3;
+exports.ChartBase = ChartBase;
+exports.default = ChartBase;
+//# sourceMappingURL=ChartBase.js.map
+
+/***/ }),
+/* 66 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports.validators = exports.SoyAop = exports.Soy = exports.Config = undefined;
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
+
+__webpack_require__(74);
+
+var _metalComponent = __webpack_require__(2);
+
+var _metal = __webpack_require__(0);
+
+var _metalState = __webpack_require__(1);
+
+var _metalIncrementalDom = __webpack_require__(10);
+
+var _metalIncrementalDom2 = _interopRequireDefault(_metalIncrementalDom);
+
+var _SoyAop = __webpack_require__(75);
+
+var _SoyAop2 = _interopRequireDefault(_SoyAop);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+// The injected data that will be passed to soy templates.
+var ijData = {};
+
+/**
+ * Soy Renderer
+ */
+
+var Soy = function (_IncrementalDomRender) {
+	_inherits(Soy, _IncrementalDomRender);
+
+	function Soy() {
+		_classCallCheck(this, Soy);
+
+		return _possibleConstructorReturn(this, (Soy.__proto__ || Object.getPrototypeOf(Soy)).apply(this, arguments));
+	}
+
+	_createClass(Soy, [{
+		key: 'getExtraDataConfig',
+
+		/**
+   * Adds the template params to the component's state, if they don't exist yet.
+   * @param {!Component} component
+   * @return {Object}
+   */
+		value: function getExtraDataConfig(component) {
+			var elementTemplate = component.constructor.TEMPLATE;
+			if (!(0, _metal.isFunction)(elementTemplate)) {
+				return;
+			}
+
+			elementTemplate = _SoyAop2.default.getOriginalFn(elementTemplate);
+			this.soyParamTypes_ = elementTemplate.types || {};
+
+			var keys = elementTemplate.params || [];
+			var configs = {};
+			for (var i = 0; i < keys.length; i++) {
+				if (!component[keys[i]]) {
+					configs[keys[i]] = {};
+				}
+			}
+			return configs;
+		}
+
+		/**
+   * Copies the component's state to an object so it can be passed as it's
+   * template call's data. The copying needs to be done because, if the component
+   * itself is passed directly, some problems occur when soy tries to merge it
+   * with other data, due to property getters and setters. This is safer.
+   * Also calls the component's "prepareStateForRender" to let it change the
+   * data passed to the template.
+   * @param {!Component} component
+   * @param {!Array<string>} params The params used by this template.
+   * @return {!Object}
+   * @protected
+   */
+
+	}, {
+		key: 'buildTemplateData_',
+		value: function buildTemplateData_(component, params) {
+			var _this2 = this;
+
+			var data = _metal.object.mixin({}, this.getConfig(component));
+			component.getStateKeys().forEach(function (key) {
+				var value = component[key];
+				if (_this2.isHtmlParam_(component, key)) {
+					value = soyRenderer_.toIncDom(value);
+				}
+				data[key] = value;
+			});
+
+			for (var i = 0; i < params.length; i++) {
+				if (!data[params[i]] && (0, _metal.isFunction)(component[params[i]])) {
+					data[params[i]] = component[params[i]].bind(component);
+				}
+			}
+
+			if ((0, _metal.isFunction)(component.prepareStateForRender)) {
+				return component.prepareStateForRender(data) || data;
+			} else {
+				return data;
+			}
+		}
+
+		/**
+   * Returns the requested template function. This function will be wrapped in
+   * another though, just to defer the requirement of the template's module
+   * being ready until the function is actually called.
+   * @param {string} namespace The soy template's namespace.
+   * @param {string} templateName The name of the template function.
+   * @return {!function()}
+   */
+
+	}, {
+		key: 'getTemplate',
+		value: function getTemplate(namespace, templateName) {
+			return function (data, ignored, ijData) {
+				if (!goog.loadedModules_[namespace]) {
+					throw new Error('No template with namespace "' + namespace + '" has been loaded yet.');
+				}
+				return goog.loadedModules_[namespace][templateName](data, ignored, ijData);
+			};
+		}
+
+		/**
+   * Handles an intercepted soy template call. If the call is for a component's
+   * main template, then it will be replaced with a call that incremental dom
+   * can use for both handling an instance of that component and rendering it.
+   * @param {!function()} originalFn The original template function that was
+   *     intercepted.
+   * @param {Object} data The data the template was called with.
+   * @protected
+   */
+
+	}, {
+		key: 'handleInterceptedCall_',
+		value: function handleInterceptedCall_(originalFn) {
+			var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+
+			var args = [originalFn.componentCtor, null, []];
+			for (var key in data) {
+				if (Object.prototype.hasOwnProperty.call(data, key)) {
+					args.push(key, data[key]);
+				}
+			}
+			IncrementalDOM.elementVoid.apply(null, args);
+		}
+
+		/**
+   * Checks if the given param type is html.
+   * @param {!Component} component
+   * @param {string} name
+   * @protected
+   * @return {boolean}
+   */
+
+	}, {
+		key: 'isHtmlParam_',
+		value: function isHtmlParam_(component, name) {
+			var state = component.getDataManager().getStateInstance(component);
+			if (state.getStateKeyConfig(name).isHtml) {
+				return true;
+			}
+
+			var elementTemplate = _SoyAop2.default.getOriginalFn(component.constructor.TEMPLATE);
+			var type = (elementTemplate.types || {})[name] || '';
+			return type.split('|').indexOf('html') !== -1;
+		}
+
+		/**
+   * Registers the given templates to be used by `Soy` for the specified
+   * component constructor.
+   * @param {!Function} componentCtor The constructor of the component that
+   *     should use the given templates.
+   * @param {!Object} templates Object containing soy template functions.
+   * @param {string=} mainTemplate The name of the main template that should be
+   *     used to render the component. Defaults to "render".
+   */
+
+	}, {
+		key: 'register',
+		value: function register(componentCtor, templates) {
+			var mainTemplate = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'render';
+
+			componentCtor.RENDERER = soyRenderer_;
+			componentCtor.TEMPLATE = _SoyAop2.default.getOriginalFn(templates[mainTemplate]);
+			componentCtor.TEMPLATE.componentCtor = componentCtor;
+			_SoyAop2.default.registerForInterception(templates, mainTemplate);
+			_metalComponent.ComponentRegistry.register(componentCtor);
+		}
+
+		/**
+   * Overrides the default method from `IncrementalDomRenderer` so the component's
+   * soy template can be used for rendering.
+   * @param {!Component} component
+   * @param {!Object} data Data passed to the component when rendering it.
+   * @override
+   */
+
+	}, {
+		key: 'renderIncDom',
+		value: function renderIncDom(component) {
+			var elementTemplate = component.constructor.TEMPLATE;
+			if ((0, _metal.isFunction)(elementTemplate) && !component.render) {
+				elementTemplate = _SoyAop2.default.getOriginalFn(elementTemplate);
+				_SoyAop2.default.startInterception(this.handleInterceptedCall_);
+				var data = this.buildTemplateData_(component, elementTemplate.params || []);
+				elementTemplate(data, null, ijData);
+				_SoyAop2.default.stopInterception();
+			} else {
+				_get(Soy.prototype.__proto__ || Object.getPrototypeOf(Soy.prototype), 'renderIncDom', this).call(this, component);
+			}
+		}
+
+		/**
+   * Sets the injected data object that should be passed to templates.
+   * @param {Object} data
+   */
+
+	}, {
+		key: 'setInjectedData',
+		value: function setInjectedData(data) {
+			ijData = data || {};
+		}
+
+		/**
+   * Overrides the original `IncrementalDomRenderer` method so that only
+   * state keys used by the main template can cause updates.
+   * @param {!Component} component
+   * @param {Object} changes
+   * @return {boolean}
+   */
+
+	}, {
+		key: 'shouldUpdate',
+		value: function shouldUpdate(component, changes) {
+			var should = _get(Soy.prototype.__proto__ || Object.getPrototypeOf(Soy.prototype), 'shouldUpdate', this).call(this, component, changes);
+			if (!should || component.shouldUpdate) {
+				return should;
+			}
+
+			var fn = component.constructor.TEMPLATE;
+			var params = fn ? _SoyAop2.default.getOriginalFn(fn).params : [];
+			for (var i = 0; i < params.length; i++) {
+				if (changes.props[params[i]]) {
+					return true;
+				}
+			}
+			return false;
+		}
+
+		/**
+   * Converts the given incremental dom function into an html string.
+   * @param {!function()} incDomFn
+   * @return {string}
+   */
+
+	}, {
+		key: 'toHtmlString',
+		value: function toHtmlString(incDomFn) {
+			var element = document.createElement('div');
+			IncrementalDOM.patch(element, incDomFn);
+			return element.innerHTML;
+		}
+
+		/**
+   * Converts the given html string into an incremental dom function.
+   * @param {string|{contentKind: string, content: string}} value
+   * @return {!function()}
+   */
+
+	}, {
+		key: 'toIncDom',
+		value: function toIncDom(value) {
+			if ((0, _metal.isObject)(value) && (0, _metal.isString)(value.content) && value.contentKind === 'HTML') {
+				value = value.content;
+			}
+			if ((0, _metal.isString)(value)) {
+				value = _metalIncrementalDom.HTML2IncDom.buildFn(value);
+			}
+			return value;
+		}
+	}]);
+
+	return Soy;
+}(_metalIncrementalDom2.default.constructor);
+
+var soyRenderer_ = new Soy();
+soyRenderer_.RENDERER_NAME = 'soy';
+
+exports.default = soyRenderer_;
+exports.Config = _metalState.Config;
+exports.Soy = soyRenderer_;
+exports.SoyAop = _SoyAop2.default;
+exports.validators = _metalState.validators;
+
+/***/ }),
+/* 67 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/*!
+ * Promises polyfill from Google's Closure Library.
+ *
+ *      Copyright 2013 The Closure Library Authors. All Rights Reserved.
+ *
+ * NOTE(eduardo): Promise support is not ready on all supported browsers,
+ * therefore metal-promise is temporarily using Google's promises as polyfill.
+ * It supports cancellable promises and has clean and fast implementation.
+ */
+
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.CancellablePromise = undefined;
+
+var _FreeList = __webpack_require__(108);
+
+var _FreeList2 = _interopRequireDefault(_FreeList);
+
+var _Thenable = __webpack_require__(109);
+
+var _Thenable2 = _interopRequireDefault(_Thenable);
+
+var _metal = __webpack_require__(0);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/**
+ * Like bind(), except that a 'this object' is not required. Useful when the
+ * target function is already bound.
+ *
+ * Usage:
+ * var g = partial(f, arg1, arg2);
+ * g(arg3, arg4);
+ *
+ * @param {Function} fn A function to partially apply.
+ * @param {...*} var_args Additional arguments that are partially applied to fn.
+ * @return {!Function} A partially-applied form of the function bind() was
+ *     invoked as a method of.
+ */
+var partial = function partial(fn) {
+  var args = Array.prototype.slice.call(arguments, 1);
+  return function () {
+    // Clone the array (with slice()) and append additional arguments
+    // to the existing arguments.
+    var newArgs = args.slice();
+    newArgs.push.apply(newArgs, arguments);
+    return fn.apply(this, newArgs);
+  };
+};
+
+/**
+ * NOTE: This class was created in anticipation of the built-in Promise type
+ * being standardized and implemented across browsers. Now that Promise is
+ * available in modern browsers, and is automatically polyfilled by the Closure
+ * Compiler, by default, most new code should use native {@code Promise}
+ * instead of {@code CancellablePromise}. However, {@code CancellablePromise} has the
+ * concept of cancellation which native Promises do not yet have. So code
+ * needing cancellation may still want to use {@code CancellablePromise}.
+ *
+ * Promises provide a result that may be resolved asynchronously. A Promise may
+ * be resolved by being fulfilled with a fulfillment value, rejected with a
+ * rejection reason, or blocked by another Promise. A Promise is said to be
+ * settled if it is either fulfilled or rejected. Once settled, the Promise
+ * result is immutable.
+ *
+ * Promises may represent results of any type, including undefined. Rejection
+ * reasons are typically Errors, but may also be of any type. Closure Promises
+ * allow for optional type annotations that enforce that fulfillment values are
+ * of the appropriate types at compile time.
+ *
+ * The result of a Promise is accessible by calling {@code then} and registering
+ * {@code onFulfilled} and {@code onRejected} callbacks. Once the Promise
+ * is settled, the relevant callbacks are invoked with the fulfillment value or
+ * rejection reason as argument. Callbacks are always invoked in the order they
+ * were registered, even when additional {@code then} calls are made from inside
+ * another callback. A callback is always run asynchronously sometime after the
+ * scope containing the registering {@code then} invocation has returned.
+ *
+ * If a Promise is resolved with another Promise, the first Promise will block
+ * until the second is settled, and then assumes the same result as the second
+ * Promise. This allows Promises to depend on the results of other Promises,
+ * linking together multiple asynchronous operations.
+ *
+ * This implementation is compatible with the Promises/A+ specification and
+ * passes that specification's conformance test suite. A Closure Promise may be
+ * resolved with a Promise instance (or sufficiently compatible Promise-like
+ * object) created by other Promise implementations. From the specification,
+ * Promise-like objects are known as "Thenables".
+ *
+ * @see http://promisesaplus.com/
+ *
+ * @param {function(
+ *             this:RESOLVER_CONTEXT,
+ *             function((TYPE|IThenable<TYPE>|Thenable)=),
+ *             function(*=)): void} resolver
+ *     Initialization function that is invoked immediately with {@code resolve}
+ *     and {@code reject} functions as arguments. The Promise is resolved or
+ *     rejected with the first argument passed to either function.
+ * @param {RESOLVER_CONTEXT=} opt_context An optional context for executing the
+ *     resolver function. If unspecified, the resolver function will be executed
+ *     in the default scope.
+ * @constructor
+ * @struct
+ * @final
+ * @implements {Thenable<TYPE>}
+ * @template TYPE,RESOLVER_CONTEXT
+ */
+var CancellablePromise = function CancellablePromise(resolver, opt_context) {
+  /**
+   * The internal state of this Promise. Either PENDING, FULFILLED, REJECTED, or
+   * BLOCKED.
+   * @private {CancellablePromise.State_}
+   */
+  this.state_ = CancellablePromise.State_.PENDING;
+
+  /**
+   * The settled result of the Promise. Immutable once set with either a
+   * fulfillment value or rejection reason.
+   * @private {*}
+   */
+  this.result_ = undefined;
+
+  /**
+   * For Promises created by calling {@code then()}, the originating parent.
+   * @private {CancellablePromise}
+   */
+  this.parent_ = null;
+
+  /**
+   * The linked list of {@code onFulfilled} and {@code onRejected} callbacks
+   * added to this Promise by calls to {@code then()}.
+   * @private {?CancellablePromise.CallbackEntry_}
+   */
+  this.callbackEntries_ = null;
+
+  /**
+   * The tail of the linked list of {@code onFulfilled} and {@code onRejected}
+   * callbacks added to this Promise by calls to {@code then()}.
+   * @private {?CancellablePromise.CallbackEntry_}
+   */
+  this.callbackEntriesTail_ = null;
+
+  /**
+   * Whether the Promise is in the queue of Promises to execute.
+   * @private {boolean}
+   */
+  this.executing_ = false;
+
+  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
+    /**
+     * A timeout ID used when the {@code UNHANDLED_REJECTION_DELAY} is greater
+     * than 0 milliseconds. The ID is set when the Promise is rejected, and
+     * cleared only if an {@code onRejected} callback is invoked for the
+     * Promise (or one of its descendants) before the delay is exceeded.
+     *
+     * If the rejection is not handled before the timeout completes, the
+     * rejection reason is passed to the unhandled rejection handler.
+     * @private {number}
+     */
+    this.unhandledRejectionId_ = 0;
+  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
+    /**
+     * When the {@code UNHANDLED_REJECTION_DELAY} is set to 0 milliseconds, a
+     * boolean that is set if the Promise is rejected, and reset to false if an
+     * {@code onRejected} callback is invoked for the Promise (or one of its
+     * descendants). If the rejection is not handled before the next timestep,
+     * the rejection reason is passed to the unhandled rejection handler.
+     * @private {boolean}
+     */
+    this.hadUnhandledRejection_ = false;
+  }
+
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    /**
+     * A list of stack trace frames pointing to the locations where this Promise
+     * was created or had callbacks added to it. Saved to add additional context
+     * to stack traces when an exception is thrown.
+     * @private {!Array<string>}
+     */
+    this.stack_ = [];
+    this.addStackTrace_(new Error('created'));
+
+    /**
+     * Index of the most recently executed stack frame entry.
+     * @private {number}
+     */
+    this.currentStep_ = 0;
+  }
+
+  // As an optimization, we can skip this if resolver is nullFunction.
+  // This value is passed internally when creating a promise which will be
+  // resolved through a more optimized path.
+  if (resolver != _metal.nullFunction) {
+    try {
+      var self = this;
+      resolver.call(opt_context, function (value) {
+        self.resolve_(CancellablePromise.State_.FULFILLED, value);
+      }, function (reason) {
+        if (!reason.IS_CANCELLATION_ERROR) {
+          try {
+            // Promise was rejected. Step up one call frame to see why.
+            if (reason instanceof Error) {
+              throw reason;
+            } else {
+              throw new Error('Promise rejected.');
+            }
+          } catch (e) {
+            // Only thrown so browser dev tools can catch rejections of
+            // promises when the option to break on caught exceptions is
+            // activated.
+          }
+        }
+        self.resolve_(CancellablePromise.State_.REJECTED, reason);
+      });
+    } catch (e) {
+      this.resolve_(CancellablePromise.State_.REJECTED, e);
+    }
+  }
+};
+
+/**
+ * Whether traces of {@code then} calls should be included in
+ * exceptions thrown
+ * @type {boolean}
+ */
+CancellablePromise.LONG_STACK_TRACES = false;
+
+/**
+ * The delay in milliseconds before a rejected Promise's reason
+ * is passed to the rejection handler. By default, the rejection handler
+ * rethrows the rejection reason so that it appears in the developer console or
+ * {@code window.onerror} handler.
+ *
+ * Rejections are rethrown as quickly as possible by default. A negative value
+ * disables rejection handling entirely.
+ * @type {number}
+ */
+CancellablePromise.UNHANDLED_REJECTION_DELAY = 0;
+
+/**
+ * The possible internal states for a Promise. These states are not directly
+ * observable to external callers.
+ * @enum {number}
+ * @private
+ */
+CancellablePromise.State_ = {
+  /** The Promise is waiting for resolution. */
+  PENDING: 0,
+
+  /** The Promise is blocked waiting for the result of another Thenable. */
+  BLOCKED: 1,
+
+  /** The Promise has been resolved with a fulfillment value. */
+  FULFILLED: 2,
+
+  /** The Promise has been resolved with a rejection reason. */
+  REJECTED: 3
+};
+
+/**
+ * Entries in the callback chain. Each call to {@code then},
+ * {@code thenCatch}, or {@code thenAlways} creates an entry containing the
+ * functions that may be invoked once the Promise is settled.
+ *
+ * @private @final @struct @constructor
+ */
+CancellablePromise.CallbackEntry_ = function () {
+  /** @type {?CancellablePromise} */
+  this.child = null;
+  /** @type {Function} */
+  this.onFulfilled = null;
+  /** @type {Function} */
+  this.onRejected = null;
+  /** @type {?} */
+  this.context = null;
+  /** @type {?CancellablePromise.CallbackEntry_} */
+  this.next = null;
+
+  /**
+   * A boolean value to indicate this is a "thenAlways" callback entry.
+   * Unlike a normal "then/thenVoid" a "thenAlways doesn't participate
+   * in "cancel" considerations but is simply an observer and requires
+   * special handling.
+   * @type {boolean}
+   */
+  this.always = false;
+};
+
+/** clear the object prior to reuse */
+CancellablePromise.CallbackEntry_.prototype.reset = function () {
+  this.child = null;
+  this.onFulfilled = null;
+  this.onRejected = null;
+  this.context = null;
+  this.always = false;
+};
+
+/**
+ * The number of currently unused objects to keep around for
+ *    reuse.
+ * @type {number}
+ */
+CancellablePromise.DEFAULT_MAX_UNUSED = 100;
+
+/** @const @private {FreeList<!CancellablePromise.CallbackEntry_>} */
+CancellablePromise.freelist_ = new _FreeList2.default(function () {
+  return new CancellablePromise.CallbackEntry_();
+}, function (item) {
+  item.reset();
+}, CancellablePromise.DEFAULT_MAX_UNUSED);
+
+/**
+ * @param {Function} onFulfilled
+ * @param {Function} onRejected
+ * @param {?} context
+ * @return {!CancellablePromise.CallbackEntry_}
+ * @private
+ */
+CancellablePromise.getCallbackEntry_ = function (onFulfilled, onRejected, context) {
+  var entry = CancellablePromise.freelist_.get();
+  entry.onFulfilled = onFulfilled;
+  entry.onRejected = onRejected;
+  entry.context = context;
+  return entry;
+};
+
+/**
+ * @param {!CancellablePromise.CallbackEntry_} entry
+ * @private
+ */
+CancellablePromise.returnEntry_ = function (entry) {
+  CancellablePromise.freelist_.put(entry);
+};
+
+// NOTE: this is the same template expression as is used for
+// goog.IThenable.prototype.then
+
+
+/**
+ * @param {VALUE=} opt_value
+ * @return {RESULT} A new Promise that is immediately resolved
+ *     with the given value. If the input value is already a CancellablePromise, it
+ *     will be returned immediately without creating a new instance.
+ * @template VALUE
+ * @template RESULT := type('CancellablePromise',
+ *     cond(isUnknown(VALUE), unknown(),
+ *       mapunion(VALUE, (V) =>
+ *         cond(isTemplatized(V) && sub(rawTypeOf(V), 'IThenable'),
+ *           templateTypeOf(V, 0),
+ *           cond(sub(V, 'Thenable'),
+ *              unknown(),
+ *              V)))))
+ * =:
+ */
+CancellablePromise.resolve = function (opt_value) {
+  if (opt_value instanceof CancellablePromise) {
+    // Avoid creating a new object if we already have a promise object
+    // of the correct type.
+    return opt_value;
+  }
+
+  // Passing nullFunction will cause the constructor to take an optimized
+  // path that skips calling the resolver function.
+  var promise = new CancellablePromise(_metal.nullFunction);
+  promise.resolve_(CancellablePromise.State_.FULFILLED, opt_value);
+  return promise;
+};
+
+/**
+ * @param {*=} opt_reason
+ * @return {!CancellablePromise} A new Promise that is immediately rejected with the
+ *     given reason.
+ */
+CancellablePromise.reject = function (opt_reason) {
+  return new CancellablePromise(function (resolve, reject) {
+    reject(opt_reason);
+  });
+};
+
+/**
+ * This is identical to
+ * {@code CancellablePromise.resolve(value).then(onFulfilled, onRejected)}, but it
+ * avoids creating an unnecessary wrapper Promise when {@code value} is already
+ * thenable.
+ *
+ * @param {?(Thenable<TYPE>|Thenable|TYPE)} value
+ * @param {function(TYPE): ?} onFulfilled
+ * @param {function(*): *} onRejected
+ * @template TYPE
+ * @private
+ */
+CancellablePromise.resolveThen_ = function (value, onFulfilled, onRejected) {
+  var isThenable = CancellablePromise.maybeThen_(value, onFulfilled, onRejected, null);
+  if (!isThenable) {
+    _metal.async.run(partial(onFulfilled, value));
+  }
+};
+
+/**
+ * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
+ *     promises
+ * @return {!CancellablePromise<TYPE>} A Promise that receives the result of the
+ *     first Promise (or Promise-like) input to settle immediately after it
+ *     settles.
+ * @template TYPE
+ */
+CancellablePromise.race = function (promises) {
+  return new CancellablePromise(function (resolve, reject) {
+    if (!promises.length) {
+      resolve(undefined);
+    }
+    for (var i = 0, promise; i < promises.length; i++) {
+      promise = promises[i];
+      CancellablePromise.resolveThen_(promise, resolve, reject);
+    }
+  });
+};
+
+/**
+ * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
+ *     promises
+ * @return {!CancellablePromise<!Array<TYPE>>} A Promise that receives a list of
+ *     every fulfilled value once every input Promise (or Promise-like) is
+ *     successfully fulfilled, or is rejected with the first rejection reason
+ *     immediately after it is rejected.
+ * @template TYPE
+ */
+CancellablePromise.all = function (promises) {
+  return new CancellablePromise(function (resolve, reject) {
+    var toFulfill = promises.length;
+    var values = [];
+
+    if (!toFulfill) {
+      resolve(values);
+      return;
+    }
+
+    var onFulfill = function onFulfill(index, value) {
+      toFulfill--;
+      values[index] = value;
+      if (toFulfill == 0) {
+        resolve(values);
+      }
+    };
+
+    var onReject = function onReject(reason) {
+      reject(reason);
+    };
+
+    for (var i = 0, promise; i < promises.length; i++) {
+      promise = promises[i];
+      CancellablePromise.resolveThen_(promise, partial(onFulfill, i), onReject);
+    }
+  });
+};
+
+/**
+ * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
+ *     promises
+ * @return {!CancellablePromise<!Array<{
+ *     fulfilled: boolean,
+ *     value: (TYPE|undefined),
+ *     reason: (*|undefined)}>>} A Promise that resolves with a list of
+ *         result objects once all input Promises (or Promise-like) have
+ *         settled. Each result object contains a 'fulfilled' boolean indicating
+ *         whether an input Promise was fulfilled or rejected. For fulfilled
+ *         Promises, the resulting value is stored in the 'value' field. For
+ *         rejected Promises, the rejection reason is stored in the 'reason'
+ *         field.
+ * @template TYPE
+ */
+CancellablePromise.allSettled = function (promises) {
+  return new CancellablePromise(function (resolve, reject) {
+    var toSettle = promises.length;
+    var results = [];
+
+    if (!toSettle) {
+      resolve(results);
+      return;
+    }
+
+    var onSettled = function onSettled(index, fulfilled, result) {
+      toSettle--;
+      results[index] = fulfilled ? { fulfilled: true, value: result } : { fulfilled: false, reason: result };
+      if (toSettle == 0) {
+        resolve(results);
+      }
+    };
+
+    for (var i = 0, promise; i < promises.length; i++) {
+      promise = promises[i];
+      CancellablePromise.resolveThen_(promise, partial(onSettled, i, true /* fulfilled */), partial(onSettled, i, false /* fulfilled */));
+    }
+  });
+};
+
+/**
+ * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
+ *     promises
+ * @return {!CancellablePromise<TYPE>} A Promise that receives the value of the first
+ *     input to be fulfilled, or is rejected with a list of every rejection
+ *     reason if all inputs are rejected.
+ * @template TYPE
+ */
+CancellablePromise.firstFulfilled = function (promises) {
+  return new CancellablePromise(function (resolve, reject) {
+    var toReject = promises.length;
+    var reasons = [];
+
+    if (!toReject) {
+      resolve(undefined);
+      return;
+    }
+
+    var onFulfill = function onFulfill(value) {
+      resolve(value);
+    };
+
+    var onReject = function onReject(index, reason) {
+      toReject--;
+      reasons[index] = reason;
+      if (toReject == 0) {
+        reject(reasons);
+      }
+    };
+
+    for (var i = 0, promise; i < promises.length; i++) {
+      promise = promises[i];
+      CancellablePromise.resolveThen_(promise, onFulfill, partial(onReject, i));
+    }
+  });
+};
+
+/**
+ * @return {!CancellablePromise.Resolver<TYPE>} Resolver wrapping the promise and its
+ *     resolve / reject functions. Resolving or rejecting the resolver
+ *     resolves or rejects the promise.
+ * @template TYPE
+ */
+CancellablePromise.withResolver = function () {
+  var resolve, reject;
+  var promise = new CancellablePromise(function (rs, rj) {
+    resolve = rs;
+    reject = rj;
+  });
+  return new CancellablePromise.Resolver_(promise, resolve, reject);
+};
+
+/**
+ * Adds callbacks that will operate on the result of the Promise, returning a
+ * new child Promise.
+ *
+ * If the Promise is fulfilled, the {@code onFulfilled} callback will be invoked
+ * with the fulfillment value as argument, and the child Promise will be
+ * fulfilled with the return value of the callback. If the callback throws an
+ * exception, the child Promise will be rejected with the thrown value instead.
+ *
+ * If the Promise is rejected, the {@code onRejected} callback will be invoked
+ * with the rejection reason as argument, and the child Promise will be resolved
+ * with the return value or rejected with the thrown value of the callback.
+ *
+ * @override
+ */
+CancellablePromise.prototype.then = function (opt_onFulfilled, opt_onRejected, opt_context) {
+
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    this.addStackTrace_(new Error('then'));
+  }
+
+  return this.addChildPromise_((0, _metal.isFunction)(opt_onFulfilled) ? opt_onFulfilled : null, (0, _metal.isFunction)(opt_onRejected) ? opt_onRejected : null, opt_context);
+};
+_Thenable2.default.addImplementation(CancellablePromise);
+
+/**
+ * Adds callbacks that will operate on the result of the Promise without
+ * returning a child Promise (unlike "then").
+ *
+ * If the Promise is fulfilled, the {@code onFulfilled} callback will be invoked
+ * with the fulfillment value as argument.
+ *
+ * If the Promise is rejected, the {@code onRejected} callback will be invoked
+ * with the rejection reason as argument.
+ *
+ * @param {?(function(this:THIS, TYPE):?)=} opt_onFulfilled A
+ *     function that will be invoked with the fulfillment value if the Promise
+ *     is fulfilled.
+ * @param {?(function(this:THIS, *): *)=} opt_onRejected A function that will
+ *     be invoked with the rejection reason if the Promise is rejected.
+ * @param {THIS=} opt_context An optional context object that will be the
+ *     execution context for the callbacks. By default, functions are executed
+ *     with the default this.
+ * @package
+ * @template THIS
+ */
+CancellablePromise.prototype.thenVoid = function (opt_onFulfilled, opt_onRejected, opt_context) {
+
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    this.addStackTrace_(new Error('then'));
+  }
+
+  // Note: no default rejection handler is provided here as we need to
+  // distinguish unhandled rejections.
+  this.addCallbackEntry_(CancellablePromise.getCallbackEntry_(opt_onFulfilled || _metal.nullFunction, opt_onRejected || null, opt_context));
+};
+
+/**
+ * Adds a callback that will be invoked when the Promise is settled (fulfilled
+ * or rejected). The callback receives no argument, and no new child Promise is
+ * created. This is useful for ensuring that cleanup takes place after certain
+ * asynchronous operations. Callbacks added with {@code thenAlways} will be
+ * executed in the same order with other calls to {@code then},
+ * {@code thenAlways}, or {@code thenCatch}.
+ *
+ * Since it does not produce a new child Promise, cancellation propagation is
+ * not prevented by adding callbacks with {@code thenAlways}. A Promise that has
+ * a cleanup handler added with {@code thenAlways} will be canceled if all of
+ * its children created by {@code then} (or {@code thenCatch}) are canceled.
+ * Additionally, since any rejections are not passed to the callback, it does
+ * not stop the unhandled rejection handler from running.
+ *
+ * @param {function(this:THIS): void} onSettled A function that will be invoked
+ *     when the Promise is settled (fulfilled or rejected).
+ * @param {THIS=} opt_context An optional context object that will be the
+ *     execution context for the callbacks. By default, functions are executed
+ *     in the global scope.
+ * @return {!CancellablePromise<TYPE>} This Promise, for chaining additional calls.
+ * @template THIS
+ */
+CancellablePromise.prototype.thenAlways = function (onSettled, opt_context) {
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    this.addStackTrace_(new Error('thenAlways'));
+  }
+
+  var entry = CancellablePromise.getCallbackEntry_(onSettled, onSettled, opt_context);
+  entry.always = true;
+  this.addCallbackEntry_(entry);
+  return this;
+};
+
+/**
+ * Adds a callback that will be invoked only if the Promise is rejected. This
+ * is equivalent to {@code then(null, onRejected)}.
+ *
+ * @param {function(this:THIS, *): *} onRejected A function that will be
+ *     invoked with the rejection reason if the Promise is rejected.
+ * @param {THIS=} opt_context An optional context object that will be the
+ *     execution context for the callbacks. By default, functions are executed
+ *     in the global scope.
+ * @return {!CancellablePromise} A new Promise that will receive the result of the
+ *     callback.
+ * @template THIS
+ */
+CancellablePromise.prototype.thenCatch = function (onRejected, opt_context) {
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    this.addStackTrace_(new Error('thenCatch'));
+  }
+  return this.addChildPromise_(null, onRejected, opt_context);
+};
+
+/**
+ * Alias of {@link CancellablePromise.prototype.thenCatch}
+ */
+CancellablePromise.prototype.catch = CancellablePromise.prototype.thenCatch;
+
+/**
+ * Cancels the Promise if it is still pending by rejecting it with a cancel
+ * Error. No action is performed if the Promise is already resolved.
+ *
+ * All child Promises of the canceled Promise will be rejected with the same
+ * cancel error, as with normal Promise rejection. If the Promise to be canceled
+ * is the only child of a pending Promise, the parent Promise will also be
+ * canceled. Cancellation may propagate upward through multiple generations.
+ *
+ * @param {string=} opt_message An optional debugging message for describing the
+ *     cancellation reason.
+ */
+CancellablePromise.prototype.cancel = function (opt_message) {
+  if (this.state_ == CancellablePromise.State_.PENDING) {
+    _metal.async.run(function () {
+      var err = new CancellablePromise.CancellationError(opt_message);
+      err.IS_CANCELLATION_ERROR = true;
+      this.cancelInternal_(err);
+    }, this);
+  }
+};
+
+/**
+ * Cancels this Promise with the given error.
+ *
+ * @param {!Error} err The cancellation error.
+ * @private
+ */
+CancellablePromise.prototype.cancelInternal_ = function (err) {
+  if (this.state_ == CancellablePromise.State_.PENDING) {
+    if (this.parent_) {
+      // Cancel the Promise and remove it from the parent's child list.
+      this.parent_.cancelChild_(this, err);
+      this.parent_ = null;
+    } else {
+      this.resolve_(CancellablePromise.State_.REJECTED, err);
+    }
+  }
+};
+
+/**
+ * Cancels a child Promise from the list of callback entries. If the Promise has
+ * not already been resolved, reject it with a cancel error. If there are no
+ * other children in the list of callback entries, propagate the cancellation
+ * by canceling this Promise as well.
+ *
+ * @param {!CancellablePromise} childPromise The Promise to cancel.
+ * @param {!Error} err The cancel error to use for rejecting the Promise.
+ * @private
+ */
+CancellablePromise.prototype.cancelChild_ = function (childPromise, err) {
+  if (!this.callbackEntries_) {
+    return;
+  }
+  var childCount = 0;
+  var childEntry = null;
+  var beforeChildEntry = null;
+
+  // Find the callback entry for the childPromise, and count whether there are
+  // additional child Promises.
+  for (var entry = this.callbackEntries_; entry; entry = entry.next) {
+    if (!entry.always) {
+      childCount++;
+      if (entry.child == childPromise) {
+        childEntry = entry;
+      }
+      if (childEntry && childCount > 1) {
+        break;
+      }
+    }
+    if (!childEntry) {
+      beforeChildEntry = entry;
+    }
+  }
+
+  // Can a child entry be missing?
+
+  // If the child Promise was the only child, cancel this Promise as well.
+  // Otherwise, reject only the child Promise with the cancel error.
+  if (childEntry) {
+    if (this.state_ == CancellablePromise.State_.PENDING && childCount == 1) {
+      this.cancelInternal_(err);
+    } else {
+      if (beforeChildEntry) {
+        this.removeEntryAfter_(beforeChildEntry);
+      } else {
+        this.popEntry_();
+      }
+
+      this.executeCallback_(childEntry, CancellablePromise.State_.REJECTED, err);
+    }
+  }
+};
+
+/**
+ * Adds a callback entry to the current Promise, and schedules callback
+ * execution if the Promise has already been settled.
+ *
+ * @param {CancellablePromise.CallbackEntry_} callbackEntry Record containing
+ *     {@code onFulfilled} and {@code onRejected} callbacks to execute after
+ *     the Promise is settled.
+ * @private
+ */
+CancellablePromise.prototype.addCallbackEntry_ = function (callbackEntry) {
+  if (!this.hasEntry_() && (this.state_ == CancellablePromise.State_.FULFILLED || this.state_ == CancellablePromise.State_.REJECTED)) {
+    this.scheduleCallbacks_();
+  }
+  this.queueEntry_(callbackEntry);
+};
+
+/**
+ * Creates a child Promise and adds it to the callback entry list. The result of
+ * the child Promise is determined by the state of the parent Promise and the
+ * result of the {@code onFulfilled} or {@code onRejected} callbacks as
+ * specified in the Promise resolution procedure.
+ *
+ * @see http://promisesaplus.com/#the__method
+ *
+ * @param {?function(this:THIS, TYPE):
+ *          (RESULT|CancellablePromise<RESULT>|Thenable)} onFulfilled A callback that
+ *     will be invoked if the Promise is fulfilled, or null.
+ * @param {?function(this:THIS, *): *} onRejected A callback that will be
+ *     invoked if the Promise is rejected, or null.
+ * @param {THIS=} opt_context An optional execution context for the callbacks.
+ *     in the default calling context.
+ * @return {!CancellablePromise} The child Promise.
+ * @template RESULT,THIS
+ * @private
+ */
+CancellablePromise.prototype.addChildPromise_ = function (onFulfilled, onRejected, opt_context) {
+
+  /** @type {CancellablePromise.CallbackEntry_} */
+  var callbackEntry = CancellablePromise.getCallbackEntry_(null, null, null);
+
+  callbackEntry.child = new CancellablePromise(function (resolve, reject) {
+    // Invoke onFulfilled, or resolve with the parent's value if absent.
+    callbackEntry.onFulfilled = onFulfilled ? function (value) {
+      try {
+        var result = onFulfilled.call(opt_context, value);
+        resolve(result);
+      } catch (err) {
+        reject(err);
+      }
+    } : resolve;
+
+    // Invoke onRejected, or reject with the parent's reason if absent.
+    callbackEntry.onRejected = onRejected ? function (reason) {
+      try {
+        var result = onRejected.call(opt_context, reason);
+        if (!(0, _metal.isDef)(result) && reason.IS_CANCELLATION_ERROR) {
+          // Propagate cancellation to children if no other result is returned.
+          reject(reason);
+        } else {
+          resolve(result);
+        }
+      } catch (err) {
+        reject(err);
+      }
+    } : reject;
+  });
+
+  callbackEntry.child.parent_ = this;
+  this.addCallbackEntry_(callbackEntry);
+  return callbackEntry.child;
+};
+
+/**
+ * Unblocks the Promise and fulfills it with the given value.
+ *
+ * @param {TYPE} value
+ * @private
+ */
+CancellablePromise.prototype.unblockAndFulfill_ = function (value) {
+  this.state_ = CancellablePromise.State_.PENDING;
+  this.resolve_(CancellablePromise.State_.FULFILLED, value);
+};
+
+/**
+ * Unblocks the Promise and rejects it with the given rejection reason.
+ *
+ * @param {*} reason
+ * @private
+ */
+CancellablePromise.prototype.unblockAndReject_ = function (reason) {
+  this.state_ = CancellablePromise.State_.PENDING;
+  this.resolve_(CancellablePromise.State_.REJECTED, reason);
+};
+
+/**
+ * Attempts to resolve a Promise with a given resolution state and value. This
+ * is a no-op if the given Promise has already been resolved.
+ *
+ * If the given result is a Thenable (such as another Promise), the Promise will
+ * be settled with the same state and result as the Thenable once it is itself
+ * settled.
+ *
+ * If the given result is not a Thenable, the Promise will be settled (fulfilled
+ * or rejected) with that result based on the given state.
+ *
+ * @see http://promisesaplus.com/#the_promise_resolution_procedure
+ *
+ * @param {CancellablePromise.State_} state
+ * @param {*} x The result to apply to the Promise.
+ * @private
+ */
+CancellablePromise.prototype.resolve_ = function (state, x) {
+  if (this.state_ != CancellablePromise.State_.PENDING) {
+    return;
+  }
+
+  if (this === x) {
+    state = CancellablePromise.State_.REJECTED;
+    x = new TypeError('Promise cannot resolve to itself');
+  }
+
+  this.state_ = CancellablePromise.State_.BLOCKED;
+  var isThenable = CancellablePromise.maybeThen_(x, this.unblockAndFulfill_, this.unblockAndReject_, this);
+  if (isThenable) {
+    return;
+  }
+
+  this.result_ = x;
+  this.state_ = state;
+  // Since we can no longer be canceled, remove link to parent, so that the
+  // child promise does not keep the parent promise alive.
+  this.parent_ = null;
+  this.scheduleCallbacks_();
+
+  if (state == CancellablePromise.State_.REJECTED && !x.IS_CANCELLATION_ERROR) {
+    CancellablePromise.addUnhandledRejection_(this, x);
+  }
+};
+
+/**
+ * Invokes the "then" method of an input value if that value is a Thenable. This
+ * is a no-op if the value is not thenable.
+ *
+ * @param {?} value A potentially thenable value.
+ * @param {!Function} onFulfilled
+ * @param {!Function} onRejected
+ * @param {?} context
+ * @return {boolean} Whether the input value was thenable.
+ * @private
+ */
+CancellablePromise.maybeThen_ = function (value, onFulfilled, onRejected, context) {
+  if (value instanceof CancellablePromise) {
+    value.thenVoid(onFulfilled, onRejected, context);
+    return true;
+  } else if (_Thenable2.default.isImplementedBy(value)) {
+    value = /** @type {!Thenable} */value;
+    value.then(onFulfilled, onRejected, context);
+    return true;
+  } else if ((0, _metal.isObject)(value)) {
+    try {
+      var then = value['then'];
+      if ((0, _metal.isFunction)(then)) {
+        CancellablePromise.tryThen_(value, then, onFulfilled, onRejected, context);
+        return true;
+      }
+    } catch (e) {
+      onRejected.call(context, e);
+      return true;
+    }
+  }
+
+  return false;
+};
+
+/**
+ * Attempts to call the {@code then} method on an object in the hopes that it is
+ * a Promise-compatible instance. This allows interoperation between different
+ * Promise implementations, however a non-compliant object may cause a Promise
+ * to hang indefinitely. If the {@code then} method throws an exception, the
+ * dependent Promise will be rejected with the thrown value.
+ *
+ * @see http://promisesaplus.com/#point-70
+ *
+ * @param {Thenable} thenable An object with a {@code then} method that may be
+ *     compatible with the Promise/A+ specification.
+ * @param {!Function} then The {@code then} method of the Thenable object.
+ * @param {!Function} onFulfilled
+ * @param {!Function} onRejected
+ * @param {*} context
+ * @private
+ */
+CancellablePromise.tryThen_ = function (thenable, then, onFulfilled, onRejected, context) {
+
+  var called = false;
+  var resolve = function resolve(value) {
+    if (!called) {
+      called = true;
+      onFulfilled.call(context, value);
+    }
+  };
+
+  var reject = function reject(reason) {
+    if (!called) {
+      called = true;
+      onRejected.call(context, reason);
+    }
+  };
+
+  try {
+    then.call(thenable, resolve, reject);
+  } catch (e) {
+    reject(e);
+  }
+};
+
+/**
+ * Executes the pending callbacks of a settled Promise after a timeout.
+ *
+ * Section 2.2.4 of the Promises/A+ specification requires that Promise
+ * callbacks must only be invoked from a call stack that only contains Promise
+ * implementation code, which we accomplish by invoking callback execution after
+ * a timeout. If {@code startExecution_} is called multiple times for the same
+ * Promise, the callback chain will be evaluated only once. Additional callbacks
+ * may be added during the evaluation phase, and will be executed in the same
+ * event loop.
+ *
+ * All Promises added to the waiting list during the same browser event loop
+ * will be executed in one batch to avoid using a separate timeout per Promise.
+ *
+ * @private
+ */
+CancellablePromise.prototype.scheduleCallbacks_ = function () {
+  if (!this.executing_) {
+    this.executing_ = true;
+    _metal.async.run(this.executeCallbacks_, this);
+  }
+};
+
+/**
+ * @return {boolean} Whether there are any pending callbacks queued.
+ * @private
+ */
+CancellablePromise.prototype.hasEntry_ = function () {
+  return !!this.callbackEntries_;
+};
+
+/**
+ * @param {CancellablePromise.CallbackEntry_} entry
+ * @private
+ */
+CancellablePromise.prototype.queueEntry_ = function (entry) {
+  if (this.callbackEntriesTail_) {
+    this.callbackEntriesTail_.next = entry;
+    this.callbackEntriesTail_ = entry;
+  } else {
+    // It the work queue was empty set the head too.
+    this.callbackEntries_ = entry;
+    this.callbackEntriesTail_ = entry;
+  }
+};
+
+/**
+ * @return {CancellablePromise.CallbackEntry_} entry
+ * @private
+ */
+CancellablePromise.prototype.popEntry_ = function () {
+  var entry = null;
+  if (this.callbackEntries_) {
+    entry = this.callbackEntries_;
+    this.callbackEntries_ = entry.next;
+    entry.next = null;
+  }
+  // It the work queue is empty clear the tail too.
+  if (!this.callbackEntries_) {
+    this.callbackEntriesTail_ = null;
+  }
+  return entry;
+};
+
+/**
+ * @param {CancellablePromise.CallbackEntry_} previous
+ * @private
+ */
+CancellablePromise.prototype.removeEntryAfter_ = function (previous) {
+  // If the last entry is being removed, update the tail
+  if (previous.next == this.callbackEntriesTail_) {
+    this.callbackEntriesTail_ = previous;
+  }
+
+  previous.next = previous.next.next;
+};
+
+/**
+ * Executes all pending callbacks for this Promise.
+ *
+ * @private
+ */
+CancellablePromise.prototype.executeCallbacks_ = function () {
+  var entry = null;
+  while (entry = this.popEntry_()) {
+    if (CancellablePromise.LONG_STACK_TRACES) {
+      this.currentStep_++;
+    }
+    this.executeCallback_(entry, this.state_, this.result_);
+  }
+  this.executing_ = false;
+};
+
+/**
+ * Executes a pending callback for this Promise. Invokes an {@code onFulfilled}
+ * or {@code onRejected} callback based on the settled state of the Promise.
+ *
+ * @param {!CancellablePromise.CallbackEntry_} callbackEntry An entry containing the
+ *     onFulfilled and/or onRejected callbacks for this step.
+ * @param {CancellablePromise.State_} state The resolution status of the Promise,
+ *     either FULFILLED or REJECTED.
+ * @param {*} result The settled result of the Promise.
+ * @private
+ */
+CancellablePromise.prototype.executeCallback_ = function (callbackEntry, state, result) {
+  // Cancel an unhandled rejection if the then/thenVoid call had an onRejected.
+  if (state == CancellablePromise.State_.REJECTED && callbackEntry.onRejected && !callbackEntry.always) {
+    this.removeUnhandledRejection_();
+  }
+
+  if (callbackEntry.child) {
+    // When the parent is settled, the child no longer needs to hold on to it,
+    // as the parent can no longer be canceled.
+    callbackEntry.child.parent_ = null;
+    CancellablePromise.invokeCallback_(callbackEntry, state, result);
+  } else {
+    // Callbacks created with thenAlways or thenVoid do not have the rejection
+    // handling code normally set up in the child Promise.
+    try {
+      callbackEntry.always ? callbackEntry.onFulfilled.call(callbackEntry.context) : CancellablePromise.invokeCallback_(callbackEntry, state, result);
+    } catch (err) {
+      CancellablePromise.handleRejection_.call(null, err);
+    }
+  }
+  CancellablePromise.returnEntry_(callbackEntry);
+};
+
+/**
+ * Executes the onFulfilled or onRejected callback for a callbackEntry.
+ *
+ * @param {!CancellablePromise.CallbackEntry_} callbackEntry
+ * @param {CancellablePromise.State_} state
+ * @param {*} result
+ * @private
+ */
+CancellablePromise.invokeCallback_ = function (callbackEntry, state, result) {
+  if (state == CancellablePromise.State_.FULFILLED) {
+    callbackEntry.onFulfilled.call(callbackEntry.context, result);
+  } else if (callbackEntry.onRejected) {
+    callbackEntry.onRejected.call(callbackEntry.context, result);
+  }
+};
+
+/**
+ * Records a stack trace entry for functions that call {@code then} or the
+ * Promise constructor. May be disabled by unsetting {@code LONG_STACK_TRACES}.
+ *
+ * @param {!Error} err An Error object created by the calling function for
+ *     providing a stack trace.
+ * @private
+ */
+CancellablePromise.prototype.addStackTrace_ = function (err) {
+  if (CancellablePromise.LONG_STACK_TRACES && (0, _metal.isString)(err.stack)) {
+    // Extract the third line of the stack trace, which is the entry for the
+    // user function that called into Promise code.
+    var trace = err.stack.split('\n', 4)[3];
+    var message = err.message;
+
+    // Pad the message to align the traces.
+    message += Array(11 - message.length).join(' ');
+    this.stack_.push(message + trace);
+  }
+};
+
+/**
+ * Adds extra stack trace information to an exception for the list of
+ * asynchronous {@code then} calls that have been run for this Promise. Stack
+ * trace information is recorded in {@see #addStackTrace_}, and appended to
+ * rethrown errors when {@code LONG_STACK_TRACES} is enabled.
+ *
+ * @param {*} err An unhandled exception captured during callback execution.
+ * @private
+ */
+CancellablePromise.prototype.appendLongStack_ = function (err) {
+  if (CancellablePromise.LONG_STACK_TRACES && err && (0, _metal.isString)(err.stack) && this.stack_.length) {
+    var longTrace = ['Promise trace:'];
+
+    for (var promise = this; promise; promise = promise.parent_) {
+      for (var i = this.currentStep_; i >= 0; i--) {
+        longTrace.push(promise.stack_[i]);
+      }
+      longTrace.push('Value: ' + '[' + (promise.state_ == CancellablePromise.State_.REJECTED ? 'REJECTED' : 'FULFILLED') + '] ' + '<' + String(promise.result_) + '>');
+    }
+    err.stack += '\n\n' + longTrace.join('\n');
+  }
+};
+
+/**
+ * Marks this rejected Promise as having being handled. Also marks any parent
+ * Promises in the rejected state as handled. The rejection handler will no
+ * longer be invoked for this Promise (if it has not been called already).
+ *
+ * @private
+ */
+CancellablePromise.prototype.removeUnhandledRejection_ = function () {
+  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
+    for (var p = this; p && p.unhandledRejectionId_; p = p.parent_) {
+      clearTimeout(p.unhandledRejectionId_);
+      p.unhandledRejectionId_ = 0;
+    }
+  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
+    for (var p = this; p && p.hadUnhandledRejection_; p = p.parent_) {
+      p.hadUnhandledRejection_ = false;
+    }
+  }
+};
+
+/**
+ * Marks this rejected Promise as unhandled. If no {@code onRejected} callback
+ * is called for this Promise before the {@code UNHANDLED_REJECTION_DELAY}
+ * expires, the reason will be passed to the unhandled rejection handler. The
+ * handler typically rethrows the rejection reason so that it becomes visible in
+ * the developer console.
+ *
+ * @param {!CancellablePromise} promise The rejected Promise.
+ * @param {*} reason The Promise rejection reason.
+ * @private
+ */
+CancellablePromise.addUnhandledRejection_ = function (promise, reason) {
+  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
+    promise.unhandledRejectionId_ = setTimeout(function () {
+      promise.appendLongStack_(reason);
+      CancellablePromise.handleRejection_.call(null, reason);
+    }, CancellablePromise.UNHANDLED_REJECTION_DELAY);
+  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
+    promise.hadUnhandledRejection_ = true;
+    _metal.async.run(function () {
+      if (promise.hadUnhandledRejection_) {
+        promise.appendLongStack_(reason);
+        CancellablePromise.handleRejection_.call(null, reason);
+      }
+    });
+  }
+};
+
+/**
+ * A method that is invoked with the rejection reasons for Promises that are
+ * rejected but have no {@code onRejected} callbacks registered yet.
+ * @type {function(*)}
+ * @private
+ */
+CancellablePromise.handleRejection_ = _metal.async.throwException;
+
+/**
+ * Sets a handler that will be called with reasons from unhandled rejected
+ * Promises. If the rejected Promise (or one of its descendants) has an
+ * {@code onRejected} callback registered, the rejection will be considered
+ * handled, and the rejection handler will not be called.
+ *
+ * By default, unhandled rejections are rethrown so that the error may be
+ * captured by the developer console or a {@code window.onerror} handler.
+ *
+ * @param {function(*)} handler A function that will be called with reasons from
+ *     rejected Promises. Defaults to {@code async.throwException}.
+ */
+CancellablePromise.setUnhandledRejectionHandler = function (handler) {
+  CancellablePromise.handleRejection_ = handler;
+};
+
+/**
+ * Error used as a rejection reason for canceled Promises.
+ *
+ * @param {string=} opt_message
+ * @constructor
+ * @extends {Error}
+ * @final
+ */
+CancellablePromise.CancellationError = function (_Error) {
+  _inherits(_class, _Error);
+
+  function _class(opt_message) {
+    _classCallCheck(this, _class);
+
+    var _this = _possibleConstructorReturn(this, (_class.__proto__ || Object.getPrototypeOf(_class)).call(this, opt_message));
+
+    if (opt_message) {
+      _this.message = opt_message;
+    }
+    return _this;
+  }
+
+  return _class;
+}(Error);
+
+/** @override */
+CancellablePromise.CancellationError.prototype.name = 'cancel';
+
+/**
+ * Internal implementation of the resolver interface.
+ *
+ * @param {!CancellablePromise<TYPE>} promise
+ * @param {function((TYPE|CancellablePromise<TYPE>|Thenable)=)} resolve
+ * @param {function(*=): void} reject
+ * @implements {CancellablePromise.Resolver<TYPE>}
+ * @final @struct
+ * @constructor
+ * @private
+ * @template TYPE
+ */
+CancellablePromise.Resolver_ = function (promise, resolve, reject) {
+  /** @const */
+  this.promise = promise;
+
+  /** @const */
+  this.resolve = resolve;
+
+  /** @const */
+  this.reject = reject;
+};
+
+exports.CancellablePromise = CancellablePromise;
+exports.default = CancellablePromise;
+
+/***/ }),
+/* 68 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports.WorkflowTaskAvg = exports.WorkflowProcessAvg = undefined;
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _metalJsx = __webpack_require__(29);
+
+var _metalJsx2 = _interopRequireDefault(_metalJsx);
+
+var _charts = __webpack_require__(69);
+
+var _metalState = __webpack_require__(1);
+
+var _metalAjax = __webpack_require__(97);
+
+var _metalAjax2 = _interopRequireDefault(_metalAjax);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var WorkflowProcessAvg = function (_JSXComponent) {
+	_inherits(WorkflowProcessAvg, _JSXComponent);
+
+	function WorkflowProcessAvg() {
+		_classCallCheck(this, WorkflowProcessAvg);
+
+		return _possibleConstructorReturn(this, (WorkflowProcessAvg.__proto__ || Object.getPrototypeOf(WorkflowProcessAvg)).apply(this, arguments));
+	}
+
+	_createClass(WorkflowProcessAvg, [{
+		key: 'attached',
+		value: function attached() {
+			var _this2 = this;
+
+			_metalAjax2.default.request(location.origin + '/api/workflow/processavg').then(function (xhr) {
+				var json = JSON.parse(xhr.response);
+				var columns = [];
+
+				json.forEach(function (value) {
+					var throughput = Math.floor(value.totalDuration / value.total);
+
+					columns.push({
+						'id': value.name,
+						'data': [throughput]
+					});
+				});
+
+				_this2.props.columns = columns;
+			});
+			setTimeout(function () {
+				_this2.props.columns = _this2.props.columns;
+			}, 10);
+			setTimeout(function () {
+				_this2.props.columns = _this2.props.columns;
+			}, 100);
+		}
+	}, {
+		key: 'render',
+		value: function render() {
+			return IncrementalDOM.elementVoid(_charts.BarChart, null, null, 'colors', {}, 'columns', this.props.columns, 'ref', 'bar');
+		}
+	}]);
+
+	return WorkflowProcessAvg;
+}(_metalJsx2.default);
+
+WorkflowProcessAvg.PROPS = {
+	columns: _metalState.Config.any().value([{
+		id: '',
+		data: []
+	}])
+};
+
+var WorkflowTaskAvg = function (_JSXComponent2) {
+	_inherits(WorkflowTaskAvg, _JSXComponent2);
+
+	function WorkflowTaskAvg() {
+		_classCallCheck(this, WorkflowTaskAvg);
+
+		return _possibleConstructorReturn(this, (WorkflowTaskAvg.__proto__ || Object.getPrototypeOf(WorkflowTaskAvg)).apply(this, arguments));
+	}
+
+	_createClass(WorkflowTaskAvg, [{
+		key: 'attached',
+		value: function attached() {
+			var _this4 = this;
+
+			_metalAjax2.default.request(location.origin + '/api/workflow/taskavg').then(function (xhr) {
+				var json = JSON.parse(xhr.response);
+				var columns = [];
+
+				json.forEach(function (value) {
+					var throughput = Math.floor(value.totalDuration / value.total);
+
+					columns.push({
+						'id': value.name,
+						'data': [throughput]
+					});
+				});
+
+				_this4.props.columns = columns;
+			});
+			setTimeout(function () {
+				_this4.props.columns = _this4.props.columns;
+			}, 10);
+			setTimeout(function () {
+				_this4.props.columns = _this4.props.columns;
+			}, 100);
+		}
+	}, {
+		key: 'render',
+		value: function render() {
+			return IncrementalDOM.elementVoid(_charts.BarChart, null, null, 'colors', {}, 'columns', this.props.columns, 'ref', 'bar');
+		}
+	}]);
+
+	return WorkflowTaskAvg;
+}(_metalJsx2.default);
+
+WorkflowTaskAvg.PROPS = {
+	columns: _metalState.Config.any().value([{
+		id: '',
+		data: []
+	}])
+};
+
+exports.WorkflowProcessAvg = WorkflowProcessAvg;
+exports.WorkflowTaskAvg = WorkflowTaskAvg;
+exports.default = WorkflowProcessAvg;
 
 /***/ }),
 /* 69 */
@@ -15261,7 +15431,7 @@ var _BarChart = __webpack_require__(81);
 
 var _BarChart2 = _interopRequireDefault(_BarChart);
 
-var _Chart = __webpack_require__(2);
+var _Chart = __webpack_require__(4);
 
 var _Chart2 = _interopRequireDefault(_Chart);
 
@@ -15293,7 +15463,7 @@ var _StepChart = __webpack_require__(95);
 
 var _StepChart2 = _interopRequireDefault(_StepChart);
 
-var _ChartBase = __webpack_require__(15);
+var _ChartBase = __webpack_require__(65);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -15326,7 +15496,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.AreaLineChart = undefined;
 
-var _Chart2 = __webpack_require__(2);
+var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
@@ -44817,11 +44987,11 @@ exports.AreaLineChart = undefined;
 
 var _metalState = __webpack_require__(1);
 
-var _Chart2 = __webpack_require__(4);
+var _Chart2 = __webpack_require__(8);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _types = __webpack_require__(3);
+var _types = __webpack_require__(5);
 
 var _types2 = _interopRequireDefault(_types);
 
@@ -44889,7 +45059,7 @@ exports.default = AreaLineChart;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-__webpack_require__(9);
+__webpack_require__(10);
 
 (function () {
   this.CLOSURE_NO_DEPS = true;
@@ -49516,7 +49686,7 @@ __webpack_require__(9);
     return IncrementalDOM;
   });
 }).call(typeof exports !== 'undefined' && typeof global !== 'undefined' ? global : window);
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
 /* 75 */
@@ -49553,18 +49723,18 @@ var SoyAop = {
   * is set, or otherwise just calling the original function instead.
   * @param {!function()} originalFn The original template function that was
   *     intercepted.
-  * @param {Object} opt_data Template data object.
-  * @param {*} opt_ignored
-  * @param {Object} opt_ijData Template injected data object.
+  * @param {Object=} data Template data object.
+  * @param {*=} ignored
+  * @param {Object=} ijData Template injected data object.
   * @return {*} The return value of the function that is called to handle this
   *     interception.
   */
-	handleTemplateCall_: function handleTemplateCall_(originalFn, opt_data, opt_ignored, opt_ijData) {
-		var interceptFn = SoyAop.interceptFns_[SoyAop.interceptFns_.length - 1];
+	handleTemplateCall_: function handleTemplateCall_(originalFn, data, ignored, ijData) {
+		var interceptFn = SoyAop.interceptFns_[SoyAop.interceptFns_.length - 1]; // eslint-disable-line
 		if (interceptFn) {
-			return interceptFn.call(null, originalFn, opt_data, opt_ignored, opt_ijData);
+			return interceptFn.call(null, originalFn, data, ignored, ijData);
 		} else {
-			return originalFn.call(null, opt_data, opt_ignored, opt_ijData);
+			return originalFn.call(null, data, ignored, ijData);
 		}
 	},
 
@@ -49620,11 +49790,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.templates = exports.Chart = undefined;
 
-var _metalComponent = __webpack_require__(5);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(32);
+var _metalSoy = __webpack_require__(66);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -50146,7 +50316,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.AreaSplineChart = undefined;
 
-var _Chart2 = __webpack_require__(2);
+var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
@@ -50194,11 +50364,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.AreaSplineChart = undefined;
 
-var _Chart2 = __webpack_require__(4);
+var _Chart2 = __webpack_require__(8);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _types = __webpack_require__(3);
+var _types = __webpack_require__(5);
 
 var _types2 = _interopRequireDefault(_types);
 
@@ -50271,7 +50441,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.AreaStepChart = undefined;
 
-var _Chart2 = __webpack_require__(2);
+var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
@@ -50319,11 +50489,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.AreaStepChart = undefined;
 
-var _Chart2 = __webpack_require__(4);
+var _Chart2 = __webpack_require__(8);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _types = __webpack_require__(3);
+var _types = __webpack_require__(5);
 
 var _types2 = _interopRequireDefault(_types);
 
@@ -50396,7 +50566,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.BarChart = undefined;
 
-var _Chart2 = __webpack_require__(2);
+var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
@@ -50444,11 +50614,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.BarChart = undefined;
 
-var _Chart2 = __webpack_require__(4);
+var _Chart2 = __webpack_require__(8);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _types = __webpack_require__(3);
+var _types = __webpack_require__(5);
 
 var _types2 = _interopRequireDefault(_types);
 
@@ -50525,7 +50695,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.DonutChart = undefined;
 
-var _Chart2 = __webpack_require__(2);
+var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
@@ -50573,11 +50743,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.DonutChart = undefined;
 
-var _Chart2 = __webpack_require__(4);
+var _Chart2 = __webpack_require__(8);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _types = __webpack_require__(3);
+var _types = __webpack_require__(5);
 
 var _types2 = _interopRequireDefault(_types);
 
@@ -50654,7 +50824,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.GaugeChart = undefined;
 
-var _Chart2 = __webpack_require__(2);
+var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
@@ -50702,11 +50872,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.GaugeChart = undefined;
 
-var _Chart2 = __webpack_require__(4);
+var _Chart2 = __webpack_require__(8);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _types = __webpack_require__(3);
+var _types = __webpack_require__(5);
 
 var _types2 = _interopRequireDefault(_types);
 
@@ -50783,7 +50953,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.LineChart = undefined;
 
-var _Chart2 = __webpack_require__(2);
+var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
@@ -50831,11 +51001,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.LineChart = undefined;
 
-var _Chart2 = __webpack_require__(4);
+var _Chart2 = __webpack_require__(8);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _types = __webpack_require__(3);
+var _types = __webpack_require__(5);
 
 var _types2 = _interopRequireDefault(_types);
 
@@ -50912,7 +51082,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.PieChart = undefined;
 
-var _Chart2 = __webpack_require__(2);
+var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
@@ -50960,11 +51130,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.PieChart = undefined;
 
-var _Chart2 = __webpack_require__(4);
+var _Chart2 = __webpack_require__(8);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _types = __webpack_require__(3);
+var _types = __webpack_require__(5);
 
 var _types2 = _interopRequireDefault(_types);
 
@@ -51041,7 +51211,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.ScatterChart = undefined;
 
-var _Chart2 = __webpack_require__(2);
+var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
@@ -51089,11 +51259,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.ScatterChart = undefined;
 
-var _Chart2 = __webpack_require__(4);
+var _Chart2 = __webpack_require__(8);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _types = __webpack_require__(3);
+var _types = __webpack_require__(5);
 
 var _types2 = _interopRequireDefault(_types);
 
@@ -51170,7 +51340,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.SplineChart = undefined;
 
-var _Chart2 = __webpack_require__(2);
+var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
@@ -51218,11 +51388,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.SplineChart = undefined;
 
-var _Chart2 = __webpack_require__(4);
+var _Chart2 = __webpack_require__(8);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _types = __webpack_require__(3);
+var _types = __webpack_require__(5);
 
 var _types2 = _interopRequireDefault(_types);
 
@@ -51299,7 +51469,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.StepChart = undefined;
 
-var _Chart2 = __webpack_require__(2);
+var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
@@ -51347,11 +51517,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.StepChart = undefined;
 
-var _Chart2 = __webpack_require__(4);
+var _Chart2 = __webpack_require__(8);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _types = __webpack_require__(3);
+var _types = __webpack_require__(5);
 
 var _types2 = _interopRequireDefault(_types);
 
@@ -52675,7 +52845,7 @@ URL.qs = qs;
 
 module.exports = URL;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
 /* 101 */
@@ -53384,7 +53554,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.ProgressPromise = exports.CancellablePromise = undefined;
 
-var _CancellablePromise = __webpack_require__(33);
+var _CancellablePromise = __webpack_require__(67);
 
 var _CancellablePromise2 = _interopRequireDefault(_CancellablePromise);
 
@@ -53635,7 +53805,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _CancellablePromise2 = __webpack_require__(33);
+var _CancellablePromise2 = __webpack_require__(67);
 
 var _CancellablePromise3 = _interopRequireDefault(_CancellablePromise2);
 

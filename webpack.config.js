@@ -2,7 +2,10 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './src/main/webapp/WEB-INF/js/App.js',
+  entry: {
+	  Dashboard: './src/main/webapp/WEB-INF/js/App.js',
+	  Forms: './src/main/webapp/WEB-INF/js/FormsApp.js',
+  },
   module: {
     rules: [
       {
@@ -16,6 +19,20 @@ module.exports = {
             plugins: ['babel-plugin-transform-node-env-inline']
           }
         }
+      },
+      {
+		test: /\.scss$/,
+		use: [
+			{
+				loader: "style-loader"
+			}, 
+			{
+				loader: "css-loader"
+			}, 
+			{
+				loader: "sass-loader"
+			}
+		]
       }
     ]
   },
@@ -26,9 +43,9 @@ module.exports = {
   ],
   devtool: 'cheap-module-source-map',
   output: {
-    library: 'Dashboard',
-    libraryTarget: 'this',
-    filename: './src/main/resources/static/build/Dashboard.js'
+	library: '[name]',
+	libraryTarget: 'this',
+	filename: './src/main/resources/static/build/[name].js'
   },
   plugins: [new webpack.optimize.ModuleConcatenationPlugin()],
   resolve: {
