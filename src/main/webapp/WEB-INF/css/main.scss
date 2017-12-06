@@ -1,3 +1,4 @@
+@import '~clay/src/scss/base.scss';
 @import "variables";
 
 * {
@@ -10,17 +11,43 @@ body {
 
 .header {
     background: $color-dark;
-    color: $color-clean;
-    font-size: 1.4em;
     padding: 1.5em;
+
+    h1 {
+      color: $color-clean;
+      font-size: 1.4em;
+    }
+}
+
+.flex {
+  display: flex;
 }
 
 .box {
     background: $color-light;
     padding: 1.5em;
+    display: flex;
 
     h2 {
         color: $color-dark;
-        font-size: 2.5em;
+        display: inline-block;
+        font-size: 4.5em;
+
+        span {
+            font-weight: 200;
+        }
     }
+
+    h3 {
+        font-size: 1.50rem;
+        font-weight: 600;
+    }
+
+    .sessions-container {
+        margin-right: 4rem;
+    }
+}
+
+.analytics-row {
+    display: flex;
 }

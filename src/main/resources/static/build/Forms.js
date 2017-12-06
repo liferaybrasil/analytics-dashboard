@@ -76,7 +76,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.string = exports.object = exports.Disposable = exports.async = exports.array = undefined;
 
-var _core = __webpack_require__(30);
+var _core = __webpack_require__(31);
 
 Object.keys(_core).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -90,23 +90,23 @@ Object.keys(_core).forEach(function (key) {
 
 var _core2 = _interopRequireDefault(_core);
 
-var _array = __webpack_require__(32);
+var _array = __webpack_require__(33);
 
 var _array2 = _interopRequireDefault(_array);
 
-var _async = __webpack_require__(33);
+var _async = __webpack_require__(34);
 
 var _async2 = _interopRequireDefault(_async);
 
-var _Disposable = __webpack_require__(36);
+var _Disposable = __webpack_require__(37);
 
 var _Disposable2 = _interopRequireDefault(_Disposable);
 
-var _object = __webpack_require__(37);
+var _object = __webpack_require__(38);
 
 var _object2 = _interopRequireDefault(_object);
 
-var _string = __webpack_require__(38);
+var _string = __webpack_require__(39);
 
 var _string2 = _interopRequireDefault(_string);
 
@@ -135,11 +135,11 @@ var _validators = __webpack_require__(15);
 
 var _validators2 = _interopRequireDefault(_validators);
 
-var _Config = __webpack_require__(39);
+var _Config = __webpack_require__(40);
 
 var _Config2 = _interopRequireDefault(_Config);
 
-var _State = __webpack_require__(40);
+var _State = __webpack_require__(41);
 
 var _State2 = _interopRequireDefault(_State);
 
@@ -174,7 +174,7 @@ Object.keys(_events).forEach(function (key) {
 	});
 });
 
-var _Component = __webpack_require__(60);
+var _Component = __webpack_require__(61);
 
 var _Component2 = _interopRequireDefault(_Component);
 
@@ -182,7 +182,7 @@ var _ComponentDataManager = __webpack_require__(26);
 
 var _ComponentDataManager2 = _interopRequireDefault(_ComponentDataManager);
 
-var _ComponentRegistry = __webpack_require__(62);
+var _ComponentRegistry = __webpack_require__(63);
 
 var _ComponentRegistry2 = _interopRequireDefault(_ComponentRegistry);
 
@@ -215,7 +215,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.dom = undefined;
 
-var _domNamed = __webpack_require__(53);
+var _domNamed = __webpack_require__(54);
 
 Object.keys(_domNamed).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -248,11 +248,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.EventHandler = exports.EventHandle = exports.EventEmitterProxy = exports.EventEmitter = undefined;
 
-var _EventEmitter = __webpack_require__(41);
+var _EventEmitter = __webpack_require__(42);
 
 var _EventEmitter2 = _interopRequireDefault(_EventEmitter);
 
-var _EventEmitterProxy = __webpack_require__(42);
+var _EventEmitterProxy = __webpack_require__(43);
 
 var _EventEmitterProxy2 = _interopRequireDefault(_EventEmitterProxy);
 
@@ -260,7 +260,7 @@ var _EventHandle = __webpack_require__(16);
 
 var _EventHandle2 = _interopRequireDefault(_EventHandle);
 
-var _EventHandler = __webpack_require__(43);
+var _EventHandler = __webpack_require__(44);
 
 var _EventHandler2 = _interopRequireDefault(_EventHandler);
 
@@ -347,11 +347,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.HTML2IncDom = undefined;
 
-var _HTML2IncDom = __webpack_require__(46);
+var _HTML2IncDom = __webpack_require__(47);
 
 var _HTML2IncDom2 = _interopRequireDefault(_HTML2IncDom);
 
-var _IncrementalDomRenderer = __webpack_require__(49);
+var _IncrementalDomRenderer = __webpack_require__(50);
 
 var _IncrementalDomRenderer2 = _interopRequireDefault(_IncrementalDomRenderer);
 
@@ -390,7 +390,7 @@ var _domData = __webpack_require__(14);
 
 var _domData2 = _interopRequireDefault(_domData);
 
-var _DomEventEmitterProxy = __webpack_require__(55);
+var _DomEventEmitterProxy = __webpack_require__(56);
 
 var _DomEventEmitterProxy2 = _interopRequireDefault(_DomEventEmitterProxy);
 
@@ -402,15 +402,15 @@ var _features = __webpack_require__(23);
 
 var _features2 = _interopRequireDefault(_features);
 
-var _globalEval = __webpack_require__(56);
+var _globalEval = __webpack_require__(57);
 
 var _globalEval2 = _interopRequireDefault(_globalEval);
 
-var _globalEvalStyles = __webpack_require__(57);
+var _globalEvalStyles = __webpack_require__(58);
 
 var _globalEvalStyles2 = _interopRequireDefault(_globalEvalStyles);
 
-__webpack_require__(58);
+__webpack_require__(59);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1235,7 +1235,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-__webpack_require__(45);
+__webpack_require__(46);
 
 var _metal = __webpack_require__(0);
 
@@ -1247,7 +1247,7 @@ var _metalIncrementalDom = __webpack_require__(10);
 
 var _metalIncrementalDom2 = _interopRequireDefault(_metalIncrementalDom);
 
-var _JSXDataManager = __webpack_require__(64);
+var _JSXDataManager = __webpack_require__(65);
 
 var _JSXDataManager2 = _interopRequireDefault(_JSXDataManager);
 
@@ -1367,11 +1367,11 @@ exports.default = JSXComponent;
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global) {
 
-var _incrementalDom = __webpack_require__(50);
+var _incrementalDom = __webpack_require__(51);
 
 var IncrementalDOM = _interopRequireWildcard(_incrementalDom);
 
-var _incrementalDomString = __webpack_require__(51);
+var _incrementalDomString = __webpack_require__(52);
 
 var IncrementalDOMString = _interopRequireWildcard(_incrementalDomString);
 
@@ -1883,7 +1883,7 @@ exports.render = render;
 exports.renderChild = renderChild;
 exports.renderFunction = renderFunction;
 
-var _attributes = __webpack_require__(59);
+var _attributes = __webpack_require__(60);
 
 var _callArgs = __webpack_require__(21);
 
@@ -1897,7 +1897,7 @@ var _data = __webpack_require__(7);
 
 var _metal = __webpack_require__(0);
 
-var _unused = __webpack_require__(63);
+var _unused = __webpack_require__(64);
 
 var _incrementalDomAop = __webpack_require__(13);
 
@@ -3037,6 +3037,1306 @@ exports.default = jsxRenderer_;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/*!
+ * Promises polyfill from Google's Closure Library.
+ *
+ *      Copyright 2013 The Closure Library Authors. All Rights Reserved.
+ *
+ * NOTE(eduardo): Promise support is not ready on all supported browsers,
+ * therefore metal-promise is temporarily using Google's promises as polyfill.
+ * It supports cancellable promises and has clean and fast implementation.
+ */
+
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.CancellablePromise = undefined;
+
+var _FreeList = __webpack_require__(78);
+
+var _FreeList2 = _interopRequireDefault(_FreeList);
+
+var _Thenable = __webpack_require__(79);
+
+var _Thenable2 = _interopRequireDefault(_Thenable);
+
+var _metal = __webpack_require__(0);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/**
+ * Like bind(), except that a 'this object' is not required. Useful when the
+ * target function is already bound.
+ *
+ * Usage:
+ * var g = partial(f, arg1, arg2);
+ * g(arg3, arg4);
+ *
+ * @param {Function} fn A function to partially apply.
+ * @param {...*} var_args Additional arguments that are partially applied to fn.
+ * @return {!Function} A partially-applied form of the function bind() was
+ *     invoked as a method of.
+ */
+var partial = function partial(fn) {
+  var args = Array.prototype.slice.call(arguments, 1);
+  return function () {
+    // Clone the array (with slice()) and append additional arguments
+    // to the existing arguments.
+    var newArgs = args.slice();
+    newArgs.push.apply(newArgs, arguments);
+    return fn.apply(this, newArgs);
+  };
+};
+
+/**
+ * NOTE: This class was created in anticipation of the built-in Promise type
+ * being standardized and implemented across browsers. Now that Promise is
+ * available in modern browsers, and is automatically polyfilled by the Closure
+ * Compiler, by default, most new code should use native {@code Promise}
+ * instead of {@code CancellablePromise}. However, {@code CancellablePromise} has the
+ * concept of cancellation which native Promises do not yet have. So code
+ * needing cancellation may still want to use {@code CancellablePromise}.
+ *
+ * Promises provide a result that may be resolved asynchronously. A Promise may
+ * be resolved by being fulfilled with a fulfillment value, rejected with a
+ * rejection reason, or blocked by another Promise. A Promise is said to be
+ * settled if it is either fulfilled or rejected. Once settled, the Promise
+ * result is immutable.
+ *
+ * Promises may represent results of any type, including undefined. Rejection
+ * reasons are typically Errors, but may also be of any type. Closure Promises
+ * allow for optional type annotations that enforce that fulfillment values are
+ * of the appropriate types at compile time.
+ *
+ * The result of a Promise is accessible by calling {@code then} and registering
+ * {@code onFulfilled} and {@code onRejected} callbacks. Once the Promise
+ * is settled, the relevant callbacks are invoked with the fulfillment value or
+ * rejection reason as argument. Callbacks are always invoked in the order they
+ * were registered, even when additional {@code then} calls are made from inside
+ * another callback. A callback is always run asynchronously sometime after the
+ * scope containing the registering {@code then} invocation has returned.
+ *
+ * If a Promise is resolved with another Promise, the first Promise will block
+ * until the second is settled, and then assumes the same result as the second
+ * Promise. This allows Promises to depend on the results of other Promises,
+ * linking together multiple asynchronous operations.
+ *
+ * This implementation is compatible with the Promises/A+ specification and
+ * passes that specification's conformance test suite. A Closure Promise may be
+ * resolved with a Promise instance (or sufficiently compatible Promise-like
+ * object) created by other Promise implementations. From the specification,
+ * Promise-like objects are known as "Thenables".
+ *
+ * @see http://promisesaplus.com/
+ *
+ * @param {function(
+ *             this:RESOLVER_CONTEXT,
+ *             function((TYPE|IThenable<TYPE>|Thenable)=),
+ *             function(*=)): void} resolver
+ *     Initialization function that is invoked immediately with {@code resolve}
+ *     and {@code reject} functions as arguments. The Promise is resolved or
+ *     rejected with the first argument passed to either function.
+ * @param {RESOLVER_CONTEXT=} opt_context An optional context for executing the
+ *     resolver function. If unspecified, the resolver function will be executed
+ *     in the default scope.
+ * @constructor
+ * @struct
+ * @final
+ * @implements {Thenable<TYPE>}
+ * @template TYPE,RESOLVER_CONTEXT
+ */
+var CancellablePromise = function CancellablePromise(resolver, opt_context) {
+  /**
+   * The internal state of this Promise. Either PENDING, FULFILLED, REJECTED, or
+   * BLOCKED.
+   * @private {CancellablePromise.State_}
+   */
+  this.state_ = CancellablePromise.State_.PENDING;
+
+  /**
+   * The settled result of the Promise. Immutable once set with either a
+   * fulfillment value or rejection reason.
+   * @private {*}
+   */
+  this.result_ = undefined;
+
+  /**
+   * For Promises created by calling {@code then()}, the originating parent.
+   * @private {CancellablePromise}
+   */
+  this.parent_ = null;
+
+  /**
+   * The linked list of {@code onFulfilled} and {@code onRejected} callbacks
+   * added to this Promise by calls to {@code then()}.
+   * @private {?CancellablePromise.CallbackEntry_}
+   */
+  this.callbackEntries_ = null;
+
+  /**
+   * The tail of the linked list of {@code onFulfilled} and {@code onRejected}
+   * callbacks added to this Promise by calls to {@code then()}.
+   * @private {?CancellablePromise.CallbackEntry_}
+   */
+  this.callbackEntriesTail_ = null;
+
+  /**
+   * Whether the Promise is in the queue of Promises to execute.
+   * @private {boolean}
+   */
+  this.executing_ = false;
+
+  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
+    /**
+     * A timeout ID used when the {@code UNHANDLED_REJECTION_DELAY} is greater
+     * than 0 milliseconds. The ID is set when the Promise is rejected, and
+     * cleared only if an {@code onRejected} callback is invoked for the
+     * Promise (or one of its descendants) before the delay is exceeded.
+     *
+     * If the rejection is not handled before the timeout completes, the
+     * rejection reason is passed to the unhandled rejection handler.
+     * @private {number}
+     */
+    this.unhandledRejectionId_ = 0;
+  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
+    /**
+     * When the {@code UNHANDLED_REJECTION_DELAY} is set to 0 milliseconds, a
+     * boolean that is set if the Promise is rejected, and reset to false if an
+     * {@code onRejected} callback is invoked for the Promise (or one of its
+     * descendants). If the rejection is not handled before the next timestep,
+     * the rejection reason is passed to the unhandled rejection handler.
+     * @private {boolean}
+     */
+    this.hadUnhandledRejection_ = false;
+  }
+
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    /**
+     * A list of stack trace frames pointing to the locations where this Promise
+     * was created or had callbacks added to it. Saved to add additional context
+     * to stack traces when an exception is thrown.
+     * @private {!Array<string>}
+     */
+    this.stack_ = [];
+    this.addStackTrace_(new Error('created'));
+
+    /**
+     * Index of the most recently executed stack frame entry.
+     * @private {number}
+     */
+    this.currentStep_ = 0;
+  }
+
+  // As an optimization, we can skip this if resolver is nullFunction.
+  // This value is passed internally when creating a promise which will be
+  // resolved through a more optimized path.
+  if (resolver != _metal.nullFunction) {
+    try {
+      var self = this;
+      resolver.call(opt_context, function (value) {
+        self.resolve_(CancellablePromise.State_.FULFILLED, value);
+      }, function (reason) {
+        if (!reason.IS_CANCELLATION_ERROR) {
+          try {
+            // Promise was rejected. Step up one call frame to see why.
+            if (reason instanceof Error) {
+              throw reason;
+            } else {
+              throw new Error('Promise rejected.');
+            }
+          } catch (e) {
+            // Only thrown so browser dev tools can catch rejections of
+            // promises when the option to break on caught exceptions is
+            // activated.
+          }
+        }
+        self.resolve_(CancellablePromise.State_.REJECTED, reason);
+      });
+    } catch (e) {
+      this.resolve_(CancellablePromise.State_.REJECTED, e);
+    }
+  }
+};
+
+/**
+ * Whether traces of {@code then} calls should be included in
+ * exceptions thrown
+ * @type {boolean}
+ */
+CancellablePromise.LONG_STACK_TRACES = false;
+
+/**
+ * The delay in milliseconds before a rejected Promise's reason
+ * is passed to the rejection handler. By default, the rejection handler
+ * rethrows the rejection reason so that it appears in the developer console or
+ * {@code window.onerror} handler.
+ *
+ * Rejections are rethrown as quickly as possible by default. A negative value
+ * disables rejection handling entirely.
+ * @type {number}
+ */
+CancellablePromise.UNHANDLED_REJECTION_DELAY = 0;
+
+/**
+ * The possible internal states for a Promise. These states are not directly
+ * observable to external callers.
+ * @enum {number}
+ * @private
+ */
+CancellablePromise.State_ = {
+  /** The Promise is waiting for resolution. */
+  PENDING: 0,
+
+  /** The Promise is blocked waiting for the result of another Thenable. */
+  BLOCKED: 1,
+
+  /** The Promise has been resolved with a fulfillment value. */
+  FULFILLED: 2,
+
+  /** The Promise has been resolved with a rejection reason. */
+  REJECTED: 3
+};
+
+/**
+ * Entries in the callback chain. Each call to {@code then},
+ * {@code thenCatch}, or {@code thenAlways} creates an entry containing the
+ * functions that may be invoked once the Promise is settled.
+ *
+ * @private @final @struct @constructor
+ */
+CancellablePromise.CallbackEntry_ = function () {
+  /** @type {?CancellablePromise} */
+  this.child = null;
+  /** @type {Function} */
+  this.onFulfilled = null;
+  /** @type {Function} */
+  this.onRejected = null;
+  /** @type {?} */
+  this.context = null;
+  /** @type {?CancellablePromise.CallbackEntry_} */
+  this.next = null;
+
+  /**
+   * A boolean value to indicate this is a "thenAlways" callback entry.
+   * Unlike a normal "then/thenVoid" a "thenAlways doesn't participate
+   * in "cancel" considerations but is simply an observer and requires
+   * special handling.
+   * @type {boolean}
+   */
+  this.always = false;
+};
+
+/** clear the object prior to reuse */
+CancellablePromise.CallbackEntry_.prototype.reset = function () {
+  this.child = null;
+  this.onFulfilled = null;
+  this.onRejected = null;
+  this.context = null;
+  this.always = false;
+};
+
+/**
+ * The number of currently unused objects to keep around for
+ *    reuse.
+ * @type {number}
+ */
+CancellablePromise.DEFAULT_MAX_UNUSED = 100;
+
+/** @const @private {FreeList<!CancellablePromise.CallbackEntry_>} */
+CancellablePromise.freelist_ = new _FreeList2.default(function () {
+  return new CancellablePromise.CallbackEntry_();
+}, function (item) {
+  item.reset();
+}, CancellablePromise.DEFAULT_MAX_UNUSED);
+
+/**
+ * @param {Function} onFulfilled
+ * @param {Function} onRejected
+ * @param {?} context
+ * @return {!CancellablePromise.CallbackEntry_}
+ * @private
+ */
+CancellablePromise.getCallbackEntry_ = function (onFulfilled, onRejected, context) {
+  var entry = CancellablePromise.freelist_.get();
+  entry.onFulfilled = onFulfilled;
+  entry.onRejected = onRejected;
+  entry.context = context;
+  return entry;
+};
+
+/**
+ * @param {!CancellablePromise.CallbackEntry_} entry
+ * @private
+ */
+CancellablePromise.returnEntry_ = function (entry) {
+  CancellablePromise.freelist_.put(entry);
+};
+
+// NOTE: this is the same template expression as is used for
+// goog.IThenable.prototype.then
+
+
+/**
+ * @param {VALUE=} opt_value
+ * @return {RESULT} A new Promise that is immediately resolved
+ *     with the given value. If the input value is already a CancellablePromise, it
+ *     will be returned immediately without creating a new instance.
+ * @template VALUE
+ * @template RESULT := type('CancellablePromise',
+ *     cond(isUnknown(VALUE), unknown(),
+ *       mapunion(VALUE, (V) =>
+ *         cond(isTemplatized(V) && sub(rawTypeOf(V), 'IThenable'),
+ *           templateTypeOf(V, 0),
+ *           cond(sub(V, 'Thenable'),
+ *              unknown(),
+ *              V)))))
+ * =:
+ */
+CancellablePromise.resolve = function (opt_value) {
+  if (opt_value instanceof CancellablePromise) {
+    // Avoid creating a new object if we already have a promise object
+    // of the correct type.
+    return opt_value;
+  }
+
+  // Passing nullFunction will cause the constructor to take an optimized
+  // path that skips calling the resolver function.
+  var promise = new CancellablePromise(_metal.nullFunction);
+  promise.resolve_(CancellablePromise.State_.FULFILLED, opt_value);
+  return promise;
+};
+
+/**
+ * @param {*=} opt_reason
+ * @return {!CancellablePromise} A new Promise that is immediately rejected with the
+ *     given reason.
+ */
+CancellablePromise.reject = function (opt_reason) {
+  return new CancellablePromise(function (resolve, reject) {
+    reject(opt_reason);
+  });
+};
+
+/**
+ * This is identical to
+ * {@code CancellablePromise.resolve(value).then(onFulfilled, onRejected)}, but it
+ * avoids creating an unnecessary wrapper Promise when {@code value} is already
+ * thenable.
+ *
+ * @param {?(Thenable<TYPE>|Thenable|TYPE)} value
+ * @param {function(TYPE): ?} onFulfilled
+ * @param {function(*): *} onRejected
+ * @template TYPE
+ * @private
+ */
+CancellablePromise.resolveThen_ = function (value, onFulfilled, onRejected) {
+  var isThenable = CancellablePromise.maybeThen_(value, onFulfilled, onRejected, null);
+  if (!isThenable) {
+    _metal.async.run(partial(onFulfilled, value));
+  }
+};
+
+/**
+ * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
+ *     promises
+ * @return {!CancellablePromise<TYPE>} A Promise that receives the result of the
+ *     first Promise (or Promise-like) input to settle immediately after it
+ *     settles.
+ * @template TYPE
+ */
+CancellablePromise.race = function (promises) {
+  return new CancellablePromise(function (resolve, reject) {
+    if (!promises.length) {
+      resolve(undefined);
+    }
+    for (var i = 0, promise; i < promises.length; i++) {
+      promise = promises[i];
+      CancellablePromise.resolveThen_(promise, resolve, reject);
+    }
+  });
+};
+
+/**
+ * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
+ *     promises
+ * @return {!CancellablePromise<!Array<TYPE>>} A Promise that receives a list of
+ *     every fulfilled value once every input Promise (or Promise-like) is
+ *     successfully fulfilled, or is rejected with the first rejection reason
+ *     immediately after it is rejected.
+ * @template TYPE
+ */
+CancellablePromise.all = function (promises) {
+  return new CancellablePromise(function (resolve, reject) {
+    var toFulfill = promises.length;
+    var values = [];
+
+    if (!toFulfill) {
+      resolve(values);
+      return;
+    }
+
+    var onFulfill = function onFulfill(index, value) {
+      toFulfill--;
+      values[index] = value;
+      if (toFulfill == 0) {
+        resolve(values);
+      }
+    };
+
+    var onReject = function onReject(reason) {
+      reject(reason);
+    };
+
+    for (var i = 0, promise; i < promises.length; i++) {
+      promise = promises[i];
+      CancellablePromise.resolveThen_(promise, partial(onFulfill, i), onReject);
+    }
+  });
+};
+
+/**
+ * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
+ *     promises
+ * @return {!CancellablePromise<!Array<{
+ *     fulfilled: boolean,
+ *     value: (TYPE|undefined),
+ *     reason: (*|undefined)}>>} A Promise that resolves with a list of
+ *         result objects once all input Promises (or Promise-like) have
+ *         settled. Each result object contains a 'fulfilled' boolean indicating
+ *         whether an input Promise was fulfilled or rejected. For fulfilled
+ *         Promises, the resulting value is stored in the 'value' field. For
+ *         rejected Promises, the rejection reason is stored in the 'reason'
+ *         field.
+ * @template TYPE
+ */
+CancellablePromise.allSettled = function (promises) {
+  return new CancellablePromise(function (resolve, reject) {
+    var toSettle = promises.length;
+    var results = [];
+
+    if (!toSettle) {
+      resolve(results);
+      return;
+    }
+
+    var onSettled = function onSettled(index, fulfilled, result) {
+      toSettle--;
+      results[index] = fulfilled ? { fulfilled: true, value: result } : { fulfilled: false, reason: result };
+      if (toSettle == 0) {
+        resolve(results);
+      }
+    };
+
+    for (var i = 0, promise; i < promises.length; i++) {
+      promise = promises[i];
+      CancellablePromise.resolveThen_(promise, partial(onSettled, i, true /* fulfilled */), partial(onSettled, i, false /* fulfilled */));
+    }
+  });
+};
+
+/**
+ * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
+ *     promises
+ * @return {!CancellablePromise<TYPE>} A Promise that receives the value of the first
+ *     input to be fulfilled, or is rejected with a list of every rejection
+ *     reason if all inputs are rejected.
+ * @template TYPE
+ */
+CancellablePromise.firstFulfilled = function (promises) {
+  return new CancellablePromise(function (resolve, reject) {
+    var toReject = promises.length;
+    var reasons = [];
+
+    if (!toReject) {
+      resolve(undefined);
+      return;
+    }
+
+    var onFulfill = function onFulfill(value) {
+      resolve(value);
+    };
+
+    var onReject = function onReject(index, reason) {
+      toReject--;
+      reasons[index] = reason;
+      if (toReject == 0) {
+        reject(reasons);
+      }
+    };
+
+    for (var i = 0, promise; i < promises.length; i++) {
+      promise = promises[i];
+      CancellablePromise.resolveThen_(promise, onFulfill, partial(onReject, i));
+    }
+  });
+};
+
+/**
+ * @return {!CancellablePromise.Resolver<TYPE>} Resolver wrapping the promise and its
+ *     resolve / reject functions. Resolving or rejecting the resolver
+ *     resolves or rejects the promise.
+ * @template TYPE
+ */
+CancellablePromise.withResolver = function () {
+  var resolve, reject;
+  var promise = new CancellablePromise(function (rs, rj) {
+    resolve = rs;
+    reject = rj;
+  });
+  return new CancellablePromise.Resolver_(promise, resolve, reject);
+};
+
+/**
+ * Adds callbacks that will operate on the result of the Promise, returning a
+ * new child Promise.
+ *
+ * If the Promise is fulfilled, the {@code onFulfilled} callback will be invoked
+ * with the fulfillment value as argument, and the child Promise will be
+ * fulfilled with the return value of the callback. If the callback throws an
+ * exception, the child Promise will be rejected with the thrown value instead.
+ *
+ * If the Promise is rejected, the {@code onRejected} callback will be invoked
+ * with the rejection reason as argument, and the child Promise will be resolved
+ * with the return value or rejected with the thrown value of the callback.
+ *
+ * @override
+ */
+CancellablePromise.prototype.then = function (opt_onFulfilled, opt_onRejected, opt_context) {
+
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    this.addStackTrace_(new Error('then'));
+  }
+
+  return this.addChildPromise_((0, _metal.isFunction)(opt_onFulfilled) ? opt_onFulfilled : null, (0, _metal.isFunction)(opt_onRejected) ? opt_onRejected : null, opt_context);
+};
+_Thenable2.default.addImplementation(CancellablePromise);
+
+/**
+ * Adds callbacks that will operate on the result of the Promise without
+ * returning a child Promise (unlike "then").
+ *
+ * If the Promise is fulfilled, the {@code onFulfilled} callback will be invoked
+ * with the fulfillment value as argument.
+ *
+ * If the Promise is rejected, the {@code onRejected} callback will be invoked
+ * with the rejection reason as argument.
+ *
+ * @param {?(function(this:THIS, TYPE):?)=} opt_onFulfilled A
+ *     function that will be invoked with the fulfillment value if the Promise
+ *     is fulfilled.
+ * @param {?(function(this:THIS, *): *)=} opt_onRejected A function that will
+ *     be invoked with the rejection reason if the Promise is rejected.
+ * @param {THIS=} opt_context An optional context object that will be the
+ *     execution context for the callbacks. By default, functions are executed
+ *     with the default this.
+ * @package
+ * @template THIS
+ */
+CancellablePromise.prototype.thenVoid = function (opt_onFulfilled, opt_onRejected, opt_context) {
+
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    this.addStackTrace_(new Error('then'));
+  }
+
+  // Note: no default rejection handler is provided here as we need to
+  // distinguish unhandled rejections.
+  this.addCallbackEntry_(CancellablePromise.getCallbackEntry_(opt_onFulfilled || _metal.nullFunction, opt_onRejected || null, opt_context));
+};
+
+/**
+ * Adds a callback that will be invoked when the Promise is settled (fulfilled
+ * or rejected). The callback receives no argument, and no new child Promise is
+ * created. This is useful for ensuring that cleanup takes place after certain
+ * asynchronous operations. Callbacks added with {@code thenAlways} will be
+ * executed in the same order with other calls to {@code then},
+ * {@code thenAlways}, or {@code thenCatch}.
+ *
+ * Since it does not produce a new child Promise, cancellation propagation is
+ * not prevented by adding callbacks with {@code thenAlways}. A Promise that has
+ * a cleanup handler added with {@code thenAlways} will be canceled if all of
+ * its children created by {@code then} (or {@code thenCatch}) are canceled.
+ * Additionally, since any rejections are not passed to the callback, it does
+ * not stop the unhandled rejection handler from running.
+ *
+ * @param {function(this:THIS): void} onSettled A function that will be invoked
+ *     when the Promise is settled (fulfilled or rejected).
+ * @param {THIS=} opt_context An optional context object that will be the
+ *     execution context for the callbacks. By default, functions are executed
+ *     in the global scope.
+ * @return {!CancellablePromise<TYPE>} This Promise, for chaining additional calls.
+ * @template THIS
+ */
+CancellablePromise.prototype.thenAlways = function (onSettled, opt_context) {
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    this.addStackTrace_(new Error('thenAlways'));
+  }
+
+  var entry = CancellablePromise.getCallbackEntry_(onSettled, onSettled, opt_context);
+  entry.always = true;
+  this.addCallbackEntry_(entry);
+  return this;
+};
+
+/**
+ * Adds a callback that will be invoked only if the Promise is rejected. This
+ * is equivalent to {@code then(null, onRejected)}.
+ *
+ * @param {function(this:THIS, *): *} onRejected A function that will be
+ *     invoked with the rejection reason if the Promise is rejected.
+ * @param {THIS=} opt_context An optional context object that will be the
+ *     execution context for the callbacks. By default, functions are executed
+ *     in the global scope.
+ * @return {!CancellablePromise} A new Promise that will receive the result of the
+ *     callback.
+ * @template THIS
+ */
+CancellablePromise.prototype.thenCatch = function (onRejected, opt_context) {
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    this.addStackTrace_(new Error('thenCatch'));
+  }
+  return this.addChildPromise_(null, onRejected, opt_context);
+};
+
+/**
+ * Alias of {@link CancellablePromise.prototype.thenCatch}
+ */
+CancellablePromise.prototype.catch = CancellablePromise.prototype.thenCatch;
+
+/**
+ * Cancels the Promise if it is still pending by rejecting it with a cancel
+ * Error. No action is performed if the Promise is already resolved.
+ *
+ * All child Promises of the canceled Promise will be rejected with the same
+ * cancel error, as with normal Promise rejection. If the Promise to be canceled
+ * is the only child of a pending Promise, the parent Promise will also be
+ * canceled. Cancellation may propagate upward through multiple generations.
+ *
+ * @param {string=} opt_message An optional debugging message for describing the
+ *     cancellation reason.
+ */
+CancellablePromise.prototype.cancel = function (opt_message) {
+  if (this.state_ == CancellablePromise.State_.PENDING) {
+    _metal.async.run(function () {
+      var err = new CancellablePromise.CancellationError(opt_message);
+      err.IS_CANCELLATION_ERROR = true;
+      this.cancelInternal_(err);
+    }, this);
+  }
+};
+
+/**
+ * Cancels this Promise with the given error.
+ *
+ * @param {!Error} err The cancellation error.
+ * @private
+ */
+CancellablePromise.prototype.cancelInternal_ = function (err) {
+  if (this.state_ == CancellablePromise.State_.PENDING) {
+    if (this.parent_) {
+      // Cancel the Promise and remove it from the parent's child list.
+      this.parent_.cancelChild_(this, err);
+      this.parent_ = null;
+    } else {
+      this.resolve_(CancellablePromise.State_.REJECTED, err);
+    }
+  }
+};
+
+/**
+ * Cancels a child Promise from the list of callback entries. If the Promise has
+ * not already been resolved, reject it with a cancel error. If there are no
+ * other children in the list of callback entries, propagate the cancellation
+ * by canceling this Promise as well.
+ *
+ * @param {!CancellablePromise} childPromise The Promise to cancel.
+ * @param {!Error} err The cancel error to use for rejecting the Promise.
+ * @private
+ */
+CancellablePromise.prototype.cancelChild_ = function (childPromise, err) {
+  if (!this.callbackEntries_) {
+    return;
+  }
+  var childCount = 0;
+  var childEntry = null;
+  var beforeChildEntry = null;
+
+  // Find the callback entry for the childPromise, and count whether there are
+  // additional child Promises.
+  for (var entry = this.callbackEntries_; entry; entry = entry.next) {
+    if (!entry.always) {
+      childCount++;
+      if (entry.child == childPromise) {
+        childEntry = entry;
+      }
+      if (childEntry && childCount > 1) {
+        break;
+      }
+    }
+    if (!childEntry) {
+      beforeChildEntry = entry;
+    }
+  }
+
+  // Can a child entry be missing?
+
+  // If the child Promise was the only child, cancel this Promise as well.
+  // Otherwise, reject only the child Promise with the cancel error.
+  if (childEntry) {
+    if (this.state_ == CancellablePromise.State_.PENDING && childCount == 1) {
+      this.cancelInternal_(err);
+    } else {
+      if (beforeChildEntry) {
+        this.removeEntryAfter_(beforeChildEntry);
+      } else {
+        this.popEntry_();
+      }
+
+      this.executeCallback_(childEntry, CancellablePromise.State_.REJECTED, err);
+    }
+  }
+};
+
+/**
+ * Adds a callback entry to the current Promise, and schedules callback
+ * execution if the Promise has already been settled.
+ *
+ * @param {CancellablePromise.CallbackEntry_} callbackEntry Record containing
+ *     {@code onFulfilled} and {@code onRejected} callbacks to execute after
+ *     the Promise is settled.
+ * @private
+ */
+CancellablePromise.prototype.addCallbackEntry_ = function (callbackEntry) {
+  if (!this.hasEntry_() && (this.state_ == CancellablePromise.State_.FULFILLED || this.state_ == CancellablePromise.State_.REJECTED)) {
+    this.scheduleCallbacks_();
+  }
+  this.queueEntry_(callbackEntry);
+};
+
+/**
+ * Creates a child Promise and adds it to the callback entry list. The result of
+ * the child Promise is determined by the state of the parent Promise and the
+ * result of the {@code onFulfilled} or {@code onRejected} callbacks as
+ * specified in the Promise resolution procedure.
+ *
+ * @see http://promisesaplus.com/#the__method
+ *
+ * @param {?function(this:THIS, TYPE):
+ *          (RESULT|CancellablePromise<RESULT>|Thenable)} onFulfilled A callback that
+ *     will be invoked if the Promise is fulfilled, or null.
+ * @param {?function(this:THIS, *): *} onRejected A callback that will be
+ *     invoked if the Promise is rejected, or null.
+ * @param {THIS=} opt_context An optional execution context for the callbacks.
+ *     in the default calling context.
+ * @return {!CancellablePromise} The child Promise.
+ * @template RESULT,THIS
+ * @private
+ */
+CancellablePromise.prototype.addChildPromise_ = function (onFulfilled, onRejected, opt_context) {
+
+  /** @type {CancellablePromise.CallbackEntry_} */
+  var callbackEntry = CancellablePromise.getCallbackEntry_(null, null, null);
+
+  callbackEntry.child = new CancellablePromise(function (resolve, reject) {
+    // Invoke onFulfilled, or resolve with the parent's value if absent.
+    callbackEntry.onFulfilled = onFulfilled ? function (value) {
+      try {
+        var result = onFulfilled.call(opt_context, value);
+        resolve(result);
+      } catch (err) {
+        reject(err);
+      }
+    } : resolve;
+
+    // Invoke onRejected, or reject with the parent's reason if absent.
+    callbackEntry.onRejected = onRejected ? function (reason) {
+      try {
+        var result = onRejected.call(opt_context, reason);
+        if (!(0, _metal.isDef)(result) && reason.IS_CANCELLATION_ERROR) {
+          // Propagate cancellation to children if no other result is returned.
+          reject(reason);
+        } else {
+          resolve(result);
+        }
+      } catch (err) {
+        reject(err);
+      }
+    } : reject;
+  });
+
+  callbackEntry.child.parent_ = this;
+  this.addCallbackEntry_(callbackEntry);
+  return callbackEntry.child;
+};
+
+/**
+ * Unblocks the Promise and fulfills it with the given value.
+ *
+ * @param {TYPE} value
+ * @private
+ */
+CancellablePromise.prototype.unblockAndFulfill_ = function (value) {
+  this.state_ = CancellablePromise.State_.PENDING;
+  this.resolve_(CancellablePromise.State_.FULFILLED, value);
+};
+
+/**
+ * Unblocks the Promise and rejects it with the given rejection reason.
+ *
+ * @param {*} reason
+ * @private
+ */
+CancellablePromise.prototype.unblockAndReject_ = function (reason) {
+  this.state_ = CancellablePromise.State_.PENDING;
+  this.resolve_(CancellablePromise.State_.REJECTED, reason);
+};
+
+/**
+ * Attempts to resolve a Promise with a given resolution state and value. This
+ * is a no-op if the given Promise has already been resolved.
+ *
+ * If the given result is a Thenable (such as another Promise), the Promise will
+ * be settled with the same state and result as the Thenable once it is itself
+ * settled.
+ *
+ * If the given result is not a Thenable, the Promise will be settled (fulfilled
+ * or rejected) with that result based on the given state.
+ *
+ * @see http://promisesaplus.com/#the_promise_resolution_procedure
+ *
+ * @param {CancellablePromise.State_} state
+ * @param {*} x The result to apply to the Promise.
+ * @private
+ */
+CancellablePromise.prototype.resolve_ = function (state, x) {
+  if (this.state_ != CancellablePromise.State_.PENDING) {
+    return;
+  }
+
+  if (this === x) {
+    state = CancellablePromise.State_.REJECTED;
+    x = new TypeError('Promise cannot resolve to itself');
+  }
+
+  this.state_ = CancellablePromise.State_.BLOCKED;
+  var isThenable = CancellablePromise.maybeThen_(x, this.unblockAndFulfill_, this.unblockAndReject_, this);
+  if (isThenable) {
+    return;
+  }
+
+  this.result_ = x;
+  this.state_ = state;
+  // Since we can no longer be canceled, remove link to parent, so that the
+  // child promise does not keep the parent promise alive.
+  this.parent_ = null;
+  this.scheduleCallbacks_();
+
+  if (state == CancellablePromise.State_.REJECTED && !x.IS_CANCELLATION_ERROR) {
+    CancellablePromise.addUnhandledRejection_(this, x);
+  }
+};
+
+/**
+ * Invokes the "then" method of an input value if that value is a Thenable. This
+ * is a no-op if the value is not thenable.
+ *
+ * @param {?} value A potentially thenable value.
+ * @param {!Function} onFulfilled
+ * @param {!Function} onRejected
+ * @param {?} context
+ * @return {boolean} Whether the input value was thenable.
+ * @private
+ */
+CancellablePromise.maybeThen_ = function (value, onFulfilled, onRejected, context) {
+  if (value instanceof CancellablePromise) {
+    value.thenVoid(onFulfilled, onRejected, context);
+    return true;
+  } else if (_Thenable2.default.isImplementedBy(value)) {
+    value = /** @type {!Thenable} */value;
+    value.then(onFulfilled, onRejected, context);
+    return true;
+  } else if ((0, _metal.isObject)(value)) {
+    try {
+      var then = value['then'];
+      if ((0, _metal.isFunction)(then)) {
+        CancellablePromise.tryThen_(value, then, onFulfilled, onRejected, context);
+        return true;
+      }
+    } catch (e) {
+      onRejected.call(context, e);
+      return true;
+    }
+  }
+
+  return false;
+};
+
+/**
+ * Attempts to call the {@code then} method on an object in the hopes that it is
+ * a Promise-compatible instance. This allows interoperation between different
+ * Promise implementations, however a non-compliant object may cause a Promise
+ * to hang indefinitely. If the {@code then} method throws an exception, the
+ * dependent Promise will be rejected with the thrown value.
+ *
+ * @see http://promisesaplus.com/#point-70
+ *
+ * @param {Thenable} thenable An object with a {@code then} method that may be
+ *     compatible with the Promise/A+ specification.
+ * @param {!Function} then The {@code then} method of the Thenable object.
+ * @param {!Function} onFulfilled
+ * @param {!Function} onRejected
+ * @param {*} context
+ * @private
+ */
+CancellablePromise.tryThen_ = function (thenable, then, onFulfilled, onRejected, context) {
+
+  var called = false;
+  var resolve = function resolve(value) {
+    if (!called) {
+      called = true;
+      onFulfilled.call(context, value);
+    }
+  };
+
+  var reject = function reject(reason) {
+    if (!called) {
+      called = true;
+      onRejected.call(context, reason);
+    }
+  };
+
+  try {
+    then.call(thenable, resolve, reject);
+  } catch (e) {
+    reject(e);
+  }
+};
+
+/**
+ * Executes the pending callbacks of a settled Promise after a timeout.
+ *
+ * Section 2.2.4 of the Promises/A+ specification requires that Promise
+ * callbacks must only be invoked from a call stack that only contains Promise
+ * implementation code, which we accomplish by invoking callback execution after
+ * a timeout. If {@code startExecution_} is called multiple times for the same
+ * Promise, the callback chain will be evaluated only once. Additional callbacks
+ * may be added during the evaluation phase, and will be executed in the same
+ * event loop.
+ *
+ * All Promises added to the waiting list during the same browser event loop
+ * will be executed in one batch to avoid using a separate timeout per Promise.
+ *
+ * @private
+ */
+CancellablePromise.prototype.scheduleCallbacks_ = function () {
+  if (!this.executing_) {
+    this.executing_ = true;
+    _metal.async.run(this.executeCallbacks_, this);
+  }
+};
+
+/**
+ * @return {boolean} Whether there are any pending callbacks queued.
+ * @private
+ */
+CancellablePromise.prototype.hasEntry_ = function () {
+  return !!this.callbackEntries_;
+};
+
+/**
+ * @param {CancellablePromise.CallbackEntry_} entry
+ * @private
+ */
+CancellablePromise.prototype.queueEntry_ = function (entry) {
+  if (this.callbackEntriesTail_) {
+    this.callbackEntriesTail_.next = entry;
+    this.callbackEntriesTail_ = entry;
+  } else {
+    // It the work queue was empty set the head too.
+    this.callbackEntries_ = entry;
+    this.callbackEntriesTail_ = entry;
+  }
+};
+
+/**
+ * @return {CancellablePromise.CallbackEntry_} entry
+ * @private
+ */
+CancellablePromise.prototype.popEntry_ = function () {
+  var entry = null;
+  if (this.callbackEntries_) {
+    entry = this.callbackEntries_;
+    this.callbackEntries_ = entry.next;
+    entry.next = null;
+  }
+  // It the work queue is empty clear the tail too.
+  if (!this.callbackEntries_) {
+    this.callbackEntriesTail_ = null;
+  }
+  return entry;
+};
+
+/**
+ * @param {CancellablePromise.CallbackEntry_} previous
+ * @private
+ */
+CancellablePromise.prototype.removeEntryAfter_ = function (previous) {
+  // If the last entry is being removed, update the tail
+  if (previous.next == this.callbackEntriesTail_) {
+    this.callbackEntriesTail_ = previous;
+  }
+
+  previous.next = previous.next.next;
+};
+
+/**
+ * Executes all pending callbacks for this Promise.
+ *
+ * @private
+ */
+CancellablePromise.prototype.executeCallbacks_ = function () {
+  var entry = null;
+  while (entry = this.popEntry_()) {
+    if (CancellablePromise.LONG_STACK_TRACES) {
+      this.currentStep_++;
+    }
+    this.executeCallback_(entry, this.state_, this.result_);
+  }
+  this.executing_ = false;
+};
+
+/**
+ * Executes a pending callback for this Promise. Invokes an {@code onFulfilled}
+ * or {@code onRejected} callback based on the settled state of the Promise.
+ *
+ * @param {!CancellablePromise.CallbackEntry_} callbackEntry An entry containing the
+ *     onFulfilled and/or onRejected callbacks for this step.
+ * @param {CancellablePromise.State_} state The resolution status of the Promise,
+ *     either FULFILLED or REJECTED.
+ * @param {*} result The settled result of the Promise.
+ * @private
+ */
+CancellablePromise.prototype.executeCallback_ = function (callbackEntry, state, result) {
+  // Cancel an unhandled rejection if the then/thenVoid call had an onRejected.
+  if (state == CancellablePromise.State_.REJECTED && callbackEntry.onRejected && !callbackEntry.always) {
+    this.removeUnhandledRejection_();
+  }
+
+  if (callbackEntry.child) {
+    // When the parent is settled, the child no longer needs to hold on to it,
+    // as the parent can no longer be canceled.
+    callbackEntry.child.parent_ = null;
+    CancellablePromise.invokeCallback_(callbackEntry, state, result);
+  } else {
+    // Callbacks created with thenAlways or thenVoid do not have the rejection
+    // handling code normally set up in the child Promise.
+    try {
+      callbackEntry.always ? callbackEntry.onFulfilled.call(callbackEntry.context) : CancellablePromise.invokeCallback_(callbackEntry, state, result);
+    } catch (err) {
+      CancellablePromise.handleRejection_.call(null, err);
+    }
+  }
+  CancellablePromise.returnEntry_(callbackEntry);
+};
+
+/**
+ * Executes the onFulfilled or onRejected callback for a callbackEntry.
+ *
+ * @param {!CancellablePromise.CallbackEntry_} callbackEntry
+ * @param {CancellablePromise.State_} state
+ * @param {*} result
+ * @private
+ */
+CancellablePromise.invokeCallback_ = function (callbackEntry, state, result) {
+  if (state == CancellablePromise.State_.FULFILLED) {
+    callbackEntry.onFulfilled.call(callbackEntry.context, result);
+  } else if (callbackEntry.onRejected) {
+    callbackEntry.onRejected.call(callbackEntry.context, result);
+  }
+};
+
+/**
+ * Records a stack trace entry for functions that call {@code then} or the
+ * Promise constructor. May be disabled by unsetting {@code LONG_STACK_TRACES}.
+ *
+ * @param {!Error} err An Error object created by the calling function for
+ *     providing a stack trace.
+ * @private
+ */
+CancellablePromise.prototype.addStackTrace_ = function (err) {
+  if (CancellablePromise.LONG_STACK_TRACES && (0, _metal.isString)(err.stack)) {
+    // Extract the third line of the stack trace, which is the entry for the
+    // user function that called into Promise code.
+    var trace = err.stack.split('\n', 4)[3];
+    var message = err.message;
+
+    // Pad the message to align the traces.
+    message += Array(11 - message.length).join(' ');
+    this.stack_.push(message + trace);
+  }
+};
+
+/**
+ * Adds extra stack trace information to an exception for the list of
+ * asynchronous {@code then} calls that have been run for this Promise. Stack
+ * trace information is recorded in {@see #addStackTrace_}, and appended to
+ * rethrown errors when {@code LONG_STACK_TRACES} is enabled.
+ *
+ * @param {*} err An unhandled exception captured during callback execution.
+ * @private
+ */
+CancellablePromise.prototype.appendLongStack_ = function (err) {
+  if (CancellablePromise.LONG_STACK_TRACES && err && (0, _metal.isString)(err.stack) && this.stack_.length) {
+    var longTrace = ['Promise trace:'];
+
+    for (var promise = this; promise; promise = promise.parent_) {
+      for (var i = this.currentStep_; i >= 0; i--) {
+        longTrace.push(promise.stack_[i]);
+      }
+      longTrace.push('Value: ' + '[' + (promise.state_ == CancellablePromise.State_.REJECTED ? 'REJECTED' : 'FULFILLED') + '] ' + '<' + String(promise.result_) + '>');
+    }
+    err.stack += '\n\n' + longTrace.join('\n');
+  }
+};
+
+/**
+ * Marks this rejected Promise as having being handled. Also marks any parent
+ * Promises in the rejected state as handled. The rejection handler will no
+ * longer be invoked for this Promise (if it has not been called already).
+ *
+ * @private
+ */
+CancellablePromise.prototype.removeUnhandledRejection_ = function () {
+  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
+    for (var p = this; p && p.unhandledRejectionId_; p = p.parent_) {
+      clearTimeout(p.unhandledRejectionId_);
+      p.unhandledRejectionId_ = 0;
+    }
+  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
+    for (var p = this; p && p.hadUnhandledRejection_; p = p.parent_) {
+      p.hadUnhandledRejection_ = false;
+    }
+  }
+};
+
+/**
+ * Marks this rejected Promise as unhandled. If no {@code onRejected} callback
+ * is called for this Promise before the {@code UNHANDLED_REJECTION_DELAY}
+ * expires, the reason will be passed to the unhandled rejection handler. The
+ * handler typically rethrows the rejection reason so that it becomes visible in
+ * the developer console.
+ *
+ * @param {!CancellablePromise} promise The rejected Promise.
+ * @param {*} reason The Promise rejection reason.
+ * @private
+ */
+CancellablePromise.addUnhandledRejection_ = function (promise, reason) {
+  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
+    promise.unhandledRejectionId_ = setTimeout(function () {
+      promise.appendLongStack_(reason);
+      CancellablePromise.handleRejection_.call(null, reason);
+    }, CancellablePromise.UNHANDLED_REJECTION_DELAY);
+  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
+    promise.hadUnhandledRejection_ = true;
+    _metal.async.run(function () {
+      if (promise.hadUnhandledRejection_) {
+        promise.appendLongStack_(reason);
+        CancellablePromise.handleRejection_.call(null, reason);
+      }
+    });
+  }
+};
+
+/**
+ * A method that is invoked with the rejection reasons for Promises that are
+ * rejected but have no {@code onRejected} callbacks registered yet.
+ * @type {function(*)}
+ * @private
+ */
+CancellablePromise.handleRejection_ = _metal.async.throwException;
+
+/**
+ * Sets a handler that will be called with reasons from unhandled rejected
+ * Promises. If the rejected Promise (or one of its descendants) has an
+ * {@code onRejected} callback registered, the rejection will be considered
+ * handled, and the rejection handler will not be called.
+ *
+ * By default, unhandled rejections are rethrown so that the error may be
+ * captured by the developer console or a {@code window.onerror} handler.
+ *
+ * @param {function(*)} handler A function that will be called with reasons from
+ *     rejected Promises. Defaults to {@code async.throwException}.
+ */
+CancellablePromise.setUnhandledRejectionHandler = function (handler) {
+  CancellablePromise.handleRejection_ = handler;
+};
+
+/**
+ * Error used as a rejection reason for canceled Promises.
+ *
+ * @param {string=} opt_message
+ * @constructor
+ * @extends {Error}
+ * @final
+ */
+CancellablePromise.CancellationError = function (_Error) {
+  _inherits(_class, _Error);
+
+  function _class(opt_message) {
+    _classCallCheck(this, _class);
+
+    var _this = _possibleConstructorReturn(this, (_class.__proto__ || Object.getPrototypeOf(_class)).call(this, opt_message));
+
+    if (opt_message) {
+      _this.message = opt_message;
+    }
+    return _this;
+  }
+
+  return _class;
+}(Error);
+
+/** @override */
+CancellablePromise.CancellationError.prototype.name = 'cancel';
+
+/**
+ * Internal implementation of the resolver interface.
+ *
+ * @param {!CancellablePromise<TYPE>} promise
+ * @param {function((TYPE|CancellablePromise<TYPE>|Thenable)=)} resolve
+ * @param {function(*=): void} reject
+ * @implements {CancellablePromise.Resolver<TYPE>}
+ * @final @struct
+ * @constructor
+ * @private
+ * @template TYPE
+ */
+CancellablePromise.Resolver_ = function (promise, resolve, reject) {
+  /** @const */
+  this.promise = promise;
+
+  /** @const */
+  this.resolve = resolve;
+
+  /** @const */
+  this.reject = reject;
+};
+
+exports.CancellablePromise = CancellablePromise;
+exports.default = CancellablePromise;
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -3046,7 +4346,7 @@ exports.JSXComponent = exports.Config = exports.validators = exports.Dangerously
 
 var _metalState = __webpack_require__(1);
 
-var _DangerouslySetHTML = __webpack_require__(44);
+var _DangerouslySetHTML = __webpack_require__(45);
 
 var _DangerouslySetHTML2 = _interopRequireDefault(_DangerouslySetHTML);
 
@@ -3063,7 +4363,7 @@ exports.Config = _metalState.Config;
 exports.JSXComponent = _JSXComponent2.default;
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3079,7 +4379,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.core = undefined;
 
-var _coreNamed = __webpack_require__(31);
+var _coreNamed = __webpack_require__(32);
 
 Object.keys(_coreNamed).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -3099,7 +4399,7 @@ exports.default = core;
 exports.core = core;
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3438,7 +4738,7 @@ function nullFunction() {}
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3585,7 +4885,7 @@ var array = function () {
 exports.default = array;
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3828,10 +5128,10 @@ async.nextTick.wrapCallback_ = function (callback) {
 };
 
 exports.default = async;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(34).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(35).setImmediate))
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var apply = Function.prototype.apply;
@@ -3884,13 +5184,13 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(35);
+__webpack_require__(36);
 exports.setImmediate = setImmediate;
 exports.clearImmediate = clearImmediate;
 
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -4083,7 +5383,7 @@ exports.clearImmediate = clearImmediate;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9), __webpack_require__(12)))
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4162,7 +5462,7 @@ var Disposable = function () {
 exports.default = Disposable;
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4288,7 +5588,7 @@ var object = function () {
 exports.default = object;
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4417,7 +5717,7 @@ var string = function () {
 exports.default = string;
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4719,7 +6019,7 @@ function setPrimitiveValidators(name) {
 exports.default = Config;
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5558,7 +6858,7 @@ State.KeyStates = {
 exports.default = State;
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6106,7 +7406,7 @@ function toArray(val) {
 exports.default = EventEmitter;
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6350,7 +7650,7 @@ var EventEmitterProxy = function (_Disposable) {
 exports.default = EventEmitterProxy;
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6447,7 +7747,7 @@ var EventHandler = function (_Disposable) {
 exports.default = EventHandler;
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6519,7 +7819,7 @@ DangerouslySetHTML.PROPS = {
 exports.default = DangerouslySetHTML;
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6596,7 +7896,7 @@ exports.default = scope.iDOMHelpers;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6608,11 +7908,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _HTMLParser = __webpack_require__(47);
+var _HTMLParser = __webpack_require__(48);
 
 var _HTMLParser2 = _interopRequireDefault(_HTMLParser);
 
-var _unescape = __webpack_require__(48);
+var _unescape = __webpack_require__(49);
 
 var _unescape2 = _interopRequireDefault(_unescape);
 
@@ -6705,7 +8005,7 @@ var HTML2IncDom = function () {
 exports.default = HTML2IncDom;
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6964,7 +8264,7 @@ exports.default = HTMLParser;
 /* eslint-enable */
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7043,7 +8343,7 @@ exports.default = unescape;
 var HTML_ENTITY_PATTERN_ = /&([^;\s<&]+);?/g;
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7063,7 +8363,7 @@ var _data = __webpack_require__(7);
 
 var _children = __webpack_require__(20);
 
-var _patch2 = __webpack_require__(52);
+var _patch2 = __webpack_require__(53);
 
 var _render = __webpack_require__(24);
 
@@ -7387,7 +8687,7 @@ renderer.RENDERER_NAME = 'incremental-dom';
 exports.default = renderer;
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8813,7 +10113,7 @@ exports.importNode = importNode;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 (function (global, factory) {
@@ -9091,7 +10391,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9216,7 +10516,7 @@ function tryPatchWithNoParent_(component) {
 }
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9258,7 +10558,7 @@ var _domData = __webpack_require__(14);
 
 var _domData2 = _interopRequireDefault(_domData);
 
-var _DomDelegatedEventHandle = __webpack_require__(54);
+var _DomDelegatedEventHandle = __webpack_require__(55);
 
 var _DomDelegatedEventHandle2 = _interopRequireDefault(_DomDelegatedEventHandle);
 
@@ -10129,7 +11429,7 @@ function triggerSelectorListeners_(container, element, event, defaultFns) {
 }
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10210,7 +11510,7 @@ var DomDelegatedEventHandle = function (_EventHandle) {
 exports.default = DomDelegatedEventHandle;
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10324,7 +11624,7 @@ var DomEventEmitterProxy = function (_EventEmitterProxy) {
 exports.default = DomEventEmitterProxy;
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10482,7 +11782,7 @@ var globalEval = function () {
 exports.default = globalEval;
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10622,7 +11922,7 @@ var globalEvalStyles = function () {
 exports.default = globalEvalStyles;
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10687,7 +11987,7 @@ if (!(0, _metal.isServerSide)()) {
 }
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10876,7 +12176,7 @@ function setValueAttrAsProperty_(element, name, value) {
 }
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10894,7 +12194,7 @@ var _events = __webpack_require__(25);
 
 var _metal = __webpack_require__(0);
 
-var _sync = __webpack_require__(61);
+var _sync = __webpack_require__(62);
 
 var _metalDom = __webpack_require__(11);
 
@@ -11889,7 +13189,7 @@ var proxyBlackList_ = {
 exports.default = Component;
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11958,7 +13258,7 @@ function syncState(component, changes) {
 }
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12042,7 +13342,7 @@ ComponentRegistry.components_ = {};
 exports.default = ComponentRegistry;
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12097,7 +13397,7 @@ function schedule(comps) {
 }
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12267,22 +13567,2391 @@ var JSXDataManager = function (_ComponentDataManager) {
 exports.default = new JSXDataManager();
 
 /***/ }),
-/* 65 */,
 /* 66 */,
-/* 67 */,
-/* 68 */,
-/* 69 */,
-/* 70 */,
-/* 71 */,
-/* 72 */,
-/* 73 */,
-/* 74 */,
-/* 75 */,
-/* 76 */,
-/* 77 */,
-/* 78 */,
-/* 79 */,
-/* 80 */,
+/* 67 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _metal = __webpack_require__(0);
+
+var _metalUri = __webpack_require__(68);
+
+var _metalUri2 = _interopRequireDefault(_metalUri);
+
+var _metalPromise = __webpack_require__(77);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Ajax = function () {
+	function Ajax() {
+		_classCallCheck(this, Ajax);
+	}
+
+	_createClass(Ajax, null, [{
+		key: 'parseResponseHeaders',
+
+
+		/**
+   * XmlHttpRequest's getAllResponseHeaders() method returns a string of
+   * response headers according to the format described on the spec:
+   * {@link http://www.w3.org/TR/XMLHttpRequest/#the-getallresponseheaders-method}.
+   * This method parses that string into a user-friendly name/value pair
+   * object.
+   * @param {string} allHeaders All headers as string.
+   * @return {!Array.<Object<string, string>>}
+   */
+		value: function parseResponseHeaders(allHeaders) {
+			var headers = [];
+			if (!allHeaders) {
+				return headers;
+			}
+			var pairs = allHeaders.split('\r\n');
+			for (var i = 0; i < pairs.length; i++) {
+				var index = pairs[i].indexOf(': ');
+				if (index > 0) {
+					var name = pairs[i].substring(0, index);
+					var value = pairs[i].substring(index + 2);
+					headers.push({
+						name: name,
+						value: value
+					});
+				}
+			}
+			return headers;
+		}
+
+		/**
+   * Requests the url using XMLHttpRequest.
+   * @param {!string} url
+   * @param {!string} method
+   * @param {?string} body
+   * @param {MultiMap=} opt_headers
+   * @param {MultiMap=} opt_params
+   * @param {number=} opt_timeout
+   * @param {boolean=} opt_sync
+   * @param {boolean=} opt_withCredentials
+   * @return {Promise} Deferred ajax request.
+   * @protected
+   */
+
+	}, {
+		key: 'request',
+		value: function request(url, method, body, opt_headers, opt_params, opt_timeout, opt_sync, opt_withCredentials) {
+			url = url || '';
+			method = method || 'GET';
+
+			var request = new XMLHttpRequest();
+			var previousReadyState = 0;
+
+			var promise = new _metalPromise.ProgressPromise(function (resolve, reject, progress) {
+				request.onload = function () {
+					if (request.aborted) {
+						request.onerror();
+						return;
+					}
+					resolve(request);
+				};
+				request.onprogress = function (progressEvent) {
+					if (progressEvent.lengthComputable) {
+						progress(progressEvent.loaded / progressEvent.total);
+					}
+				};
+				request.onreadystatechange = function () {
+					if (previousReadyState && previousReadyState < 3 && 4 === request.readyState) {
+						request.terminatedPrematurely = true;
+					}
+					previousReadyState = request.readyState;
+				};
+				request.onerror = function () {
+					var message = 'Request error';
+					if (request.terminatedPrematurely) {
+						message = 'Request terminated prematurely';
+					}
+					var error = new Error(message);
+					error.request = request;
+					reject(error);
+				};
+			}).thenCatch(function (reason) {
+				request.abort();
+				throw reason;
+			}).thenAlways(function () {
+				clearTimeout(timeout);
+			});
+
+			url = new _metalUri2.default(url);
+
+			if (opt_params) {
+				url.addParametersFromMultiMap(opt_params).toString();
+			}
+
+			url = url.toString();
+
+			request.open(method, url, !opt_sync);
+
+			if (opt_withCredentials) {
+				request.withCredentials = true;
+			}
+
+			if (opt_headers) {
+				opt_headers.names().forEach(function (name) {
+					request.setRequestHeader(name, opt_headers.getAll(name).join(', '));
+				});
+			}
+
+			request.send((0, _metal.isDef)(body) ? body : null);
+
+			if ((0, _metal.isDefAndNotNull)(opt_timeout)) {
+				var timeout = setTimeout(function () {
+					promise.cancel('Request timeout');
+				}, opt_timeout);
+			}
+
+			return promise;
+		}
+	}]);
+
+	return Ajax;
+}();
+
+exports.default = Ajax;
+
+/***/ }),
+/* 68 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _parse = __webpack_require__(69);
+
+var _parse2 = _interopRequireDefault(_parse);
+
+var _resolvePathname = __webpack_require__(73);
+
+var _resolvePathname2 = _interopRequireDefault(_resolvePathname);
+
+var _metalStructs = __webpack_require__(74);
+
+var _metal = __webpack_require__(0);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Uri = function () {
+
+	/**
+  * This class contains setters and getters for the parts of the URI.
+  * The following figure displays an example URIs and their component parts.
+  *
+  *                                  path
+  *	                             ┌───┴────┐
+  *	  abc://example.com:123/path/data?key=value#fragid1
+  *	  └┬┘   └────┬────┘ └┬┘           └───┬───┘ └──┬──┘
+  * protocol  hostname  port            search    hash
+  *          └──────┬───────┘
+  *                host
+  *
+  * @param {*=} opt_uri Optional string URI to parse
+  * @constructor
+  */
+	function Uri() {
+		var opt_uri = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+		var opt_addProtocol = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+
+		_classCallCheck(this, Uri);
+
+		this.addProtocol_ = opt_addProtocol;
+
+		opt_uri = opt_addProtocol ? this.maybeAddProtocolAndHostname_(opt_uri) : opt_uri;
+
+		this.url = (0, _parse2.default)(opt_uri);
+		this.ensurePathname_();
+	}
+
+	/**
+  * Adds parameters to uri from a <code>MultiMap</code> as source.
+  * @param {MultiMap} multimap The <code>MultiMap</code> containing the
+  *   parameters.
+  * @protected
+  * @chainable
+  */
+
+
+	_createClass(Uri, [{
+		key: 'addParametersFromMultiMap',
+		value: function addParametersFromMultiMap(multimap) {
+			var _this = this;
+
+			multimap.names().forEach(function (name) {
+				multimap.getAll(name).forEach(function (value) {
+					_this.addParameterValue(name, value);
+				});
+			});
+			return this;
+		}
+
+		/**
+   * Adds the value of the named query parameters.
+   * @param {string} key The parameter to set.
+   * @param {*} value The new value. Will be explicitly casted to String.
+   * @chainable
+   */
+
+	}, {
+		key: 'addParameterValue',
+		value: function addParameterValue(name, value) {
+			this.ensureQueryInitialized_();
+			if ((0, _metal.isDef)(value)) {
+				value = String(value);
+			}
+			this.query.add(name, value);
+			return this;
+		}
+
+		/**
+   * Adds the values of the named query parameter.
+   * @param {string} key The parameter to set.
+   * @param {*} value The new value.
+   * @chainable
+   */
+
+	}, {
+		key: 'addParameterValues',
+		value: function addParameterValues(name, values) {
+			var _this2 = this;
+
+			values.forEach(function (value) {
+				return _this2.addParameterValue(name, value);
+			});
+			return this;
+		}
+
+		/**
+   * Sets default path name if pathname doesn't exist.
+   * @protected
+   */
+
+	}, {
+		key: 'ensurePathname_',
+		value: function ensurePathname_() {
+			if (!this.getPathname()) {
+				this.setPathname('/');
+			}
+		}
+
+		/**
+   * Ensures query internal map is initialized and synced with initial value
+   * extracted from URI search part.
+   * @protected
+   */
+
+	}, {
+		key: 'ensureQueryInitialized_',
+		value: function ensureQueryInitialized_() {
+			var _this3 = this;
+
+			if (this.query) {
+				return;
+			}
+			this.query = new _metalStructs.MultiMap();
+			var search = this.url.query;
+			if (search) {
+				search.substring(1).split('&').forEach(function (param) {
+					var _param$split = param.split('='),
+					    _param$split2 = _slicedToArray(_param$split, 2),
+					    key = _param$split2[0],
+					    value = _param$split2[1];
+
+					if ((0, _metal.isDef)(value)) {
+						value = Uri.urlDecode(value);
+					}
+					_this3.addParameterValue(key, value);
+				});
+			}
+		}
+
+		/**
+   * Gets the hash part of uri.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getHash',
+		value: function getHash() {
+			return this.url.hash || '';
+		}
+
+		/**
+   * Gets the host part of uri. E.g. <code>[hostname]:[port]</code>.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getHost',
+		value: function getHost() {
+			var host = this.getHostname();
+			if (host) {
+				var port = this.getPort();
+				if (port && port !== '80') {
+					host += ':' + port;
+				}
+			}
+			return host;
+		}
+
+		/**
+   * Gets the hostname part of uri without protocol and port.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getHostname',
+		value: function getHostname() {
+			var hostname = this.url.hostname;
+			if (hostname === Uri.HOSTNAME_PLACEHOLDER) {
+				return '';
+			}
+			return hostname;
+		}
+
+		/**
+   * Gets the origin part of uri. E.g. <code>http://[hostname]:[port]</code>.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getOrigin',
+		value: function getOrigin() {
+			var host = this.getHost();
+			if (host) {
+				return this.getProtocol() + '//' + host;
+			}
+			return '';
+		}
+
+		/**
+   * Returns the first value for a given parameter or undefined if the given
+   * parameter name does not appear in the query string.
+   * @param {string} paramName Unescaped parameter name.
+   * @return {string|undefined} The first value for a given parameter or
+   *   undefined if the given parameter name does not appear in the query
+   *   string.
+   */
+
+	}, {
+		key: 'getParameterValue',
+		value: function getParameterValue(name) {
+			this.ensureQueryInitialized_();
+			return this.query.get(name);
+		}
+
+		/**
+   * Returns the value<b>s</b> for a given parameter as a list of decoded
+   * query parameter values.
+   * @param {string} name The parameter to get values for.
+   * @return {!Array<?>} The values for a given parameter as a list of decoded
+   *   query parameter values.
+   */
+
+	}, {
+		key: 'getParameterValues',
+		value: function getParameterValues(name) {
+			this.ensureQueryInitialized_();
+			return this.query.getAll(name);
+		}
+
+		/**
+   * Returns the name<b>s</b> of the parameters.
+   * @return {!Array<string>} The names for the parameters as a list of
+   *   strings.
+   */
+
+	}, {
+		key: 'getParameterNames',
+		value: function getParameterNames() {
+			this.ensureQueryInitialized_();
+			return this.query.names();
+		}
+
+		/**
+   * Gets the pathname part of uri.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getPathname',
+		value: function getPathname() {
+			var pathname = this.url.pathname;
+
+
+			if (pathname && pathname.indexOf('.') > -1) {
+				pathname = (0, _resolvePathname2.default)(pathname);
+			}
+
+			return pathname;
+		}
+
+		/**
+   * Gets the port number part of uri as string.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getPort',
+		value: function getPort() {
+			return this.url.port;
+		}
+
+		/**
+   * Gets the protocol part of uri. E.g. <code>http:</code>.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getProtocol',
+		value: function getProtocol() {
+			return this.url.protocol;
+		}
+
+		/**
+   * Gets the search part of uri. Search value is retrieved from query
+   * parameters.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getSearch',
+		value: function getSearch() {
+			var _this4 = this;
+
+			var search = '';
+			var querystring = '';
+			this.getParameterNames().forEach(function (name) {
+				_this4.getParameterValues(name).forEach(function (value) {
+					querystring += name;
+					if ((0, _metal.isDef)(value)) {
+						querystring += '=' + encodeURIComponent(value);
+					}
+					querystring += '&';
+				});
+			});
+			querystring = querystring.slice(0, -1);
+			if (querystring) {
+				search += '?' + querystring;
+			}
+			return search;
+		}
+
+		/**
+   * Checks if uri contains the parameter.
+   * @param {string} name
+   * @return {boolean}
+   */
+
+	}, {
+		key: 'hasParameter',
+		value: function hasParameter(name) {
+			this.ensureQueryInitialized_();
+			return this.query.contains(name);
+		}
+
+		/**
+   * Returns true if the default protocol (scheme) was added to the original Uri.
+   * @return {boolean} True if a protocol (scheme) was added to the Url, false
+   *   otherwise
+   */
+
+	}, {
+		key: 'isUsingDefaultProtocol',
+		value: function isUsingDefaultProtocol() {
+			return this.usingDefaultProtocol_;
+		}
+
+		/**
+   * Makes this URL unique by adding a random param to it. Useful for avoiding
+   * cache.
+   */
+
+	}, {
+		key: 'makeUnique',
+		value: function makeUnique() {
+			this.setParameterValue(Uri.RANDOM_PARAM, _metal.string.getRandomString());
+			return this;
+		}
+
+		/**
+   * Maybe adds protocol and a hostname placeholder on a partial URI if needed.
+   * Relevant for compatibility with <code>URL</code> native object.
+   * @param {string=} opt_uri
+   * @return {string} URI with protocol and hostname placeholder.
+   */
+
+	}, {
+		key: 'maybeAddProtocolAndHostname_',
+		value: function maybeAddProtocolAndHostname_(opt_uri) {
+			var url = opt_uri;
+			if (opt_uri.indexOf('://') === -1 && opt_uri.indexOf('javascript:') !== 0) {
+				// jshint ignore:line
+
+				url = Uri.DEFAULT_PROTOCOL;
+				this.usingDefaultProtocol_ = true;
+
+				if (opt_uri[0] !== '/' || opt_uri[1] !== '/') {
+					url += '//';
+				}
+
+				switch (opt_uri.charAt(0)) {
+					case '.':
+					case '?':
+					case '#':
+						url += Uri.HOSTNAME_PLACEHOLDER;
+						url += '/';
+						url += opt_uri;
+						break;
+					case '':
+					case '/':
+						if (opt_uri[1] !== '/') {
+							url += Uri.HOSTNAME_PLACEHOLDER;
+						}
+						url += opt_uri;
+						break;
+					default:
+						url += opt_uri;
+				}
+			} else {
+				this.usingDefaultProtocol_ = false;
+			}
+			return url;
+		}
+
+		/**
+   * Removes the named query parameter.
+   * @param {string} name The parameter to remove.
+   * @chainable
+   */
+
+	}, {
+		key: 'removeParameter',
+		value: function removeParameter(name) {
+			this.ensureQueryInitialized_();
+			this.query.remove(name);
+			return this;
+		}
+
+		/**
+   * Removes uniqueness parameter of the uri.
+   * @chainable
+   */
+
+	}, {
+		key: 'removeUnique',
+		value: function removeUnique() {
+			this.removeParameter(Uri.RANDOM_PARAM);
+			return this;
+		}
+
+		/**
+   * Sets the hash.
+   * @param {string} hash
+   * @chainable
+   */
+
+	}, {
+		key: 'setHash',
+		value: function setHash(hash) {
+			this.url.set('hash', hash);
+			return this;
+		}
+
+		/**
+   * Sets the hostname.
+   * @param {string} hostname
+   * @chainable
+   */
+
+	}, {
+		key: 'setHostname',
+		value: function setHostname(hostname) {
+			this.url.set('hostname', hostname);
+			return this;
+		}
+
+		/**
+   * Sets the value of the named query parameters, clearing previous values
+   * for that key.
+   * @param {string} key The parameter to set.
+   * @param {*} value The new value.
+   * @chainable
+   */
+
+	}, {
+		key: 'setParameterValue',
+		value: function setParameterValue(name, value) {
+			this.removeParameter(name);
+			this.addParameterValue(name, value);
+			return this;
+		}
+
+		/**
+   * Sets the values of the named query parameters, clearing previous values
+   * for that key.
+   * @param {string} key The parameter to set.
+   * @param {*} value The new value.
+   * @chainable
+   */
+
+	}, {
+		key: 'setParameterValues',
+		value: function setParameterValues(name, values) {
+			var _this5 = this;
+
+			this.removeParameter(name);
+			values.forEach(function (value) {
+				return _this5.addParameterValue(name, value);
+			});
+			return this;
+		}
+
+		/**
+   * Sets the pathname.
+   * @param {string} pathname
+   * @chainable
+   */
+
+	}, {
+		key: 'setPathname',
+		value: function setPathname(pathname) {
+			this.url.set('pathname', pathname);
+			return this;
+		}
+
+		/**
+   * Sets the port number.
+   * @param {*} port Port number.
+   * @chainable
+   */
+
+	}, {
+		key: 'setPort',
+		value: function setPort(port) {
+			this.url.set('port', port);
+			return this;
+		}
+
+		/**
+   * Sets the protocol. If missing <code>http:</code> is used as default.
+   * @param {string} protocol
+   * @chainable
+   */
+
+	}, {
+		key: 'setProtocol',
+		value: function setProtocol(protocol) {
+			if (protocol[protocol.length - 1] !== ':') {
+				protocol += ':';
+			}
+			this.url.set('protocol', protocol);
+			return this;
+		}
+
+		/**
+   * @return {string} The string form of the url.
+   * @override
+   */
+
+	}, {
+		key: 'toString',
+		value: function toString() {
+			if (!this.addProtocol_) {
+				return this.url.toString();
+			}
+
+			var href = '';
+			var host = this.getHost();
+			if (host) {
+				href += this.getProtocol() + '//';
+			}
+			href += host + this.getPathname() + this.getSearch() + this.getHash();
+			return href;
+		}
+
+		/**
+   * Joins the given paths.
+   * @param {string} basePath
+   * @param {...string} ...paths Any number of paths to be joined with the base url.
+   * @static
+   */
+
+	}], [{
+		key: 'joinPaths',
+		value: function joinPaths(basePath) {
+			for (var _len = arguments.length, paths = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+				paths[_key - 1] = arguments[_key];
+			}
+
+			basePath = (0, _metal.isNumber)(basePath) ? basePath.toString() : basePath;
+			if (basePath.charAt(basePath.length - 1) === '/') {
+				basePath = basePath.substring(0, basePath.length - 1);
+			}
+			paths = paths.map(function (path) {
+				path = (0, _metal.isNumber)(path) ? path.toString() : path;
+				return path.charAt(0) === '/' ? path.substring(1) : path;
+			});
+			return [basePath].concat(paths).join('/').replace(/\/$/, '');
+		}
+
+		/**
+   * URL-decodes the string. We need to specially handle '+'s because
+   * the javascript library doesn't convert them to spaces.
+   * @param {string} str The string to url decode.
+   * @return {string} The decoded {@code str}.
+   */
+
+	}, {
+		key: 'urlDecode',
+		value: function urlDecode(str) {
+			return decodeURIComponent(str.replace(/\+/g, ' '));
+		}
+	}]);
+
+	return Uri;
+}();
+
+/**
+ * Default protocol value.
+ * @type {string}
+ * @default http:
+ * @static
+ */
+
+
+var isSecure = function isSecure() {
+	return typeof window !== 'undefined' && window.location && window.location.protocol && window.location.protocol.indexOf('https') === 0;
+};
+
+Uri.DEFAULT_PROTOCOL = isSecure() ? 'https:' : 'http:';
+
+/**
+ * Hostname placeholder. Relevant to internal usage only.
+ * @type {string}
+ * @static
+ */
+Uri.HOSTNAME_PLACEHOLDER = 'hostname' + Date.now();
+
+/**
+ * Name used by the param generated by `makeUnique`.
+ * @type {string}
+ * @static
+ */
+Uri.RANDOM_PARAM = 'zx';
+
+exports.default = Uri;
+
+/***/ }),
+/* 69 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _urlParse = __webpack_require__(70);
+
+var _urlParse2 = _interopRequireDefault(_urlParse);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var MAX_PORT = 65535;
+
+/**
+ * Parses the given uri string into an object.
+ * @param {*=} opt_uri Optional string URI to parse
+ */
+function parse(opt_uri) {
+	var url = new _urlParse2.default(opt_uri);
+	url.search = url.query;
+	validatePort(url.port);
+	return url;
+}
+
+/**
+ * Validates port number and throws `TypeError` if it exceeds `65535`.
+ * @param {!number} port Port number from parsed url
+ */
+function validatePort(port) {
+	if (port && port > MAX_PORT) {
+		throw TypeError('Port number can\'t exceed 65535');
+	}
+}
+
+exports.default = parse;
+
+/***/ }),
+/* 70 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+var required = __webpack_require__(71)
+  , qs = __webpack_require__(72)
+  , protocolre = /^([a-z][a-z0-9.+-]*:)?(\/\/)?([\S\s]*)/i
+  , slashes = /^[A-Za-z][A-Za-z0-9+-.]*:\/\//;
+
+/**
+ * These are the parse rules for the URL parser, it informs the parser
+ * about:
+ *
+ * 0. The char it Needs to parse, if it's a string it should be done using
+ *    indexOf, RegExp using exec and NaN means set as current value.
+ * 1. The property we should set when parsing this value.
+ * 2. Indication if it's backwards or forward parsing, when set as number it's
+ *    the value of extra chars that should be split off.
+ * 3. Inherit from location if non existing in the parser.
+ * 4. `toLowerCase` the resulting value.
+ */
+var rules = [
+  ['#', 'hash'],                        // Extract from the back.
+  ['?', 'query'],                       // Extract from the back.
+  ['/', 'pathname'],                    // Extract from the back.
+  ['@', 'auth', 1],                     // Extract from the front.
+  [NaN, 'host', undefined, 1, 1],       // Set left over value.
+  [/:(\d+)$/, 'port', undefined, 1],    // RegExp the back.
+  [NaN, 'hostname', undefined, 1, 1]    // Set left over.
+];
+
+/**
+ * These properties should not be copied or inherited from. This is only needed
+ * for all non blob URL's as a blob URL does not include a hash, only the
+ * origin.
+ *
+ * @type {Object}
+ * @private
+ */
+var ignore = { hash: 1, query: 1 };
+
+/**
+ * The location object differs when your code is loaded through a normal page,
+ * Worker or through a worker using a blob. And with the blobble begins the
+ * trouble as the location object will contain the URL of the blob, not the
+ * location of the page where our code is loaded in. The actual origin is
+ * encoded in the `pathname` so we can thankfully generate a good "default"
+ * location from it so we can generate proper relative URL's again.
+ *
+ * @param {Object|String} loc Optional default location object.
+ * @returns {Object} lolcation object.
+ * @api public
+ */
+function lolcation(loc) {
+  loc = loc || global.location || {};
+
+  var finaldestination = {}
+    , type = typeof loc
+    , key;
+
+  if ('blob:' === loc.protocol) {
+    finaldestination = new URL(unescape(loc.pathname), {});
+  } else if ('string' === type) {
+    finaldestination = new URL(loc, {});
+    for (key in ignore) delete finaldestination[key];
+  } else if ('object' === type) {
+    for (key in loc) {
+      if (key in ignore) continue;
+      finaldestination[key] = loc[key];
+    }
+
+    if (finaldestination.slashes === undefined) {
+      finaldestination.slashes = slashes.test(loc.href);
+    }
+  }
+
+  return finaldestination;
+}
+
+/**
+ * @typedef ProtocolExtract
+ * @type Object
+ * @property {String} protocol Protocol matched in the URL, in lowercase.
+ * @property {Boolean} slashes `true` if protocol is followed by "//", else `false`.
+ * @property {String} rest Rest of the URL that is not part of the protocol.
+ */
+
+/**
+ * Extract protocol information from a URL with/without double slash ("//").
+ *
+ * @param {String} address URL we want to extract from.
+ * @return {ProtocolExtract} Extracted information.
+ * @api private
+ */
+function extractProtocol(address) {
+  var match = protocolre.exec(address);
+
+  return {
+    protocol: match[1] ? match[1].toLowerCase() : '',
+    slashes: !!match[2],
+    rest: match[3]
+  };
+}
+
+/**
+ * Resolve a relative URL pathname against a base URL pathname.
+ *
+ * @param {String} relative Pathname of the relative URL.
+ * @param {String} base Pathname of the base URL.
+ * @return {String} Resolved pathname.
+ * @api private
+ */
+function resolve(relative, base) {
+  var path = (base || '/').split('/').slice(0, -1).concat(relative.split('/'))
+    , i = path.length
+    , last = path[i - 1]
+    , unshift = false
+    , up = 0;
+
+  while (i--) {
+    if (path[i] === '.') {
+      path.splice(i, 1);
+    } else if (path[i] === '..') {
+      path.splice(i, 1);
+      up++;
+    } else if (up) {
+      if (i === 0) unshift = true;
+      path.splice(i, 1);
+      up--;
+    }
+  }
+
+  if (unshift) path.unshift('');
+  if (last === '.' || last === '..') path.push('');
+
+  return path.join('/');
+}
+
+/**
+ * The actual URL instance. Instead of returning an object we've opted-in to
+ * create an actual constructor as it's much more memory efficient and
+ * faster and it pleases my OCD.
+ *
+ * @constructor
+ * @param {String} address URL we want to parse.
+ * @param {Object|String} location Location defaults for relative paths.
+ * @param {Boolean|Function} parser Parser for the query string.
+ * @api public
+ */
+function URL(address, location, parser) {
+  if (!(this instanceof URL)) {
+    return new URL(address, location, parser);
+  }
+
+  var relative, extracted, parse, instruction, index, key
+    , instructions = rules.slice()
+    , type = typeof location
+    , url = this
+    , i = 0;
+
+  //
+  // The following if statements allows this module two have compatibility with
+  // 2 different API:
+  //
+  // 1. Node.js's `url.parse` api which accepts a URL, boolean as arguments
+  //    where the boolean indicates that the query string should also be parsed.
+  //
+  // 2. The `URL` interface of the browser which accepts a URL, object as
+  //    arguments. The supplied object will be used as default values / fall-back
+  //    for relative paths.
+  //
+  if ('object' !== type && 'string' !== type) {
+    parser = location;
+    location = null;
+  }
+
+  if (parser && 'function' !== typeof parser) parser = qs.parse;
+
+  location = lolcation(location);
+
+  //
+  // Extract protocol information before running the instructions.
+  //
+  extracted = extractProtocol(address || '');
+  relative = !extracted.protocol && !extracted.slashes;
+  url.slashes = extracted.slashes || relative && location.slashes;
+  url.protocol = extracted.protocol || location.protocol || '';
+  address = extracted.rest;
+
+  //
+  // When the authority component is absent the URL starts with a path
+  // component.
+  //
+  if (!extracted.slashes) instructions[2] = [/(.*)/, 'pathname'];
+
+  for (; i < instructions.length; i++) {
+    instruction = instructions[i];
+    parse = instruction[0];
+    key = instruction[1];
+
+    if (parse !== parse) {
+      url[key] = address;
+    } else if ('string' === typeof parse) {
+      if (~(index = address.indexOf(parse))) {
+        if ('number' === typeof instruction[2]) {
+          url[key] = address.slice(0, index);
+          address = address.slice(index + instruction[2]);
+        } else {
+          url[key] = address.slice(index);
+          address = address.slice(0, index);
+        }
+      }
+    } else if ((index = parse.exec(address))) {
+      url[key] = index[1];
+      address = address.slice(0, index.index);
+    }
+
+    url[key] = url[key] || (
+      relative && instruction[3] ? location[key] || '' : ''
+    );
+
+    //
+    // Hostname, host and protocol should be lowercased so they can be used to
+    // create a proper `origin`.
+    //
+    if (instruction[4]) url[key] = url[key].toLowerCase();
+  }
+
+  //
+  // Also parse the supplied query string in to an object. If we're supplied
+  // with a custom parser as function use that instead of the default build-in
+  // parser.
+  //
+  if (parser) url.query = parser(url.query);
+
+  //
+  // If the URL is relative, resolve the pathname against the base URL.
+  //
+  if (
+      relative
+    && location.slashes
+    && url.pathname.charAt(0) !== '/'
+    && (url.pathname !== '' || location.pathname !== '')
+  ) {
+    url.pathname = resolve(url.pathname, location.pathname);
+  }
+
+  //
+  // We should not add port numbers if they are already the default port number
+  // for a given protocol. As the host also contains the port number we're going
+  // override it with the hostname which contains no port number.
+  //
+  if (!required(url.port, url.protocol)) {
+    url.host = url.hostname;
+    url.port = '';
+  }
+
+  //
+  // Parse down the `auth` for the username and password.
+  //
+  url.username = url.password = '';
+  if (url.auth) {
+    instruction = url.auth.split(':');
+    url.username = instruction[0] || '';
+    url.password = instruction[1] || '';
+  }
+
+  url.origin = url.protocol && url.host && url.protocol !== 'file:'
+    ? url.protocol +'//'+ url.host
+    : 'null';
+
+  //
+  // The href is just the compiled result.
+  //
+  url.href = url.toString();
+}
+
+/**
+ * This is convenience method for changing properties in the URL instance to
+ * insure that they all propagate correctly.
+ *
+ * @param {String} part          Property we need to adjust.
+ * @param {Mixed} value          The newly assigned value.
+ * @param {Boolean|Function} fn  When setting the query, it will be the function
+ *                               used to parse the query.
+ *                               When setting the protocol, double slash will be
+ *                               removed from the final url if it is true.
+ * @returns {URL}
+ * @api public
+ */
+function set(part, value, fn) {
+  var url = this;
+
+  switch (part) {
+    case 'query':
+      if ('string' === typeof value && value.length) {
+        value = (fn || qs.parse)(value);
+      }
+
+      url[part] = value;
+      break;
+
+    case 'port':
+      url[part] = value;
+
+      if (!required(value, url.protocol)) {
+        url.host = url.hostname;
+        url[part] = '';
+      } else if (value) {
+        url.host = url.hostname +':'+ value;
+      }
+
+      break;
+
+    case 'hostname':
+      url[part] = value;
+
+      if (url.port) value += ':'+ url.port;
+      url.host = value;
+      break;
+
+    case 'host':
+      url[part] = value;
+
+      if (/:\d+$/.test(value)) {
+        value = value.split(':');
+        url.port = value.pop();
+        url.hostname = value.join(':');
+      } else {
+        url.hostname = value;
+        url.port = '';
+      }
+
+      break;
+
+    case 'protocol':
+      url.protocol = value.toLowerCase();
+      url.slashes = !fn;
+      break;
+
+    case 'pathname':
+    case 'hash':
+      if (value) {
+        var char = part === 'pathname' ? '/' : '#';
+        url[part] = value.charAt(0) !== char ? char + value : value;
+      } else {
+        url[part] = value;
+      }
+      break;
+
+    default:
+      url[part] = value;
+  }
+
+  for (var i = 0; i < rules.length; i++) {
+    var ins = rules[i];
+
+    if (ins[4]) url[ins[1]] = url[ins[1]].toLowerCase();
+  }
+
+  url.origin = url.protocol && url.host && url.protocol !== 'file:'
+    ? url.protocol +'//'+ url.host
+    : 'null';
+
+  url.href = url.toString();
+
+  return url;
+}
+
+/**
+ * Transform the properties back in to a valid and full URL string.
+ *
+ * @param {Function} stringify Optional query stringify function.
+ * @returns {String}
+ * @api public
+ */
+function toString(stringify) {
+  if (!stringify || 'function' !== typeof stringify) stringify = qs.stringify;
+
+  var query
+    , url = this
+    , protocol = url.protocol;
+
+  if (protocol && protocol.charAt(protocol.length - 1) !== ':') protocol += ':';
+
+  var result = protocol + (url.slashes ? '//' : '');
+
+  if (url.username) {
+    result += url.username;
+    if (url.password) result += ':'+ url.password;
+    result += '@';
+  }
+
+  result += url.host + url.pathname;
+
+  query = 'object' === typeof url.query ? stringify(url.query) : url.query;
+  if (query) result += '?' !== query.charAt(0) ? '?'+ query : query;
+
+  if (url.hash) result += url.hash;
+
+  return result;
+}
+
+URL.prototype = { set: set, toString: toString };
+
+//
+// Expose the URL parser and some additional properties that might be useful for
+// others or testing.
+//
+URL.extractProtocol = extractProtocol;
+URL.location = lolcation;
+URL.qs = qs;
+
+module.exports = URL;
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
+
+/***/ }),
+/* 71 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Check if we're required to add a port number.
+ *
+ * @see https://url.spec.whatwg.org/#default-port
+ * @param {Number|String} port Port number we need to check
+ * @param {String} protocol Protocol we need to check against.
+ * @returns {Boolean} Is it a default port for the given protocol
+ * @api private
+ */
+module.exports = function required(port, protocol) {
+  protocol = protocol.split(':')[0];
+  port = +port;
+
+  if (!port) return false;
+
+  switch (protocol) {
+    case 'http':
+    case 'ws':
+    return port !== 80;
+
+    case 'https':
+    case 'wss':
+    return port !== 443;
+
+    case 'ftp':
+    return port !== 21;
+
+    case 'gopher':
+    return port !== 70;
+
+    case 'file':
+    return false;
+  }
+
+  return port !== 0;
+};
+
+
+/***/ }),
+/* 72 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var has = Object.prototype.hasOwnProperty;
+
+/**
+ * Decode a URI encoded string.
+ *
+ * @param {String} input The URI encoded string.
+ * @returns {String} The decoded string.
+ * @api private
+ */
+function decode(input) {
+  return decodeURIComponent(input.replace(/\+/g, ' '));
+}
+
+/**
+ * Simple query string parser.
+ *
+ * @param {String} query The query string that needs to be parsed.
+ * @returns {Object}
+ * @api public
+ */
+function querystring(query) {
+  var parser = /([^=?&]+)=?([^&]*)/g
+    , result = {}
+    , part;
+
+  //
+  // Little nifty parsing hack, leverage the fact that RegExp.exec increments
+  // the lastIndex property so we can continue executing this loop until we've
+  // parsed all results.
+  //
+  for (;
+    part = parser.exec(query);
+    result[decode(part[1])] = decode(part[2])
+  );
+
+  return result;
+}
+
+/**
+ * Transform a query string to an object.
+ *
+ * @param {Object} obj Object that should be transformed.
+ * @param {String} prefix Optional prefix.
+ * @returns {String}
+ * @api public
+ */
+function querystringify(obj, prefix) {
+  prefix = prefix || '';
+
+  var pairs = [];
+
+  //
+  // Optionally prefix with a '?' if needed
+  //
+  if ('string' !== typeof prefix) prefix = '?';
+
+  for (var key in obj) {
+    if (has.call(obj, key)) {
+      pairs.push(encodeURIComponent(key) +'='+ encodeURIComponent(obj[key]));
+    }
+  }
+
+  return pairs.length ? prefix + pairs.join('&') : '';
+}
+
+//
+// Expose the module.
+//
+exports.stringify = querystringify;
+exports.parse = querystring;
+
+
+/***/ }),
+/* 73 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+function isAbsolute(pathname) {
+  return pathname.charAt(0) === '/';
+}
+
+// About 1.5x faster than the two-arg version of Array#splice()
+function spliceOne(list, index) {
+  for (var i = index, k = i + 1, n = list.length; k < n; i += 1, k += 1) {
+    list[i] = list[k];
+  }
+
+  list.pop();
+}
+
+// This implementation is based heavily on node's url.parse
+function resolvePathname(to) {
+  var from = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
+
+  var toParts = to && to.split('/') || [];
+  var fromParts = from && from.split('/') || [];
+
+  var isToAbs = to && isAbsolute(to);
+  var isFromAbs = from && isAbsolute(from);
+  var mustEndAbs = isToAbs || isFromAbs;
+
+  if (to && isAbsolute(to)) {
+    // to is absolute
+    fromParts = toParts;
+  } else if (toParts.length) {
+    // to is relative, drop the filename
+    fromParts.pop();
+    fromParts = fromParts.concat(toParts);
+  }
+
+  if (!fromParts.length) return '/';
+
+  var hasTrailingSlash = void 0;
+  if (fromParts.length) {
+    var last = fromParts[fromParts.length - 1];
+    hasTrailingSlash = last === '.' || last === '..' || last === '';
+  } else {
+    hasTrailingSlash = false;
+  }
+
+  var up = 0;
+  for (var i = fromParts.length; i >= 0; i--) {
+    var part = fromParts[i];
+
+    if (part === '.') {
+      spliceOne(fromParts, i);
+    } else if (part === '..') {
+      spliceOne(fromParts, i);
+      up++;
+    } else if (up) {
+      spliceOne(fromParts, i);
+      up--;
+    }
+  }
+
+  if (!mustEndAbs) for (; up--; up) {
+    fromParts.unshift('..');
+  }if (mustEndAbs && fromParts[0] !== '' && (!fromParts[0] || !isAbsolute(fromParts[0]))) fromParts.unshift('');
+
+  var result = fromParts.join('/');
+
+  if (hasTrailingSlash && result.substr(-1) !== '/') result += '/';
+
+  return result;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (resolvePathname);
+
+/***/ }),
+/* 74 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.TreeNode = exports.MultiMap = undefined;
+
+var _MultiMap = __webpack_require__(75);
+
+var _MultiMap2 = _interopRequireDefault(_MultiMap);
+
+var _TreeNode = __webpack_require__(76);
+
+var _TreeNode2 = _interopRequireDefault(_TreeNode);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.MultiMap = _MultiMap2.default;
+exports.TreeNode = _TreeNode2.default;
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _metal = __webpack_require__(0);
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/**
+ * A cached reference to the create function.
+ */
+var create = Object.create;
+
+/**
+ * Case insensitive string Multimap implementation. Allows multiple values for
+ * the same key name.
+ * @extends {Disposable}
+ */
+
+var MultiMap = function (_Disposable) {
+	_inherits(MultiMap, _Disposable);
+
+	function MultiMap() {
+		_classCallCheck(this, MultiMap);
+
+		var _this = _possibleConstructorReturn(this, _Disposable.call(this));
+
+		_this.keys = create(null);
+		_this.values = create(null);
+		return _this;
+	}
+
+	/**
+  * Adds value to a key name.
+  * @param {string} name
+  * @param {*} value
+  * @chainable
+  */
+
+
+	MultiMap.prototype.add = function add(name, value) {
+		this.keys[name.toLowerCase()] = name;
+		this.values[name.toLowerCase()] = this.values[name.toLowerCase()] || [];
+		this.values[name.toLowerCase()].push(value);
+		return this;
+	};
+
+	/**
+  * Clears map names and values.
+  * @chainable
+  */
+
+
+	MultiMap.prototype.clear = function clear() {
+		this.keys = create(null);
+		this.values = create(null);
+		return this;
+	};
+
+	/**
+  * Checks if map contains a value to the key name.
+  * @param {string} name
+  * @return {boolean}
+  * @chainable
+  */
+
+
+	MultiMap.prototype.contains = function contains(name) {
+		return name.toLowerCase() in this.values;
+	};
+
+	/**
+  * @inheritDoc
+  */
+
+
+	MultiMap.prototype.disposeInternal = function disposeInternal() {
+		this.values = null;
+	};
+
+	/**
+  * Creates a `MultiMap` instance from the given object.
+  * @param {!Object} obj
+  * @return {!MultiMap}
+  */
+
+
+	MultiMap.fromObject = function fromObject(obj) {
+		var map = new MultiMap();
+		var keys = Object.keys(obj);
+		for (var i = 0; i < keys.length; i++) {
+			map.set(keys[i], obj[keys[i]]);
+		}
+		return map;
+	};
+
+	/**
+  * Gets the first added value from a key name.
+  * @param {string} name
+  * @return {*}
+  * @chainable
+  */
+
+
+	MultiMap.prototype.get = function get(name) {
+		var values = this.values[name.toLowerCase()];
+		if (values) {
+			return values[0];
+		}
+	};
+
+	/**
+  * Gets all values from a key name.
+  * @param {string} name
+  * @return {Array.<*>}
+  */
+
+
+	MultiMap.prototype.getAll = function getAll(name) {
+		return this.values[name.toLowerCase()];
+	};
+
+	/**
+  * Returns true if the map is empty, false otherwise.
+  * @return {boolean}
+  */
+
+
+	MultiMap.prototype.isEmpty = function isEmpty() {
+		return this.size() === 0;
+	};
+
+	/**
+  * Gets array of key names.
+  * @return {Array.<string>}
+  */
+
+
+	MultiMap.prototype.names = function names() {
+		var _this2 = this;
+
+		return Object.keys(this.values).map(function (key) {
+			return _this2.keys[key];
+		});
+	};
+
+	/**
+  * Removes all values from a key name.
+  * @param {string} name
+  * @chainable
+  */
+
+
+	MultiMap.prototype.remove = function remove(name) {
+		delete this.keys[name.toLowerCase()];
+		delete this.values[name.toLowerCase()];
+		return this;
+	};
+
+	/**
+  * Sets the value of a key name. Relevant to replace the current values with
+  * a new one.
+  * @param {string} name
+  * @param {*} value
+  * @chainable
+  */
+
+
+	MultiMap.prototype.set = function set(name, value) {
+		this.keys[name.toLowerCase()] = name;
+		this.values[name.toLowerCase()] = [value];
+		return this;
+	};
+
+	/**
+  * Gets the size of the map key names.
+  * @return {number}
+  */
+
+
+	MultiMap.prototype.size = function size() {
+		return this.names().length;
+	};
+
+	/**
+  * Returns the parsed values as a string.
+  * @return {string}
+  */
+
+
+	MultiMap.prototype.toString = function toString() {
+		return JSON.stringify(this.values);
+	};
+
+	return MultiMap;
+}(_metal.Disposable);
+
+exports.default = MultiMap;
+
+/***/ }),
+/* 76 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _metal = __webpack_require__(0);
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+/**
+ * Generic tree node data structure with arbitrary number of child nodes.
+ * @param {V} value Value.
+ * @constructor
+ */
+var TreeNode = function () {
+	function TreeNode(value) {
+		_classCallCheck(this, TreeNode);
+
+		/**
+   * The value.
+   * @private {V}
+   */
+		this.value_ = value;
+
+		/**
+   * Reference to the parent node or null if it has no parent.
+   * @private {TreeNode}
+   */
+		this.parent_ = null;
+
+		/**
+   * Child nodes or null in case of leaf node.
+   * @private {Array<!TreeNode>}
+   */
+		this.children_ = null;
+	}
+
+	/**
+  * Appends a child node to this node.
+  * @param {!TreeNode} child Orphan child node.
+  */
+
+
+	TreeNode.prototype.addChild = function addChild(child) {
+		assertChildHasNoParent(child);
+		child.setParent(this);
+		this.children_ = this.children_ || [];
+		this.children_.push(child);
+	};
+
+	/**
+  * Tells whether this node is the ancestor of the given node.
+  * @param {!TreeNode} node A node.
+  * @return {boolean} Whether this node is the ancestor of {@code node}.
+  */
+
+
+	TreeNode.prototype.contains = function contains(node) {
+		var current = node.getParent();
+		while (current) {
+			if (current === this) {
+				return true;
+			}
+			current = current.getParent();
+		}
+		return false;
+	};
+
+	/**
+  * @return {!Array<TreeNode>} All ancestor nodes in bottom-up order.
+  */
+
+
+	TreeNode.prototype.getAncestors = function getAncestors() {
+		var ancestors = [];
+		var node = this.getParent();
+		while (node) {
+			ancestors.push(node);
+			node = node.getParent();
+		}
+		return ancestors;
+	};
+
+	/**
+  * Gets the child node of this node at the given index.
+  * @param {number} index Child index.
+  * @return {?TreeNode} The node at the given index
+  * or null if not found.
+  */
+
+
+	TreeNode.prototype.getChildAt = function getChildAt(index) {
+		return this.getChildren()[index] || null;
+	};
+
+	/**
+  * @return {?Array<!TreeNode>} Child nodes or null in case of leaf node.
+  */
+
+
+	TreeNode.prototype.getChildren = function getChildren() {
+		return this.children_ || TreeNode.EMPTY_ARRAY;
+	};
+
+	/**
+  * @return {number} The number of children.
+  */
+
+
+	TreeNode.prototype.getChildCount = function getChildCount() {
+		return this.getChildren().length;
+	};
+
+	/**
+  * @return {number} The number of ancestors of the node.
+  */
+
+
+	TreeNode.prototype.getDepth = function getDepth() {
+		var depth = 0;
+		var node = this;
+		while (node.getParent()) {
+			depth++;
+			node = node.getParent();
+		}
+		return depth;
+	};
+
+	/**
+  * @return {?TreeNode} Parent node or null if it has no parent.
+  */
+
+
+	TreeNode.prototype.getParent = function getParent() {
+		return this.parent_;
+	};
+
+	/**
+  * @return {!TreeNode} The root of the tree structure, i.e. the farthest
+  * ancestor of the node or the node itself if it has no parents.
+  */
+
+
+	TreeNode.prototype.getRoot = function getRoot() {
+		var root = this;
+		while (root.getParent()) {
+			root = root.getParent();
+		}
+		return root;
+	};
+
+	/**
+  * Gets the value.
+  * @return {V} The value.
+  */
+
+
+	TreeNode.prototype.getValue = function getValue() {
+		return this.value_;
+	};
+
+	/**
+  * @return {boolean} Whether the node is a leaf node.
+  */
+
+
+	TreeNode.prototype.isLeaf = function isLeaf() {
+		return !this.getChildCount();
+	};
+
+	/**
+  * Removes the given child node of this node.
+  * @param {TreeNode} child The node to remove.
+  * @return {TreeNode} The removed node if any, null otherwise.
+  */
+
+
+	TreeNode.prototype.removeChild = function removeChild(child) {
+		if (_metal.array.remove(this.getChildren(), child)) {
+			return child;
+		}
+		return null;
+	};
+
+	/**
+  * Sets the parent node of this node. The callers must ensure that the
+  * parent node and only that has this node among its children.
+  * @param {TreeNode} parent The parent to set. If null, the node will be
+  * detached from the tree.
+  * @protected
+  */
+
+
+	TreeNode.prototype.setParent = function setParent(parent) {
+		this.parent_ = parent;
+	};
+
+	/**
+  * Traverses the subtree. The first callback starts with this node,
+  * and visits the descendant nodes depth-first, in preorder.
+  * The second callback, starts with deepest child then visits
+  * the ancestor nodes depth-first, in postorder. E.g.
+  *
+  *  	 A
+  *    / \
+  *   B   C
+  *  /   / \
+  * D   E   F
+  *
+  * preorder -> ['A', 'B', 'D', 'C', 'E', 'F']
+  * postorder -> ['D', 'B', 'E', 'F', 'C', 'A']
+  *
+  * @param {function=} opt_preorderFn The callback to execute when visiting a node.
+  * @param {function=} opt_postorderFn The callback to execute before leaving a node.
+  */
+
+
+	TreeNode.prototype.traverse = function traverse(opt_preorderFn, opt_postorderFn) {
+		if (opt_preorderFn) {
+			opt_preorderFn(this);
+		}
+		this.getChildren().forEach(function (child) {
+			return child.traverse(opt_preorderFn, opt_postorderFn);
+		});
+		if (opt_postorderFn) {
+			opt_postorderFn(this);
+		}
+	};
+
+	return TreeNode;
+}();
+
+/**
+ * Constant for empty array to avoid unnecessary allocations.
+ * @private
+ */
+
+
+TreeNode.EMPTY_ARRAY = [];
+
+/**
+ * Asserts that child has no parent.
+ * @param {TreeNode} child A child.
+ * @private
+ */
+var assertChildHasNoParent = function assertChildHasNoParent(child) {
+	if (child.getParent()) {
+		throw new Error('Cannot add child with parent.');
+	}
+};
+
+exports.default = TreeNode;
+
+/***/ }),
+/* 77 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ProgressPromise = exports.CancellablePromise = undefined;
+
+var _CancellablePromise = __webpack_require__(29);
+
+var _CancellablePromise2 = _interopRequireDefault(_CancellablePromise);
+
+var _ProgressPromise = __webpack_require__(80);
+
+var _ProgressPromise2 = _interopRequireDefault(_ProgressPromise);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.CancellablePromise = _CancellablePromise2.default;
+exports.ProgressPromise = _ProgressPromise2.default;
+exports.default = _CancellablePromise2.default;
+
+/***/ }),
+/* 78 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// Copyright 2015 The Closure Library Authors. All Rights Reserved.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS-IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+
+
+/**
+ * @fileoverview Simple freelist.
+ *
+ * An anterative to goog.structs.SimplePool, it imposes the requirement that the
+ * objects in the list contain a "next" property that can be used to maintain
+ * the pool.
+ */
+
+/**
+ * @template ITEM
+ */
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var FreeList = function () {
+  /**
+   * @param {function():ITEM} create
+   * @param {function(ITEM):void} reset
+   * @param {number} limit
+   */
+  function FreeList(create, reset, limit) {
+    _classCallCheck(this, FreeList);
+
+    /** @private @const {number} */
+    this.limit_ = limit;
+    /** @private @const {function()} */
+    this.create_ = create;
+    /** @private @const {function(ITEM):void} */
+    this.reset_ = reset;
+
+    /** @private {number} */
+    this.occupants_ = 0;
+    /** @private {ITEM} */
+    this.head_ = null;
+  }
+
+  /**
+   * @return {ITEM}
+   */
+
+
+  _createClass(FreeList, [{
+    key: 'get',
+    value: function get() {
+      var item;
+      if (this.occupants_ > 0) {
+        this.occupants_--;
+        item = this.head_;
+        this.head_ = item.next;
+        item.next = null;
+      } else {
+        item = this.create_();
+      }
+      return item;
+    }
+
+    /**
+     * @param {ITEM} item An item available for possible future reuse.
+     */
+
+  }, {
+    key: 'put',
+    value: function put(item) {
+      this.reset_(item);
+      if (this.occupants_ < this.limit_) {
+        this.occupants_++;
+        item.next = this.head_;
+        this.head_ = item;
+      }
+    }
+
+    /**
+     * Visible for testing.
+     * @package
+     * @return {number}
+     */
+
+  }, {
+    key: 'occupants',
+    value: function occupants() {
+      return this.occupants_;
+    }
+  }]);
+
+  return FreeList;
+}();
+
+exports.default = FreeList;
+
+/***/ }),
+/* 79 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// Copyright 2013 The Closure Library Authors. All Rights Reserved.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS-IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+
+
+/**
+ * Provides a more strict interface for Thenables in terms of
+ * http://promisesaplus.com for interop with {@see CancellablePromise}.
+ *
+ * @interface
+ * @extends {IThenable.<TYPE>}
+ * @template TYPE
+ */
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var Thenable = function Thenable() {};
+
+/**
+ * Adds callbacks that will operate on the result of the Thenable, returning a
+ * new child Promise.
+ *
+ * If the Thenable is fulfilled, the {@code onFulfilled} callback will be
+ * invoked with the fulfillment value as argument, and the child Promise will
+ * be fulfilled with the return value of the callback. If the callback throws
+ * an exception, the child Promise will be rejected with the thrown value
+ * instead.
+ *
+ * If the Thenable is rejected, the {@code onRejected} callback will be invoked
+ * with the rejection reason as argument, and the child Promise will be rejected
+ * with the return value of the callback or thrown value.
+ *
+ * @param {?(function(this:THIS, TYPE):
+ *             (RESULT|IThenable.<RESULT>|Thenable))=} opt_onFulfilled A
+ *     function that will be invoked with the fulfillment value if the Promise
+ *     is fullfilled.
+ * @param {?(function(*): *)=} opt_onRejected A function that will be invoked
+ *     with the rejection reason if the Promise is rejected.
+ * @param {THIS=} opt_context An optional context object that will be the
+ *     execution context for the callbacks. By default, functions are executed
+ *     with the default this.
+ * @return {!CancellablePromise.<RESULT>} A new Promise that will receive the
+ *     result of the fulfillment or rejection callback.
+ * @template RESULT,THIS
+ */
+Thenable.prototype.then = function () {};
+
+/**
+ * An expando property to indicate that an object implements
+ * {@code Thenable}.
+ *
+ * {@see addImplementation}.
+ *
+ * @const
+ */
+Thenable.IMPLEMENTED_BY_PROP = '$goog_Thenable';
+
+/**
+ * Marks a given class (constructor) as an implementation of Thenable, so
+ * that we can query that fact at runtime. The class must have already
+ * implemented the interface.
+ * Exports a 'then' method on the constructor prototype, so that the objects
+ * also implement the extern {@see Thenable} interface for interop with
+ * other Promise implementations.
+ * @param {function(new:Thenable,...[?])} ctor The class constructor. The
+ *     corresponding class must have already implemented the interface.
+ */
+Thenable.addImplementation = function (ctor) {
+  ctor.prototype.then = ctor.prototype.then;
+  ctor.prototype.$goog_Thenable = true;
+};
+
+/**
+ * @param {*} object
+ * @return {boolean} Whether a given instance implements {@code Thenable}.
+ *     The class/superclass of the instance must call {@code addImplementation}.
+ */
+Thenable.isImplementedBy = function (object) {
+  if (!object) {
+    return false;
+  }
+  try {
+    return !!object.$goog_Thenable;
+  } catch (e) {
+    // Property access seems to be forbidden.
+    return false;
+  }
+};
+
+exports.default = Thenable;
+
+/***/ }),
+/* 80 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _CancellablePromise2 = __webpack_require__(29);
+
+var _CancellablePromise3 = _interopRequireDefault(_CancellablePromise2);
+
+var _metal = __webpack_require__(0);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ProgressPromise = function (_CancellablePromise) {
+	_inherits(ProgressPromise, _CancellablePromise);
+
+	/**
+  * Creates a CancellablePromise that can track progress.
+  * @extends CancellablePromise
+  * @constructor
+  */
+	function ProgressPromise(resolver, opt_context) {
+		_classCallCheck(this, ProgressPromise);
+
+		var progressFn = function progressFn(progress) {
+			_metal.async.nextTick(function () {
+				_this.setProgress_(progress);
+			});
+		};
+
+		var resolverFn = function resolverFn(resolve, reject) {
+			resolver(resolve, reject, progressFn);
+		};
+
+		var _this = _possibleConstructorReturn(this, (ProgressPromise.__proto__ || Object.getPrototypeOf(ProgressPromise)).call(this, resolverFn, opt_context));
+
+		_this.listeners_ = [];
+		_this.progress_ = 0;
+		return _this;
+	}
+
+	/**
+  * Overwrites `CancellablePromise.prototype.addChildPromise_` so that it
+  * implements another `ProgressPromise` as a child.
+  * @inheritdoc
+  */
+
+
+	_createClass(ProgressPromise, [{
+		key: 'addChildPromise_',
+		value: function addChildPromise_(onFulfilled, onRejected, opt_context) {
+			var callbackEntry = _CancellablePromise3.default.getCallbackEntry_(null, null, null);
+
+			callbackEntry.child = new ProgressPromise(function (resolve, reject) {
+				callbackEntry.onFulfilled = onFulfilled ? function (value) {
+					try {
+						var result = onFulfilled.call(opt_context, value);
+						resolve(result);
+					} catch (err) {
+						reject(err);
+					}
+				} : resolve;
+
+				callbackEntry.onRejected = onRejected ? function (reason) {
+					try {
+						var result = onRejected.call(opt_context, reason);
+						if (!(0, _metal.isDef)(result) && reason.IS_CANCELLATION_ERROR) {
+							reject(reason);
+						} else {
+							resolve(result);
+						}
+					} catch (err) {
+						reject(err);
+					}
+				} : reject;
+			});
+
+			callbackEntry.child.parent_ = this;
+			this.addCallbackEntry_(callbackEntry);
+			return callbackEntry.child;
+		}
+
+		/**
+   * Invokes any listeners that have been attached to child promises.
+   * @param {!number} progress A percentage between 0 and 1
+   */
+
+	}, {
+		key: 'callChildProgressListeners_',
+		value: function callChildProgressListeners_(progress) {
+			if (this.callbackEntries_ && this.callbackEntries_.child) {
+				this.callProgressListeners_(progress, this.callbackEntries_.child.listeners_);
+			}
+		}
+
+		/**
+   * Invokes any listeners that have been attached via the `progress` method.
+   * @param {!number} progress A percentage between 0 and 1
+   * @param {!Array} listeners Array of listeners
+   */
+
+	}, {
+		key: 'callProgressListeners_',
+		value: function callProgressListeners_(progress, listeners) {
+			if (listeners.length) {
+				listeners.forEach(function (listener) {
+					listener(progress);
+				});
+			}
+		}
+
+		/**
+   * Returns the current progress of the promise instance.
+   * Progress will be a number between 0 and 1.
+   * @return {number}
+   */
+
+	}, {
+		key: 'getProgress',
+		value: function getProgress() {
+			return this.progress_;
+		}
+
+		/**
+   * Adds a listener that will be called once the progress has been updated.
+   * @param {!Function} listener
+   */
+
+	}, {
+		key: 'progress',
+		value: function progress(listener) {
+			this.listeners_.push(listener);
+
+			return this;
+		}
+
+		/**
+   * Updates the current progress of the promise and calls all listeners.
+   * @param {number} progress
+   */
+
+	}, {
+		key: 'setProgress_',
+		value: function setProgress_(progress) {
+			if (progress > 1 || progress < 0) {
+				throw new TypeError('The progress percentage should be a number between 0 and 1');
+			} else if (progress < this.progress_) {
+				throw new Error('The progress percentage can\'t be lower than the previous percentage');
+			} else if (progress === this.progress_ || progress === 1) {
+				return;
+			}
+
+			this.progress_ = progress;
+
+			this.callProgressListeners_(progress, this.listeners_);
+			this.callChildProgressListeners_(progress);
+		}
+	}]);
+
+	return ProgressPromise;
+}(_CancellablePromise3.default);
+
+exports.default = ProgressPromise;
+
+/***/ }),
 /* 81 */,
 /* 82 */,
 /* 83 */,
@@ -12326,9 +15995,13 @@ exports.Dashboard = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _metalJsx = __webpack_require__(29);
+var _metalJsx = __webpack_require__(30);
 
 var _metalJsx2 = _interopRequireDefault(_metalJsx);
+
+var _metalAjax = __webpack_require__(67);
+
+var _metalAjax2 = _interopRequireDefault(_metalAjax);
 
 __webpack_require__(112);
 
@@ -12350,13 +16023,50 @@ var Dashboard = function (_JSXComponent) {
 	}
 
 	_createClass(Dashboard, [{
+		key: 'attached',
+		value: function attached() {
+			var _this2 = this;
+
+			this.callService();
+
+			setInterval(function () {
+				_this2.callService();
+			}, 10000);
+		}
+	}, {
+		key: 'callService',
+		value: function callService() {
+			var _this3 = this;
+
+			_metalAjax2.default.request(location.origin + '/api/forms/find?analyticskey=analyticskey:test&formid=35490&start=2017-12-04').then(function (xhr) {
+				var json = JSON.parse(xhr.response);
+				var sessions = 0;
+
+				json.forEach(function (value) {
+					sessions += value.sessions;
+				});
+
+				_this3.props.sessions = sessions;
+			});
+		}
+	}, {
 		key: 'render',
 		value: function render() {
 			IncrementalDOM.elementOpen('div');
 			IncrementalDOM.elementOpen(Header, null, null, 'text', 'Hello');
 			IncrementalDOM.elementClose(Header);
-			IncrementalDOM.elementOpen(Summary);
-			IncrementalDOM.elementClose(Summary);
+			IncrementalDOM.elementOpen('div', null, null, 'class', 'container-fluid');
+			IncrementalDOM.elementOpen('section', null, null, 'class', 'row');
+			IncrementalDOM.elementOpen(Sessions, null, null, 'sessions', this.props.sessions);
+			IncrementalDOM.elementClose(Sessions);
+			IncrementalDOM.elementOpen('div');
+			IncrementalDOM.text('Leo');
+			IncrementalDOM.elementClose('div');
+			IncrementalDOM.elementOpen('div');
+			IncrementalDOM.text('Leo');
+			IncrementalDOM.elementClose('div');
+			IncrementalDOM.elementClose('section');
+			IncrementalDOM.elementClose('div');
 			return IncrementalDOM.elementClose('div');
 		}
 	}]);
@@ -12364,43 +16074,72 @@ var Dashboard = function (_JSXComponent) {
 	return Dashboard;
 }(_metalJsx2.default);
 
+Dashboard.PROPS = {
+	sessions: {
+		value: 0
+	}
+};
+
 var Header = function Header(_ref) {
 	var text = _ref.text;
 	IncrementalDOM.elementOpen('header', null, null, 'class', 'header');
+	IncrementalDOM.elementOpen('h1', null, null, 'class', 'container-fluid');
 	iDOMHelpers.renderArbitrary(text);
+	IncrementalDOM.elementClose('h1');
 	return IncrementalDOM.elementClose('header');
 };
 
-var Summary = function (_JSXComponent2) {
-	_inherits(Summary, _JSXComponent2);
+var Sessions = function (_JSXComponent2) {
+	_inherits(Sessions, _JSXComponent2);
 
-	function Summary() {
-		_classCallCheck(this, Summary);
+	function Sessions() {
+		_classCallCheck(this, Sessions);
 
-		return _possibleConstructorReturn(this, (Summary.__proto__ || Object.getPrototypeOf(Summary)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Sessions.__proto__ || Object.getPrototypeOf(Sessions)).apply(this, arguments));
 	}
 
-	_createClass(Summary, [{
+	_createClass(Sessions, [{
 		key: 'render',
 		value: function render() {
-			IncrementalDOM.elementOpen('div', null, null, 'class', 'box');
+			IncrementalDOM.elementOpen('article', null, null, 'class', 'col-md-6 box');
+			IncrementalDOM.elementOpen('div', null, null, 'class', 'sessions-container');
 			IncrementalDOM.elementOpen('h2');
-			iDOMHelpers.renderArbitrary(this.state.sessions);
+			IncrementalDOM.elementOpen('span');
+			iDOMHelpers.renderArbitrary(this.props.sessions);
+			IncrementalDOM.elementClose('span');
 			IncrementalDOM.elementClose('h2');
+			IncrementalDOM.elementOpen('h3', null, null, 'class', 'text-center');
+			IncrementalDOM.text(' SESSIONS ');
+			IncrementalDOM.elementClose('h3');
+			IncrementalDOM.elementClose('div');
+			IncrementalDOM.elementOpen('div', null, null, 'class', 'sessions-container');
 			IncrementalDOM.elementOpen('h2');
-			iDOMHelpers.renderArbitrary(this.state.started);
+			IncrementalDOM.elementOpen('span');
+			iDOMHelpers.renderArbitrary(this.props.started);
+			IncrementalDOM.elementClose('span');
 			IncrementalDOM.elementClose('h2');
+			IncrementalDOM.elementOpen('h3', null, null, 'class', 'text-center');
+			IncrementalDOM.text(' STARTED ');
+			IncrementalDOM.elementClose('h3');
+			IncrementalDOM.elementClose('div');
+			IncrementalDOM.elementOpen('div', null, null, 'class', 'sessions-container');
 			IncrementalDOM.elementOpen('h2');
-			iDOMHelpers.renderArbitrary(this.state.converted);
+			IncrementalDOM.elementOpen('span');
+			iDOMHelpers.renderArbitrary(this.props.converted);
+			IncrementalDOM.elementClose('span');
 			IncrementalDOM.elementClose('h2');
-			return IncrementalDOM.elementClose('div');
+			IncrementalDOM.elementOpen('h3', null, null, 'class', 'text-center');
+			IncrementalDOM.text(' CONVERTED ');
+			IncrementalDOM.elementClose('h3');
+			IncrementalDOM.elementClose('div');
+			return IncrementalDOM.elementClose('article');
 		}
 	}]);
 
-	return Summary;
+	return Sessions;
 }(_metalJsx2.default);
 
-Summary.STATE = {
+Sessions.PROPS = {
 	sessions: {
 		value: 0
 	},
@@ -12454,7 +16193,7 @@ exports = module.exports = __webpack_require__(114)(undefined);
 
 
 // module
-exports.push([module.i, "* {\n  box-sizing: border-box; }\n\nbody {\n  margin: 0; }\n\n.header {\n  background: #303240;\n  color: #fff;\n  font-size: 1.4em;\n  padding: 1.5em; }\n\n.box {\n  background: #f3f3f3;\n  padding: 1.5em; }\n  .box h2 {\n    color: #303240;\n    font-size: 2.5em; }\n", ""]);
+exports.push([module.i, "/*!\n * Bootstrap v4.0.0-beta.2 (https://getbootstrap.com)\n * Copyright 2011-2017 The Bootstrap Authors\n * Copyright 2011-2017 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n */\n:root {\n  --blue: #007bff;\n  --indigo: #6610f2;\n  --purple: #6f42c1;\n  --pink: #e83e8c;\n  --red: #dc3545;\n  --orange: #fd7e14;\n  --yellow: #ffc107;\n  --green: #28a745;\n  --teal: #20c997;\n  --cyan: #17a2b8;\n  --white: #fff;\n  --gray: #868e96;\n  --gray-dark: #343a40;\n  --primary: #007bff;\n  --secondary: #868e96;\n  --success: #28a745;\n  --info: #17a2b8;\n  --warning: #ffc107;\n  --danger: #dc3545;\n  --light: #f8f9fa;\n  --dark: #343a40;\n  --breakpoint-xs: 0;\n  --breakpoint-sm: 576px;\n  --breakpoint-md: 768px;\n  --breakpoint-lg: 992px;\n  --breakpoint-xl: 1200px;\n  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; }\n\n@media print {\n  *,\n  *::before,\n  *::after {\n    text-shadow: none !important;\n    box-shadow: none !important; }\n  a,\n  a:visited {\n    text-decoration: underline; }\n  abbr[title]::after {\n    content: \" (\" attr(title) \")\"; }\n  pre {\n    white-space: pre-wrap !important; }\n  pre,\n  blockquote {\n    border: 1px solid #999;\n    page-break-inside: avoid; }\n  thead {\n    display: table-header-group; }\n  tr,\n  img {\n    page-break-inside: avoid; }\n  p,\n  h2,\n  h3 {\n    orphans: 3;\n    widows: 3; }\n  h2,\n  h3 {\n    page-break-after: avoid; }\n  .navbar {\n    display: none; }\n  .badge {\n    border: 1px solid #000; }\n  .table {\n    border-collapse: collapse !important; }\n    .table td,\n    .table th {\n      background-color: #fff !important; }\n  .table-bordered th,\n  .table-bordered td {\n    border: 1px solid #ddd !important; } }\n\n*,\n*::before,\n*::after {\n  box-sizing: border-box; }\n\nhtml {\n  font-family: sans-serif;\n  line-height: 1.15;\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  -ms-overflow-style: scrollbar;\n  -webkit-tap-highlight-color: transparent; }\n\n@-ms-viewport {\n  width: device-width; }\n\narticle, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {\n  display: block; }\n\nbody {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n  font-size: 1rem;\n  font-weight: 400;\n  line-height: 1.5;\n  color: #212529;\n  text-align: left;\n  background-color: #fff; }\n\n[tabindex=\"-1\"]:focus {\n  outline: 0 !important; }\n\nhr {\n  box-sizing: content-box;\n  height: 0;\n  overflow: visible; }\n\nh1, h2, h3, h4, h5, h6 {\n  margin-top: 0;\n  margin-bottom: 0.5rem; }\n\np {\n  margin-top: 0;\n  margin-bottom: 1rem; }\n\nabbr[title],\nabbr[data-original-title] {\n  text-decoration: underline;\n  text-decoration: underline dotted;\n  cursor: help;\n  border-bottom: 0; }\n\naddress {\n  margin-bottom: 1rem;\n  font-style: normal;\n  line-height: inherit; }\n\nol,\nul,\ndl {\n  margin-top: 0;\n  margin-bottom: 1rem; }\n\nol ol,\nul ul,\nol ul,\nul ol {\n  margin-bottom: 0; }\n\ndt {\n  font-weight: 700; }\n\ndd {\n  margin-bottom: .5rem;\n  margin-left: 0; }\n\nblockquote {\n  margin: 0 0 1rem; }\n\ndfn {\n  font-style: italic; }\n\nb,\nstrong {\n  font-weight: bolder; }\n\nsmall {\n  font-size: 80%; }\n\nsub,\nsup {\n  position: relative;\n  font-size: 75%;\n  line-height: 0;\n  vertical-align: baseline; }\n\nsub {\n  bottom: -.25em; }\n\nsup {\n  top: -.5em; }\n\na {\n  color: #007bff;\n  text-decoration: none;\n  background-color: transparent;\n  -webkit-text-decoration-skip: objects; }\n  a:hover {\n    color: #0056b3;\n    text-decoration: underline; }\n\na:not([href]):not([tabindex]) {\n  color: inherit;\n  text-decoration: none; }\n  a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {\n    color: inherit;\n    text-decoration: none; }\n  a:not([href]):not([tabindex]):focus {\n    outline: 0; }\n\npre,\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  font-size: 1em; }\n\npre {\n  margin-top: 0;\n  margin-bottom: 1rem;\n  overflow: auto;\n  -ms-overflow-style: scrollbar; }\n\nfigure {\n  margin: 0 0 1rem; }\n\nimg {\n  vertical-align: middle;\n  border-style: none; }\n\nsvg:not(:root) {\n  overflow: hidden; }\n\na,\narea,\nbutton,\n[role=\"button\"],\ninput:not([type=\"range\"]),\nlabel,\nselect,\nsummary,\ntextarea {\n  touch-action: manipulation; }\n\ntable {\n  border-collapse: collapse; }\n\ncaption {\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n  color: #868e96;\n  text-align: left;\n  caption-side: bottom; }\n\nth {\n  text-align: inherit; }\n\nlabel {\n  display: inline-block;\n  margin-bottom: .5rem; }\n\nbutton {\n  border-radius: 0; }\n\nbutton:focus {\n  outline: 1px dotted;\n  outline: 5px auto -webkit-focus-ring-color; }\n\ninput,\nbutton,\nselect,\noptgroup,\ntextarea {\n  margin: 0;\n  font-family: inherit;\n  font-size: inherit;\n  line-height: inherit; }\n\nbutton,\ninput {\n  overflow: visible; }\n\nbutton,\nselect {\n  text-transform: none; }\n\nbutton,\nhtml [type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button; }\n\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  padding: 0;\n  border-style: none; }\n\ninput[type=\"radio\"],\ninput[type=\"checkbox\"] {\n  box-sizing: border-box;\n  padding: 0; }\n\ninput[type=\"date\"],\ninput[type=\"time\"],\ninput[type=\"datetime-local\"],\ninput[type=\"month\"] {\n  -webkit-appearance: listbox; }\n\ntextarea {\n  overflow: auto;\n  resize: vertical; }\n\nfieldset {\n  min-width: 0;\n  padding: 0;\n  margin: 0;\n  border: 0; }\n\nlegend {\n  display: block;\n  width: 100%;\n  max-width: 100%;\n  padding: 0;\n  margin-bottom: .5rem;\n  font-size: 1.5rem;\n  line-height: inherit;\n  color: inherit;\n  white-space: normal; }\n\nprogress {\n  vertical-align: baseline; }\n\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n\n[type=\"search\"] {\n  outline-offset: -2px;\n  -webkit-appearance: none; }\n\n[type=\"search\"]::-webkit-search-cancel-button,\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n\n::-webkit-file-upload-button {\n  font: inherit;\n  -webkit-appearance: button; }\n\noutput {\n  display: inline-block; }\n\nsummary {\n  display: list-item; }\n\ntemplate {\n  display: none; }\n\n[hidden] {\n  display: none !important; }\n\nh1, h2, h3, h4, h5, h6,\n.h1, .h2, .h3, .h4, .h5, .h6 {\n  margin-bottom: 0.5rem;\n  font-family: inherit;\n  font-weight: 500;\n  line-height: 1.2;\n  color: inherit; }\n\nh1, .h1 {\n  font-size: 2.5rem; }\n\nh2, .h2 {\n  font-size: 2rem; }\n\nh3, .h3 {\n  font-size: 1.75rem; }\n\nh4, .h4 {\n  font-size: 1.5rem; }\n\nh5, .h5 {\n  font-size: 1.25rem; }\n\nh6, .h6 {\n  font-size: 1rem; }\n\n.lead {\n  font-size: 1.25rem;\n  font-weight: 300; }\n\n.display-1 {\n  font-size: 6rem;\n  font-weight: 300;\n  line-height: 1.2; }\n\n.display-2 {\n  font-size: 5.5rem;\n  font-weight: 300;\n  line-height: 1.2; }\n\n.display-3 {\n  font-size: 4.5rem;\n  font-weight: 300;\n  line-height: 1.2; }\n\n.display-4 {\n  font-size: 3.5rem;\n  font-weight: 300;\n  line-height: 1.2; }\n\nhr {\n  margin-top: 1rem;\n  margin-bottom: 1rem;\n  border: 0;\n  border-top: 1px solid rgba(0, 0, 0, 0.1); }\n\nsmall,\n.small {\n  font-size: 80%;\n  font-weight: 400; }\n\nmark,\n.mark {\n  padding: 0.2em;\n  background-color: #fcf8e3; }\n\n.list-unstyled {\n  padding-left: 0;\n  list-style: none; }\n\n.list-inline {\n  padding-left: 0;\n  list-style: none; }\n\n.list-inline-item {\n  display: inline-block; }\n  .list-inline-item:not(:last-child) {\n    margin-right: 0.5rem; }\n\n.initialism {\n  font-size: 90%;\n  text-transform: uppercase; }\n\n.blockquote {\n  margin-bottom: 1rem;\n  font-size: 1.25rem; }\n\n.blockquote-footer {\n  display: block;\n  font-size: 80%;\n  color: #868e96; }\n  .blockquote-footer::before {\n    content: \"\\2014   \\A0\"; }\n\n.img-fluid {\n  max-width: 100%;\n  height: auto; }\n\n.img-thumbnail {\n  padding: 0.25rem;\n  background-color: #fff;\n  border: 1px solid #dee2e6;\n  border-radius: 0.25rem;\n  max-width: 100%;\n  height: auto; }\n\n.figure {\n  display: inline-block; }\n\n.figure-img {\n  margin-bottom: 0.5rem;\n  line-height: 1; }\n\n.figure-caption {\n  font-size: 90%;\n  color: #868e96; }\n\ncode,\nkbd,\npre,\nsamp {\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; }\n\ncode {\n  padding: 0.2rem 0.4rem;\n  font-size: 90%;\n  color: #bd4147;\n  background-color: #f8f9fa;\n  border-radius: 0.25rem; }\n  a > code {\n    padding: 0;\n    color: inherit;\n    background-color: inherit; }\n\nkbd {\n  padding: 0.2rem 0.4rem;\n  font-size: 90%;\n  color: #fff;\n  background-color: #212529;\n  border-radius: 0.2rem; }\n  kbd kbd {\n    padding: 0;\n    font-size: 100%;\n    font-weight: 700; }\n\npre {\n  display: block;\n  font-size: 90%;\n  color: #212529; }\n  pre code {\n    padding: 0;\n    font-size: inherit;\n    color: inherit;\n    background-color: transparent;\n    border-radius: 0; }\n\n.pre-scrollable {\n  max-height: 340px;\n  overflow-y: scroll; }\n\n.container {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n  @media (min-width: 576px) {\n    .container {\n      max-width: 540px; } }\n  @media (min-width: 768px) {\n    .container {\n      max-width: 720px; } }\n  @media (min-width: 992px) {\n    .container {\n      max-width: 960px; } }\n  @media (min-width: 1200px) {\n    .container {\n      max-width: 1140px; } }\n\n.container-fluid {\n  width: 100%;\n  padding-right: 15px;\n  padding-left: 15px;\n  margin-right: auto;\n  margin-left: auto; }\n\n.row {\n  display: flex;\n  flex-wrap: wrap;\n  margin-right: -15px;\n  margin-left: -15px; }\n\n.no-gutters {\n  margin-right: 0;\n  margin-left: 0; }\n  .no-gutters > .col,\n  .no-gutters > [class*=\"col-\"] {\n    padding-right: 0;\n    padding-left: 0; }\n\n.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,\n.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,\n.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,\n.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,\n.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,\n.col-xl-auto {\n  position: relative;\n  width: 100%;\n  min-height: 1px;\n  padding-right: 15px;\n  padding-left: 15px; }\n\n.col {\n  flex-basis: 0;\n  flex-grow: 1;\n  max-width: 100%; }\n\n.col-auto {\n  flex: 0 0 auto;\n  width: auto;\n  max-width: none; }\n\n.col-1 {\n  flex: 0 0 8.33333%;\n  max-width: 8.33333%; }\n\n.col-2 {\n  flex: 0 0 16.66667%;\n  max-width: 16.66667%; }\n\n.col-3 {\n  flex: 0 0 25%;\n  max-width: 25%; }\n\n.col-4 {\n  flex: 0 0 33.33333%;\n  max-width: 33.33333%; }\n\n.col-5 {\n  flex: 0 0 41.66667%;\n  max-width: 41.66667%; }\n\n.col-6 {\n  flex: 0 0 50%;\n  max-width: 50%; }\n\n.col-7 {\n  flex: 0 0 58.33333%;\n  max-width: 58.33333%; }\n\n.col-8 {\n  flex: 0 0 66.66667%;\n  max-width: 66.66667%; }\n\n.col-9 {\n  flex: 0 0 75%;\n  max-width: 75%; }\n\n.col-10 {\n  flex: 0 0 83.33333%;\n  max-width: 83.33333%; }\n\n.col-11 {\n  flex: 0 0 91.66667%;\n  max-width: 91.66667%; }\n\n.col-12 {\n  flex: 0 0 100%;\n  max-width: 100%; }\n\n.order-first {\n  order: -1; }\n\n.order-1 {\n  order: 1; }\n\n.order-2 {\n  order: 2; }\n\n.order-3 {\n  order: 3; }\n\n.order-4 {\n  order: 4; }\n\n.order-5 {\n  order: 5; }\n\n.order-6 {\n  order: 6; }\n\n.order-7 {\n  order: 7; }\n\n.order-8 {\n  order: 8; }\n\n.order-9 {\n  order: 9; }\n\n.order-10 {\n  order: 10; }\n\n.order-11 {\n  order: 11; }\n\n.order-12 {\n  order: 12; }\n\n.offset-1 {\n  margin-left: 8.33333%; }\n\n.offset-2 {\n  margin-left: 16.66667%; }\n\n.offset-3 {\n  margin-left: 25%; }\n\n.offset-4 {\n  margin-left: 33.33333%; }\n\n.offset-5 {\n  margin-left: 41.66667%; }\n\n.offset-6 {\n  margin-left: 50%; }\n\n.offset-7 {\n  margin-left: 58.33333%; }\n\n.offset-8 {\n  margin-left: 66.66667%; }\n\n.offset-9 {\n  margin-left: 75%; }\n\n.offset-10 {\n  margin-left: 83.33333%; }\n\n.offset-11 {\n  margin-left: 91.66667%; }\n\n@media (min-width: 576px) {\n  .col-sm {\n    flex-basis: 0;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-sm-auto {\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-sm-1 {\n    flex: 0 0 8.33333%;\n    max-width: 8.33333%; }\n  .col-sm-2 {\n    flex: 0 0 16.66667%;\n    max-width: 16.66667%; }\n  .col-sm-3 {\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-sm-4 {\n    flex: 0 0 33.33333%;\n    max-width: 33.33333%; }\n  .col-sm-5 {\n    flex: 0 0 41.66667%;\n    max-width: 41.66667%; }\n  .col-sm-6 {\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-sm-7 {\n    flex: 0 0 58.33333%;\n    max-width: 58.33333%; }\n  .col-sm-8 {\n    flex: 0 0 66.66667%;\n    max-width: 66.66667%; }\n  .col-sm-9 {\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-sm-10 {\n    flex: 0 0 83.33333%;\n    max-width: 83.33333%; }\n  .col-sm-11 {\n    flex: 0 0 91.66667%;\n    max-width: 91.66667%; }\n  .col-sm-12 {\n    flex: 0 0 100%;\n    max-width: 100%; }\n  .order-sm-first {\n    order: -1; }\n  .order-sm-1 {\n    order: 1; }\n  .order-sm-2 {\n    order: 2; }\n  .order-sm-3 {\n    order: 3; }\n  .order-sm-4 {\n    order: 4; }\n  .order-sm-5 {\n    order: 5; }\n  .order-sm-6 {\n    order: 6; }\n  .order-sm-7 {\n    order: 7; }\n  .order-sm-8 {\n    order: 8; }\n  .order-sm-9 {\n    order: 9; }\n  .order-sm-10 {\n    order: 10; }\n  .order-sm-11 {\n    order: 11; }\n  .order-sm-12 {\n    order: 12; }\n  .offset-sm-0 {\n    margin-left: 0; }\n  .offset-sm-1 {\n    margin-left: 8.33333%; }\n  .offset-sm-2 {\n    margin-left: 16.66667%; }\n  .offset-sm-3 {\n    margin-left: 25%; }\n  .offset-sm-4 {\n    margin-left: 33.33333%; }\n  .offset-sm-5 {\n    margin-left: 41.66667%; }\n  .offset-sm-6 {\n    margin-left: 50%; }\n  .offset-sm-7 {\n    margin-left: 58.33333%; }\n  .offset-sm-8 {\n    margin-left: 66.66667%; }\n  .offset-sm-9 {\n    margin-left: 75%; }\n  .offset-sm-10 {\n    margin-left: 83.33333%; }\n  .offset-sm-11 {\n    margin-left: 91.66667%; } }\n\n@media (min-width: 768px) {\n  .col-md {\n    flex-basis: 0;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-md-auto {\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-md-1 {\n    flex: 0 0 8.33333%;\n    max-width: 8.33333%; }\n  .col-md-2 {\n    flex: 0 0 16.66667%;\n    max-width: 16.66667%; }\n  .col-md-3 {\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-md-4 {\n    flex: 0 0 33.33333%;\n    max-width: 33.33333%; }\n  .col-md-5 {\n    flex: 0 0 41.66667%;\n    max-width: 41.66667%; }\n  .col-md-6 {\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-md-7 {\n    flex: 0 0 58.33333%;\n    max-width: 58.33333%; }\n  .col-md-8 {\n    flex: 0 0 66.66667%;\n    max-width: 66.66667%; }\n  .col-md-9 {\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-md-10 {\n    flex: 0 0 83.33333%;\n    max-width: 83.33333%; }\n  .col-md-11 {\n    flex: 0 0 91.66667%;\n    max-width: 91.66667%; }\n  .col-md-12 {\n    flex: 0 0 100%;\n    max-width: 100%; }\n  .order-md-first {\n    order: -1; }\n  .order-md-1 {\n    order: 1; }\n  .order-md-2 {\n    order: 2; }\n  .order-md-3 {\n    order: 3; }\n  .order-md-4 {\n    order: 4; }\n  .order-md-5 {\n    order: 5; }\n  .order-md-6 {\n    order: 6; }\n  .order-md-7 {\n    order: 7; }\n  .order-md-8 {\n    order: 8; }\n  .order-md-9 {\n    order: 9; }\n  .order-md-10 {\n    order: 10; }\n  .order-md-11 {\n    order: 11; }\n  .order-md-12 {\n    order: 12; }\n  .offset-md-0 {\n    margin-left: 0; }\n  .offset-md-1 {\n    margin-left: 8.33333%; }\n  .offset-md-2 {\n    margin-left: 16.66667%; }\n  .offset-md-3 {\n    margin-left: 25%; }\n  .offset-md-4 {\n    margin-left: 33.33333%; }\n  .offset-md-5 {\n    margin-left: 41.66667%; }\n  .offset-md-6 {\n    margin-left: 50%; }\n  .offset-md-7 {\n    margin-left: 58.33333%; }\n  .offset-md-8 {\n    margin-left: 66.66667%; }\n  .offset-md-9 {\n    margin-left: 75%; }\n  .offset-md-10 {\n    margin-left: 83.33333%; }\n  .offset-md-11 {\n    margin-left: 91.66667%; } }\n\n@media (min-width: 992px) {\n  .col-lg {\n    flex-basis: 0;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-lg-auto {\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-lg-1 {\n    flex: 0 0 8.33333%;\n    max-width: 8.33333%; }\n  .col-lg-2 {\n    flex: 0 0 16.66667%;\n    max-width: 16.66667%; }\n  .col-lg-3 {\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-lg-4 {\n    flex: 0 0 33.33333%;\n    max-width: 33.33333%; }\n  .col-lg-5 {\n    flex: 0 0 41.66667%;\n    max-width: 41.66667%; }\n  .col-lg-6 {\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-lg-7 {\n    flex: 0 0 58.33333%;\n    max-width: 58.33333%; }\n  .col-lg-8 {\n    flex: 0 0 66.66667%;\n    max-width: 66.66667%; }\n  .col-lg-9 {\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-lg-10 {\n    flex: 0 0 83.33333%;\n    max-width: 83.33333%; }\n  .col-lg-11 {\n    flex: 0 0 91.66667%;\n    max-width: 91.66667%; }\n  .col-lg-12 {\n    flex: 0 0 100%;\n    max-width: 100%; }\n  .order-lg-first {\n    order: -1; }\n  .order-lg-1 {\n    order: 1; }\n  .order-lg-2 {\n    order: 2; }\n  .order-lg-3 {\n    order: 3; }\n  .order-lg-4 {\n    order: 4; }\n  .order-lg-5 {\n    order: 5; }\n  .order-lg-6 {\n    order: 6; }\n  .order-lg-7 {\n    order: 7; }\n  .order-lg-8 {\n    order: 8; }\n  .order-lg-9 {\n    order: 9; }\n  .order-lg-10 {\n    order: 10; }\n  .order-lg-11 {\n    order: 11; }\n  .order-lg-12 {\n    order: 12; }\n  .offset-lg-0 {\n    margin-left: 0; }\n  .offset-lg-1 {\n    margin-left: 8.33333%; }\n  .offset-lg-2 {\n    margin-left: 16.66667%; }\n  .offset-lg-3 {\n    margin-left: 25%; }\n  .offset-lg-4 {\n    margin-left: 33.33333%; }\n  .offset-lg-5 {\n    margin-left: 41.66667%; }\n  .offset-lg-6 {\n    margin-left: 50%; }\n  .offset-lg-7 {\n    margin-left: 58.33333%; }\n  .offset-lg-8 {\n    margin-left: 66.66667%; }\n  .offset-lg-9 {\n    margin-left: 75%; }\n  .offset-lg-10 {\n    margin-left: 83.33333%; }\n  .offset-lg-11 {\n    margin-left: 91.66667%; } }\n\n@media (min-width: 1200px) {\n  .col-xl {\n    flex-basis: 0;\n    flex-grow: 1;\n    max-width: 100%; }\n  .col-xl-auto {\n    flex: 0 0 auto;\n    width: auto;\n    max-width: none; }\n  .col-xl-1 {\n    flex: 0 0 8.33333%;\n    max-width: 8.33333%; }\n  .col-xl-2 {\n    flex: 0 0 16.66667%;\n    max-width: 16.66667%; }\n  .col-xl-3 {\n    flex: 0 0 25%;\n    max-width: 25%; }\n  .col-xl-4 {\n    flex: 0 0 33.33333%;\n    max-width: 33.33333%; }\n  .col-xl-5 {\n    flex: 0 0 41.66667%;\n    max-width: 41.66667%; }\n  .col-xl-6 {\n    flex: 0 0 50%;\n    max-width: 50%; }\n  .col-xl-7 {\n    flex: 0 0 58.33333%;\n    max-width: 58.33333%; }\n  .col-xl-8 {\n    flex: 0 0 66.66667%;\n    max-width: 66.66667%; }\n  .col-xl-9 {\n    flex: 0 0 75%;\n    max-width: 75%; }\n  .col-xl-10 {\n    flex: 0 0 83.33333%;\n    max-width: 83.33333%; }\n  .col-xl-11 {\n    flex: 0 0 91.66667%;\n    max-width: 91.66667%; }\n  .col-xl-12 {\n    flex: 0 0 100%;\n    max-width: 100%; }\n  .order-xl-first {\n    order: -1; }\n  .order-xl-1 {\n    order: 1; }\n  .order-xl-2 {\n    order: 2; }\n  .order-xl-3 {\n    order: 3; }\n  .order-xl-4 {\n    order: 4; }\n  .order-xl-5 {\n    order: 5; }\n  .order-xl-6 {\n    order: 6; }\n  .order-xl-7 {\n    order: 7; }\n  .order-xl-8 {\n    order: 8; }\n  .order-xl-9 {\n    order: 9; }\n  .order-xl-10 {\n    order: 10; }\n  .order-xl-11 {\n    order: 11; }\n  .order-xl-12 {\n    order: 12; }\n  .offset-xl-0 {\n    margin-left: 0; }\n  .offset-xl-1 {\n    margin-left: 8.33333%; }\n  .offset-xl-2 {\n    margin-left: 16.66667%; }\n  .offset-xl-3 {\n    margin-left: 25%; }\n  .offset-xl-4 {\n    margin-left: 33.33333%; }\n  .offset-xl-5 {\n    margin-left: 41.66667%; }\n  .offset-xl-6 {\n    margin-left: 50%; }\n  .offset-xl-7 {\n    margin-left: 58.33333%; }\n  .offset-xl-8 {\n    margin-left: 66.66667%; }\n  .offset-xl-9 {\n    margin-left: 75%; }\n  .offset-xl-10 {\n    margin-left: 83.33333%; }\n  .offset-xl-11 {\n    margin-left: 91.66667%; } }\n\n.table {\n  width: 100%;\n  max-width: 100%;\n  margin-bottom: 1rem;\n  background-color: transparent; }\n  .table th,\n  .table td {\n    padding: 0.75rem;\n    vertical-align: top;\n    border-top: 1px solid #e9ecef; }\n  .table thead th {\n    vertical-align: bottom;\n    border-bottom: 2px solid #e9ecef; }\n  .table tbody + tbody {\n    border-top: 2px solid #e9ecef; }\n  .table .table {\n    background-color: #fff; }\n\n.table-sm th,\n.table-sm td {\n  padding: 0.3rem; }\n\n.table-bordered {\n  border: 1px solid #e9ecef; }\n  .table-bordered th,\n  .table-bordered td {\n    border: 1px solid #e9ecef; }\n  .table-bordered thead th,\n  .table-bordered thead td {\n    border-bottom-width: 2px; }\n\n.table-striped tbody tr:nth-of-type(odd) {\n  background-color: rgba(0, 0, 0, 0.05); }\n\n.table-hover tbody tr:hover {\n  background-color: rgba(0, 0, 0, 0.075); }\n\n.table-primary,\n.table-primary > th,\n.table-primary > td {\n  background-color: #b8daff; }\n\n.table-hover .table-primary:hover {\n  background-color: #9fcdff; }\n  .table-hover .table-primary:hover > td,\n  .table-hover .table-primary:hover > th {\n    background-color: #9fcdff; }\n\n.table-secondary,\n.table-secondary > th,\n.table-secondary > td {\n  background-color: #dddfe2; }\n\n.table-hover .table-secondary:hover {\n  background-color: #cfd2d6; }\n  .table-hover .table-secondary:hover > td,\n  .table-hover .table-secondary:hover > th {\n    background-color: #cfd2d6; }\n\n.table-success,\n.table-success > th,\n.table-success > td {\n  background-color: #c3e6cb; }\n\n.table-hover .table-success:hover {\n  background-color: #b1dfbb; }\n  .table-hover .table-success:hover > td,\n  .table-hover .table-success:hover > th {\n    background-color: #b1dfbb; }\n\n.table-info,\n.table-info > th,\n.table-info > td {\n  background-color: #bee5eb; }\n\n.table-hover .table-info:hover {\n  background-color: #abdde5; }\n  .table-hover .table-info:hover > td,\n  .table-hover .table-info:hover > th {\n    background-color: #abdde5; }\n\n.table-warning,\n.table-warning > th,\n.table-warning > td {\n  background-color: #ffeeba; }\n\n.table-hover .table-warning:hover {\n  background-color: #ffe8a1; }\n  .table-hover .table-warning:hover > td,\n  .table-hover .table-warning:hover > th {\n    background-color: #ffe8a1; }\n\n.table-danger,\n.table-danger > th,\n.table-danger > td {\n  background-color: #f5c6cb; }\n\n.table-hover .table-danger:hover {\n  background-color: #f1b0b7; }\n  .table-hover .table-danger:hover > td,\n  .table-hover .table-danger:hover > th {\n    background-color: #f1b0b7; }\n\n.table-light,\n.table-light > th,\n.table-light > td {\n  background-color: #fdfdfe; }\n\n.table-hover .table-light:hover {\n  background-color: #ececf6; }\n  .table-hover .table-light:hover > td,\n  .table-hover .table-light:hover > th {\n    background-color: #ececf6; }\n\n.table-dark,\n.table-dark > th,\n.table-dark > td {\n  background-color: #c6c8ca; }\n\n.table-hover .table-dark:hover {\n  background-color: #b9bbbe; }\n  .table-hover .table-dark:hover > td,\n  .table-hover .table-dark:hover > th {\n    background-color: #b9bbbe; }\n\n.table-active,\n.table-active > th,\n.table-active > td {\n  background-color: rgba(0, 0, 0, 0.075); }\n\n.table-hover .table-active:hover {\n  background-color: rgba(0, 0, 0, 0.075); }\n  .table-hover .table-active:hover > td,\n  .table-hover .table-active:hover > th {\n    background-color: rgba(0, 0, 0, 0.075); }\n\n.table .thead-dark th {\n  color: #fff;\n  background-color: #212529;\n  border-color: #32383e; }\n\n.table .thead-light th {\n  color: #495057;\n  background-color: #e9ecef;\n  border-color: #e9ecef; }\n\n.table-dark {\n  color: #fff;\n  background-color: #212529; }\n  .table-dark th,\n  .table-dark td,\n  .table-dark thead th {\n    border-color: #32383e; }\n  .table-dark.table-bordered {\n    border: 0; }\n  .table-dark.table-striped tbody tr:nth-of-type(odd) {\n    background-color: rgba(255, 255, 255, 0.05); }\n  .table-dark.table-hover tbody tr:hover {\n    background-color: rgba(255, 255, 255, 0.075); }\n\n@media (max-width: 575px) {\n  .table-responsive-sm {\n    display: block;\n    width: 100%;\n    overflow-x: auto;\n    -webkit-overflow-scrolling: touch;\n    -ms-overflow-style: -ms-autohiding-scrollbar; }\n    .table-responsive-sm.table-bordered {\n      border: 0; } }\n\n@media (max-width: 767px) {\n  .table-responsive-md {\n    display: block;\n    width: 100%;\n    overflow-x: auto;\n    -webkit-overflow-scrolling: touch;\n    -ms-overflow-style: -ms-autohiding-scrollbar; }\n    .table-responsive-md.table-bordered {\n      border: 0; } }\n\n@media (max-width: 991px) {\n  .table-responsive-lg {\n    display: block;\n    width: 100%;\n    overflow-x: auto;\n    -webkit-overflow-scrolling: touch;\n    -ms-overflow-style: -ms-autohiding-scrollbar; }\n    .table-responsive-lg.table-bordered {\n      border: 0; } }\n\n@media (max-width: 1199px) {\n  .table-responsive-xl {\n    display: block;\n    width: 100%;\n    overflow-x: auto;\n    -webkit-overflow-scrolling: touch;\n    -ms-overflow-style: -ms-autohiding-scrollbar; }\n    .table-responsive-xl.table-bordered {\n      border: 0; } }\n\n.table-responsive {\n  display: block;\n  width: 100%;\n  overflow-x: auto;\n  -webkit-overflow-scrolling: touch;\n  -ms-overflow-style: -ms-autohiding-scrollbar; }\n  .table-responsive.table-bordered {\n    border: 0; }\n\n.form-control {\n  display: block;\n  width: 100%;\n  padding: 0.375rem 0.75rem;\n  font-size: 1rem;\n  line-height: 1.5;\n  color: #495057;\n  background-color: #fff;\n  background-clip: padding-box;\n  border: 1px solid #ced4da;\n  border-radius: 0.25rem;\n  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }\n  .form-control::-ms-expand {\n    background-color: transparent;\n    border: 0; }\n  .form-control:focus {\n    color: #495057;\n    background-color: #fff;\n    border-color: #80bdff;\n    outline: 0;\n    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }\n  .form-control::placeholder {\n    color: #868e96;\n    opacity: 1; }\n  .form-control:disabled, .form-control[readonly] {\n    background-color: #e9ecef;\n    opacity: 1; }\n\nselect.form-control:not([size]):not([multiple]) {\n  height: calc(2.25rem + 2px); }\n\nselect.form-control:focus::-ms-value {\n  color: #495057;\n  background-color: #fff; }\n\n.form-control-file,\n.form-control-range {\n  display: block; }\n\n.col-form-label {\n  padding-top: calc(0.375rem + 1px);\n  padding-bottom: calc(0.375rem + 1px);\n  margin-bottom: 0;\n  line-height: 1.5; }\n\n.col-form-label-lg {\n  padding-top: calc(0.5rem + 1px);\n  padding-bottom: calc(0.5rem + 1px);\n  font-size: 1.25rem;\n  line-height: 1.5; }\n\n.col-form-label-sm {\n  padding-top: calc(0.25rem + 1px);\n  padding-bottom: calc(0.25rem + 1px);\n  font-size: 0.875rem;\n  line-height: 1.5; }\n\n.col-form-legend {\n  padding-top: 0.375rem;\n  padding-bottom: 0.375rem;\n  margin-bottom: 0;\n  font-size: 1rem; }\n\n.form-control-plaintext {\n  display: block;\n  width: 100%;\n  padding-top: 0.375rem;\n  padding-bottom: 0.375rem;\n  margin-bottom: 0;\n  line-height: 1.5;\n  background-color: transparent;\n  border: solid transparent;\n  border-width: 1px 0; }\n  .form-control-plaintext.form-control-sm, .input-group-sm > .form-control-plaintext.form-control,\n  .input-group-sm > .form-control-plaintext.input-group-addon,\n  .input-group-sm > .input-group-btn > .form-control-plaintext.btn, .form-control-plaintext.form-control-lg, .input-group-lg > .form-control-plaintext.form-control,\n  .input-group-lg > .form-control-plaintext.input-group-addon,\n  .input-group-lg > .input-group-btn > .form-control-plaintext.btn {\n    padding-right: 0;\n    padding-left: 0; }\n\n.form-control-sm, .input-group-sm > .form-control,\n.input-group-sm > .input-group-addon,\n.input-group-sm > .input-group-btn > .btn {\n  padding: 0.25rem 0.5rem;\n  font-size: 0.875rem;\n  line-height: 1.5;\n  border-radius: 0.2rem; }\n\nselect.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.form-control:not([size]):not([multiple]),\n.input-group-sm > select.input-group-addon:not([size]):not([multiple]),\n.input-group-sm > .input-group-btn > select.btn:not([size]):not([multiple]) {\n  height: calc(1.8125rem + 2px); }\n\n.form-control-lg, .input-group-lg > .form-control,\n.input-group-lg > .input-group-addon,\n.input-group-lg > .input-group-btn > .btn {\n  padding: 0.5rem 1rem;\n  font-size: 1.25rem;\n  line-height: 1.5;\n  border-radius: 0.3rem; }\n\nselect.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.form-control:not([size]):not([multiple]),\n.input-group-lg > select.input-group-addon:not([size]):not([multiple]),\n.input-group-lg > .input-group-btn > select.btn:not([size]):not([multiple]) {\n  height: calc(2.875rem + 2px); }\n\n.form-group {\n  margin-bottom: 1rem; }\n\n.form-text {\n  display: block;\n  margin-top: 0.25rem; }\n\n.form-row {\n  display: flex;\n  flex-wrap: wrap;\n  margin-right: -5px;\n  margin-left: -5px; }\n  .form-row > .col,\n  .form-row > [class*=\"col-\"] {\n    padding-right: 5px;\n    padding-left: 5px; }\n\n.form-check {\n  position: relative;\n  display: block;\n  margin-bottom: 0.5rem; }\n  .form-check.disabled .form-check-label {\n    color: #868e96; }\n\n.form-check-label {\n  padding-left: 1.25rem;\n  margin-bottom: 0; }\n\n.form-check-input {\n  position: absolute;\n  margin-top: 0.25rem;\n  margin-left: -1.25rem; }\n\n.form-check-inline {\n  display: inline-block;\n  margin-right: 0.75rem; }\n  .form-check-inline .form-check-label {\n    vertical-align: middle; }\n\n.valid-feedback {\n  display: none;\n  margin-top: .25rem;\n  font-size: .875rem;\n  color: #28a745; }\n\n.valid-tooltip {\n  position: absolute;\n  top: 100%;\n  z-index: 5;\n  display: none;\n  width: 250px;\n  padding: .5rem;\n  margin-top: .1rem;\n  font-size: .875rem;\n  line-height: 1;\n  color: #fff;\n  background-color: rgba(40, 167, 69, 0.8);\n  border-radius: .2rem; }\n\n.was-validated .form-control:valid, .form-control.is-valid, .was-validated\n.custom-select:valid,\n.custom-select.is-valid {\n  border-color: #28a745; }\n  .was-validated .form-control:valid:focus, .form-control.is-valid:focus, .was-validated\n  .custom-select:valid:focus,\n  .custom-select.is-valid:focus {\n    border-color: #28a745;\n    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); }\n  .was-validated .form-control:valid ~ .valid-feedback,\n  .was-validated .form-control:valid ~ .valid-tooltip, .form-control.is-valid ~ .valid-feedback,\n  .form-control.is-valid ~ .valid-tooltip, .was-validated\n  .custom-select:valid ~ .valid-feedback,\n  .was-validated\n  .custom-select:valid ~ .valid-tooltip,\n  .custom-select.is-valid ~ .valid-feedback,\n  .custom-select.is-valid ~ .valid-tooltip {\n    display: block; }\n\n.was-validated .form-check-input:valid + .form-check-label, .form-check-input.is-valid + .form-check-label {\n  color: #28a745; }\n\n.was-validated .custom-control-input:valid ~ .custom-control-indicator, .custom-control-input.is-valid ~ .custom-control-indicator {\n  background-color: rgba(40, 167, 69, 0.4); }\n\n.was-validated .custom-control-input:valid ~ .custom-control-description, .custom-control-input.is-valid ~ .custom-control-description {\n  color: #28a745; }\n\n.was-validated .custom-control-input:valid:focus ~ .custom-control-indicator, .custom-control-input.is-valid:focus ~ .custom-control-indicator {\n  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(40, 167, 69, 0.25); }\n\n.was-validated .custom-file-input:valid ~ .custom-file-control, .custom-file-input.is-valid ~ .custom-file-control {\n  border-color: #28a745; }\n  .was-validated .custom-file-input:valid ~ .custom-file-control::before, .custom-file-input.is-valid ~ .custom-file-control::before {\n    border-color: inherit; }\n\n.was-validated .custom-file-input:valid:focus ~ .custom-file-control, .custom-file-input.is-valid:focus ~ .custom-file-control {\n  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); }\n\n.invalid-feedback {\n  display: none;\n  margin-top: .25rem;\n  font-size: .875rem;\n  color: #dc3545; }\n\n.invalid-tooltip {\n  position: absolute;\n  top: 100%;\n  z-index: 5;\n  display: none;\n  width: 250px;\n  padding: .5rem;\n  margin-top: .1rem;\n  font-size: .875rem;\n  line-height: 1;\n  color: #fff;\n  background-color: rgba(220, 53, 69, 0.8);\n  border-radius: .2rem; }\n\n.was-validated .form-control:invalid, .form-control.is-invalid, .was-validated\n.custom-select:invalid,\n.custom-select.is-invalid {\n  border-color: #dc3545; }\n  .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus, .was-validated\n  .custom-select:invalid:focus,\n  .custom-select.is-invalid:focus {\n    border-color: #dc3545;\n    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); }\n  .was-validated .form-control:invalid ~ .invalid-feedback,\n  .was-validated .form-control:invalid ~ .invalid-tooltip, .form-control.is-invalid ~ .invalid-feedback,\n  .form-control.is-invalid ~ .invalid-tooltip, .was-validated\n  .custom-select:invalid ~ .invalid-feedback,\n  .was-validated\n  .custom-select:invalid ~ .invalid-tooltip,\n  .custom-select.is-invalid ~ .invalid-feedback,\n  .custom-select.is-invalid ~ .invalid-tooltip {\n    display: block; }\n\n.was-validated .form-check-input:invalid + .form-check-label, .form-check-input.is-invalid + .form-check-label {\n  color: #dc3545; }\n\n.was-validated .custom-control-input:invalid ~ .custom-control-indicator, .custom-control-input.is-invalid ~ .custom-control-indicator {\n  background-color: rgba(220, 53, 69, 0.4); }\n\n.was-validated .custom-control-input:invalid ~ .custom-control-description, .custom-control-input.is-invalid ~ .custom-control-description {\n  color: #dc3545; }\n\n.was-validated .custom-control-input:invalid:focus ~ .custom-control-indicator, .custom-control-input.is-invalid:focus ~ .custom-control-indicator {\n  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(220, 53, 69, 0.25); }\n\n.was-validated .custom-file-input:invalid ~ .custom-file-control, .custom-file-input.is-invalid ~ .custom-file-control {\n  border-color: #dc3545; }\n  .was-validated .custom-file-input:invalid ~ .custom-file-control::before, .custom-file-input.is-invalid ~ .custom-file-control::before {\n    border-color: inherit; }\n\n.was-validated .custom-file-input:invalid:focus ~ .custom-file-control, .custom-file-input.is-invalid:focus ~ .custom-file-control {\n  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); }\n\n.form-inline {\n  display: flex;\n  flex-flow: row wrap;\n  align-items: center; }\n  .form-inline .form-check {\n    width: 100%; }\n  @media (min-width: 576px) {\n    .form-inline label {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      margin-bottom: 0; }\n    .form-inline .form-group {\n      display: flex;\n      flex: 0 0 auto;\n      flex-flow: row wrap;\n      align-items: center;\n      margin-bottom: 0; }\n    .form-inline .form-control {\n      display: inline-block;\n      width: auto;\n      vertical-align: middle; }\n    .form-inline .form-control-plaintext {\n      display: inline-block; }\n    .form-inline .input-group {\n      width: auto; }\n    .form-inline .form-check {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      width: auto;\n      margin-top: 0;\n      margin-bottom: 0; }\n    .form-inline .form-check-label {\n      padding-left: 0; }\n    .form-inline .form-check-input {\n      position: relative;\n      margin-top: 0;\n      margin-right: 0.25rem;\n      margin-left: 0; }\n    .form-inline .custom-control {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      padding-left: 0; }\n    .form-inline .custom-control-indicator {\n      position: static;\n      display: inline-block;\n      margin-right: 0.25rem;\n      vertical-align: text-bottom; }\n    .form-inline .has-feedback .form-control-feedback {\n      top: 0; } }\n\n.btn {\n  display: inline-block;\n  font-weight: 400;\n  text-align: center;\n  white-space: nowrap;\n  vertical-align: middle;\n  user-select: none;\n  border: 1px solid transparent;\n  padding: 0.375rem 0.75rem;\n  font-size: 1rem;\n  line-height: 1.5;\n  border-radius: 0.25rem;\n  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }\n  .btn:focus, .btn:hover {\n    text-decoration: none; }\n  .btn:focus, .btn.focus {\n    outline: 0;\n    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }\n  .btn.disabled, .btn:disabled {\n    opacity: 0.65; }\n  .btn:not([disabled]):not(.disabled):active, .btn:not([disabled]):not(.disabled).active {\n    background-image: none; }\n\na.btn.disabled,\nfieldset[disabled] a.btn {\n  pointer-events: none; }\n\n.btn-primary {\n  color: #fff;\n  background-color: #007bff;\n  border-color: #007bff; }\n  .btn-primary:hover {\n    color: #fff;\n    background-color: #0069d9;\n    border-color: #0062cc; }\n  .btn-primary:focus, .btn-primary.focus, .form-file-input:focus + .btn-primary {\n    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }\n  .btn-primary.disabled, .btn-primary:disabled {\n    background-color: #007bff;\n    border-color: #007bff; }\n  .btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active,\n  .show > .btn-primary.dropdown-toggle {\n    color: #fff;\n    background-color: #0062cc;\n    border-color: #005cbf;\n    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }\n\n.btn-secondary {\n  color: #fff;\n  background-color: #868e96;\n  border-color: #868e96; }\n  .btn-secondary:hover {\n    color: #fff;\n    background-color: #727b84;\n    border-color: #6c757d; }\n  .btn-secondary:focus, .btn-secondary.focus, .form-file-input:focus + .btn-secondary {\n    box-shadow: 0 0 0 0.2rem rgba(134, 142, 150, 0.5); }\n  .btn-secondary.disabled, .btn-secondary:disabled {\n    background-color: #868e96;\n    border-color: #868e96; }\n  .btn-secondary:not([disabled]):not(.disabled):active, .btn-secondary:not([disabled]):not(.disabled).active,\n  .show > .btn-secondary.dropdown-toggle {\n    color: #fff;\n    background-color: #6c757d;\n    border-color: #666e76;\n    box-shadow: 0 0 0 0.2rem rgba(134, 142, 150, 0.5); }\n\n.btn-success {\n  color: #fff;\n  background-color: #28a745;\n  border-color: #28a745; }\n  .btn-success:hover {\n    color: #fff;\n    background-color: #218838;\n    border-color: #1e7e34; }\n  .btn-success:focus, .btn-success.focus, .form-file-input:focus + .btn-success {\n    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5); }\n  .btn-success.disabled, .btn-success:disabled {\n    background-color: #28a745;\n    border-color: #28a745; }\n  .btn-success:not([disabled]):not(.disabled):active, .btn-success:not([disabled]):not(.disabled).active,\n  .show > .btn-success.dropdown-toggle {\n    color: #fff;\n    background-color: #1e7e34;\n    border-color: #1c7430;\n    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5); }\n\n.btn-info {\n  color: #fff;\n  background-color: #17a2b8;\n  border-color: #17a2b8; }\n  .btn-info:hover {\n    color: #fff;\n    background-color: #138496;\n    border-color: #117a8b; }\n  .btn-info:focus, .btn-info.focus {\n    box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5); }\n  .btn-info.disabled, .btn-info:disabled {\n    background-color: #17a2b8;\n    border-color: #17a2b8; }\n  .btn-info:not([disabled]):not(.disabled):active, .btn-info:not([disabled]):not(.disabled).active,\n  .show > .btn-info.dropdown-toggle {\n    color: #fff;\n    background-color: #117a8b;\n    border-color: #10707f;\n    box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5); }\n\n.btn-warning {\n  color: #212529;\n  background-color: #ffc107;\n  border-color: #ffc107; }\n  .btn-warning:hover {\n    color: #212529;\n    background-color: #e0a800;\n    border-color: #d39e00; }\n  .btn-warning:focus, .btn-warning.focus, .form-file-input:focus + .btn-warning {\n    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5); }\n  .btn-warning.disabled, .btn-warning:disabled {\n    background-color: #ffc107;\n    border-color: #ffc107; }\n  .btn-warning:not([disabled]):not(.disabled):active, .btn-warning:not([disabled]):not(.disabled).active,\n  .show > .btn-warning.dropdown-toggle {\n    color: #212529;\n    background-color: #d39e00;\n    border-color: #c69500;\n    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5); }\n\n.btn-danger {\n  color: #fff;\n  background-color: #dc3545;\n  border-color: #dc3545; }\n  .btn-danger:hover {\n    color: #fff;\n    background-color: #c82333;\n    border-color: #bd2130; }\n  .btn-danger:focus, .btn-danger.focus, .form-file-input:focus + .btn-danger {\n    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5); }\n  .btn-danger.disabled, .btn-danger:disabled {\n    background-color: #dc3545;\n    border-color: #dc3545; }\n  .btn-danger:not([disabled]):not(.disabled):active, .btn-danger:not([disabled]):not(.disabled).active,\n  .show > .btn-danger.dropdown-toggle {\n    color: #fff;\n    background-color: #bd2130;\n    border-color: #b21f2d;\n    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5); }\n\n.btn-light {\n  color: #212529;\n  background-color: #f8f9fa;\n  border-color: #f8f9fa; }\n  .btn-light:hover {\n    color: #212529;\n    background-color: #e2e6ea;\n    border-color: #dae0e5; }\n  .btn-light:focus, .btn-light.focus, .form-file-input:focus + .btn-light {\n    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5); }\n  .btn-light.disabled, .btn-light:disabled {\n    background-color: #f8f9fa;\n    border-color: #f8f9fa; }\n  .btn-light:not([disabled]):not(.disabled):active, .btn-light:not([disabled]):not(.disabled).active,\n  .show > .btn-light.dropdown-toggle {\n    color: #212529;\n    background-color: #dae0e5;\n    border-color: #d3d9df;\n    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5); }\n\n.btn-dark {\n  color: #fff;\n  background-color: #343a40;\n  border-color: #343a40; }\n  .btn-dark:hover {\n    color: #fff;\n    background-color: #23272b;\n    border-color: #1d2124; }\n  .btn-dark:focus, .btn-dark.focus, .form-file-input:focus + .btn-dark {\n    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }\n  .btn-dark.disabled, .btn-dark:disabled {\n    background-color: #343a40;\n    border-color: #343a40; }\n  .btn-dark:not([disabled]):not(.disabled):active, .btn-dark:not([disabled]):not(.disabled).active,\n  .show > .btn-dark.dropdown-toggle {\n    color: #fff;\n    background-color: #1d2124;\n    border-color: #171a1d;\n    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }\n\n.btn-outline-primary {\n  color: #007bff;\n  background-color: transparent;\n  background-image: none;\n  border-color: #007bff; }\n  .btn-outline-primary:hover {\n    color: #fff;\n    background-color: #007bff;\n    border-color: #007bff; }\n  .btn-outline-primary:focus, .btn-outline-primary.focus {\n    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }\n  .btn-outline-primary.disabled, .btn-outline-primary:disabled {\n    color: #007bff;\n    background-color: transparent; }\n  .btn-outline-primary:not([disabled]):not(.disabled):active, .btn-outline-primary:not([disabled]):not(.disabled).active,\n  .show > .btn-outline-primary.dropdown-toggle {\n    color: #fff;\n    background-color: #007bff;\n    border-color: #007bff;\n    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }\n\n.btn-outline-secondary {\n  color: #868e96;\n  background-color: transparent;\n  background-image: none;\n  border-color: #868e96; }\n  .btn-outline-secondary:hover {\n    color: #fff;\n    background-color: #868e96;\n    border-color: #868e96; }\n  .btn-outline-secondary:focus, .btn-outline-secondary.focus {\n    box-shadow: 0 0 0 0.2rem rgba(134, 142, 150, 0.5); }\n  .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {\n    color: #868e96;\n    background-color: transparent; }\n  .btn-outline-secondary:not([disabled]):not(.disabled):active, .btn-outline-secondary:not([disabled]):not(.disabled).active,\n  .show > .btn-outline-secondary.dropdown-toggle {\n    color: #fff;\n    background-color: #868e96;\n    border-color: #868e96;\n    box-shadow: 0 0 0 0.2rem rgba(134, 142, 150, 0.5); }\n\n.btn-outline-success {\n  color: #28a745;\n  background-color: transparent;\n  background-image: none;\n  border-color: #28a745; }\n  .btn-outline-success:hover {\n    color: #fff;\n    background-color: #28a745;\n    border-color: #28a745; }\n  .btn-outline-success:focus, .btn-outline-success.focus {\n    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5); }\n  .btn-outline-success.disabled, .btn-outline-success:disabled {\n    color: #28a745;\n    background-color: transparent; }\n  .btn-outline-success:not([disabled]):not(.disabled):active, .btn-outline-success:not([disabled]):not(.disabled).active,\n  .show > .btn-outline-success.dropdown-toggle {\n    color: #fff;\n    background-color: #28a745;\n    border-color: #28a745;\n    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5); }\n\n.btn-outline-info {\n  color: #17a2b8;\n  background-color: transparent;\n  background-image: none;\n  border-color: #17a2b8; }\n  .btn-outline-info:hover {\n    color: #fff;\n    background-color: #17a2b8;\n    border-color: #17a2b8; }\n  .btn-outline-info:focus, .btn-outline-info.focus {\n    box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5); }\n  .btn-outline-info.disabled, .btn-outline-info:disabled {\n    color: #17a2b8;\n    background-color: transparent; }\n  .btn-outline-info:not([disabled]):not(.disabled):active, .btn-outline-info:not([disabled]):not(.disabled).active,\n  .show > .btn-outline-info.dropdown-toggle {\n    color: #fff;\n    background-color: #17a2b8;\n    border-color: #17a2b8;\n    box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5); }\n\n.btn-outline-warning {\n  color: #ffc107;\n  background-color: transparent;\n  background-image: none;\n  border-color: #ffc107; }\n  .btn-outline-warning:hover {\n    color: #fff;\n    background-color: #ffc107;\n    border-color: #ffc107; }\n  .btn-outline-warning:focus, .btn-outline-warning.focus {\n    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5); }\n  .btn-outline-warning.disabled, .btn-outline-warning:disabled {\n    color: #ffc107;\n    background-color: transparent; }\n  .btn-outline-warning:not([disabled]):not(.disabled):active, .btn-outline-warning:not([disabled]):not(.disabled).active,\n  .show > .btn-outline-warning.dropdown-toggle {\n    color: #fff;\n    background-color: #ffc107;\n    border-color: #ffc107;\n    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5); }\n\n.btn-outline-danger {\n  color: #dc3545;\n  background-color: transparent;\n  background-image: none;\n  border-color: #dc3545; }\n  .btn-outline-danger:hover {\n    color: #fff;\n    background-color: #dc3545;\n    border-color: #dc3545; }\n  .btn-outline-danger:focus, .btn-outline-danger.focus {\n    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5); }\n  .btn-outline-danger.disabled, .btn-outline-danger:disabled {\n    color: #dc3545;\n    background-color: transparent; }\n  .btn-outline-danger:not([disabled]):not(.disabled):active, .btn-outline-danger:not([disabled]):not(.disabled).active,\n  .show > .btn-outline-danger.dropdown-toggle {\n    color: #fff;\n    background-color: #dc3545;\n    border-color: #dc3545;\n    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5); }\n\n.btn-outline-light {\n  color: #f8f9fa;\n  background-color: transparent;\n  background-image: none;\n  border-color: #f8f9fa; }\n  .btn-outline-light:hover {\n    color: #212529;\n    background-color: #f8f9fa;\n    border-color: #f8f9fa; }\n  .btn-outline-light:focus, .btn-outline-light.focus {\n    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5); }\n  .btn-outline-light.disabled, .btn-outline-light:disabled {\n    color: #f8f9fa;\n    background-color: transparent; }\n  .btn-outline-light:not([disabled]):not(.disabled):active, .btn-outline-light:not([disabled]):not(.disabled).active,\n  .show > .btn-outline-light.dropdown-toggle {\n    color: #212529;\n    background-color: #f8f9fa;\n    border-color: #f8f9fa;\n    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5); }\n\n.btn-outline-dark {\n  color: #343a40;\n  background-color: transparent;\n  background-image: none;\n  border-color: #343a40; }\n  .btn-outline-dark:hover {\n    color: #fff;\n    background-color: #343a40;\n    border-color: #343a40; }\n  .btn-outline-dark:focus, .btn-outline-dark.focus {\n    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }\n  .btn-outline-dark.disabled, .btn-outline-dark:disabled {\n    color: #343a40;\n    background-color: transparent; }\n  .btn-outline-dark:not([disabled]):not(.disabled):active, .btn-outline-dark:not([disabled]):not(.disabled).active,\n  .show > .btn-outline-dark.dropdown-toggle {\n    color: #fff;\n    background-color: #343a40;\n    border-color: #343a40;\n    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }\n\n.btn-link {\n  font-weight: 400;\n  color: #007bff;\n  background-color: transparent; }\n  .btn-link:hover {\n    color: #0056b3;\n    text-decoration: underline;\n    background-color: transparent;\n    border-color: transparent; }\n  .btn-link:focus, .btn-link.focus {\n    text-decoration: underline;\n    border-color: transparent;\n    box-shadow: none; }\n  .btn-link:disabled, .btn-link.disabled {\n    color: #868e96; }\n\n.btn-lg, .btn-group-lg > .btn, .btn-group-lg .btn-group > .btn {\n  padding: 0.5rem 1rem;\n  font-size: 1.25rem;\n  line-height: 1.5;\n  border-radius: 0.3rem; }\n\n.btn-sm, .btn-group-sm > .btn, .btn-group-sm .btn-group > .btn {\n  padding: 0.25rem 0.5rem;\n  font-size: 0.875rem;\n  line-height: 1.5;\n  border-radius: 0.2rem; }\n\n.btn-block {\n  display: block;\n  width: 100%; }\n  .btn-block + .btn-block {\n    margin-top: 0.5rem; }\n\ninput[type=\"submit\"].btn-block,\ninput[type=\"reset\"].btn-block,\ninput[type=\"button\"].btn-block {\n  width: 100%; }\n\n.fade {\n  opacity: 0;\n  transition: opacity 0.15s linear; }\n  .fade.show {\n    opacity: 1; }\n\n.collapse {\n  display: none; }\n  .collapse.show {\n    display: block; }\n\ntr.collapse.show {\n  display: table-row; }\n\ntbody.collapse.show {\n  display: table-row-group; }\n\n.collapsing {\n  position: relative;\n  height: 0;\n  overflow: hidden;\n  transition: height 0.35s ease; }\n\n.dropup,\n.dropdown {\n  position: relative; }\n\n.dropdown-menu {\n  position: absolute;\n  top: 100%;\n  left: 0;\n  z-index: 1000;\n  display: none;\n  float: left;\n  min-width: 10rem;\n  padding: 0.5rem 0;\n  margin: 0.125rem 0 0;\n  font-size: 1rem;\n  color: #212529;\n  text-align: left;\n  list-style: none;\n  background-color: #fff;\n  background-clip: padding-box;\n  border: 1px solid rgba(0, 0, 0, 0.15);\n  border-radius: 0.25rem; }\n\n.dropup .dropdown-menu {\n  margin-top: 0;\n  margin-bottom: 0.125rem; }\n\n.dropright .dropdown-menu {\n  margin-top: 0;\n  margin-left: 0.125rem; }\n\n.dropright .dropdown-toggle::after {\n  vertical-align: 0; }\n\n.dropleft .dropdown-menu {\n  margin-top: 0;\n  margin-right: 0.125rem; }\n\n.dropleft .dropdown-toggle::before {\n  vertical-align: 0; }\n\n.dropdown-divider {\n  height: 0;\n  margin: 0.5rem 0;\n  overflow: hidden;\n  border-top: 1px solid #e9ecef; }\n\n.dropdown-item {\n  display: block;\n  width: 100%;\n  padding: 0.25rem 1.5rem;\n  clear: both;\n  font-weight: 400;\n  color: #212529;\n  text-align: inherit;\n  white-space: nowrap;\n  background-color: transparent;\n  border: 0; }\n  .dropdown-item:focus, .dropdown-item:hover {\n    color: #16181b;\n    text-decoration: none;\n    background-color: #f8f9fa; }\n  .dropdown-item.active, .dropdown-item:active {\n    color: #fff;\n    text-decoration: none;\n    background-color: #007bff; }\n  .dropdown-item.disabled, .dropdown-item:disabled {\n    color: #868e96;\n    background-color: transparent; }\n\n.dropdown-menu.show {\n  display: block; }\n\n.dropdown-header {\n  display: block;\n  padding: 0.5rem 1.5rem;\n  margin-bottom: 0;\n  font-size: 0.875rem;\n  color: #868e96;\n  white-space: nowrap; }\n\n.btn-group,\n.btn-group-vertical {\n  position: relative;\n  display: inline-flex;\n  vertical-align: middle; }\n  .btn-group > .btn,\n  .btn-group-vertical > .btn {\n    position: relative;\n    flex: 0 1 auto; }\n    .btn-group > .btn:hover,\n    .btn-group-vertical > .btn:hover {\n      z-index: 1; }\n    .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active,\n    .btn-group-vertical > .btn:focus,\n    .btn-group-vertical > .btn:active,\n    .btn-group-vertical > .btn.active {\n      z-index: 1; }\n  .btn-group .btn + .btn,\n  .btn-group .btn + .btn-group,\n  .btn-group .btn-group + .btn,\n  .btn-group .btn-group + .btn-group,\n  .btn-group-vertical .btn + .btn,\n  .btn-group-vertical .btn + .btn-group,\n  .btn-group-vertical .btn-group + .btn,\n  .btn-group-vertical .btn-group + .btn-group {\n    margin-left: -1px; }\n\n.btn-toolbar {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: flex-start; }\n  .btn-toolbar .input-group {\n    width: auto; }\n\n.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {\n  border-radius: 0; }\n\n.btn-group > .btn:first-child {\n  margin-left: 0; }\n  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0; }\n\n.btn-group > .btn:last-child:not(:first-child),\n.btn-group > .dropdown-toggle:not(:first-child) {\n  border-top-left-radius: 0;\n  border-bottom-left-radius: 0; }\n\n.btn-group > .btn-group {\n  float: left; }\n\n.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {\n  border-radius: 0; }\n\n.btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child,\n.btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle {\n  border-top-right-radius: 0;\n  border-bottom-right-radius: 0; }\n\n.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child {\n  border-top-left-radius: 0;\n  border-bottom-left-radius: 0; }\n\n.dropdown-toggle-split {\n  padding-right: 0.5625rem;\n  padding-left: 0.5625rem; }\n  .dropdown-toggle-split::after {\n    margin-left: 0; }\n\n.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .btn-group-sm .btn-group > .btn + .dropdown-toggle-split {\n  padding-right: 0.375rem;\n  padding-left: 0.375rem; }\n\n.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .btn-group-lg .btn-group > .btn + .dropdown-toggle-split {\n  padding-right: 0.75rem;\n  padding-left: 0.75rem; }\n\n.btn-group-vertical {\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: center; }\n  .btn-group-vertical .btn,\n  .btn-group-vertical .btn-group {\n    width: 100%; }\n  .btn-group-vertical > .btn + .btn,\n  .btn-group-vertical > .btn + .btn-group,\n  .btn-group-vertical > .btn-group + .btn,\n  .btn-group-vertical > .btn-group + .btn-group {\n    margin-top: -1px;\n    margin-left: 0; }\n  .btn-group-vertical > .btn:not(:first-child):not(:last-child) {\n    border-radius: 0; }\n  .btn-group-vertical > .btn:first-child:not(:last-child) {\n    border-bottom-right-radius: 0;\n    border-bottom-left-radius: 0; }\n  .btn-group-vertical > .btn:last-child:not(:first-child) {\n    border-top-left-radius: 0;\n    border-top-right-radius: 0; }\n  .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {\n    border-radius: 0; }\n  .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,\n  .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {\n    border-bottom-right-radius: 0;\n    border-bottom-left-radius: 0; }\n  .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {\n    border-top-left-radius: 0;\n    border-top-right-radius: 0; }\n\n[data-toggle=\"buttons\"] > .btn,\n[data-toggle=\"buttons\"] > .btn-group > .btn {\n  margin-bottom: 0; }\n  [data-toggle=\"buttons\"] > .btn input[type=\"radio\"],\n  [data-toggle=\"buttons\"] > .btn input[type=\"checkbox\"],\n  [data-toggle=\"buttons\"] > .btn-group > .btn input[type=\"radio\"],\n  [data-toggle=\"buttons\"] > .btn-group > .btn input[type=\"checkbox\"] {\n    position: absolute;\n    clip: rect(0, 0, 0, 0);\n    pointer-events: none; }\n\n.input-group {\n  position: relative;\n  display: flex;\n  align-items: stretch;\n  width: 100%; }\n  .input-group .form-control {\n    position: relative;\n    z-index: 1;\n    flex: 1 1 auto;\n    width: 1%;\n    margin-bottom: 0; }\n    .input-group .form-control:focus, .input-group .form-control:active, .input-group .form-control:hover {\n      z-index: 2; }\n\n.input-group-addon,\n.input-group-btn,\n.input-group .form-control,\n.input-group .custom-select,\n.input-group .custom-file {\n  display: flex;\n  align-items: center; }\n  .input-group-addon:not(:first-child):not(:last-child),\n  .input-group-btn:not(:first-child):not(:last-child),\n  .input-group .form-control:not(:first-child):not(:last-child),\n  .input-group .custom-select:not(:first-child):not(:last-child),\n  .input-group .custom-file:not(:first-child):not(:last-child) {\n    border-radius: 0; }\n\n.input-group .custom-file {\n  display: flex;\n  align-items: center; }\n\n.input-group .custom-select,\n.input-group .custom-file {\n  width: 100%; }\n\n.input-group-addon,\n.input-group-btn {\n  white-space: nowrap; }\n\n.input-group-addon {\n  padding: 0.375rem 0.75rem;\n  margin-bottom: 0;\n  font-size: 1rem;\n  font-weight: 400;\n  line-height: 1.5;\n  color: #495057;\n  text-align: center;\n  background-color: #e9ecef;\n  border: 1px solid #ced4da;\n  border-radius: 0.25rem; }\n  .input-group-addon.form-control-sm,\n  .input-group-sm > .input-group-addon,\n  .input-group-sm > .input-group-btn > .input-group-addon.btn {\n    padding: 0.25rem 0.5rem;\n    font-size: 0.875rem;\n    border-radius: 0.2rem; }\n  .input-group-addon.form-control-lg,\n  .input-group-lg > .input-group-addon,\n  .input-group-lg > .input-group-btn > .input-group-addon.btn {\n    padding: 0.5rem 1rem;\n    font-size: 1.25rem;\n    border-radius: 0.3rem; }\n  .input-group-addon input[type=\"radio\"],\n  .input-group-addon input[type=\"checkbox\"] {\n    margin-top: 0; }\n\n.input-group .form-control:not(:last-child),\n.input-group .custom-select:not(:last-child),\n.input-group .custom-file:not(:last-child) .custom-file-control::before,\n.input-group-addon:not(:last-child),\n.input-group-btn:not(:last-child) > .btn,\n.input-group-btn:not(:last-child) > .btn-group > .btn,\n.input-group-btn:not(:last-child) > .dropdown-toggle,\n.input-group-btn:not(:first-child) > .btn:not(:last-child):not(.dropdown-toggle),\n.input-group-btn:not(:first-child) > .btn-group:not(:last-child) > .btn {\n  border-top-right-radius: 0;\n  border-bottom-right-radius: 0; }\n\n.input-group-addon:not(:last-child) {\n  border-right: 0; }\n\n.input-group .form-control:not(:first-child),\n.input-group .custom-select:not(:first-child),\n.input-group .custom-file:not(:first-child) .custom-file-control,\n.input-group-addon:not(:first-child),\n.input-group-btn:not(:first-child) > .btn,\n.input-group-btn:not(:first-child) > .btn-group > .btn,\n.input-group-btn:not(:first-child) > .dropdown-toggle,\n.input-group-btn:not(:last-child) > .btn:not(:first-child),\n.input-group-btn:not(:last-child) > .btn-group:not(:first-child) > .btn {\n  border-top-left-radius: 0;\n  border-bottom-left-radius: 0; }\n\n.form-control + .input-group-addon:not(:first-child),\n.custom-select + .input-group-addon:not(:first-child),\n.custom-file + .input-group-addon:not(:first-child) {\n  border-left: 0; }\n\n.input-group-btn {\n  position: relative;\n  align-items: stretch;\n  font-size: 0;\n  white-space: nowrap; }\n  .input-group-btn > .btn {\n    position: relative; }\n    .input-group-btn > .btn + .btn {\n      margin-left: -1px; }\n    .input-group-btn > .btn:focus, .input-group-btn > .btn:active, .input-group-btn > .btn:hover {\n      z-index: 2; }\n  .input-group-btn:first-child > .btn + .btn {\n    margin-left: 0; }\n  .input-group-btn:not(:last-child) > .btn,\n  .input-group-btn:not(:last-child) > .btn-group {\n    margin-right: -1px; }\n  .input-group-btn:not(:first-child) > .btn,\n  .input-group-btn:not(:first-child) > .btn-group {\n    z-index: 1;\n    margin-left: 0; }\n    .input-group-btn:not(:first-child) > .btn:first-child,\n    .input-group-btn:not(:first-child) > .btn-group:first-child {\n      margin-left: -1px; }\n    .input-group-btn:not(:first-child) > .btn:focus, .input-group-btn:not(:first-child) > .btn:active, .input-group-btn:not(:first-child) > .btn:hover,\n    .input-group-btn:not(:first-child) > .btn-group:focus,\n    .input-group-btn:not(:first-child) > .btn-group:active,\n    .input-group-btn:not(:first-child) > .btn-group:hover {\n      z-index: 2; }\n\n.custom-control {\n  position: relative;\n  display: inline-flex;\n  min-height: 1.5rem;\n  padding-left: 1.5rem;\n  margin-right: 1rem; }\n\n.custom-control-input {\n  position: absolute;\n  z-index: -1;\n  opacity: 0; }\n  .custom-control-input:checked ~ .custom-control-indicator {\n    color: #fff;\n    background-color: #007bff; }\n  .custom-control-input:focus ~ .custom-control-indicator {\n    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }\n  .custom-control-input:active ~ .custom-control-indicator {\n    color: #fff;\n    background-color: #b3d7ff; }\n  .custom-control-input:disabled ~ .custom-control-indicator {\n    background-color: #e9ecef; }\n  .custom-control-input:disabled ~ .custom-control-description {\n    color: #868e96; }\n\n.custom-control-indicator {\n  position: absolute;\n  top: 0.25rem;\n  left: 0;\n  display: block;\n  width: 1rem;\n  height: 1rem;\n  pointer-events: none;\n  user-select: none;\n  background-color: #dee2e6;\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: 50% 50%; }\n\n.custom-checkbox .custom-control-indicator {\n  border-radius: 0.25rem; }\n\n.custom-checkbox .custom-control-input:checked ~ .custom-control-indicator {\n  background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E\"); }\n\n.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-indicator {\n  background-color: #007bff;\n  background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='%23fff' d='M0 2h4'/%3E%3C/svg%3E\"); }\n\n.custom-radio .custom-control-indicator {\n  border-radius: 50%; }\n\n.custom-radio .custom-control-input:checked ~ .custom-control-indicator {\n  background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E\"); }\n\n.custom-controls-stacked {\n  display: flex;\n  flex-direction: column; }\n  .custom-controls-stacked .custom-control {\n    margin-bottom: 0.25rem; }\n    .custom-controls-stacked .custom-control + .custom-control {\n      margin-left: 0; }\n\n.custom-select {\n  display: inline-block;\n  max-width: 100%;\n  height: calc(2.25rem + 2px);\n  padding: 0.375rem 1.75rem 0.375rem 0.75rem;\n  line-height: 1.5;\n  color: #495057;\n  vertical-align: middle;\n  background: #fff url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E\") no-repeat right 0.75rem center;\n  background-size: 8px 10px;\n  border: 1px solid #ced4da;\n  border-radius: 0.25rem;\n  appearance: none; }\n  .custom-select:focus {\n    border-color: #80bdff;\n    outline: 0; }\n    .custom-select:focus::-ms-value {\n      color: #495057;\n      background-color: #fff; }\n  .custom-select[multiple] {\n    height: auto;\n    background-image: none; }\n  .custom-select:disabled {\n    color: #868e96;\n    background-color: #e9ecef; }\n  .custom-select::-ms-expand {\n    opacity: 0; }\n\n.custom-select-sm {\n  height: calc(1.8125rem + 2px);\n  padding-top: 0.375rem;\n  padding-bottom: 0.375rem;\n  font-size: 75%; }\n\n.custom-file {\n  position: relative;\n  display: inline-block;\n  max-width: 100%;\n  height: calc(2.25rem + 2px);\n  margin-bottom: 0; }\n\n.custom-file-input {\n  min-width: 14rem;\n  max-width: 100%;\n  height: calc(2.25rem + 2px);\n  margin: 0;\n  opacity: 0; }\n  .custom-file-input:focus ~ .custom-file-control {\n    box-shadow: 0 0 0 0.075rem #fff, 0 0 0 0.2rem #007bff; }\n\n.custom-file-control {\n  position: absolute;\n  top: 0;\n  right: 0;\n  left: 0;\n  height: calc(2.25rem + 2px);\n  padding: 0.375rem 0.75rem;\n  line-height: 1.5;\n  color: #495057;\n  pointer-events: none;\n  user-select: none;\n  background-color: #fff;\n  border: 1px solid #ced4da;\n  border-radius: 0.25rem; }\n  .custom-file-control:lang(en):empty::after {\n    content: \"Choose file...\"; }\n  .custom-file-control::before {\n    position: absolute;\n    top: -1px;\n    right: -1px;\n    bottom: -1px;\n    z-index: 1;\n    display: block;\n    height: calc(2.25rem + 2px);\n    padding: 0.375rem 0.75rem;\n    line-height: 1.5;\n    color: #495057;\n    background-color: #e9ecef;\n    border: 1px solid #ced4da;\n    border-radius: 0 0.25rem 0.25rem 0; }\n  .custom-file-control:lang(en)::before {\n    content: \"Browse\"; }\n\n.nav {\n  display: flex;\n  flex-wrap: wrap;\n  padding-left: 0;\n  margin-bottom: 0;\n  list-style: none; }\n\n.nav-link {\n  display: block;\n  padding: 0.5rem 1rem; }\n  .nav-link:focus, .nav-link:hover {\n    text-decoration: none; }\n  .nav-link.disabled {\n    color: #868e96; }\n\n.nav-tabs {\n  border-bottom: 1px solid #dee2e6; }\n  .nav-tabs .nav-item {\n    margin-bottom: -1px; }\n  .nav-tabs .nav-link {\n    border: 1px solid transparent;\n    border-top-left-radius: 0.25rem;\n    border-top-right-radius: 0.25rem; }\n    .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {\n      border-color: #e9ecef #e9ecef #dee2e6; }\n    .nav-tabs .nav-link.disabled {\n      color: #868e96;\n      background-color: transparent;\n      border-color: transparent; }\n  .nav-tabs .nav-link.active,\n  .nav-tabs .nav-item.show .nav-link {\n    color: #495057;\n    background-color: #fff;\n    border-color: #dee2e6 #dee2e6 #fff; }\n  .nav-tabs .dropdown-menu {\n    margin-top: -1px;\n    border-top-left-radius: 0;\n    border-top-right-radius: 0; }\n\n.nav-pills .nav-link {\n  border-radius: 0.25rem; }\n\n.nav-pills .nav-link.active,\n.nav-pills .show > .nav-link {\n  color: #fff;\n  background-color: #007bff; }\n\n.nav-fill .nav-item {\n  flex: 1 1 auto;\n  text-align: center; }\n\n.nav-justified .nav-item {\n  flex-basis: 0;\n  flex-grow: 1;\n  text-align: center; }\n\n.tab-content > .tab-pane {\n  display: none; }\n\n.tab-content > .active {\n  display: block; }\n\n.navbar {\n  position: relative;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  justify-content: space-between;\n  padding: 0.5rem 1rem; }\n  .navbar > .container,\n  .navbar > .container-fluid {\n    display: flex;\n    flex-wrap: wrap;\n    align-items: center;\n    justify-content: space-between; }\n\n.navbar-brand {\n  display: inline-block;\n  padding-top: 0.3125rem;\n  padding-bottom: 0.3125rem;\n  margin-right: 1rem;\n  font-size: 1.25rem;\n  line-height: inherit;\n  white-space: nowrap; }\n  .navbar-brand:focus, .navbar-brand:hover {\n    text-decoration: none; }\n\n.navbar-nav {\n  display: flex;\n  flex-direction: column;\n  padding-left: 0;\n  margin-bottom: 0;\n  list-style: none; }\n  .navbar-nav .nav-link {\n    padding-right: 0;\n    padding-left: 0; }\n  .navbar-nav .dropdown-menu {\n    position: static;\n    float: none; }\n\n.navbar-text {\n  display: inline-block;\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem; }\n\n.navbar-collapse {\n  flex-basis: 100%;\n  flex-grow: 1;\n  align-items: center; }\n\n.navbar-toggler {\n  padding: 0.25rem 0.75rem;\n  font-size: 1.25rem;\n  line-height: 1;\n  background-color: transparent;\n  border: 1px solid transparent;\n  border-radius: 0.25rem; }\n  .navbar-toggler:focus, .navbar-toggler:hover {\n    text-decoration: none; }\n\n.navbar-toggler-icon {\n  display: inline-block;\n  width: 1.5em;\n  height: 1.5em;\n  vertical-align: middle;\n  content: \"\";\n  background: no-repeat center center;\n  background-size: 100% 100%; }\n\n@media (max-width: 575px) {\n  .navbar-expand-sm > .container,\n  .navbar-expand-sm > .container-fluid {\n    padding-right: 0;\n    padding-left: 0; } }\n\n@media (min-width: 576px) {\n  .navbar-expand-sm {\n    flex-flow: row nowrap;\n    justify-content: flex-start; }\n    .navbar-expand-sm .navbar-nav {\n      flex-direction: row; }\n      .navbar-expand-sm .navbar-nav .dropdown-menu {\n        position: absolute; }\n      .navbar-expand-sm .navbar-nav .dropdown-menu-right {\n        right: 0;\n        left: auto; }\n      .navbar-expand-sm .navbar-nav .nav-link {\n        padding-right: .5rem;\n        padding-left: .5rem; }\n    .navbar-expand-sm > .container,\n    .navbar-expand-sm > .container-fluid {\n      flex-wrap: nowrap; }\n    .navbar-expand-sm .navbar-collapse {\n      display: flex !important;\n      flex-basis: auto; }\n    .navbar-expand-sm .navbar-toggler {\n      display: none; }\n    .navbar-expand-sm .dropup .dropdown-menu {\n      top: auto;\n      bottom: 100%; } }\n\n@media (max-width: 767px) {\n  .navbar-expand-md > .container,\n  .navbar-expand-md > .container-fluid {\n    padding-right: 0;\n    padding-left: 0; } }\n\n@media (min-width: 768px) {\n  .navbar-expand-md {\n    flex-flow: row nowrap;\n    justify-content: flex-start; }\n    .navbar-expand-md .navbar-nav {\n      flex-direction: row; }\n      .navbar-expand-md .navbar-nav .dropdown-menu {\n        position: absolute; }\n      .navbar-expand-md .navbar-nav .dropdown-menu-right {\n        right: 0;\n        left: auto; }\n      .navbar-expand-md .navbar-nav .nav-link {\n        padding-right: .5rem;\n        padding-left: .5rem; }\n    .navbar-expand-md > .container,\n    .navbar-expand-md > .container-fluid {\n      flex-wrap: nowrap; }\n    .navbar-expand-md .navbar-collapse {\n      display: flex !important;\n      flex-basis: auto; }\n    .navbar-expand-md .navbar-toggler {\n      display: none; }\n    .navbar-expand-md .dropup .dropdown-menu {\n      top: auto;\n      bottom: 100%; } }\n\n@media (max-width: 991px) {\n  .navbar-expand-lg > .container,\n  .navbar-expand-lg > .container-fluid {\n    padding-right: 0;\n    padding-left: 0; } }\n\n@media (min-width: 992px) {\n  .navbar-expand-lg {\n    flex-flow: row nowrap;\n    justify-content: flex-start; }\n    .navbar-expand-lg .navbar-nav {\n      flex-direction: row; }\n      .navbar-expand-lg .navbar-nav .dropdown-menu {\n        position: absolute; }\n      .navbar-expand-lg .navbar-nav .dropdown-menu-right {\n        right: 0;\n        left: auto; }\n      .navbar-expand-lg .navbar-nav .nav-link {\n        padding-right: .5rem;\n        padding-left: .5rem; }\n    .navbar-expand-lg > .container,\n    .navbar-expand-lg > .container-fluid {\n      flex-wrap: nowrap; }\n    .navbar-expand-lg .navbar-collapse {\n      display: flex !important;\n      flex-basis: auto; }\n    .navbar-expand-lg .navbar-toggler {\n      display: none; }\n    .navbar-expand-lg .dropup .dropdown-menu {\n      top: auto;\n      bottom: 100%; } }\n\n@media (max-width: 1199px) {\n  .navbar-expand-xl > .container,\n  .navbar-expand-xl > .container-fluid {\n    padding-right: 0;\n    padding-left: 0; } }\n\n@media (min-width: 1200px) {\n  .navbar-expand-xl {\n    flex-flow: row nowrap;\n    justify-content: flex-start; }\n    .navbar-expand-xl .navbar-nav {\n      flex-direction: row; }\n      .navbar-expand-xl .navbar-nav .dropdown-menu {\n        position: absolute; }\n      .navbar-expand-xl .navbar-nav .dropdown-menu-right {\n        right: 0;\n        left: auto; }\n      .navbar-expand-xl .navbar-nav .nav-link {\n        padding-right: .5rem;\n        padding-left: .5rem; }\n    .navbar-expand-xl > .container,\n    .navbar-expand-xl > .container-fluid {\n      flex-wrap: nowrap; }\n    .navbar-expand-xl .navbar-collapse {\n      display: flex !important;\n      flex-basis: auto; }\n    .navbar-expand-xl .navbar-toggler {\n      display: none; }\n    .navbar-expand-xl .dropup .dropdown-menu {\n      top: auto;\n      bottom: 100%; } }\n\n.navbar-expand {\n  flex-flow: row nowrap;\n  justify-content: flex-start; }\n  .navbar-expand > .container,\n  .navbar-expand > .container-fluid {\n    padding-right: 0;\n    padding-left: 0; }\n  .navbar-expand .navbar-nav {\n    flex-direction: row; }\n    .navbar-expand .navbar-nav .dropdown-menu {\n      position: absolute; }\n    .navbar-expand .navbar-nav .dropdown-menu-right {\n      right: 0;\n      left: auto; }\n    .navbar-expand .navbar-nav .nav-link {\n      padding-right: .5rem;\n      padding-left: .5rem; }\n  .navbar-expand > .container,\n  .navbar-expand > .container-fluid {\n    flex-wrap: nowrap; }\n  .navbar-expand .navbar-collapse {\n    display: flex !important;\n    flex-basis: auto; }\n  .navbar-expand .navbar-toggler {\n    display: none; }\n  .navbar-expand .dropup .dropdown-menu {\n    top: auto;\n    bottom: 100%; }\n\n.navbar-light .navbar-brand {\n  color: rgba(0, 0, 0, 0.9); }\n  .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {\n    color: rgba(0, 0, 0, 0.9); }\n\n.navbar-light .navbar-nav .nav-link {\n  color: rgba(0, 0, 0, 0.5); }\n  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {\n    color: rgba(0, 0, 0, 0.7); }\n  .navbar-light .navbar-nav .nav-link.disabled {\n    color: rgba(0, 0, 0, 0.3); }\n\n.navbar-light .navbar-nav .show > .nav-link,\n.navbar-light .navbar-nav .active > .nav-link,\n.navbar-light .navbar-nav .nav-link.show,\n.navbar-light .navbar-nav .nav-link.active {\n  color: rgba(0, 0, 0, 0.9); }\n\n.navbar-light .navbar-toggler {\n  color: rgba(0, 0, 0, 0.5);\n  border-color: rgba(0, 0, 0, 0.1); }\n\n.navbar-light .navbar-toggler-icon {\n  background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E\"); }\n\n.navbar-light .navbar-text {\n  color: rgba(0, 0, 0, 0.5); }\n  .navbar-light .navbar-text a {\n    color: rgba(0, 0, 0, 0.9); }\n    .navbar-light .navbar-text a:focus, .navbar-light .navbar-text a:hover {\n      color: rgba(0, 0, 0, 0.9); }\n\n.navbar-dark .navbar-brand {\n  color: #fff; }\n  .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {\n    color: #fff; }\n\n.navbar-dark .navbar-nav .nav-link {\n  color: rgba(255, 255, 255, 0.5); }\n  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {\n    color: rgba(255, 255, 255, 0.75); }\n  .navbar-dark .navbar-nav .nav-link.disabled {\n    color: rgba(255, 255, 255, 0.25); }\n\n.navbar-dark .navbar-nav .show > .nav-link,\n.navbar-dark .navbar-nav .active > .nav-link,\n.navbar-dark .navbar-nav .nav-link.show,\n.navbar-dark .navbar-nav .nav-link.active {\n  color: #fff; }\n\n.navbar-dark .navbar-toggler {\n  color: rgba(255, 255, 255, 0.5);\n  border-color: rgba(255, 255, 255, 0.1); }\n\n.navbar-dark .navbar-toggler-icon {\n  background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E\"); }\n\n.navbar-dark .navbar-text {\n  color: rgba(255, 255, 255, 0.5); }\n  .navbar-dark .navbar-text a {\n    color: #fff; }\n    .navbar-dark .navbar-text a:focus, .navbar-dark .navbar-text a:hover {\n      color: #fff; }\n\n.card {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  min-width: 0;\n  word-wrap: break-word;\n  background-color: #fff;\n  background-clip: border-box;\n  border: 1px solid rgba(0, 0, 0, 0.125);\n  border-radius: 0.25rem; }\n  .card > hr {\n    margin-right: 0;\n    margin-left: 0; }\n  .card > .list-group:first-child .list-group-item:first-child {\n    border-top-left-radius: 0.25rem;\n    border-top-right-radius: 0.25rem; }\n  .card > .list-group:last-child .list-group-item:last-child {\n    border-bottom-right-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem; }\n\n.card-body {\n  flex: 1 1 auto;\n  padding: 1.25rem; }\n\n.card-title {\n  margin-bottom: 0.75rem; }\n\n.card-subtitle {\n  margin-top: -0.375rem;\n  margin-bottom: 0; }\n\n.card-text:last-child {\n  margin-bottom: 0; }\n\n.card-link:hover {\n  text-decoration: none; }\n\n.card-link + .card-link {\n  margin-left: 1.25rem; }\n\n.card-header {\n  padding: 0.75rem 1.25rem;\n  margin-bottom: 0;\n  background-color: rgba(0, 0, 0, 0.03);\n  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }\n  .card-header:first-child {\n    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }\n  .card-header + .list-group .list-group-item:first-child {\n    border-top: 0; }\n\n.card-footer {\n  padding: 0.75rem 1.25rem;\n  background-color: rgba(0, 0, 0, 0.03);\n  border-top: 1px solid rgba(0, 0, 0, 0.125); }\n  .card-footer:last-child {\n    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }\n\n.card-header-tabs {\n  margin-right: -0.625rem;\n  margin-bottom: -0.75rem;\n  margin-left: -0.625rem;\n  border-bottom: 0; }\n\n.card-header-pills {\n  margin-right: -0.625rem;\n  margin-left: -0.625rem; }\n\n.card-img-overlay {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  padding: 1.25rem; }\n\n.card-img {\n  width: 100%;\n  border-radius: calc(0.25rem - 1px); }\n\n.card-img-top {\n  width: 100%;\n  border-top-left-radius: calc(0.25rem - 1px);\n  border-top-right-radius: calc(0.25rem - 1px); }\n\n.card-img-bottom {\n  width: 100%;\n  border-bottom-right-radius: calc(0.25rem - 1px);\n  border-bottom-left-radius: calc(0.25rem - 1px); }\n\n.card-deck {\n  display: flex;\n  flex-direction: column; }\n  .card-deck .card {\n    margin-bottom: 15px; }\n  @media (min-width: 576px) {\n    .card-deck {\n      flex-flow: row wrap;\n      margin-right: -15px;\n      margin-left: -15px; }\n      .card-deck .card {\n        display: flex;\n        flex: 1 0 0%;\n        flex-direction: column;\n        margin-right: 15px;\n        margin-bottom: 0;\n        margin-left: 15px; } }\n\n.card-group {\n  display: flex;\n  flex-direction: column; }\n  .card-group .card {\n    margin-bottom: 15px; }\n  @media (min-width: 576px) {\n    .card-group {\n      flex-flow: row wrap; }\n      .card-group .card {\n        flex: 1 0 0%;\n        margin-bottom: 0; }\n        .card-group .card + .card {\n          margin-left: 0;\n          border-left: 0; }\n        .card-group .card:first-child {\n          border-top-right-radius: 0;\n          border-bottom-right-radius: 0; }\n          .card-group .card:first-child .card-img-top,\n          .card-group .card:first-child .card-header {\n            border-top-right-radius: 0; }\n          .card-group .card:first-child .card-img-bottom,\n          .card-group .card:first-child .card-footer {\n            border-bottom-right-radius: 0; }\n        .card-group .card:last-child {\n          border-top-left-radius: 0;\n          border-bottom-left-radius: 0; }\n          .card-group .card:last-child .card-img-top,\n          .card-group .card:last-child .card-header {\n            border-top-left-radius: 0; }\n          .card-group .card:last-child .card-img-bottom,\n          .card-group .card:last-child .card-footer {\n            border-bottom-left-radius: 0; }\n        .card-group .card:only-child {\n          border-radius: 0.25rem; }\n          .card-group .card:only-child .card-img-top,\n          .card-group .card:only-child .card-header {\n            border-top-left-radius: 0.25rem;\n            border-top-right-radius: 0.25rem; }\n          .card-group .card:only-child .card-img-bottom,\n          .card-group .card:only-child .card-footer {\n            border-bottom-right-radius: 0.25rem;\n            border-bottom-left-radius: 0.25rem; }\n        .card-group .card:not(:first-child):not(:last-child):not(:only-child) {\n          border-radius: 0; }\n          .card-group .card:not(:first-child):not(:last-child):not(:only-child) .card-img-top,\n          .card-group .card:not(:first-child):not(:last-child):not(:only-child) .card-img-bottom,\n          .card-group .card:not(:first-child):not(:last-child):not(:only-child) .card-header,\n          .card-group .card:not(:first-child):not(:last-child):not(:only-child) .card-footer {\n            border-radius: 0; } }\n\n.card-columns .card {\n  margin-bottom: 0.75rem; }\n\n@media (min-width: 576px) {\n  .card-columns {\n    column-count: 3;\n    column-gap: 1.25rem; }\n    .card-columns .card {\n      display: inline-block;\n      width: 100%; } }\n\n.breadcrumb {\n  display: flex;\n  flex-wrap: wrap;\n  padding: 0.75rem 1rem;\n  margin-bottom: 1rem;\n  list-style: none;\n  background-color: #e9ecef;\n  border-radius: 0.25rem; }\n\n.breadcrumb-item + .breadcrumb-item::before {\n  display: inline-block;\n  padding-right: 0.5rem;\n  padding-left: 0.5rem;\n  color: #868e96;\n  content: \"/\"; }\n\n.breadcrumb-item + .breadcrumb-item:hover::before {\n  text-decoration: underline; }\n\n.breadcrumb-item + .breadcrumb-item:hover::before {\n  text-decoration: none; }\n\n.breadcrumb-item.active {\n  color: #868e96; }\n\n.pagination {\n  display: flex;\n  padding-left: 0;\n  list-style: none;\n  border-radius: 0.25rem; }\n\n.page-link {\n  position: relative;\n  display: block;\n  padding: 0.5rem 0.75rem;\n  margin-left: -1px;\n  line-height: 1.25;\n  color: #007bff;\n  background-color: #fff;\n  border: 1px solid #dee2e6; }\n  .page-link:focus, .page-link:hover {\n    color: #0056b3;\n    text-decoration: none;\n    background-color: #e9ecef;\n    border-color: #dee2e6; }\n\n.page-item:first-child .page-link {\n  margin-left: 0;\n  border-top-left-radius: 0.25rem;\n  border-bottom-left-radius: 0.25rem; }\n\n.page-item:last-child .page-link {\n  border-top-right-radius: 0.25rem;\n  border-bottom-right-radius: 0.25rem; }\n\n.page-item.active .page-link {\n  z-index: 1;\n  color: #fff;\n  background-color: #007bff;\n  border-color: #007bff; }\n\n.page-item.disabled .page-link {\n  color: #868e96;\n  pointer-events: none;\n  background-color: #fff;\n  border-color: #dee2e6; }\n\n.pagination-lg .page-link {\n  padding: 0.75rem 1.5rem;\n  font-size: 1.25rem;\n  line-height: 1.5; }\n\n.pagination-lg .page-item:first-child .page-link {\n  border-top-left-radius: 0.3rem;\n  border-bottom-left-radius: 0.3rem; }\n\n.pagination-lg .page-item:last-child .page-link {\n  border-top-right-radius: 0.3rem;\n  border-bottom-right-radius: 0.3rem; }\n\n.pagination-sm .page-link {\n  padding: 0.25rem 0.5rem;\n  font-size: 0.875rem;\n  line-height: 1.5; }\n\n.pagination-sm .page-item:first-child .page-link {\n  border-top-left-radius: 0.2rem;\n  border-bottom-left-radius: 0.2rem; }\n\n.pagination-sm .page-item:last-child .page-link {\n  border-top-right-radius: 0.2rem;\n  border-bottom-right-radius: 0.2rem; }\n\n.badge {\n  display: inline-block;\n  padding: 0.25em 0.4em;\n  font-size: 75%;\n  font-weight: 700;\n  line-height: 1;\n  text-align: center;\n  white-space: nowrap;\n  vertical-align: baseline;\n  border-radius: 0.25rem; }\n  .badge:empty {\n    display: none; }\n\n.btn .badge {\n  position: relative;\n  top: -1px; }\n\n.badge-pill {\n  padding-right: 0.6em;\n  padding-left: 0.6em;\n  border-radius: 10rem; }\n\n.badge-primary {\n  color: #fff;\n  background-color: #007bff; }\n  .badge-primary[href]:focus, .badge-primary[href]:hover {\n    color: #fff;\n    text-decoration: none;\n    background-color: #0062cc; }\n\n.badge-secondary {\n  color: #fff;\n  background-color: #868e96; }\n  .badge-secondary[href]:focus, .badge-secondary[href]:hover {\n    color: #fff;\n    text-decoration: none;\n    background-color: #6c757d; }\n\n.badge-success {\n  color: #fff;\n  background-color: #28a745; }\n  .badge-success[href]:focus, .badge-success[href]:hover {\n    color: #fff;\n    text-decoration: none;\n    background-color: #1e7e34; }\n\n.badge-info {\n  color: #fff;\n  background-color: #17a2b8; }\n  .badge-info[href]:focus, .badge-info[href]:hover {\n    color: #fff;\n    text-decoration: none;\n    background-color: #117a8b; }\n\n.badge-warning {\n  color: #212529;\n  background-color: #ffc107; }\n  .badge-warning[href]:focus, .badge-warning[href]:hover {\n    color: #212529;\n    text-decoration: none;\n    background-color: #d39e00; }\n\n.badge-danger {\n  color: #fff;\n  background-color: #dc3545; }\n  .badge-danger[href]:focus, .badge-danger[href]:hover {\n    color: #fff;\n    text-decoration: none;\n    background-color: #bd2130; }\n\n.badge-light {\n  color: #212529;\n  background-color: #f8f9fa; }\n  .badge-light[href]:focus, .badge-light[href]:hover {\n    color: #212529;\n    text-decoration: none;\n    background-color: #dae0e5; }\n\n.badge-dark {\n  color: #fff;\n  background-color: #343a40; }\n  .badge-dark[href]:focus, .badge-dark[href]:hover {\n    color: #fff;\n    text-decoration: none;\n    background-color: #1d2124; }\n\n.jumbotron {\n  padding: 2rem 1rem;\n  margin-bottom: 2rem;\n  background-color: #e9ecef;\n  border-radius: 0.3rem; }\n  @media (min-width: 576px) {\n    .jumbotron {\n      padding: 4rem 2rem; } }\n\n.jumbotron-fluid {\n  padding-right: 0;\n  padding-left: 0;\n  border-radius: 0; }\n\n.alert {\n  position: relative;\n  padding: 0.75rem 1.25rem;\n  margin-bottom: 1rem;\n  border: 1px solid transparent;\n  border-radius: 0.25rem; }\n\n.alert-heading {\n  color: inherit; }\n\n.alert-link {\n  font-weight: 700; }\n\n.alert-dismissible {\n  padding-right: 4rem; }\n  .alert-dismissible .close {\n    position: absolute;\n    top: 0;\n    right: 0;\n    padding: 0.75rem 1.25rem;\n    color: inherit; }\n\n.alert-primary {\n  color: #004085;\n  background-color: #cce5ff;\n  border-color: #b8daff; }\n  .alert-primary hr {\n    border-top-color: #9fcdff; }\n  .alert-primary .alert-link {\n    color: #002752; }\n\n.alert-secondary {\n  color: #464a4e;\n  background-color: #e7e8ea;\n  border-color: #dddfe2; }\n  .alert-secondary hr {\n    border-top-color: #cfd2d6; }\n  .alert-secondary .alert-link {\n    color: #2e3133; }\n\n.alert-success {\n  color: #155724;\n  background-color: #d4edda;\n  border-color: #c3e6cb; }\n  .alert-success hr {\n    border-top-color: #b1dfbb; }\n  .alert-success .alert-link {\n    color: #0b2e13; }\n\n.alert-info {\n  color: #0c5460;\n  background-color: #d1ecf1;\n  border-color: #bee5eb; }\n  .alert-info hr {\n    border-top-color: #abdde5; }\n  .alert-info .alert-link {\n    color: #062c33; }\n\n.alert-warning {\n  color: #856404;\n  background-color: #fff3cd;\n  border-color: #ffeeba; }\n  .alert-warning hr {\n    border-top-color: #ffe8a1; }\n  .alert-warning .alert-link {\n    color: #533f03; }\n\n.alert-danger {\n  color: #721c24;\n  background-color: #f8d7da;\n  border-color: #f5c6cb; }\n  .alert-danger hr {\n    border-top-color: #f1b0b7; }\n  .alert-danger .alert-link {\n    color: #491217; }\n\n.alert-light {\n  color: #818182;\n  background-color: #fefefe;\n  border-color: #fdfdfe; }\n  .alert-light hr {\n    border-top-color: #ececf6; }\n  .alert-light .alert-link {\n    color: #686868; }\n\n.alert-dark {\n  color: #1b1e21;\n  background-color: #d6d8d9;\n  border-color: #c6c8ca; }\n  .alert-dark hr {\n    border-top-color: #b9bbbe; }\n  .alert-dark .alert-link {\n    color: #040505; }\n\n@keyframes progress-bar-stripes {\n  from {\n    background-position: 1rem 0; }\n  to {\n    background-position: 0 0; } }\n\n.progress {\n  display: flex;\n  height: 1rem;\n  overflow: hidden;\n  font-size: 0.75rem;\n  background-color: #e9ecef;\n  border-radius: 0.25rem; }\n\n.progress-bar {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  color: #fff;\n  text-align: center;\n  background-color: #007bff;\n  transition: width 0.6s ease; }\n\n.progress-bar-striped {\n  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);\n  background-size: 1rem 1rem; }\n\n.progress-bar-animated {\n  animation: progress-bar-stripes 1s linear infinite; }\n\n.media {\n  display: flex;\n  align-items: flex-start; }\n\n.media-body {\n  flex: 1; }\n\n.list-group {\n  display: flex;\n  flex-direction: column;\n  padding-left: 0;\n  margin-bottom: 0; }\n\n.list-group-item-action {\n  width: 100%;\n  color: #495057;\n  text-align: inherit; }\n  .list-group-item-action:focus, .list-group-item-action:hover {\n    color: #495057;\n    text-decoration: none;\n    background-color: #f8f9fa; }\n  .list-group-item-action:active {\n    color: #212529;\n    background-color: #e9ecef; }\n\n.list-group-item {\n  position: relative;\n  display: block;\n  padding: 0.75rem 1.25rem;\n  margin-bottom: -1px;\n  background-color: #fff;\n  border: 1px solid rgba(0, 0, 0, 0.125); }\n  .list-group-item:first-child {\n    border-top-left-radius: 0.25rem;\n    border-top-right-radius: 0.25rem; }\n  .list-group-item:last-child {\n    margin-bottom: 0;\n    border-bottom-right-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem; }\n  .list-group-item:focus, .list-group-item:hover {\n    text-decoration: none; }\n  .list-group-item.disabled, .list-group-item:disabled {\n    color: #868e96;\n    background-color: #fff; }\n  .list-group-item.active {\n    z-index: 1;\n    color: #fff;\n    background-color: #007bff;\n    border-color: #007bff; }\n\n.list-group-flush .list-group-item {\n  border-right: 0;\n  border-left: 0;\n  border-radius: 0; }\n\n.list-group-flush:first-child .list-group-item:first-child {\n  border-top: 0; }\n\n.list-group-flush:last-child .list-group-item:last-child {\n  border-bottom: 0; }\n\n.list-group-item-primary {\n  color: #004085;\n  background-color: #b8daff; }\n\na.list-group-item-primary,\nbutton.list-group-item-primary {\n  color: #004085; }\n  a.list-group-item-primary:focus, a.list-group-item-primary:hover,\n  button.list-group-item-primary:focus,\n  button.list-group-item-primary:hover {\n    color: #004085;\n    background-color: #9fcdff; }\n  a.list-group-item-primary.active,\n  button.list-group-item-primary.active {\n    color: #fff;\n    background-color: #004085;\n    border-color: #004085; }\n\n.list-group-item-secondary {\n  color: #464a4e;\n  background-color: #dddfe2; }\n\na.list-group-item-secondary,\nbutton.list-group-item-secondary {\n  color: #464a4e; }\n  a.list-group-item-secondary:focus, a.list-group-item-secondary:hover,\n  button.list-group-item-secondary:focus,\n  button.list-group-item-secondary:hover {\n    color: #464a4e;\n    background-color: #cfd2d6; }\n  a.list-group-item-secondary.active,\n  button.list-group-item-secondary.active {\n    color: #fff;\n    background-color: #464a4e;\n    border-color: #464a4e; }\n\n.list-group-item-success {\n  color: #155724;\n  background-color: #c3e6cb; }\n\na.list-group-item-success,\nbutton.list-group-item-success {\n  color: #155724; }\n  a.list-group-item-success:focus, a.list-group-item-success:hover,\n  button.list-group-item-success:focus,\n  button.list-group-item-success:hover {\n    color: #155724;\n    background-color: #b1dfbb; }\n  a.list-group-item-success.active,\n  button.list-group-item-success.active {\n    color: #fff;\n    background-color: #155724;\n    border-color: #155724; }\n\n.list-group-item-info {\n  color: #0c5460;\n  background-color: #bee5eb; }\n\na.list-group-item-info,\nbutton.list-group-item-info {\n  color: #0c5460; }\n  a.list-group-item-info:focus, a.list-group-item-info:hover,\n  button.list-group-item-info:focus,\n  button.list-group-item-info:hover {\n    color: #0c5460;\n    background-color: #abdde5; }\n  a.list-group-item-info.active,\n  button.list-group-item-info.active {\n    color: #fff;\n    background-color: #0c5460;\n    border-color: #0c5460; }\n\n.list-group-item-warning {\n  color: #856404;\n  background-color: #ffeeba; }\n\na.list-group-item-warning,\nbutton.list-group-item-warning {\n  color: #856404; }\n  a.list-group-item-warning:focus, a.list-group-item-warning:hover,\n  button.list-group-item-warning:focus,\n  button.list-group-item-warning:hover {\n    color: #856404;\n    background-color: #ffe8a1; }\n  a.list-group-item-warning.active,\n  button.list-group-item-warning.active {\n    color: #fff;\n    background-color: #856404;\n    border-color: #856404; }\n\n.list-group-item-danger {\n  color: #721c24;\n  background-color: #f5c6cb; }\n\na.list-group-item-danger,\nbutton.list-group-item-danger {\n  color: #721c24; }\n  a.list-group-item-danger:focus, a.list-group-item-danger:hover,\n  button.list-group-item-danger:focus,\n  button.list-group-item-danger:hover {\n    color: #721c24;\n    background-color: #f1b0b7; }\n  a.list-group-item-danger.active,\n  button.list-group-item-danger.active {\n    color: #fff;\n    background-color: #721c24;\n    border-color: #721c24; }\n\n.list-group-item-light {\n  color: #818182;\n  background-color: #fdfdfe; }\n\na.list-group-item-light,\nbutton.list-group-item-light {\n  color: #818182; }\n  a.list-group-item-light:focus, a.list-group-item-light:hover,\n  button.list-group-item-light:focus,\n  button.list-group-item-light:hover {\n    color: #818182;\n    background-color: #ececf6; }\n  a.list-group-item-light.active,\n  button.list-group-item-light.active {\n    color: #fff;\n    background-color: #818182;\n    border-color: #818182; }\n\n.list-group-item-dark {\n  color: #1b1e21;\n  background-color: #c6c8ca; }\n\na.list-group-item-dark,\nbutton.list-group-item-dark {\n  color: #1b1e21; }\n  a.list-group-item-dark:focus, a.list-group-item-dark:hover,\n  button.list-group-item-dark:focus,\n  button.list-group-item-dark:hover {\n    color: #1b1e21;\n    background-color: #b9bbbe; }\n  a.list-group-item-dark.active,\n  button.list-group-item-dark.active {\n    color: #fff;\n    background-color: #1b1e21;\n    border-color: #1b1e21; }\n\n.close {\n  float: right;\n  font-size: 1.5rem;\n  font-weight: 700;\n  line-height: 1;\n  color: #000;\n  text-shadow: 0 1px 0 #fff;\n  opacity: .5; }\n  .close:focus, .close:hover {\n    color: #000;\n    text-decoration: none;\n    opacity: .75; }\n\nbutton.close {\n  padding: 0;\n  background-color: transparent;\n  border: 0;\n  -webkit-appearance: none; }\n\n.modal-open {\n  overflow: hidden; }\n\n.modal {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1050;\n  display: none;\n  overflow: hidden;\n  outline: 0; }\n  .modal-open .modal {\n    overflow-x: hidden;\n    overflow-y: auto; }\n\n.modal-dialog {\n  position: relative;\n  width: auto;\n  margin: 0.5rem;\n  pointer-events: none; }\n  .modal.fade .modal-dialog {\n    transition: transform 0.3s ease-out;\n    transform: translate(0, -25%); }\n  .modal.show .modal-dialog {\n    transform: translate(0, 0); }\n\n.modal-dialog-centered {\n  display: flex;\n  align-items: center;\n  height: 100%;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n.modal-content {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  pointer-events: auto;\n  background-color: #fff;\n  background-clip: padding-box;\n  border: 1px solid rgba(0, 0, 0, 0.2);\n  border-radius: 0.3rem;\n  outline: 0; }\n\n.modal-backdrop {\n  position: fixed;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1040;\n  background-color: #000; }\n  .modal-backdrop.fade {\n    opacity: 0; }\n  .modal-backdrop.show {\n    opacity: 0.5; }\n\n.modal-header {\n  display: flex;\n  align-items: flex-start;\n  justify-content: space-between;\n  padding: 1rem;\n  border-bottom: 1px solid #e9ecef;\n  border-top-left-radius: 0.3rem;\n  border-top-right-radius: 0.3rem; }\n  .modal-header .close {\n    padding: 1rem;\n    margin: -1rem -1rem -1rem auto; }\n\n.modal-title {\n  margin-bottom: 0;\n  line-height: 1.5; }\n\n.modal-body {\n  position: relative;\n  flex: 1 1 auto;\n  padding: 1rem; }\n\n.modal-footer {\n  display: flex;\n  align-items: center;\n  justify-content: flex-end;\n  padding: 1rem;\n  border-top: 1px solid #e9ecef; }\n  .modal-footer > :not(:first-child) {\n    margin-left: .25rem; }\n  .modal-footer > :not(:last-child) {\n    margin-right: .25rem; }\n\n.modal-scrollbar-measure {\n  position: absolute;\n  top: -9999px;\n  width: 50px;\n  height: 50px;\n  overflow: scroll; }\n\n@media (min-width: 576px) {\n  .modal-dialog {\n    max-width: 500px;\n    margin: 1.75rem auto; }\n  .modal-dialog-centered {\n    margin-top: 0;\n    margin-bottom: 0; }\n  .modal-sm {\n    max-width: 300px; } }\n\n@media (min-width: 992px) {\n  .modal-lg {\n    max-width: 800px; } }\n\n.tooltip {\n  position: absolute;\n  z-index: 1070;\n  display: block;\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n  font-style: normal;\n  font-weight: 400;\n  line-height: 1.5;\n  text-align: left;\n  text-align: start;\n  text-decoration: none;\n  text-shadow: none;\n  text-transform: none;\n  letter-spacing: normal;\n  word-break: normal;\n  word-spacing: normal;\n  white-space: normal;\n  line-break: auto;\n  font-size: 0.875rem;\n  word-wrap: break-word;\n  opacity: 0; }\n  .tooltip.show {\n    opacity: 0.9; }\n  .tooltip .arrow {\n    position: absolute;\n    display: block;\n    width: 0.4rem;\n    height: 0.4rem; }\n  .tooltip .arrow::before {\n    position: absolute;\n    border-color: transparent;\n    border-style: solid; }\n  .tooltip.bs-tooltip-top, .tooltip.bs-tooltip-auto[x-placement^=\"top\"] {\n    padding: 0.4rem 0; }\n    .tooltip.bs-tooltip-top .arrow, .tooltip.bs-tooltip-auto[x-placement^=\"top\"] .arrow {\n      bottom: 0; }\n    .tooltip.bs-tooltip-top .arrow::before, .tooltip.bs-tooltip-auto[x-placement^=\"top\"] .arrow::before {\n      margin-left: -0.4rem;\n      content: \"\";\n      border-width: 0.4rem 0.4rem 0;\n      border-top-color: #000; }\n  .tooltip.bs-tooltip-right, .tooltip.bs-tooltip-auto[x-placement^=\"right\"] {\n    padding: 0 0.4rem; }\n    .tooltip.bs-tooltip-right .arrow, .tooltip.bs-tooltip-auto[x-placement^=\"right\"] .arrow {\n      left: 0; }\n    .tooltip.bs-tooltip-right .arrow::before, .tooltip.bs-tooltip-auto[x-placement^=\"right\"] .arrow::before {\n      margin-top: -0.4rem;\n      content: \"\";\n      border-width: 0.4rem 0.4rem 0.4rem 0;\n      border-right-color: #000; }\n  .tooltip.bs-tooltip-bottom, .tooltip.bs-tooltip-auto[x-placement^=\"bottom\"] {\n    padding: 0.4rem 0; }\n    .tooltip.bs-tooltip-bottom .arrow, .tooltip.bs-tooltip-auto[x-placement^=\"bottom\"] .arrow {\n      top: 0; }\n    .tooltip.bs-tooltip-bottom .arrow::before, .tooltip.bs-tooltip-auto[x-placement^=\"bottom\"] .arrow::before {\n      margin-left: -0.4rem;\n      content: \"\";\n      border-width: 0 0.4rem 0.4rem;\n      border-bottom-color: #000; }\n  .tooltip.bs-tooltip-left, .tooltip.bs-tooltip-auto[x-placement^=\"left\"] {\n    padding: 0 0.4rem; }\n    .tooltip.bs-tooltip-left .arrow, .tooltip.bs-tooltip-auto[x-placement^=\"left\"] .arrow {\n      right: 0; }\n    .tooltip.bs-tooltip-left .arrow::before, .tooltip.bs-tooltip-auto[x-placement^=\"left\"] .arrow::before {\n      right: 0;\n      margin-top: -0.4rem;\n      content: \"\";\n      border-width: 0.4rem 0 0.4rem 0.4rem;\n      border-left-color: #000; }\n\n.tooltip-inner {\n  max-width: 200px;\n  padding: 0.25rem 0.5rem;\n  color: #fff;\n  text-align: center;\n  background-color: #000;\n  border-radius: 0.25rem; }\n\n.popover {\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 1060;\n  display: block;\n  max-width: 276px;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n  font-style: normal;\n  font-weight: 400;\n  line-height: 1.5;\n  text-align: left;\n  text-align: start;\n  text-decoration: none;\n  text-shadow: none;\n  text-transform: none;\n  letter-spacing: normal;\n  word-break: normal;\n  word-spacing: normal;\n  white-space: normal;\n  line-break: auto;\n  font-size: 0.875rem;\n  word-wrap: break-word;\n  background-color: #fff;\n  background-clip: padding-box;\n  border: 1px solid rgba(0, 0, 0, 0.2);\n  border-radius: 0.3rem; }\n  .popover .arrow {\n    position: absolute;\n    display: block;\n    width: 0.8rem;\n    height: 0.4rem; }\n  .popover .arrow::before,\n  .popover .arrow::after {\n    position: absolute;\n    display: block;\n    border-color: transparent;\n    border-style: solid; }\n  .popover .arrow::before {\n    content: \"\";\n    border-width: 0.8rem; }\n  .popover .arrow::after {\n    content: \"\";\n    border-width: 0.8rem; }\n  .popover.bs-popover-top, .popover.bs-popover-auto[x-placement^=\"top\"] {\n    margin-bottom: 0.8rem; }\n    .popover.bs-popover-top .arrow, .popover.bs-popover-auto[x-placement^=\"top\"] .arrow {\n      bottom: 0; }\n    .popover.bs-popover-top .arrow::before, .popover.bs-popover-auto[x-placement^=\"top\"] .arrow::before,\n    .popover.bs-popover-top .arrow::after, .popover.bs-popover-auto[x-placement^=\"top\"] .arrow::after {\n      border-bottom-width: 0; }\n    .popover.bs-popover-top .arrow::before, .popover.bs-popover-auto[x-placement^=\"top\"] .arrow::before {\n      bottom: -0.8rem;\n      margin-left: -0.8rem;\n      border-top-color: rgba(0, 0, 0, 0.25); }\n    .popover.bs-popover-top .arrow::after, .popover.bs-popover-auto[x-placement^=\"top\"] .arrow::after {\n      bottom: calc((0.8rem - 1px) * -1);\n      margin-left: -0.8rem;\n      border-top-color: #fff; }\n  .popover.bs-popover-right, .popover.bs-popover-auto[x-placement^=\"right\"] {\n    margin-left: 0.8rem; }\n    .popover.bs-popover-right .arrow, .popover.bs-popover-auto[x-placement^=\"right\"] .arrow {\n      left: 0; }\n    .popover.bs-popover-right .arrow::before, .popover.bs-popover-auto[x-placement^=\"right\"] .arrow::before,\n    .popover.bs-popover-right .arrow::after, .popover.bs-popover-auto[x-placement^=\"right\"] .arrow::after {\n      margin-top: -0.8rem;\n      border-left-width: 0; }\n    .popover.bs-popover-right .arrow::before, .popover.bs-popover-auto[x-placement^=\"right\"] .arrow::before {\n      left: -0.8rem;\n      border-right-color: rgba(0, 0, 0, 0.25); }\n    .popover.bs-popover-right .arrow::after, .popover.bs-popover-auto[x-placement^=\"right\"] .arrow::after {\n      left: calc((0.8rem - 1px) * -1);\n      border-right-color: #fff; }\n  .popover.bs-popover-bottom, .popover.bs-popover-auto[x-placement^=\"bottom\"] {\n    margin-top: 0.8rem; }\n    .popover.bs-popover-bottom .arrow, .popover.bs-popover-auto[x-placement^=\"bottom\"] .arrow {\n      top: 0; }\n    .popover.bs-popover-bottom .arrow::before, .popover.bs-popover-auto[x-placement^=\"bottom\"] .arrow::before,\n    .popover.bs-popover-bottom .arrow::after, .popover.bs-popover-auto[x-placement^=\"bottom\"] .arrow::after {\n      margin-left: -0.8rem;\n      border-top-width: 0; }\n    .popover.bs-popover-bottom .arrow::before, .popover.bs-popover-auto[x-placement^=\"bottom\"] .arrow::before {\n      top: -0.8rem;\n      border-bottom-color: rgba(0, 0, 0, 0.25); }\n    .popover.bs-popover-bottom .arrow::after, .popover.bs-popover-auto[x-placement^=\"bottom\"] .arrow::after {\n      top: calc((0.8rem - 1px) * -1);\n      border-bottom-color: #fff; }\n    .popover.bs-popover-bottom .popover-header::before, .popover.bs-popover-auto[x-placement^=\"bottom\"] .popover-header::before {\n      position: absolute;\n      top: 0;\n      left: 50%;\n      display: block;\n      width: 20px;\n      margin-left: -10px;\n      content: \"\";\n      border-bottom: 1px solid #f7f7f7; }\n  .popover.bs-popover-left, .popover.bs-popover-auto[x-placement^=\"left\"] {\n    margin-right: 0.8rem; }\n    .popover.bs-popover-left .arrow, .popover.bs-popover-auto[x-placement^=\"left\"] .arrow {\n      right: 0; }\n    .popover.bs-popover-left .arrow::before, .popover.bs-popover-auto[x-placement^=\"left\"] .arrow::before,\n    .popover.bs-popover-left .arrow::after, .popover.bs-popover-auto[x-placement^=\"left\"] .arrow::after {\n      margin-top: -0.8rem;\n      border-right-width: 0; }\n    .popover.bs-popover-left .arrow::before, .popover.bs-popover-auto[x-placement^=\"left\"] .arrow::before {\n      right: -0.8rem;\n      border-left-color: rgba(0, 0, 0, 0.25); }\n    .popover.bs-popover-left .arrow::after, .popover.bs-popover-auto[x-placement^=\"left\"] .arrow::after {\n      right: calc((0.8rem - 1px) * -1);\n      border-left-color: #fff; }\n\n.popover-header {\n  padding: 0.5rem 0.75rem;\n  margin-bottom: 0;\n  font-size: 1rem;\n  color: inherit;\n  background-color: #f7f7f7;\n  border-bottom: 1px solid #ebebeb;\n  border-top-left-radius: calc(0.3rem - 1px);\n  border-top-right-radius: calc(0.3rem - 1px); }\n  .popover-header:empty {\n    display: none; }\n\n.popover-body {\n  padding: 0.5rem 0.75rem;\n  color: #212529; }\n\n.carousel {\n  position: relative; }\n\n.carousel-inner {\n  position: relative;\n  width: 100%;\n  overflow: hidden; }\n\n.carousel-item {\n  position: relative;\n  display: none;\n  align-items: center;\n  width: 100%;\n  transition: transform 0.6s ease;\n  backface-visibility: hidden;\n  perspective: 1000px; }\n\n.carousel-item.active,\n.carousel-item-next,\n.carousel-item-prev {\n  display: block; }\n\n.carousel-item-next,\n.carousel-item-prev {\n  position: absolute;\n  top: 0; }\n\n.carousel-item-next.carousel-item-left,\n.carousel-item-prev.carousel-item-right {\n  transform: translateX(0); }\n  @supports (transform-style: preserve-3d) {\n    .carousel-item-next.carousel-item-left,\n    .carousel-item-prev.carousel-item-right {\n      transform: translate3d(0, 0, 0); } }\n\n.carousel-item-next,\n.active.carousel-item-right {\n  transform: translateX(100%); }\n  @supports (transform-style: preserve-3d) {\n    .carousel-item-next,\n    .active.carousel-item-right {\n      transform: translate3d(100%, 0, 0); } }\n\n.carousel-item-prev,\n.active.carousel-item-left {\n  transform: translateX(-100%); }\n  @supports (transform-style: preserve-3d) {\n    .carousel-item-prev,\n    .active.carousel-item-left {\n      transform: translate3d(-100%, 0, 0); } }\n\n.carousel-control-prev,\n.carousel-control-next {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 15%;\n  color: #fff;\n  text-align: center;\n  opacity: 0.5; }\n  .carousel-control-prev:focus, .carousel-control-prev:hover,\n  .carousel-control-next:focus,\n  .carousel-control-next:hover {\n    color: #fff;\n    text-decoration: none;\n    outline: 0;\n    opacity: .9; }\n\n.carousel-control-prev {\n  left: 0; }\n\n.carousel-control-next {\n  right: 0; }\n\n.carousel-control-prev-icon,\n.carousel-control-next-icon {\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  background: transparent no-repeat center center;\n  background-size: 100% 100%; }\n\n.carousel-control-prev-icon {\n  background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E\"); }\n\n.carousel-control-next-icon {\n  background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E\"); }\n\n.carousel-indicators {\n  position: absolute;\n  right: 0;\n  bottom: 10px;\n  left: 0;\n  z-index: 15;\n  display: flex;\n  justify-content: center;\n  padding-left: 0;\n  margin-right: 15%;\n  margin-left: 15%;\n  list-style: none; }\n  .carousel-indicators li {\n    position: relative;\n    flex: 0 1 auto;\n    width: 30px;\n    height: 3px;\n    margin-right: 3px;\n    margin-left: 3px;\n    text-indent: -999px;\n    background-color: rgba(255, 255, 255, 0.5); }\n    .carousel-indicators li::before {\n      position: absolute;\n      top: -10px;\n      left: 0;\n      display: inline-block;\n      width: 100%;\n      height: 10px;\n      content: \"\"; }\n    .carousel-indicators li::after {\n      position: absolute;\n      bottom: -10px;\n      left: 0;\n      display: inline-block;\n      width: 100%;\n      height: 10px;\n      content: \"\"; }\n  .carousel-indicators .active {\n    background-color: #fff; }\n\n.carousel-caption {\n  position: absolute;\n  right: 15%;\n  bottom: 20px;\n  left: 15%;\n  z-index: 10;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  color: #fff;\n  text-align: center; }\n\n.align-baseline {\n  vertical-align: baseline !important; }\n\n.align-top {\n  vertical-align: top !important; }\n\n.align-middle {\n  vertical-align: middle !important; }\n\n.align-bottom {\n  vertical-align: bottom !important; }\n\n.align-text-bottom {\n  vertical-align: text-bottom !important; }\n\n.align-text-top {\n  vertical-align: text-top !important; }\n\n.bg-primary {\n  background-color: #007bff !important; }\n\na.bg-primary:focus, a.bg-primary:hover {\n  background-color: #0062cc !important; }\n\n.bg-secondary {\n  background-color: #868e96 !important; }\n\na.bg-secondary:focus, a.bg-secondary:hover {\n  background-color: #6c757d !important; }\n\n.bg-success {\n  background-color: #28a745 !important; }\n\na.bg-success:focus, a.bg-success:hover {\n  background-color: #1e7e34 !important; }\n\n.bg-info {\n  background-color: #17a2b8 !important; }\n\na.bg-info:focus, a.bg-info:hover {\n  background-color: #117a8b !important; }\n\n.bg-warning {\n  background-color: #ffc107 !important; }\n\na.bg-warning:focus, a.bg-warning:hover {\n  background-color: #d39e00 !important; }\n\n.bg-danger {\n  background-color: #dc3545 !important; }\n\na.bg-danger:focus, a.bg-danger:hover {\n  background-color: #bd2130 !important; }\n\n.bg-light {\n  background-color: #f8f9fa !important; }\n\na.bg-light:focus, a.bg-light:hover {\n  background-color: #dae0e5 !important; }\n\n.bg-dark {\n  background-color: #343a40 !important; }\n\na.bg-dark:focus, a.bg-dark:hover {\n  background-color: #1d2124 !important; }\n\n.bg-white {\n  background-color: #fff !important; }\n\n.bg-transparent {\n  background-color: transparent !important; }\n\n.border {\n  border: 1px solid #e9ecef !important; }\n\n.border-0 {\n  border: 0 !important; }\n\n.border-top-0 {\n  border-top: 0 !important; }\n\n.border-right-0 {\n  border-right: 0 !important; }\n\n.border-bottom-0 {\n  border-bottom: 0 !important; }\n\n.border-left-0 {\n  border-left: 0 !important; }\n\n.border-primary {\n  border-color: #007bff !important; }\n\n.border-secondary {\n  border-color: #868e96 !important; }\n\n.border-success {\n  border-color: #28a745 !important; }\n\n.border-info {\n  border-color: #17a2b8 !important; }\n\n.border-warning {\n  border-color: #ffc107 !important; }\n\n.border-danger {\n  border-color: #dc3545 !important; }\n\n.border-light {\n  border-color: #f8f9fa !important; }\n\n.border-dark {\n  border-color: #343a40 !important; }\n\n.border-white {\n  border-color: #fff !important; }\n\n.rounded {\n  border-radius: 0.25rem !important; }\n\n.rounded-top {\n  border-top-left-radius: 0.25rem !important;\n  border-top-right-radius: 0.25rem !important; }\n\n.rounded-right {\n  border-top-right-radius: 0.25rem !important;\n  border-bottom-right-radius: 0.25rem !important; }\n\n.rounded-bottom {\n  border-bottom-right-radius: 0.25rem !important;\n  border-bottom-left-radius: 0.25rem !important; }\n\n.rounded-left {\n  border-top-left-radius: 0.25rem !important;\n  border-bottom-left-radius: 0.25rem !important; }\n\n.rounded-circle {\n  border-radius: 50% !important; }\n\n.rounded-0 {\n  border-radius: 0 !important; }\n\n.clearfix::after {\n  display: block;\n  clear: both;\n  content: \"\"; }\n\n.d-none {\n  display: none !important; }\n\n.d-inline {\n  display: inline !important; }\n\n.d-inline-block {\n  display: inline-block !important; }\n\n.d-block {\n  display: block !important; }\n\n.d-table {\n  display: table !important; }\n\n.d-table-row {\n  display: table-row !important; }\n\n.d-table-cell {\n  display: table-cell !important; }\n\n.d-flex {\n  display: flex !important; }\n\n.d-inline-flex {\n  display: inline-flex !important; }\n\n@media (min-width: 576px) {\n  .d-sm-none {\n    display: none !important; }\n  .d-sm-inline {\n    display: inline !important; }\n  .d-sm-inline-block {\n    display: inline-block !important; }\n  .d-sm-block {\n    display: block !important; }\n  .d-sm-table {\n    display: table !important; }\n  .d-sm-table-row {\n    display: table-row !important; }\n  .d-sm-table-cell {\n    display: table-cell !important; }\n  .d-sm-flex {\n    display: flex !important; }\n  .d-sm-inline-flex {\n    display: inline-flex !important; } }\n\n@media (min-width: 768px) {\n  .d-md-none {\n    display: none !important; }\n  .d-md-inline {\n    display: inline !important; }\n  .d-md-inline-block {\n    display: inline-block !important; }\n  .d-md-block {\n    display: block !important; }\n  .d-md-table {\n    display: table !important; }\n  .d-md-table-row {\n    display: table-row !important; }\n  .d-md-table-cell {\n    display: table-cell !important; }\n  .d-md-flex {\n    display: flex !important; }\n  .d-md-inline-flex {\n    display: inline-flex !important; } }\n\n@media (min-width: 992px) {\n  .d-lg-none {\n    display: none !important; }\n  .d-lg-inline {\n    display: inline !important; }\n  .d-lg-inline-block {\n    display: inline-block !important; }\n  .d-lg-block {\n    display: block !important; }\n  .d-lg-table {\n    display: table !important; }\n  .d-lg-table-row {\n    display: table-row !important; }\n  .d-lg-table-cell {\n    display: table-cell !important; }\n  .d-lg-flex {\n    display: flex !important; }\n  .d-lg-inline-flex {\n    display: inline-flex !important; } }\n\n@media (min-width: 1200px) {\n  .d-xl-none {\n    display: none !important; }\n  .d-xl-inline {\n    display: inline !important; }\n  .d-xl-inline-block {\n    display: inline-block !important; }\n  .d-xl-block {\n    display: block !important; }\n  .d-xl-table {\n    display: table !important; }\n  .d-xl-table-row {\n    display: table-row !important; }\n  .d-xl-table-cell {\n    display: table-cell !important; }\n  .d-xl-flex {\n    display: flex !important; }\n  .d-xl-inline-flex {\n    display: inline-flex !important; } }\n\n.d-print-block {\n  display: none !important; }\n  @media print {\n    .d-print-block {\n      display: block !important; } }\n\n.d-print-inline {\n  display: none !important; }\n  @media print {\n    .d-print-inline {\n      display: inline !important; } }\n\n.d-print-inline-block {\n  display: none !important; }\n  @media print {\n    .d-print-inline-block {\n      display: inline-block !important; } }\n\n@media print {\n  .d-print-none {\n    display: none !important; } }\n\n.embed-responsive {\n  position: relative;\n  display: block;\n  width: 100%;\n  padding: 0;\n  overflow: hidden; }\n  .embed-responsive::before {\n    display: block;\n    content: \"\"; }\n  .embed-responsive .embed-responsive-item,\n  .embed-responsive iframe,\n  .embed-responsive embed,\n  .embed-responsive object,\n  .embed-responsive video {\n    position: absolute;\n    top: 0;\n    bottom: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    border: 0; }\n\n.embed-responsive-21by9::before {\n  padding-top: 42.85714%; }\n\n.embed-responsive-16by9::before {\n  padding-top: 56.25%; }\n\n.embed-responsive-4by3::before {\n  padding-top: 75%; }\n\n.embed-responsive-1by1::before {\n  padding-top: 100%; }\n\n.flex-row {\n  flex-direction: row !important; }\n\n.flex-column {\n  flex-direction: column !important; }\n\n.flex-row-reverse {\n  flex-direction: row-reverse !important; }\n\n.flex-column-reverse {\n  flex-direction: column-reverse !important; }\n\n.flex-wrap {\n  flex-wrap: wrap !important; }\n\n.flex-nowrap {\n  flex-wrap: nowrap !important; }\n\n.flex-wrap-reverse {\n  flex-wrap: wrap-reverse !important; }\n\n.justify-content-start {\n  justify-content: flex-start !important; }\n\n.justify-content-end {\n  justify-content: flex-end !important; }\n\n.justify-content-center {\n  justify-content: center !important; }\n\n.justify-content-between {\n  justify-content: space-between !important; }\n\n.justify-content-around {\n  justify-content: space-around !important; }\n\n.align-items-start {\n  align-items: flex-start !important; }\n\n.align-items-end {\n  align-items: flex-end !important; }\n\n.align-items-center {\n  align-items: center !important; }\n\n.align-items-baseline {\n  align-items: baseline !important; }\n\n.align-items-stretch {\n  align-items: stretch !important; }\n\n.align-content-start {\n  align-content: flex-start !important; }\n\n.align-content-end {\n  align-content: flex-end !important; }\n\n.align-content-center {\n  align-content: center !important; }\n\n.align-content-between {\n  align-content: space-between !important; }\n\n.align-content-around {\n  align-content: space-around !important; }\n\n.align-content-stretch {\n  align-content: stretch !important; }\n\n.align-self-auto {\n  align-self: auto !important; }\n\n.align-self-start {\n  align-self: flex-start !important; }\n\n.align-self-end {\n  align-self: flex-end !important; }\n\n.align-self-center {\n  align-self: center !important; }\n\n.align-self-baseline {\n  align-self: baseline !important; }\n\n.align-self-stretch {\n  align-self: stretch !important; }\n\n@media (min-width: 576px) {\n  .flex-sm-row {\n    flex-direction: row !important; }\n  .flex-sm-column {\n    flex-direction: column !important; }\n  .flex-sm-row-reverse {\n    flex-direction: row-reverse !important; }\n  .flex-sm-column-reverse {\n    flex-direction: column-reverse !important; }\n  .flex-sm-wrap {\n    flex-wrap: wrap !important; }\n  .flex-sm-nowrap {\n    flex-wrap: nowrap !important; }\n  .flex-sm-wrap-reverse {\n    flex-wrap: wrap-reverse !important; }\n  .justify-content-sm-start {\n    justify-content: flex-start !important; }\n  .justify-content-sm-end {\n    justify-content: flex-end !important; }\n  .justify-content-sm-center {\n    justify-content: center !important; }\n  .justify-content-sm-between {\n    justify-content: space-between !important; }\n  .justify-content-sm-around {\n    justify-content: space-around !important; }\n  .align-items-sm-start {\n    align-items: flex-start !important; }\n  .align-items-sm-end {\n    align-items: flex-end !important; }\n  .align-items-sm-center {\n    align-items: center !important; }\n  .align-items-sm-baseline {\n    align-items: baseline !important; }\n  .align-items-sm-stretch {\n    align-items: stretch !important; }\n  .align-content-sm-start {\n    align-content: flex-start !important; }\n  .align-content-sm-end {\n    align-content: flex-end !important; }\n  .align-content-sm-center {\n    align-content: center !important; }\n  .align-content-sm-between {\n    align-content: space-between !important; }\n  .align-content-sm-around {\n    align-content: space-around !important; }\n  .align-content-sm-stretch {\n    align-content: stretch !important; }\n  .align-self-sm-auto {\n    align-self: auto !important; }\n  .align-self-sm-start {\n    align-self: flex-start !important; }\n  .align-self-sm-end {\n    align-self: flex-end !important; }\n  .align-self-sm-center {\n    align-self: center !important; }\n  .align-self-sm-baseline {\n    align-self: baseline !important; }\n  .align-self-sm-stretch {\n    align-self: stretch !important; } }\n\n@media (min-width: 768px) {\n  .flex-md-row {\n    flex-direction: row !important; }\n  .flex-md-column {\n    flex-direction: column !important; }\n  .flex-md-row-reverse {\n    flex-direction: row-reverse !important; }\n  .flex-md-column-reverse {\n    flex-direction: column-reverse !important; }\n  .flex-md-wrap {\n    flex-wrap: wrap !important; }\n  .flex-md-nowrap {\n    flex-wrap: nowrap !important; }\n  .flex-md-wrap-reverse {\n    flex-wrap: wrap-reverse !important; }\n  .justify-content-md-start {\n    justify-content: flex-start !important; }\n  .justify-content-md-end {\n    justify-content: flex-end !important; }\n  .justify-content-md-center {\n    justify-content: center !important; }\n  .justify-content-md-between {\n    justify-content: space-between !important; }\n  .justify-content-md-around {\n    justify-content: space-around !important; }\n  .align-items-md-start {\n    align-items: flex-start !important; }\n  .align-items-md-end {\n    align-items: flex-end !important; }\n  .align-items-md-center {\n    align-items: center !important; }\n  .align-items-md-baseline {\n    align-items: baseline !important; }\n  .align-items-md-stretch {\n    align-items: stretch !important; }\n  .align-content-md-start {\n    align-content: flex-start !important; }\n  .align-content-md-end {\n    align-content: flex-end !important; }\n  .align-content-md-center {\n    align-content: center !important; }\n  .align-content-md-between {\n    align-content: space-between !important; }\n  .align-content-md-around {\n    align-content: space-around !important; }\n  .align-content-md-stretch {\n    align-content: stretch !important; }\n  .align-self-md-auto {\n    align-self: auto !important; }\n  .align-self-md-start {\n    align-self: flex-start !important; }\n  .align-self-md-end {\n    align-self: flex-end !important; }\n  .align-self-md-center {\n    align-self: center !important; }\n  .align-self-md-baseline {\n    align-self: baseline !important; }\n  .align-self-md-stretch {\n    align-self: stretch !important; } }\n\n@media (min-width: 992px) {\n  .flex-lg-row {\n    flex-direction: row !important; }\n  .flex-lg-column {\n    flex-direction: column !important; }\n  .flex-lg-row-reverse {\n    flex-direction: row-reverse !important; }\n  .flex-lg-column-reverse {\n    flex-direction: column-reverse !important; }\n  .flex-lg-wrap {\n    flex-wrap: wrap !important; }\n  .flex-lg-nowrap {\n    flex-wrap: nowrap !important; }\n  .flex-lg-wrap-reverse {\n    flex-wrap: wrap-reverse !important; }\n  .justify-content-lg-start {\n    justify-content: flex-start !important; }\n  .justify-content-lg-end {\n    justify-content: flex-end !important; }\n  .justify-content-lg-center {\n    justify-content: center !important; }\n  .justify-content-lg-between {\n    justify-content: space-between !important; }\n  .justify-content-lg-around {\n    justify-content: space-around !important; }\n  .align-items-lg-start {\n    align-items: flex-start !important; }\n  .align-items-lg-end {\n    align-items: flex-end !important; }\n  .align-items-lg-center {\n    align-items: center !important; }\n  .align-items-lg-baseline {\n    align-items: baseline !important; }\n  .align-items-lg-stretch {\n    align-items: stretch !important; }\n  .align-content-lg-start {\n    align-content: flex-start !important; }\n  .align-content-lg-end {\n    align-content: flex-end !important; }\n  .align-content-lg-center {\n    align-content: center !important; }\n  .align-content-lg-between {\n    align-content: space-between !important; }\n  .align-content-lg-around {\n    align-content: space-around !important; }\n  .align-content-lg-stretch {\n    align-content: stretch !important; }\n  .align-self-lg-auto {\n    align-self: auto !important; }\n  .align-self-lg-start {\n    align-self: flex-start !important; }\n  .align-self-lg-end {\n    align-self: flex-end !important; }\n  .align-self-lg-center {\n    align-self: center !important; }\n  .align-self-lg-baseline {\n    align-self: baseline !important; }\n  .align-self-lg-stretch {\n    align-self: stretch !important; } }\n\n@media (min-width: 1200px) {\n  .flex-xl-row {\n    flex-direction: row !important; }\n  .flex-xl-column {\n    flex-direction: column !important; }\n  .flex-xl-row-reverse {\n    flex-direction: row-reverse !important; }\n  .flex-xl-column-reverse {\n    flex-direction: column-reverse !important; }\n  .flex-xl-wrap {\n    flex-wrap: wrap !important; }\n  .flex-xl-nowrap {\n    flex-wrap: nowrap !important; }\n  .flex-xl-wrap-reverse {\n    flex-wrap: wrap-reverse !important; }\n  .justify-content-xl-start {\n    justify-content: flex-start !important; }\n  .justify-content-xl-end {\n    justify-content: flex-end !important; }\n  .justify-content-xl-center {\n    justify-content: center !important; }\n  .justify-content-xl-between {\n    justify-content: space-between !important; }\n  .justify-content-xl-around {\n    justify-content: space-around !important; }\n  .align-items-xl-start {\n    align-items: flex-start !important; }\n  .align-items-xl-end {\n    align-items: flex-end !important; }\n  .align-items-xl-center {\n    align-items: center !important; }\n  .align-items-xl-baseline {\n    align-items: baseline !important; }\n  .align-items-xl-stretch {\n    align-items: stretch !important; }\n  .align-content-xl-start {\n    align-content: flex-start !important; }\n  .align-content-xl-end {\n    align-content: flex-end !important; }\n  .align-content-xl-center {\n    align-content: center !important; }\n  .align-content-xl-between {\n    align-content: space-between !important; }\n  .align-content-xl-around {\n    align-content: space-around !important; }\n  .align-content-xl-stretch {\n    align-content: stretch !important; }\n  .align-self-xl-auto {\n    align-self: auto !important; }\n  .align-self-xl-start {\n    align-self: flex-start !important; }\n  .align-self-xl-end {\n    align-self: flex-end !important; }\n  .align-self-xl-center {\n    align-self: center !important; }\n  .align-self-xl-baseline {\n    align-self: baseline !important; }\n  .align-self-xl-stretch {\n    align-self: stretch !important; } }\n\n.float-left {\n  float: left !important; }\n\n.float-right {\n  float: right !important; }\n\n.float-none {\n  float: none !important; }\n\n@media (min-width: 576px) {\n  .float-sm-left {\n    float: left !important; }\n  .float-sm-right {\n    float: right !important; }\n  .float-sm-none {\n    float: none !important; } }\n\n@media (min-width: 768px) {\n  .float-md-left {\n    float: left !important; }\n  .float-md-right {\n    float: right !important; }\n  .float-md-none {\n    float: none !important; } }\n\n@media (min-width: 992px) {\n  .float-lg-left {\n    float: left !important; }\n  .float-lg-right {\n    float: right !important; }\n  .float-lg-none {\n    float: none !important; } }\n\n@media (min-width: 1200px) {\n  .float-xl-left {\n    float: left !important; }\n  .float-xl-right {\n    float: right !important; }\n  .float-xl-none {\n    float: none !important; } }\n\n.position-static {\n  position: static !important; }\n\n.position-relative {\n  position: relative !important; }\n\n.position-absolute {\n  position: absolute !important; }\n\n.position-fixed {\n  position: fixed !important; }\n\n.position-sticky {\n  position: sticky !important; }\n\n.fixed-top {\n  position: fixed;\n  top: 0;\n  right: 0;\n  left: 0;\n  z-index: 1030; }\n\n.fixed-bottom {\n  position: fixed;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1030; }\n\n@supports (position: sticky) {\n  .sticky-top {\n    position: sticky;\n    top: 0;\n    z-index: 1020; } }\n\n.sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  clip-path: inset(50%);\n  border: 0; }\n\n.sr-only-focusable:active, .sr-only-focusable:focus {\n  position: static;\n  width: auto;\n  height: auto;\n  overflow: visible;\n  clip: auto;\n  white-space: normal;\n  clip-path: none; }\n\n.w-25 {\n  width: 25% !important; }\n\n.w-50 {\n  width: 50% !important; }\n\n.w-75 {\n  width: 75% !important; }\n\n.w-100 {\n  width: 100% !important; }\n\n.h-25 {\n  height: 25% !important; }\n\n.h-50 {\n  height: 50% !important; }\n\n.h-75 {\n  height: 75% !important; }\n\n.h-100 {\n  height: 100% !important; }\n\n.mw-100 {\n  max-width: 100% !important; }\n\n.mh-100 {\n  max-height: 100% !important; }\n\n.m-0 {\n  margin: 0 !important; }\n\n.mt-0,\n.my-0 {\n  margin-top: 0 !important; }\n\n.mr-0,\n.mx-0 {\n  margin-right: 0 !important; }\n\n.mb-0,\n.my-0 {\n  margin-bottom: 0 !important; }\n\n.ml-0,\n.mx-0 {\n  margin-left: 0 !important; }\n\n.m-1 {\n  margin: 0.25rem !important; }\n\n.mt-1,\n.my-1 {\n  margin-top: 0.25rem !important; }\n\n.mr-1,\n.mx-1 {\n  margin-right: 0.25rem !important; }\n\n.mb-1,\n.my-1 {\n  margin-bottom: 0.25rem !important; }\n\n.ml-1,\n.mx-1 {\n  margin-left: 0.25rem !important; }\n\n.m-2 {\n  margin: 0.5rem !important; }\n\n.mt-2,\n.my-2 {\n  margin-top: 0.5rem !important; }\n\n.mr-2,\n.mx-2 {\n  margin-right: 0.5rem !important; }\n\n.mb-2,\n.my-2 {\n  margin-bottom: 0.5rem !important; }\n\n.ml-2,\n.mx-2 {\n  margin-left: 0.5rem !important; }\n\n.m-3 {\n  margin: 1rem !important; }\n\n.mt-3,\n.my-3 {\n  margin-top: 1rem !important; }\n\n.mr-3,\n.mx-3 {\n  margin-right: 1rem !important; }\n\n.mb-3,\n.my-3 {\n  margin-bottom: 1rem !important; }\n\n.ml-3,\n.mx-3 {\n  margin-left: 1rem !important; }\n\n.m-4 {\n  margin: 1.5rem !important; }\n\n.mt-4,\n.my-4 {\n  margin-top: 1.5rem !important; }\n\n.mr-4,\n.mx-4 {\n  margin-right: 1.5rem !important; }\n\n.mb-4,\n.my-4 {\n  margin-bottom: 1.5rem !important; }\n\n.ml-4,\n.mx-4 {\n  margin-left: 1.5rem !important; }\n\n.m-5 {\n  margin: 3rem !important; }\n\n.mt-5,\n.my-5 {\n  margin-top: 3rem !important; }\n\n.mr-5,\n.mx-5 {\n  margin-right: 3rem !important; }\n\n.mb-5,\n.my-5 {\n  margin-bottom: 3rem !important; }\n\n.ml-5,\n.mx-5 {\n  margin-left: 3rem !important; }\n\n.p-0 {\n  padding: 0 !important; }\n\n.pt-0,\n.py-0 {\n  padding-top: 0 !important; }\n\n.pr-0,\n.px-0 {\n  padding-right: 0 !important; }\n\n.pb-0,\n.py-0 {\n  padding-bottom: 0 !important; }\n\n.pl-0,\n.px-0 {\n  padding-left: 0 !important; }\n\n.p-1 {\n  padding: 0.25rem !important; }\n\n.pt-1,\n.py-1 {\n  padding-top: 0.25rem !important; }\n\n.pr-1,\n.px-1 {\n  padding-right: 0.25rem !important; }\n\n.pb-1,\n.py-1 {\n  padding-bottom: 0.25rem !important; }\n\n.pl-1,\n.px-1 {\n  padding-left: 0.25rem !important; }\n\n.p-2 {\n  padding: 0.5rem !important; }\n\n.pt-2,\n.py-2 {\n  padding-top: 0.5rem !important; }\n\n.pr-2,\n.px-2 {\n  padding-right: 0.5rem !important; }\n\n.pb-2,\n.py-2 {\n  padding-bottom: 0.5rem !important; }\n\n.pl-2,\n.px-2 {\n  padding-left: 0.5rem !important; }\n\n.p-3 {\n  padding: 1rem !important; }\n\n.pt-3,\n.py-3 {\n  padding-top: 1rem !important; }\n\n.pr-3,\n.px-3 {\n  padding-right: 1rem !important; }\n\n.pb-3,\n.py-3 {\n  padding-bottom: 1rem !important; }\n\n.pl-3,\n.px-3 {\n  padding-left: 1rem !important; }\n\n.p-4 {\n  padding: 1.5rem !important; }\n\n.pt-4,\n.py-4 {\n  padding-top: 1.5rem !important; }\n\n.pr-4,\n.px-4 {\n  padding-right: 1.5rem !important; }\n\n.pb-4,\n.py-4 {\n  padding-bottom: 1.5rem !important; }\n\n.pl-4,\n.px-4 {\n  padding-left: 1.5rem !important; }\n\n.p-5 {\n  padding: 3rem !important; }\n\n.pt-5,\n.py-5 {\n  padding-top: 3rem !important; }\n\n.pr-5,\n.px-5 {\n  padding-right: 3rem !important; }\n\n.pb-5,\n.py-5 {\n  padding-bottom: 3rem !important; }\n\n.pl-5,\n.px-5 {\n  padding-left: 3rem !important; }\n\n.m-auto {\n  margin: auto !important; }\n\n.mt-auto,\n.my-auto {\n  margin-top: auto !important; }\n\n.mr-auto,\n.mx-auto {\n  margin-right: auto !important; }\n\n.mb-auto,\n.my-auto {\n  margin-bottom: auto !important; }\n\n.ml-auto,\n.mx-auto {\n  margin-left: auto !important; }\n\n@media (min-width: 576px) {\n  .m-sm-0 {\n    margin: 0 !important; }\n  .mt-sm-0,\n  .my-sm-0 {\n    margin-top: 0 !important; }\n  .mr-sm-0,\n  .mx-sm-0 {\n    margin-right: 0 !important; }\n  .mb-sm-0,\n  .my-sm-0 {\n    margin-bottom: 0 !important; }\n  .ml-sm-0,\n  .mx-sm-0 {\n    margin-left: 0 !important; }\n  .m-sm-1 {\n    margin: 0.25rem !important; }\n  .mt-sm-1,\n  .my-sm-1 {\n    margin-top: 0.25rem !important; }\n  .mr-sm-1,\n  .mx-sm-1 {\n    margin-right: 0.25rem !important; }\n  .mb-sm-1,\n  .my-sm-1 {\n    margin-bottom: 0.25rem !important; }\n  .ml-sm-1,\n  .mx-sm-1 {\n    margin-left: 0.25rem !important; }\n  .m-sm-2 {\n    margin: 0.5rem !important; }\n  .mt-sm-2,\n  .my-sm-2 {\n    margin-top: 0.5rem !important; }\n  .mr-sm-2,\n  .mx-sm-2 {\n    margin-right: 0.5rem !important; }\n  .mb-sm-2,\n  .my-sm-2 {\n    margin-bottom: 0.5rem !important; }\n  .ml-sm-2,\n  .mx-sm-2 {\n    margin-left: 0.5rem !important; }\n  .m-sm-3 {\n    margin: 1rem !important; }\n  .mt-sm-3,\n  .my-sm-3 {\n    margin-top: 1rem !important; }\n  .mr-sm-3,\n  .mx-sm-3 {\n    margin-right: 1rem !important; }\n  .mb-sm-3,\n  .my-sm-3 {\n    margin-bottom: 1rem !important; }\n  .ml-sm-3,\n  .mx-sm-3 {\n    margin-left: 1rem !important; }\n  .m-sm-4 {\n    margin: 1.5rem !important; }\n  .mt-sm-4,\n  .my-sm-4 {\n    margin-top: 1.5rem !important; }\n  .mr-sm-4,\n  .mx-sm-4 {\n    margin-right: 1.5rem !important; }\n  .mb-sm-4,\n  .my-sm-4 {\n    margin-bottom: 1.5rem !important; }\n  .ml-sm-4,\n  .mx-sm-4 {\n    margin-left: 1.5rem !important; }\n  .m-sm-5 {\n    margin: 3rem !important; }\n  .mt-sm-5,\n  .my-sm-5 {\n    margin-top: 3rem !important; }\n  .mr-sm-5,\n  .mx-sm-5 {\n    margin-right: 3rem !important; }\n  .mb-sm-5,\n  .my-sm-5 {\n    margin-bottom: 3rem !important; }\n  .ml-sm-5,\n  .mx-sm-5 {\n    margin-left: 3rem !important; }\n  .p-sm-0 {\n    padding: 0 !important; }\n  .pt-sm-0,\n  .py-sm-0 {\n    padding-top: 0 !important; }\n  .pr-sm-0,\n  .px-sm-0 {\n    padding-right: 0 !important; }\n  .pb-sm-0,\n  .py-sm-0 {\n    padding-bottom: 0 !important; }\n  .pl-sm-0,\n  .px-sm-0 {\n    padding-left: 0 !important; }\n  .p-sm-1 {\n    padding: 0.25rem !important; }\n  .pt-sm-1,\n  .py-sm-1 {\n    padding-top: 0.25rem !important; }\n  .pr-sm-1,\n  .px-sm-1 {\n    padding-right: 0.25rem !important; }\n  .pb-sm-1,\n  .py-sm-1 {\n    padding-bottom: 0.25rem !important; }\n  .pl-sm-1,\n  .px-sm-1 {\n    padding-left: 0.25rem !important; }\n  .p-sm-2 {\n    padding: 0.5rem !important; }\n  .pt-sm-2,\n  .py-sm-2 {\n    padding-top: 0.5rem !important; }\n  .pr-sm-2,\n  .px-sm-2 {\n    padding-right: 0.5rem !important; }\n  .pb-sm-2,\n  .py-sm-2 {\n    padding-bottom: 0.5rem !important; }\n  .pl-sm-2,\n  .px-sm-2 {\n    padding-left: 0.5rem !important; }\n  .p-sm-3 {\n    padding: 1rem !important; }\n  .pt-sm-3,\n  .py-sm-3 {\n    padding-top: 1rem !important; }\n  .pr-sm-3,\n  .px-sm-3 {\n    padding-right: 1rem !important; }\n  .pb-sm-3,\n  .py-sm-3 {\n    padding-bottom: 1rem !important; }\n  .pl-sm-3,\n  .px-sm-3 {\n    padding-left: 1rem !important; }\n  .p-sm-4 {\n    padding: 1.5rem !important; }\n  .pt-sm-4,\n  .py-sm-4 {\n    padding-top: 1.5rem !important; }\n  .pr-sm-4,\n  .px-sm-4 {\n    padding-right: 1.5rem !important; }\n  .pb-sm-4,\n  .py-sm-4 {\n    padding-bottom: 1.5rem !important; }\n  .pl-sm-4,\n  .px-sm-4 {\n    padding-left: 1.5rem !important; }\n  .p-sm-5 {\n    padding: 3rem !important; }\n  .pt-sm-5,\n  .py-sm-5 {\n    padding-top: 3rem !important; }\n  .pr-sm-5,\n  .px-sm-5 {\n    padding-right: 3rem !important; }\n  .pb-sm-5,\n  .py-sm-5 {\n    padding-bottom: 3rem !important; }\n  .pl-sm-5,\n  .px-sm-5 {\n    padding-left: 3rem !important; }\n  .m-sm-auto {\n    margin: auto !important; }\n  .mt-sm-auto,\n  .my-sm-auto {\n    margin-top: auto !important; }\n  .mr-sm-auto,\n  .mx-sm-auto {\n    margin-right: auto !important; }\n  .mb-sm-auto,\n  .my-sm-auto {\n    margin-bottom: auto !important; }\n  .ml-sm-auto,\n  .mx-sm-auto {\n    margin-left: auto !important; } }\n\n@media (min-width: 768px) {\n  .m-md-0 {\n    margin: 0 !important; }\n  .mt-md-0,\n  .my-md-0 {\n    margin-top: 0 !important; }\n  .mr-md-0,\n  .mx-md-0 {\n    margin-right: 0 !important; }\n  .mb-md-0,\n  .my-md-0 {\n    margin-bottom: 0 !important; }\n  .ml-md-0,\n  .mx-md-0 {\n    margin-left: 0 !important; }\n  .m-md-1 {\n    margin: 0.25rem !important; }\n  .mt-md-1,\n  .my-md-1 {\n    margin-top: 0.25rem !important; }\n  .mr-md-1,\n  .mx-md-1 {\n    margin-right: 0.25rem !important; }\n  .mb-md-1,\n  .my-md-1 {\n    margin-bottom: 0.25rem !important; }\n  .ml-md-1,\n  .mx-md-1 {\n    margin-left: 0.25rem !important; }\n  .m-md-2 {\n    margin: 0.5rem !important; }\n  .mt-md-2,\n  .my-md-2 {\n    margin-top: 0.5rem !important; }\n  .mr-md-2,\n  .mx-md-2 {\n    margin-right: 0.5rem !important; }\n  .mb-md-2,\n  .my-md-2 {\n    margin-bottom: 0.5rem !important; }\n  .ml-md-2,\n  .mx-md-2 {\n    margin-left: 0.5rem !important; }\n  .m-md-3 {\n    margin: 1rem !important; }\n  .mt-md-3,\n  .my-md-3 {\n    margin-top: 1rem !important; }\n  .mr-md-3,\n  .mx-md-3 {\n    margin-right: 1rem !important; }\n  .mb-md-3,\n  .my-md-3 {\n    margin-bottom: 1rem !important; }\n  .ml-md-3,\n  .mx-md-3 {\n    margin-left: 1rem !important; }\n  .m-md-4 {\n    margin: 1.5rem !important; }\n  .mt-md-4,\n  .my-md-4 {\n    margin-top: 1.5rem !important; }\n  .mr-md-4,\n  .mx-md-4 {\n    margin-right: 1.5rem !important; }\n  .mb-md-4,\n  .my-md-4 {\n    margin-bottom: 1.5rem !important; }\n  .ml-md-4,\n  .mx-md-4 {\n    margin-left: 1.5rem !important; }\n  .m-md-5 {\n    margin: 3rem !important; }\n  .mt-md-5,\n  .my-md-5 {\n    margin-top: 3rem !important; }\n  .mr-md-5,\n  .mx-md-5 {\n    margin-right: 3rem !important; }\n  .mb-md-5,\n  .my-md-5 {\n    margin-bottom: 3rem !important; }\n  .ml-md-5,\n  .mx-md-5 {\n    margin-left: 3rem !important; }\n  .p-md-0 {\n    padding: 0 !important; }\n  .pt-md-0,\n  .py-md-0 {\n    padding-top: 0 !important; }\n  .pr-md-0,\n  .px-md-0 {\n    padding-right: 0 !important; }\n  .pb-md-0,\n  .py-md-0 {\n    padding-bottom: 0 !important; }\n  .pl-md-0,\n  .px-md-0 {\n    padding-left: 0 !important; }\n  .p-md-1 {\n    padding: 0.25rem !important; }\n  .pt-md-1,\n  .py-md-1 {\n    padding-top: 0.25rem !important; }\n  .pr-md-1,\n  .px-md-1 {\n    padding-right: 0.25rem !important; }\n  .pb-md-1,\n  .py-md-1 {\n    padding-bottom: 0.25rem !important; }\n  .pl-md-1,\n  .px-md-1 {\n    padding-left: 0.25rem !important; }\n  .p-md-2 {\n    padding: 0.5rem !important; }\n  .pt-md-2,\n  .py-md-2 {\n    padding-top: 0.5rem !important; }\n  .pr-md-2,\n  .px-md-2 {\n    padding-right: 0.5rem !important; }\n  .pb-md-2,\n  .py-md-2 {\n    padding-bottom: 0.5rem !important; }\n  .pl-md-2,\n  .px-md-2 {\n    padding-left: 0.5rem !important; }\n  .p-md-3 {\n    padding: 1rem !important; }\n  .pt-md-3,\n  .py-md-3 {\n    padding-top: 1rem !important; }\n  .pr-md-3,\n  .px-md-3 {\n    padding-right: 1rem !important; }\n  .pb-md-3,\n  .py-md-3 {\n    padding-bottom: 1rem !important; }\n  .pl-md-3,\n  .px-md-3 {\n    padding-left: 1rem !important; }\n  .p-md-4 {\n    padding: 1.5rem !important; }\n  .pt-md-4,\n  .py-md-4 {\n    padding-top: 1.5rem !important; }\n  .pr-md-4,\n  .px-md-4 {\n    padding-right: 1.5rem !important; }\n  .pb-md-4,\n  .py-md-4 {\n    padding-bottom: 1.5rem !important; }\n  .pl-md-4,\n  .px-md-4 {\n    padding-left: 1.5rem !important; }\n  .p-md-5 {\n    padding: 3rem !important; }\n  .pt-md-5,\n  .py-md-5 {\n    padding-top: 3rem !important; }\n  .pr-md-5,\n  .px-md-5 {\n    padding-right: 3rem !important; }\n  .pb-md-5,\n  .py-md-5 {\n    padding-bottom: 3rem !important; }\n  .pl-md-5,\n  .px-md-5 {\n    padding-left: 3rem !important; }\n  .m-md-auto {\n    margin: auto !important; }\n  .mt-md-auto,\n  .my-md-auto {\n    margin-top: auto !important; }\n  .mr-md-auto,\n  .mx-md-auto {\n    margin-right: auto !important; }\n  .mb-md-auto,\n  .my-md-auto {\n    margin-bottom: auto !important; }\n  .ml-md-auto,\n  .mx-md-auto {\n    margin-left: auto !important; } }\n\n@media (min-width: 992px) {\n  .m-lg-0 {\n    margin: 0 !important; }\n  .mt-lg-0,\n  .my-lg-0 {\n    margin-top: 0 !important; }\n  .mr-lg-0,\n  .mx-lg-0 {\n    margin-right: 0 !important; }\n  .mb-lg-0,\n  .my-lg-0 {\n    margin-bottom: 0 !important; }\n  .ml-lg-0,\n  .mx-lg-0 {\n    margin-left: 0 !important; }\n  .m-lg-1 {\n    margin: 0.25rem !important; }\n  .mt-lg-1,\n  .my-lg-1 {\n    margin-top: 0.25rem !important; }\n  .mr-lg-1,\n  .mx-lg-1 {\n    margin-right: 0.25rem !important; }\n  .mb-lg-1,\n  .my-lg-1 {\n    margin-bottom: 0.25rem !important; }\n  .ml-lg-1,\n  .mx-lg-1 {\n    margin-left: 0.25rem !important; }\n  .m-lg-2 {\n    margin: 0.5rem !important; }\n  .mt-lg-2,\n  .my-lg-2 {\n    margin-top: 0.5rem !important; }\n  .mr-lg-2,\n  .mx-lg-2 {\n    margin-right: 0.5rem !important; }\n  .mb-lg-2,\n  .my-lg-2 {\n    margin-bottom: 0.5rem !important; }\n  .ml-lg-2,\n  .mx-lg-2 {\n    margin-left: 0.5rem !important; }\n  .m-lg-3 {\n    margin: 1rem !important; }\n  .mt-lg-3,\n  .my-lg-3 {\n    margin-top: 1rem !important; }\n  .mr-lg-3,\n  .mx-lg-3 {\n    margin-right: 1rem !important; }\n  .mb-lg-3,\n  .my-lg-3 {\n    margin-bottom: 1rem !important; }\n  .ml-lg-3,\n  .mx-lg-3 {\n    margin-left: 1rem !important; }\n  .m-lg-4 {\n    margin: 1.5rem !important; }\n  .mt-lg-4,\n  .my-lg-4 {\n    margin-top: 1.5rem !important; }\n  .mr-lg-4,\n  .mx-lg-4 {\n    margin-right: 1.5rem !important; }\n  .mb-lg-4,\n  .my-lg-4 {\n    margin-bottom: 1.5rem !important; }\n  .ml-lg-4,\n  .mx-lg-4 {\n    margin-left: 1.5rem !important; }\n  .m-lg-5 {\n    margin: 3rem !important; }\n  .mt-lg-5,\n  .my-lg-5 {\n    margin-top: 3rem !important; }\n  .mr-lg-5,\n  .mx-lg-5 {\n    margin-right: 3rem !important; }\n  .mb-lg-5,\n  .my-lg-5 {\n    margin-bottom: 3rem !important; }\n  .ml-lg-5,\n  .mx-lg-5 {\n    margin-left: 3rem !important; }\n  .p-lg-0 {\n    padding: 0 !important; }\n  .pt-lg-0,\n  .py-lg-0 {\n    padding-top: 0 !important; }\n  .pr-lg-0,\n  .px-lg-0 {\n    padding-right: 0 !important; }\n  .pb-lg-0,\n  .py-lg-0 {\n    padding-bottom: 0 !important; }\n  .pl-lg-0,\n  .px-lg-0 {\n    padding-left: 0 !important; }\n  .p-lg-1 {\n    padding: 0.25rem !important; }\n  .pt-lg-1,\n  .py-lg-1 {\n    padding-top: 0.25rem !important; }\n  .pr-lg-1,\n  .px-lg-1 {\n    padding-right: 0.25rem !important; }\n  .pb-lg-1,\n  .py-lg-1 {\n    padding-bottom: 0.25rem !important; }\n  .pl-lg-1,\n  .px-lg-1 {\n    padding-left: 0.25rem !important; }\n  .p-lg-2 {\n    padding: 0.5rem !important; }\n  .pt-lg-2,\n  .py-lg-2 {\n    padding-top: 0.5rem !important; }\n  .pr-lg-2,\n  .px-lg-2 {\n    padding-right: 0.5rem !important; }\n  .pb-lg-2,\n  .py-lg-2 {\n    padding-bottom: 0.5rem !important; }\n  .pl-lg-2,\n  .px-lg-2 {\n    padding-left: 0.5rem !important; }\n  .p-lg-3 {\n    padding: 1rem !important; }\n  .pt-lg-3,\n  .py-lg-3 {\n    padding-top: 1rem !important; }\n  .pr-lg-3,\n  .px-lg-3 {\n    padding-right: 1rem !important; }\n  .pb-lg-3,\n  .py-lg-3 {\n    padding-bottom: 1rem !important; }\n  .pl-lg-3,\n  .px-lg-3 {\n    padding-left: 1rem !important; }\n  .p-lg-4 {\n    padding: 1.5rem !important; }\n  .pt-lg-4,\n  .py-lg-4 {\n    padding-top: 1.5rem !important; }\n  .pr-lg-4,\n  .px-lg-4 {\n    padding-right: 1.5rem !important; }\n  .pb-lg-4,\n  .py-lg-4 {\n    padding-bottom: 1.5rem !important; }\n  .pl-lg-4,\n  .px-lg-4 {\n    padding-left: 1.5rem !important; }\n  .p-lg-5 {\n    padding: 3rem !important; }\n  .pt-lg-5,\n  .py-lg-5 {\n    padding-top: 3rem !important; }\n  .pr-lg-5,\n  .px-lg-5 {\n    padding-right: 3rem !important; }\n  .pb-lg-5,\n  .py-lg-5 {\n    padding-bottom: 3rem !important; }\n  .pl-lg-5,\n  .px-lg-5 {\n    padding-left: 3rem !important; }\n  .m-lg-auto {\n    margin: auto !important; }\n  .mt-lg-auto,\n  .my-lg-auto {\n    margin-top: auto !important; }\n  .mr-lg-auto,\n  .mx-lg-auto {\n    margin-right: auto !important; }\n  .mb-lg-auto,\n  .my-lg-auto {\n    margin-bottom: auto !important; }\n  .ml-lg-auto,\n  .mx-lg-auto {\n    margin-left: auto !important; } }\n\n@media (min-width: 1200px) {\n  .m-xl-0 {\n    margin: 0 !important; }\n  .mt-xl-0,\n  .my-xl-0 {\n    margin-top: 0 !important; }\n  .mr-xl-0,\n  .mx-xl-0 {\n    margin-right: 0 !important; }\n  .mb-xl-0,\n  .my-xl-0 {\n    margin-bottom: 0 !important; }\n  .ml-xl-0,\n  .mx-xl-0 {\n    margin-left: 0 !important; }\n  .m-xl-1 {\n    margin: 0.25rem !important; }\n  .mt-xl-1,\n  .my-xl-1 {\n    margin-top: 0.25rem !important; }\n  .mr-xl-1,\n  .mx-xl-1 {\n    margin-right: 0.25rem !important; }\n  .mb-xl-1,\n  .my-xl-1 {\n    margin-bottom: 0.25rem !important; }\n  .ml-xl-1,\n  .mx-xl-1 {\n    margin-left: 0.25rem !important; }\n  .m-xl-2 {\n    margin: 0.5rem !important; }\n  .mt-xl-2,\n  .my-xl-2 {\n    margin-top: 0.5rem !important; }\n  .mr-xl-2,\n  .mx-xl-2 {\n    margin-right: 0.5rem !important; }\n  .mb-xl-2,\n  .my-xl-2 {\n    margin-bottom: 0.5rem !important; }\n  .ml-xl-2,\n  .mx-xl-2 {\n    margin-left: 0.5rem !important; }\n  .m-xl-3 {\n    margin: 1rem !important; }\n  .mt-xl-3,\n  .my-xl-3 {\n    margin-top: 1rem !important; }\n  .mr-xl-3,\n  .mx-xl-3 {\n    margin-right: 1rem !important; }\n  .mb-xl-3,\n  .my-xl-3 {\n    margin-bottom: 1rem !important; }\n  .ml-xl-3,\n  .mx-xl-3 {\n    margin-left: 1rem !important; }\n  .m-xl-4 {\n    margin: 1.5rem !important; }\n  .mt-xl-4,\n  .my-xl-4 {\n    margin-top: 1.5rem !important; }\n  .mr-xl-4,\n  .mx-xl-4 {\n    margin-right: 1.5rem !important; }\n  .mb-xl-4,\n  .my-xl-4 {\n    margin-bottom: 1.5rem !important; }\n  .ml-xl-4,\n  .mx-xl-4 {\n    margin-left: 1.5rem !important; }\n  .m-xl-5 {\n    margin: 3rem !important; }\n  .mt-xl-5,\n  .my-xl-5 {\n    margin-top: 3rem !important; }\n  .mr-xl-5,\n  .mx-xl-5 {\n    margin-right: 3rem !important; }\n  .mb-xl-5,\n  .my-xl-5 {\n    margin-bottom: 3rem !important; }\n  .ml-xl-5,\n  .mx-xl-5 {\n    margin-left: 3rem !important; }\n  .p-xl-0 {\n    padding: 0 !important; }\n  .pt-xl-0,\n  .py-xl-0 {\n    padding-top: 0 !important; }\n  .pr-xl-0,\n  .px-xl-0 {\n    padding-right: 0 !important; }\n  .pb-xl-0,\n  .py-xl-0 {\n    padding-bottom: 0 !important; }\n  .pl-xl-0,\n  .px-xl-0 {\n    padding-left: 0 !important; }\n  .p-xl-1 {\n    padding: 0.25rem !important; }\n  .pt-xl-1,\n  .py-xl-1 {\n    padding-top: 0.25rem !important; }\n  .pr-xl-1,\n  .px-xl-1 {\n    padding-right: 0.25rem !important; }\n  .pb-xl-1,\n  .py-xl-1 {\n    padding-bottom: 0.25rem !important; }\n  .pl-xl-1,\n  .px-xl-1 {\n    padding-left: 0.25rem !important; }\n  .p-xl-2 {\n    padding: 0.5rem !important; }\n  .pt-xl-2,\n  .py-xl-2 {\n    padding-top: 0.5rem !important; }\n  .pr-xl-2,\n  .px-xl-2 {\n    padding-right: 0.5rem !important; }\n  .pb-xl-2,\n  .py-xl-2 {\n    padding-bottom: 0.5rem !important; }\n  .pl-xl-2,\n  .px-xl-2 {\n    padding-left: 0.5rem !important; }\n  .p-xl-3 {\n    padding: 1rem !important; }\n  .pt-xl-3,\n  .py-xl-3 {\n    padding-top: 1rem !important; }\n  .pr-xl-3,\n  .px-xl-3 {\n    padding-right: 1rem !important; }\n  .pb-xl-3,\n  .py-xl-3 {\n    padding-bottom: 1rem !important; }\n  .pl-xl-3,\n  .px-xl-3 {\n    padding-left: 1rem !important; }\n  .p-xl-4 {\n    padding: 1.5rem !important; }\n  .pt-xl-4,\n  .py-xl-4 {\n    padding-top: 1.5rem !important; }\n  .pr-xl-4,\n  .px-xl-4 {\n    padding-right: 1.5rem !important; }\n  .pb-xl-4,\n  .py-xl-4 {\n    padding-bottom: 1.5rem !important; }\n  .pl-xl-4,\n  .px-xl-4 {\n    padding-left: 1.5rem !important; }\n  .p-xl-5 {\n    padding: 3rem !important; }\n  .pt-xl-5,\n  .py-xl-5 {\n    padding-top: 3rem !important; }\n  .pr-xl-5,\n  .px-xl-5 {\n    padding-right: 3rem !important; }\n  .pb-xl-5,\n  .py-xl-5 {\n    padding-bottom: 3rem !important; }\n  .pl-xl-5,\n  .px-xl-5 {\n    padding-left: 3rem !important; }\n  .m-xl-auto {\n    margin: auto !important; }\n  .mt-xl-auto,\n  .my-xl-auto {\n    margin-top: auto !important; }\n  .mr-xl-auto,\n  .mx-xl-auto {\n    margin-right: auto !important; }\n  .mb-xl-auto,\n  .my-xl-auto {\n    margin-bottom: auto !important; }\n  .ml-xl-auto,\n  .mx-xl-auto {\n    margin-left: auto !important; } }\n\n.text-justify {\n  text-align: justify !important; }\n\n.text-nowrap {\n  white-space: nowrap !important; }\n\n.text-truncate {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap; }\n\n.text-left {\n  text-align: left !important; }\n\n.text-right {\n  text-align: right !important; }\n\n.text-center {\n  text-align: center !important; }\n\n@media (min-width: 576px) {\n  .text-sm-left {\n    text-align: left !important; }\n  .text-sm-right {\n    text-align: right !important; }\n  .text-sm-center {\n    text-align: center !important; } }\n\n@media (min-width: 768px) {\n  .text-md-left {\n    text-align: left !important; }\n  .text-md-right {\n    text-align: right !important; }\n  .text-md-center {\n    text-align: center !important; } }\n\n@media (min-width: 992px) {\n  .text-lg-left {\n    text-align: left !important; }\n  .text-lg-right {\n    text-align: right !important; }\n  .text-lg-center {\n    text-align: center !important; } }\n\n@media (min-width: 1200px) {\n  .text-xl-left {\n    text-align: left !important; }\n  .text-xl-right {\n    text-align: right !important; }\n  .text-xl-center {\n    text-align: center !important; } }\n\n.text-lowercase {\n  text-transform: lowercase !important; }\n\n.text-uppercase {\n  text-transform: uppercase !important; }\n\n.text-capitalize {\n  text-transform: capitalize !important; }\n\n.font-weight-light {\n  font-weight: 300 !important; }\n\n.font-weight-normal {\n  font-weight: 400 !important; }\n\n.font-weight-bold {\n  font-weight: 700 !important; }\n\n.font-italic {\n  font-style: italic !important; }\n\n.text-white {\n  color: #fff !important; }\n\n.text-primary {\n  color: #007bff !important; }\n\na.text-primary:focus, a.text-primary:hover {\n  color: #0062cc !important; }\n\n.text-secondary {\n  color: #868e96 !important; }\n\na.text-secondary:focus, a.text-secondary:hover {\n  color: #6c757d !important; }\n\n.text-success {\n  color: #28a745 !important; }\n\na.text-success:focus, a.text-success:hover {\n  color: #1e7e34 !important; }\n\n.text-info {\n  color: #17a2b8 !important; }\n\na.text-info:focus, a.text-info:hover {\n  color: #117a8b !important; }\n\n.text-warning {\n  color: #ffc107 !important; }\n\na.text-warning:focus, a.text-warning:hover {\n  color: #d39e00 !important; }\n\n.text-danger {\n  color: #dc3545 !important; }\n\na.text-danger:focus, a.text-danger:hover {\n  color: #bd2130 !important; }\n\n.text-light {\n  color: #f8f9fa !important; }\n\na.text-light:focus, a.text-light:hover {\n  color: #dae0e5 !important; }\n\n.text-dark {\n  color: #343a40 !important; }\n\na.text-dark:focus, a.text-dark:hover {\n  color: #1d2124 !important; }\n\n.text-muted {\n  color: #868e96 !important; }\n\n.text-hide {\n  font: 0/0 a;\n  color: transparent;\n  text-shadow: none;\n  background-color: transparent;\n  border: 0; }\n\n.visible {\n  visibility: visible !important; }\n\n.invisible {\n  visibility: hidden !important; }\n\n.alert {\n  border-style: solid; }\n  .alert .close {\n    font-size: 0.875rem;\n    height: 2rem;\n    padding-bottom: 0;\n    padding-left: 0;\n    padding-right: 0;\n    padding-top: 0;\n    position: absolute;\n    right: 0.5rem;\n    top: 0.75rem;\n    width: 2rem; }\n  .alert .lead {\n    margin-right: 0.3125rem; }\n\n.alert-link,\n.alert-link.btn-unstyled {\n  font-weight: 700; }\n  .alert-link:focus, .alert-link:hover,\n  .alert-link.btn-unstyled:focus,\n  .alert-link.btn-unstyled:hover {\n    text-decoration: underline; }\n\n.alert-indicator {\n  font-size: 1.25rem; }\n  .alert-indicator + .lead {\n    margin-left: 0.3125rem; }\n\n.alert-dismissible {\n  padding-right: 2.5rem; }\n\n.alert-fluid {\n  border-radius: 0;\n  border-width: 0 0 1px 0;\n  margin-bottom: 0;\n  padding: 0; }\n  .alert-fluid.alert-dismissible .container,\n  .alert-fluid.alert-dismissible .container-fluid {\n    padding-right: calc(2.5rem + 15px);\n    position: relative; }\n  .alert-fluid .container,\n  .alert-fluid .container-fluid {\n    padding: 0.75rem 1.25rem; }\n  .alert-fluid .close {\n    right: calc(15px + 0.25rem); }\n\n.alert-container {\n  height: 0;\n  position: relative; }\n\n.alert-notifications .alert {\n  width: 22.5rem; }\n  .alert-notifications .alert:last-child {\n    margin-bottom: 0; }\n\n.alert-notifications-absolute {\n  height: 0;\n  position: absolute;\n  right: 0.5rem;\n  top: 4.75rem;\n  z-index: 5000; }\n\n.alert-notifications-fixed {\n  height: 0;\n  position: fixed;\n  right: 1.25rem;\n  top: 4.75rem;\n  z-index: 5000; }\n\n.aspect-ratio {\n  display: block;\n  overflow: hidden;\n  position: relative;\n  padding-bottom: 100%; }\n\n.aspect-ratio-item {\n  position: absolute;\n  word-wrap: break-word; }\n\n.aspect-ratio-item-fluid {\n  max-width: 100%;\n  position: absolute;\n  word-wrap: break-word; }\n\n.aspect-ratio-item-vertical-fluid {\n  max-height: 100%;\n  position: absolute;\n  word-wrap: break-word; }\n\n.aspect-ratio-item-top-center {\n  position: absolute;\n  bottom: auto;\n  left: 50%;\n  right: auto;\n  top: 0;\n  transform: translateX(-50%); }\n\n.aspect-ratio-item-top-right {\n  position: absolute;\n  bottom: auto;\n  left: auto;\n  right: 0;\n  top: 0; }\n\n.aspect-ratio-item-right-middle {\n  position: absolute;\n  bottom: auto;\n  left: auto;\n  right: 0;\n  top: 50%;\n  transform: translateY(-50%); }\n\n.aspect-ratio-item-bottom-right {\n  position: absolute;\n  bottom: 0;\n  left: auto;\n  right: 0;\n  top: auto; }\n\n.aspect-ratio-item-bottom-center {\n  position: absolute;\n  bottom: 0;\n  left: 50%;\n  right: auto;\n  transform: translateX(-50%); }\n\n.aspect-ratio-item-bottom-left {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  right: auto;\n  top: auto; }\n\n.aspect-ratio-item-left-middle {\n  position: absolute;\n  bottom: auto;\n  left: 0;\n  right: auto;\n  top: 50%;\n  transform: translateY(-50%); }\n\n.aspect-ratio-item-center-middle {\n  position: absolute;\n  bottom: auto;\n  left: 50%;\n  right: auto;\n  top: 50%;\n  transform: translate(-50%, -50%); }\n\n.aspect-ratio-3-to-2 {\n  padding-bottom: 66.66667%; }\n\n.aspect-ratio-4-to-3 {\n  padding-bottom: 75%; }\n\n.aspect-ratio-8-to-5 {\n  padding-bottom: 62.5%; }\n\n.aspect-ratio-16-to-9 {\n  padding-bottom: 56.25%; }\n\n.aspect-ratio-bg-cover {\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover; }\n\n.aspect-ratio-bg-center {\n  background-position: center;\n  background-repeat: no-repeat; }\n\n.badge {\n  border-color: transparent;\n  border-style: solid;\n  border-width: 1px;\n  margin-bottom: 2px;\n  margin-top: 2px;\n  max-width: 100%;\n  white-space: normal;\n  word-wrap: break-word; }\n  .badge a {\n    color: #FFF;\n    text-decoration: underline; }\n    .badge a:focus, .badge a:hover {\n      text-decoration: none; }\n  .badge .close {\n    color: inherit;\n    float: none;\n    font-size: inherit;\n    margin-left: 2px;\n    opacity: 1;\n    vertical-align: middle; }\n  .badge .lexicon-icon {\n    height: 9px;\n    width: 9px; }\n\n.breadcrumb-link {\n  display: block;\n  color: #007bff; }\n  .breadcrumb-link:focus, .breadcrumb-link:hover {\n    color: #0056b3; }\n  .breadcrumb-link > .breadcrumb-text-truncate {\n    text-decoration: none; }\n    .breadcrumb-link > .breadcrumb-text-truncate:focus, .breadcrumb-link > .breadcrumb-text-truncate:hover {\n      text-decoration: underline; }\n\n.breadcrumb-item {\n  margin-right: 0.5em;\n  position: relative; }\n  .breadcrumb-item + .breadcrumb-item {\n    padding-left: 1em; }\n    .breadcrumb-item + .breadcrumb-item::before {\n      float: left;\n      background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='512'%20height='512'%20viewBox='0%200%20512%20512'%3E%3Cpath%20class='lexicon-icon-outline'%20d='M396.394%20255.607a28.207%2028.207%200%200%200-8.272-19.111L160.901%209.275c-11.026-11.059-28.94-11.059-39.999%200-11.058%2011.026-11.058%2028.941%200%2039.999l206.333%20206.333L120.902%20461.94c-11.058%2011.058-11.058%2028.973%200%2039.999%2011.059%2011.059%2028.972%2011.059%2039.999%200l227.221-227.221a28.196%2028.196%200%200%200%208.272-19.111z'%20fill='%23868e96'/%3E%3C/svg%3E\");\n      background-repeat: no-repeat;\n      background-size: 100%;\n      content: '';\n      display: block;\n      height: 0.75em;\n      left: 0;\n      margin-top: -0.375em;\n      padding: 0;\n      position: absolute;\n      top: 50%;\n      width: 0.75em; }\n  .breadcrumb-item .dropdown-toggle {\n    text-decoration: none; }\n    .breadcrumb-item .dropdown-toggle:focus, .breadcrumb-item .dropdown-toggle:hover {\n      text-decoration: none; }\n\n.breadcrumb-text-truncate {\n  display: inline-block;\n  max-width: 17.875rem;\n  pointer-events: none;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  vertical-align: bottom; }\n\n.btn-group > .btn:focus,\n.btn-group-vertical > .btn:focus {\n  z-index: 3; }\n\n.btn-group > .btn:active, .btn-group > .btn.active,\n.btn-group-vertical > .btn:active,\n.btn-group-vertical > .btn.active {\n  z-index: 2; }\n\n.btn-toolbar .btn-group,\n.btn-toolbar .input-group {\n  margin-bottom: 0.125rem;\n  margin-top: 0.125rem; }\n  .btn-toolbar .btn-group:not(:last-child),\n  .btn-toolbar .input-group:not(:last-child) {\n    margin-right: 0.5rem; }\n\n.btn-group-lg .btn-monospaced {\n  padding: 0; }\n\n.btn-group-sm .btn-monospaced {\n  padding: 0; }\n\n.btn {\n  cursor: pointer; }\n  .btn.disabled, .btn:disabled {\n    cursor: not-allowed; }\n\n.btn-link {\n  border-radius: 1px; }\n  .btn-link:focus {\n    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);\n    text-decoration: none; }\n  .btn-link:hover {\n    text-decoration: underline; }\n\n.btn-unstyled, .menubar-toggler {\n  background-color: rgba(0, 0, 0, 0.001);\n  border-radius: 1px;\n  border-width: 0;\n  font-size: inherit;\n  font-weight: inherit;\n  max-width: 100%;\n  padding: 0;\n  text-align: left;\n  line-height: inherit;\n  vertical-align: baseline; }\n\n.btn-monospaced {\n  height: 2.375rem;\n  overflow: hidden;\n  padding: 0;\n  text-align: center;\n  white-space: normal;\n  width: 2.375rem;\n  word-wrap: break-word; }\n  .btn-monospaced.btn-lg, .btn-group-lg > .btn-monospaced.btn, .btn-group-lg .btn-group > .btn-monospaced.btn {\n    height: 3rem;\n    width: 3rem; }\n  .btn-monospaced.btn-sm, .btn-group-sm > .btn-monospaced.btn, .btn-group-sm .btn-group > .btn-monospaced.btn {\n    height: 1.9375rem;\n    width: 1.9375rem; }\n  .btn-monospaced .lexicon-icon {\n    display: block;\n    height: 100%;\n    margin: auto; }\n\n.btn-borderless {\n  border-color: transparent; }\n  .btn-borderless:focus, .btn-borderless:hover {\n    border-color: transparent; }\n  .btn-borderless:disabled, .btn-borderless.disabled {\n    border-color: transparent; }\n\n.card,\n.card-horizontal {\n  border-style: solid;\n  display: block;\n  margin-bottom: 1.25rem;\n  position: relative; }\n  .card .flex-col:first-child,\n  .card-horizontal .flex-col:first-child {\n    border-top-left-radius: calc(0.25rem - 1px);\n    border-bottom-left-radius: calc(0.25rem - 1px); }\n  .card .flex-col:last-child,\n  .card-horizontal .flex-col:last-child {\n    border-top-right-radius: calc(0.25rem - 1px);\n    border-bottom-right-radius: calc(0.25rem - 1px); }\n\n.card-section-header {\n  color: #868e96;\n  font-size: 0.75rem;\n  line-height: 2.5;\n  margin-bottom: 1.5rem;\n  padding: 0 15px;\n  text-transform: uppercase; }\n\n.card-title {\n  font-size: 1rem;\n  font-weight: 500;\n  margin-bottom: 0.5rem; }\n\n.card-subtitle {\n  color: #868e96;\n  font-size: 0.875rem;\n  margin-bottom: 0.5rem;\n  margin-top: -0.5rem; }\n\n.card-divider {\n  background-color: rgba(0, 0, 0, 0.125);\n  height: 1px;\n  margin-bottom: 10px;\n  margin-top: 10px; }\n\n.card-link {\n  color: #007bff; }\n  .card-link:focus, .card-link:hover {\n    color: #0056b3;\n    text-decoration: none; }\n  .card-link + .card-link {\n    margin-left: 0; }\n  .card-link.btn-link {\n    color: #007bff;\n    border-width: 0;\n    font-size: inherit;\n    font-weight: inherit;\n    max-width: 100%;\n    padding: 0;\n    text-align: left;\n    line-height: normal; }\n    .card-link.btn-link:focus, .card-link.btn-link:hover {\n      color: #0056b3;\n      text-decoration: none; }\n\nbutton.card-link {\n  background-color: transparent;\n  border-width: 0;\n  font-size: inherit;\n  font-weight: inherit;\n  max-width: 100%;\n  padding: 0;\n  text-align: left;\n  line-height: normal; }\n\n.card-row {\n  display: flex;\n  width: 100%; }\n  .card-row .flex-col {\n    justify-content: center;\n    padding-left: 0;\n    padding-right: 0; }\n  .card-row .flex-col-expand {\n    min-width: 25px; }\n\n.card-row .flex-col-gutters {\n  padding-left: 10px;\n  padding-right: 10px; }\n  .card-row .flex-col-gutters .card-divider {\n    margin-left: -10px;\n    margin-right: -10px; }\n\n.justify-content-center .flex-col {\n  justify-content: center; }\n\n.justify-content-start .flex-col {\n  justify-content: flex-start; }\n\n.justify-content-end .flex-col {\n  justify-content: flex-end; }\n\n.text-center .flex-col {\n  text-align: center; }\n\n.text-left .flex-col {\n  text-align: left; }\n\n.text-right .flex-col {\n  text-align: right; }\n\n.card-item-first {\n  border-top-left-radius: calc(0.25rem - 1px);\n  border-top-right-radius: calc(0.25rem - 1px);\n  width: 100%; }\n\n.flex-col:first-child .card-item-first {\n  border-radius: calc(0.25rem - 1px) 0 0 calc(0.25rem - 1px); }\n\n.card-item-last {\n  border-bottom-right-radius: calc(0.25rem - 1px);\n  border-bottom-left-radius: calc(0.25rem - 1px);\n  width: 100%; }\n\n.flex-col:last-child .card-item-last {\n  border-radius: 0 calc(0.25rem - 1px) calc(0.25rem - 1px) 0; }\n\n.rounded .card-header,\n.rounded .card-item-first {\n  border-top-left-radius: calc(0.25rem - 1px);\n  border-top-right-radius: calc(0.25rem - 1px); }\n\n.rounded .card-footer,\n.rounded .card-item-last {\n  border-bottom-left-radius: calc(0.25rem - 1px);\n  border-bottom-right-radius: calc(0.25rem - 1px); }\n\n.rounded .flex-col:first-child {\n  border-bottom-left-radius: calc(0.25rem - 1px);\n  border-top-left-radius: calc(0.25rem - 1px); }\n  .rounded .flex-col:first-child .card-item-first {\n    border-radius: calc(0.25rem - 1px) 0 0 calc(0.25rem - 1px); }\n\n.rounded .flex-col:last-child {\n  border-bottom-right-radius: calc(0.25rem - 1px);\n  border-top-right-radius: calc(0.25rem - 1px); }\n  .rounded .flex-col:last-child .card-item-last {\n    border-radius: 0 calc(0.25rem - 1px) calc(0.25rem - 1px) 0; }\n\n.rounded-0 .card-header,\n.rounded-0 .card-item-first {\n  border-top-left-radius: 0;\n  border-top-right-radius: 0; }\n\n.rounded-0 .card-footer,\n.rounded-0 .card-item-last {\n  border-bottom-left-radius: 0;\n  border-bottom-right-radius: 0; }\n\n.rounded-0 .flex-col:first-child {\n  border-bottom-left-radius: 0;\n  border-top-left-radius: 0; }\n  .rounded-0 .flex-col:first-child .card-item-first {\n    border-radius: 0 0 0 0; }\n\n.rounded-0 .flex-col:last-child {\n  border-bottom-right-radius: 0;\n  border-top-right-radius: 0; }\n  .rounded-0 .flex-col:last-child .card-item-last {\n    border-radius: 0 0 0 0; }\n\n.rounded-circle .card-header,\n.rounded-circle .card-item-first {\n  border-top-left-radius: calc(5000px - 1px);\n  border-top-right-radius: calc(5000px - 1px); }\n\n.rounded-circle .card-footer,\n.rounded-circle .card-item-last {\n  border-bottom-left-radius: calc(5000px - 1px);\n  border-bottom-right-radius: calc(5000px - 1px); }\n\n.rounded-circle .flex-col:first-child {\n  border-bottom-left-radius: calc(5000px - 1px);\n  border-top-left-radius: calc(5000px - 1px); }\n  .rounded-circle .flex-col:first-child .card-item-first {\n    border-radius: calc(5000px - 1px) 0 0 calc(5000px - 1px); }\n\n.rounded-circle .flex-col:last-child {\n  border-bottom-right-radius: calc(5000px - 1px);\n  border-top-right-radius: calc(5000px - 1px); }\n  .rounded-circle .flex-col:last-child .card-item-last {\n    border-radius: 0 calc(5000px - 1px) calc(5000px - 1px) 0; }\n\n.form-check-card {\n  margin-bottom: 1.25rem;\n  margin-top: 0; }\n  .form-check-card .card {\n    font-size: 1rem;\n    margin-bottom: 0; }\n  .form-check-card .custom-control {\n    display: inline;\n    margin-right: 0;\n    position: static; }\n    .form-check-card .custom-control > label {\n      font-weight: 400;\n      padding-left: 0; }\n  .form-check-card .custom-control-input,\n  .form-check-card .custom-control-indicator {\n    z-index: 1; }\n  .form-check-card .form-check-input {\n    margin-left: 0;\n    margin-top: 0;\n    position: absolute;\n    z-index: 1; }\n  .form-check-card .form-check-label {\n    color: #212529;\n    display: inline;\n    font-weight: 400;\n    padding-left: 0;\n    position: static; }\n  .form-check-card.active .card,\n  .form-check-card .custom-control-input:checked ~ .card,\n  .form-check-card .form-check-input:checked ~ .card {\n    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }\n\n.form-check-card:hover .card {\n  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }\n\n.custom-control-input:hover ~ .card,\n.form-check-input:hover ~ .card {\n  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }\n\n.form-check-bottom-left .card-horizontal > .card-body,\n.form-check-middle-left .card-horizontal > .card-body,\n.form-check-top-left .card-horizontal > .card-body {\n  padding-left: 40px; }\n\n.form-check-bottom-right .card-horizontal > .card-body,\n.form-check-middle-right .card-horizontal > .card-body,\n.form-check-top-right .card-horizontal > .card-body {\n  padding-right: 40px; }\n\n.form-check-bottom-left .custom-control-input,\n.form-check-bottom-left .custom-control-indicator,\n.form-check-bottom-left .form-check-input {\n  bottom: 1rem;\n  left: 1rem;\n  top: auto;\n  transform: none; }\n\n.form-check-bottom-right .custom-control-input,\n.form-check-bottom-right .custom-control-indicator,\n.form-check-bottom-right .form-check-input {\n  bottom: 1rem;\n  left: auto;\n  right: 1rem;\n  top: auto;\n  transform: none; }\n\n.form-check-middle-left .custom-control-input,\n.form-check-middle-left .custom-control-indicator,\n.form-check-middle-left .form-check-input {\n  left: 1rem;\n  margin-top: 0;\n  top: 50%;\n  transform: translateY(-50%); }\n\n.form-check-middle-right .custom-control-input,\n.form-check-middle-right .custom-control-indicator,\n.form-check-middle-right .form-check-input {\n  left: auto;\n  margin-top: 0;\n  right: 1rem;\n  top: 50%;\n  transform: translateY(-50%); }\n\n.form-check-top-left .custom-control-input,\n.form-check-top-left .custom-control-indicator,\n.form-check-top-left .form-check-input {\n  left: 1rem;\n  top: 1rem;\n  transform: none; }\n\n.form-check-top-right .custom-control-input,\n.form-check-top-right .custom-control-indicator,\n.form-check-top-right .form-check-input {\n  left: auto;\n  right: 1rem;\n  top: 1rem;\n  transform: none; }\n\n.card-type-asset .aspect-ratio {\n  border-bottom: 1px solid white;\n  padding-bottom: 56.25%; }\n\n.card-type-asset .aspect-ratio-item-fluid {\n  color: #ebecee;\n  font-size: 64px; }\n  .card-type-asset .aspect-ratio-item-fluid .sticker {\n    display: block;\n    border-radius: 100px; }\n    .card-type-asset .aspect-ratio-item-fluid .sticker .lexicon-icon {\n      font-size: 64px; }\n\n.card-type-asset .bg-checkered .aspect-ratio-item-fluid {\n  color: #212529; }\n\n.card-type-asset .card-row {\n  align-items: flex-start; }\n\n.card-type-asset .card-subtitle {\n  margin-bottom: 0; }\n\n.card-type-asset .dropdown-action {\n  margin-right: -8px;\n  margin-top: -3px; }\n\n.card-type-directory .card-title {\n  margin-bottom: 0; }\n\n.card-type-directory .dropdown-action {\n  margin-right: -8px; }\n\n.card-type-directory .sticker {\n  font-size: 18px; }\n\n.dropdown-header {\n  white-space: normal;\n  word-wrap: break-word; }\n\n.dropdown-subheader {\n  color: #868e96;\n  font-size: 0.75rem;\n  font-weight: 500;\n  padding: 0.5rem 1.5rem;\n  text-transform: uppercase;\n  white-space: normal;\n  word-wrap: break-word; }\n\n.dropdown-caption {\n  color: #868e96;\n  font-size: 0.875rem;\n  padding: 0.25rem 1.5rem;\n  white-space: normal;\n  word-wrap: break-word; }\n\n.dropdown-item {\n  overflow: hidden;\n  position: relative;\n  white-space: normal;\n  word-wrap: break-word; }\n  .dropdown-item.active label,\n  .dropdown-item.active .form-check-label {\n    color: #fff; }\n  .dropdown-item.disabled, .dropdown-item:disabled {\n    cursor: not-allowed; }\n    .dropdown-item.disabled label,\n    .dropdown-item.disabled .form-check-label, .dropdown-item:disabled label,\n    .dropdown-item:disabled .form-check-label {\n      color: #868e96; }\n    .dropdown-item.disabled.btn-link, .dropdown-item.disabled.btn-unstyled, .dropdown-item:disabled.btn-link, .dropdown-item:disabled.btn-unstyled {\n      opacity: 1; }\n  .dropdown-item.btn-link {\n    line-height: 1.5;\n    transition: none; }\n    .dropdown-item.btn-link:focus, .dropdown-item.btn-link:hover {\n      text-decoration: none; }\n  .dropdown-item.btn-unstyled {\n    font-weight: 400;\n    padding: 0.25rem 1.5rem;\n    transition: none; }\n  .dropdown-item .form-check {\n    margin-bottom: 0; }\n  .dropdown-item .custom-control {\n    margin-bottom: 0;\n    margin-right: 0;\n    min-height: 1rem; }\n\n.dropdown-section {\n  padding: 0.25rem 1.5rem; }\n\n.dropdown-menu {\n  max-height: 500px;\n  max-width: 260px;\n  overflow: auto; }\n  @media (max-width: 991px) {\n    .dropdown-menu {\n      max-height: 295px;\n      max-width: 230px; } }\n  .dropdown-menu .alert {\n    line-height: normal;\n    margin: 0.5rem;\n    padding: 0.5rem 1.5rem; }\n    .dropdown-menu .alert:first-child {\n      margin-top: 0; }\n    .dropdown-menu .alert:last-child {\n      margin-bottom: 0; }\n  .dropdown-menu .alert-fluid {\n    margin-left: 0;\n    margin-right: 0; }\n    .dropdown-menu .alert-fluid:first-child {\n      margin-top: -0.5rem; }\n    .dropdown-menu .alert-fluid:last-child {\n      margin-bottom: -0.5rem; }\n  .dropdown-menu .inline-scroller {\n    max-height: 200px; }\n    @media (max-width: 991px) {\n      .dropdown-menu .inline-scroller {\n        max-height: none; } }\n\n.dropdown-action {\n  display: inline-block;\n  vertical-align: middle; }\n  .dropdown-action > .dropdown-toggle {\n    border-radius: 0.25rem;\n    color: #007bff;\n    display: block;\n    height: 2rem;\n    line-height: 2rem;\n    width: 2rem;\n    text-align: center; }\n    .dropdown-action > .dropdown-toggle:hover {\n      color: #0056b3; }\n    .dropdown-action > .dropdown-toggle:disabled, .dropdown-action > .dropdown-toggle.disabled {\n      color: #868e96;\n      cursor: not-allowed;\n      opacity: 0.65; }\n\n.dropdown-menu-indicator-start .dropdown-item-indicator {\n  height: 1rem;\n  left: 1.5rem;\n  position: absolute;\n  top: 0.25rem;\n  width: 1rem; }\n\n.dropdown-menu-indicator-start .dropdown-header,\n.dropdown-menu-indicator-start .dropdown-subheader,\n.dropdown-menu-indicator-start .dropdown-caption,\n.dropdown-menu-indicator-start .dropdown-item {\n  padding-left: 3.5rem; }\n\n.dropdown-menu-indicator-end .dropdown-item-indicator {\n  position: absolute;\n  right: 1.5rem;\n  top: 0.25rem; }\n\n.dropdown-menu-indicator-end .dropdown-item {\n  padding-right: 3.5rem; }\n\n.dropdown-menu-top {\n  bottom: 100% !important;\n  left: 0 !important;\n  margin-top: 0;\n  margin-bottom: 0.125rem;\n  right: auto !important;\n  top: auto !important;\n  transform: none !important;\n  will-change: auto !important; }\n\n.dropdown-menu-top-right {\n  bottom: 100% !important;\n  left: auto !important;\n  margin-top: 0;\n  margin-bottom: 0.125rem;\n  right: 0 !important;\n  top: auto !important;\n  transform: none !important;\n  will-change: auto !important; }\n\n.dropdown-menu-top-center {\n  bottom: 100% !important;\n  left: 50% !important;\n  margin-top: 0;\n  margin-bottom: 0.125rem;\n  right: auto !important;\n  top: auto !important;\n  transform: translateX(-50%) !important;\n  will-change: auto !important; }\n\n.dropdown-menu-center {\n  bottom: auto !important;\n  left: 50% !important;\n  right: auto !important;\n  top: 100% !important;\n  transform: translateX(-50%) !important;\n  will-change: auto !important; }\n\n.dropdown-menu-left-side {\n  bottom: auto !important;\n  left: auto !important;\n  margin-right: 0.125rem;\n  margin-top: 0;\n  right: 100% !important;\n  top: 0 !important;\n  transform: none !important;\n  will-change: auto !important; }\n\n.dropdown-menu-left-side-bottom {\n  bottom: 0 !important;\n  left: auto !important;\n  margin-right: 0.125rem;\n  margin-top: 0;\n  right: 100% !important;\n  top: auto !important;\n  transform: none !important;\n  will-change: auto !important; }\n\n.dropdown-menu-left-side-middle {\n  bottom: auto !important;\n  left: auto !important;\n  margin-right: 0.125rem;\n  margin-top: 0;\n  right: 100% !important;\n  top: 50% !important;\n  transform: translate(0, -50%) !important;\n  will-change: auto !important; }\n\n.dropdown-menu-right-side {\n  bottom: auto !important;\n  left: 100% !important;\n  margin-left: 0.125rem;\n  margin-top: 0;\n  right: auto !important;\n  top: 0 !important;\n  transform: none !important;\n  will-change: auto !important; }\n\n.dropdown-menu-right-side-bottom {\n  bottom: 0 !important;\n  left: 100% !important;\n  margin-left: 0.125rem;\n  margin-top: 0;\n  right: auto !important;\n  top: auto !important;\n  transform: none !important;\n  will-change: auto !important; }\n\n.dropdown-menu-right-side-middle {\n  bottom: auto !important;\n  left: 100% !important;\n  margin-left: 0.125rem;\n  margin-top: 0;\n  right: auto !important;\n  top: 50% !important;\n  transform: translate(0, -50%) !important;\n  will-change: auto !important; }\n\n.dropdown-full .dropdown-menu,\n.dropdown-wide .dropdown-menu {\n  max-width: none;\n  padding: 5px 0;\n  width: 100%; }\n  @media (min-width: 768px) {\n    .dropdown-full .dropdown-menu,\n    .dropdown-wide .dropdown-menu {\n      max-height: none;\n      padding: 20px 0;\n      width: 100%; } }\n\n.dropdown-full .dropdown-header ~ .dropdown-header,\n.dropdown-wide .dropdown-header ~ .dropdown-header {\n  margin-top: 20px; }\n\n.dropdown-full .dropdown-menu > .row,\n.dropdown-wide .dropdown-menu > .row {\n  margin-left: 0;\n  margin-right: 0;\n  min-width: 500px; }\n\n@media (min-width: 992px) {\n  .dropdown-wide .dropdown-menu {\n    min-width: 500px; } }\n\n.nav-item.dropdown-full {\n  position: static; }\n\n@media (max-width: 991px) {\n  .nav-item.dropdown-wide {\n    position: static; } }\n\n@media (max-width: 767px) {\n  .navbar-nav .dropdown-menu-center {\n    -ms-transform: none;\n    transform: none; } }\n\n.navbar-right .dropdown-menu-center {\n  left: 50%;\n  right: auto; }\n\n[type=\"checkbox\"] {\n  cursor: pointer;\n  height: 14px;\n  width: 14px; }\n\n[type=\"radio\"] {\n  cursor: pointer;\n  height: 15px;\n  width: 14px; }\n\nfieldset {\n  word-wrap: break-word; }\n\n@-moz-document url-prefix() {\n  fieldset {\n    display: table-cell; } }\n\nlabel {\n  max-width: 100%;\n  word-wrap: break-word; }\n  label[for] {\n    cursor: pointer; }\n  label + .form-text {\n    margin-top: 0; }\n  label .reference-mark {\n    color: #ffc107; }\n\n.form-group {\n  position: relative; }\n\n.form-control {\n  border-width: 1px;\n  height: calc(2.25rem + 2px); }\n  .form-control::-ms-clear, .form-control::-ms-reveal {\n    display: none;\n    height: 0;\n    width: 0; }\n\n.form-control[multiple],\n.form-control[size] {\n  height: auto; }\n\nselect.form-control {\n  cursor: pointer; }\n  select.form-control option {\n    cursor: pointer; }\n\nselect.form-control:not([multiple]):not([size]) {\n  -moz-appearance: none;\n  -webkit-appearance: none;\n  background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E\");\n  background-position: right 0.75rem center;\n  background-repeat: no-repeat;\n  background-size: 8px 10px;\n  padding-right: 1.75rem; }\n  select.form-control:not([multiple]):not([size])::-ms-expand {\n    display: none; }\n\ntextarea.form-control {\n  height: 150px; }\n\n.form-control-file {\n  cursor: pointer; }\n  .form-control-file::-webkit-file-upload-button {\n    cursor: pointer; }\n\n.form-check-label {\n  cursor: pointer;\n  display: inline;\n  position: relative; }\n\n.form-check-input {\n  position: static; }\n  .form-check-input:disabled {\n    cursor: not-allowed; }\n    .form-check-input:disabled + .form-check-description {\n      color: #868e96;\n      cursor: not-allowed; }\n\n.form-check-description {\n  margin-left: -0.3125rem;\n  padding-left: 0.5rem; }\n\nfieldset[disabled] label,\nlabel.disabled {\n  color: #868e96;\n  cursor: not-allowed; }\n\nfieldset[disabled] label .form-control {\n  font-weight: normal;\n  opacity: 1; }\n\nfieldset[disabled] .form-control, .form-control[disabled] {\n  cursor: not-allowed; }\n\n.form-control-file:disabled {\n  cursor: not-allowed; }\n  .form-control-file:disabled::-webkit-file-upload-button {\n    cursor: not-allowed; }\n\n.form-control-lg, .input-group-lg > .form-control,\n.input-group-lg > .input-group-addon,\n.input-group-lg > .input-group-btn > .btn {\n  height: calc(2.875rem + 2px); }\n\n.form-control-sm, .input-group-sm > .form-control,\n.input-group-sm > .input-group-addon,\n.input-group-sm > .input-group-btn > .btn {\n  height: calc(1.8125rem + 2px); }\n\n.form-inline-autofit {\n  align-items: flex-start;\n  display: flex;\n  flex-direction: column; }\n  .form-inline-autofit > .btn:not(:last-child),\n  .form-inline-autofit > .form-control:not(:last-child),\n  .form-inline-autofit > .form-inline-group:not(:last-child) {\n    margin-bottom: 1rem; }\n  .form-inline-autofit .form-inline-group {\n    flex: 1;\n    min-width: 25px;\n    position: relative;\n    width: 100%; }\n  .form-inline-autofit .input-group {\n    flex: 1; }\n  @media (max-width: 575px) {\n    .form-inline-autofit > label,\n    .form-inline-autofit > .btn,\n    .form-inline-autofit > .form-control,\n    .form-inline-autofit > .form-inline-group,\n    .form-inline-autofit > .input-group {\n      flex-basis: auto !important; } }\n\n@media (min-width: 576px) {\n  .form-inline-autofit {\n    flex: 1;\n    flex-direction: row;\n    width: 100%; }\n    .form-inline-autofit > label:not(:last-child) {\n      margin-right: 15px; }\n    .form-inline-autofit > .btn:not(:last-child),\n    .form-inline-autofit > .form-control:not(:last-child),\n    .form-inline-autofit > .form-file:not(:last-child),\n    .form-inline-autofit > .form-inline-group:not(:last-child) {\n      margin-bottom: 0;\n      margin-right: 15px; }\n    .form-inline-autofit .form-control {\n      flex: 1;\n      min-width: 10px;\n      width: 100%; }\n    .form-inline-autofit > label {\n      display: inline-block;\n      margin-bottom: calc(2.25rem + 2px)-1.5rem/2; }\n  .form-inline-group label {\n    display: inline-block; } }\n\n.container-fluid-max-sm {\n  max-width: 540px; }\n\n.container-fluid-max-md {\n  max-width: 720px; }\n\n.container-fluid-max-lg {\n  max-width: 960px; }\n\n.container-fluid-max-xl {\n  max-width: 1140px; }\n\n.container-no-gutters {\n  padding-left: 0;\n  padding-right: 0; }\n  .container-no-gutters > .row {\n    margin-left: 0;\n    margin-right: 0; }\n    .container-no-gutters > .row > .col,\n    .container-no-gutters > .row > [class*=\"col-\"] {\n      padding-right: 0;\n      padding-left: 0; }\n  @media (max-width: 575px) {\n    .container-no-gutters-sm-down {\n      padding-left: 0;\n      padding-right: 0; }\n      .container-no-gutters-sm-down > .row {\n        margin-left: 0;\n        margin-right: 0; }\n        .container-no-gutters-sm-down > .row > .col,\n        .container-no-gutters-sm-down > .row > [class*=\"col-\"] {\n          padding-right: 0;\n          padding-left: 0; } }\n  @media (max-width: 767px) {\n    .container-no-gutters-md-down {\n      padding-left: 0;\n      padding-right: 0; }\n      .container-no-gutters-md-down > .row {\n        margin-left: 0;\n        margin-right: 0; }\n        .container-no-gutters-md-down > .row > .col,\n        .container-no-gutters-md-down > .row > [class*=\"col-\"] {\n          padding-right: 0;\n          padding-left: 0; } }\n  @media (max-width: 991px) {\n    .container-no-gutters-lg-down {\n      padding-left: 0;\n      padding-right: 0; }\n      .container-no-gutters-lg-down > .row {\n        margin-left: 0;\n        margin-right: 0; }\n        .container-no-gutters-lg-down > .row > .col,\n        .container-no-gutters-lg-down > .row > [class*=\"col-\"] {\n          padding-right: 0;\n          padding-left: 0; } }\n  @media (max-width: 1199px) {\n    .container-no-gutters-xl-down {\n      padding-left: 0;\n      padding-right: 0; }\n      .container-no-gutters-xl-down > .row {\n        margin-left: 0;\n        margin-right: 0; }\n        .container-no-gutters-xl-down > .row > .col,\n        .container-no-gutters-xl-down > .row > [class*=\"col-\"] {\n          padding-right: 0;\n          padding-left: 0; } }\n\n.container-form {\n  padding-bottom: 3rem;\n  padding-top: 3rem; }\n\n.container-view {\n  padding-bottom: 1.5rem;\n  padding-top: 1.5rem; }\n\n.custom-select {\n  -webkit-appearance: none; }\n\n.form-file {\n  display: flex;\n  position: relative; }\n\n.form-file-input {\n  cursor: pointer;\n  height: 100%;\n  opacity: 0;\n  position: absolute;\n  width: 100%;\n  z-index: 10; }\n  .form-file-input::-webkit-file-upload-button {\n    cursor: pointer; }\n  .form-file-input:focus + .input-group {\n    border-radius: 1px;\n    box-shadow: 0 0 0 0.075rem #FFF, 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }\n  .form-file-input:disabled {\n    cursor: not-allowed; }\n    .form-file-input:disabled::-webkit-file-upload-button {\n      cursor: not-allowed; }\n\n.custom-file-input:focus + .custom-file-control {\n  border-radius: 1px; }\n\n.custom-control-indicator {\n  font-size: 1rem; }\n\n.custom-control-description {\n  cursor: pointer;\n  line-height: 1rem;\n  padding-left: 0.5rem; }\n\n.custom-control-input {\n  cursor: pointer; }\n  .custom-control-input:disabled {\n    cursor: not-allowed; }\n    .custom-control-input:disabled ~ .custom-control-indicator {\n      background-color: #e9ecef;\n      box-shadow: none; }\n    .custom-control-input:disabled ~ .custom-control-description {\n      cursor: not-allowed; }\n\n.custom-control .custom-control-input:focus ~ .custom-control-indicator {\n  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }\n\n.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-indicator {\n  background-color: #007bff; }\n\n.custom-control {\n  display: block;\n  margin-bottom: 0.25rem;\n  margin-right: 0;\n  min-height: 0;\n  padding-left: 0; }\n  .custom-control label {\n    display: inline;\n    margin-bottom: 0;\n    padding-left: 1rem; }\n\n.custom-control-input {\n  height: 1rem;\n  left: 0;\n  top: 0.25rem;\n  width: 1rem;\n  z-index: 0; }\n\n.custom-control-inline {\n  display: inline-block; }\n  .custom-control-inline + .custom-control-inline {\n    margin-left: 1rem; }\n\n.invalid-feedback,\n.valid-feedback {\n  font-size: 0.875rem; }\n\n.form-feedback-item {\n  font-size: 0.875rem;\n  margin-top: 0.25rem;\n  word-wrap: break-word; }\n\n.form-feedback-indicator {\n  margin-left: 0.3125rem;\n  margin-right: 0.3125rem; }\n  .form-feedback-indicator:first-child {\n    margin-left: 0; }\n\n.form-text {\n  color: #868e96;\n  font-size: 0.875rem;\n  word-wrap: break-word; }\n\n.was-validated .form-control:valid,\n.was-validated .form-control.is-valid {\n  border-color: #28a745; }\n  .was-validated .form-control:valid:focus,\n  .was-validated .form-control.is-valid:focus {\n    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); }\n\n.was-validated .form-control:invalid,\n.was-validated .form-control.is-invalid {\n  border-color: #dc3545; }\n  .was-validated .form-control:invalid:focus,\n  .was-validated .form-control.is-invalid:focus {\n    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); }\n\n.has-error .custom-control-description,\n.has-error .form-check-label {\n  color: #dc3545; }\n\n.has-error .form-control {\n  border-color: #dc3545; }\n  .has-error .form-control:focus {\n    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); }\n\n.has-error .form-feedback-item {\n  color: #dc3545; }\n\n.has-error select.form-control:not([multiple]):not([size]) {\n  background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23dc3545' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E\"); }\n\n.has-warning .custom-control-description,\n.has-warning .form-check-label {\n  color: #ffc107; }\n\n.has-warning .form-control {\n  border-color: #ffc107; }\n  .has-warning .form-control:focus {\n    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25); }\n\n.has-warning .form-feedback-item {\n  color: #ffc107; }\n\n.has-warning select.form-control:not([multiple]):not([size]) {\n  background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23ffc107' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E\"); }\n\n.has-success .custom-control-description,\n.has-success .form-check-label {\n  color: #28a745; }\n\n.has-success .form-control {\n  border-color: #28a745; }\n  .has-success .form-control:focus {\n    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); }\n\n.has-success .form-feedback-item {\n  color: #28a745; }\n\n.has-success select.form-control:not([multiple]):not([size]) {\n  background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%2328a745' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E\"); }\n\n.lexicon-icon {\n  display: inline-block;\n  fill: currentColor;\n  height: 1em;\n  margin-top: -3px;\n  pointer-events: none;\n  vertical-align: middle;\n  width: 1em; }\n\n.lexicon-icon-sm {\n  font-size: 0.5rem; }\n\n.lexicon-icon-lg {\n  font-size: 2rem; }\n\n.lexicon-icon-xl {\n  font-size: 8rem; }\n\n.order-arrow-down-active .order-arrow-arrow-down {\n  fill: rgba(0, 0, 0, 0.9); }\n\n.order-arrow-up-active .order-arrow-arrow-up {\n  fill: rgba(0, 0, 0, 0.9); }\n\na.collapse-icon {\n  padding-right: 2.28125rem; }\n\n.collapse-icon-closed .lexicon-icon,\n.collapse-icon-open .lexicon-icon {\n  display: block; }\n\n.collapse-icon .collapse-icon-closed,\n.collapse-icon .collapse-icon-open {\n  height: 1em;\n  position: absolute;\n  right: 0.9375rem;\n  top: calc(0.5rem + 1px + (((1rem * 1.5) - 1em) / 2));\n  width: 1em; }\n  .collapse-icon .collapse-icon-closed .lexicon-icon,\n  .collapse-icon .collapse-icon-open .lexicon-icon {\n    margin-top: 0; }\n\n.collapse-icon .collapse-icon-closed {\n  display: none; }\n\n.collapse-icon .collapse-icon-open {\n  display: inline-block; }\n\n.collapsed .collapse-icon-closed {\n  display: inline-block; }\n\n.collapsed .collapse-icon-open {\n  display: none; }\n\n.collapse-icon-middle .collapse-icon-closed,\n.collapse-icon-middle .collapse-icon-open {\n  margin-top: 0;\n  top: 50%;\n  -ms-transform: translateY(-50%);\n  transform: translateY(-50%); }\n\n.input-group {\n  align-items: flex-start; }\n  .input-group .form-control:focus {\n    z-index: 4; }\n\n.input-group-btn .btn:hover {\n  z-index: 3; }\n\n.input-group-btn .btn:focus {\n  z-index: 4; }\n\n.input-group-btn > .btn {\n  height: calc(2.25rem + 2px);\n  padding-bottom: 0;\n  padding-top: 0; }\n\n.input-group-btn > .btn + .btn {\n  margin-left: 0; }\n\n.input-group-btn:first-child {\n  text-align: right; }\n\n.input-group-btn:last-child > .btn {\n  margin-left: -1px; }\n\n.input-group-btn:not(:first-child) > .form-file .btn {\n  border-top-left-radius: 0;\n  border-bottom-left-radius: 0; }\n\n.input-group-btn:not(:last-child) > .form-file .btn {\n  border-top-right-radius: 0;\n  border-bottom-right-radius: 0; }\n\n.input-group-addon {\n  align-items: center;\n  border-width: 1px;\n  color: #495057;\n  display: flex;\n  height: calc(2.25rem + 2px);\n  padding-bottom: 0;\n  padding-top: 0; }\n  .input-group-addon .custom-control,\n  .input-group-addon .form-check {\n    margin-bottom: 0; }\n\n.input-group-input {\n  display: flex; }\n  .input-group-input .form-control {\n    display: block; }\n\n.input-group-constrain {\n  border-bottom-width: 0;\n  height: auto;\n  line-height: 2.25rem;\n  max-width: 300px;\n  overflow-x: auto;\n  overflow-y: hidden;\n  padding-left: 0;\n  padding-right: 0; }\n\n.input-group-constrain-text {\n  border-bottom-color: #ced4da;\n  border-bottom-style: solid;\n  border-bottom-width: 0.0625rem;\n  padding-left: 0.75rem;\n  padding-right: 0.75rem; }\n\n.input-group-secondary .input-group-addon {\n  background-color: #868e96;\n  border-color: #868e96;\n  border-style: solid;\n  border-width: 0.0625rem;\n  color: #fff;\n  margin-right: -0.0625rem; }\n  .input-group-secondary .input-group-addon .custom-control-description,\n  .input-group-secondary .input-group-addon .form-check-description {\n    color: #fff; }\n\n.input-group-secondary .form-control + .input-group-addon:not(:first-child) {\n  border-left-color: #868e96;\n  border-left-style: solid;\n  border-left-width: 0.0625rem;\n  margin-left: -0.0625rem;\n  margin-right: 0; }\n\n.input-group-transparent .form-control:not(:first-child), .input-group-transparent .form-control:not(:last-child), .input-group-transparent .form-control:not(:first-child):not(:last-child) {\n  border-radius: 0.25rem; }\n\n.input-group-transparent.input-group-lg .form-control:not(:first-child):not(:last-child) {\n  border-radius: 0.3rem; }\n\n.input-group-transparent.input-group-sm .form-control:not(:first-child):not(:last-child) {\n  border-radius: 0.3rem; }\n\n.input-group-transparent .btn-link {\n  border-width: 0; }\n\n.input-group-transparent .btn-unstyled {\n  border-width: 0;\n  font-size: 1rem;\n  padding-left: 0.75rem;\n  padding-right: 0.75rem; }\n\n.input-group-transparent .input-group-btn .btn,\n.input-group-transparent .input-group-btn:not(:last-child) > .btn:not(:first-child),\n.input-group-transparent .input-group-btn:not(:first-child) > .btn:not(:last-child):not(.dropdown-toggle) {\n  border-radius: 0.25rem; }\n\n.input-group-transparent .input-group-btn:last-child > .btn {\n  margin-left: 1px; }\n\n.input-group-transparent .input-group-btn:not(:last-child) > .btn {\n  margin-right: 1px; }\n\n.input-group-transparent .input-group-addon {\n  background-color: transparent;\n  border-width: 0; }\n\n.input-group-inset .form-control {\n  padding-right: 3.25rem; }\n\n.input-group-inset .input-group-input {\n  width: 100%; }\n\n.input-group-inset-left .form-control {\n  padding-left: 3.25em;\n  padding-right: 0.75rem; }\n\n.input-group-inset-left .input-group-inset-item {\n  left: 0.28125rem;\n  right: auto; }\n\n.input-group-inset-item {\n  align-items: center;\n  display: flex;\n  height: 100%;\n  right: 0.28125rem;\n  position: absolute;\n  z-index: 5; }\n  .input-group-inset-item .btn {\n    height: 75%;\n    padding-bottom: 0;\n    padding-top: 0;\n    padding-left: 0.5625rem;\n    padding-right: 0.5625rem; }\n  .input-group-inset-item .btn-unstyled {\n    color: inherit; }\n\n.input-group-lg > .input-group-addon {\n  padding-bottom: 0;\n  padding-top: 0; }\n\n.input-group-lg .input-group-constrain {\n  height: auto;\n  line-height: 2.875rem;\n  padding-left: 0;\n  padding-right: 0; }\n\n.input-group-lg .input-group-constrain-text {\n  padding-left: 1rem;\n  padding-right: 1rem; }\n\n.input-group-lg > .input-group-btn > .btn {\n  height: calc(2.875rem + 2px);\n  padding-bottom: 0;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  padding-top: 0; }\n\n.input-group-lg > .input-group-input .form-control {\n  font-size: 1.25rem;\n  height: calc(2.875rem + 2px);\n  padding-bottom: 0.5rem;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  padding-top: 0.5rem; }\n\n.input-group-sm > .input-group-addon {\n  padding-bottom: 0;\n  padding-top: 0; }\n\n.input-group-sm .input-group-constrain {\n  height: auto;\n  line-height: 1.8125rem;\n  padding-left: 0;\n  padding-right: 0; }\n\n.input-group-sm .input-group-constrain-text {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem; }\n\n.input-group-sm > .input-group-btn > .btn {\n  height: calc(1.8125rem + 2px);\n  padding-bottom: 0;\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n  padding-top: 0; }\n\n.input-group-sm > .input-group-input .form-control {\n  font-size: 0.875rem;\n  height: calc(1.8125rem + 2px);\n  padding-bottom: 0.25rem;\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n  padding-top: 0.25rem; }\n\n.label {\n  border-color: #212529;\n  border-radius: 0.25rem;\n  border-style: solid;\n  border-width: 0.0625rem;\n  display: inline-block;\n  font-size: 75%;\n  font-weight: 700;\n  line-height: 1.125rem;\n  margin-bottom: 2px;\n  margin-top: 2px;\n  max-width: 100%;\n  padding-left: 0.4375rem;\n  padding-right: 0.4375rem;\n  white-space: normal;\n  word-wrap: break-word; }\n  .label a {\n    display: inline-block;\n    text-decoration: underline; }\n    .label a:focus, .label a:hover {\n      color: #FFF;\n      text-decoration: none; }\n  .label .close {\n    color: inherit;\n    float: none;\n    font-size: inherit;\n    margin-left: 2px;\n    opacity: 1;\n    vertical-align: middle; }\n    .label .close .lexicon-icon {\n      height: 0.8em;\n      vertical-align: baseline;\n      width: 0.8em; }\n\na.label {\n  text-decoration: none; }\n\n.label-lg {\n  border-width: 0.0625rem;\n  font-size: 0.875rem;\n  line-height: 1.75rem;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  text-transform: none; }\n\n.label-primary {\n  background-color: #FFF;\n  border-color: #007bff;\n  color: #007bff; }\n  .label-primary[href]:focus, .label-primary[href]:hover {\n    border-color: #0062cc;\n    color: #0062cc; }\n  .label-primary a {\n    color: #007bff; }\n    .label-primary a:focus, .label-primary a:hover {\n      color: #0062cc; }\n\n.label-secondary {\n  background-color: #FFF;\n  border-color: #868e96;\n  color: #868e96; }\n  .label-secondary[href]:focus, .label-secondary[href]:hover {\n    border-color: #6c757d;\n    color: #6c757d; }\n  .label-secondary a {\n    color: #868e96; }\n    .label-secondary a:focus, .label-secondary a:hover {\n      color: #6c757d; }\n\n.label-success {\n  background-color: #FFF;\n  border-color: #28a745;\n  color: #28a745; }\n  .label-success[href]:focus, .label-success[href]:hover {\n    border-color: #1e7e34;\n    color: #1e7e34; }\n  .label-success a {\n    color: #28a745; }\n    .label-success a:focus, .label-success a:hover {\n      color: #1e7e34; }\n\n.label-info {\n  background-color: #FFF;\n  border-color: #17a2b8;\n  color: #17a2b8; }\n  .label-info[href]:focus, .label-info[href]:hover {\n    border-color: #117a8b;\n    color: #117a8b; }\n  .label-info a {\n    color: #17a2b8; }\n    .label-info a:focus, .label-info a:hover {\n      color: #117a8b; }\n\n.label-warning {\n  background-color: #FFF;\n  border-color: #ffc107;\n  color: #ffc107; }\n  .label-warning[href]:focus, .label-warning[href]:hover {\n    border-color: #d39e00;\n    color: #d39e00; }\n  .label-warning a {\n    color: #ffc107; }\n    .label-warning a:focus, .label-warning a:hover {\n      color: #d39e00; }\n\n.label-danger {\n  background-color: #FFF;\n  border-color: #dc3545;\n  color: #dc3545; }\n  .label-danger[href]:focus, .label-danger[href]:hover {\n    border-color: #bd2130;\n    color: #bd2130; }\n  .label-danger a {\n    color: #dc3545; }\n    .label-danger a:focus, .label-danger a:hover {\n      color: #bd2130; }\n\n.label-dark {\n  background-color: #FFF;\n  border-color: #343a40;\n  color: #343a40; }\n  .label-dark[href]:focus, .label-dark[href]:hover {\n    border-color: #1d2124;\n    color: #1d2124; }\n  .label-dark a {\n    color: #343a40; }\n    .label-dark a:focus, .label-dark a:hover {\n      color: #1d2124; }\n\n.label-light {\n  border-color: #f8f9fa;\n  color: #f8f9fa; }\n  .label-light[href]:focus, .label-light[href]:hover {\n    border-color: #dae0e5;\n    color: #dae0e5; }\n  .label-light a {\n    color: #f8f9fa; }\n    .label-light a:focus, .label-light a:hover {\n      color: #dae0e5; }\n\n.list-group {\n  border-radius: 0.25rem;\n  margin-bottom: 1.5rem; }\n\n.list-group-bordered .list-group-item-flex {\n  padding: 0; }\n  .list-group-bordered .list-group-item-flex.active .flex-col {\n    border-color: #007bff; }\n\n.list-group-bordered .flex-col {\n  border-left: 1px solid rgba(0, 0, 0, 0.125);\n  border-right: 1px solid rgba(0, 0, 0, 0.125);\n  margin-left: -1px;\n  padding: 0.75rem 1.25rem; }\n  .list-group-bordered .flex-col:first-child, .list-group-bordered .flex-col:last-child {\n    border-left-width: 0;\n    border-right-width: 0;\n    margin-left: 0; }\n\n.list-group-notification .list-group-item {\n  border-width: 0;\n  background-color: #fff;\n  box-shadow: inset 0.0625rem 0 rgba(0, 0, 0, 0.125), inset -0.0625rem 0 rgba(0, 0, 0, 0.125), inset 0 0.0625rem rgba(0, 0, 0, 0.125), inset 0 -0.0625rem rgba(0, 0, 0, 0.125); }\n  .list-group-notification .list-group-item.active {\n    background-color: #007bff;\n    box-shadow: inset 0.0625rem 0 #007bff, inset -0.0625rem 0 #007bff, inset 0 0.0625rem #007bff, inset 0 -0.0625rem #007bff; }\n\n.list-group-notification .list-group-item-primary {\n  background-color: #fff;\n  border-bottom-left-radius: 0;\n  border-top-left-radius: 0;\n  box-shadow: inset 0.5rem 0 #007bff, inset -0.0625rem 0 rgba(0, 0, 0, 0.125), inset 0 0.0625rem rgba(0, 0, 0, 0.125), inset 0 -0.0625rem rgba(0, 0, 0, 0.125); }\n  .list-group-notification .list-group-item-primary.active {\n    background-color: #007bff;\n    box-shadow: inset 0.5rem 0 #007bff, inset -0.0625rem 0 #007bff, inset 0 0.0625rem #007bff, inset 0 -0.0625rem #007bff; }\n\n.list-group-header {\n  align-items: center;\n  background-color: #fff;\n  border: 1px solid rgba(0, 0, 0, 0.125);\n  display: flex;\n  justify-content: space-between;\n  margin-bottom: -1px;\n  padding: 0.75rem 1.25rem; }\n  .list-group-header:first-child {\n    border-top-left-radius: 0.25rem;\n    border-top-right-radius: 0.25rem; }\n  .list-group-header:last-child {\n    border-bottom-right-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem; }\n\n.list-group-header-title {\n  font-size: 1rem;\n  margin-bottom: 0; }\n\n.list-group-title {\n  font-size: 1.25rem;\n  font-weight: 500;\n  margin-bottom: 0; }\n\na.list-group-title,\n.list-group-title a {\n  display: inline-block;\n  max-width: 100%; }\n\n.list-group-text {\n  color: #212529;\n  margin-bottom: 0; }\n\na.list-group-text,\n.list-group-text.text-truncate a {\n  color: #212529;\n  display: inline-block;\n  max-width: 100%; }\n  a.list-group-text:hover,\n  .list-group-text.text-truncate a:hover {\n    color: black; }\n\n.list-group-subtext {\n  color: #868e96;\n  margin-bottom: 0; }\n\na.list-group-subtext,\n.list-group-subtext.text-truncate a {\n  color: #868e96;\n  display: inline-block;\n  max-width: 100%; }\n  a.list-group-subtext:hover,\n  .list-group-subtext.text-truncate a:hover {\n    color: #60686f; }\n\n.list-group-detail {\n  margin-top: 0.25rem; }\n\n.show-dropdown-action-on-active .list-group-item.active .dropdown-action .dropdown-menu {\n  background-color: #007bff; }\n\n.show-dropdown-action-on-active .list-group-item.active .dropdown-action .dropdown-item {\n  color: #fff; }\n\n.list-group-item.active:focus, .list-group-item.active.focus {\n  z-index: 2; }\n\n.list-group-item.active .dropdown-action .dropdown-toggle,\n.list-group-item.active .list-group-link {\n  color: #fff; }\n\n.list-group-item.active .list-group-title,\n.list-group-item.active a.list-group-title,\n.list-group-item.active .list-group-title a {\n  color: #fff; }\n\n.list-group-item.active .list-group-text,\n.list-group-item.active a.list-group-text,\n.list-group-item.active .list-group-text a {\n  color: #fff; }\n\n.list-group-item.active .list-group-subtext,\n.list-group-item.active a.list-group-subtext,\n.list-group-item.active .list-group-subtext a {\n  color: #fff; }\n\n.list-group-item.active .list-group-link {\n  color: #fff; }\n\n.list-group-item-flex {\n  display: flex;\n  padding-left: 0.625rem;\n  padding-right: 0.625rem; }\n  .list-group-item-flex .flex-col {\n    justify-content: flex-start;\n    padding-left: 0.625rem;\n    padding-right: 0.625rem; }\n    .list-group-item-flex .flex-col .custom-control:only-child {\n      margin-bottom: 0;\n      margin-top: 0.375rem; }\n      .list-group-item-flex .flex-col .custom-control:only-child .custom-control-input,\n      .list-group-item-flex .flex-col .custom-control:only-child .custom-control-indicator {\n        margin-top: 0.1875rem; }\n    .list-group-item-flex .flex-col .form-check:only-child {\n      margin-bottom: 0;\n      margin-top: 0.375rem;\n      padding-top: 0.1875rem; }\n    .list-group-item-flex .flex-col .sticker:only-child {\n      margin-top: 0.375rem; }\n    .list-group-item-flex .flex-col .list-group-title:only-child {\n      align-items: center;\n      display: flex;\n      height: 32px;\n      margin-top: 0.375rem; }\n    .list-group-item-flex .flex-col .dropdown-action {\n      margin-top: 0.375rem; }\n    .list-group-item-flex .flex-col .quick-action-item {\n      margin-top: 0.375rem; }\n\n.list-group-item-action:focus {\n  z-index: 1; }\n\n.show-quick-actions-on-hover .list-group-item:not(.active):hover .quick-action-menu {\n  display: flex; }\n\n.show-quick-actions-on-hover .focus:not(.active) .quick-action-menu {\n  display: flex; }\n\n.list-group .quick-action-menu {\n  align-items: flex-start;\n  background-color: #fff; }\n\n.list-group-bordered .quick-action-menu {\n  padding-bottom: 0.75rem;\n  padding-top: 0.75rem; }\n\n.list-group-item-flex.active .quick-action-menu {\n  background-color: #007bff; }\n\n.list-group-item-flex.active .quick-action-item {\n  color: #fff; }\n\n.modal-content {\n  overflow: hidden; }\n\n.modal-header {\n  align-items: center;\n  border-color: #e9ecef;\n  flex-shrink: 0;\n  height: 4rem;\n  padding-bottom: 0;\n  padding-top: 0; }\n  .modal-header .close {\n    margin: 0;\n    padding: 0; }\n\n.modal-body.inline-scroller {\n  -webkit-overflow-scrolling: touch;\n  overflow: auto;\n  padding: 1rem; }\n\n.modal-footer {\n  flex-shrink: 0;\n  height: 4.5rem;\n  padding-bottom: 0;\n  padding-top: 0; }\n\n.modal-item-first {\n  margin-right: auto; }\n\n.modal-item {\n  flex-grow: 1; }\n\n.modal-item-last {\n  margin-left: auto; }\n\n.modal-footer > .modal-item-first {\n  margin-right: auto; }\n\n.modal-footer > .modal-item-last {\n  margin-left: auto; }\n\n.modal-title {\n  font-size: 1.25rem;\n  font-weight: 500;\n  flex-grow: 1;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap; }\n\n.modal-title-indicator {\n  display: inline-block;\n  font-size: 0.875rem;\n  margin-right: 0.5rem;\n  margin-top: -0.2em;\n  vertical-align: middle; }\n\n.modal .btn-monospaced,\n.modal .close {\n  color: #000;\n  font-size: 1rem;\n  min-width: 2rem;\n  height: 2rem;\n  line-height: 2rem;\n  width: 2rem;\n  opacity: 0.5; }\n  .modal .btn-monospaced:focus, .modal .btn-monospaced:hover,\n  .modal .close:focus,\n  .modal .close:hover {\n    opacity: 0.75; }\n  .modal .btn-monospaced:first-child,\n  .modal .close:first-child {\n    margin-left: -0.3125rem; }\n  .modal .btn-monospaced:last-child,\n  .modal .close:last-child {\n    margin-right: -0.3125rem; }\n\n.btn-monospaced + .modal-title,\n.close + .modal-title {\n  margin-left: 0.3125rem; }\n\n.modal-title + .btn-monospaced,\n.modal-title + .close {\n  margin-left: 0.3125rem; }\n\n.modal-body-iframe {\n  height: 160px;\n  padding: 0; }\n  .modal-body-iframe iframe {\n    border-width: 0;\n    height: 100%;\n    position: absolute;\n    width: 100%; }\n\n.modal-full-screen {\n  bottom: 48px;\n  left: 48px;\n  margin: 0;\n  max-width: none;\n  position: absolute;\n  right: 48px;\n  top: 48px; }\n  .modal-full-screen .modal-content {\n    border-color: rgba(0, 0, 0, 0.2);\n    border-radius: 0.3rem;\n    border-width: 1px;\n    height: 100%; }\n  .modal-full-screen .modal-body {\n    overflow: auto; }\n\n@media (max-width: 767px) {\n  .modal-full-screen-sm-down {\n    bottom: 0;\n    left: 0;\n    margin: 0;\n    max-width: none;\n    position: absolute;\n    right: 0;\n    top: 0; }\n    .modal-full-screen-sm-down .modal-body {\n      overflow: auto; }\n    .modal-full-screen-sm-down .modal-content {\n      border-radius: 0;\n      border-width: 0;\n      height: 100%; } }\n\n.modal-success .btn-monospaced,\n.modal-success .close {\n  color: #155724; }\n\n.modal-success .modal-header {\n  background-color: #d4edda;\n  border-color: #c3e6cb;\n  color: #155724; }\n\n.modal-info .btn-monospaced,\n.modal-info .close {\n  color: #0c5460; }\n\n.modal-info .modal-header {\n  background-color: #d1ecf1;\n  border-color: #bee5eb;\n  color: #0c5460; }\n\n.modal-warning .btn-monospaced,\n.modal-warning .close {\n  color: #856404; }\n\n.modal-warning .modal-header {\n  background-color: #fff3cd;\n  border-color: #ffeeba;\n  color: #856404; }\n\n.modal-danger .btn-monospaced,\n.modal-danger .close {\n  color: #721c24; }\n\n.modal-danger .modal-header {\n  background-color: #f8d7da;\n  border-color: #f5c6cb;\n  color: #721c24; }\n\n.multi-step-nav {\n  align-items: flex-end;\n  display: flex;\n  flex-wrap: wrap;\n  list-style: none;\n  margin-bottom: 15px;\n  padding: 0 15px;\n  position: relative; }\n\n.multi-step-indicator-label-bottom .multi-step-item {\n  padding-bottom: 1.5rem; }\n\n.multi-step-indicator-label-bottom .multi-step-indicator-label {\n  top: 2rem; }\n\n.multi-step-indicator-label-top .multi-step-item {\n  padding-top: 1.5rem; }\n\n.multi-step-indicator-label-top .multi-step-indicator-label {\n  bottom: 2.25rem; }\n\n.multi-step-title-center .multi-step-title {\n  margin-left: 1rem;\n  max-width: 100px;\n  overflow: hidden;\n  position: relative;\n  text-align: center;\n  text-overflow: ellipsis;\n  transform: translateX(-50%);\n  white-space: nowrap;\n  width: auto; }\n\n.multi-step-item {\n  margin-bottom: 10px;\n  position: relative; }\n  .multi-step-item.active .multi-step-icon {\n    background-color: #007bff;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: 1rem;\n    color: #fff; }\n  .multi-step-item.active .multi-step-divider {\n    background-color: #e9ecef; }\n  .multi-step-item.active.complete .multi-step-icon {\n    background-color: #007bff;\n    color: #fff; }\n  .multi-step-item.complete .dropdown .multi-step-icon, .multi-step-item.complete .dropdown .multi-step-icon:active {\n    background-image: none; }\n  .multi-step-item.complete .multi-step-icon {\n    background-color: #868e96;\n    color: #FFF;\n    background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='512'%20height='512'%20viewBox='0%200%20512%20512'%3E%3Cpath%20class='lexicon-icon-outline'%20d='M502.091%2060.993c-9.909-9.91-25.962-9.91-35.843%200L129.26%20397.981%2045.752%20314.53c-9.881-9.909-25.962-9.909-35.843%200-9.909%209.909-9.909%2025.962%200%2035.843l98.257%2098.257c2.608%202.608%205.679%204.433%208.924%205.679%204.028%202.464%208.403%204.115%2012.952%204.115%206.49%200%2012.981-2.464%2017.936-7.418L502.09%2096.865c9.909-9.909%209.909-25.962%200-35.871v-.001z'%20fill='%23FFF'/%3E%3C/svg%3E\");\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: 1rem; }\n    .multi-step-item.complete .multi-step-icon[data-multi-step-icon]:before {\n      content: normal; }\n    .multi-step-item.complete .multi-step-icon:active {\n      background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='512'%20height='512'%20viewBox='0%200%20512%20512'%3E%3Cpath%20class='lexicon-icon-outline'%20d='M502.091%2060.993c-9.909-9.91-25.962-9.91-35.843%200L129.26%20397.981%2045.752%20314.53c-9.881-9.909-25.962-9.909-35.843%200-9.909%209.909-9.909%2025.962%200%2035.843l98.257%2098.257c2.608%202.608%205.679%204.433%208.924%205.679%204.028%202.464%208.403%204.115%2012.952%204.115%206.49%200%2012.981-2.464%2017.936-7.418L502.09%2096.865c9.909-9.909%209.909-25.962%200-35.871v-.001z'%20fill='%23FFF'/%3E%3C/svg%3E\"); }\n  .multi-step-item.complete .multi-step-divider {\n    background-color: #868e96; }\n  .multi-step-item.disabled .multi-step-title {\n    color: #ced4da; }\n  .multi-step-item.disabled .multi-step-icon {\n    background-color: #f8f9fa;\n    background-repeat: no-repeat;\n    color: #ced4da;\n    cursor: not-allowed; }\n  .multi-step-item.disabled .multi-step-indicator-label {\n    color: #ced4da; }\n  .multi-step-item.disabled .multi-step-divider {\n    background-color: #f8f9fa; }\n\n.multi-step-title {\n  font-size: 1rem;\n  line-height: normal;\n  margin-bottom: 0.625rem;\n  word-wrap: break-word; }\n\n.multi-step-item-expand {\n  flex-grow: 1;\n  width: 75px; }\n\n.multi-step-divider {\n  background-color: #e9ecef;\n  height: 0.25rem;\n  margin-left: 2rem;\n  margin-top: -0.25rem;\n  position: relative;\n  top: 1.125rem; }\n\n.multi-step-indicator {\n  position: relative;\n  width: 2rem; }\n  .multi-step-indicator .dropdown-item-indicator {\n    display: none; }\n  .multi-step-indicator .complete .dropdown-item-indicator {\n    display: block; }\n  .multi-step-indicator .multi-step-indicator-label {\n    font-size: 1rem;\n    left: 50%;\n    max-width: 100px;\n    position: absolute;\n    transform: translateX(-50%);\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap; }\n\nbutton.multi-step-icon {\n  cursor: pointer;\n  border-width: 0;\n  padding: 0; }\n  button.multi-step-icon:focus, button.multi-step-icon:hover {\n    background-color: #e9ecef;\n    color: rgba(0, 0, 0, 0.7);\n    text-decoration: none; }\n\na.multi-step-icon:focus, a.multi-step-icon:hover {\n  background-color: #e9ecef;\n  color: rgba(0, 0, 0, 0.7);\n  text-decoration: none; }\n\n.multi-step-icon {\n  align-items: center;\n  background-color: #e9ecef;\n  border-radius: 0.25rem;\n  color: rgba(0, 0, 0, 0.5);\n  display: flex;\n  font-size: 1rem;\n  justify-content: center;\n  height: 2rem;\n  width: 2rem; }\n  .multi-step-icon[data-multi-step-icon]:before {\n    content: attr(data-multi-step-icon);\n    height: 2rem;\n    line-height: 2rem;\n    text-align: center;\n    width: 2rem; }\n  .multi-step-icon .btn-link {\n    vertical-align: baseline; }\n  .multi-step-icon .lexicon-icon {\n    height: 1rem;\n    margin-top: 0;\n    width: 1rem; }\n\n.multi-step-item-fixed-width.multi-step-item,\n.multi-step-item-fixed-width .multi-step-item-expand {\n  flex-grow: 0;\n  width: 150px; }\n\n@media (max-width: 767px) {\n  .multi-step-nav-collapse-sm {\n    flex-wrap: nowrap; }\n    .multi-step-nav-collapse-sm.multi-step-indicator-label-top .multi-step-indicator-label {\n      bottom: auto;\n      top: 0; }\n    .multi-step-nav-collapse-sm.multi-step-indicator-label-bottom .multi-step-indicator-label {\n      bottom: 0;\n      top: auto; }\n    .multi-step-nav-collapse-sm.multi-step-title-center .multi-step-title {\n      margin-left: 0;\n      max-width: none;\n      transform: none; }\n    .multi-step-nav-collapse-sm .active.multi-step-item {\n      position: static; }\n    .multi-step-nav-collapse-sm .active .multi-step-title {\n      display: block;\n      left: 0;\n      position: absolute;\n      right: 0;\n      text-align: center;\n      top: 0; }\n      .multi-step-nav-collapse-sm .active .multi-step-title + .multi-step-indicator {\n        margin-top: calc(1rem * 1.5); }\n    .multi-step-nav-collapse-sm .active .multi-step-indicator {\n      position: static; }\n    .multi-step-nav-collapse-sm .active .multi-step-indicator-label {\n      display: block;\n      left: 0;\n      max-width: none;\n      position: absolute;\n      right: 0;\n      text-align: center;\n      transform: none;\n      width: auto; }\n    .multi-step-nav-collapse-sm .multi-step-item {\n      margin-bottom: 0;\n      min-width: 2rem;\n      padding-top: 1.75rem; }\n    .multi-step-nav-collapse-sm .multi-step-title {\n      display: none; }\n    .multi-step-nav-collapse-sm .multi-step-indicator-label {\n      display: none; } }\n\n.nav-btn.btn-unstyled,\n.nav-link {\n  position: relative; }\n  .nav-btn.btn-unstyled:focus,\n  .nav-link:focus {\n    z-index: 1; }\n  .nav-btn.btn-unstyled.disabled,\n  .nav-link.disabled {\n    color: #868e96;\n    cursor: not-allowed; }\n\n.nav-btn {\n  align-items: center;\n  display: flex;\n  height: 2rem;\n  justify-content: center;\n  line-height: 1.5;\n  margin: 0.25rem 0.25rem;\n  min-width: 2rem;\n  padding-bottom: 0;\n  padding-top: 0;\n  text-align: center;\n  width: auto; }\n  .nav-btn.btn-link {\n    margin-left: 0;\n    margin-right: 0; }\n  .nav-btn .lexicon-icon {\n    margin-top: 0; }\n\n.nav-btn.disabled,\n.nav-link.disabled {\n  opacity: 1; }\n\n.nav-link.btn-unstyled {\n  padding: 0.5rem 1rem; }\n\n.nav-btn-monospaced {\n  padding: 0; }\n\n.nav-link-monospaced {\n  align-items: center;\n  display: flex;\n  height: 2rem;\n  justify-content: center;\n  margin: 0.25rem 0.25rem;\n  min-width: 2rem;\n  padding: 0; }\n  .nav-link-monospaced .lexicon-icon {\n    margin-top: 0; }\n\n.nav-item {\n  word-wrap: break-word; }\n\n.nav-item[class*='col-'] {\n  padding-left: 0;\n  padding-right: 0;\n  text-align: center; }\n\n.nav-text-truncate {\n  display: inline-block;\n  margin-bottom: -6px;\n  max-width: 100%;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap; }\n\n.dropdown-toggle .nav-text-truncate {\n  max-width: calc(100% - 24px); }\n\n.nav-stacked {\n  display: block; }\n\n.nav-unstyled {\n  flex-wrap: nowrap; }\n  .nav-unstyled .nav-btn {\n    margin: 0 0.25rem;\n    padding: 0 0.25rem; }\n  .nav-unstyled .nav-link {\n    line-height: 2rem;\n    padding: 0 0.25rem; }\n  .nav-unstyled .nav-link-monospaced {\n    margin: 0 0.25rem; }\n\n.nav-nested {\n  flex-direction: column;\n  flex-wrap: nowrap; }\n  .nav-nested .nav > li > a {\n    padding-left: 2rem; }\n  .nav-nested .nav > li > .nav-equal-height-heading {\n    padding-left: 1rem; }\n  .nav-nested .nav .nav > li > a {\n    padding-left: 3rem; }\n  .nav-nested .nav .nav > li > .nav-equal-height-heading {\n    padding-left: 2rem; }\n  .nav-nested .nav .nav .nav > li > a {\n    padding-left: 4rem; }\n  .nav-nested .nav .nav .nav > li > .nav-equal-height-heading {\n    padding-left: 3rem; }\n  .nav-nested .nav .nav .nav .nav > li > a {\n    padding-left: 5rem; }\n  .nav-nested .nav .nav .nav .nav > li > .nav-equal-height-heading {\n    padding-left: 4rem; }\n  .nav-nested .nav .nav .nav .nav .nav > li > a {\n    padding-left: 6rem; }\n  .nav-nested .nav .nav .nav .nav .nav > li > .nav-equal-height-heading {\n    padding-left: 5rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav > li > a {\n    padding-left: 7rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav > li > .nav-equal-height-heading {\n    padding-left: 6rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav > li > a {\n    padding-left: 8rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav > li > .nav-equal-height-heading {\n    padding-left: 7rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav > li > a {\n    padding-left: 9rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav > li > .nav-equal-height-heading {\n    padding-left: 8rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav .nav > li > a {\n    padding-left: 10rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav .nav > li > .nav-equal-height-heading {\n    padding-left: 9rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav > li > a {\n    padding-left: 11rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav > li > .nav-equal-height-heading {\n    padding-left: 10rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav > li > a {\n    padding-left: 12rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav > li > .nav-equal-height-heading {\n    padding-left: 11rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav > li > a {\n    padding-left: 13rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav > li > .nav-equal-height-heading {\n    padding-left: 12rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav > li > a {\n    padding-left: 14rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav > li > .nav-equal-height-heading {\n    padding-left: 13rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav > li > a {\n    padding-left: 15rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav > li > .nav-equal-height-heading {\n    padding-left: 14rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav > li > a {\n    padding-left: 16rem; }\n  .nav-nested .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav .nav > li > .nav-equal-height-heading {\n    padding-left: 15rem; }\n\n.nav-nested-margins {\n  flex-direction: column;\n  flex-wrap: nowrap; }\n  .nav-nested-margins > li .nav > li {\n    margin-left: 1rem; }\n\n.nav-tabs .nav-link {\n  white-space: nowrap; }\n\n.nav-tabs + .tab-content .tab-pane.active:first-child {\n  border-top-left-radius: 0; }\n\n.dropdown-item[data-toggle=\"tab\"] .dropdown-item-indicator {\n  display: none; }\n\n.dropdown-item[data-toggle=\"tab\"].active .dropdown-item-indicator {\n  display: block; }\n\n.nav-underline .nav-link { }\n  .nav-underline .nav-link:after {\n    bottom: 0;\n    display: block;\n    position: absolute;\n    left: 0.5rem;\n    right: 0.5rem;\n    width: auto; }\n\n.nav-underline .nav-item .nav-link.active:after {\n  background-color: #007bff; }\n\n.nav-underline .nav-link.active:after,\n.nav-underline .nav-item.show .nav-link:after {\n  content: \"\";\n  height: 0.1875rem; }\n\n.menubar {\n  position: relative; }\n\n.menubar-toggler {\n  display: none; }\n\n.menubar-vertical-expand-md {\n  max-width: 15.625rem; }\n  @media (max-width: 767px) {\n    .menubar-vertical-expand-md {\n      align-items: center;\n      border-color: transparent;\n      border-style: solid;\n      border-width: 0.0625rem;\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n      max-width: none;\n      min-height: 3rem;\n      padding-left: 0.5rem;\n      padding-right: 0.5rem; } }\n  .menubar-vertical-expand-md .menubar-collapse {\n    display: block; }\n    @media (max-width: 767px) {\n      .menubar-vertical-expand-md .menubar-collapse {\n        border-color: transparent;\n        border-style: solid;\n        border-width: 0.0625rem;\n        display: none;\n        left: -0.0625rem;\n        position: absolute;\n        right: -0.0625rem;\n        top: 100%;\n        z-index: 500; }\n        .menubar-vertical-expand-md .menubar-collapse > .nav {\n          margin-bottom: 0.5rem;\n          margin-top: 0.5rem; } }\n    .menubar-vertical-expand-md .menubar-collapse.collapsing, .menubar-vertical-expand-md .menubar-collapse.show {\n      display: block; }\n  @media (max-width: 767px) {\n    .menubar-vertical-expand-md .menubar-toggler {\n      align-items: center;\n      border-color: transparent;\n      border-style: solid;\n      border-width: 0.0625rem;\n      display: flex;\n      height: 2rem;\n      padding-left: 0.5rem;\n      padding-right: 0.5rem; }\n      .menubar-vertical-expand-md .menubar-toggler .lexicon-icon {\n        margin-top: 0; } }\n\n@media (max-width: 767px) {\n  .menubar-transparent.menubar-vertical-expand-md .menubar-collapse {\n    background-color: #fff;\n    border-color: rgba(0, 0, 0, 0.15);\n    border-radius: 0.25rem; } }\n\n@media (max-width: 767px) {\n  .menubar-transparent.menubar-vertical-expand-md .menubar-toggler {\n    color: rgba(0, 0, 0, 0.9); } }\n\n.menubar-transparent.menubar-vertical-expand-md .nav-link {\n  color: rgba(0, 0, 0, 0.5); }\n  .menubar-transparent.menubar-vertical-expand-md .nav-link:focus, .menubar-transparent.menubar-vertical-expand-md .nav-link:hover {\n    color: rgba(0, 0, 0, 0.7); }\n  @media (max-width: 767px) {\n    .menubar-transparent.menubar-vertical-expand-md .nav-link {\n      color: #212529; }\n      .menubar-transparent.menubar-vertical-expand-md .nav-link:hover {\n        background-color: #f8f9fa;\n        color: #16181b; } }\n  .menubar-transparent.menubar-vertical-expand-md .nav-link.active {\n    color: rgba(0, 0, 0, 0.9); }\n    @media (max-width: 767px) {\n      .menubar-transparent.menubar-vertical-expand-md .nav-link.active {\n        background-color: #007bff;\n        color: #fff; } }\n  .menubar-transparent.menubar-vertical-expand-md .nav-link.disabled {\n    color: rgba(0, 0, 0, 0.3); }\n    @media (max-width: 767px) {\n      .menubar-transparent.menubar-vertical-expand-md .nav-link.disabled {\n        background-color: transparent;\n        color: #868e96; } }\n\n.navbar {\n  border-width: 0; }\n  .navbar .container,\n  .navbar .container-fluid {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between; }\n\n.navbar-nav {\n  flex-direction: row; }\n  .navbar-nav .dropdown-menu {\n    position: absolute; }\n  .navbar-nav .nav-link {\n    padding-left: 0.5rem;\n    padding-right: 0.5rem; }\n\n.navbar-nav .nav-item {\n  word-wrap: normal; }\n  .navbar-nav .nav-item > .custom-control,\n  .navbar-nav .nav-item > .form-check {\n    margin-bottom: 0;\n    margin-left: 0.5rem;\n    margin-right: 0.5rem; }\n\n.navbar-title {\n  font-size: 1.25rem;\n  font-weight: 500;\n  margin-bottom: 0; }\n\n.navbar-text {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem; }\n\n.navbar-collapse {\n  max-width: 100%; }\n  .navbar-collapse .navbar-nav {\n    flex-direction: column; }\n  .navbar-collapse .dropdown-toggle .navbar-text-truncate {\n    max-width: calc(100% - 25px); }\n\n.navbar-text-truncate {\n  display: inline-block;\n  max-width: 100%;\n  pointer-events: none;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  vertical-align: bottom; }\n\n.navbar-toggler-link {\n  align-items: center;\n  display: flex;\n  border-width: 0;\n  line-height: 1.5;\n  max-width: 100%;\n  padding: 0.3125rem 0.5rem;\n  position: relative; }\n  .navbar-toggler-link:focus {\n    outline: none; }\n  .navbar-toggler-link .lexicon-icon {\n    min-width: 1em;\n    margin-left: 3px;\n    margin-top: 0; }\n\n.navbar-brand {\n  margin-right: 0;\n  max-width: calc(100% - 72px);\n  padding-left: 0.5rem;\n  padding-right: 0.5rem; }\n\n.navbar-form {\n  align-items: center;\n  display: flex;\n  padding-left: 0.5rem;\n  padding-right: 0.5rem; }\n  .navbar-form > form {\n    width: 100%; }\n  .navbar-form .form-inline .form-control {\n    margin-bottom: 0; }\n\n.navbar-form-autofit {\n  flex-basis: 100px;\n  flex-grow: 1; }\n  .navbar-form-autofit form {\n    display: flex;\n    width: 100%; }\n  .navbar-form-autofit .form-inline {\n    align-items: flex-end;\n    flex: 1;\n    flex-direction: row;\n    width: 100%; }\n  .navbar-form-autofit .form-control {\n    flex: 1;\n    min-width: 50px;\n    width: 100%; }\n\n.navbar-overlay {\n  background-color: #fff; }\n\n.navbar-breakpoint-d-block,\n.navbar-breakpoint-d-inline-block,\n.navbar-breakpoint-d-flex {\n  display: none !important; }\n\n.navbar-expand {\n  flex-wrap: wrap;\n  justify-content: space-between; }\n  .navbar-expand .navbar-nav {\n    flex-wrap: wrap; }\n  .navbar-expand-sm {\n    justify-content: space-between; }\n    .navbar-expand-sm .nav-item {\n      align-items: center;\n      display: flex; }\n    .navbar-expand-sm .nav-item .navbar-text-truncate {\n      max-width: 140px; }\n    .navbar-expand-sm .container,\n    .navbar-expand-sm .container-fluid {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n      padding-left: 15px;\n      padding-right: 15px; }\n    .navbar-expand-sm .navbar-collapse .container,\n    .navbar-expand-sm .navbar-collapse .container-fluid {\n      padding-left: 0;\n      padding-right: 0; }\n    @media (max-width: 575px) {\n      .navbar-expand-sm.navbar-collapse-absolute .navbar-collapse {\n        left: 0;\n        padding: 0 1rem;\n        position: absolute;\n        right: 0;\n        top: 100%;\n        z-index: 500; }\n        .navbar-expand-sm.navbar-collapse-absolute .navbar-collapse .container,\n        .navbar-expand-sm.navbar-collapse-absolute .navbar-collapse .container-fluid {\n          padding-left: 15px;\n          padding-right: 15px; }\n        .navbar-expand-sm.navbar-collapse-absolute .navbar-collapse .navbar-nav:last-child,\n        .navbar-expand-sm.navbar-collapse-absolute .navbar-collapse .navbar-form:last-child {\n          padding-bottom: 0.5rem; }\n      .navbar-expand-sm .navbar-collapse .container,\n      .navbar-expand-sm .navbar-collapse .container-fluid {\n        display: block;\n        padding-left: 0;\n        padding-right: 0; }\n      .navbar-expand-sm .navbar-collapse .nav-item {\n        display: block; }\n      .navbar-expand-sm .navbar-collapse .navbar-text-truncate {\n        max-width: 100%; }\n      .navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-toggle .navbar-text-truncate {\n        max-width: calc(100% - 25px); }\n      .navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-divider {\n        margin-left: -1rem;\n        margin-right: -1rem; }\n      .navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item:focus, .navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item:hover {\n        background-color: transparent; }\n      .navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item.active {\n        background-color: transparent; }\n      .navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-menu {\n        background-color: transparent;\n        border-width: 0;\n        box-shadow: none;\n        margin: 0;\n        max-height: none;\n        max-width: none;\n        overflow: visible;\n        padding: 0;\n        position: static; }\n      .navbar-expand-sm .show-dropdown-on-collapse .dropdown-header,\n      .navbar-expand-sm .show-dropdown-on-collapse .dropdown-item {\n        padding: 0.5rem 0.5rem; }\n      .navbar-expand-sm .show-dropdown-on-collapse .dropdown-menu {\n        display: block; }\n      .navbar-expand-sm .show-dropdown-on-collapse .dropdown-toggle {\n        display: none; }\n      .navbar-expand-sm .navbar-breakpoint-down-d-block {\n        display: block !important; }\n      .navbar-expand-sm .navbar-breakpoint-down-d-inline-block {\n        display: inline-block !important; }\n      .navbar-expand-sm .navbar-breakpoint-down-d-flex {\n        display: flex !important; }\n      .navbar-expand-sm .navbar-breakpoint-down-d-none {\n        display: none !important; } }\n    @media (min-width: 576px) {\n      .navbar-expand-sm .navbar-brand .navbar-text-truncate {\n        max-width: 140px; }\n      .navbar-expand-sm .navbar-collapse {\n        flex-grow: 1;\n        flex-wrap: wrap;\n        justify-content: space-between; }\n        .navbar-expand-sm .navbar-collapse .navbar-nav {\n          flex-direction: row;\n          flex-wrap: wrap; }\n        .navbar-expand-sm .navbar-collapse .dropdown-toggle .navbar-text-truncate {\n          max-width: 115px; }\n      .navbar-expand-sm .navbar-breakpoint-d-block {\n        display: block !important; }\n      .navbar-expand-sm .navbar-breakpoint-d-inline-block {\n        display: inline-block !important; }\n      .navbar-expand-sm .navbar-breakpoint-d-flex {\n        display: flex !important; }\n      .navbar-expand-sm .navbar-breakpoint-d-none {\n        display: none !important; } }\n  .navbar-expand-md {\n    justify-content: space-between; }\n    .navbar-expand-md .nav-item {\n      align-items: center;\n      display: flex; }\n    .navbar-expand-md .nav-item .navbar-text-truncate {\n      max-width: 140px; }\n    .navbar-expand-md .container,\n    .navbar-expand-md .container-fluid {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n      padding-left: 15px;\n      padding-right: 15px; }\n    .navbar-expand-md .navbar-collapse .container,\n    .navbar-expand-md .navbar-collapse .container-fluid {\n      padding-left: 0;\n      padding-right: 0; }\n    @media (max-width: 767px) {\n      .navbar-expand-md.navbar-collapse-absolute .navbar-collapse {\n        left: 0;\n        padding: 0 1rem;\n        position: absolute;\n        right: 0;\n        top: 100%;\n        z-index: 500; }\n        .navbar-expand-md.navbar-collapse-absolute .navbar-collapse .container,\n        .navbar-expand-md.navbar-collapse-absolute .navbar-collapse .container-fluid {\n          padding-left: 15px;\n          padding-right: 15px; }\n        .navbar-expand-md.navbar-collapse-absolute .navbar-collapse .navbar-nav:last-child,\n        .navbar-expand-md.navbar-collapse-absolute .navbar-collapse .navbar-form:last-child {\n          padding-bottom: 0.5rem; }\n      .navbar-expand-md .navbar-collapse .container,\n      .navbar-expand-md .navbar-collapse .container-fluid {\n        display: block;\n        padding-left: 0;\n        padding-right: 0; }\n      .navbar-expand-md .navbar-collapse .nav-item {\n        display: block; }\n      .navbar-expand-md .navbar-collapse .navbar-text-truncate {\n        max-width: 100%; }\n      .navbar-expand-md .navbar-collapse .navbar-nav .dropdown-toggle .navbar-text-truncate {\n        max-width: calc(100% - 25px); }\n      .navbar-expand-md .navbar-collapse .navbar-nav .dropdown-divider {\n        margin-left: -1rem;\n        margin-right: -1rem; }\n      .navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item:focus, .navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item:hover {\n        background-color: transparent; }\n      .navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item.active {\n        background-color: transparent; }\n      .navbar-expand-md .navbar-collapse .navbar-nav .dropdown-menu {\n        background-color: transparent;\n        border-width: 0;\n        box-shadow: none;\n        margin: 0;\n        max-height: none;\n        max-width: none;\n        overflow: visible;\n        padding: 0;\n        position: static; }\n      .navbar-expand-md .show-dropdown-on-collapse .dropdown-header,\n      .navbar-expand-md .show-dropdown-on-collapse .dropdown-item {\n        padding: 0.5rem 0.5rem; }\n      .navbar-expand-md .show-dropdown-on-collapse .dropdown-menu {\n        display: block; }\n      .navbar-expand-md .show-dropdown-on-collapse .dropdown-toggle {\n        display: none; }\n      .navbar-expand-md .navbar-breakpoint-down-d-block {\n        display: block !important; }\n      .navbar-expand-md .navbar-breakpoint-down-d-inline-block {\n        display: inline-block !important; }\n      .navbar-expand-md .navbar-breakpoint-down-d-flex {\n        display: flex !important; }\n      .navbar-expand-md .navbar-breakpoint-down-d-none {\n        display: none !important; } }\n    @media (min-width: 768px) {\n      .navbar-expand-md .navbar-brand .navbar-text-truncate {\n        max-width: 140px; }\n      .navbar-expand-md .navbar-collapse {\n        flex-grow: 1;\n        flex-wrap: wrap;\n        justify-content: space-between; }\n        .navbar-expand-md .navbar-collapse .navbar-nav {\n          flex-direction: row;\n          flex-wrap: wrap; }\n        .navbar-expand-md .navbar-collapse .dropdown-toggle .navbar-text-truncate {\n          max-width: 115px; }\n      .navbar-expand-md .navbar-breakpoint-d-block {\n        display: block !important; }\n      .navbar-expand-md .navbar-breakpoint-d-inline-block {\n        display: inline-block !important; }\n      .navbar-expand-md .navbar-breakpoint-d-flex {\n        display: flex !important; }\n      .navbar-expand-md .navbar-breakpoint-d-none {\n        display: none !important; } }\n  .navbar-expand-lg {\n    justify-content: space-between; }\n    .navbar-expand-lg .nav-item {\n      align-items: center;\n      display: flex; }\n    .navbar-expand-lg .nav-item .navbar-text-truncate {\n      max-width: 140px; }\n    .navbar-expand-lg .container,\n    .navbar-expand-lg .container-fluid {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n      padding-left: 15px;\n      padding-right: 15px; }\n    .navbar-expand-lg .navbar-collapse .container,\n    .navbar-expand-lg .navbar-collapse .container-fluid {\n      padding-left: 0;\n      padding-right: 0; }\n    @media (max-width: 991px) {\n      .navbar-expand-lg.navbar-collapse-absolute .navbar-collapse {\n        left: 0;\n        padding: 0 1rem;\n        position: absolute;\n        right: 0;\n        top: 100%;\n        z-index: 500; }\n        .navbar-expand-lg.navbar-collapse-absolute .navbar-collapse .container,\n        .navbar-expand-lg.navbar-collapse-absolute .navbar-collapse .container-fluid {\n          padding-left: 15px;\n          padding-right: 15px; }\n        .navbar-expand-lg.navbar-collapse-absolute .navbar-collapse .navbar-nav:last-child,\n        .navbar-expand-lg.navbar-collapse-absolute .navbar-collapse .navbar-form:last-child {\n          padding-bottom: 0.5rem; }\n      .navbar-expand-lg .navbar-collapse .container,\n      .navbar-expand-lg .navbar-collapse .container-fluid {\n        display: block;\n        padding-left: 0;\n        padding-right: 0; }\n      .navbar-expand-lg .navbar-collapse .nav-item {\n        display: block; }\n      .navbar-expand-lg .navbar-collapse .navbar-text-truncate {\n        max-width: 100%; }\n      .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-toggle .navbar-text-truncate {\n        max-width: calc(100% - 25px); }\n      .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-divider {\n        margin-left: -1rem;\n        margin-right: -1rem; }\n      .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item:focus, .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item:hover {\n        background-color: transparent; }\n      .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item.active {\n        background-color: transparent; }\n      .navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-menu {\n        background-color: transparent;\n        border-width: 0;\n        box-shadow: none;\n        margin: 0;\n        max-height: none;\n        max-width: none;\n        overflow: visible;\n        padding: 0;\n        position: static; }\n      .navbar-expand-lg .show-dropdown-on-collapse .dropdown-header,\n      .navbar-expand-lg .show-dropdown-on-collapse .dropdown-item {\n        padding: 0.5rem 0.5rem; }\n      .navbar-expand-lg .show-dropdown-on-collapse .dropdown-menu {\n        display: block; }\n      .navbar-expand-lg .show-dropdown-on-collapse .dropdown-toggle {\n        display: none; }\n      .navbar-expand-lg .navbar-breakpoint-down-d-block {\n        display: block !important; }\n      .navbar-expand-lg .navbar-breakpoint-down-d-inline-block {\n        display: inline-block !important; }\n      .navbar-expand-lg .navbar-breakpoint-down-d-flex {\n        display: flex !important; }\n      .navbar-expand-lg .navbar-breakpoint-down-d-none {\n        display: none !important; } }\n    @media (min-width: 992px) {\n      .navbar-expand-lg .navbar-brand .navbar-text-truncate {\n        max-width: 140px; }\n      .navbar-expand-lg .navbar-collapse {\n        flex-grow: 1;\n        flex-wrap: wrap;\n        justify-content: space-between; }\n        .navbar-expand-lg .navbar-collapse .navbar-nav {\n          flex-direction: row;\n          flex-wrap: wrap; }\n        .navbar-expand-lg .navbar-collapse .dropdown-toggle .navbar-text-truncate {\n          max-width: 115px; }\n      .navbar-expand-lg .navbar-breakpoint-d-block {\n        display: block !important; }\n      .navbar-expand-lg .navbar-breakpoint-d-inline-block {\n        display: inline-block !important; }\n      .navbar-expand-lg .navbar-breakpoint-d-flex {\n        display: flex !important; }\n      .navbar-expand-lg .navbar-breakpoint-d-none {\n        display: none !important; } }\n  .navbar-expand-xl {\n    justify-content: space-between; }\n    .navbar-expand-xl .nav-item {\n      align-items: center;\n      display: flex; }\n    .navbar-expand-xl .nav-item .navbar-text-truncate {\n      max-width: 140px; }\n    .navbar-expand-xl .container,\n    .navbar-expand-xl .container-fluid {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n      padding-left: 15px;\n      padding-right: 15px; }\n    .navbar-expand-xl .navbar-collapse .container,\n    .navbar-expand-xl .navbar-collapse .container-fluid {\n      padding-left: 0;\n      padding-right: 0; }\n    @media (max-width: 1199px) {\n      .navbar-expand-xl.navbar-collapse-absolute .navbar-collapse {\n        left: 0;\n        padding: 0 1rem;\n        position: absolute;\n        right: 0;\n        top: 100%;\n        z-index: 500; }\n        .navbar-expand-xl.navbar-collapse-absolute .navbar-collapse .container,\n        .navbar-expand-xl.navbar-collapse-absolute .navbar-collapse .container-fluid {\n          padding-left: 15px;\n          padding-right: 15px; }\n        .navbar-expand-xl.navbar-collapse-absolute .navbar-collapse .navbar-nav:last-child,\n        .navbar-expand-xl.navbar-collapse-absolute .navbar-collapse .navbar-form:last-child {\n          padding-bottom: 0.5rem; }\n      .navbar-expand-xl .navbar-collapse .container,\n      .navbar-expand-xl .navbar-collapse .container-fluid {\n        display: block;\n        padding-left: 0;\n        padding-right: 0; }\n      .navbar-expand-xl .navbar-collapse .nav-item {\n        display: block; }\n      .navbar-expand-xl .navbar-collapse .navbar-text-truncate {\n        max-width: 100%; }\n      .navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-toggle .navbar-text-truncate {\n        max-width: calc(100% - 25px); }\n      .navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-divider {\n        margin-left: -1rem;\n        margin-right: -1rem; }\n      .navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item:focus, .navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item:hover {\n        background-color: transparent; }\n      .navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item.active {\n        background-color: transparent; }\n      .navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-menu {\n        background-color: transparent;\n        border-width: 0;\n        box-shadow: none;\n        margin: 0;\n        max-height: none;\n        max-width: none;\n        overflow: visible;\n        padding: 0;\n        position: static; }\n      .navbar-expand-xl .show-dropdown-on-collapse .dropdown-header,\n      .navbar-expand-xl .show-dropdown-on-collapse .dropdown-item {\n        padding: 0.5rem 0.5rem; }\n      .navbar-expand-xl .show-dropdown-on-collapse .dropdown-menu {\n        display: block; }\n      .navbar-expand-xl .show-dropdown-on-collapse .dropdown-toggle {\n        display: none; }\n      .navbar-expand-xl .navbar-breakpoint-down-d-block {\n        display: block !important; }\n      .navbar-expand-xl .navbar-breakpoint-down-d-inline-block {\n        display: inline-block !important; }\n      .navbar-expand-xl .navbar-breakpoint-down-d-flex {\n        display: flex !important; }\n      .navbar-expand-xl .navbar-breakpoint-down-d-none {\n        display: none !important; } }\n    @media (min-width: 1200px) {\n      .navbar-expand-xl .navbar-brand .navbar-text-truncate {\n        max-width: 140px; }\n      .navbar-expand-xl .navbar-collapse {\n        flex-grow: 1;\n        flex-wrap: wrap;\n        justify-content: space-between; }\n        .navbar-expand-xl .navbar-collapse .navbar-nav {\n          flex-direction: row;\n          flex-wrap: wrap; }\n        .navbar-expand-xl .navbar-collapse .dropdown-toggle .navbar-text-truncate {\n          max-width: 115px; }\n      .navbar-expand-xl .navbar-breakpoint-d-block {\n        display: block !important; }\n      .navbar-expand-xl .navbar-breakpoint-d-inline-block {\n        display: inline-block !important; }\n      .navbar-expand-xl .navbar-breakpoint-d-flex {\n        display: flex !important; }\n      .navbar-expand-xl .navbar-breakpoint-d-none {\n        display: none !important; } }\n  .navbar-expand {\n    justify-content: space-between; }\n    .navbar-expand .nav-item {\n      align-items: center;\n      display: flex; }\n    .navbar-expand .nav-item .navbar-text-truncate {\n      max-width: 140px; }\n    .navbar-expand .container,\n    .navbar-expand .container-fluid {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n      padding-left: 15px;\n      padding-right: 15px; }\n    .navbar-expand .navbar-collapse .container,\n    .navbar-expand .navbar-collapse .container-fluid {\n      padding-left: 0;\n      padding-right: 0; }\n\n@media (max-width: 575px) {\n  .navbar-overlay-xs-down {\n    bottom: 0;\n    display: none;\n    justify-content: space-between;\n    left: 0;\n    margin-left: 0;\n    margin-right: 0;\n    padding-bottom: 0.5rem;\n    padding-left: 1rem;\n    padding-right: 1rem;\n    padding-top: 0.5rem;\n    position: absolute;\n    right: 0;\n    top: 0;\n    z-index: 450; }\n    .navbar-overlay-xs-down.show {\n      display: flex; } }\n\n@media (max-width: 767px) {\n  .navbar-overlay-sm-down {\n    bottom: 0;\n    display: none;\n    justify-content: space-between;\n    left: 0;\n    margin-left: 0;\n    margin-right: 0;\n    padding-bottom: 0.5rem;\n    padding-left: 1rem;\n    padding-right: 1rem;\n    padding-top: 0.5rem;\n    position: absolute;\n    right: 0;\n    top: 0;\n    z-index: 450; }\n    .navbar-overlay-sm-down.show {\n      display: flex; } }\n\n@media (max-width: 991px) {\n  .navbar-overlay-md-down {\n    bottom: 0;\n    display: none;\n    justify-content: space-between;\n    left: 0;\n    margin-left: 0;\n    margin-right: 0;\n    padding-bottom: 0.5rem;\n    padding-left: 1rem;\n    padding-right: 1rem;\n    padding-top: 0.5rem;\n    position: absolute;\n    right: 0;\n    top: 0;\n    z-index: 450; }\n    .navbar-overlay-md-down.show {\n      display: flex; } }\n\n@media (max-width: 1199px) {\n  .navbar-overlay-lg-down {\n    bottom: 0;\n    display: none;\n    justify-content: space-between;\n    left: 0;\n    margin-left: 0;\n    margin-right: 0;\n    padding-bottom: 0.5rem;\n    padding-left: 1rem;\n    padding-right: 1rem;\n    padding-top: 0.5rem;\n    position: absolute;\n    right: 0;\n    top: 0;\n    z-index: 450; }\n    .navbar-overlay-lg-down.show {\n      display: flex; } }\n\n.navbar-overlay-up {\n  bottom: 0;\n  display: none;\n  justify-content: space-between;\n  left: 0;\n  margin-left: 0;\n  margin-right: 0;\n  padding-bottom: 0.5rem;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  padding-top: 0.5rem;\n  position: absolute;\n  right: 0;\n  top: 0;\n  z-index: 450; }\n  .navbar-overlay-up.show {\n    display: flex; }\n\n.navbar-underline .navbar-toggler-link:after {\n  background-color: #007bff;\n  bottom: -0.5rem;\n  content: '';\n  display: block;\n  height: 0.1875rem;\n  left: 0;\n  position: absolute;\n  right: 0;\n  width: auto; }\n\n@media (min-width: 576px) {\n  .navbar-underline.navbar-expand-sm .navbar-nav .nav-link.active:after {\n    background-color: #007bff;\n    bottom: -0.5rem;\n    content: '';\n    display: block;\n    height: 0.1875rem;\n    left: 0;\n    position: absolute;\n    right: 0;\n    width: auto; } }\n\n@media (min-width: 768px) {\n  .navbar-underline.navbar-expand-md .navbar-nav .nav-link.active:after {\n    background-color: #007bff;\n    bottom: -0.5rem;\n    content: '';\n    display: block;\n    height: 0.1875rem;\n    left: 0;\n    position: absolute;\n    right: 0;\n    width: auto; } }\n\n@media (min-width: 992px) {\n  .navbar-underline.navbar-expand-lg .navbar-nav .nav-link.active:after {\n    background-color: #007bff;\n    bottom: -0.5rem;\n    content: '';\n    display: block;\n    height: 0.1875rem;\n    left: 0;\n    position: absolute;\n    right: 0;\n    width: auto; } }\n\n@media (min-width: 1200px) {\n  .navbar-underline.navbar-expand-xl .navbar-nav .nav-link.active:after {\n    background-color: #007bff;\n    bottom: -0.5rem;\n    content: '';\n    display: block;\n    height: 0.1875rem;\n    left: 0;\n    position: absolute;\n    right: 0;\n    width: auto; } }\n\n.navbar-underline.navbar-expand .navbar-nav .nav-link.active:after {\n  background-color: #007bff;\n  bottom: -0.5rem;\n  content: '';\n  display: block;\n  height: 0.1875rem;\n  left: 0;\n  position: absolute;\n  right: 0;\n  width: auto; }\n\n.navbar-transparent {\n  background-color: #fff;\n  border-color: transparent;\n  border-style: solid; }\n  .navbar-transparent .nav-link,\n  .navbar-transparent .navbar-nav .btn-unstyled {\n    color: rgba(0, 0, 0, 0.5); }\n    .navbar-transparent .nav-link:hover,\n    .navbar-transparent .navbar-nav .btn-unstyled:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .navbar-transparent .nav-link.active, .navbar-transparent .nav-link[aria-expanded=\"true\"],\n    .navbar-transparent .navbar-nav .btn-unstyled.active,\n    .navbar-transparent .navbar-nav .btn-unstyled[aria-expanded=\"true\"] {\n      color: rgba(0, 0, 0, 0.9); }\n    .navbar-transparent .nav-link.disabled,\n    .navbar-transparent .navbar-nav .btn-unstyled.disabled {\n      color: rgba(0, 0, 0, 0.3); }\n  .navbar-transparent .navbar-toggler {\n    color: rgba(0, 0, 0, 0.5); }\n  .navbar-transparent .navbar-toggler-link[aria-expanded=\"true\"] {\n    color: rgba(0, 0, 0, 0.9); }\n  .navbar-transparent .navbar-overlay {\n    background-color: #fff; }\n  @media (max-width: 575px) {\n    .navbar-transparent.navbar-expand-sm.navbar-collapse-absolute .navbar-collapse {\n      background-color: #fff;\n      border-color: transparent; }\n    .navbar-transparent.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-header,\n    .navbar-transparent.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .navbar-transparent.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .navbar-transparent.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .navbar-transparent.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .navbar-transparent.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n  @media (max-width: 767px) {\n    .navbar-transparent.navbar-expand-md.navbar-collapse-absolute .navbar-collapse {\n      background-color: #fff;\n      border-color: transparent; }\n    .navbar-transparent.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-header,\n    .navbar-transparent.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .navbar-transparent.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .navbar-transparent.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .navbar-transparent.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .navbar-transparent.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n  @media (max-width: 991px) {\n    .navbar-transparent.navbar-expand-lg.navbar-collapse-absolute .navbar-collapse {\n      background-color: #fff;\n      border-color: transparent; }\n    .navbar-transparent.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-header,\n    .navbar-transparent.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .navbar-transparent.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .navbar-transparent.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .navbar-transparent.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .navbar-transparent.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n  @media (max-width: 1199px) {\n    .navbar-transparent.navbar-expand-xl.navbar-collapse-absolute .navbar-collapse {\n      background-color: #fff;\n      border-color: transparent; }\n    .navbar-transparent.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-header,\n    .navbar-transparent.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .navbar-transparent.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .navbar-transparent.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .navbar-transparent.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .navbar-transparent.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n\n.application-bar {\n  flex-wrap: nowrap;\n  border-width: 0 0 0 0;\n  font-size: 1rem;\n  padding: 0 0; }\n  .application-bar .navbar-toggler {\n    font-size: 1.25rem;\n    height: 2.00001rem;\n    margin-left: 0.25rem;\n    margin-right: 0.25rem;\n    padding-bottom: 0.25rem;\n    padding-left: 0.75rem;\n    padding-right: 0.75rem;\n    padding-top: 0.25rem; }\n  .application-bar .navbar-toggler-link {\n    height: auto;\n    font-size: 1rem;\n    line-height: 1.5;\n    margin-left: 0;\n    margin-right: 0;\n    padding-bottom: 0.75rem;\n    padding-left: 0.25rem;\n    padding-right: 0.25rem;\n    padding-top: 0.75rem; }\n  .application-bar .navbar-brand {\n    font-size: 1.25rem;\n    margin-right: 0;\n    padding-bottom: 0.5625rem;\n    padding-left: 0.25rem;\n    padding-right: 0.25rem;\n    padding-top: 0.5625rem; }\n  .application-bar .navbar-nav .nav-btn {\n    margin-bottom: 0.5rem;\n    margin-left: 0.25rem;\n    margin-right: 0.25rem;\n    margin-top: 0.5rem; }\n  .application-bar .navbar-nav .nav-item > .custom-control,\n  .application-bar .navbar-nav .nav-item > .form-check {\n    margin-left: 0.25rem;\n    margin-right: 0.25rem; }\n  .application-bar .navbar-nav .nav-link,\n  .application-bar .navbar-nav .navbar-text {\n    margin-bottom: 0.5rem;\n    margin-left: 0.5rem;\n    margin-right: 0.5rem;\n    margin-top: 0.5rem;\n    padding-bottom: 0.25rem;\n    padding-left: 0.25rem;\n    padding-right: 0.25rem;\n    padding-top: 0.25rem; }\n  .application-bar .navbar-nav .nav-link-monospaced {\n    margin-bottom: 0.5rem;\n    margin-left: 0.25rem;\n    margin-right: 0.25rem;\n    margin-top: 0.5rem;\n    padding: 0; }\n  @media (max-width: 575px) {\n    .application-bar.navbar-expand-sm.navbar-collapse-absolute .navbar-collapse {\n      border-color: transparent;\n      border-style: solid;\n      border-width: 0 0 0 0;\n      left: 0;\n      margin-top: 0;\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0;\n      right: 0; }\n    .application-bar.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-divider {\n      margin-left: 0;\n      margin-right: 0; }\n    .application-bar.navbar-expand-sm .navbar-form {\n      padding-bottom: 0.25rem;\n      padding-left: 0.25rem;\n      padding-right: 0.25rem;\n      padding-top: 0.25rem; }\n      .application-bar.navbar-expand-sm .navbar-form .form-control {\n        padding-bottom: 0;\n        padding-top: 0; } }\n  @media (min-width: 576px) {\n    .application-bar.navbar-expand-sm .navbar-brand {\n      font-size: 1.25rem;\n      margin-right: 0.25rem;\n      padding-bottom: 0.8125rem;\n      padding-left: 0.25rem;\n      padding-right: 0.25rem;\n      padding-top: 0.8125rem; }\n    .application-bar.navbar-expand-sm .navbar-form {\n      padding-left: 0.25rem;\n      padding-right: 0.25rem; }\n    .application-bar.navbar-expand-sm .nav-btn {\n      margin-bottom: 0.75rem;\n      margin-left: 0.25rem;\n      margin-right: 0.25rem;\n      margin-top: 0.75rem; }\n    .application-bar.navbar-expand-sm .nav-item > .custom-control,\n    .application-bar.navbar-expand-sm .nav-item > .form-check {\n      margin-left: 0.25rem;\n      margin-right: 0.25rem; }\n    .application-bar.navbar-expand-sm .nav-link,\n    .application-bar.navbar-expand-sm .navbar-text {\n      margin-bottom: 0.75rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.75rem;\n      padding-bottom: 0.25rem;\n      padding-left: 0.25rem;\n      padding-right: 0.25rem;\n      padding-top: 0.25rem; }\n    .application-bar.navbar-expand-sm .nav-link-monospaced {\n      margin-bottom: 0.75rem;\n      margin-left: 0.25rem;\n      margin-right: 0.25rem;\n      margin-top: 0.75rem;\n      padding: 0; } }\n  @media (max-width: 767px) {\n    .application-bar.navbar-expand-md.navbar-collapse-absolute .navbar-collapse {\n      border-color: transparent;\n      border-style: solid;\n      border-width: 0 0 0 0;\n      left: 0;\n      margin-top: 0;\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0;\n      right: 0; }\n    .application-bar.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-divider {\n      margin-left: 0;\n      margin-right: 0; }\n    .application-bar.navbar-expand-md .navbar-form {\n      padding-bottom: 0.25rem;\n      padding-left: 0.25rem;\n      padding-right: 0.25rem;\n      padding-top: 0.25rem; }\n      .application-bar.navbar-expand-md .navbar-form .form-control {\n        padding-bottom: 0;\n        padding-top: 0; } }\n  @media (min-width: 768px) {\n    .application-bar.navbar-expand-md .navbar-brand {\n      font-size: 1.25rem;\n      margin-right: 0.25rem;\n      padding-bottom: 0.8125rem;\n      padding-left: 0.25rem;\n      padding-right: 0.25rem;\n      padding-top: 0.8125rem; }\n    .application-bar.navbar-expand-md .navbar-form {\n      padding-left: 0.25rem;\n      padding-right: 0.25rem; }\n    .application-bar.navbar-expand-md .nav-btn {\n      margin-bottom: 0.75rem;\n      margin-left: 0.25rem;\n      margin-right: 0.25rem;\n      margin-top: 0.75rem; }\n    .application-bar.navbar-expand-md .nav-item > .custom-control,\n    .application-bar.navbar-expand-md .nav-item > .form-check {\n      margin-left: 0.25rem;\n      margin-right: 0.25rem; }\n    .application-bar.navbar-expand-md .nav-link,\n    .application-bar.navbar-expand-md .navbar-text {\n      margin-bottom: 0.75rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.75rem;\n      padding-bottom: 0.25rem;\n      padding-left: 0.25rem;\n      padding-right: 0.25rem;\n      padding-top: 0.25rem; }\n    .application-bar.navbar-expand-md .nav-link-monospaced {\n      margin-bottom: 0.75rem;\n      margin-left: 0.25rem;\n      margin-right: 0.25rem;\n      margin-top: 0.75rem;\n      padding: 0; } }\n  @media (max-width: 991px) {\n    .application-bar.navbar-expand-lg.navbar-collapse-absolute .navbar-collapse {\n      border-color: transparent;\n      border-style: solid;\n      border-width: 0 0 0 0;\n      left: 0;\n      margin-top: 0;\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0;\n      right: 0; }\n    .application-bar.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-divider {\n      margin-left: 0;\n      margin-right: 0; }\n    .application-bar.navbar-expand-lg .navbar-form {\n      padding-bottom: 0.25rem;\n      padding-left: 0.25rem;\n      padding-right: 0.25rem;\n      padding-top: 0.25rem; }\n      .application-bar.navbar-expand-lg .navbar-form .form-control {\n        padding-bottom: 0;\n        padding-top: 0; } }\n  @media (min-width: 992px) {\n    .application-bar.navbar-expand-lg .navbar-brand {\n      font-size: 1.25rem;\n      margin-right: 0.25rem;\n      padding-bottom: 0.8125rem;\n      padding-left: 0.25rem;\n      padding-right: 0.25rem;\n      padding-top: 0.8125rem; }\n    .application-bar.navbar-expand-lg .navbar-form {\n      padding-left: 0.25rem;\n      padding-right: 0.25rem; }\n    .application-bar.navbar-expand-lg .nav-btn {\n      margin-bottom: 0.75rem;\n      margin-left: 0.25rem;\n      margin-right: 0.25rem;\n      margin-top: 0.75rem; }\n    .application-bar.navbar-expand-lg .nav-item > .custom-control,\n    .application-bar.navbar-expand-lg .nav-item > .form-check {\n      margin-left: 0.25rem;\n      margin-right: 0.25rem; }\n    .application-bar.navbar-expand-lg .nav-link,\n    .application-bar.navbar-expand-lg .navbar-text {\n      margin-bottom: 0.75rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.75rem;\n      padding-bottom: 0.25rem;\n      padding-left: 0.25rem;\n      padding-right: 0.25rem;\n      padding-top: 0.25rem; }\n    .application-bar.navbar-expand-lg .nav-link-monospaced {\n      margin-bottom: 0.75rem;\n      margin-left: 0.25rem;\n      margin-right: 0.25rem;\n      margin-top: 0.75rem;\n      padding: 0; } }\n  @media (max-width: 1199px) {\n    .application-bar.navbar-expand-xl.navbar-collapse-absolute .navbar-collapse {\n      border-color: transparent;\n      border-style: solid;\n      border-width: 0 0 0 0;\n      left: 0;\n      margin-top: 0;\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0;\n      right: 0; }\n    .application-bar.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-divider {\n      margin-left: 0;\n      margin-right: 0; }\n    .application-bar.navbar-expand-xl .navbar-form {\n      padding-bottom: 0.25rem;\n      padding-left: 0.25rem;\n      padding-right: 0.25rem;\n      padding-top: 0.25rem; }\n      .application-bar.navbar-expand-xl .navbar-form .form-control {\n        padding-bottom: 0;\n        padding-top: 0; } }\n  @media (min-width: 1200px) {\n    .application-bar.navbar-expand-xl .navbar-brand {\n      font-size: 1.25rem;\n      margin-right: 0.25rem;\n      padding-bottom: 0.8125rem;\n      padding-left: 0.25rem;\n      padding-right: 0.25rem;\n      padding-top: 0.8125rem; }\n    .application-bar.navbar-expand-xl .navbar-form {\n      padding-left: 0.25rem;\n      padding-right: 0.25rem; }\n    .application-bar.navbar-expand-xl .nav-btn {\n      margin-bottom: 0.75rem;\n      margin-left: 0.25rem;\n      margin-right: 0.25rem;\n      margin-top: 0.75rem; }\n    .application-bar.navbar-expand-xl .nav-item > .custom-control,\n    .application-bar.navbar-expand-xl .nav-item > .form-check {\n      margin-left: 0.25rem;\n      margin-right: 0.25rem; }\n    .application-bar.navbar-expand-xl .nav-link,\n    .application-bar.navbar-expand-xl .navbar-text {\n      margin-bottom: 0.75rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.75rem;\n      padding-bottom: 0.25rem;\n      padding-left: 0.25rem;\n      padding-right: 0.25rem;\n      padding-top: 0.25rem; }\n    .application-bar.navbar-expand-xl .nav-link-monospaced {\n      margin-bottom: 0.75rem;\n      margin-left: 0.25rem;\n      margin-right: 0.25rem;\n      margin-top: 0.75rem;\n      padding: 0; } }\n  .application-bar.navbar-expand .navbar-brand {\n    font-size: 1.25rem;\n    margin-right: 0.25rem;\n    padding-bottom: 0.8125rem;\n    padding-left: 0.25rem;\n    padding-right: 0.25rem;\n    padding-top: 0.8125rem; }\n  .application-bar.navbar-expand .navbar-form {\n    padding-left: 0.25rem;\n    padding-right: 0.25rem; }\n  .application-bar.navbar-expand .nav-btn {\n    margin-bottom: 0.75rem;\n    margin-left: 0.25rem;\n    margin-right: 0.25rem;\n    margin-top: 0.75rem; }\n  .application-bar.navbar-expand .nav-item > .custom-control,\n  .application-bar.navbar-expand .nav-item > .form-check {\n    margin-left: 0.25rem;\n    margin-right: 0.25rem; }\n  .application-bar.navbar-expand .nav-link,\n  .application-bar.navbar-expand .navbar-text {\n    margin-bottom: 0.75rem;\n    margin-left: 0.5rem;\n    margin-right: 0.5rem;\n    margin-top: 0.75rem;\n    padding-bottom: 0.25rem;\n    padding-left: 0.25rem;\n    padding-right: 0.25rem;\n    padding-top: 0.25rem; }\n  .application-bar.navbar-expand .nav-link-monospaced {\n    margin-bottom: 0.75rem;\n    margin-left: 0.25rem;\n    margin-right: 0.25rem;\n    margin-top: 0.75rem;\n    padding: 0; }\n  @media (max-width: 575px) {\n    .application-bar .navbar-overlay-xs-down {\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0; } }\n  @media (max-width: 767px) {\n    .application-bar .navbar-overlay-sm-down {\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0; } }\n  @media (max-width: 991px) {\n    .application-bar .navbar-overlay-md-down {\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0; } }\n  @media (max-width: 1199px) {\n    .application-bar .navbar-overlay-lg-down {\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0; } }\n  .application-bar .navbar-overlay-up {\n    padding-bottom: 0;\n    padding-left: 0;\n    padding-right: 0;\n    padding-top: 0; }\n  .application-bar.navbar-underline .navbar-toggler-link:after {\n    bottom: -0.5rem;\n    height: 0.125rem; }\n  @media (min-width: 576px) {\n    .application-bar.navbar-underline.navbar-expand-sm .navbar-nav .nav-link.active:after {\n      bottom: -0.75rem;\n      height: 0.125rem; } }\n  @media (min-width: 768px) {\n    .application-bar.navbar-underline.navbar-expand-md .navbar-nav .nav-link.active:after {\n      bottom: -0.75rem;\n      height: 0.125rem; } }\n  @media (min-width: 992px) {\n    .application-bar.navbar-underline.navbar-expand-lg .navbar-nav .nav-link.active:after {\n      bottom: -0.75rem;\n      height: 0.125rem; } }\n  @media (min-width: 1200px) {\n    .application-bar.navbar-underline.navbar-expand-xl .navbar-nav .nav-link.active:after {\n      bottom: -0.75rem;\n      height: 0.125rem; } }\n  .application-bar.navbar-underline.navbar-expand .navbar-nav .nav-link.active:after {\n    bottom: -0.75rem;\n    height: 0.125rem; }\n  .application-bar .container,\n  .application-bar .container-fluid {\n    flex-wrap: nowrap; }\n  .application-bar .navbar-nav {\n    flex-wrap: nowrap; }\n\n.application-bar-dark {\n  background-color: #343a40;\n  border-color: transparent;\n  border-style: solid;\n  color: rgba(255, 255, 255, 0.5); }\n  .application-bar-dark .nav-link,\n  .application-bar-dark .navbar-nav .btn-unstyled {\n    color: rgba(255, 255, 255, 0.5); }\n    .application-bar-dark .nav-link:hover,\n    .application-bar-dark .navbar-nav .btn-unstyled:hover {\n      color: rgba(255, 255, 255, 0.75); }\n    .application-bar-dark .nav-link.active, .application-bar-dark .nav-link[aria-expanded=\"true\"],\n    .application-bar-dark .navbar-nav .btn-unstyled.active,\n    .application-bar-dark .navbar-nav .btn-unstyled[aria-expanded=\"true\"] {\n      color: #fff; }\n    .application-bar-dark .nav-link.disabled,\n    .application-bar-dark .navbar-nav .btn-unstyled.disabled {\n      color: rgba(255, 255, 255, 0.25); }\n  .application-bar-dark .navbar-toggler {\n    color: rgba(255, 255, 255, 0.5); }\n  .application-bar-dark .navbar-toggler-link[aria-expanded=\"true\"] {\n    color: #fff; }\n  .application-bar-dark .navbar-overlay {\n    background-color: #343a40; }\n  @media (max-width: 575px) {\n    .application-bar-dark.navbar-expand-sm.navbar-collapse-absolute .navbar-collapse {\n      background-color: #343a40;\n      border-color: transparent; }\n    .application-bar-dark.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-header,\n    .application-bar-dark.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(255, 255, 255, 0.5); }\n    .application-bar-dark.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(255, 255, 255, 0.5); }\n    .application-bar-dark.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(255, 255, 255, 0.75); }\n    .application-bar-dark.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: #fff; }\n    .application-bar-dark.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(255, 255, 255, 0.25); } }\n  @media (max-width: 767px) {\n    .application-bar-dark.navbar-expand-md.navbar-collapse-absolute .navbar-collapse {\n      background-color: #343a40;\n      border-color: transparent; }\n    .application-bar-dark.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-header,\n    .application-bar-dark.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(255, 255, 255, 0.5); }\n    .application-bar-dark.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(255, 255, 255, 0.5); }\n    .application-bar-dark.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(255, 255, 255, 0.75); }\n    .application-bar-dark.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: #fff; }\n    .application-bar-dark.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(255, 255, 255, 0.25); } }\n  @media (max-width: 991px) {\n    .application-bar-dark.navbar-expand-lg.navbar-collapse-absolute .navbar-collapse {\n      background-color: #343a40;\n      border-color: transparent; }\n    .application-bar-dark.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-header,\n    .application-bar-dark.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(255, 255, 255, 0.5); }\n    .application-bar-dark.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(255, 255, 255, 0.5); }\n    .application-bar-dark.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(255, 255, 255, 0.75); }\n    .application-bar-dark.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: #fff; }\n    .application-bar-dark.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(255, 255, 255, 0.25); } }\n  @media (max-width: 1199px) {\n    .application-bar-dark.navbar-expand-xl.navbar-collapse-absolute .navbar-collapse {\n      background-color: #343a40;\n      border-color: transparent; }\n    .application-bar-dark.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-header,\n    .application-bar-dark.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(255, 255, 255, 0.5); }\n    .application-bar-dark.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(255, 255, 255, 0.5); }\n    .application-bar-dark.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(255, 255, 255, 0.75); }\n    .application-bar-dark.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: #fff; }\n    .application-bar-dark.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(255, 255, 255, 0.25); } }\n\n.management-bar {\n  border-width: 0 0 0.0625rem 0;\n  font-size: 1rem;\n  padding: 0 0; }\n  .management-bar .navbar-toggler {\n    font-size: 1.25rem;\n    height: 2.00001rem;\n    margin-left: 0.875rem;\n    margin-right: 0.875rem;\n    padding-bottom: 0.25rem;\n    padding-left: 0.75rem;\n    padding-right: 0.75rem;\n    padding-top: 0.25rem; }\n  .management-bar .navbar-toggler-link {\n    height: auto;\n    font-size: 1rem;\n    line-height: 1.5;\n    margin-left: 0;\n    margin-right: 0;\n    padding-bottom: 0.71875rem;\n    padding-left: 0.5rem;\n    padding-right: 0.5rem;\n    padding-top: 0.71875rem; }\n  .management-bar .navbar-brand {\n    font-size: 1.25rem;\n    margin-right: 0;\n    padding-bottom: 0.53125rem;\n    padding-left: 0.5rem;\n    padding-right: 0.5rem;\n    padding-top: 0.53125rem; }\n  .management-bar .navbar-nav .nav-btn {\n    margin-bottom: 0.46875rem;\n    margin-left: 0.5rem;\n    margin-right: 0.5rem;\n    margin-top: 0.46875rem; }\n  .management-bar .navbar-nav .nav-item > .custom-control,\n  .management-bar .navbar-nav .nav-item > .form-check {\n    margin-left: 0.5rem;\n    margin-right: 0.5rem; }\n  .management-bar .navbar-nav .nav-link,\n  .management-bar .navbar-nav .navbar-text {\n    margin-bottom: 0.46875rem;\n    margin-left: 0.5rem;\n    margin-right: 0.5rem;\n    margin-top: 0.46875rem;\n    padding-bottom: 0.25rem;\n    padding-left: 0.5rem;\n    padding-right: 0.5rem;\n    padding-top: 0.25rem; }\n  .management-bar .navbar-nav .nav-link-monospaced {\n    margin-bottom: 0.46875rem;\n    margin-left: 0.5rem;\n    margin-right: 0.5rem;\n    margin-top: 0.46875rem;\n    padding: 0; }\n  .management-bar .dropdown-menu {\n    margin-top: 0; }\n  @media (max-width: 575px) {\n    .management-bar.navbar-expand-sm.navbar-collapse-absolute .navbar-collapse {\n      border-color: transparent;\n      border-style: solid;\n      border-width: 0 0 0.0625rem 0;\n      left: 0;\n      margin-top: 0.0625rem;\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0;\n      right: 0; }\n    .management-bar.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-divider {\n      margin-left: 0;\n      margin-right: 0; }\n    .management-bar.navbar-expand-sm .navbar-form {\n      padding-bottom: 0.25rem;\n      padding-left: 0.5rem;\n      padding-right: 0.5rem;\n      padding-top: 0.25rem; }\n      .management-bar.navbar-expand-sm .navbar-form .form-control {\n        height: 2rem;\n        padding-bottom: 0;\n        padding-top: 0; } }\n  @media (min-width: 576px) {\n    .management-bar.navbar-expand-sm .navbar-brand {\n      font-size: 1.25rem;\n      margin-right: 0.5rem;\n      padding-bottom: 1.03125rem;\n      padding-left: 0.5rem;\n      padding-right: 0.5rem;\n      padding-top: 1.03125rem; }\n    .management-bar.navbar-expand-sm .navbar-form {\n      padding-left: 0.5rem;\n      padding-right: 0.5rem; }\n    .management-bar.navbar-expand-sm .nav-btn {\n      margin-bottom: 0.96875rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.96875rem; }\n    .management-bar.navbar-expand-sm .nav-item > .custom-control,\n    .management-bar.navbar-expand-sm .nav-item > .form-check {\n      margin-left: 0.5rem;\n      margin-right: 0.5rem; }\n    .management-bar.navbar-expand-sm .nav-link,\n    .management-bar.navbar-expand-sm .navbar-text {\n      margin-bottom: 0.96875rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.96875rem;\n      padding-bottom: 0.25rem;\n      padding-left: 0.5rem;\n      padding-right: 0.5rem;\n      padding-top: 0.25rem; }\n    .management-bar.navbar-expand-sm .nav-link-monospaced {\n      margin-bottom: 0.96875rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.96875rem;\n      padding: 0; } }\n  @media (max-width: 767px) {\n    .management-bar.navbar-expand-md.navbar-collapse-absolute .navbar-collapse {\n      border-color: transparent;\n      border-style: solid;\n      border-width: 0 0 0.0625rem 0;\n      left: 0;\n      margin-top: 0.0625rem;\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0;\n      right: 0; }\n    .management-bar.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-divider {\n      margin-left: 0;\n      margin-right: 0; }\n    .management-bar.navbar-expand-md .navbar-form {\n      padding-bottom: 0.25rem;\n      padding-left: 0.5rem;\n      padding-right: 0.5rem;\n      padding-top: 0.25rem; }\n      .management-bar.navbar-expand-md .navbar-form .form-control {\n        height: 2rem;\n        padding-bottom: 0;\n        padding-top: 0; } }\n  @media (min-width: 768px) {\n    .management-bar.navbar-expand-md .navbar-brand {\n      font-size: 1.25rem;\n      margin-right: 0.5rem;\n      padding-bottom: 1.03125rem;\n      padding-left: 0.5rem;\n      padding-right: 0.5rem;\n      padding-top: 1.03125rem; }\n    .management-bar.navbar-expand-md .navbar-form {\n      padding-left: 0.5rem;\n      padding-right: 0.5rem; }\n    .management-bar.navbar-expand-md .nav-btn {\n      margin-bottom: 0.96875rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.96875rem; }\n    .management-bar.navbar-expand-md .nav-item > .custom-control,\n    .management-bar.navbar-expand-md .nav-item > .form-check {\n      margin-left: 0.5rem;\n      margin-right: 0.5rem; }\n    .management-bar.navbar-expand-md .nav-link,\n    .management-bar.navbar-expand-md .navbar-text {\n      margin-bottom: 0.96875rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.96875rem;\n      padding-bottom: 0.25rem;\n      padding-left: 0.5rem;\n      padding-right: 0.5rem;\n      padding-top: 0.25rem; }\n    .management-bar.navbar-expand-md .nav-link-monospaced {\n      margin-bottom: 0.96875rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.96875rem;\n      padding: 0; } }\n  @media (max-width: 991px) {\n    .management-bar.navbar-expand-lg.navbar-collapse-absolute .navbar-collapse {\n      border-color: transparent;\n      border-style: solid;\n      border-width: 0 0 0.0625rem 0;\n      left: 0;\n      margin-top: 0.0625rem;\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0;\n      right: 0; }\n    .management-bar.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-divider {\n      margin-left: 0;\n      margin-right: 0; }\n    .management-bar.navbar-expand-lg .navbar-form {\n      padding-bottom: 0.25rem;\n      padding-left: 0.5rem;\n      padding-right: 0.5rem;\n      padding-top: 0.25rem; }\n      .management-bar.navbar-expand-lg .navbar-form .form-control {\n        height: 2rem;\n        padding-bottom: 0;\n        padding-top: 0; } }\n  @media (min-width: 992px) {\n    .management-bar.navbar-expand-lg .navbar-brand {\n      font-size: 1.25rem;\n      margin-right: 0.5rem;\n      padding-bottom: 1.03125rem;\n      padding-left: 0.5rem;\n      padding-right: 0.5rem;\n      padding-top: 1.03125rem; }\n    .management-bar.navbar-expand-lg .navbar-form {\n      padding-left: 0.5rem;\n      padding-right: 0.5rem; }\n    .management-bar.navbar-expand-lg .nav-btn {\n      margin-bottom: 0.96875rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.96875rem; }\n    .management-bar.navbar-expand-lg .nav-item > .custom-control,\n    .management-bar.navbar-expand-lg .nav-item > .form-check {\n      margin-left: 0.5rem;\n      margin-right: 0.5rem; }\n    .management-bar.navbar-expand-lg .nav-link,\n    .management-bar.navbar-expand-lg .navbar-text {\n      margin-bottom: 0.96875rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.96875rem;\n      padding-bottom: 0.25rem;\n      padding-left: 0.5rem;\n      padding-right: 0.5rem;\n      padding-top: 0.25rem; }\n    .management-bar.navbar-expand-lg .nav-link-monospaced {\n      margin-bottom: 0.96875rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.96875rem;\n      padding: 0; } }\n  @media (max-width: 1199px) {\n    .management-bar.navbar-expand-xl.navbar-collapse-absolute .navbar-collapse {\n      border-color: transparent;\n      border-style: solid;\n      border-width: 0 0 0.0625rem 0;\n      left: 0;\n      margin-top: 0.0625rem;\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0;\n      right: 0; }\n    .management-bar.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-divider {\n      margin-left: 0;\n      margin-right: 0; }\n    .management-bar.navbar-expand-xl .navbar-form {\n      padding-bottom: 0.25rem;\n      padding-left: 0.5rem;\n      padding-right: 0.5rem;\n      padding-top: 0.25rem; }\n      .management-bar.navbar-expand-xl .navbar-form .form-control {\n        height: 2rem;\n        padding-bottom: 0;\n        padding-top: 0; } }\n  @media (min-width: 1200px) {\n    .management-bar.navbar-expand-xl .navbar-brand {\n      font-size: 1.25rem;\n      margin-right: 0.5rem;\n      padding-bottom: 1.03125rem;\n      padding-left: 0.5rem;\n      padding-right: 0.5rem;\n      padding-top: 1.03125rem; }\n    .management-bar.navbar-expand-xl .navbar-form {\n      padding-left: 0.5rem;\n      padding-right: 0.5rem; }\n    .management-bar.navbar-expand-xl .nav-btn {\n      margin-bottom: 0.96875rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.96875rem; }\n    .management-bar.navbar-expand-xl .nav-item > .custom-control,\n    .management-bar.navbar-expand-xl .nav-item > .form-check {\n      margin-left: 0.5rem;\n      margin-right: 0.5rem; }\n    .management-bar.navbar-expand-xl .nav-link,\n    .management-bar.navbar-expand-xl .navbar-text {\n      margin-bottom: 0.96875rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.96875rem;\n      padding-bottom: 0.25rem;\n      padding-left: 0.5rem;\n      padding-right: 0.5rem;\n      padding-top: 0.25rem; }\n    .management-bar.navbar-expand-xl .nav-link-monospaced {\n      margin-bottom: 0.96875rem;\n      margin-left: 0.5rem;\n      margin-right: 0.5rem;\n      margin-top: 0.96875rem;\n      padding: 0; } }\n  .management-bar.navbar-expand .navbar-brand {\n    font-size: 1.25rem;\n    margin-right: 0.5rem;\n    padding-bottom: 1.03125rem;\n    padding-left: 0.5rem;\n    padding-right: 0.5rem;\n    padding-top: 1.03125rem; }\n  .management-bar.navbar-expand .navbar-form {\n    padding-left: 0.5rem;\n    padding-right: 0.5rem; }\n  .management-bar.navbar-expand .nav-btn {\n    margin-bottom: 0.96875rem;\n    margin-left: 0.5rem;\n    margin-right: 0.5rem;\n    margin-top: 0.96875rem; }\n  .management-bar.navbar-expand .nav-item > .custom-control,\n  .management-bar.navbar-expand .nav-item > .form-check {\n    margin-left: 0.5rem;\n    margin-right: 0.5rem; }\n  .management-bar.navbar-expand .nav-link,\n  .management-bar.navbar-expand .navbar-text {\n    margin-bottom: 0.96875rem;\n    margin-left: 0.5rem;\n    margin-right: 0.5rem;\n    margin-top: 0.96875rem;\n    padding-bottom: 0.25rem;\n    padding-left: 0.5rem;\n    padding-right: 0.5rem;\n    padding-top: 0.25rem; }\n  .management-bar.navbar-expand .nav-link-monospaced {\n    margin-bottom: 0.96875rem;\n    margin-left: 0.5rem;\n    margin-right: 0.5rem;\n    margin-top: 0.96875rem;\n    padding: 0; }\n  @media (max-width: 575px) {\n    .management-bar .navbar-overlay-xs-down {\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0; } }\n  @media (max-width: 767px) {\n    .management-bar .navbar-overlay-sm-down {\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0; } }\n  @media (max-width: 991px) {\n    .management-bar .navbar-overlay-md-down {\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0; } }\n  @media (max-width: 1199px) {\n    .management-bar .navbar-overlay-lg-down {\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0; } }\n  .management-bar .navbar-overlay-up {\n    padding-bottom: 0;\n    padding-left: 0;\n    padding-right: 0;\n    padding-top: 0; }\n  .management-bar.navbar-underline .navbar-toggler-link:after {\n    bottom: -0.53125rem;\n    height: 0.25rem; }\n  @media (min-width: 576px) {\n    .management-bar.navbar-underline.navbar-expand-sm .navbar-nav .nav-link.active:after {\n      bottom: -1.03125rem;\n      height: 0.25rem; } }\n  @media (min-width: 768px) {\n    .management-bar.navbar-underline.navbar-expand-md .navbar-nav .nav-link.active:after {\n      bottom: -1.03125rem;\n      height: 0.25rem; } }\n  @media (min-width: 992px) {\n    .management-bar.navbar-underline.navbar-expand-lg .navbar-nav .nav-link.active:after {\n      bottom: -1.03125rem;\n      height: 0.25rem; } }\n  @media (min-width: 1200px) {\n    .management-bar.navbar-underline.navbar-expand-xl .navbar-nav .nav-link.active:after {\n      bottom: -1.03125rem;\n      height: 0.25rem; } }\n  .management-bar.navbar-underline.navbar-expand .navbar-nav .nav-link.active:after {\n    bottom: -1.03125rem;\n    height: 0.25rem; }\n\n.management-bar-light {\n  background-color: #f8f9fa;\n  border-color: transparent;\n  border-style: solid; }\n  .management-bar-light .nav-link,\n  .management-bar-light .navbar-nav .btn-unstyled {\n    color: rgba(0, 0, 0, 0.5); }\n    .management-bar-light .nav-link:hover,\n    .management-bar-light .navbar-nav .btn-unstyled:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .management-bar-light .nav-link.active, .management-bar-light .nav-link[aria-expanded=\"true\"],\n    .management-bar-light .navbar-nav .btn-unstyled.active,\n    .management-bar-light .navbar-nav .btn-unstyled[aria-expanded=\"true\"] {\n      color: rgba(0, 0, 0, 0.9); }\n    .management-bar-light .nav-link.disabled,\n    .management-bar-light .navbar-nav .btn-unstyled.disabled {\n      color: rgba(0, 0, 0, 0.3); }\n  .management-bar-light .navbar-toggler {\n    color: rgba(0, 0, 0, 0.5); }\n  .management-bar-light .navbar-toggler-link[aria-expanded=\"true\"] {\n    color: rgba(0, 0, 0, 0.9); }\n  .management-bar-light .navbar-overlay {\n    background-color: #f8f9fa; }\n  @media (max-width: 575px) {\n    .management-bar-light.navbar-expand-sm.navbar-collapse-absolute .navbar-collapse {\n      background-color: #f8f9fa;\n      border-color: transparent; }\n    .management-bar-light.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-header,\n    .management-bar-light.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .management-bar-light.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .management-bar-light.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .management-bar-light.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .management-bar-light.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n  @media (max-width: 767px) {\n    .management-bar-light.navbar-expand-md.navbar-collapse-absolute .navbar-collapse {\n      background-color: #f8f9fa;\n      border-color: transparent; }\n    .management-bar-light.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-header,\n    .management-bar-light.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .management-bar-light.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .management-bar-light.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .management-bar-light.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .management-bar-light.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n  @media (max-width: 991px) {\n    .management-bar-light.navbar-expand-lg.navbar-collapse-absolute .navbar-collapse {\n      background-color: #f8f9fa;\n      border-color: transparent; }\n    .management-bar-light.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-header,\n    .management-bar-light.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .management-bar-light.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .management-bar-light.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .management-bar-light.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .management-bar-light.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n  @media (max-width: 1199px) {\n    .management-bar-light.navbar-expand-xl.navbar-collapse-absolute .navbar-collapse {\n      background-color: #f8f9fa;\n      border-color: transparent; }\n    .management-bar-light.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-header,\n    .management-bar-light.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .management-bar-light.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .management-bar-light.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .management-bar-light.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .management-bar-light.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n\n.management-bar-primary {\n  background-color: #dcedff;\n  border-color: #007bff;\n  border-style: solid;\n  color: rgba(0, 0, 0, 0.5); }\n  .management-bar-primary .nav-link,\n  .management-bar-primary .navbar-nav .btn-unstyled {\n    color: rgba(0, 0, 0, 0.5); }\n    .management-bar-primary .nav-link:hover,\n    .management-bar-primary .navbar-nav .btn-unstyled:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .management-bar-primary .nav-link.active, .management-bar-primary .nav-link[aria-expanded=\"true\"],\n    .management-bar-primary .navbar-nav .btn-unstyled.active,\n    .management-bar-primary .navbar-nav .btn-unstyled[aria-expanded=\"true\"] {\n      color: rgba(0, 0, 0, 0.9); }\n    .management-bar-primary .nav-link.disabled,\n    .management-bar-primary .navbar-nav .btn-unstyled.disabled {\n      color: rgba(0, 0, 0, 0.3); }\n  .management-bar-primary .navbar-toggler {\n    color: rgba(0, 0, 0, 0.5); }\n  .management-bar-primary .navbar-toggler-link[aria-expanded=\"true\"] {\n    color: rgba(0, 0, 0, 0.9); }\n  .management-bar-primary .navbar-overlay {\n    background-color: #dcedff; }\n  @media (max-width: 575px) {\n    .management-bar-primary.navbar-expand-sm.navbar-collapse-absolute .navbar-collapse {\n      background-color: #dcedff;\n      border-color: #007bff; }\n    .management-bar-primary.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-header,\n    .management-bar-primary.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .management-bar-primary.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .management-bar-primary.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .management-bar-primary.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .management-bar-primary.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n  @media (max-width: 767px) {\n    .management-bar-primary.navbar-expand-md.navbar-collapse-absolute .navbar-collapse {\n      background-color: #dcedff;\n      border-color: #007bff; }\n    .management-bar-primary.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-header,\n    .management-bar-primary.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .management-bar-primary.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .management-bar-primary.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .management-bar-primary.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .management-bar-primary.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n  @media (max-width: 991px) {\n    .management-bar-primary.navbar-expand-lg.navbar-collapse-absolute .navbar-collapse {\n      background-color: #dcedff;\n      border-color: #007bff; }\n    .management-bar-primary.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-header,\n    .management-bar-primary.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .management-bar-primary.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .management-bar-primary.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .management-bar-primary.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .management-bar-primary.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n  @media (max-width: 1199px) {\n    .management-bar-primary.navbar-expand-xl.navbar-collapse-absolute .navbar-collapse {\n      background-color: #dcedff;\n      border-color: #007bff; }\n    .management-bar-primary.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-header,\n    .management-bar-primary.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .management-bar-primary.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .management-bar-primary.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .management-bar-primary.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .management-bar-primary.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n\n.navigation-bar {\n  border-width: 0 0 0.0625rem 0;\n  font-size: 1rem;\n  padding: 0 0; }\n  .navigation-bar .navbar-toggler {\n    font-size: 1.25rem;\n    height: 2.00001rem;\n    margin-left: 1rem;\n    margin-right: 1rem;\n    padding-bottom: 0.25rem;\n    padding-left: 0.75rem;\n    padding-right: 0.75rem;\n    padding-top: 0.25rem; }\n  .navigation-bar .navbar-toggler-link {\n    height: auto;\n    font-size: 1rem;\n    line-height: 1.5;\n    margin-left: 0;\n    margin-right: 0;\n    padding-bottom: 0.71875rem;\n    padding-left: 1rem;\n    padding-right: 1rem;\n    padding-top: 0.71875rem; }\n  .navigation-bar .navbar-brand {\n    font-size: 1.25rem;\n    margin-right: 0;\n    padding-bottom: 0.53125rem;\n    padding-left: 1rem;\n    padding-right: 1rem;\n    padding-top: 0.53125rem; }\n  .navigation-bar .navbar-nav .nav-btn {\n    margin-bottom: 0.46875rem;\n    margin-left: 1rem;\n    margin-right: 1rem;\n    margin-top: 0.46875rem; }\n  .navigation-bar .navbar-nav .nav-item > .custom-control,\n  .navigation-bar .navbar-nav .nav-item > .form-check {\n    margin-left: 1rem;\n    margin-right: 1rem; }\n  .navigation-bar .navbar-nav .nav-link,\n  .navigation-bar .navbar-nav .navbar-text {\n    margin-bottom: 0rem;\n    margin-top: 0rem;\n    padding-bottom: 0.71875rem;\n    padding-left: 1rem;\n    padding-right: 1rem;\n    padding-top: 0.71875rem; }\n  .navigation-bar .navbar-nav .nav-link-monospaced {\n    margin-bottom: 0.46875rem;\n    margin-left: 1rem;\n    margin-right: 1rem;\n    margin-top: 0.46875rem;\n    padding: 0; }\n  .navigation-bar .dropdown-menu {\n    margin-top: 0; }\n  @media (max-width: 575px) {\n    .navigation-bar.navbar-expand-sm.navbar-collapse-absolute .navbar-collapse {\n      border-color: transparent;\n      border-style: solid;\n      border-width: 0 0 0.0625rem 0;\n      left: 0;\n      margin-top: 0.0625rem;\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0;\n      right: 0; }\n    .navigation-bar.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-divider {\n      margin-left: 0;\n      margin-right: 0; }\n    .navigation-bar.navbar-expand-sm .navbar-form {\n      padding-bottom: 0.71875rem;\n      padding-left: 1rem;\n      padding-right: 1rem;\n      padding-top: 0.71875rem; }\n      .navigation-bar.navbar-expand-sm .navbar-form .form-control {\n        padding-bottom: 0;\n        padding-top: 0; } }\n  @media (max-width: 767px) {\n    .navigation-bar.navbar-expand-md.navbar-collapse-absolute .navbar-collapse {\n      border-color: transparent;\n      border-style: solid;\n      border-width: 0 0 0.0625rem 0;\n      left: 0;\n      margin-top: 0.0625rem;\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0;\n      right: 0; }\n    .navigation-bar.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-divider {\n      margin-left: 0;\n      margin-right: 0; }\n    .navigation-bar.navbar-expand-md .navbar-form {\n      padding-bottom: 0.71875rem;\n      padding-left: 1rem;\n      padding-right: 1rem;\n      padding-top: 0.71875rem; }\n      .navigation-bar.navbar-expand-md .navbar-form .form-control {\n        padding-bottom: 0;\n        padding-top: 0; } }\n  @media (max-width: 991px) {\n    .navigation-bar.navbar-expand-lg.navbar-collapse-absolute .navbar-collapse {\n      border-color: transparent;\n      border-style: solid;\n      border-width: 0 0 0.0625rem 0;\n      left: 0;\n      margin-top: 0.0625rem;\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0;\n      right: 0; }\n    .navigation-bar.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-divider {\n      margin-left: 0;\n      margin-right: 0; }\n    .navigation-bar.navbar-expand-lg .navbar-form {\n      padding-bottom: 0.71875rem;\n      padding-left: 1rem;\n      padding-right: 1rem;\n      padding-top: 0.71875rem; }\n      .navigation-bar.navbar-expand-lg .navbar-form .form-control {\n        padding-bottom: 0;\n        padding-top: 0; } }\n  @media (max-width: 1199px) {\n    .navigation-bar.navbar-expand-xl.navbar-collapse-absolute .navbar-collapse {\n      border-color: transparent;\n      border-style: solid;\n      border-width: 0 0 0.0625rem 0;\n      left: 0;\n      margin-top: 0.0625rem;\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0;\n      right: 0; }\n    .navigation-bar.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-divider {\n      margin-left: 0;\n      margin-right: 0; }\n    .navigation-bar.navbar-expand-xl .navbar-form {\n      padding-bottom: 0.71875rem;\n      padding-left: 1rem;\n      padding-right: 1rem;\n      padding-top: 0.71875rem; }\n      .navigation-bar.navbar-expand-xl .navbar-form .form-control {\n        padding-bottom: 0;\n        padding-top: 0; } }\n  @media (max-width: 575px) {\n    .navigation-bar .navbar-overlay-xs-down {\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0; } }\n  @media (max-width: 767px) {\n    .navigation-bar .navbar-overlay-sm-down {\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0; } }\n  @media (max-width: 991px) {\n    .navigation-bar .navbar-overlay-md-down {\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0; } }\n  @media (max-width: 1199px) {\n    .navigation-bar .navbar-overlay-lg-down {\n      padding-bottom: 0;\n      padding-left: 0;\n      padding-right: 0;\n      padding-top: 0; } }\n  .navigation-bar .navbar-overlay-up {\n    padding-bottom: 0;\n    padding-left: 0;\n    padding-right: 0;\n    padding-top: 0; }\n  .navigation-bar.navbar-underline .navbar-toggler-link:after {\n    bottom: -0.0625rem;\n    height: 0.25rem; }\n  @media (min-width: 576px) {\n    .navigation-bar.navbar-underline.navbar-expand-sm .navbar-nav .nav-link.active:after {\n      bottom: -0.0625rem;\n      height: 0.25rem; } }\n  @media (min-width: 768px) {\n    .navigation-bar.navbar-underline.navbar-expand-md .navbar-nav .nav-link.active:after {\n      bottom: -0.0625rem;\n      height: 0.25rem; } }\n  @media (min-width: 992px) {\n    .navigation-bar.navbar-underline.navbar-expand-lg .navbar-nav .nav-link.active:after {\n      bottom: -0.0625rem;\n      height: 0.25rem; } }\n  @media (min-width: 1200px) {\n    .navigation-bar.navbar-underline.navbar-expand-xl .navbar-nav .nav-link.active:after {\n      bottom: -0.0625rem;\n      height: 0.25rem; } }\n  .navigation-bar.navbar-underline.navbar-expand .navbar-nav .nav-link.active:after {\n    bottom: -0.0625rem;\n    height: 0.25rem; }\n\n.navigation-bar-light {\n  background-color: #f8f9fa;\n  border-color: transparent;\n  border-style: solid; }\n  .navigation-bar-light .nav-link,\n  .navigation-bar-light .navbar-nav .btn-unstyled {\n    color: rgba(0, 0, 0, 0.5); }\n    .navigation-bar-light .nav-link:hover,\n    .navigation-bar-light .navbar-nav .btn-unstyled:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .navigation-bar-light .nav-link.active, .navigation-bar-light .nav-link[aria-expanded=\"true\"],\n    .navigation-bar-light .navbar-nav .btn-unstyled.active,\n    .navigation-bar-light .navbar-nav .btn-unstyled[aria-expanded=\"true\"] {\n      color: rgba(0, 0, 0, 0.9); }\n    .navigation-bar-light .nav-link.disabled,\n    .navigation-bar-light .navbar-nav .btn-unstyled.disabled {\n      color: rgba(0, 0, 0, 0.3); }\n  .navigation-bar-light .navbar-toggler {\n    color: rgba(0, 0, 0, 0.5); }\n  .navigation-bar-light .navbar-toggler-link[aria-expanded=\"true\"] {\n    color: rgba(0, 0, 0, 0.9); }\n  .navigation-bar-light .navbar-overlay {\n    background-color: #f8f9fa; }\n  @media (max-width: 575px) {\n    .navigation-bar-light.navbar-expand-sm.navbar-collapse-absolute .navbar-collapse {\n      background-color: #f8f9fa;\n      border-color: transparent; }\n    .navigation-bar-light.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-header,\n    .navigation-bar-light.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .navigation-bar-light.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .navigation-bar-light.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .navigation-bar-light.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .navigation-bar-light.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n  @media (max-width: 767px) {\n    .navigation-bar-light.navbar-expand-md.navbar-collapse-absolute .navbar-collapse {\n      background-color: #f8f9fa;\n      border-color: transparent; }\n    .navigation-bar-light.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-header,\n    .navigation-bar-light.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .navigation-bar-light.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .navigation-bar-light.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .navigation-bar-light.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .navigation-bar-light.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n  @media (max-width: 991px) {\n    .navigation-bar-light.navbar-expand-lg.navbar-collapse-absolute .navbar-collapse {\n      background-color: #f8f9fa;\n      border-color: transparent; }\n    .navigation-bar-light.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-header,\n    .navigation-bar-light.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .navigation-bar-light.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .navigation-bar-light.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .navigation-bar-light.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .navigation-bar-light.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n  @media (max-width: 1199px) {\n    .navigation-bar-light.navbar-expand-xl.navbar-collapse-absolute .navbar-collapse {\n      background-color: #f8f9fa;\n      border-color: transparent; }\n    .navigation-bar-light.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-header,\n    .navigation-bar-light.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(0, 0, 0, 0.5); }\n    .navigation-bar-light.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(0, 0, 0, 0.5); }\n    .navigation-bar-light.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(0, 0, 0, 0.7); }\n    .navigation-bar-light.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(0, 0, 0, 0.9); }\n    .navigation-bar-light.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(0, 0, 0, 0.3); } }\n\n.navigation-bar-secondary {\n  background-color: #868e96;\n  border-color: transparent;\n  border-style: solid;\n  color: #FFF; }\n  .navigation-bar-secondary .nav-link,\n  .navigation-bar-secondary .navbar-nav .btn-unstyled {\n    color: rgba(255, 255, 255, 0.65); }\n    .navigation-bar-secondary .nav-link:hover,\n    .navigation-bar-secondary .navbar-nav .btn-unstyled:hover {\n      color: rgba(255, 255, 255, 0.9); }\n    .navigation-bar-secondary .nav-link.active, .navigation-bar-secondary .nav-link[aria-expanded=\"true\"],\n    .navigation-bar-secondary .navbar-nav .btn-unstyled.active,\n    .navigation-bar-secondary .navbar-nav .btn-unstyled[aria-expanded=\"true\"] {\n      color: rgba(255, 255, 255, 0.9); }\n    .navigation-bar-secondary .nav-link.disabled,\n    .navigation-bar-secondary .navbar-nav .btn-unstyled.disabled {\n      color: rgba(255, 255, 255, 0.25); }\n  .navigation-bar-secondary .navbar-brand {\n    color: rgba(255, 255, 255, 0.9); }\n    .navigation-bar-secondary .navbar-brand:hover {\n      color: rgba(255, 255, 255, 0.9); }\n  .navigation-bar-secondary .navbar-toggler {\n    color: rgba(255, 255, 255, 0.65); }\n  .navigation-bar-secondary .navbar-toggler-link[aria-expanded=\"true\"] {\n    color: rgba(255, 255, 255, 0.9); }\n  .navigation-bar-secondary .navbar-overlay {\n    background-color: #868e96; }\n  @media (max-width: 575px) {\n    .navigation-bar-secondary.navbar-expand-sm.navbar-collapse-absolute .navbar-collapse {\n      background-color: #868e96;\n      border-color: transparent; }\n    .navigation-bar-secondary.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-header,\n    .navigation-bar-secondary.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(255, 255, 255, 0.65); }\n    .navigation-bar-secondary.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(255, 255, 255, 0.65); }\n    .navigation-bar-secondary.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(255, 255, 255, 0.9); }\n    .navigation-bar-secondary.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(255, 255, 255, 0.9); }\n    .navigation-bar-secondary.navbar-expand-sm .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(255, 255, 255, 0.25); } }\n  @media (max-width: 767px) {\n    .navigation-bar-secondary.navbar-expand-md.navbar-collapse-absolute .navbar-collapse {\n      background-color: #868e96;\n      border-color: transparent; }\n    .navigation-bar-secondary.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-header,\n    .navigation-bar-secondary.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(255, 255, 255, 0.65); }\n    .navigation-bar-secondary.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(255, 255, 255, 0.65); }\n    .navigation-bar-secondary.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(255, 255, 255, 0.9); }\n    .navigation-bar-secondary.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(255, 255, 255, 0.9); }\n    .navigation-bar-secondary.navbar-expand-md .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(255, 255, 255, 0.25); } }\n  @media (max-width: 991px) {\n    .navigation-bar-secondary.navbar-expand-lg.navbar-collapse-absolute .navbar-collapse {\n      background-color: #868e96;\n      border-color: transparent; }\n    .navigation-bar-secondary.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-header,\n    .navigation-bar-secondary.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(255, 255, 255, 0.65); }\n    .navigation-bar-secondary.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(255, 255, 255, 0.65); }\n    .navigation-bar-secondary.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(255, 255, 255, 0.9); }\n    .navigation-bar-secondary.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(255, 255, 255, 0.9); }\n    .navigation-bar-secondary.navbar-expand-lg .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(255, 255, 255, 0.25); } }\n  @media (max-width: 1199px) {\n    .navigation-bar-secondary.navbar-expand-xl.navbar-collapse-absolute .navbar-collapse {\n      background-color: #868e96;\n      border-color: transparent; }\n    .navigation-bar-secondary.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-header,\n    .navigation-bar-secondary.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item {\n      color: rgba(255, 255, 255, 0.65); }\n    .navigation-bar-secondary.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-divider {\n      border-color: rgba(255, 255, 255, 0.65); }\n    .navigation-bar-secondary.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item:hover {\n      color: rgba(255, 255, 255, 0.9); }\n    .navigation-bar-secondary.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item.active {\n      color: rgba(255, 255, 255, 0.9); }\n    .navigation-bar-secondary.navbar-expand-xl .navbar-collapse .navbar-nav .dropdown-item.disabled {\n      color: rgba(255, 255, 255, 0.25); } }\n\n.pagination {\n  flex-wrap: wrap;\n  margin-bottom: 0.5rem; }\n\n.pagination-bar {\n  align-items: center;\n  display: flex;\n  flex-wrap: wrap; }\n\n.page-link:focus {\n  z-index: 3; }\n\n.page-link.btn-unstyled {\n  background-color: #fff;\n  border-width: 1px;\n  line-height: 1.25;\n  max-width: none;\n  padding: 0.5rem 0.75rem; }\n\n.page-item.disabled .page-link {\n  cursor: not-allowed;\n  pointer-events: auto; }\n\n.page-item.active .page-link {\n  cursor: default; }\n\n.pagination-items-per-page {\n  margin-bottom: 0.5rem; }\n  .pagination-items-per-page > a,\n  .pagination-items-per-page > .btn-unstyled {\n    border-color: #dee2e6;\n    border-radius: 0.25rem;\n    border-style: solid;\n    border-width: 1px;\n    color: #007bff;\n    display: block;\n    line-height: 1.25;\n    padding: 0.5rem 0.75rem;\n    text-decoration: none; }\n    .pagination-items-per-page > a:focus, .pagination-items-per-page > a:hover,\n    .pagination-items-per-page > .btn-unstyled:focus,\n    .pagination-items-per-page > .btn-unstyled:hover {\n      background-color: #e9ecef;\n      border-color: #dee2e6;\n      color: #0056b3; }\n\n.show.page-item .dropdown-toggle, .show.pagination-items-per-page .dropdown-toggle {\n  background-color: #007bff;\n  border-color: #007bff;\n  color: #fff; }\n\n.pagination-results {\n  border-color: transparent;\n  border-style: solid;\n  border-width: 1px;\n  line-height: 1.25;\n  margin-bottom: 0.5rem;\n  margin-right: auto;\n  padding: 0.5rem 0.75rem; }\n\n.pagination-sm .pagination-items-per-page > a,\n.pagination-sm .pagination-items-per-page > .btn-unstyled,\n.pagination-sm .pagination-results {\n  font-size: 0.875rem;\n  line-height: 1.5;\n  padding: 0.25rem 0.75rem; }\n\n.pagination-sm .page-link {\n  font-size: 0.875rem;\n  line-height: 1.5; }\n  .pagination-sm .page-link.btn-unstyled {\n    padding: 0.25rem 0.5rem; }\n\n.pagination-lg .pagination-items-per-page > a,\n.pagination-lg .pagination-items-per-page > .btn-unstyled,\n.pagination-lg .pagination-results {\n  font-size: 1.25rem;\n  line-height: 1.5;\n  padding: 0.75rem 0.75rem; }\n\n.pagination-lg .page-link {\n  font-size: 1.25rem;\n  line-height: 1.5; }\n  .pagination-lg .page-link.btn-unstyled {\n    padding: 0.75rem 1.5rem; }\n\n.panel {\n  background-color: #FFF;\n  border-color: transparent;\n  border-style: solid;\n  border-width: 1px 1px 1px 1px;\n  border-radius: 0.25rem;\n  margin-bottom: 1rem;\n  word-wrap: break-word; }\n\n.panel-header {\n  border-bottom: 1px solid transparent;\n  border-top-left-radius: calc(0.25rem - 1px);\n  border-top-right-radius: calc(0.25rem - 1px);\n  display: block;\n  width: 100%;\n  line-height: normal;\n  padding: 0.75rem 1.25rem;\n  position: relative; }\n  .panel-header.collapsed {\n    border-bottom-right-radius: calc(0.25rem - 1px);\n    border-bottom-left-radius: calc(0.25rem - 1px);\n    transition: border-radius 1s ease, border-width 1s ease;\n    border-bottom-width: 0; }\n\n.panel-header-link {\n  color: inherit;\n  display: block;\n  padding: 0.75rem 1.25rem; }\n  .panel-header-link:hover {\n    color: inherit; }\n  .panel-header-link:focus {\n    z-index: 1; }\n  .panel-header-link .collapse-icon {\n    padding-right: 2.28125rem; }\n\n.panel-body {\n  padding: 0.75rem 1.25rem; }\n\n.panel-footer {\n  border-bottom-right-radius: calc(0.25rem - 1px);\n  border-bottom-left-radius: calc(0.25rem - 1px);\n  border-top: 1px solid transparent;\n  padding: 0.75rem 1.25rem; }\n\n.panel-title {\n  font-weight: 500; }\n\n.panel .collapse-icon-closed,\n.panel .collapse-icon-open {\n  font-size: 0.875rem; }\n\n.panel-group {\n  background-color: #FFF;\n  border-radius: 0.25rem; }\n  .panel-group .panel {\n    margin-bottom: -1px; }\n    .panel-group .panel:first-child,\n    .panel-group .panel:first-child .panel-header {\n      border-bottom-right-radius: 0;\n      border-bottom-left-radius: 0; }\n    .panel-group .panel:not(:first-child) {\n      border-radius: 0;\n      margin-top: -1px; }\n      .panel-group .panel:not(:first-child) .panel-header {\n        border-radius: 0; }\n    .panel-group .panel:last-child {\n      border-bottom-right-radius: 0.25rem;\n      border-bottom-left-radius: 0.25rem; }\n      .panel-group .panel:last-child .panel-header.collapsed {\n        border-bottom-right-radius: calc(0.25rem - 1px);\n        border-bottom-left-radius: calc(0.25rem - 1px);\n        transition: border-radius 1s ease; }\n  .panel-group .panel-header {\n    border-bottom-width: 0; }\n    .panel-group .panel-header + .panel-collapse > .panel-body {\n      border-top: 1px solid transparent; }\n\n.panel-group-fluid .panel,\n.panel-group-flush .panel {\n  border-left-width: 0;\n  border-right-width: 0; }\n  .panel-group-fluid .panel:first-child, .panel-group-fluid .panel:last-child,\n  .panel-group-flush .panel:first-child,\n  .panel-group-flush .panel:last-child {\n    border-radius: 0; }\n\n.panel-group-fluid-first .panel {\n  border-left-width: 0;\n  border-right-width: 0; }\n  .panel-group-fluid-first .panel:first-child {\n    border-top-width: 0; }\n  .panel-group-fluid-first .panel:last-child {\n    border-bottom-left-radius: 0;\n    border-bottom-right-radius: 0; }\n\n.panel-group-fluid-last .panel {\n  border-left-width: 0;\n  border-right-width: 0; }\n  .panel-group-fluid-last .panel:first-child {\n    border-top-left-radius: 0;\n    border-top-right-radius: 0; }\n  .panel-group-fluid-last .panel:last-child {\n    border-bottom-width: 0; }\n\n.card-body > .panel-group-fluid,\n.card-body > .panel-group-fluid-first,\n.card-body > .panel-group-fluid-last {\n  margin-left: -1.25rem;\n  margin-right: -1.25rem; }\n\n.sheet > .panel-group-fluid {\n  margin-left: -1.5rem;\n  margin-right: -1.5rem; }\n\n.sheet > .panel-group-fluid-first {\n  margin-left: -1.5rem;\n  margin-right: -1.5rem;\n  margin-top: -1.5rem; }\n\n.sheet > .panel-group-fluid-last {\n  margin-bottom: -0.0625rem;\n  margin-left: -1.5rem;\n  margin-right: -1.5rem; }\n\n.panel-group-flush .panel-header,\n.panel-group-flush .panel-header-link {\n  padding-left: 0;\n  padding-right: 0; }\n\n.panel-group-flush .panel-body {\n  margin-bottom: 1.5rem;\n  padding: 0; }\n\n.panel-group-flush .collapse-icon {\n  padding-right: 1.5rem; }\n\n.panel-group-flush .collapse-icon-closed,\n.panel-group-flush .collapse-icon-open {\n  right: 0; }\n\n.panel-secondary {\n  border-color: rgba(0, 0, 0, 0.125); }\n  .panel-secondary .panel-header {\n    background-color: #f8f9fa;\n    border-color: rgba(0, 0, 0, 0.125); }\n    .panel-group .panel-secondary .panel-header + .panel-collapse > .panel-body {\n      border-color: rgba(0, 0, 0, 0.125); }\n  .panel-secondary .panel-footer {\n    background-color: #f8f9fa;\n    border-color: rgba(0, 0, 0, 0.125); }\n\n.popover.bs-popover-bottom .arrow::after, .popover.bs-popover-auto[x-placement^=\"bottom\"] .arrow::after {\n  border-bottom-color: #f7f7f7; }\n\n.popover .inline-scroller {\n  max-height: 14.75rem; }\n\n.popover-header {\n  font-weight: 500; }\n\n.popover-body {\n  border-bottom-right-radius: calc(0.3rem - 1px);\n  border-bottom-left-radius: calc(0.3rem - 1px); }\n\n.progress {\n  flex-grow: 1;\n  min-width: 6.25rem; }\n\n.progress-lg,\n.progress-lg > .progress {\n  border-radius: 0.25rem;\n  font-size: 1.25rem;\n  height: 2rem;\n  line-height: 2rem; }\n\n.progress-group {\n  align-items: center;\n  display: flex;\n  flex-wrap: wrap; }\n\n.progress-group-addon {\n  margin-right: 1rem;\n  text-align: center; }\n  .progress-group-addon:first-child {\n    padding-left: 0; }\n  .progress-group-addon:last-child {\n    padding-right: 0; }\n\n.progress ~ .progress-group-addon {\n  margin-left: 1rem;\n  margin-right: 0; }\n\n.progress-group-feedback {\n  color: #007bff; }\n\n.progress-group-stacked {\n  display: block; }\n  .progress-group-stacked .progress-group-addon {\n    margin-left: 0;\n    margin-right: 0; }\n\n.progress-success .progress-bar {\n  background-color: #28a745; }\n\n.progress-success .progress-group-feedback {\n  color: #28a745; }\n\n.progress-info .progress-bar {\n  background-color: #17a2b8; }\n\n.progress-info .progress-group-feedback {\n  color: #17a2b8; }\n\n.progress-warning .progress-bar {\n  background-color: #ffc107; }\n\n.progress-warning .progress-group-feedback {\n  color: #ffc107; }\n\n.progress-danger .progress-bar {\n  background-color: #dc3545; }\n\n.progress-danger .progress-group-feedback {\n  color: #dc3545; }\n\n.quick-action-menu {\n  align-items: center;\n  bottom: 0;\n  display: none;\n  left: auto;\n  position: absolute;\n  right: 100%;\n  top: 0; }\n\n.quick-action-item {\n  border-radius: 0.25rem;\n  color: #007bff;\n  display: flex;\n  line-height: 1;\n  margin-left: 0.5rem;\n  margin-right: 0.5rem;\n  min-height: 2rem;\n  min-width: 2rem;\n  padding-bottom: 0.5rem;\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n  padding-top: 0.5rem; }\n  .quick-action-item:hover {\n    color: #0056b3; }\n  .quick-action-item:disabled, .quick-action-item.disabled {\n    color: #868e96;\n    cursor: not-allowed;\n    opacity: 0.65; }\n  .quick-action-item .lexicon-icon {\n    margin-top: 0; }\n\n.sheet {\n  background-color: #fff;\n  border-color: rgba(0, 0, 0, 0.125);\n  border-style: solid;\n  border-width: 0.0625rem;\n  border-radius: 0.25rem;\n  padding-bottom: 0.0625rem;\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n  padding-top: 1.5rem; }\n  .sheet .panel-group-flush .panel-body {\n    margin-bottom: 3rem; }\n\n.sheet-header {\n  margin-bottom: 3rem; }\n  .sheet-header::after {\n    display: block;\n    clear: both;\n    content: \"\"; }\n\n.sheet-section {\n  margin-bottom: 3rem; }\n  .sheet-section::after {\n    display: block;\n    clear: both;\n    content: \"\"; }\n\n.sheet-footer {\n  margin-bottom: 1.5rem;\n  margin-top: 1.5rem; }\n  .sheet-footer::after {\n    display: block;\n    clear: both;\n    content: \"\"; }\n\n.sheet-lg {\n  margin-left: auto;\n  margin-right: auto;\n  max-width: 800px; }\n\n.sheet-title {\n  display: block;\n  font-size: 1.5rem;\n  font-weight: 500;\n  line-height: 1.2;\n  margin-bottom: 1.5rem;\n  word-wrap: break-word; }\n\n.sheet-subtitle {\n  border-style: solid;\n  border-width: 0 0 1px 0;\n  display: block;\n  font-size: 0.875rem;\n  font-weight: 500;\n  line-height: 1.2;\n  margin-bottom: 1.5rem;\n  padding-bottom: 0.3125rem;\n  padding-top: 0.3125rem;\n  position: relative;\n  text-transform: uppercase;\n  word-wrap: break-word; }\n  .sheet-subtitle .collapse-icon-closed,\n  .sheet-subtitle .collapse-icon-open {\n    top: calc(0.3125rem + (((0.875rem * 1.2) - 1em) / 2)); }\n\na.sheet-subtitle:hover {\n  text-decoration: none; }\n\n.sheet-tertiary-title {\n  display: block;\n  font-size: 0.875rem;\n  font-weight: 500;\n  line-height: 1.2;\n  margin-bottom: 1.5rem;\n  padding-bottom: 0.3125rem;\n  padding-top: 0.3125rem;\n  text-transform: uppercase;\n  word-wrap: break-word; }\n\n.sheet-text {\n  margin-bottom: 1.5rem;\n  word-wrap: break-word; }\n\n.container-fluid-1280.sidenav-container {\n  padding-left: 15px;\n  padding-right: 15px; }\n\n.sidenav-container {\n  position: relative; }\n  .sidenav-container > .sidenav-menu-slider {\n    visibility: hidden;\n    width: 0; }\n  .sidenav-container > .sidenav-content {\n    left: 0; }\n\n.sidenav-container.open > .sidenav-menu-slider {\n  visibility: visible; }\n\n.sidenav-content {\n  padding-left: 0;\n  padding-right: 0;\n  position: relative; }\n  @media (min-width: 768px) {\n    .sidenav-content {\n      position: static; }\n      .sidenav-content::after {\n        display: block;\n        clear: both;\n        content: \"\"; } }\n\n.sidenav-menu {\n  height: 100%;\n  position: relative; }\n\n.sidenav-menu-slider {\n  overflow: hidden;\n  position: absolute;\n  width: 320px;\n  z-index: 10; }\n\n.sidenav-fixed > .sidenav-menu-slider {\n  bottom: 0;\n  left: 0;\n  position: fixed;\n  top: 0;\n  z-index: 1035; }\n\n.sidenav-right > .sidenav-content {\n  left: auto;\n  right: 0; }\n\n.sidenav-right > .sidenav-menu-slider {\n  left: auto;\n  right: 0; }\n  .sidenav-right > .sidenav-menu-slider .sidenav-menu {\n    right: 0; }\n\n.sidenav-js-fouc > .sidenav-menu-slider {\n  opacity: 0;\n  visibility: hidden; }\n\n.sidenav-transition .sidenav-content,\n.sidenav-transition .sidenav-menu,\n.sidenav-transition .sidenav-menu-slider {\n  transition: all 0.5s ease; }\n\n.sidenav-transition {\n  transition: all 0.5s ease; }\n\n.sidenav-fixed.sidenav-menu-slider {\n  bottom: 0;\n  left: 0;\n  position: fixed;\n  top: 0;\n  visibility: hidden;\n  width: 0; }\n  .sidenav-fixed.sidenav-menu-slider.open {\n    visibility: visible;\n    width: 320px; }\n  .sidenav-fixed.sidenav-menu-slider .sidenav-menu {\n    position: absolute; }\n\n.sidenav-menu-slider .sidenav-menu {\n  width: 320px; }\n\n.sidenav-menu-slider.sidenav-right {\n  left: auto;\n  right: 0; }\n  .sidenav-menu-slider.sidenav-right .sidenav-menu {\n    right: 0; }\n\n.sidebar {\n  height: 100%;\n  overflow: auto;\n  -webkit-overflow-scrolling: touch; }\n\n.sidebar-header,\n.sidebar-footer {\n  padding-bottom: 1.5rem;\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n  padding-top: 1.5rem; }\n\n.sidebar-body {\n  overflow: auto;\n  -webkit-overflow-scrolling: touch;\n  padding-bottom: 1.5rem;\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n  padding-top: 1.5rem; }\n  .sidebar-body > .sidebar-section {\n    margin-bottom: 2rem; }\n    .sidebar-body > .sidebar-section:last-child {\n      margin-bottom: 0; }\n\n.sidebar-section {\n  position: relative;\n  word-wrap: break-word; }\n\n.sidebar-section-flex {\n  display: flex; }\n  .sidebar-section-flex .flex-col {\n    justify-content: center;\n    min-height: 40px; }\n\n.sidebar-list {\n  font-size: 0.875rem;\n  padding-left: 0;\n  list-style: none; }\n\n.sidebar-list-item {\n  border-color: transparent;\n  border-style: solid;\n  border-width: 1px 0 1px 0;\n  display: flex;\n  margin-bottom: -1px; }\n  .sidebar-list-item .flex-col {\n    justify-content: center;\n    padding-bottom: 1rem;\n    padding-left: 0.5rem;\n    padding-right: 0.5rem;\n    padding-top: 1rem; }\n\n.sidebar-panel {\n  margin-bottom: 1rem;\n  position: relative; }\n\n.sidebar-actions {\n  flex-wrap: nowrap;\n  margin-right: -0.5rem; }\n\n.sidebar-title {\n  display: block;\n  font-size: 1.5rem;\n  font-weight: 500;\n  line-height: normal;\n  margin-bottom: 0; }\n\n.sidebar-subtitle {\n  font-size: 1.125rem;\n  font-weight: 500;\n  line-height: normal; }\n\n.sidebar-caption {\n  font-size: 0.875rem; }\n\n.sidebar-dt {\n  font-size: 0.75rem;\n  font-weight: 500;\n  margin-bottom: 0.25rem;\n  text-transform: uppercase; }\n\n.sidebar-dd {\n  font-size: 0.75rem;\n  margin-bottom: 0.75rem; }\n\n.sidebar-light {\n  background-color: #fff;\n  border-color: #d4d7de;\n  border-style: solid;\n  border-width: 0 0 0 1px;\n  color: #212529; }\n  .sidebar-light .sidebar-header .sidebar-title.sidebar-link,\n  .sidebar-light .sidebar-header .sidebar-title .sidebar-link {\n    text-decoration: none; }\n  .sidebar-light .sidebar-actions .sidebar-link {\n    text-decoration: none; }\n  .sidebar-light .sidebar-list-item {\n    border-color: #d4d7de; }\n  .sidebar-light .sidebar-panel {\n    background-color: #f8f9fa; }\n\n.sticker {\n  border-radius: 0.25rem;\n  display: inline-block;\n  font-size: 0.875rem;\n  height: 2rem;\n  line-height: 2rem;\n  width: 2rem;\n  position: relative;\n  text-align: center;\n  vertical-align: middle; }\n  .sticker .lexicon-icon {\n    display: block;\n    height: 100%;\n    margin: auto; }\n  .sticker img {\n    vertical-align: top; }\n  .sticker .img-fluid {\n    border-radius: 0.25rem; }\n  .sticker.rounded .img-fluid {\n    border-radius: 0.25rem; }\n  .sticker.rounded-circle .img-fluid {\n    border-radius: 5000px; }\n  .sticker.rounded-0 .img-fluid {\n    border-radius: 0; }\n\n.sticker-overlay {\n  align-items: center;\n  border-radius: 0.25rem;\n  bottom: 0;\n  display: flex;\n  justify-content: center;\n  left: 0;\n  position: absolute;\n  right: 0;\n  top: 0; }\n\n.sticker-bottom-left {\n  bottom: 15px;\n  left: 15px;\n  position: absolute;\n  right: auto;\n  top: auto; }\n\n.sticker-bottom-right {\n  bottom: 15px;\n  left: auto;\n  position: absolute;\n  right: 15px;\n  top: auto; }\n\n.sticker-top-left {\n  left: 15px;\n  position: absolute;\n  top: 15px; }\n\n.sticker-top-right {\n  left: auto;\n  position: absolute;\n  right: 15px;\n  top: 15px; }\n\n.sticker-outside {\n  left: -1rem;\n  top: -1rem; }\n  .sticker-outside.sticker-bottom-left {\n    bottom: -1rem;\n    top: auto; }\n  .sticker-outside.sticker-bottom-right {\n    bottom: -1rem;\n    left: auto;\n    right: -1rem;\n    top: auto; }\n  .sticker-outside.sticker-top-right {\n    left: auto;\n    right: -1rem; }\n\n.sticker-sm {\n  font-size: 0.75rem;\n  height: 1.5rem;\n  line-height: 1.5rem;\n  width: 1.5rem; }\n  .sticker-sm.sticker-outside {\n    left: -0.75rem;\n    top: -0.75rem; }\n    .sticker-sm.sticker-outside.sticker-bottom-left {\n      bottom: -0.75rem;\n      top: auto; }\n    .sticker-sm.sticker-outside.sticker-bottom-right {\n      bottom: -0.75rem;\n      left: auto;\n      right: -0.75rem;\n      top: auto; }\n    .sticker-sm.sticker-outside.sticker-top-right {\n      left: auto;\n      right: -0.75rem; }\n\n.sticker-lg {\n  font-size: 1.125rem;\n  height: 2.5rem;\n  line-height: 2.5rem;\n  width: 2.5rem; }\n  .sticker-lg.sticker-outside {\n    left: -1.25rem;\n    top: -1.25rem; }\n    .sticker-lg.sticker-outside.sticker-bottom-left {\n      bottom: -1.25rem;\n      top: auto; }\n    .sticker-lg.sticker-outside.sticker-bottom-right {\n      bottom: -1.25rem;\n      left: auto;\n      right: -1.25rem;\n      top: auto; }\n    .sticker-lg.sticker-outside.sticker-top-right {\n      left: auto;\n      right: -1.25rem; }\n\n.sticker-xl {\n  font-size: 1.25rem;\n  height: 3rem;\n  line-height: 3rem;\n  width: 3rem; }\n  .sticker-xl.sticker-outside {\n    left: -1.5rem;\n    top: -1.5rem; }\n    .sticker-xl.sticker-outside.sticker-bottom-left {\n      bottom: -1.5rem;\n      top: auto; }\n    .sticker-xl.sticker-outside.sticker-bottom-right {\n      bottom: -1.5rem;\n      left: auto;\n      right: -1.5rem;\n      top: auto; }\n    .sticker-xl.sticker-outside.sticker-top-right {\n      left: auto;\n      right: -1.5rem; }\n\n.sticker-primary {\n  background-color: #007bff;\n  color: #fff; }\n\n.sticker-secondary {\n  background-color: #868e96;\n  color: #fff; }\n\n.sticker-success {\n  background-color: #28a745;\n  color: #fff; }\n\n.sticker-info {\n  background-color: #17a2b8;\n  color: #fff; }\n\n.sticker-warning {\n  background-color: #ffc107;\n  color: #212529; }\n\n.sticker-danger {\n  background-color: #dc3545;\n  color: #fff; }\n\n.sticker-light {\n  background-color: #f8f9fa;\n  color: #212529; }\n\n.sticker-dark {\n  background-color: #343a40;\n  color: #fff; }\n\n.subnav {\n  align-items: center;\n  display: flex;\n  flex-wrap: wrap;\n  font-size: 0.875rem;\n  justify-content: space-between;\n  padding-left: 0;\n  padding-right: 0; }\n  .subnav .container,\n  .subnav .container-fluid {\n    align-items: center;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between; }\n\n.subnav-nav {\n  align-items: center;\n  display: flex;\n  flex-wrap: wrap;\n  margin: 0;\n  padding: 0; }\n  .subnav-nav > li {\n    display: flex; }\n\n.subnav-title {\n  font-size: 0.75rem;\n  font-weight: 500;\n  text-transform: uppercase; }\n\n.subnav-link {\n  color: #007bff;\n  text-decoration: none; }\n  .subnav-link:hover {\n    color: #0056b3;\n    text-decoration: underline; }\n\nbutton.subnav-link {\n  background-color: transparent;\n  border-width: 0;\n  cursor: pointer;\n  font-size: inherit;\n  font-weight: inherit;\n  line-height: normal;\n  max-width: 100%;\n  padding: 0;\n  text-align: left;\n  text-transform: inherit;\n  vertical-align: baseline; }\n\nbutton.subnav-item,\n.subnav-item {\n  line-height: 2rem;\n  padding-bottom: 0;\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n  padding-top: 0; }\n\n.subnav-item.subnav-link {\n  text-decoration: none; }\n  .subnav-item.subnav-link:focus, .subnav-item.subnav-link:hover {\n    text-decoration: none; }\n\n.subnav-primary {\n  background-color: #007bff;\n  color: rgba(255, 255, 255, 0.5); }\n  .subnav-primary .subnav-link {\n    color: #FFF; }\n    .subnav-primary .subnav-link:focus, .subnav-primary .subnav-link:hover {\n      color: rgba(255, 255, 255, 0.75); }\n  .subnav-primary .subnav-item.subnav-link {\n    color: rgba(255, 255, 255, 0.5); }\n    .subnav-primary .subnav-item.subnav-link:focus, .subnav-primary .subnav-item.subnav-link:hover {\n      color: rgba(255, 255, 255, 0.75); }\n\n.subnav-light {\n  background-color: #f8f9fa;\n  color: rgba(0, 0, 0, 0.5); }\n  .subnav-light .subnav-item.subnav-link {\n    color: rgba(0, 0, 0, 0.5); }\n    .subnav-light .subnav-item.subnav-link:focus, .subnav-light .subnav-item.subnav-link:hover {\n      color: rgba(0, 0, 0, 0.7); }\n\n.subnav-dark {\n  background-color: #343a40;\n  color: rgba(255, 255, 255, 0.5); }\n  .subnav-dark .subnav-item.subnav-link {\n    color: rgba(255, 255, 255, 0.5); }\n    .subnav-dark .subnav-item.subnav-link:focus, .subnav-dark .subnav-item.subnav-link:hover {\n      color: rgba(255, 255, 255, 0.75); }\n\ntable {\n  border-collapse: separate; }\n\nth {\n  height: 20px; }\n\n.table {\n  border-collapse: collapse; }\n  .table th {\n    color: #495057;\n    height: 36px;\n    position: relative; }\n  .table td {\n    position: relative; }\n  .table td:first-child,\n  .table th:first-child {\n    padding-left: 15px; }\n  .table td:last-child,\n  .table th:last-child {\n    padding-right: 15px; }\n  .table .custom-control,\n  .table .form-check {\n    margin-bottom: 0; }\n\n.table-cell-content {\n  display: table-cell;\n  max-width: 100px;\n  min-width: 100px;\n  width: auto;\n  word-wrap: break-word; }\n\n.table-cell-field {\n  display: table-cell;\n  width: 1%; }\n\n.table-bordered thead td,\n.table-bordered thead th {\n  border-top-width: 1px; }\n\n.table-list {\n  background-color: #FFF;\n  border-radius: 6px;\n  margin-bottom: 1.5rem; }\n  .table-list thead:first-child tr:first-child th:first-child,\n  .table-list thead:first-child tr:first-child td:first-child,\n  .table-list tbody:first-child tr:first-child th:first-child,\n  .table-list tbody:first-child tr:first-child td:first-child,\n  .table-list tfoot:first-child tr:first-child th:first-child,\n  .table-list tfoot:first-child tr:first-child td:first-child {\n    border-top-left-radius: 6px; }\n  .table-list thead:first-child tr:first-child th:last-child,\n  .table-list thead:first-child tr:first-child td:last-child,\n  .table-list tbody:first-child tr:first-child th:last-child,\n  .table-list tbody:first-child tr:first-child td:last-child,\n  .table-list tfoot:first-child tr:first-child th:last-child,\n  .table-list tfoot:first-child tr:first-child td:last-child {\n    border-top-right-radius: 6px; }\n  .table-list thead:last-child tr:last-child th:first-child,\n  .table-list thead:last-child tr:last-child td:first-child,\n  .table-list tbody:last-child tr:last-child th:first-child,\n  .table-list tbody:last-child tr:last-child td:first-child,\n  .table-list tfoot:last-child tr:last-child th:first-child,\n  .table-list tfoot:last-child tr:last-child td:first-child {\n    border-bottom-left-radius: 6px; }\n  .table-list thead:last-child tr:last-child th:last-child,\n  .table-list thead:last-child tr:last-child td:last-child,\n  .table-list tbody:last-child tr:last-child th:last-child,\n  .table-list tbody:last-child tr:last-child td:last-child,\n  .table-list tfoot:last-child tr:last-child th:last-child,\n  .table-list tfoot:last-child tr:last-child td:last-child {\n    border-bottom-right-radius: 6px; }\n  .table-list th,\n  .table-list td {\n    box-shadow: inset 0 0.0625rem #e9ecef, 0 0.0625rem #e9ecef;\n    padding-top: 0.8125rem; }\n    .table-list th:first-child,\n    .table-list td:first-child {\n      box-shadow: inset 0 0.0625rem #e9ecef, 0 0.0625rem #e9ecef, inset 0.0625rem 0 #e9ecef;\n      padding-left: 0.8125rem;\n      padding-top: 0.8125rem; }\n    .table-list th:last-child,\n    .table-list td:last-child {\n      box-shadow: inset 0 0.0625rem #e9ecef, inset -0.0625rem 0 #e9ecef, 0 0.0625rem #e9ecef;\n      padding-right: 0.8125rem;\n      padding-top: 0.8125rem; }\n    .table-list th:only-child,\n    .table-list td:only-child {\n      box-shadow: inset 0 0.0625rem #e9ecef, inset -0.0625rem 0 #e9ecef, 0 0.0625rem #e9ecef, inset 0.0625rem 0 #e9ecef;\n      padding-left: 0.8125rem;\n      padding-right: 0.8125rem;\n      padding-top: 0.8125rem; }\n  .table-list thead td,\n  .table-list thead th {\n    border-width: 0; }\n  .table-list tbody td,\n  .table-list tbody th,\n  .table-list tfoot td,\n  .table-list tfoot th {\n    border-width: 0;\n    vertical-align: middle; }\n\n.table-list.table-bordered {\n  border-width: 0; }\n  .table-list.table-bordered th,\n  .table-list.table-bordered td {\n    box-shadow: inset 0 0.0625rem #e9ecef, inset -0.0625rem 0 #e9ecef, 0 0.0625rem #e9ecef, -0.03125rem 0.03125rem 0 0.03125rem #e9ecef;\n    padding-right: 0.8125rem;\n    padding-top: 0.8125rem; }\n    .table-list.table-bordered th:first-child,\n    .table-list.table-bordered td:first-child {\n      box-shadow: inset 0 0.0625rem #e9ecef, inset -0.0625rem 0 #e9ecef, 0 0.0625rem #e9ecef, inset 0.0625rem 0 #e9ecef;\n      padding-left: 0.8125rem;\n      padding-right: 0.8125rem;\n      padding-top: 0.8125rem; }\n\n.table-list.table-striped tbody tr:nth-of-type(odd) {\n  background-color: #F2F2F2; }\n\n.table-list.table-hover tbody tr:hover {\n  background-color: #ECECEC; }\n\n.table-list.table-hover .table-active:hover {\n  background-color: #DADADA; }\n  .table-list.table-hover .table-active:hover > th,\n  .table-list.table-hover .table-active:hover > td {\n    background-color: #DADADA; }\n\n.table-list .table-active,\n.table-list .table-active > th,\n.table-list .table-active > td {\n  background-color: #DADADA; }\n\n.table-autofit td,\n.table-autofit th {\n  width: 1%; }\n\n.table-autofit .table-cell-content {\n  width: auto; }\n\n.table-heading-nowrap thead td,\n.table-heading-nowrap thead th {\n  white-space: nowrap; }\n\n.table .table-divider td,\n.table .table-divider th {\n  background-color: #FFF;\n  padding: 0.75rem; }\n\n.table-valign-bottom tbody td,\n.table-valign-bottom tbody th,\n.table-valign-bottom tfoot td,\n.table-valign-bottom tfoot th,\n.table-valign-bottom thead td,\n.table-valign-bottom thead th {\n  vertical-align: bottom; }\n\n.table-valign-middle tbody td,\n.table-valign-middle tbody th,\n.table-valign-middle tfoot td,\n.table-valign-middle tfoot th,\n.table-valign-middle thead td,\n.table-valign-middle thead th {\n  vertical-align: middle; }\n\n.table-valign-top tbody td,\n.table-valign-top tbody th,\n.table-valign-top tfoot td,\n.table-valign-top tfoot th,\n.table-valign-top thead td,\n.table-valign-top thead th {\n  vertical-align: top; }\n\n.tbody-valign-bottom tbody td {\n  vertical-align: bottom; }\n\n.tbody-valign-middle tbody td {\n  vertical-align: middle; }\n\n.tbody-valign-top tbody td {\n  vertical-align: top; }\n\n.thead-valign-bottom thead td,\n.thead-valign-bottom thead th {\n  vertical-align: bottom; }\n\n.thead-valign-middle thead td,\n.thead-valign-middle thead th {\n  vertical-align: middle; }\n\n.thead-valign-top thead td,\n.thead-valign-top thead th {\n  vertical-align: top; }\n\n.show-quick-actions-on-hover tr:not(.table-active):hover .quick-action-menu {\n  display: flex; }\n\n.show-quick-actions-on-hover .table-focus:not(.table-active) .quick-action-menu {\n  display: flex; }\n\n.table .quick-action-menu {\n  align-items: flex-start;\n  background-color: #fff;\n  padding-bottom: 0.75rem;\n  padding-top: 0.75rem; }\n\n.table-striped tbody tr:nth-of-type(odd) .quick-action-menu {\n  background-color: #F2F2F2; }\n\n.table-striped tbody .table-active:nth-of-type(odd) .quick-action-menu {\n  background-color: #E0E0E0; }\n\n.table-hover tbody tr:hover .quick-action-menu {\n  background-color: #ECECEC; }\n\n.table-hover tbody .table-active:hover .quick-action-menu {\n  background-color: #DADADA; }\n\n.table-active .quick-action-menu {\n  background-color: #DADADA; }\n\n.table-list .quick-action-menu {\n  align-items: center;\n  background-color: #FFF;\n  bottom: 0;\n  top: 0.0625rem; }\n\n.table-list.table-striped tbody tr:nth-of-type(odd) .quick-action-menu {\n  background-color: #F2F2F2; }\n\n.table-list.table-striped tbody .table-active:nth-of-type(odd) .quick-action-menu {\n  background-color: #DADADA; }\n\n.table-list.table-hover tbody tr:hover .quick-action-menu {\n  background-color: #ECECEC; }\n\n.table-list.table-hover tbody .table-active:hover .quick-action-menu {\n  background-color: #DADADA; }\n\n.table-list .table-active .quick-action-menu {\n  background-color: #DADADA; }\n\n@media (max-width: 575px) {\n  .table-responsive-sm {\n    overflow-y: hidden; } }\n\n@media (max-width: 767px) {\n  .table-responsive-md {\n    overflow-y: hidden; } }\n\n@media (max-width: 991px) {\n  .table-responsive-lg {\n    overflow-y: hidden; } }\n\n@media (max-width: 1199px) {\n  .table-responsive-xl {\n    overflow-y: hidden; } }\n\n.table-responsive {\n  overflow-y: hidden; }\n\n.timeline {\n  padding-left: 0;\n  list-style: none;\n  padding-left: 25px; }\n  .timeline .panel,\n  .timeline .panel-group {\n    margin-bottom: 0; }\n\n.timeline-icon {\n  background-color: #fff;\n  border: 2px solid #DDD;\n  border-radius: 50%;\n  display: block;\n  height: 10px;\n  line-height: 10px;\n  width: 10px; }\n\n.timeline-increment {\n  background-color: #fff;\n  left: -39px;\n  position: absolute;\n  text-align: center;\n  top: 50%;\n  -ms-transform: translate(-50%, -50%);\n  transform: translate(-50%, -50%);\n  z-index: 1; }\n\n.timeline-increment-text {\n  display: block;\n  max-width: 65px; }\n\n.timeline-item-label {\n  color: #212529; }\n\n.timeline-item {\n  padding-bottom: 5px;\n  padding-left: 40px;\n  padding-top: 5px;\n  position: relative; }\n  .timeline-item:before {\n    background-color: #DDD;\n    bottom: 0;\n    content: '';\n    display: block;\n    left: 0;\n    position: absolute;\n    top: 0;\n    width: 2px; }\n  .timeline-item.active .timeline-icon {\n    background-color: #007bff;\n    border-color: #007bff; }\n  .timeline-item .panel,\n  .timeline-item .panel-heading {\n    position: relative; }\n  .timeline-item .panel .timeline-increment {\n    margin-left: -1px; }\n\n.timeline-right {\n  padding-left: 0;\n  padding-right: 25px; }\n  .timeline-right .timeline-item {\n    padding-left: 0;\n    padding-right: 40px; }\n    .timeline-right .timeline-item:before {\n      left: auto;\n      right: -2px; }\n    .timeline-right .timeline-item .panel .timeline-increment {\n      margin-left: auto;\n      margin-right: -1px; }\n    .timeline-right .timeline-item .timeline-increment {\n      left: auto;\n      right: -41px;\n      -ms-transform: translate(50%, -50%);\n      transform: translate(50%, -50%); }\n\n@media (max-width: 575px) {\n  .timeline-right-xs-only {\n    padding-left: 0;\n    padding-right: 25px; }\n    .timeline-right-xs-only .timeline-item {\n      padding-left: 0;\n      padding-right: 40px; }\n      .timeline-right-xs-only .timeline-item:before {\n        left: auto;\n        right: -2px; }\n      .timeline-right-xs-only .timeline-item .panel .timeline-increment {\n        margin-left: auto;\n        margin-right: -1px; }\n      .timeline-right-xs-only .timeline-item .timeline-increment {\n        left: auto;\n        right: -41px;\n        -ms-transform: translate(50%, -50%);\n        transform: translate(50%, -50%); } }\n\n@media (min-width: 768px) {\n  .timeline-center {\n    padding-left: 0; }\n    .timeline-center .timeline-item {\n      margin-left: 50%;\n      width: 50%; }\n      .timeline-center .timeline-item .timeline-item-label {\n        left: -100%;\n        margin-left: -80px;\n        position: absolute;\n        text-align: right;\n        top: 50%;\n        -ms-transform: translateY(-50%);\n        transform: translateY(-50%);\n        width: 100%; }\n    .timeline-center .timeline-item.timeline-item-reverse {\n      padding-left: 0;\n      padding-right: 40px;\n      margin-left: 0; }\n      .timeline-center .timeline-item.timeline-item-reverse:before {\n        left: auto;\n        right: -2px; }\n      .timeline-center .timeline-item.timeline-item-reverse .panel .timeline-increment {\n        margin-left: auto;\n        margin-right: -1px; }\n      .timeline-center .timeline-item.timeline-item-reverse .timeline-increment {\n        left: auto;\n        right: -41px;\n        -ms-transform: translate(50%, -50%);\n        transform: translate(50%, -50%); }\n      .timeline-center .timeline-item.timeline-item-reverse .timeline-item-label {\n        margin-left: auto;\n        margin-right: -80px;\n        right: -100%;\n        text-align: left; } }\n\n@media (min-width: 768px) {\n  .timeline-even .timeline-item:nth-of-type(even),\n  .timeline-odd .timeline-item:nth-of-type(odd) {\n    padding-left: 0;\n    padding-right: 40px;\n    margin-left: 0; }\n    .timeline-even .timeline-item:nth-of-type(even):before,\n    .timeline-odd .timeline-item:nth-of-type(odd):before {\n      left: auto;\n      right: -2px; }\n    .timeline-even .timeline-item:nth-of-type(even) .panel .timeline-increment,\n    .timeline-odd .timeline-item:nth-of-type(odd) .panel .timeline-increment {\n      margin-left: auto;\n      margin-right: -1px; }\n    .timeline-even .timeline-item:nth-of-type(even) .timeline-increment,\n    .timeline-odd .timeline-item:nth-of-type(odd) .timeline-increment {\n      left: auto;\n      right: -41px;\n      -ms-transform: translate(50%, -50%);\n      transform: translate(50%, -50%); }\n    .timeline-even .timeline-item:nth-of-type(even) .timeline-item-label,\n    .timeline-odd .timeline-item:nth-of-type(odd) .timeline-item-label {\n      margin-left: auto;\n      margin-right: -80px;\n      right: -100%;\n      text-align: left; } }\n\n.timeline-spacing-xl.timeline {\n  padding-left: 25px; }\n\n@media (min-width: 768px) {\n  .timeline-spacing-xl.timeline-center {\n    padding-left: 0; }\n    .timeline-spacing-xl.timeline-center .timeline-item .timeline-item-label {\n      margin-left: -100px; }\n    .timeline-spacing-xl.timeline-center .timeline-item.timeline-item-reverse {\n      padding-right: 50px; }\n      .timeline-spacing-xl.timeline-center .timeline-item.timeline-item-reverse .timeline-increment {\n        right: -51px; }\n      .timeline-spacing-xl.timeline-center .timeline-item.timeline-item-reverse .timeline-item-label {\n        margin-left: auto;\n        margin-right: -100px; } }\n\n@media (min-width: 768px) {\n  .timeline-spacing-xl.timeline-even .timeline-item:nth-of-type(even),\n  .timeline-spacing-xl.timeline-odd .timeline-item:nth-of-type(odd) {\n    padding-right: 50px; }\n    .timeline-spacing-xl.timeline-even .timeline-item:nth-of-type(even) .timeline-increment,\n    .timeline-spacing-xl.timeline-odd .timeline-item:nth-of-type(odd) .timeline-increment {\n      right: -51px; }\n    .timeline-spacing-xl.timeline-even .timeline-item:nth-of-type(even) .timeline-item-label,\n    .timeline-spacing-xl.timeline-odd .timeline-item:nth-of-type(odd) .timeline-item-label {\n      margin-left: auto;\n      margin-right: -100px; } }\n\n.timeline-spacing-xl.timeline-right {\n  padding-right: 25px; }\n  .timeline-spacing-xl.timeline-right .timeline-item {\n    padding-right: 50px; }\n    .timeline-spacing-xl.timeline-right .timeline-item .timeline-increment {\n      right: -51px; }\n\n@media (max-width: 575px) {\n  .timeline-spacing-xl.timeline-right-xs-only {\n    padding-left: 0;\n    padding-right: 25px; }\n    .timeline-spacing-xl.timeline-right-xs-only .timeline-item {\n      padding-left: 0;\n      padding-right: 50px; }\n      .timeline-spacing-xl.timeline-right-xs-only .timeline-item .timeline-increment {\n        left: auto;\n        right: -51px; } }\n\n.timeline-spacing-xl .timeline-item {\n  padding-bottom: 15px;\n  padding-left: 50px;\n  padding-top: 15px; }\n  .timeline-spacing-xl .timeline-item .timeline-increment {\n    left: -49px; }\n\n.timeline-spacing-xl .timeline-increment-text {\n  max-width: 75px; }\n\n.toggle-switch {\n  cursor: pointer; }\n\n.toggle-switch-bar .toggle-switch-handle {\n  display: block;\n  float: left;\n  min-width: 50px;\n  text-transform: uppercase; }\n\n.toggle-switch-bar .toggle-switch-icon {\n  font-size: 12px; }\n  .toggle-switch-bar .toggle-switch-icon .lexicon-icon {\n    margin-top: -0.2em; }\n\n.toggle-switch-bar .button-icon {\n  font-size: 12px; }\n\n.toggle-switch-check {\n  font-size: 62.5%;\n  opacity: 0;\n  position: absolute; }\n  .toggle-switch-check:empty ~ .toggle-switch-bar {\n    cursor: pointer;\n    display: block;\n    float: left;\n    font-size: 0.75rem;\n    height: 25px;\n    line-height: 25px;\n    position: relative;\n    text-indent: 0;\n    -ms-user-select: none;\n    user-select: none; }\n    .toggle-switch-check:empty ~ .toggle-switch-bar:after {\n      background-color: #fff;\n      border-color: #ced4da;\n      border-radius: 3px 0 0 3px;\n      border-style: solid;\n      border-width: 1px;\n      bottom: 0;\n      content: '';\n      display: block;\n      height: 25px;\n      left: 0;\n      position: absolute;\n      top: 0;\n      transition: background-color 100ms ease-in, border-color 100ms ease-in, color 100ms ease-in, left 100ms ease-in, right 100ms ease-in;\n      width: 25px; }\n    .toggle-switch-check:empty ~ .toggle-switch-bar:before {\n      background-color: #e9ecef;\n      border-color: #ced4da;\n      border-radius: 3px;\n      border-style: solid;\n      border-width: 1px;\n      bottom: 0;\n      content: ' ';\n      display: block;\n      left: 0;\n      position: absolute;\n      top: 0;\n      transition: background-color 100ms ease-in, border-color 100ms ease-in, color 100ms ease-in, left 100ms ease-in, right 100ms ease-in;\n      width: 50px; }\n    .toggle-switch-check:empty ~ .toggle-switch-bar .toggle-switch-handle:after {\n      content: attr(data-label-off);\n      margin-left: 58px;\n      transition: background-color 100ms ease-in, border-color 100ms ease-in, color 100ms ease-in, left 100ms ease-in, right 100ms ease-in;\n      white-space: nowrap; }\n    .toggle-switch-check:empty ~ .toggle-switch-bar .toggle-switch-handle:before {\n      transition: background-color 100ms ease-in, border-color 100ms ease-in, color 100ms ease-in, left 100ms ease-in, right 100ms ease-in; }\n    .toggle-switch-check:empty ~ .toggle-switch-bar .toggle-switch-icon {\n      color: #495057;\n      left: 0;\n      line-height: 25px;\n      position: absolute;\n      text-align: center;\n      text-indent: 0;\n      top: 0;\n      transition: background-color 100ms ease-in, border-color 100ms ease-in, color 100ms ease-in, left 100ms ease-in, right 100ms ease-in;\n      width: 25px;\n      z-index: 1; }\n    .toggle-switch-check:empty ~ .toggle-switch-bar .toggle-switch-icon-on {\n      left: 0;\n      opacity: 0; }\n    .toggle-switch-check:empty ~ .toggle-switch-bar .toggle-switch-icon-off {\n      left: 25px; }\n    .toggle-switch-check:empty ~ .toggle-switch-bar .button-icon {\n      color: #495057; }\n    .toggle-switch-check:empty ~ .toggle-switch-bar .button-icon-on {\n      opacity: 0; }\n  .toggle-switch-check:checked ~ .toggle-switch-bar:after {\n    background-color: #FFF;\n    border-color: #007bff;\n    border-radius: 0 3px 3px 0;\n    border-style: solid;\n    border-width: 1px;\n    left: 25px; }\n  .toggle-switch-check:checked ~ .toggle-switch-bar:before {\n    background-color: #007bff;\n    border-color: #007bff;\n    border-radius: 3px;\n    border-style: solid;\n    border-width: 1px; }\n  .toggle-switch-check:checked ~ .toggle-switch-bar .toggle-switch-handle:after {\n    content: attr(data-label-on); }\n  .toggle-switch-check:checked ~ .toggle-switch-bar .toggle-switch-icon {\n    color: #fff; }\n  .toggle-switch-check:checked ~ .toggle-switch-bar .button-icon {\n    color: #007bff;\n    left: 25px; }\n  .toggle-switch-check:checked ~ .toggle-switch-bar .button-icon-on,\n  .toggle-switch-check:checked ~ .toggle-switch-bar .toggle-switch-icon-on {\n    opacity: 1; }\n  .toggle-switch-check:checked ~ .toggle-switch-bar .button-icon-off,\n  .toggle-switch-check:checked ~ .toggle-switch-bar .toggle-switch-icon-off {\n    opacity: 0; }\n  .toggle-switch-check:disabled ~ .toggle-switch-bar, .toggle-switch-check.disabled ~ .toggle-switch-bar {\n    cursor: not-allowed;\n    opacity: 0.4; }\n\n.toggle-switch-label {\n  display: block;\n  margin-bottom: 2px; }\n\n.toggle-switch-text {\n  clear: both;\n  display: block;\n  font-size: 0.75rem; }\n\n.toggle-switch-text-left {\n  float: left;\n  line-height: 25px;\n  margin-right: 8px; }\n\n.toggle-switch-text-right {\n  clear: none;\n  float: left;\n  line-height: 25px;\n  margin-left: 8px; }\n\nbody {\n  -moz-osx-font-smoothing: grayscale;\n  -ms-overflow-style: scrollbar;\n  -webkit-font-smoothing: antialiased; }\n\n.reference-mark {\n  display: inline-block;\n  font-size: 0.75rem;\n  position: relative;\n  vertical-align: super; }\n\nmark,\n.mark {\n  background-color: #fff3cd;\n  box-decoration-break: clone;\n  box-shadow: -0.25em 0 0 #fff3cd;\n  color: #212529;\n  display: inline;\n  line-height: normal;\n  padding: 2px 0.25em 3px 0;\n  position: relative;\n  white-space: pre-wrap; }\n  mark:before,\n  .mark:before {\n    background-color: #fff3cd;\n    bottom: 0;\n    content: '';\n    display: block;\n    position: absolute;\n    right: 100%;\n    top: 0;\n    width: 0.25em;\n    z-index: -1; }\n\n.text-truncate {\n  display: block; }\n\n.widget {\n  background-color: #fff;\n  border-radius: 0.25rem;\n  box-shadow: 0 0 0 1px #ced4da;\n  word-wrap: break-word; }\n\n.widget-toolbar {\n  align-items: center;\n  background-color: #f8f9fa;\n  border-color: #ced4da;\n  border-style: solid;\n  border-width: 0 0 1px 0;\n  border-top-left-radius: 0.25rem;\n  border-top-right-radius: 0.25rem;\n  display: flex;\n  padding-bottom: 0.25rem;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  padding-top: 0.25rem; }\n\n.widget-header {\n  padding-bottom: 1rem;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  padding-top: 1rem; }\n  .widget-header::after {\n    display: block;\n    clear: both;\n    content: \"\"; }\n\n.widget-header-title {\n  color: #868e96;\n  display: inline-block;\n  font-size: 1.25rem;\n  margin-bottom: 0.25rem;\n  margin-top: 0.25rem;\n  max-width: 100%;\n  text-transform: uppercase; }\n\n.widget-controls {\n  float: right;\n  margin-left: 0.5rem; }\n\n.widget-body {\n  padding-bottom: 0.1px;\n  padding-left: 1rem;\n  padding-right: 1rem;\n  padding-top: 1rem; }\n  .widget-body::after {\n    display: block;\n    clear: both;\n    content: \"\"; }\n\n.widget-article {\n  margin-bottom: 1rem; }\n  .widget-article + .widget-article {\n    border-top: 1px solid #e9ecef;\n    padding-top: 1rem; }\n\n.widget-article-title {\n  display: inline-block;\n  font-size: 1.5rem;\n  margin-bottom: 0.125rem;\n  margin-bottom: 0;\n  margin-top: 0.125rem;\n  max-width: 100%; }\n\n.widget-article-subtitle {\n  color: #868e96;\n  display: block;\n  font-size: 50%;\n  margin-top: 0.5rem; }\n\n.widget-article-header {\n  margin-bottom: 1rem; }\n  .widget-article-header::after {\n    display: block;\n    clear: both;\n    content: \"\"; }\n\n.widget-article-body {\n  margin-bottom: 1rem; }\n  .widget-article-body::after {\n    display: block;\n    clear: both;\n    content: \"\"; }\n\n.widget-article-section {\n  margin-bottom: 1rem; }\n  .widget-article-section::after {\n    display: block;\n    clear: both;\n    content: \"\"; }\n\n.widget-article-footer::after {\n  display: block;\n  clear: both;\n  content: \"\"; }\n\n.widget-admin {\n  box-shadow: 0 0 0 3px #e9ecef; }\n  .widget-admin .widget-toolbar {\n    border-color: #e9ecef;\n    border-width: 0 0 3px 0; }\n\n.bg-checkered {\n  background-image: linear-gradient(45deg, #e9ecef 25%, transparent 25%), linear-gradient(-45deg, #e9ecef 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #e9ecef 75%), linear-gradient(-45deg, transparent 75%, #e9ecef 75%);\n  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;\n  background-size: 20px 20px; }\n\n.rounded {\n  border-radius: 0.25rem !important; }\n\n.rounded-circle {\n  border-radius: 5000px !important; }\n\n.rounded-0 {\n  border-radius: 0 !important; }\n\n.close {\n  cursor: pointer;\n  text-align: center; }\n\n.autofit-row {\n  display: flex;\n  flex-wrap: nowrap;\n  margin-left: 0;\n  margin-right: 0; }\n\n.flex-col {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  min-height: 0;\n  position: relative; }\n\n.flex-col-expand {\n  flex-grow: 1;\n  min-width: 50px;\n  width: 100%;\n  word-wrap: break-word; }\n\n.inline-scroller {\n  list-style: none;\n  margin: 0;\n  max-height: 125px;\n  overflow: auto;\n  -webkit-overflow-scrolling: touch;\n  padding: 0; }\n\n.page-header {\n  background-color: #e9ecef; }\n\n.loading-icon, .loading-animation,\n.loadingmask-message .loadingmask-message-content {\n  animation: loading-icon 1.7s infinite ease;\n  border-radius: 50%;\n  display: block;\n  font-size: 16px;\n  height: 1em;\n  margin: 1em auto;\n  position: relative;\n  width: 1em; }\n  .loading-icon:after, .loading-animation:after, .loading-icon:before, .loading-animation:before,\n  .loadingmask-message .loadingmask-message-content:after,\n  .loadingmask-message .loadingmask-message-content:before {\n    border-radius: 50%;\n    content: '';\n    display: block;\n    font-size: inherit;\n    height: 100%;\n    left: 0;\n    position: absolute;\n    top: 0;\n    width: 100%; }\n\n@keyframes loading-icon {\n  0% {\n    box-shadow: 0 -0.83em 0 -0.4em #4d67ff, 0 -0.83em 0 -0.42em #4d76ff, 0 -0.83em 0 -0.44em #4d85ff, 0 -0.83em 0 -0.46em #4d94ff, 0 -0.83em 0 -0.477em #4da3ff;\n    transform: rotate(0); }\n  2%, 96% {\n    box-shadow: 0 -0.83em 0 -0.4em #4d67ff, 0 -0.83em 0 -0.42em #4d76ff, 0 -0.83em 0 -0.44em #4d85ff, 0 -0.83em 0 -0.46em #4d94ff, 0 -0.83em 0 -0.477em #4da3ff; }\n  10% {\n    box-shadow: 0 -0.83em 0 -0.4em #4d67ff, -0.087em -0.825em 0 -0.42em #4d76ff, -0.173em -0.812em 0 -0.44em #4d85ff, -0.256em -0.789em 0 -0.46em #4d94ff, -0.338em -0.758em 0 -0.477em #4da3ff; }\n  25% {\n    box-shadow: 0 -0.83em 0 -0.4em #4d67ff, -0.338em -0.758em 0 -0.42em #4d76ff, -0.555em -0.617em 0 -0.44em #4d85ff, -0.671em -0.488em 0 -0.46em #4d94ff, -0.719em -0.415em 0 -0.477em #4da3ff; }\n  40% {\n    box-shadow: 0 -0.83em 0 -0.4em #4dc0ff, -0.377em -0.74em 0 -0.42em #4dcfff, -0.645em -0.522em 0 -0.44em #4ddeff, -0.775em -0.297em 0 -0.46em #4dedff, -0.82em -0.13em 0 -0.477em #4dfcff; }\n  60% {\n    box-shadow: 0 -0.83em 0 -0.4em #4d67ff, -0.087em -0.825em 0 -0.42em #4d76ff, -0.173em -0.812em 0 -0.44em #4d85ff, -0.256em -0.789em 0 -0.46em #4d94ff, -0.297em -0.775em 0 -0.477em #4da3ff; }\n  100% {\n    box-shadow: 0 -0.83em 0 -0.4em #4d67ff, 0 -0.83em 0 -0.42em #4d76ff, 0 -0.83em 0 -0.44em #4d85ff, 0 -0.83em 0 -0.46em #4d94ff, 0 -0.83em 0 -0.477em #4da3ff;\n    transform: rotate(360deg); } }\n\n.loading-icon.linear, .linear.loading-animation, .loading-icon.linear:before, .linear.loading-animation:before, .loading-icon.linear:after, .linear.loading-animation:after {\n  border-radius: 50%;\n  box-shadow: none; }\n\n.loading-icon.linear, .linear.loading-animation {\n  animation: none;\n  height: 1em;\n  margin: 0 auto;\n  position: relative;\n  transform: translateZ(0);\n  width: 1em; }\n\n.loading-icon.linear:before, .linear.loading-animation:before, .loading-icon.linear:after, .linear.loading-animation:after {\n  animation: 2s ease-out infinite both;\n  border: 0.15em solid transparent;\n  border-left-color: #3395ff;\n  border-radius: 50%;\n  content: '';\n  height: 100%;\n  left: 0;\n  position: absolute;\n  top: 0;\n  transform: rotate(270deg);\n  transform-origin: 50%;\n  width: 100%; }\n\n.loading-icon.linear:before, .linear.loading-animation:before {\n  animation-name: loading-icon-linear; }\n\n.loading-icon.linear:after, .linear.loading-animation:after {\n  animation-name: loading-icon-spin; }\n\n@keyframes loading-icon-linear {\n  0% {\n    transform: rotate(0deg); }\n  10.99% {\n    border-bottom-color: transparent; }\n  11% {\n    border-bottom-color: #3395ff; }\n  66% {\n    border-bottom-color: #3395ff; }\n  66.6% {\n    border-bottom-color: transparent; }\n  66.6%, 100% {\n    transform: rotate(360deg); } }\n\n@keyframes loading-icon-linear {\n  0% {\n    transform: rotate(0deg); }\n  10.99% {\n    border-bottom-color: transparent; }\n  11% {\n    border-bottom-color: #3395ff; }\n  66% {\n    border-bottom-color: #3395ff; }\n  66.6% {\n    border-bottom-color: transparent; }\n  66.6%, 100% {\n    transform: rotate(360deg); } }\n\n@keyframes loading-icon-spin {\n  0%, 22% {\n    transform: rotate(0deg); }\n  100% {\n    transform: rotate(360deg); } }\n\na.btn > .loading-icon, a.btn > .loading-animation,\nbutton > .loading-icon,\nbutton > .loading-animation {\n  font-size: 1em;\n  margin-right: 0.8em;\n  margin-top: 0; }\n\na.btn > .loading-icon.linear, a.btn > .linear.loading-animation,\nbutton > .loading-icon.linear,\nbutton > .linear.loading-animation {\n  margin-right: 0.2em;\n  margin-top: -0.2em; }\n\na.btn > .loading-icon, a.btn > .loading-animation, a.btn > .loading-icon.linear, a.btn > .linear.loading-animation,\nbutton > .loading-icon,\nbutton > .loading-animation,\nbutton > .loading-icon.linear,\nbutton > .linear.loading-animation {\n  display: none;\n  margin-bottom: 0;\n  vertical-align: middle; }\n\na.btn.loading > .loading-icon, a.btn.loading > .loading-animation, a.btn.loading > .loading-icon.linear, a.btn.loading > .linear.loading-animation,\nbutton.loading > .loading-icon,\nbutton.loading > .loading-animation,\nbutton.loading > .loading-icon.linear,\nbutton.loading > .linear.loading-animation {\n  display: inline-block; }\n\n.loading-icon.loading-icon-xs, .loading-icon-xs.loading-animation, .loading-animation.loading-animation-xs {\n  font-size: 8px; }\n\n.loading-icon.loading-icon-sm, .loading-icon-sm.loading-animation, .loading-animation.loading-animation-sm {\n  font-size: 10px; }\n\n.loading-icon.loading-icon-md, .loading-icon-md.loading-animation, .loading-animation.loading-animation-md {\n  font-size: 32px; }\n\n.loading-icon.loading-icon-lg, .loading-icon-lg.loading-animation, .loading-animation.loading-animation-lg {\n  font-size: 64px; }\n\n* {\n  box-sizing: border-box; }\n\nbody {\n  margin: 0; }\n\n.header {\n  background: #303240;\n  padding: 1.5em; }\n  .header h1 {\n    color: #fff;\n    font-size: 1.4em; }\n\n.flex {\n  display: flex; }\n\n.box {\n  background: #f3f3f3;\n  padding: 1.5em;\n  display: flex; }\n  .box h2 {\n    color: #303240;\n    display: inline-block;\n    font-size: 4.5em; }\n    .box h2 span {\n      font-weight: 200; }\n  .box h3 {\n    font-size: 1.50rem;\n    font-weight: 600; }\n  .box .sessions-container {\n    margin-right: 4rem; }\n\n.analytics-row {\n  display: flex; }\n", ""]);
 
 // exports
 

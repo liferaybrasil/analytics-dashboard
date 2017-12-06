@@ -61,7 +61,7 @@ this["Dashboard"] =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 68);
+/******/ 	return __webpack_require__(__webpack_require__.s = 82);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -76,7 +76,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.string = exports.object = exports.Disposable = exports.async = exports.array = undefined;
 
-var _core = __webpack_require__(30);
+var _core = __webpack_require__(31);
 
 Object.keys(_core).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -90,23 +90,23 @@ Object.keys(_core).forEach(function (key) {
 
 var _core2 = _interopRequireDefault(_core);
 
-var _array = __webpack_require__(32);
+var _array = __webpack_require__(33);
 
 var _array2 = _interopRequireDefault(_array);
 
-var _async = __webpack_require__(33);
+var _async = __webpack_require__(34);
 
 var _async2 = _interopRequireDefault(_async);
 
-var _Disposable = __webpack_require__(36);
+var _Disposable = __webpack_require__(37);
 
 var _Disposable2 = _interopRequireDefault(_Disposable);
 
-var _object = __webpack_require__(37);
+var _object = __webpack_require__(38);
 
 var _object2 = _interopRequireDefault(_object);
 
-var _string = __webpack_require__(38);
+var _string = __webpack_require__(39);
 
 var _string2 = _interopRequireDefault(_string);
 
@@ -135,11 +135,11 @@ var _validators = __webpack_require__(15);
 
 var _validators2 = _interopRequireDefault(_validators);
 
-var _Config = __webpack_require__(39);
+var _Config = __webpack_require__(40);
 
 var _Config2 = _interopRequireDefault(_Config);
 
-var _State = __webpack_require__(40);
+var _State = __webpack_require__(41);
 
 var _State2 = _interopRequireDefault(_State);
 
@@ -174,7 +174,7 @@ Object.keys(_events).forEach(function (key) {
 	});
 });
 
-var _Component = __webpack_require__(60);
+var _Component = __webpack_require__(61);
 
 var _Component2 = _interopRequireDefault(_Component);
 
@@ -182,7 +182,7 @@ var _ComponentDataManager = __webpack_require__(26);
 
 var _ComponentDataManager2 = _interopRequireDefault(_ComponentDataManager);
 
-var _ComponentRegistry = __webpack_require__(62);
+var _ComponentRegistry = __webpack_require__(63);
 
 var _ComponentRegistry2 = _interopRequireDefault(_ComponentRegistry);
 
@@ -215,7 +215,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.dom = undefined;
 
-var _domNamed = __webpack_require__(53);
+var _domNamed = __webpack_require__(54);
 
 Object.keys(_domNamed).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -248,11 +248,11 @@ exports.ChartJSX = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _ChartBase = __webpack_require__(65);
+var _ChartBase = __webpack_require__(66);
 
 var _ChartBase2 = _interopRequireDefault(_ChartBase);
 
-var _metalJsx = __webpack_require__(29);
+var _metalJsx = __webpack_require__(30);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -373,11 +373,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.EventHandler = exports.EventHandle = exports.EventEmitterProxy = exports.EventEmitter = undefined;
 
-var _EventEmitter = __webpack_require__(41);
+var _EventEmitter = __webpack_require__(42);
 
 var _EventEmitter2 = _interopRequireDefault(_EventEmitter);
 
-var _EventEmitterProxy = __webpack_require__(42);
+var _EventEmitterProxy = __webpack_require__(43);
 
 var _EventEmitterProxy2 = _interopRequireDefault(_EventEmitterProxy);
 
@@ -385,7 +385,7 @@ var _EventHandle = __webpack_require__(16);
 
 var _EventHandle2 = _interopRequireDefault(_EventHandle);
 
-var _EventHandler = __webpack_require__(43);
+var _EventHandler = __webpack_require__(44);
 
 var _EventHandler2 = _interopRequireDefault(_EventHandler);
 
@@ -444,7 +444,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Chart = undefined;
 
-var _ChartBase = __webpack_require__(65);
+var _ChartBase = __webpack_require__(66);
 
 var _ChartBase2 = _interopRequireDefault(_ChartBase);
 
@@ -452,11 +452,11 @@ var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(66);
+var _metalSoy = __webpack_require__(81);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-var _ChartSoy = __webpack_require__(76);
+var _ChartSoy = __webpack_require__(90);
 
 var _ChartSoy2 = _interopRequireDefault(_ChartSoy);
 
@@ -533,11 +533,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.HTML2IncDom = undefined;
 
-var _HTML2IncDom = __webpack_require__(46);
+var _HTML2IncDom = __webpack_require__(47);
 
 var _HTML2IncDom2 = _interopRequireDefault(_HTML2IncDom);
 
-var _IncrementalDomRenderer = __webpack_require__(49);
+var _IncrementalDomRenderer = __webpack_require__(50);
 
 var _IncrementalDomRenderer2 = _interopRequireDefault(_IncrementalDomRenderer);
 
@@ -576,7 +576,7 @@ var _domData = __webpack_require__(14);
 
 var _domData2 = _interopRequireDefault(_domData);
 
-var _DomEventEmitterProxy = __webpack_require__(55);
+var _DomEventEmitterProxy = __webpack_require__(56);
 
 var _DomEventEmitterProxy2 = _interopRequireDefault(_DomEventEmitterProxy);
 
@@ -588,15 +588,15 @@ var _features = __webpack_require__(23);
 
 var _features2 = _interopRequireDefault(_features);
 
-var _globalEval = __webpack_require__(56);
+var _globalEval = __webpack_require__(57);
 
 var _globalEval2 = _interopRequireDefault(_globalEval);
 
-var _globalEvalStyles = __webpack_require__(57);
+var _globalEvalStyles = __webpack_require__(58);
 
 var _globalEvalStyles2 = _interopRequireDefault(_globalEvalStyles);
 
-__webpack_require__(58);
+__webpack_require__(59);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1421,7 +1421,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-__webpack_require__(45);
+__webpack_require__(46);
 
 var _metal = __webpack_require__(0);
 
@@ -1433,7 +1433,7 @@ var _metalIncrementalDom = __webpack_require__(10);
 
 var _metalIncrementalDom2 = _interopRequireDefault(_metalIncrementalDom);
 
-var _JSXDataManager = __webpack_require__(64);
+var _JSXDataManager = __webpack_require__(65);
 
 var _JSXDataManager2 = _interopRequireDefault(_JSXDataManager);
 
@@ -1553,11 +1553,11 @@ exports.default = JSXComponent;
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global) {
 
-var _incrementalDom = __webpack_require__(50);
+var _incrementalDom = __webpack_require__(51);
 
 var IncrementalDOM = _interopRequireWildcard(_incrementalDom);
 
-var _incrementalDomString = __webpack_require__(51);
+var _incrementalDomString = __webpack_require__(52);
 
 var IncrementalDOMString = _interopRequireWildcard(_incrementalDomString);
 
@@ -2069,7 +2069,7 @@ exports.render = render;
 exports.renderChild = renderChild;
 exports.renderFunction = renderFunction;
 
-var _attributes = __webpack_require__(59);
+var _attributes = __webpack_require__(60);
 
 var _callArgs = __webpack_require__(21);
 
@@ -2083,7 +2083,7 @@ var _data = __webpack_require__(7);
 
 var _metal = __webpack_require__(0);
 
-var _unused = __webpack_require__(63);
+var _unused = __webpack_require__(64);
 
 var _incrementalDomAop = __webpack_require__(13);
 
@@ -3223,6 +3223,1306 @@ exports.default = jsxRenderer_;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/*!
+ * Promises polyfill from Google's Closure Library.
+ *
+ *      Copyright 2013 The Closure Library Authors. All Rights Reserved.
+ *
+ * NOTE(eduardo): Promise support is not ready on all supported browsers,
+ * therefore metal-promise is temporarily using Google's promises as polyfill.
+ * It supports cancellable promises and has clean and fast implementation.
+ */
+
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.CancellablePromise = undefined;
+
+var _FreeList = __webpack_require__(78);
+
+var _FreeList2 = _interopRequireDefault(_FreeList);
+
+var _Thenable = __webpack_require__(79);
+
+var _Thenable2 = _interopRequireDefault(_Thenable);
+
+var _metal = __webpack_require__(0);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/**
+ * Like bind(), except that a 'this object' is not required. Useful when the
+ * target function is already bound.
+ *
+ * Usage:
+ * var g = partial(f, arg1, arg2);
+ * g(arg3, arg4);
+ *
+ * @param {Function} fn A function to partially apply.
+ * @param {...*} var_args Additional arguments that are partially applied to fn.
+ * @return {!Function} A partially-applied form of the function bind() was
+ *     invoked as a method of.
+ */
+var partial = function partial(fn) {
+  var args = Array.prototype.slice.call(arguments, 1);
+  return function () {
+    // Clone the array (with slice()) and append additional arguments
+    // to the existing arguments.
+    var newArgs = args.slice();
+    newArgs.push.apply(newArgs, arguments);
+    return fn.apply(this, newArgs);
+  };
+};
+
+/**
+ * NOTE: This class was created in anticipation of the built-in Promise type
+ * being standardized and implemented across browsers. Now that Promise is
+ * available in modern browsers, and is automatically polyfilled by the Closure
+ * Compiler, by default, most new code should use native {@code Promise}
+ * instead of {@code CancellablePromise}. However, {@code CancellablePromise} has the
+ * concept of cancellation which native Promises do not yet have. So code
+ * needing cancellation may still want to use {@code CancellablePromise}.
+ *
+ * Promises provide a result that may be resolved asynchronously. A Promise may
+ * be resolved by being fulfilled with a fulfillment value, rejected with a
+ * rejection reason, or blocked by another Promise. A Promise is said to be
+ * settled if it is either fulfilled or rejected. Once settled, the Promise
+ * result is immutable.
+ *
+ * Promises may represent results of any type, including undefined. Rejection
+ * reasons are typically Errors, but may also be of any type. Closure Promises
+ * allow for optional type annotations that enforce that fulfillment values are
+ * of the appropriate types at compile time.
+ *
+ * The result of a Promise is accessible by calling {@code then} and registering
+ * {@code onFulfilled} and {@code onRejected} callbacks. Once the Promise
+ * is settled, the relevant callbacks are invoked with the fulfillment value or
+ * rejection reason as argument. Callbacks are always invoked in the order they
+ * were registered, even when additional {@code then} calls are made from inside
+ * another callback. A callback is always run asynchronously sometime after the
+ * scope containing the registering {@code then} invocation has returned.
+ *
+ * If a Promise is resolved with another Promise, the first Promise will block
+ * until the second is settled, and then assumes the same result as the second
+ * Promise. This allows Promises to depend on the results of other Promises,
+ * linking together multiple asynchronous operations.
+ *
+ * This implementation is compatible with the Promises/A+ specification and
+ * passes that specification's conformance test suite. A Closure Promise may be
+ * resolved with a Promise instance (or sufficiently compatible Promise-like
+ * object) created by other Promise implementations. From the specification,
+ * Promise-like objects are known as "Thenables".
+ *
+ * @see http://promisesaplus.com/
+ *
+ * @param {function(
+ *             this:RESOLVER_CONTEXT,
+ *             function((TYPE|IThenable<TYPE>|Thenable)=),
+ *             function(*=)): void} resolver
+ *     Initialization function that is invoked immediately with {@code resolve}
+ *     and {@code reject} functions as arguments. The Promise is resolved or
+ *     rejected with the first argument passed to either function.
+ * @param {RESOLVER_CONTEXT=} opt_context An optional context for executing the
+ *     resolver function. If unspecified, the resolver function will be executed
+ *     in the default scope.
+ * @constructor
+ * @struct
+ * @final
+ * @implements {Thenable<TYPE>}
+ * @template TYPE,RESOLVER_CONTEXT
+ */
+var CancellablePromise = function CancellablePromise(resolver, opt_context) {
+  /**
+   * The internal state of this Promise. Either PENDING, FULFILLED, REJECTED, or
+   * BLOCKED.
+   * @private {CancellablePromise.State_}
+   */
+  this.state_ = CancellablePromise.State_.PENDING;
+
+  /**
+   * The settled result of the Promise. Immutable once set with either a
+   * fulfillment value or rejection reason.
+   * @private {*}
+   */
+  this.result_ = undefined;
+
+  /**
+   * For Promises created by calling {@code then()}, the originating parent.
+   * @private {CancellablePromise}
+   */
+  this.parent_ = null;
+
+  /**
+   * The linked list of {@code onFulfilled} and {@code onRejected} callbacks
+   * added to this Promise by calls to {@code then()}.
+   * @private {?CancellablePromise.CallbackEntry_}
+   */
+  this.callbackEntries_ = null;
+
+  /**
+   * The tail of the linked list of {@code onFulfilled} and {@code onRejected}
+   * callbacks added to this Promise by calls to {@code then()}.
+   * @private {?CancellablePromise.CallbackEntry_}
+   */
+  this.callbackEntriesTail_ = null;
+
+  /**
+   * Whether the Promise is in the queue of Promises to execute.
+   * @private {boolean}
+   */
+  this.executing_ = false;
+
+  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
+    /**
+     * A timeout ID used when the {@code UNHANDLED_REJECTION_DELAY} is greater
+     * than 0 milliseconds. The ID is set when the Promise is rejected, and
+     * cleared only if an {@code onRejected} callback is invoked for the
+     * Promise (or one of its descendants) before the delay is exceeded.
+     *
+     * If the rejection is not handled before the timeout completes, the
+     * rejection reason is passed to the unhandled rejection handler.
+     * @private {number}
+     */
+    this.unhandledRejectionId_ = 0;
+  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
+    /**
+     * When the {@code UNHANDLED_REJECTION_DELAY} is set to 0 milliseconds, a
+     * boolean that is set if the Promise is rejected, and reset to false if an
+     * {@code onRejected} callback is invoked for the Promise (or one of its
+     * descendants). If the rejection is not handled before the next timestep,
+     * the rejection reason is passed to the unhandled rejection handler.
+     * @private {boolean}
+     */
+    this.hadUnhandledRejection_ = false;
+  }
+
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    /**
+     * A list of stack trace frames pointing to the locations where this Promise
+     * was created or had callbacks added to it. Saved to add additional context
+     * to stack traces when an exception is thrown.
+     * @private {!Array<string>}
+     */
+    this.stack_ = [];
+    this.addStackTrace_(new Error('created'));
+
+    /**
+     * Index of the most recently executed stack frame entry.
+     * @private {number}
+     */
+    this.currentStep_ = 0;
+  }
+
+  // As an optimization, we can skip this if resolver is nullFunction.
+  // This value is passed internally when creating a promise which will be
+  // resolved through a more optimized path.
+  if (resolver != _metal.nullFunction) {
+    try {
+      var self = this;
+      resolver.call(opt_context, function (value) {
+        self.resolve_(CancellablePromise.State_.FULFILLED, value);
+      }, function (reason) {
+        if (!reason.IS_CANCELLATION_ERROR) {
+          try {
+            // Promise was rejected. Step up one call frame to see why.
+            if (reason instanceof Error) {
+              throw reason;
+            } else {
+              throw new Error('Promise rejected.');
+            }
+          } catch (e) {
+            // Only thrown so browser dev tools can catch rejections of
+            // promises when the option to break on caught exceptions is
+            // activated.
+          }
+        }
+        self.resolve_(CancellablePromise.State_.REJECTED, reason);
+      });
+    } catch (e) {
+      this.resolve_(CancellablePromise.State_.REJECTED, e);
+    }
+  }
+};
+
+/**
+ * Whether traces of {@code then} calls should be included in
+ * exceptions thrown
+ * @type {boolean}
+ */
+CancellablePromise.LONG_STACK_TRACES = false;
+
+/**
+ * The delay in milliseconds before a rejected Promise's reason
+ * is passed to the rejection handler. By default, the rejection handler
+ * rethrows the rejection reason so that it appears in the developer console or
+ * {@code window.onerror} handler.
+ *
+ * Rejections are rethrown as quickly as possible by default. A negative value
+ * disables rejection handling entirely.
+ * @type {number}
+ */
+CancellablePromise.UNHANDLED_REJECTION_DELAY = 0;
+
+/**
+ * The possible internal states for a Promise. These states are not directly
+ * observable to external callers.
+ * @enum {number}
+ * @private
+ */
+CancellablePromise.State_ = {
+  /** The Promise is waiting for resolution. */
+  PENDING: 0,
+
+  /** The Promise is blocked waiting for the result of another Thenable. */
+  BLOCKED: 1,
+
+  /** The Promise has been resolved with a fulfillment value. */
+  FULFILLED: 2,
+
+  /** The Promise has been resolved with a rejection reason. */
+  REJECTED: 3
+};
+
+/**
+ * Entries in the callback chain. Each call to {@code then},
+ * {@code thenCatch}, or {@code thenAlways} creates an entry containing the
+ * functions that may be invoked once the Promise is settled.
+ *
+ * @private @final @struct @constructor
+ */
+CancellablePromise.CallbackEntry_ = function () {
+  /** @type {?CancellablePromise} */
+  this.child = null;
+  /** @type {Function} */
+  this.onFulfilled = null;
+  /** @type {Function} */
+  this.onRejected = null;
+  /** @type {?} */
+  this.context = null;
+  /** @type {?CancellablePromise.CallbackEntry_} */
+  this.next = null;
+
+  /**
+   * A boolean value to indicate this is a "thenAlways" callback entry.
+   * Unlike a normal "then/thenVoid" a "thenAlways doesn't participate
+   * in "cancel" considerations but is simply an observer and requires
+   * special handling.
+   * @type {boolean}
+   */
+  this.always = false;
+};
+
+/** clear the object prior to reuse */
+CancellablePromise.CallbackEntry_.prototype.reset = function () {
+  this.child = null;
+  this.onFulfilled = null;
+  this.onRejected = null;
+  this.context = null;
+  this.always = false;
+};
+
+/**
+ * The number of currently unused objects to keep around for
+ *    reuse.
+ * @type {number}
+ */
+CancellablePromise.DEFAULT_MAX_UNUSED = 100;
+
+/** @const @private {FreeList<!CancellablePromise.CallbackEntry_>} */
+CancellablePromise.freelist_ = new _FreeList2.default(function () {
+  return new CancellablePromise.CallbackEntry_();
+}, function (item) {
+  item.reset();
+}, CancellablePromise.DEFAULT_MAX_UNUSED);
+
+/**
+ * @param {Function} onFulfilled
+ * @param {Function} onRejected
+ * @param {?} context
+ * @return {!CancellablePromise.CallbackEntry_}
+ * @private
+ */
+CancellablePromise.getCallbackEntry_ = function (onFulfilled, onRejected, context) {
+  var entry = CancellablePromise.freelist_.get();
+  entry.onFulfilled = onFulfilled;
+  entry.onRejected = onRejected;
+  entry.context = context;
+  return entry;
+};
+
+/**
+ * @param {!CancellablePromise.CallbackEntry_} entry
+ * @private
+ */
+CancellablePromise.returnEntry_ = function (entry) {
+  CancellablePromise.freelist_.put(entry);
+};
+
+// NOTE: this is the same template expression as is used for
+// goog.IThenable.prototype.then
+
+
+/**
+ * @param {VALUE=} opt_value
+ * @return {RESULT} A new Promise that is immediately resolved
+ *     with the given value. If the input value is already a CancellablePromise, it
+ *     will be returned immediately without creating a new instance.
+ * @template VALUE
+ * @template RESULT := type('CancellablePromise',
+ *     cond(isUnknown(VALUE), unknown(),
+ *       mapunion(VALUE, (V) =>
+ *         cond(isTemplatized(V) && sub(rawTypeOf(V), 'IThenable'),
+ *           templateTypeOf(V, 0),
+ *           cond(sub(V, 'Thenable'),
+ *              unknown(),
+ *              V)))))
+ * =:
+ */
+CancellablePromise.resolve = function (opt_value) {
+  if (opt_value instanceof CancellablePromise) {
+    // Avoid creating a new object if we already have a promise object
+    // of the correct type.
+    return opt_value;
+  }
+
+  // Passing nullFunction will cause the constructor to take an optimized
+  // path that skips calling the resolver function.
+  var promise = new CancellablePromise(_metal.nullFunction);
+  promise.resolve_(CancellablePromise.State_.FULFILLED, opt_value);
+  return promise;
+};
+
+/**
+ * @param {*=} opt_reason
+ * @return {!CancellablePromise} A new Promise that is immediately rejected with the
+ *     given reason.
+ */
+CancellablePromise.reject = function (opt_reason) {
+  return new CancellablePromise(function (resolve, reject) {
+    reject(opt_reason);
+  });
+};
+
+/**
+ * This is identical to
+ * {@code CancellablePromise.resolve(value).then(onFulfilled, onRejected)}, but it
+ * avoids creating an unnecessary wrapper Promise when {@code value} is already
+ * thenable.
+ *
+ * @param {?(Thenable<TYPE>|Thenable|TYPE)} value
+ * @param {function(TYPE): ?} onFulfilled
+ * @param {function(*): *} onRejected
+ * @template TYPE
+ * @private
+ */
+CancellablePromise.resolveThen_ = function (value, onFulfilled, onRejected) {
+  var isThenable = CancellablePromise.maybeThen_(value, onFulfilled, onRejected, null);
+  if (!isThenable) {
+    _metal.async.run(partial(onFulfilled, value));
+  }
+};
+
+/**
+ * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
+ *     promises
+ * @return {!CancellablePromise<TYPE>} A Promise that receives the result of the
+ *     first Promise (or Promise-like) input to settle immediately after it
+ *     settles.
+ * @template TYPE
+ */
+CancellablePromise.race = function (promises) {
+  return new CancellablePromise(function (resolve, reject) {
+    if (!promises.length) {
+      resolve(undefined);
+    }
+    for (var i = 0, promise; i < promises.length; i++) {
+      promise = promises[i];
+      CancellablePromise.resolveThen_(promise, resolve, reject);
+    }
+  });
+};
+
+/**
+ * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
+ *     promises
+ * @return {!CancellablePromise<!Array<TYPE>>} A Promise that receives a list of
+ *     every fulfilled value once every input Promise (or Promise-like) is
+ *     successfully fulfilled, or is rejected with the first rejection reason
+ *     immediately after it is rejected.
+ * @template TYPE
+ */
+CancellablePromise.all = function (promises) {
+  return new CancellablePromise(function (resolve, reject) {
+    var toFulfill = promises.length;
+    var values = [];
+
+    if (!toFulfill) {
+      resolve(values);
+      return;
+    }
+
+    var onFulfill = function onFulfill(index, value) {
+      toFulfill--;
+      values[index] = value;
+      if (toFulfill == 0) {
+        resolve(values);
+      }
+    };
+
+    var onReject = function onReject(reason) {
+      reject(reason);
+    };
+
+    for (var i = 0, promise; i < promises.length; i++) {
+      promise = promises[i];
+      CancellablePromise.resolveThen_(promise, partial(onFulfill, i), onReject);
+    }
+  });
+};
+
+/**
+ * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
+ *     promises
+ * @return {!CancellablePromise<!Array<{
+ *     fulfilled: boolean,
+ *     value: (TYPE|undefined),
+ *     reason: (*|undefined)}>>} A Promise that resolves with a list of
+ *         result objects once all input Promises (or Promise-like) have
+ *         settled. Each result object contains a 'fulfilled' boolean indicating
+ *         whether an input Promise was fulfilled or rejected. For fulfilled
+ *         Promises, the resulting value is stored in the 'value' field. For
+ *         rejected Promises, the rejection reason is stored in the 'reason'
+ *         field.
+ * @template TYPE
+ */
+CancellablePromise.allSettled = function (promises) {
+  return new CancellablePromise(function (resolve, reject) {
+    var toSettle = promises.length;
+    var results = [];
+
+    if (!toSettle) {
+      resolve(results);
+      return;
+    }
+
+    var onSettled = function onSettled(index, fulfilled, result) {
+      toSettle--;
+      results[index] = fulfilled ? { fulfilled: true, value: result } : { fulfilled: false, reason: result };
+      if (toSettle == 0) {
+        resolve(results);
+      }
+    };
+
+    for (var i = 0, promise; i < promises.length; i++) {
+      promise = promises[i];
+      CancellablePromise.resolveThen_(promise, partial(onSettled, i, true /* fulfilled */), partial(onSettled, i, false /* fulfilled */));
+    }
+  });
+};
+
+/**
+ * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
+ *     promises
+ * @return {!CancellablePromise<TYPE>} A Promise that receives the value of the first
+ *     input to be fulfilled, or is rejected with a list of every rejection
+ *     reason if all inputs are rejected.
+ * @template TYPE
+ */
+CancellablePromise.firstFulfilled = function (promises) {
+  return new CancellablePromise(function (resolve, reject) {
+    var toReject = promises.length;
+    var reasons = [];
+
+    if (!toReject) {
+      resolve(undefined);
+      return;
+    }
+
+    var onFulfill = function onFulfill(value) {
+      resolve(value);
+    };
+
+    var onReject = function onReject(index, reason) {
+      toReject--;
+      reasons[index] = reason;
+      if (toReject == 0) {
+        reject(reasons);
+      }
+    };
+
+    for (var i = 0, promise; i < promises.length; i++) {
+      promise = promises[i];
+      CancellablePromise.resolveThen_(promise, onFulfill, partial(onReject, i));
+    }
+  });
+};
+
+/**
+ * @return {!CancellablePromise.Resolver<TYPE>} Resolver wrapping the promise and its
+ *     resolve / reject functions. Resolving or rejecting the resolver
+ *     resolves or rejects the promise.
+ * @template TYPE
+ */
+CancellablePromise.withResolver = function () {
+  var resolve, reject;
+  var promise = new CancellablePromise(function (rs, rj) {
+    resolve = rs;
+    reject = rj;
+  });
+  return new CancellablePromise.Resolver_(promise, resolve, reject);
+};
+
+/**
+ * Adds callbacks that will operate on the result of the Promise, returning a
+ * new child Promise.
+ *
+ * If the Promise is fulfilled, the {@code onFulfilled} callback will be invoked
+ * with the fulfillment value as argument, and the child Promise will be
+ * fulfilled with the return value of the callback. If the callback throws an
+ * exception, the child Promise will be rejected with the thrown value instead.
+ *
+ * If the Promise is rejected, the {@code onRejected} callback will be invoked
+ * with the rejection reason as argument, and the child Promise will be resolved
+ * with the return value or rejected with the thrown value of the callback.
+ *
+ * @override
+ */
+CancellablePromise.prototype.then = function (opt_onFulfilled, opt_onRejected, opt_context) {
+
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    this.addStackTrace_(new Error('then'));
+  }
+
+  return this.addChildPromise_((0, _metal.isFunction)(opt_onFulfilled) ? opt_onFulfilled : null, (0, _metal.isFunction)(opt_onRejected) ? opt_onRejected : null, opt_context);
+};
+_Thenable2.default.addImplementation(CancellablePromise);
+
+/**
+ * Adds callbacks that will operate on the result of the Promise without
+ * returning a child Promise (unlike "then").
+ *
+ * If the Promise is fulfilled, the {@code onFulfilled} callback will be invoked
+ * with the fulfillment value as argument.
+ *
+ * If the Promise is rejected, the {@code onRejected} callback will be invoked
+ * with the rejection reason as argument.
+ *
+ * @param {?(function(this:THIS, TYPE):?)=} opt_onFulfilled A
+ *     function that will be invoked with the fulfillment value if the Promise
+ *     is fulfilled.
+ * @param {?(function(this:THIS, *): *)=} opt_onRejected A function that will
+ *     be invoked with the rejection reason if the Promise is rejected.
+ * @param {THIS=} opt_context An optional context object that will be the
+ *     execution context for the callbacks. By default, functions are executed
+ *     with the default this.
+ * @package
+ * @template THIS
+ */
+CancellablePromise.prototype.thenVoid = function (opt_onFulfilled, opt_onRejected, opt_context) {
+
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    this.addStackTrace_(new Error('then'));
+  }
+
+  // Note: no default rejection handler is provided here as we need to
+  // distinguish unhandled rejections.
+  this.addCallbackEntry_(CancellablePromise.getCallbackEntry_(opt_onFulfilled || _metal.nullFunction, opt_onRejected || null, opt_context));
+};
+
+/**
+ * Adds a callback that will be invoked when the Promise is settled (fulfilled
+ * or rejected). The callback receives no argument, and no new child Promise is
+ * created. This is useful for ensuring that cleanup takes place after certain
+ * asynchronous operations. Callbacks added with {@code thenAlways} will be
+ * executed in the same order with other calls to {@code then},
+ * {@code thenAlways}, or {@code thenCatch}.
+ *
+ * Since it does not produce a new child Promise, cancellation propagation is
+ * not prevented by adding callbacks with {@code thenAlways}. A Promise that has
+ * a cleanup handler added with {@code thenAlways} will be canceled if all of
+ * its children created by {@code then} (or {@code thenCatch}) are canceled.
+ * Additionally, since any rejections are not passed to the callback, it does
+ * not stop the unhandled rejection handler from running.
+ *
+ * @param {function(this:THIS): void} onSettled A function that will be invoked
+ *     when the Promise is settled (fulfilled or rejected).
+ * @param {THIS=} opt_context An optional context object that will be the
+ *     execution context for the callbacks. By default, functions are executed
+ *     in the global scope.
+ * @return {!CancellablePromise<TYPE>} This Promise, for chaining additional calls.
+ * @template THIS
+ */
+CancellablePromise.prototype.thenAlways = function (onSettled, opt_context) {
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    this.addStackTrace_(new Error('thenAlways'));
+  }
+
+  var entry = CancellablePromise.getCallbackEntry_(onSettled, onSettled, opt_context);
+  entry.always = true;
+  this.addCallbackEntry_(entry);
+  return this;
+};
+
+/**
+ * Adds a callback that will be invoked only if the Promise is rejected. This
+ * is equivalent to {@code then(null, onRejected)}.
+ *
+ * @param {function(this:THIS, *): *} onRejected A function that will be
+ *     invoked with the rejection reason if the Promise is rejected.
+ * @param {THIS=} opt_context An optional context object that will be the
+ *     execution context for the callbacks. By default, functions are executed
+ *     in the global scope.
+ * @return {!CancellablePromise} A new Promise that will receive the result of the
+ *     callback.
+ * @template THIS
+ */
+CancellablePromise.prototype.thenCatch = function (onRejected, opt_context) {
+  if (CancellablePromise.LONG_STACK_TRACES) {
+    this.addStackTrace_(new Error('thenCatch'));
+  }
+  return this.addChildPromise_(null, onRejected, opt_context);
+};
+
+/**
+ * Alias of {@link CancellablePromise.prototype.thenCatch}
+ */
+CancellablePromise.prototype.catch = CancellablePromise.prototype.thenCatch;
+
+/**
+ * Cancels the Promise if it is still pending by rejecting it with a cancel
+ * Error. No action is performed if the Promise is already resolved.
+ *
+ * All child Promises of the canceled Promise will be rejected with the same
+ * cancel error, as with normal Promise rejection. If the Promise to be canceled
+ * is the only child of a pending Promise, the parent Promise will also be
+ * canceled. Cancellation may propagate upward through multiple generations.
+ *
+ * @param {string=} opt_message An optional debugging message for describing the
+ *     cancellation reason.
+ */
+CancellablePromise.prototype.cancel = function (opt_message) {
+  if (this.state_ == CancellablePromise.State_.PENDING) {
+    _metal.async.run(function () {
+      var err = new CancellablePromise.CancellationError(opt_message);
+      err.IS_CANCELLATION_ERROR = true;
+      this.cancelInternal_(err);
+    }, this);
+  }
+};
+
+/**
+ * Cancels this Promise with the given error.
+ *
+ * @param {!Error} err The cancellation error.
+ * @private
+ */
+CancellablePromise.prototype.cancelInternal_ = function (err) {
+  if (this.state_ == CancellablePromise.State_.PENDING) {
+    if (this.parent_) {
+      // Cancel the Promise and remove it from the parent's child list.
+      this.parent_.cancelChild_(this, err);
+      this.parent_ = null;
+    } else {
+      this.resolve_(CancellablePromise.State_.REJECTED, err);
+    }
+  }
+};
+
+/**
+ * Cancels a child Promise from the list of callback entries. If the Promise has
+ * not already been resolved, reject it with a cancel error. If there are no
+ * other children in the list of callback entries, propagate the cancellation
+ * by canceling this Promise as well.
+ *
+ * @param {!CancellablePromise} childPromise The Promise to cancel.
+ * @param {!Error} err The cancel error to use for rejecting the Promise.
+ * @private
+ */
+CancellablePromise.prototype.cancelChild_ = function (childPromise, err) {
+  if (!this.callbackEntries_) {
+    return;
+  }
+  var childCount = 0;
+  var childEntry = null;
+  var beforeChildEntry = null;
+
+  // Find the callback entry for the childPromise, and count whether there are
+  // additional child Promises.
+  for (var entry = this.callbackEntries_; entry; entry = entry.next) {
+    if (!entry.always) {
+      childCount++;
+      if (entry.child == childPromise) {
+        childEntry = entry;
+      }
+      if (childEntry && childCount > 1) {
+        break;
+      }
+    }
+    if (!childEntry) {
+      beforeChildEntry = entry;
+    }
+  }
+
+  // Can a child entry be missing?
+
+  // If the child Promise was the only child, cancel this Promise as well.
+  // Otherwise, reject only the child Promise with the cancel error.
+  if (childEntry) {
+    if (this.state_ == CancellablePromise.State_.PENDING && childCount == 1) {
+      this.cancelInternal_(err);
+    } else {
+      if (beforeChildEntry) {
+        this.removeEntryAfter_(beforeChildEntry);
+      } else {
+        this.popEntry_();
+      }
+
+      this.executeCallback_(childEntry, CancellablePromise.State_.REJECTED, err);
+    }
+  }
+};
+
+/**
+ * Adds a callback entry to the current Promise, and schedules callback
+ * execution if the Promise has already been settled.
+ *
+ * @param {CancellablePromise.CallbackEntry_} callbackEntry Record containing
+ *     {@code onFulfilled} and {@code onRejected} callbacks to execute after
+ *     the Promise is settled.
+ * @private
+ */
+CancellablePromise.prototype.addCallbackEntry_ = function (callbackEntry) {
+  if (!this.hasEntry_() && (this.state_ == CancellablePromise.State_.FULFILLED || this.state_ == CancellablePromise.State_.REJECTED)) {
+    this.scheduleCallbacks_();
+  }
+  this.queueEntry_(callbackEntry);
+};
+
+/**
+ * Creates a child Promise and adds it to the callback entry list. The result of
+ * the child Promise is determined by the state of the parent Promise and the
+ * result of the {@code onFulfilled} or {@code onRejected} callbacks as
+ * specified in the Promise resolution procedure.
+ *
+ * @see http://promisesaplus.com/#the__method
+ *
+ * @param {?function(this:THIS, TYPE):
+ *          (RESULT|CancellablePromise<RESULT>|Thenable)} onFulfilled A callback that
+ *     will be invoked if the Promise is fulfilled, or null.
+ * @param {?function(this:THIS, *): *} onRejected A callback that will be
+ *     invoked if the Promise is rejected, or null.
+ * @param {THIS=} opt_context An optional execution context for the callbacks.
+ *     in the default calling context.
+ * @return {!CancellablePromise} The child Promise.
+ * @template RESULT,THIS
+ * @private
+ */
+CancellablePromise.prototype.addChildPromise_ = function (onFulfilled, onRejected, opt_context) {
+
+  /** @type {CancellablePromise.CallbackEntry_} */
+  var callbackEntry = CancellablePromise.getCallbackEntry_(null, null, null);
+
+  callbackEntry.child = new CancellablePromise(function (resolve, reject) {
+    // Invoke onFulfilled, or resolve with the parent's value if absent.
+    callbackEntry.onFulfilled = onFulfilled ? function (value) {
+      try {
+        var result = onFulfilled.call(opt_context, value);
+        resolve(result);
+      } catch (err) {
+        reject(err);
+      }
+    } : resolve;
+
+    // Invoke onRejected, or reject with the parent's reason if absent.
+    callbackEntry.onRejected = onRejected ? function (reason) {
+      try {
+        var result = onRejected.call(opt_context, reason);
+        if (!(0, _metal.isDef)(result) && reason.IS_CANCELLATION_ERROR) {
+          // Propagate cancellation to children if no other result is returned.
+          reject(reason);
+        } else {
+          resolve(result);
+        }
+      } catch (err) {
+        reject(err);
+      }
+    } : reject;
+  });
+
+  callbackEntry.child.parent_ = this;
+  this.addCallbackEntry_(callbackEntry);
+  return callbackEntry.child;
+};
+
+/**
+ * Unblocks the Promise and fulfills it with the given value.
+ *
+ * @param {TYPE} value
+ * @private
+ */
+CancellablePromise.prototype.unblockAndFulfill_ = function (value) {
+  this.state_ = CancellablePromise.State_.PENDING;
+  this.resolve_(CancellablePromise.State_.FULFILLED, value);
+};
+
+/**
+ * Unblocks the Promise and rejects it with the given rejection reason.
+ *
+ * @param {*} reason
+ * @private
+ */
+CancellablePromise.prototype.unblockAndReject_ = function (reason) {
+  this.state_ = CancellablePromise.State_.PENDING;
+  this.resolve_(CancellablePromise.State_.REJECTED, reason);
+};
+
+/**
+ * Attempts to resolve a Promise with a given resolution state and value. This
+ * is a no-op if the given Promise has already been resolved.
+ *
+ * If the given result is a Thenable (such as another Promise), the Promise will
+ * be settled with the same state and result as the Thenable once it is itself
+ * settled.
+ *
+ * If the given result is not a Thenable, the Promise will be settled (fulfilled
+ * or rejected) with that result based on the given state.
+ *
+ * @see http://promisesaplus.com/#the_promise_resolution_procedure
+ *
+ * @param {CancellablePromise.State_} state
+ * @param {*} x The result to apply to the Promise.
+ * @private
+ */
+CancellablePromise.prototype.resolve_ = function (state, x) {
+  if (this.state_ != CancellablePromise.State_.PENDING) {
+    return;
+  }
+
+  if (this === x) {
+    state = CancellablePromise.State_.REJECTED;
+    x = new TypeError('Promise cannot resolve to itself');
+  }
+
+  this.state_ = CancellablePromise.State_.BLOCKED;
+  var isThenable = CancellablePromise.maybeThen_(x, this.unblockAndFulfill_, this.unblockAndReject_, this);
+  if (isThenable) {
+    return;
+  }
+
+  this.result_ = x;
+  this.state_ = state;
+  // Since we can no longer be canceled, remove link to parent, so that the
+  // child promise does not keep the parent promise alive.
+  this.parent_ = null;
+  this.scheduleCallbacks_();
+
+  if (state == CancellablePromise.State_.REJECTED && !x.IS_CANCELLATION_ERROR) {
+    CancellablePromise.addUnhandledRejection_(this, x);
+  }
+};
+
+/**
+ * Invokes the "then" method of an input value if that value is a Thenable. This
+ * is a no-op if the value is not thenable.
+ *
+ * @param {?} value A potentially thenable value.
+ * @param {!Function} onFulfilled
+ * @param {!Function} onRejected
+ * @param {?} context
+ * @return {boolean} Whether the input value was thenable.
+ * @private
+ */
+CancellablePromise.maybeThen_ = function (value, onFulfilled, onRejected, context) {
+  if (value instanceof CancellablePromise) {
+    value.thenVoid(onFulfilled, onRejected, context);
+    return true;
+  } else if (_Thenable2.default.isImplementedBy(value)) {
+    value = /** @type {!Thenable} */value;
+    value.then(onFulfilled, onRejected, context);
+    return true;
+  } else if ((0, _metal.isObject)(value)) {
+    try {
+      var then = value['then'];
+      if ((0, _metal.isFunction)(then)) {
+        CancellablePromise.tryThen_(value, then, onFulfilled, onRejected, context);
+        return true;
+      }
+    } catch (e) {
+      onRejected.call(context, e);
+      return true;
+    }
+  }
+
+  return false;
+};
+
+/**
+ * Attempts to call the {@code then} method on an object in the hopes that it is
+ * a Promise-compatible instance. This allows interoperation between different
+ * Promise implementations, however a non-compliant object may cause a Promise
+ * to hang indefinitely. If the {@code then} method throws an exception, the
+ * dependent Promise will be rejected with the thrown value.
+ *
+ * @see http://promisesaplus.com/#point-70
+ *
+ * @param {Thenable} thenable An object with a {@code then} method that may be
+ *     compatible with the Promise/A+ specification.
+ * @param {!Function} then The {@code then} method of the Thenable object.
+ * @param {!Function} onFulfilled
+ * @param {!Function} onRejected
+ * @param {*} context
+ * @private
+ */
+CancellablePromise.tryThen_ = function (thenable, then, onFulfilled, onRejected, context) {
+
+  var called = false;
+  var resolve = function resolve(value) {
+    if (!called) {
+      called = true;
+      onFulfilled.call(context, value);
+    }
+  };
+
+  var reject = function reject(reason) {
+    if (!called) {
+      called = true;
+      onRejected.call(context, reason);
+    }
+  };
+
+  try {
+    then.call(thenable, resolve, reject);
+  } catch (e) {
+    reject(e);
+  }
+};
+
+/**
+ * Executes the pending callbacks of a settled Promise after a timeout.
+ *
+ * Section 2.2.4 of the Promises/A+ specification requires that Promise
+ * callbacks must only be invoked from a call stack that only contains Promise
+ * implementation code, which we accomplish by invoking callback execution after
+ * a timeout. If {@code startExecution_} is called multiple times for the same
+ * Promise, the callback chain will be evaluated only once. Additional callbacks
+ * may be added during the evaluation phase, and will be executed in the same
+ * event loop.
+ *
+ * All Promises added to the waiting list during the same browser event loop
+ * will be executed in one batch to avoid using a separate timeout per Promise.
+ *
+ * @private
+ */
+CancellablePromise.prototype.scheduleCallbacks_ = function () {
+  if (!this.executing_) {
+    this.executing_ = true;
+    _metal.async.run(this.executeCallbacks_, this);
+  }
+};
+
+/**
+ * @return {boolean} Whether there are any pending callbacks queued.
+ * @private
+ */
+CancellablePromise.prototype.hasEntry_ = function () {
+  return !!this.callbackEntries_;
+};
+
+/**
+ * @param {CancellablePromise.CallbackEntry_} entry
+ * @private
+ */
+CancellablePromise.prototype.queueEntry_ = function (entry) {
+  if (this.callbackEntriesTail_) {
+    this.callbackEntriesTail_.next = entry;
+    this.callbackEntriesTail_ = entry;
+  } else {
+    // It the work queue was empty set the head too.
+    this.callbackEntries_ = entry;
+    this.callbackEntriesTail_ = entry;
+  }
+};
+
+/**
+ * @return {CancellablePromise.CallbackEntry_} entry
+ * @private
+ */
+CancellablePromise.prototype.popEntry_ = function () {
+  var entry = null;
+  if (this.callbackEntries_) {
+    entry = this.callbackEntries_;
+    this.callbackEntries_ = entry.next;
+    entry.next = null;
+  }
+  // It the work queue is empty clear the tail too.
+  if (!this.callbackEntries_) {
+    this.callbackEntriesTail_ = null;
+  }
+  return entry;
+};
+
+/**
+ * @param {CancellablePromise.CallbackEntry_} previous
+ * @private
+ */
+CancellablePromise.prototype.removeEntryAfter_ = function (previous) {
+  // If the last entry is being removed, update the tail
+  if (previous.next == this.callbackEntriesTail_) {
+    this.callbackEntriesTail_ = previous;
+  }
+
+  previous.next = previous.next.next;
+};
+
+/**
+ * Executes all pending callbacks for this Promise.
+ *
+ * @private
+ */
+CancellablePromise.prototype.executeCallbacks_ = function () {
+  var entry = null;
+  while (entry = this.popEntry_()) {
+    if (CancellablePromise.LONG_STACK_TRACES) {
+      this.currentStep_++;
+    }
+    this.executeCallback_(entry, this.state_, this.result_);
+  }
+  this.executing_ = false;
+};
+
+/**
+ * Executes a pending callback for this Promise. Invokes an {@code onFulfilled}
+ * or {@code onRejected} callback based on the settled state of the Promise.
+ *
+ * @param {!CancellablePromise.CallbackEntry_} callbackEntry An entry containing the
+ *     onFulfilled and/or onRejected callbacks for this step.
+ * @param {CancellablePromise.State_} state The resolution status of the Promise,
+ *     either FULFILLED or REJECTED.
+ * @param {*} result The settled result of the Promise.
+ * @private
+ */
+CancellablePromise.prototype.executeCallback_ = function (callbackEntry, state, result) {
+  // Cancel an unhandled rejection if the then/thenVoid call had an onRejected.
+  if (state == CancellablePromise.State_.REJECTED && callbackEntry.onRejected && !callbackEntry.always) {
+    this.removeUnhandledRejection_();
+  }
+
+  if (callbackEntry.child) {
+    // When the parent is settled, the child no longer needs to hold on to it,
+    // as the parent can no longer be canceled.
+    callbackEntry.child.parent_ = null;
+    CancellablePromise.invokeCallback_(callbackEntry, state, result);
+  } else {
+    // Callbacks created with thenAlways or thenVoid do not have the rejection
+    // handling code normally set up in the child Promise.
+    try {
+      callbackEntry.always ? callbackEntry.onFulfilled.call(callbackEntry.context) : CancellablePromise.invokeCallback_(callbackEntry, state, result);
+    } catch (err) {
+      CancellablePromise.handleRejection_.call(null, err);
+    }
+  }
+  CancellablePromise.returnEntry_(callbackEntry);
+};
+
+/**
+ * Executes the onFulfilled or onRejected callback for a callbackEntry.
+ *
+ * @param {!CancellablePromise.CallbackEntry_} callbackEntry
+ * @param {CancellablePromise.State_} state
+ * @param {*} result
+ * @private
+ */
+CancellablePromise.invokeCallback_ = function (callbackEntry, state, result) {
+  if (state == CancellablePromise.State_.FULFILLED) {
+    callbackEntry.onFulfilled.call(callbackEntry.context, result);
+  } else if (callbackEntry.onRejected) {
+    callbackEntry.onRejected.call(callbackEntry.context, result);
+  }
+};
+
+/**
+ * Records a stack trace entry for functions that call {@code then} or the
+ * Promise constructor. May be disabled by unsetting {@code LONG_STACK_TRACES}.
+ *
+ * @param {!Error} err An Error object created by the calling function for
+ *     providing a stack trace.
+ * @private
+ */
+CancellablePromise.prototype.addStackTrace_ = function (err) {
+  if (CancellablePromise.LONG_STACK_TRACES && (0, _metal.isString)(err.stack)) {
+    // Extract the third line of the stack trace, which is the entry for the
+    // user function that called into Promise code.
+    var trace = err.stack.split('\n', 4)[3];
+    var message = err.message;
+
+    // Pad the message to align the traces.
+    message += Array(11 - message.length).join(' ');
+    this.stack_.push(message + trace);
+  }
+};
+
+/**
+ * Adds extra stack trace information to an exception for the list of
+ * asynchronous {@code then} calls that have been run for this Promise. Stack
+ * trace information is recorded in {@see #addStackTrace_}, and appended to
+ * rethrown errors when {@code LONG_STACK_TRACES} is enabled.
+ *
+ * @param {*} err An unhandled exception captured during callback execution.
+ * @private
+ */
+CancellablePromise.prototype.appendLongStack_ = function (err) {
+  if (CancellablePromise.LONG_STACK_TRACES && err && (0, _metal.isString)(err.stack) && this.stack_.length) {
+    var longTrace = ['Promise trace:'];
+
+    for (var promise = this; promise; promise = promise.parent_) {
+      for (var i = this.currentStep_; i >= 0; i--) {
+        longTrace.push(promise.stack_[i]);
+      }
+      longTrace.push('Value: ' + '[' + (promise.state_ == CancellablePromise.State_.REJECTED ? 'REJECTED' : 'FULFILLED') + '] ' + '<' + String(promise.result_) + '>');
+    }
+    err.stack += '\n\n' + longTrace.join('\n');
+  }
+};
+
+/**
+ * Marks this rejected Promise as having being handled. Also marks any parent
+ * Promises in the rejected state as handled. The rejection handler will no
+ * longer be invoked for this Promise (if it has not been called already).
+ *
+ * @private
+ */
+CancellablePromise.prototype.removeUnhandledRejection_ = function () {
+  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
+    for (var p = this; p && p.unhandledRejectionId_; p = p.parent_) {
+      clearTimeout(p.unhandledRejectionId_);
+      p.unhandledRejectionId_ = 0;
+    }
+  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
+    for (var p = this; p && p.hadUnhandledRejection_; p = p.parent_) {
+      p.hadUnhandledRejection_ = false;
+    }
+  }
+};
+
+/**
+ * Marks this rejected Promise as unhandled. If no {@code onRejected} callback
+ * is called for this Promise before the {@code UNHANDLED_REJECTION_DELAY}
+ * expires, the reason will be passed to the unhandled rejection handler. The
+ * handler typically rethrows the rejection reason so that it becomes visible in
+ * the developer console.
+ *
+ * @param {!CancellablePromise} promise The rejected Promise.
+ * @param {*} reason The Promise rejection reason.
+ * @private
+ */
+CancellablePromise.addUnhandledRejection_ = function (promise, reason) {
+  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
+    promise.unhandledRejectionId_ = setTimeout(function () {
+      promise.appendLongStack_(reason);
+      CancellablePromise.handleRejection_.call(null, reason);
+    }, CancellablePromise.UNHANDLED_REJECTION_DELAY);
+  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
+    promise.hadUnhandledRejection_ = true;
+    _metal.async.run(function () {
+      if (promise.hadUnhandledRejection_) {
+        promise.appendLongStack_(reason);
+        CancellablePromise.handleRejection_.call(null, reason);
+      }
+    });
+  }
+};
+
+/**
+ * A method that is invoked with the rejection reasons for Promises that are
+ * rejected but have no {@code onRejected} callbacks registered yet.
+ * @type {function(*)}
+ * @private
+ */
+CancellablePromise.handleRejection_ = _metal.async.throwException;
+
+/**
+ * Sets a handler that will be called with reasons from unhandled rejected
+ * Promises. If the rejected Promise (or one of its descendants) has an
+ * {@code onRejected} callback registered, the rejection will be considered
+ * handled, and the rejection handler will not be called.
+ *
+ * By default, unhandled rejections are rethrown so that the error may be
+ * captured by the developer console or a {@code window.onerror} handler.
+ *
+ * @param {function(*)} handler A function that will be called with reasons from
+ *     rejected Promises. Defaults to {@code async.throwException}.
+ */
+CancellablePromise.setUnhandledRejectionHandler = function (handler) {
+  CancellablePromise.handleRejection_ = handler;
+};
+
+/**
+ * Error used as a rejection reason for canceled Promises.
+ *
+ * @param {string=} opt_message
+ * @constructor
+ * @extends {Error}
+ * @final
+ */
+CancellablePromise.CancellationError = function (_Error) {
+  _inherits(_class, _Error);
+
+  function _class(opt_message) {
+    _classCallCheck(this, _class);
+
+    var _this = _possibleConstructorReturn(this, (_class.__proto__ || Object.getPrototypeOf(_class)).call(this, opt_message));
+
+    if (opt_message) {
+      _this.message = opt_message;
+    }
+    return _this;
+  }
+
+  return _class;
+}(Error);
+
+/** @override */
+CancellablePromise.CancellationError.prototype.name = 'cancel';
+
+/**
+ * Internal implementation of the resolver interface.
+ *
+ * @param {!CancellablePromise<TYPE>} promise
+ * @param {function((TYPE|CancellablePromise<TYPE>|Thenable)=)} resolve
+ * @param {function(*=): void} reject
+ * @implements {CancellablePromise.Resolver<TYPE>}
+ * @final @struct
+ * @constructor
+ * @private
+ * @template TYPE
+ */
+CancellablePromise.Resolver_ = function (promise, resolve, reject) {
+  /** @const */
+  this.promise = promise;
+
+  /** @const */
+  this.resolve = resolve;
+
+  /** @const */
+  this.reject = reject;
+};
+
+exports.CancellablePromise = CancellablePromise;
+exports.default = CancellablePromise;
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -3232,7 +4532,7 @@ exports.JSXComponent = exports.Config = exports.validators = exports.Dangerously
 
 var _metalState = __webpack_require__(1);
 
-var _DangerouslySetHTML = __webpack_require__(44);
+var _DangerouslySetHTML = __webpack_require__(45);
 
 var _DangerouslySetHTML2 = _interopRequireDefault(_DangerouslySetHTML);
 
@@ -3249,7 +4549,7 @@ exports.Config = _metalState.Config;
 exports.JSXComponent = _JSXComponent2.default;
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3265,7 +4565,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.core = undefined;
 
-var _coreNamed = __webpack_require__(31);
+var _coreNamed = __webpack_require__(32);
 
 Object.keys(_coreNamed).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
@@ -3285,7 +4585,7 @@ exports.default = core;
 exports.core = core;
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3624,7 +4924,7 @@ function nullFunction() {}
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3771,7 +5071,7 @@ var array = function () {
 exports.default = array;
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4014,10 +5314,10 @@ async.nextTick.wrapCallback_ = function (callback) {
 };
 
 exports.default = async;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(34).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(35).setImmediate))
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var apply = Function.prototype.apply;
@@ -4070,13 +5370,13 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(35);
+__webpack_require__(36);
 exports.setImmediate = setImmediate;
 exports.clearImmediate = clearImmediate;
 
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -4269,7 +5569,7 @@ exports.clearImmediate = clearImmediate;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9), __webpack_require__(12)))
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4348,7 +5648,7 @@ var Disposable = function () {
 exports.default = Disposable;
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4474,7 +5774,7 @@ var object = function () {
 exports.default = object;
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4603,7 +5903,7 @@ var string = function () {
 exports.default = string;
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4905,7 +6205,7 @@ function setPrimitiveValidators(name) {
 exports.default = Config;
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5744,7 +7044,7 @@ State.KeyStates = {
 exports.default = State;
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6292,7 +7592,7 @@ function toArray(val) {
 exports.default = EventEmitter;
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6536,7 +7836,7 @@ var EventEmitterProxy = function (_Disposable) {
 exports.default = EventEmitterProxy;
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6633,7 +7933,7 @@ var EventHandler = function (_Disposable) {
 exports.default = EventHandler;
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6705,7 +8005,7 @@ DangerouslySetHTML.PROPS = {
 exports.default = DangerouslySetHTML;
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6782,7 +8082,7 @@ exports.default = scope.iDOMHelpers;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6794,11 +8094,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _HTMLParser = __webpack_require__(47);
+var _HTMLParser = __webpack_require__(48);
 
 var _HTMLParser2 = _interopRequireDefault(_HTMLParser);
 
-var _unescape = __webpack_require__(48);
+var _unescape = __webpack_require__(49);
 
 var _unescape2 = _interopRequireDefault(_unescape);
 
@@ -6891,7 +8191,7 @@ var HTML2IncDom = function () {
 exports.default = HTML2IncDom;
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7150,7 +8450,7 @@ exports.default = HTMLParser;
 /* eslint-enable */
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7229,7 +8529,7 @@ exports.default = unescape;
 var HTML_ENTITY_PATTERN_ = /&([^;\s<&]+);?/g;
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7249,7 +8549,7 @@ var _data = __webpack_require__(7);
 
 var _children = __webpack_require__(20);
 
-var _patch2 = __webpack_require__(52);
+var _patch2 = __webpack_require__(53);
 
 var _render = __webpack_require__(24);
 
@@ -7573,7 +8873,7 @@ renderer.RENDERER_NAME = 'incremental-dom';
 exports.default = renderer;
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8999,7 +10299,7 @@ exports.importNode = importNode;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 (function (global, factory) {
@@ -9277,7 +10577,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9402,7 +10702,7 @@ function tryPatchWithNoParent_(component) {
 }
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9444,7 +10744,7 @@ var _domData = __webpack_require__(14);
 
 var _domData2 = _interopRequireDefault(_domData);
 
-var _DomDelegatedEventHandle = __webpack_require__(54);
+var _DomDelegatedEventHandle = __webpack_require__(55);
 
 var _DomDelegatedEventHandle2 = _interopRequireDefault(_DomDelegatedEventHandle);
 
@@ -10315,7 +11615,7 @@ function triggerSelectorListeners_(container, element, event, defaultFns) {
 }
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10396,7 +11696,7 @@ var DomDelegatedEventHandle = function (_EventHandle) {
 exports.default = DomDelegatedEventHandle;
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10510,7 +11810,7 @@ var DomEventEmitterProxy = function (_EventEmitterProxy) {
 exports.default = DomEventEmitterProxy;
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10668,7 +11968,7 @@ var globalEval = function () {
 exports.default = globalEval;
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10808,7 +12108,7 @@ var globalEvalStyles = function () {
 exports.default = globalEvalStyles;
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10873,7 +12173,7 @@ if (!(0, _metal.isServerSide)()) {
 }
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11062,7 +12362,7 @@ function setValueAttrAsProperty_(element, name, value) {
 }
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11080,7 +12380,7 @@ var _events = __webpack_require__(25);
 
 var _metal = __webpack_require__(0);
 
-var _sync = __webpack_require__(61);
+var _sync = __webpack_require__(62);
 
 var _metalDom = __webpack_require__(11);
 
@@ -12075,7 +13375,7 @@ var proxyBlackList_ = {
 exports.default = Component;
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12144,7 +13444,7 @@ function syncState(component, changes) {
 }
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12228,7 +13528,7 @@ ComponentRegistry.components_ = {};
 exports.default = ComponentRegistry;
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12283,7 +13583,7 @@ function schedule(comps) {
 }
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12453,7 +13753,7 @@ var JSXDataManager = function (_ComponentDataManager) {
 exports.default = new JSXDataManager();
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12470,7 +13770,7 @@ var _types2 = _interopRequireDefault(_types);
 
 var _metalState = __webpack_require__(1);
 
-var _billboard = __webpack_require__(71);
+var _billboard = __webpack_require__(85);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13645,7 +14945,2391 @@ exports.default = ChartBase;
 //# sourceMappingURL=ChartBase.js.map
 
 /***/ }),
-/* 66 */
+/* 67 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _metal = __webpack_require__(0);
+
+var _metalUri = __webpack_require__(68);
+
+var _metalUri2 = _interopRequireDefault(_metalUri);
+
+var _metalPromise = __webpack_require__(77);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Ajax = function () {
+	function Ajax() {
+		_classCallCheck(this, Ajax);
+	}
+
+	_createClass(Ajax, null, [{
+		key: 'parseResponseHeaders',
+
+
+		/**
+   * XmlHttpRequest's getAllResponseHeaders() method returns a string of
+   * response headers according to the format described on the spec:
+   * {@link http://www.w3.org/TR/XMLHttpRequest/#the-getallresponseheaders-method}.
+   * This method parses that string into a user-friendly name/value pair
+   * object.
+   * @param {string} allHeaders All headers as string.
+   * @return {!Array.<Object<string, string>>}
+   */
+		value: function parseResponseHeaders(allHeaders) {
+			var headers = [];
+			if (!allHeaders) {
+				return headers;
+			}
+			var pairs = allHeaders.split('\r\n');
+			for (var i = 0; i < pairs.length; i++) {
+				var index = pairs[i].indexOf(': ');
+				if (index > 0) {
+					var name = pairs[i].substring(0, index);
+					var value = pairs[i].substring(index + 2);
+					headers.push({
+						name: name,
+						value: value
+					});
+				}
+			}
+			return headers;
+		}
+
+		/**
+   * Requests the url using XMLHttpRequest.
+   * @param {!string} url
+   * @param {!string} method
+   * @param {?string} body
+   * @param {MultiMap=} opt_headers
+   * @param {MultiMap=} opt_params
+   * @param {number=} opt_timeout
+   * @param {boolean=} opt_sync
+   * @param {boolean=} opt_withCredentials
+   * @return {Promise} Deferred ajax request.
+   * @protected
+   */
+
+	}, {
+		key: 'request',
+		value: function request(url, method, body, opt_headers, opt_params, opt_timeout, opt_sync, opt_withCredentials) {
+			url = url || '';
+			method = method || 'GET';
+
+			var request = new XMLHttpRequest();
+			var previousReadyState = 0;
+
+			var promise = new _metalPromise.ProgressPromise(function (resolve, reject, progress) {
+				request.onload = function () {
+					if (request.aborted) {
+						request.onerror();
+						return;
+					}
+					resolve(request);
+				};
+				request.onprogress = function (progressEvent) {
+					if (progressEvent.lengthComputable) {
+						progress(progressEvent.loaded / progressEvent.total);
+					}
+				};
+				request.onreadystatechange = function () {
+					if (previousReadyState && previousReadyState < 3 && 4 === request.readyState) {
+						request.terminatedPrematurely = true;
+					}
+					previousReadyState = request.readyState;
+				};
+				request.onerror = function () {
+					var message = 'Request error';
+					if (request.terminatedPrematurely) {
+						message = 'Request terminated prematurely';
+					}
+					var error = new Error(message);
+					error.request = request;
+					reject(error);
+				};
+			}).thenCatch(function (reason) {
+				request.abort();
+				throw reason;
+			}).thenAlways(function () {
+				clearTimeout(timeout);
+			});
+
+			url = new _metalUri2.default(url);
+
+			if (opt_params) {
+				url.addParametersFromMultiMap(opt_params).toString();
+			}
+
+			url = url.toString();
+
+			request.open(method, url, !opt_sync);
+
+			if (opt_withCredentials) {
+				request.withCredentials = true;
+			}
+
+			if (opt_headers) {
+				opt_headers.names().forEach(function (name) {
+					request.setRequestHeader(name, opt_headers.getAll(name).join(', '));
+				});
+			}
+
+			request.send((0, _metal.isDef)(body) ? body : null);
+
+			if ((0, _metal.isDefAndNotNull)(opt_timeout)) {
+				var timeout = setTimeout(function () {
+					promise.cancel('Request timeout');
+				}, opt_timeout);
+			}
+
+			return promise;
+		}
+	}]);
+
+	return Ajax;
+}();
+
+exports.default = Ajax;
+
+/***/ }),
+/* 68 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _parse = __webpack_require__(69);
+
+var _parse2 = _interopRequireDefault(_parse);
+
+var _resolvePathname = __webpack_require__(73);
+
+var _resolvePathname2 = _interopRequireDefault(_resolvePathname);
+
+var _metalStructs = __webpack_require__(74);
+
+var _metal = __webpack_require__(0);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Uri = function () {
+
+	/**
+  * This class contains setters and getters for the parts of the URI.
+  * The following figure displays an example URIs and their component parts.
+  *
+  *                                  path
+  *	                             ┌───┴────┐
+  *	  abc://example.com:123/path/data?key=value#fragid1
+  *	  └┬┘   └────┬────┘ └┬┘           └───┬───┘ └──┬──┘
+  * protocol  hostname  port            search    hash
+  *          └──────┬───────┘
+  *                host
+  *
+  * @param {*=} opt_uri Optional string URI to parse
+  * @constructor
+  */
+	function Uri() {
+		var opt_uri = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+		var opt_addProtocol = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+
+		_classCallCheck(this, Uri);
+
+		this.addProtocol_ = opt_addProtocol;
+
+		opt_uri = opt_addProtocol ? this.maybeAddProtocolAndHostname_(opt_uri) : opt_uri;
+
+		this.url = (0, _parse2.default)(opt_uri);
+		this.ensurePathname_();
+	}
+
+	/**
+  * Adds parameters to uri from a <code>MultiMap</code> as source.
+  * @param {MultiMap} multimap The <code>MultiMap</code> containing the
+  *   parameters.
+  * @protected
+  * @chainable
+  */
+
+
+	_createClass(Uri, [{
+		key: 'addParametersFromMultiMap',
+		value: function addParametersFromMultiMap(multimap) {
+			var _this = this;
+
+			multimap.names().forEach(function (name) {
+				multimap.getAll(name).forEach(function (value) {
+					_this.addParameterValue(name, value);
+				});
+			});
+			return this;
+		}
+
+		/**
+   * Adds the value of the named query parameters.
+   * @param {string} key The parameter to set.
+   * @param {*} value The new value. Will be explicitly casted to String.
+   * @chainable
+   */
+
+	}, {
+		key: 'addParameterValue',
+		value: function addParameterValue(name, value) {
+			this.ensureQueryInitialized_();
+			if ((0, _metal.isDef)(value)) {
+				value = String(value);
+			}
+			this.query.add(name, value);
+			return this;
+		}
+
+		/**
+   * Adds the values of the named query parameter.
+   * @param {string} key The parameter to set.
+   * @param {*} value The new value.
+   * @chainable
+   */
+
+	}, {
+		key: 'addParameterValues',
+		value: function addParameterValues(name, values) {
+			var _this2 = this;
+
+			values.forEach(function (value) {
+				return _this2.addParameterValue(name, value);
+			});
+			return this;
+		}
+
+		/**
+   * Sets default path name if pathname doesn't exist.
+   * @protected
+   */
+
+	}, {
+		key: 'ensurePathname_',
+		value: function ensurePathname_() {
+			if (!this.getPathname()) {
+				this.setPathname('/');
+			}
+		}
+
+		/**
+   * Ensures query internal map is initialized and synced with initial value
+   * extracted from URI search part.
+   * @protected
+   */
+
+	}, {
+		key: 'ensureQueryInitialized_',
+		value: function ensureQueryInitialized_() {
+			var _this3 = this;
+
+			if (this.query) {
+				return;
+			}
+			this.query = new _metalStructs.MultiMap();
+			var search = this.url.query;
+			if (search) {
+				search.substring(1).split('&').forEach(function (param) {
+					var _param$split = param.split('='),
+					    _param$split2 = _slicedToArray(_param$split, 2),
+					    key = _param$split2[0],
+					    value = _param$split2[1];
+
+					if ((0, _metal.isDef)(value)) {
+						value = Uri.urlDecode(value);
+					}
+					_this3.addParameterValue(key, value);
+				});
+			}
+		}
+
+		/**
+   * Gets the hash part of uri.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getHash',
+		value: function getHash() {
+			return this.url.hash || '';
+		}
+
+		/**
+   * Gets the host part of uri. E.g. <code>[hostname]:[port]</code>.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getHost',
+		value: function getHost() {
+			var host = this.getHostname();
+			if (host) {
+				var port = this.getPort();
+				if (port && port !== '80') {
+					host += ':' + port;
+				}
+			}
+			return host;
+		}
+
+		/**
+   * Gets the hostname part of uri without protocol and port.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getHostname',
+		value: function getHostname() {
+			var hostname = this.url.hostname;
+			if (hostname === Uri.HOSTNAME_PLACEHOLDER) {
+				return '';
+			}
+			return hostname;
+		}
+
+		/**
+   * Gets the origin part of uri. E.g. <code>http://[hostname]:[port]</code>.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getOrigin',
+		value: function getOrigin() {
+			var host = this.getHost();
+			if (host) {
+				return this.getProtocol() + '//' + host;
+			}
+			return '';
+		}
+
+		/**
+   * Returns the first value for a given parameter or undefined if the given
+   * parameter name does not appear in the query string.
+   * @param {string} paramName Unescaped parameter name.
+   * @return {string|undefined} The first value for a given parameter or
+   *   undefined if the given parameter name does not appear in the query
+   *   string.
+   */
+
+	}, {
+		key: 'getParameterValue',
+		value: function getParameterValue(name) {
+			this.ensureQueryInitialized_();
+			return this.query.get(name);
+		}
+
+		/**
+   * Returns the value<b>s</b> for a given parameter as a list of decoded
+   * query parameter values.
+   * @param {string} name The parameter to get values for.
+   * @return {!Array<?>} The values for a given parameter as a list of decoded
+   *   query parameter values.
+   */
+
+	}, {
+		key: 'getParameterValues',
+		value: function getParameterValues(name) {
+			this.ensureQueryInitialized_();
+			return this.query.getAll(name);
+		}
+
+		/**
+   * Returns the name<b>s</b> of the parameters.
+   * @return {!Array<string>} The names for the parameters as a list of
+   *   strings.
+   */
+
+	}, {
+		key: 'getParameterNames',
+		value: function getParameterNames() {
+			this.ensureQueryInitialized_();
+			return this.query.names();
+		}
+
+		/**
+   * Gets the pathname part of uri.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getPathname',
+		value: function getPathname() {
+			var pathname = this.url.pathname;
+
+
+			if (pathname && pathname.indexOf('.') > -1) {
+				pathname = (0, _resolvePathname2.default)(pathname);
+			}
+
+			return pathname;
+		}
+
+		/**
+   * Gets the port number part of uri as string.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getPort',
+		value: function getPort() {
+			return this.url.port;
+		}
+
+		/**
+   * Gets the protocol part of uri. E.g. <code>http:</code>.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getProtocol',
+		value: function getProtocol() {
+			return this.url.protocol;
+		}
+
+		/**
+   * Gets the search part of uri. Search value is retrieved from query
+   * parameters.
+   * @return {string}
+   */
+
+	}, {
+		key: 'getSearch',
+		value: function getSearch() {
+			var _this4 = this;
+
+			var search = '';
+			var querystring = '';
+			this.getParameterNames().forEach(function (name) {
+				_this4.getParameterValues(name).forEach(function (value) {
+					querystring += name;
+					if ((0, _metal.isDef)(value)) {
+						querystring += '=' + encodeURIComponent(value);
+					}
+					querystring += '&';
+				});
+			});
+			querystring = querystring.slice(0, -1);
+			if (querystring) {
+				search += '?' + querystring;
+			}
+			return search;
+		}
+
+		/**
+   * Checks if uri contains the parameter.
+   * @param {string} name
+   * @return {boolean}
+   */
+
+	}, {
+		key: 'hasParameter',
+		value: function hasParameter(name) {
+			this.ensureQueryInitialized_();
+			return this.query.contains(name);
+		}
+
+		/**
+   * Returns true if the default protocol (scheme) was added to the original Uri.
+   * @return {boolean} True if a protocol (scheme) was added to the Url, false
+   *   otherwise
+   */
+
+	}, {
+		key: 'isUsingDefaultProtocol',
+		value: function isUsingDefaultProtocol() {
+			return this.usingDefaultProtocol_;
+		}
+
+		/**
+   * Makes this URL unique by adding a random param to it. Useful for avoiding
+   * cache.
+   */
+
+	}, {
+		key: 'makeUnique',
+		value: function makeUnique() {
+			this.setParameterValue(Uri.RANDOM_PARAM, _metal.string.getRandomString());
+			return this;
+		}
+
+		/**
+   * Maybe adds protocol and a hostname placeholder on a partial URI if needed.
+   * Relevant for compatibility with <code>URL</code> native object.
+   * @param {string=} opt_uri
+   * @return {string} URI with protocol and hostname placeholder.
+   */
+
+	}, {
+		key: 'maybeAddProtocolAndHostname_',
+		value: function maybeAddProtocolAndHostname_(opt_uri) {
+			var url = opt_uri;
+			if (opt_uri.indexOf('://') === -1 && opt_uri.indexOf('javascript:') !== 0) {
+				// jshint ignore:line
+
+				url = Uri.DEFAULT_PROTOCOL;
+				this.usingDefaultProtocol_ = true;
+
+				if (opt_uri[0] !== '/' || opt_uri[1] !== '/') {
+					url += '//';
+				}
+
+				switch (opt_uri.charAt(0)) {
+					case '.':
+					case '?':
+					case '#':
+						url += Uri.HOSTNAME_PLACEHOLDER;
+						url += '/';
+						url += opt_uri;
+						break;
+					case '':
+					case '/':
+						if (opt_uri[1] !== '/') {
+							url += Uri.HOSTNAME_PLACEHOLDER;
+						}
+						url += opt_uri;
+						break;
+					default:
+						url += opt_uri;
+				}
+			} else {
+				this.usingDefaultProtocol_ = false;
+			}
+			return url;
+		}
+
+		/**
+   * Removes the named query parameter.
+   * @param {string} name The parameter to remove.
+   * @chainable
+   */
+
+	}, {
+		key: 'removeParameter',
+		value: function removeParameter(name) {
+			this.ensureQueryInitialized_();
+			this.query.remove(name);
+			return this;
+		}
+
+		/**
+   * Removes uniqueness parameter of the uri.
+   * @chainable
+   */
+
+	}, {
+		key: 'removeUnique',
+		value: function removeUnique() {
+			this.removeParameter(Uri.RANDOM_PARAM);
+			return this;
+		}
+
+		/**
+   * Sets the hash.
+   * @param {string} hash
+   * @chainable
+   */
+
+	}, {
+		key: 'setHash',
+		value: function setHash(hash) {
+			this.url.set('hash', hash);
+			return this;
+		}
+
+		/**
+   * Sets the hostname.
+   * @param {string} hostname
+   * @chainable
+   */
+
+	}, {
+		key: 'setHostname',
+		value: function setHostname(hostname) {
+			this.url.set('hostname', hostname);
+			return this;
+		}
+
+		/**
+   * Sets the value of the named query parameters, clearing previous values
+   * for that key.
+   * @param {string} key The parameter to set.
+   * @param {*} value The new value.
+   * @chainable
+   */
+
+	}, {
+		key: 'setParameterValue',
+		value: function setParameterValue(name, value) {
+			this.removeParameter(name);
+			this.addParameterValue(name, value);
+			return this;
+		}
+
+		/**
+   * Sets the values of the named query parameters, clearing previous values
+   * for that key.
+   * @param {string} key The parameter to set.
+   * @param {*} value The new value.
+   * @chainable
+   */
+
+	}, {
+		key: 'setParameterValues',
+		value: function setParameterValues(name, values) {
+			var _this5 = this;
+
+			this.removeParameter(name);
+			values.forEach(function (value) {
+				return _this5.addParameterValue(name, value);
+			});
+			return this;
+		}
+
+		/**
+   * Sets the pathname.
+   * @param {string} pathname
+   * @chainable
+   */
+
+	}, {
+		key: 'setPathname',
+		value: function setPathname(pathname) {
+			this.url.set('pathname', pathname);
+			return this;
+		}
+
+		/**
+   * Sets the port number.
+   * @param {*} port Port number.
+   * @chainable
+   */
+
+	}, {
+		key: 'setPort',
+		value: function setPort(port) {
+			this.url.set('port', port);
+			return this;
+		}
+
+		/**
+   * Sets the protocol. If missing <code>http:</code> is used as default.
+   * @param {string} protocol
+   * @chainable
+   */
+
+	}, {
+		key: 'setProtocol',
+		value: function setProtocol(protocol) {
+			if (protocol[protocol.length - 1] !== ':') {
+				protocol += ':';
+			}
+			this.url.set('protocol', protocol);
+			return this;
+		}
+
+		/**
+   * @return {string} The string form of the url.
+   * @override
+   */
+
+	}, {
+		key: 'toString',
+		value: function toString() {
+			if (!this.addProtocol_) {
+				return this.url.toString();
+			}
+
+			var href = '';
+			var host = this.getHost();
+			if (host) {
+				href += this.getProtocol() + '//';
+			}
+			href += host + this.getPathname() + this.getSearch() + this.getHash();
+			return href;
+		}
+
+		/**
+   * Joins the given paths.
+   * @param {string} basePath
+   * @param {...string} ...paths Any number of paths to be joined with the base url.
+   * @static
+   */
+
+	}], [{
+		key: 'joinPaths',
+		value: function joinPaths(basePath) {
+			for (var _len = arguments.length, paths = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+				paths[_key - 1] = arguments[_key];
+			}
+
+			basePath = (0, _metal.isNumber)(basePath) ? basePath.toString() : basePath;
+			if (basePath.charAt(basePath.length - 1) === '/') {
+				basePath = basePath.substring(0, basePath.length - 1);
+			}
+			paths = paths.map(function (path) {
+				path = (0, _metal.isNumber)(path) ? path.toString() : path;
+				return path.charAt(0) === '/' ? path.substring(1) : path;
+			});
+			return [basePath].concat(paths).join('/').replace(/\/$/, '');
+		}
+
+		/**
+   * URL-decodes the string. We need to specially handle '+'s because
+   * the javascript library doesn't convert them to spaces.
+   * @param {string} str The string to url decode.
+   * @return {string} The decoded {@code str}.
+   */
+
+	}, {
+		key: 'urlDecode',
+		value: function urlDecode(str) {
+			return decodeURIComponent(str.replace(/\+/g, ' '));
+		}
+	}]);
+
+	return Uri;
+}();
+
+/**
+ * Default protocol value.
+ * @type {string}
+ * @default http:
+ * @static
+ */
+
+
+var isSecure = function isSecure() {
+	return typeof window !== 'undefined' && window.location && window.location.protocol && window.location.protocol.indexOf('https') === 0;
+};
+
+Uri.DEFAULT_PROTOCOL = isSecure() ? 'https:' : 'http:';
+
+/**
+ * Hostname placeholder. Relevant to internal usage only.
+ * @type {string}
+ * @static
+ */
+Uri.HOSTNAME_PLACEHOLDER = 'hostname' + Date.now();
+
+/**
+ * Name used by the param generated by `makeUnique`.
+ * @type {string}
+ * @static
+ */
+Uri.RANDOM_PARAM = 'zx';
+
+exports.default = Uri;
+
+/***/ }),
+/* 69 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _urlParse = __webpack_require__(70);
+
+var _urlParse2 = _interopRequireDefault(_urlParse);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var MAX_PORT = 65535;
+
+/**
+ * Parses the given uri string into an object.
+ * @param {*=} opt_uri Optional string URI to parse
+ */
+function parse(opt_uri) {
+	var url = new _urlParse2.default(opt_uri);
+	url.search = url.query;
+	validatePort(url.port);
+	return url;
+}
+
+/**
+ * Validates port number and throws `TypeError` if it exceeds `65535`.
+ * @param {!number} port Port number from parsed url
+ */
+function validatePort(port) {
+	if (port && port > MAX_PORT) {
+		throw TypeError('Port number can\'t exceed 65535');
+	}
+}
+
+exports.default = parse;
+
+/***/ }),
+/* 70 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+var required = __webpack_require__(71)
+  , qs = __webpack_require__(72)
+  , protocolre = /^([a-z][a-z0-9.+-]*:)?(\/\/)?([\S\s]*)/i
+  , slashes = /^[A-Za-z][A-Za-z0-9+-.]*:\/\//;
+
+/**
+ * These are the parse rules for the URL parser, it informs the parser
+ * about:
+ *
+ * 0. The char it Needs to parse, if it's a string it should be done using
+ *    indexOf, RegExp using exec and NaN means set as current value.
+ * 1. The property we should set when parsing this value.
+ * 2. Indication if it's backwards or forward parsing, when set as number it's
+ *    the value of extra chars that should be split off.
+ * 3. Inherit from location if non existing in the parser.
+ * 4. `toLowerCase` the resulting value.
+ */
+var rules = [
+  ['#', 'hash'],                        // Extract from the back.
+  ['?', 'query'],                       // Extract from the back.
+  ['/', 'pathname'],                    // Extract from the back.
+  ['@', 'auth', 1],                     // Extract from the front.
+  [NaN, 'host', undefined, 1, 1],       // Set left over value.
+  [/:(\d+)$/, 'port', undefined, 1],    // RegExp the back.
+  [NaN, 'hostname', undefined, 1, 1]    // Set left over.
+];
+
+/**
+ * These properties should not be copied or inherited from. This is only needed
+ * for all non blob URL's as a blob URL does not include a hash, only the
+ * origin.
+ *
+ * @type {Object}
+ * @private
+ */
+var ignore = { hash: 1, query: 1 };
+
+/**
+ * The location object differs when your code is loaded through a normal page,
+ * Worker or through a worker using a blob. And with the blobble begins the
+ * trouble as the location object will contain the URL of the blob, not the
+ * location of the page where our code is loaded in. The actual origin is
+ * encoded in the `pathname` so we can thankfully generate a good "default"
+ * location from it so we can generate proper relative URL's again.
+ *
+ * @param {Object|String} loc Optional default location object.
+ * @returns {Object} lolcation object.
+ * @api public
+ */
+function lolcation(loc) {
+  loc = loc || global.location || {};
+
+  var finaldestination = {}
+    , type = typeof loc
+    , key;
+
+  if ('blob:' === loc.protocol) {
+    finaldestination = new URL(unescape(loc.pathname), {});
+  } else if ('string' === type) {
+    finaldestination = new URL(loc, {});
+    for (key in ignore) delete finaldestination[key];
+  } else if ('object' === type) {
+    for (key in loc) {
+      if (key in ignore) continue;
+      finaldestination[key] = loc[key];
+    }
+
+    if (finaldestination.slashes === undefined) {
+      finaldestination.slashes = slashes.test(loc.href);
+    }
+  }
+
+  return finaldestination;
+}
+
+/**
+ * @typedef ProtocolExtract
+ * @type Object
+ * @property {String} protocol Protocol matched in the URL, in lowercase.
+ * @property {Boolean} slashes `true` if protocol is followed by "//", else `false`.
+ * @property {String} rest Rest of the URL that is not part of the protocol.
+ */
+
+/**
+ * Extract protocol information from a URL with/without double slash ("//").
+ *
+ * @param {String} address URL we want to extract from.
+ * @return {ProtocolExtract} Extracted information.
+ * @api private
+ */
+function extractProtocol(address) {
+  var match = protocolre.exec(address);
+
+  return {
+    protocol: match[1] ? match[1].toLowerCase() : '',
+    slashes: !!match[2],
+    rest: match[3]
+  };
+}
+
+/**
+ * Resolve a relative URL pathname against a base URL pathname.
+ *
+ * @param {String} relative Pathname of the relative URL.
+ * @param {String} base Pathname of the base URL.
+ * @return {String} Resolved pathname.
+ * @api private
+ */
+function resolve(relative, base) {
+  var path = (base || '/').split('/').slice(0, -1).concat(relative.split('/'))
+    , i = path.length
+    , last = path[i - 1]
+    , unshift = false
+    , up = 0;
+
+  while (i--) {
+    if (path[i] === '.') {
+      path.splice(i, 1);
+    } else if (path[i] === '..') {
+      path.splice(i, 1);
+      up++;
+    } else if (up) {
+      if (i === 0) unshift = true;
+      path.splice(i, 1);
+      up--;
+    }
+  }
+
+  if (unshift) path.unshift('');
+  if (last === '.' || last === '..') path.push('');
+
+  return path.join('/');
+}
+
+/**
+ * The actual URL instance. Instead of returning an object we've opted-in to
+ * create an actual constructor as it's much more memory efficient and
+ * faster and it pleases my OCD.
+ *
+ * @constructor
+ * @param {String} address URL we want to parse.
+ * @param {Object|String} location Location defaults for relative paths.
+ * @param {Boolean|Function} parser Parser for the query string.
+ * @api public
+ */
+function URL(address, location, parser) {
+  if (!(this instanceof URL)) {
+    return new URL(address, location, parser);
+  }
+
+  var relative, extracted, parse, instruction, index, key
+    , instructions = rules.slice()
+    , type = typeof location
+    , url = this
+    , i = 0;
+
+  //
+  // The following if statements allows this module two have compatibility with
+  // 2 different API:
+  //
+  // 1. Node.js's `url.parse` api which accepts a URL, boolean as arguments
+  //    where the boolean indicates that the query string should also be parsed.
+  //
+  // 2. The `URL` interface of the browser which accepts a URL, object as
+  //    arguments. The supplied object will be used as default values / fall-back
+  //    for relative paths.
+  //
+  if ('object' !== type && 'string' !== type) {
+    parser = location;
+    location = null;
+  }
+
+  if (parser && 'function' !== typeof parser) parser = qs.parse;
+
+  location = lolcation(location);
+
+  //
+  // Extract protocol information before running the instructions.
+  //
+  extracted = extractProtocol(address || '');
+  relative = !extracted.protocol && !extracted.slashes;
+  url.slashes = extracted.slashes || relative && location.slashes;
+  url.protocol = extracted.protocol || location.protocol || '';
+  address = extracted.rest;
+
+  //
+  // When the authority component is absent the URL starts with a path
+  // component.
+  //
+  if (!extracted.slashes) instructions[2] = [/(.*)/, 'pathname'];
+
+  for (; i < instructions.length; i++) {
+    instruction = instructions[i];
+    parse = instruction[0];
+    key = instruction[1];
+
+    if (parse !== parse) {
+      url[key] = address;
+    } else if ('string' === typeof parse) {
+      if (~(index = address.indexOf(parse))) {
+        if ('number' === typeof instruction[2]) {
+          url[key] = address.slice(0, index);
+          address = address.slice(index + instruction[2]);
+        } else {
+          url[key] = address.slice(index);
+          address = address.slice(0, index);
+        }
+      }
+    } else if ((index = parse.exec(address))) {
+      url[key] = index[1];
+      address = address.slice(0, index.index);
+    }
+
+    url[key] = url[key] || (
+      relative && instruction[3] ? location[key] || '' : ''
+    );
+
+    //
+    // Hostname, host and protocol should be lowercased so they can be used to
+    // create a proper `origin`.
+    //
+    if (instruction[4]) url[key] = url[key].toLowerCase();
+  }
+
+  //
+  // Also parse the supplied query string in to an object. If we're supplied
+  // with a custom parser as function use that instead of the default build-in
+  // parser.
+  //
+  if (parser) url.query = parser(url.query);
+
+  //
+  // If the URL is relative, resolve the pathname against the base URL.
+  //
+  if (
+      relative
+    && location.slashes
+    && url.pathname.charAt(0) !== '/'
+    && (url.pathname !== '' || location.pathname !== '')
+  ) {
+    url.pathname = resolve(url.pathname, location.pathname);
+  }
+
+  //
+  // We should not add port numbers if they are already the default port number
+  // for a given protocol. As the host also contains the port number we're going
+  // override it with the hostname which contains no port number.
+  //
+  if (!required(url.port, url.protocol)) {
+    url.host = url.hostname;
+    url.port = '';
+  }
+
+  //
+  // Parse down the `auth` for the username and password.
+  //
+  url.username = url.password = '';
+  if (url.auth) {
+    instruction = url.auth.split(':');
+    url.username = instruction[0] || '';
+    url.password = instruction[1] || '';
+  }
+
+  url.origin = url.protocol && url.host && url.protocol !== 'file:'
+    ? url.protocol +'//'+ url.host
+    : 'null';
+
+  //
+  // The href is just the compiled result.
+  //
+  url.href = url.toString();
+}
+
+/**
+ * This is convenience method for changing properties in the URL instance to
+ * insure that they all propagate correctly.
+ *
+ * @param {String} part          Property we need to adjust.
+ * @param {Mixed} value          The newly assigned value.
+ * @param {Boolean|Function} fn  When setting the query, it will be the function
+ *                               used to parse the query.
+ *                               When setting the protocol, double slash will be
+ *                               removed from the final url if it is true.
+ * @returns {URL}
+ * @api public
+ */
+function set(part, value, fn) {
+  var url = this;
+
+  switch (part) {
+    case 'query':
+      if ('string' === typeof value && value.length) {
+        value = (fn || qs.parse)(value);
+      }
+
+      url[part] = value;
+      break;
+
+    case 'port':
+      url[part] = value;
+
+      if (!required(value, url.protocol)) {
+        url.host = url.hostname;
+        url[part] = '';
+      } else if (value) {
+        url.host = url.hostname +':'+ value;
+      }
+
+      break;
+
+    case 'hostname':
+      url[part] = value;
+
+      if (url.port) value += ':'+ url.port;
+      url.host = value;
+      break;
+
+    case 'host':
+      url[part] = value;
+
+      if (/:\d+$/.test(value)) {
+        value = value.split(':');
+        url.port = value.pop();
+        url.hostname = value.join(':');
+      } else {
+        url.hostname = value;
+        url.port = '';
+      }
+
+      break;
+
+    case 'protocol':
+      url.protocol = value.toLowerCase();
+      url.slashes = !fn;
+      break;
+
+    case 'pathname':
+    case 'hash':
+      if (value) {
+        var char = part === 'pathname' ? '/' : '#';
+        url[part] = value.charAt(0) !== char ? char + value : value;
+      } else {
+        url[part] = value;
+      }
+      break;
+
+    default:
+      url[part] = value;
+  }
+
+  for (var i = 0; i < rules.length; i++) {
+    var ins = rules[i];
+
+    if (ins[4]) url[ins[1]] = url[ins[1]].toLowerCase();
+  }
+
+  url.origin = url.protocol && url.host && url.protocol !== 'file:'
+    ? url.protocol +'//'+ url.host
+    : 'null';
+
+  url.href = url.toString();
+
+  return url;
+}
+
+/**
+ * Transform the properties back in to a valid and full URL string.
+ *
+ * @param {Function} stringify Optional query stringify function.
+ * @returns {String}
+ * @api public
+ */
+function toString(stringify) {
+  if (!stringify || 'function' !== typeof stringify) stringify = qs.stringify;
+
+  var query
+    , url = this
+    , protocol = url.protocol;
+
+  if (protocol && protocol.charAt(protocol.length - 1) !== ':') protocol += ':';
+
+  var result = protocol + (url.slashes ? '//' : '');
+
+  if (url.username) {
+    result += url.username;
+    if (url.password) result += ':'+ url.password;
+    result += '@';
+  }
+
+  result += url.host + url.pathname;
+
+  query = 'object' === typeof url.query ? stringify(url.query) : url.query;
+  if (query) result += '?' !== query.charAt(0) ? '?'+ query : query;
+
+  if (url.hash) result += url.hash;
+
+  return result;
+}
+
+URL.prototype = { set: set, toString: toString };
+
+//
+// Expose the URL parser and some additional properties that might be useful for
+// others or testing.
+//
+URL.extractProtocol = extractProtocol;
+URL.location = lolcation;
+URL.qs = qs;
+
+module.exports = URL;
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
+
+/***/ }),
+/* 71 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Check if we're required to add a port number.
+ *
+ * @see https://url.spec.whatwg.org/#default-port
+ * @param {Number|String} port Port number we need to check
+ * @param {String} protocol Protocol we need to check against.
+ * @returns {Boolean} Is it a default port for the given protocol
+ * @api private
+ */
+module.exports = function required(port, protocol) {
+  protocol = protocol.split(':')[0];
+  port = +port;
+
+  if (!port) return false;
+
+  switch (protocol) {
+    case 'http':
+    case 'ws':
+    return port !== 80;
+
+    case 'https':
+    case 'wss':
+    return port !== 443;
+
+    case 'ftp':
+    return port !== 21;
+
+    case 'gopher':
+    return port !== 70;
+
+    case 'file':
+    return false;
+  }
+
+  return port !== 0;
+};
+
+
+/***/ }),
+/* 72 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var has = Object.prototype.hasOwnProperty;
+
+/**
+ * Decode a URI encoded string.
+ *
+ * @param {String} input The URI encoded string.
+ * @returns {String} The decoded string.
+ * @api private
+ */
+function decode(input) {
+  return decodeURIComponent(input.replace(/\+/g, ' '));
+}
+
+/**
+ * Simple query string parser.
+ *
+ * @param {String} query The query string that needs to be parsed.
+ * @returns {Object}
+ * @api public
+ */
+function querystring(query) {
+  var parser = /([^=?&]+)=?([^&]*)/g
+    , result = {}
+    , part;
+
+  //
+  // Little nifty parsing hack, leverage the fact that RegExp.exec increments
+  // the lastIndex property so we can continue executing this loop until we've
+  // parsed all results.
+  //
+  for (;
+    part = parser.exec(query);
+    result[decode(part[1])] = decode(part[2])
+  );
+
+  return result;
+}
+
+/**
+ * Transform a query string to an object.
+ *
+ * @param {Object} obj Object that should be transformed.
+ * @param {String} prefix Optional prefix.
+ * @returns {String}
+ * @api public
+ */
+function querystringify(obj, prefix) {
+  prefix = prefix || '';
+
+  var pairs = [];
+
+  //
+  // Optionally prefix with a '?' if needed
+  //
+  if ('string' !== typeof prefix) prefix = '?';
+
+  for (var key in obj) {
+    if (has.call(obj, key)) {
+      pairs.push(encodeURIComponent(key) +'='+ encodeURIComponent(obj[key]));
+    }
+  }
+
+  return pairs.length ? prefix + pairs.join('&') : '';
+}
+
+//
+// Expose the module.
+//
+exports.stringify = querystringify;
+exports.parse = querystring;
+
+
+/***/ }),
+/* 73 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+function isAbsolute(pathname) {
+  return pathname.charAt(0) === '/';
+}
+
+// About 1.5x faster than the two-arg version of Array#splice()
+function spliceOne(list, index) {
+  for (var i = index, k = i + 1, n = list.length; k < n; i += 1, k += 1) {
+    list[i] = list[k];
+  }
+
+  list.pop();
+}
+
+// This implementation is based heavily on node's url.parse
+function resolvePathname(to) {
+  var from = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
+
+  var toParts = to && to.split('/') || [];
+  var fromParts = from && from.split('/') || [];
+
+  var isToAbs = to && isAbsolute(to);
+  var isFromAbs = from && isAbsolute(from);
+  var mustEndAbs = isToAbs || isFromAbs;
+
+  if (to && isAbsolute(to)) {
+    // to is absolute
+    fromParts = toParts;
+  } else if (toParts.length) {
+    // to is relative, drop the filename
+    fromParts.pop();
+    fromParts = fromParts.concat(toParts);
+  }
+
+  if (!fromParts.length) return '/';
+
+  var hasTrailingSlash = void 0;
+  if (fromParts.length) {
+    var last = fromParts[fromParts.length - 1];
+    hasTrailingSlash = last === '.' || last === '..' || last === '';
+  } else {
+    hasTrailingSlash = false;
+  }
+
+  var up = 0;
+  for (var i = fromParts.length; i >= 0; i--) {
+    var part = fromParts[i];
+
+    if (part === '.') {
+      spliceOne(fromParts, i);
+    } else if (part === '..') {
+      spliceOne(fromParts, i);
+      up++;
+    } else if (up) {
+      spliceOne(fromParts, i);
+      up--;
+    }
+  }
+
+  if (!mustEndAbs) for (; up--; up) {
+    fromParts.unshift('..');
+  }if (mustEndAbs && fromParts[0] !== '' && (!fromParts[0] || !isAbsolute(fromParts[0]))) fromParts.unshift('');
+
+  var result = fromParts.join('/');
+
+  if (hasTrailingSlash && result.substr(-1) !== '/') result += '/';
+
+  return result;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (resolvePathname);
+
+/***/ }),
+/* 74 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.TreeNode = exports.MultiMap = undefined;
+
+var _MultiMap = __webpack_require__(75);
+
+var _MultiMap2 = _interopRequireDefault(_MultiMap);
+
+var _TreeNode = __webpack_require__(76);
+
+var _TreeNode2 = _interopRequireDefault(_TreeNode);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.MultiMap = _MultiMap2.default;
+exports.TreeNode = _TreeNode2.default;
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _metal = __webpack_require__(0);
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+/**
+ * A cached reference to the create function.
+ */
+var create = Object.create;
+
+/**
+ * Case insensitive string Multimap implementation. Allows multiple values for
+ * the same key name.
+ * @extends {Disposable}
+ */
+
+var MultiMap = function (_Disposable) {
+	_inherits(MultiMap, _Disposable);
+
+	function MultiMap() {
+		_classCallCheck(this, MultiMap);
+
+		var _this = _possibleConstructorReturn(this, _Disposable.call(this));
+
+		_this.keys = create(null);
+		_this.values = create(null);
+		return _this;
+	}
+
+	/**
+  * Adds value to a key name.
+  * @param {string} name
+  * @param {*} value
+  * @chainable
+  */
+
+
+	MultiMap.prototype.add = function add(name, value) {
+		this.keys[name.toLowerCase()] = name;
+		this.values[name.toLowerCase()] = this.values[name.toLowerCase()] || [];
+		this.values[name.toLowerCase()].push(value);
+		return this;
+	};
+
+	/**
+  * Clears map names and values.
+  * @chainable
+  */
+
+
+	MultiMap.prototype.clear = function clear() {
+		this.keys = create(null);
+		this.values = create(null);
+		return this;
+	};
+
+	/**
+  * Checks if map contains a value to the key name.
+  * @param {string} name
+  * @return {boolean}
+  * @chainable
+  */
+
+
+	MultiMap.prototype.contains = function contains(name) {
+		return name.toLowerCase() in this.values;
+	};
+
+	/**
+  * @inheritDoc
+  */
+
+
+	MultiMap.prototype.disposeInternal = function disposeInternal() {
+		this.values = null;
+	};
+
+	/**
+  * Creates a `MultiMap` instance from the given object.
+  * @param {!Object} obj
+  * @return {!MultiMap}
+  */
+
+
+	MultiMap.fromObject = function fromObject(obj) {
+		var map = new MultiMap();
+		var keys = Object.keys(obj);
+		for (var i = 0; i < keys.length; i++) {
+			map.set(keys[i], obj[keys[i]]);
+		}
+		return map;
+	};
+
+	/**
+  * Gets the first added value from a key name.
+  * @param {string} name
+  * @return {*}
+  * @chainable
+  */
+
+
+	MultiMap.prototype.get = function get(name) {
+		var values = this.values[name.toLowerCase()];
+		if (values) {
+			return values[0];
+		}
+	};
+
+	/**
+  * Gets all values from a key name.
+  * @param {string} name
+  * @return {Array.<*>}
+  */
+
+
+	MultiMap.prototype.getAll = function getAll(name) {
+		return this.values[name.toLowerCase()];
+	};
+
+	/**
+  * Returns true if the map is empty, false otherwise.
+  * @return {boolean}
+  */
+
+
+	MultiMap.prototype.isEmpty = function isEmpty() {
+		return this.size() === 0;
+	};
+
+	/**
+  * Gets array of key names.
+  * @return {Array.<string>}
+  */
+
+
+	MultiMap.prototype.names = function names() {
+		var _this2 = this;
+
+		return Object.keys(this.values).map(function (key) {
+			return _this2.keys[key];
+		});
+	};
+
+	/**
+  * Removes all values from a key name.
+  * @param {string} name
+  * @chainable
+  */
+
+
+	MultiMap.prototype.remove = function remove(name) {
+		delete this.keys[name.toLowerCase()];
+		delete this.values[name.toLowerCase()];
+		return this;
+	};
+
+	/**
+  * Sets the value of a key name. Relevant to replace the current values with
+  * a new one.
+  * @param {string} name
+  * @param {*} value
+  * @chainable
+  */
+
+
+	MultiMap.prototype.set = function set(name, value) {
+		this.keys[name.toLowerCase()] = name;
+		this.values[name.toLowerCase()] = [value];
+		return this;
+	};
+
+	/**
+  * Gets the size of the map key names.
+  * @return {number}
+  */
+
+
+	MultiMap.prototype.size = function size() {
+		return this.names().length;
+	};
+
+	/**
+  * Returns the parsed values as a string.
+  * @return {string}
+  */
+
+
+	MultiMap.prototype.toString = function toString() {
+		return JSON.stringify(this.values);
+	};
+
+	return MultiMap;
+}(_metal.Disposable);
+
+exports.default = MultiMap;
+
+/***/ }),
+/* 76 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _metal = __webpack_require__(0);
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+/**
+ * Generic tree node data structure with arbitrary number of child nodes.
+ * @param {V} value Value.
+ * @constructor
+ */
+var TreeNode = function () {
+	function TreeNode(value) {
+		_classCallCheck(this, TreeNode);
+
+		/**
+   * The value.
+   * @private {V}
+   */
+		this.value_ = value;
+
+		/**
+   * Reference to the parent node or null if it has no parent.
+   * @private {TreeNode}
+   */
+		this.parent_ = null;
+
+		/**
+   * Child nodes or null in case of leaf node.
+   * @private {Array<!TreeNode>}
+   */
+		this.children_ = null;
+	}
+
+	/**
+  * Appends a child node to this node.
+  * @param {!TreeNode} child Orphan child node.
+  */
+
+
+	TreeNode.prototype.addChild = function addChild(child) {
+		assertChildHasNoParent(child);
+		child.setParent(this);
+		this.children_ = this.children_ || [];
+		this.children_.push(child);
+	};
+
+	/**
+  * Tells whether this node is the ancestor of the given node.
+  * @param {!TreeNode} node A node.
+  * @return {boolean} Whether this node is the ancestor of {@code node}.
+  */
+
+
+	TreeNode.prototype.contains = function contains(node) {
+		var current = node.getParent();
+		while (current) {
+			if (current === this) {
+				return true;
+			}
+			current = current.getParent();
+		}
+		return false;
+	};
+
+	/**
+  * @return {!Array<TreeNode>} All ancestor nodes in bottom-up order.
+  */
+
+
+	TreeNode.prototype.getAncestors = function getAncestors() {
+		var ancestors = [];
+		var node = this.getParent();
+		while (node) {
+			ancestors.push(node);
+			node = node.getParent();
+		}
+		return ancestors;
+	};
+
+	/**
+  * Gets the child node of this node at the given index.
+  * @param {number} index Child index.
+  * @return {?TreeNode} The node at the given index
+  * or null if not found.
+  */
+
+
+	TreeNode.prototype.getChildAt = function getChildAt(index) {
+		return this.getChildren()[index] || null;
+	};
+
+	/**
+  * @return {?Array<!TreeNode>} Child nodes or null in case of leaf node.
+  */
+
+
+	TreeNode.prototype.getChildren = function getChildren() {
+		return this.children_ || TreeNode.EMPTY_ARRAY;
+	};
+
+	/**
+  * @return {number} The number of children.
+  */
+
+
+	TreeNode.prototype.getChildCount = function getChildCount() {
+		return this.getChildren().length;
+	};
+
+	/**
+  * @return {number} The number of ancestors of the node.
+  */
+
+
+	TreeNode.prototype.getDepth = function getDepth() {
+		var depth = 0;
+		var node = this;
+		while (node.getParent()) {
+			depth++;
+			node = node.getParent();
+		}
+		return depth;
+	};
+
+	/**
+  * @return {?TreeNode} Parent node or null if it has no parent.
+  */
+
+
+	TreeNode.prototype.getParent = function getParent() {
+		return this.parent_;
+	};
+
+	/**
+  * @return {!TreeNode} The root of the tree structure, i.e. the farthest
+  * ancestor of the node or the node itself if it has no parents.
+  */
+
+
+	TreeNode.prototype.getRoot = function getRoot() {
+		var root = this;
+		while (root.getParent()) {
+			root = root.getParent();
+		}
+		return root;
+	};
+
+	/**
+  * Gets the value.
+  * @return {V} The value.
+  */
+
+
+	TreeNode.prototype.getValue = function getValue() {
+		return this.value_;
+	};
+
+	/**
+  * @return {boolean} Whether the node is a leaf node.
+  */
+
+
+	TreeNode.prototype.isLeaf = function isLeaf() {
+		return !this.getChildCount();
+	};
+
+	/**
+  * Removes the given child node of this node.
+  * @param {TreeNode} child The node to remove.
+  * @return {TreeNode} The removed node if any, null otherwise.
+  */
+
+
+	TreeNode.prototype.removeChild = function removeChild(child) {
+		if (_metal.array.remove(this.getChildren(), child)) {
+			return child;
+		}
+		return null;
+	};
+
+	/**
+  * Sets the parent node of this node. The callers must ensure that the
+  * parent node and only that has this node among its children.
+  * @param {TreeNode} parent The parent to set. If null, the node will be
+  * detached from the tree.
+  * @protected
+  */
+
+
+	TreeNode.prototype.setParent = function setParent(parent) {
+		this.parent_ = parent;
+	};
+
+	/**
+  * Traverses the subtree. The first callback starts with this node,
+  * and visits the descendant nodes depth-first, in preorder.
+  * The second callback, starts with deepest child then visits
+  * the ancestor nodes depth-first, in postorder. E.g.
+  *
+  *  	 A
+  *    / \
+  *   B   C
+  *  /   / \
+  * D   E   F
+  *
+  * preorder -> ['A', 'B', 'D', 'C', 'E', 'F']
+  * postorder -> ['D', 'B', 'E', 'F', 'C', 'A']
+  *
+  * @param {function=} opt_preorderFn The callback to execute when visiting a node.
+  * @param {function=} opt_postorderFn The callback to execute before leaving a node.
+  */
+
+
+	TreeNode.prototype.traverse = function traverse(opt_preorderFn, opt_postorderFn) {
+		if (opt_preorderFn) {
+			opt_preorderFn(this);
+		}
+		this.getChildren().forEach(function (child) {
+			return child.traverse(opt_preorderFn, opt_postorderFn);
+		});
+		if (opt_postorderFn) {
+			opt_postorderFn(this);
+		}
+	};
+
+	return TreeNode;
+}();
+
+/**
+ * Constant for empty array to avoid unnecessary allocations.
+ * @private
+ */
+
+
+TreeNode.EMPTY_ARRAY = [];
+
+/**
+ * Asserts that child has no parent.
+ * @param {TreeNode} child A child.
+ * @private
+ */
+var assertChildHasNoParent = function assertChildHasNoParent(child) {
+	if (child.getParent()) {
+		throw new Error('Cannot add child with parent.');
+	}
+};
+
+exports.default = TreeNode;
+
+/***/ }),
+/* 77 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ProgressPromise = exports.CancellablePromise = undefined;
+
+var _CancellablePromise = __webpack_require__(29);
+
+var _CancellablePromise2 = _interopRequireDefault(_CancellablePromise);
+
+var _ProgressPromise = __webpack_require__(80);
+
+var _ProgressPromise2 = _interopRequireDefault(_ProgressPromise);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.CancellablePromise = _CancellablePromise2.default;
+exports.ProgressPromise = _ProgressPromise2.default;
+exports.default = _CancellablePromise2.default;
+
+/***/ }),
+/* 78 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// Copyright 2015 The Closure Library Authors. All Rights Reserved.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS-IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+
+
+/**
+ * @fileoverview Simple freelist.
+ *
+ * An anterative to goog.structs.SimplePool, it imposes the requirement that the
+ * objects in the list contain a "next" property that can be used to maintain
+ * the pool.
+ */
+
+/**
+ * @template ITEM
+ */
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var FreeList = function () {
+  /**
+   * @param {function():ITEM} create
+   * @param {function(ITEM):void} reset
+   * @param {number} limit
+   */
+  function FreeList(create, reset, limit) {
+    _classCallCheck(this, FreeList);
+
+    /** @private @const {number} */
+    this.limit_ = limit;
+    /** @private @const {function()} */
+    this.create_ = create;
+    /** @private @const {function(ITEM):void} */
+    this.reset_ = reset;
+
+    /** @private {number} */
+    this.occupants_ = 0;
+    /** @private {ITEM} */
+    this.head_ = null;
+  }
+
+  /**
+   * @return {ITEM}
+   */
+
+
+  _createClass(FreeList, [{
+    key: 'get',
+    value: function get() {
+      var item;
+      if (this.occupants_ > 0) {
+        this.occupants_--;
+        item = this.head_;
+        this.head_ = item.next;
+        item.next = null;
+      } else {
+        item = this.create_();
+      }
+      return item;
+    }
+
+    /**
+     * @param {ITEM} item An item available for possible future reuse.
+     */
+
+  }, {
+    key: 'put',
+    value: function put(item) {
+      this.reset_(item);
+      if (this.occupants_ < this.limit_) {
+        this.occupants_++;
+        item.next = this.head_;
+        this.head_ = item;
+      }
+    }
+
+    /**
+     * Visible for testing.
+     * @package
+     * @return {number}
+     */
+
+  }, {
+    key: 'occupants',
+    value: function occupants() {
+      return this.occupants_;
+    }
+  }]);
+
+  return FreeList;
+}();
+
+exports.default = FreeList;
+
+/***/ }),
+/* 79 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// Copyright 2013 The Closure Library Authors. All Rights Reserved.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS-IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+
+
+/**
+ * Provides a more strict interface for Thenables in terms of
+ * http://promisesaplus.com for interop with {@see CancellablePromise}.
+ *
+ * @interface
+ * @extends {IThenable.<TYPE>}
+ * @template TYPE
+ */
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var Thenable = function Thenable() {};
+
+/**
+ * Adds callbacks that will operate on the result of the Thenable, returning a
+ * new child Promise.
+ *
+ * If the Thenable is fulfilled, the {@code onFulfilled} callback will be
+ * invoked with the fulfillment value as argument, and the child Promise will
+ * be fulfilled with the return value of the callback. If the callback throws
+ * an exception, the child Promise will be rejected with the thrown value
+ * instead.
+ *
+ * If the Thenable is rejected, the {@code onRejected} callback will be invoked
+ * with the rejection reason as argument, and the child Promise will be rejected
+ * with the return value of the callback or thrown value.
+ *
+ * @param {?(function(this:THIS, TYPE):
+ *             (RESULT|IThenable.<RESULT>|Thenable))=} opt_onFulfilled A
+ *     function that will be invoked with the fulfillment value if the Promise
+ *     is fullfilled.
+ * @param {?(function(*): *)=} opt_onRejected A function that will be invoked
+ *     with the rejection reason if the Promise is rejected.
+ * @param {THIS=} opt_context An optional context object that will be the
+ *     execution context for the callbacks. By default, functions are executed
+ *     with the default this.
+ * @return {!CancellablePromise.<RESULT>} A new Promise that will receive the
+ *     result of the fulfillment or rejection callback.
+ * @template RESULT,THIS
+ */
+Thenable.prototype.then = function () {};
+
+/**
+ * An expando property to indicate that an object implements
+ * {@code Thenable}.
+ *
+ * {@see addImplementation}.
+ *
+ * @const
+ */
+Thenable.IMPLEMENTED_BY_PROP = '$goog_Thenable';
+
+/**
+ * Marks a given class (constructor) as an implementation of Thenable, so
+ * that we can query that fact at runtime. The class must have already
+ * implemented the interface.
+ * Exports a 'then' method on the constructor prototype, so that the objects
+ * also implement the extern {@see Thenable} interface for interop with
+ * other Promise implementations.
+ * @param {function(new:Thenable,...[?])} ctor The class constructor. The
+ *     corresponding class must have already implemented the interface.
+ */
+Thenable.addImplementation = function (ctor) {
+  ctor.prototype.then = ctor.prototype.then;
+  ctor.prototype.$goog_Thenable = true;
+};
+
+/**
+ * @param {*} object
+ * @return {boolean} Whether a given instance implements {@code Thenable}.
+ *     The class/superclass of the instance must call {@code addImplementation}.
+ */
+Thenable.isImplementedBy = function (object) {
+  if (!object) {
+    return false;
+  }
+  try {
+    return !!object.$goog_Thenable;
+  } catch (e) {
+    // Property access seems to be forbidden.
+    return false;
+  }
+};
+
+exports.default = Thenable;
+
+/***/ }),
+/* 80 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _CancellablePromise2 = __webpack_require__(29);
+
+var _CancellablePromise3 = _interopRequireDefault(_CancellablePromise2);
+
+var _metal = __webpack_require__(0);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ProgressPromise = function (_CancellablePromise) {
+	_inherits(ProgressPromise, _CancellablePromise);
+
+	/**
+  * Creates a CancellablePromise that can track progress.
+  * @extends CancellablePromise
+  * @constructor
+  */
+	function ProgressPromise(resolver, opt_context) {
+		_classCallCheck(this, ProgressPromise);
+
+		var progressFn = function progressFn(progress) {
+			_metal.async.nextTick(function () {
+				_this.setProgress_(progress);
+			});
+		};
+
+		var resolverFn = function resolverFn(resolve, reject) {
+			resolver(resolve, reject, progressFn);
+		};
+
+		var _this = _possibleConstructorReturn(this, (ProgressPromise.__proto__ || Object.getPrototypeOf(ProgressPromise)).call(this, resolverFn, opt_context));
+
+		_this.listeners_ = [];
+		_this.progress_ = 0;
+		return _this;
+	}
+
+	/**
+  * Overwrites `CancellablePromise.prototype.addChildPromise_` so that it
+  * implements another `ProgressPromise` as a child.
+  * @inheritdoc
+  */
+
+
+	_createClass(ProgressPromise, [{
+		key: 'addChildPromise_',
+		value: function addChildPromise_(onFulfilled, onRejected, opt_context) {
+			var callbackEntry = _CancellablePromise3.default.getCallbackEntry_(null, null, null);
+
+			callbackEntry.child = new ProgressPromise(function (resolve, reject) {
+				callbackEntry.onFulfilled = onFulfilled ? function (value) {
+					try {
+						var result = onFulfilled.call(opt_context, value);
+						resolve(result);
+					} catch (err) {
+						reject(err);
+					}
+				} : resolve;
+
+				callbackEntry.onRejected = onRejected ? function (reason) {
+					try {
+						var result = onRejected.call(opt_context, reason);
+						if (!(0, _metal.isDef)(result) && reason.IS_CANCELLATION_ERROR) {
+							reject(reason);
+						} else {
+							resolve(result);
+						}
+					} catch (err) {
+						reject(err);
+					}
+				} : reject;
+			});
+
+			callbackEntry.child.parent_ = this;
+			this.addCallbackEntry_(callbackEntry);
+			return callbackEntry.child;
+		}
+
+		/**
+   * Invokes any listeners that have been attached to child promises.
+   * @param {!number} progress A percentage between 0 and 1
+   */
+
+	}, {
+		key: 'callChildProgressListeners_',
+		value: function callChildProgressListeners_(progress) {
+			if (this.callbackEntries_ && this.callbackEntries_.child) {
+				this.callProgressListeners_(progress, this.callbackEntries_.child.listeners_);
+			}
+		}
+
+		/**
+   * Invokes any listeners that have been attached via the `progress` method.
+   * @param {!number} progress A percentage between 0 and 1
+   * @param {!Array} listeners Array of listeners
+   */
+
+	}, {
+		key: 'callProgressListeners_',
+		value: function callProgressListeners_(progress, listeners) {
+			if (listeners.length) {
+				listeners.forEach(function (listener) {
+					listener(progress);
+				});
+			}
+		}
+
+		/**
+   * Returns the current progress of the promise instance.
+   * Progress will be a number between 0 and 1.
+   * @return {number}
+   */
+
+	}, {
+		key: 'getProgress',
+		value: function getProgress() {
+			return this.progress_;
+		}
+
+		/**
+   * Adds a listener that will be called once the progress has been updated.
+   * @param {!Function} listener
+   */
+
+	}, {
+		key: 'progress',
+		value: function progress(listener) {
+			this.listeners_.push(listener);
+
+			return this;
+		}
+
+		/**
+   * Updates the current progress of the promise and calls all listeners.
+   * @param {number} progress
+   */
+
+	}, {
+		key: 'setProgress_',
+		value: function setProgress_(progress) {
+			if (progress > 1 || progress < 0) {
+				throw new TypeError('The progress percentage should be a number between 0 and 1');
+			} else if (progress < this.progress_) {
+				throw new Error('The progress percentage can\'t be lower than the previous percentage');
+			} else if (progress === this.progress_ || progress === 1) {
+				return;
+			}
+
+			this.progress_ = progress;
+
+			this.callProgressListeners_(progress, this.listeners_);
+			this.callChildProgressListeners_(progress);
+		}
+	}]);
+
+	return ProgressPromise;
+}(_CancellablePromise3.default);
+
+exports.default = ProgressPromise;
+
+/***/ }),
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13660,7 +17344,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
-__webpack_require__(74);
+__webpack_require__(88);
 
 var _metalComponent = __webpack_require__(2);
 
@@ -13672,7 +17356,7 @@ var _metalIncrementalDom = __webpack_require__(10);
 
 var _metalIncrementalDom2 = _interopRequireDefault(_metalIncrementalDom);
 
-var _SoyAop = __webpack_require__(75);
+var _SoyAop = __webpack_require__(89);
 
 var _SoyAop2 = _interopRequireDefault(_SoyAop);
 
@@ -13960,1307 +17644,7 @@ exports.SoyAop = _SoyAop2.default;
 exports.validators = _metalState.validators;
 
 /***/ }),
-/* 67 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/*!
- * Promises polyfill from Google's Closure Library.
- *
- *      Copyright 2013 The Closure Library Authors. All Rights Reserved.
- *
- * NOTE(eduardo): Promise support is not ready on all supported browsers,
- * therefore metal-promise is temporarily using Google's promises as polyfill.
- * It supports cancellable promises and has clean and fast implementation.
- */
-
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.CancellablePromise = undefined;
-
-var _FreeList = __webpack_require__(108);
-
-var _FreeList2 = _interopRequireDefault(_FreeList);
-
-var _Thenable = __webpack_require__(109);
-
-var _Thenable2 = _interopRequireDefault(_Thenable);
-
-var _metal = __webpack_require__(0);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * Like bind(), except that a 'this object' is not required. Useful when the
- * target function is already bound.
- *
- * Usage:
- * var g = partial(f, arg1, arg2);
- * g(arg3, arg4);
- *
- * @param {Function} fn A function to partially apply.
- * @param {...*} var_args Additional arguments that are partially applied to fn.
- * @return {!Function} A partially-applied form of the function bind() was
- *     invoked as a method of.
- */
-var partial = function partial(fn) {
-  var args = Array.prototype.slice.call(arguments, 1);
-  return function () {
-    // Clone the array (with slice()) and append additional arguments
-    // to the existing arguments.
-    var newArgs = args.slice();
-    newArgs.push.apply(newArgs, arguments);
-    return fn.apply(this, newArgs);
-  };
-};
-
-/**
- * NOTE: This class was created in anticipation of the built-in Promise type
- * being standardized and implemented across browsers. Now that Promise is
- * available in modern browsers, and is automatically polyfilled by the Closure
- * Compiler, by default, most new code should use native {@code Promise}
- * instead of {@code CancellablePromise}. However, {@code CancellablePromise} has the
- * concept of cancellation which native Promises do not yet have. So code
- * needing cancellation may still want to use {@code CancellablePromise}.
- *
- * Promises provide a result that may be resolved asynchronously. A Promise may
- * be resolved by being fulfilled with a fulfillment value, rejected with a
- * rejection reason, or blocked by another Promise. A Promise is said to be
- * settled if it is either fulfilled or rejected. Once settled, the Promise
- * result is immutable.
- *
- * Promises may represent results of any type, including undefined. Rejection
- * reasons are typically Errors, but may also be of any type. Closure Promises
- * allow for optional type annotations that enforce that fulfillment values are
- * of the appropriate types at compile time.
- *
- * The result of a Promise is accessible by calling {@code then} and registering
- * {@code onFulfilled} and {@code onRejected} callbacks. Once the Promise
- * is settled, the relevant callbacks are invoked with the fulfillment value or
- * rejection reason as argument. Callbacks are always invoked in the order they
- * were registered, even when additional {@code then} calls are made from inside
- * another callback. A callback is always run asynchronously sometime after the
- * scope containing the registering {@code then} invocation has returned.
- *
- * If a Promise is resolved with another Promise, the first Promise will block
- * until the second is settled, and then assumes the same result as the second
- * Promise. This allows Promises to depend on the results of other Promises,
- * linking together multiple asynchronous operations.
- *
- * This implementation is compatible with the Promises/A+ specification and
- * passes that specification's conformance test suite. A Closure Promise may be
- * resolved with a Promise instance (or sufficiently compatible Promise-like
- * object) created by other Promise implementations. From the specification,
- * Promise-like objects are known as "Thenables".
- *
- * @see http://promisesaplus.com/
- *
- * @param {function(
- *             this:RESOLVER_CONTEXT,
- *             function((TYPE|IThenable<TYPE>|Thenable)=),
- *             function(*=)): void} resolver
- *     Initialization function that is invoked immediately with {@code resolve}
- *     and {@code reject} functions as arguments. The Promise is resolved or
- *     rejected with the first argument passed to either function.
- * @param {RESOLVER_CONTEXT=} opt_context An optional context for executing the
- *     resolver function. If unspecified, the resolver function will be executed
- *     in the default scope.
- * @constructor
- * @struct
- * @final
- * @implements {Thenable<TYPE>}
- * @template TYPE,RESOLVER_CONTEXT
- */
-var CancellablePromise = function CancellablePromise(resolver, opt_context) {
-  /**
-   * The internal state of this Promise. Either PENDING, FULFILLED, REJECTED, or
-   * BLOCKED.
-   * @private {CancellablePromise.State_}
-   */
-  this.state_ = CancellablePromise.State_.PENDING;
-
-  /**
-   * The settled result of the Promise. Immutable once set with either a
-   * fulfillment value or rejection reason.
-   * @private {*}
-   */
-  this.result_ = undefined;
-
-  /**
-   * For Promises created by calling {@code then()}, the originating parent.
-   * @private {CancellablePromise}
-   */
-  this.parent_ = null;
-
-  /**
-   * The linked list of {@code onFulfilled} and {@code onRejected} callbacks
-   * added to this Promise by calls to {@code then()}.
-   * @private {?CancellablePromise.CallbackEntry_}
-   */
-  this.callbackEntries_ = null;
-
-  /**
-   * The tail of the linked list of {@code onFulfilled} and {@code onRejected}
-   * callbacks added to this Promise by calls to {@code then()}.
-   * @private {?CancellablePromise.CallbackEntry_}
-   */
-  this.callbackEntriesTail_ = null;
-
-  /**
-   * Whether the Promise is in the queue of Promises to execute.
-   * @private {boolean}
-   */
-  this.executing_ = false;
-
-  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
-    /**
-     * A timeout ID used when the {@code UNHANDLED_REJECTION_DELAY} is greater
-     * than 0 milliseconds. The ID is set when the Promise is rejected, and
-     * cleared only if an {@code onRejected} callback is invoked for the
-     * Promise (or one of its descendants) before the delay is exceeded.
-     *
-     * If the rejection is not handled before the timeout completes, the
-     * rejection reason is passed to the unhandled rejection handler.
-     * @private {number}
-     */
-    this.unhandledRejectionId_ = 0;
-  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
-    /**
-     * When the {@code UNHANDLED_REJECTION_DELAY} is set to 0 milliseconds, a
-     * boolean that is set if the Promise is rejected, and reset to false if an
-     * {@code onRejected} callback is invoked for the Promise (or one of its
-     * descendants). If the rejection is not handled before the next timestep,
-     * the rejection reason is passed to the unhandled rejection handler.
-     * @private {boolean}
-     */
-    this.hadUnhandledRejection_ = false;
-  }
-
-  if (CancellablePromise.LONG_STACK_TRACES) {
-    /**
-     * A list of stack trace frames pointing to the locations where this Promise
-     * was created or had callbacks added to it. Saved to add additional context
-     * to stack traces when an exception is thrown.
-     * @private {!Array<string>}
-     */
-    this.stack_ = [];
-    this.addStackTrace_(new Error('created'));
-
-    /**
-     * Index of the most recently executed stack frame entry.
-     * @private {number}
-     */
-    this.currentStep_ = 0;
-  }
-
-  // As an optimization, we can skip this if resolver is nullFunction.
-  // This value is passed internally when creating a promise which will be
-  // resolved through a more optimized path.
-  if (resolver != _metal.nullFunction) {
-    try {
-      var self = this;
-      resolver.call(opt_context, function (value) {
-        self.resolve_(CancellablePromise.State_.FULFILLED, value);
-      }, function (reason) {
-        if (!reason.IS_CANCELLATION_ERROR) {
-          try {
-            // Promise was rejected. Step up one call frame to see why.
-            if (reason instanceof Error) {
-              throw reason;
-            } else {
-              throw new Error('Promise rejected.');
-            }
-          } catch (e) {
-            // Only thrown so browser dev tools can catch rejections of
-            // promises when the option to break on caught exceptions is
-            // activated.
-          }
-        }
-        self.resolve_(CancellablePromise.State_.REJECTED, reason);
-      });
-    } catch (e) {
-      this.resolve_(CancellablePromise.State_.REJECTED, e);
-    }
-  }
-};
-
-/**
- * Whether traces of {@code then} calls should be included in
- * exceptions thrown
- * @type {boolean}
- */
-CancellablePromise.LONG_STACK_TRACES = false;
-
-/**
- * The delay in milliseconds before a rejected Promise's reason
- * is passed to the rejection handler. By default, the rejection handler
- * rethrows the rejection reason so that it appears in the developer console or
- * {@code window.onerror} handler.
- *
- * Rejections are rethrown as quickly as possible by default. A negative value
- * disables rejection handling entirely.
- * @type {number}
- */
-CancellablePromise.UNHANDLED_REJECTION_DELAY = 0;
-
-/**
- * The possible internal states for a Promise. These states are not directly
- * observable to external callers.
- * @enum {number}
- * @private
- */
-CancellablePromise.State_ = {
-  /** The Promise is waiting for resolution. */
-  PENDING: 0,
-
-  /** The Promise is blocked waiting for the result of another Thenable. */
-  BLOCKED: 1,
-
-  /** The Promise has been resolved with a fulfillment value. */
-  FULFILLED: 2,
-
-  /** The Promise has been resolved with a rejection reason. */
-  REJECTED: 3
-};
-
-/**
- * Entries in the callback chain. Each call to {@code then},
- * {@code thenCatch}, or {@code thenAlways} creates an entry containing the
- * functions that may be invoked once the Promise is settled.
- *
- * @private @final @struct @constructor
- */
-CancellablePromise.CallbackEntry_ = function () {
-  /** @type {?CancellablePromise} */
-  this.child = null;
-  /** @type {Function} */
-  this.onFulfilled = null;
-  /** @type {Function} */
-  this.onRejected = null;
-  /** @type {?} */
-  this.context = null;
-  /** @type {?CancellablePromise.CallbackEntry_} */
-  this.next = null;
-
-  /**
-   * A boolean value to indicate this is a "thenAlways" callback entry.
-   * Unlike a normal "then/thenVoid" a "thenAlways doesn't participate
-   * in "cancel" considerations but is simply an observer and requires
-   * special handling.
-   * @type {boolean}
-   */
-  this.always = false;
-};
-
-/** clear the object prior to reuse */
-CancellablePromise.CallbackEntry_.prototype.reset = function () {
-  this.child = null;
-  this.onFulfilled = null;
-  this.onRejected = null;
-  this.context = null;
-  this.always = false;
-};
-
-/**
- * The number of currently unused objects to keep around for
- *    reuse.
- * @type {number}
- */
-CancellablePromise.DEFAULT_MAX_UNUSED = 100;
-
-/** @const @private {FreeList<!CancellablePromise.CallbackEntry_>} */
-CancellablePromise.freelist_ = new _FreeList2.default(function () {
-  return new CancellablePromise.CallbackEntry_();
-}, function (item) {
-  item.reset();
-}, CancellablePromise.DEFAULT_MAX_UNUSED);
-
-/**
- * @param {Function} onFulfilled
- * @param {Function} onRejected
- * @param {?} context
- * @return {!CancellablePromise.CallbackEntry_}
- * @private
- */
-CancellablePromise.getCallbackEntry_ = function (onFulfilled, onRejected, context) {
-  var entry = CancellablePromise.freelist_.get();
-  entry.onFulfilled = onFulfilled;
-  entry.onRejected = onRejected;
-  entry.context = context;
-  return entry;
-};
-
-/**
- * @param {!CancellablePromise.CallbackEntry_} entry
- * @private
- */
-CancellablePromise.returnEntry_ = function (entry) {
-  CancellablePromise.freelist_.put(entry);
-};
-
-// NOTE: this is the same template expression as is used for
-// goog.IThenable.prototype.then
-
-
-/**
- * @param {VALUE=} opt_value
- * @return {RESULT} A new Promise that is immediately resolved
- *     with the given value. If the input value is already a CancellablePromise, it
- *     will be returned immediately without creating a new instance.
- * @template VALUE
- * @template RESULT := type('CancellablePromise',
- *     cond(isUnknown(VALUE), unknown(),
- *       mapunion(VALUE, (V) =>
- *         cond(isTemplatized(V) && sub(rawTypeOf(V), 'IThenable'),
- *           templateTypeOf(V, 0),
- *           cond(sub(V, 'Thenable'),
- *              unknown(),
- *              V)))))
- * =:
- */
-CancellablePromise.resolve = function (opt_value) {
-  if (opt_value instanceof CancellablePromise) {
-    // Avoid creating a new object if we already have a promise object
-    // of the correct type.
-    return opt_value;
-  }
-
-  // Passing nullFunction will cause the constructor to take an optimized
-  // path that skips calling the resolver function.
-  var promise = new CancellablePromise(_metal.nullFunction);
-  promise.resolve_(CancellablePromise.State_.FULFILLED, opt_value);
-  return promise;
-};
-
-/**
- * @param {*=} opt_reason
- * @return {!CancellablePromise} A new Promise that is immediately rejected with the
- *     given reason.
- */
-CancellablePromise.reject = function (opt_reason) {
-  return new CancellablePromise(function (resolve, reject) {
-    reject(opt_reason);
-  });
-};
-
-/**
- * This is identical to
- * {@code CancellablePromise.resolve(value).then(onFulfilled, onRejected)}, but it
- * avoids creating an unnecessary wrapper Promise when {@code value} is already
- * thenable.
- *
- * @param {?(Thenable<TYPE>|Thenable|TYPE)} value
- * @param {function(TYPE): ?} onFulfilled
- * @param {function(*): *} onRejected
- * @template TYPE
- * @private
- */
-CancellablePromise.resolveThen_ = function (value, onFulfilled, onRejected) {
-  var isThenable = CancellablePromise.maybeThen_(value, onFulfilled, onRejected, null);
-  if (!isThenable) {
-    _metal.async.run(partial(onFulfilled, value));
-  }
-};
-
-/**
- * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
- *     promises
- * @return {!CancellablePromise<TYPE>} A Promise that receives the result of the
- *     first Promise (or Promise-like) input to settle immediately after it
- *     settles.
- * @template TYPE
- */
-CancellablePromise.race = function (promises) {
-  return new CancellablePromise(function (resolve, reject) {
-    if (!promises.length) {
-      resolve(undefined);
-    }
-    for (var i = 0, promise; i < promises.length; i++) {
-      promise = promises[i];
-      CancellablePromise.resolveThen_(promise, resolve, reject);
-    }
-  });
-};
-
-/**
- * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
- *     promises
- * @return {!CancellablePromise<!Array<TYPE>>} A Promise that receives a list of
- *     every fulfilled value once every input Promise (or Promise-like) is
- *     successfully fulfilled, or is rejected with the first rejection reason
- *     immediately after it is rejected.
- * @template TYPE
- */
-CancellablePromise.all = function (promises) {
-  return new CancellablePromise(function (resolve, reject) {
-    var toFulfill = promises.length;
-    var values = [];
-
-    if (!toFulfill) {
-      resolve(values);
-      return;
-    }
-
-    var onFulfill = function onFulfill(index, value) {
-      toFulfill--;
-      values[index] = value;
-      if (toFulfill == 0) {
-        resolve(values);
-      }
-    };
-
-    var onReject = function onReject(reason) {
-      reject(reason);
-    };
-
-    for (var i = 0, promise; i < promises.length; i++) {
-      promise = promises[i];
-      CancellablePromise.resolveThen_(promise, partial(onFulfill, i), onReject);
-    }
-  });
-};
-
-/**
- * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
- *     promises
- * @return {!CancellablePromise<!Array<{
- *     fulfilled: boolean,
- *     value: (TYPE|undefined),
- *     reason: (*|undefined)}>>} A Promise that resolves with a list of
- *         result objects once all input Promises (or Promise-like) have
- *         settled. Each result object contains a 'fulfilled' boolean indicating
- *         whether an input Promise was fulfilled or rejected. For fulfilled
- *         Promises, the resulting value is stored in the 'value' field. For
- *         rejected Promises, the rejection reason is stored in the 'reason'
- *         field.
- * @template TYPE
- */
-CancellablePromise.allSettled = function (promises) {
-  return new CancellablePromise(function (resolve, reject) {
-    var toSettle = promises.length;
-    var results = [];
-
-    if (!toSettle) {
-      resolve(results);
-      return;
-    }
-
-    var onSettled = function onSettled(index, fulfilled, result) {
-      toSettle--;
-      results[index] = fulfilled ? { fulfilled: true, value: result } : { fulfilled: false, reason: result };
-      if (toSettle == 0) {
-        resolve(results);
-      }
-    };
-
-    for (var i = 0, promise; i < promises.length; i++) {
-      promise = promises[i];
-      CancellablePromise.resolveThen_(promise, partial(onSettled, i, true /* fulfilled */), partial(onSettled, i, false /* fulfilled */));
-    }
-  });
-};
-
-/**
- * @param {!Array<?(CancellablePromise<TYPE>|Thenable<TYPE>|Thenable|*)>}
- *     promises
- * @return {!CancellablePromise<TYPE>} A Promise that receives the value of the first
- *     input to be fulfilled, or is rejected with a list of every rejection
- *     reason if all inputs are rejected.
- * @template TYPE
- */
-CancellablePromise.firstFulfilled = function (promises) {
-  return new CancellablePromise(function (resolve, reject) {
-    var toReject = promises.length;
-    var reasons = [];
-
-    if (!toReject) {
-      resolve(undefined);
-      return;
-    }
-
-    var onFulfill = function onFulfill(value) {
-      resolve(value);
-    };
-
-    var onReject = function onReject(index, reason) {
-      toReject--;
-      reasons[index] = reason;
-      if (toReject == 0) {
-        reject(reasons);
-      }
-    };
-
-    for (var i = 0, promise; i < promises.length; i++) {
-      promise = promises[i];
-      CancellablePromise.resolveThen_(promise, onFulfill, partial(onReject, i));
-    }
-  });
-};
-
-/**
- * @return {!CancellablePromise.Resolver<TYPE>} Resolver wrapping the promise and its
- *     resolve / reject functions. Resolving or rejecting the resolver
- *     resolves or rejects the promise.
- * @template TYPE
- */
-CancellablePromise.withResolver = function () {
-  var resolve, reject;
-  var promise = new CancellablePromise(function (rs, rj) {
-    resolve = rs;
-    reject = rj;
-  });
-  return new CancellablePromise.Resolver_(promise, resolve, reject);
-};
-
-/**
- * Adds callbacks that will operate on the result of the Promise, returning a
- * new child Promise.
- *
- * If the Promise is fulfilled, the {@code onFulfilled} callback will be invoked
- * with the fulfillment value as argument, and the child Promise will be
- * fulfilled with the return value of the callback. If the callback throws an
- * exception, the child Promise will be rejected with the thrown value instead.
- *
- * If the Promise is rejected, the {@code onRejected} callback will be invoked
- * with the rejection reason as argument, and the child Promise will be resolved
- * with the return value or rejected with the thrown value of the callback.
- *
- * @override
- */
-CancellablePromise.prototype.then = function (opt_onFulfilled, opt_onRejected, opt_context) {
-
-  if (CancellablePromise.LONG_STACK_TRACES) {
-    this.addStackTrace_(new Error('then'));
-  }
-
-  return this.addChildPromise_((0, _metal.isFunction)(opt_onFulfilled) ? opt_onFulfilled : null, (0, _metal.isFunction)(opt_onRejected) ? opt_onRejected : null, opt_context);
-};
-_Thenable2.default.addImplementation(CancellablePromise);
-
-/**
- * Adds callbacks that will operate on the result of the Promise without
- * returning a child Promise (unlike "then").
- *
- * If the Promise is fulfilled, the {@code onFulfilled} callback will be invoked
- * with the fulfillment value as argument.
- *
- * If the Promise is rejected, the {@code onRejected} callback will be invoked
- * with the rejection reason as argument.
- *
- * @param {?(function(this:THIS, TYPE):?)=} opt_onFulfilled A
- *     function that will be invoked with the fulfillment value if the Promise
- *     is fulfilled.
- * @param {?(function(this:THIS, *): *)=} opt_onRejected A function that will
- *     be invoked with the rejection reason if the Promise is rejected.
- * @param {THIS=} opt_context An optional context object that will be the
- *     execution context for the callbacks. By default, functions are executed
- *     with the default this.
- * @package
- * @template THIS
- */
-CancellablePromise.prototype.thenVoid = function (opt_onFulfilled, opt_onRejected, opt_context) {
-
-  if (CancellablePromise.LONG_STACK_TRACES) {
-    this.addStackTrace_(new Error('then'));
-  }
-
-  // Note: no default rejection handler is provided here as we need to
-  // distinguish unhandled rejections.
-  this.addCallbackEntry_(CancellablePromise.getCallbackEntry_(opt_onFulfilled || _metal.nullFunction, opt_onRejected || null, opt_context));
-};
-
-/**
- * Adds a callback that will be invoked when the Promise is settled (fulfilled
- * or rejected). The callback receives no argument, and no new child Promise is
- * created. This is useful for ensuring that cleanup takes place after certain
- * asynchronous operations. Callbacks added with {@code thenAlways} will be
- * executed in the same order with other calls to {@code then},
- * {@code thenAlways}, or {@code thenCatch}.
- *
- * Since it does not produce a new child Promise, cancellation propagation is
- * not prevented by adding callbacks with {@code thenAlways}. A Promise that has
- * a cleanup handler added with {@code thenAlways} will be canceled if all of
- * its children created by {@code then} (or {@code thenCatch}) are canceled.
- * Additionally, since any rejections are not passed to the callback, it does
- * not stop the unhandled rejection handler from running.
- *
- * @param {function(this:THIS): void} onSettled A function that will be invoked
- *     when the Promise is settled (fulfilled or rejected).
- * @param {THIS=} opt_context An optional context object that will be the
- *     execution context for the callbacks. By default, functions are executed
- *     in the global scope.
- * @return {!CancellablePromise<TYPE>} This Promise, for chaining additional calls.
- * @template THIS
- */
-CancellablePromise.prototype.thenAlways = function (onSettled, opt_context) {
-  if (CancellablePromise.LONG_STACK_TRACES) {
-    this.addStackTrace_(new Error('thenAlways'));
-  }
-
-  var entry = CancellablePromise.getCallbackEntry_(onSettled, onSettled, opt_context);
-  entry.always = true;
-  this.addCallbackEntry_(entry);
-  return this;
-};
-
-/**
- * Adds a callback that will be invoked only if the Promise is rejected. This
- * is equivalent to {@code then(null, onRejected)}.
- *
- * @param {function(this:THIS, *): *} onRejected A function that will be
- *     invoked with the rejection reason if the Promise is rejected.
- * @param {THIS=} opt_context An optional context object that will be the
- *     execution context for the callbacks. By default, functions are executed
- *     in the global scope.
- * @return {!CancellablePromise} A new Promise that will receive the result of the
- *     callback.
- * @template THIS
- */
-CancellablePromise.prototype.thenCatch = function (onRejected, opt_context) {
-  if (CancellablePromise.LONG_STACK_TRACES) {
-    this.addStackTrace_(new Error('thenCatch'));
-  }
-  return this.addChildPromise_(null, onRejected, opt_context);
-};
-
-/**
- * Alias of {@link CancellablePromise.prototype.thenCatch}
- */
-CancellablePromise.prototype.catch = CancellablePromise.prototype.thenCatch;
-
-/**
- * Cancels the Promise if it is still pending by rejecting it with a cancel
- * Error. No action is performed if the Promise is already resolved.
- *
- * All child Promises of the canceled Promise will be rejected with the same
- * cancel error, as with normal Promise rejection. If the Promise to be canceled
- * is the only child of a pending Promise, the parent Promise will also be
- * canceled. Cancellation may propagate upward through multiple generations.
- *
- * @param {string=} opt_message An optional debugging message for describing the
- *     cancellation reason.
- */
-CancellablePromise.prototype.cancel = function (opt_message) {
-  if (this.state_ == CancellablePromise.State_.PENDING) {
-    _metal.async.run(function () {
-      var err = new CancellablePromise.CancellationError(opt_message);
-      err.IS_CANCELLATION_ERROR = true;
-      this.cancelInternal_(err);
-    }, this);
-  }
-};
-
-/**
- * Cancels this Promise with the given error.
- *
- * @param {!Error} err The cancellation error.
- * @private
- */
-CancellablePromise.prototype.cancelInternal_ = function (err) {
-  if (this.state_ == CancellablePromise.State_.PENDING) {
-    if (this.parent_) {
-      // Cancel the Promise and remove it from the parent's child list.
-      this.parent_.cancelChild_(this, err);
-      this.parent_ = null;
-    } else {
-      this.resolve_(CancellablePromise.State_.REJECTED, err);
-    }
-  }
-};
-
-/**
- * Cancels a child Promise from the list of callback entries. If the Promise has
- * not already been resolved, reject it with a cancel error. If there are no
- * other children in the list of callback entries, propagate the cancellation
- * by canceling this Promise as well.
- *
- * @param {!CancellablePromise} childPromise The Promise to cancel.
- * @param {!Error} err The cancel error to use for rejecting the Promise.
- * @private
- */
-CancellablePromise.prototype.cancelChild_ = function (childPromise, err) {
-  if (!this.callbackEntries_) {
-    return;
-  }
-  var childCount = 0;
-  var childEntry = null;
-  var beforeChildEntry = null;
-
-  // Find the callback entry for the childPromise, and count whether there are
-  // additional child Promises.
-  for (var entry = this.callbackEntries_; entry; entry = entry.next) {
-    if (!entry.always) {
-      childCount++;
-      if (entry.child == childPromise) {
-        childEntry = entry;
-      }
-      if (childEntry && childCount > 1) {
-        break;
-      }
-    }
-    if (!childEntry) {
-      beforeChildEntry = entry;
-    }
-  }
-
-  // Can a child entry be missing?
-
-  // If the child Promise was the only child, cancel this Promise as well.
-  // Otherwise, reject only the child Promise with the cancel error.
-  if (childEntry) {
-    if (this.state_ == CancellablePromise.State_.PENDING && childCount == 1) {
-      this.cancelInternal_(err);
-    } else {
-      if (beforeChildEntry) {
-        this.removeEntryAfter_(beforeChildEntry);
-      } else {
-        this.popEntry_();
-      }
-
-      this.executeCallback_(childEntry, CancellablePromise.State_.REJECTED, err);
-    }
-  }
-};
-
-/**
- * Adds a callback entry to the current Promise, and schedules callback
- * execution if the Promise has already been settled.
- *
- * @param {CancellablePromise.CallbackEntry_} callbackEntry Record containing
- *     {@code onFulfilled} and {@code onRejected} callbacks to execute after
- *     the Promise is settled.
- * @private
- */
-CancellablePromise.prototype.addCallbackEntry_ = function (callbackEntry) {
-  if (!this.hasEntry_() && (this.state_ == CancellablePromise.State_.FULFILLED || this.state_ == CancellablePromise.State_.REJECTED)) {
-    this.scheduleCallbacks_();
-  }
-  this.queueEntry_(callbackEntry);
-};
-
-/**
- * Creates a child Promise and adds it to the callback entry list. The result of
- * the child Promise is determined by the state of the parent Promise and the
- * result of the {@code onFulfilled} or {@code onRejected} callbacks as
- * specified in the Promise resolution procedure.
- *
- * @see http://promisesaplus.com/#the__method
- *
- * @param {?function(this:THIS, TYPE):
- *          (RESULT|CancellablePromise<RESULT>|Thenable)} onFulfilled A callback that
- *     will be invoked if the Promise is fulfilled, or null.
- * @param {?function(this:THIS, *): *} onRejected A callback that will be
- *     invoked if the Promise is rejected, or null.
- * @param {THIS=} opt_context An optional execution context for the callbacks.
- *     in the default calling context.
- * @return {!CancellablePromise} The child Promise.
- * @template RESULT,THIS
- * @private
- */
-CancellablePromise.prototype.addChildPromise_ = function (onFulfilled, onRejected, opt_context) {
-
-  /** @type {CancellablePromise.CallbackEntry_} */
-  var callbackEntry = CancellablePromise.getCallbackEntry_(null, null, null);
-
-  callbackEntry.child = new CancellablePromise(function (resolve, reject) {
-    // Invoke onFulfilled, or resolve with the parent's value if absent.
-    callbackEntry.onFulfilled = onFulfilled ? function (value) {
-      try {
-        var result = onFulfilled.call(opt_context, value);
-        resolve(result);
-      } catch (err) {
-        reject(err);
-      }
-    } : resolve;
-
-    // Invoke onRejected, or reject with the parent's reason if absent.
-    callbackEntry.onRejected = onRejected ? function (reason) {
-      try {
-        var result = onRejected.call(opt_context, reason);
-        if (!(0, _metal.isDef)(result) && reason.IS_CANCELLATION_ERROR) {
-          // Propagate cancellation to children if no other result is returned.
-          reject(reason);
-        } else {
-          resolve(result);
-        }
-      } catch (err) {
-        reject(err);
-      }
-    } : reject;
-  });
-
-  callbackEntry.child.parent_ = this;
-  this.addCallbackEntry_(callbackEntry);
-  return callbackEntry.child;
-};
-
-/**
- * Unblocks the Promise and fulfills it with the given value.
- *
- * @param {TYPE} value
- * @private
- */
-CancellablePromise.prototype.unblockAndFulfill_ = function (value) {
-  this.state_ = CancellablePromise.State_.PENDING;
-  this.resolve_(CancellablePromise.State_.FULFILLED, value);
-};
-
-/**
- * Unblocks the Promise and rejects it with the given rejection reason.
- *
- * @param {*} reason
- * @private
- */
-CancellablePromise.prototype.unblockAndReject_ = function (reason) {
-  this.state_ = CancellablePromise.State_.PENDING;
-  this.resolve_(CancellablePromise.State_.REJECTED, reason);
-};
-
-/**
- * Attempts to resolve a Promise with a given resolution state and value. This
- * is a no-op if the given Promise has already been resolved.
- *
- * If the given result is a Thenable (such as another Promise), the Promise will
- * be settled with the same state and result as the Thenable once it is itself
- * settled.
- *
- * If the given result is not a Thenable, the Promise will be settled (fulfilled
- * or rejected) with that result based on the given state.
- *
- * @see http://promisesaplus.com/#the_promise_resolution_procedure
- *
- * @param {CancellablePromise.State_} state
- * @param {*} x The result to apply to the Promise.
- * @private
- */
-CancellablePromise.prototype.resolve_ = function (state, x) {
-  if (this.state_ != CancellablePromise.State_.PENDING) {
-    return;
-  }
-
-  if (this === x) {
-    state = CancellablePromise.State_.REJECTED;
-    x = new TypeError('Promise cannot resolve to itself');
-  }
-
-  this.state_ = CancellablePromise.State_.BLOCKED;
-  var isThenable = CancellablePromise.maybeThen_(x, this.unblockAndFulfill_, this.unblockAndReject_, this);
-  if (isThenable) {
-    return;
-  }
-
-  this.result_ = x;
-  this.state_ = state;
-  // Since we can no longer be canceled, remove link to parent, so that the
-  // child promise does not keep the parent promise alive.
-  this.parent_ = null;
-  this.scheduleCallbacks_();
-
-  if (state == CancellablePromise.State_.REJECTED && !x.IS_CANCELLATION_ERROR) {
-    CancellablePromise.addUnhandledRejection_(this, x);
-  }
-};
-
-/**
- * Invokes the "then" method of an input value if that value is a Thenable. This
- * is a no-op if the value is not thenable.
- *
- * @param {?} value A potentially thenable value.
- * @param {!Function} onFulfilled
- * @param {!Function} onRejected
- * @param {?} context
- * @return {boolean} Whether the input value was thenable.
- * @private
- */
-CancellablePromise.maybeThen_ = function (value, onFulfilled, onRejected, context) {
-  if (value instanceof CancellablePromise) {
-    value.thenVoid(onFulfilled, onRejected, context);
-    return true;
-  } else if (_Thenable2.default.isImplementedBy(value)) {
-    value = /** @type {!Thenable} */value;
-    value.then(onFulfilled, onRejected, context);
-    return true;
-  } else if ((0, _metal.isObject)(value)) {
-    try {
-      var then = value['then'];
-      if ((0, _metal.isFunction)(then)) {
-        CancellablePromise.tryThen_(value, then, onFulfilled, onRejected, context);
-        return true;
-      }
-    } catch (e) {
-      onRejected.call(context, e);
-      return true;
-    }
-  }
-
-  return false;
-};
-
-/**
- * Attempts to call the {@code then} method on an object in the hopes that it is
- * a Promise-compatible instance. This allows interoperation between different
- * Promise implementations, however a non-compliant object may cause a Promise
- * to hang indefinitely. If the {@code then} method throws an exception, the
- * dependent Promise will be rejected with the thrown value.
- *
- * @see http://promisesaplus.com/#point-70
- *
- * @param {Thenable} thenable An object with a {@code then} method that may be
- *     compatible with the Promise/A+ specification.
- * @param {!Function} then The {@code then} method of the Thenable object.
- * @param {!Function} onFulfilled
- * @param {!Function} onRejected
- * @param {*} context
- * @private
- */
-CancellablePromise.tryThen_ = function (thenable, then, onFulfilled, onRejected, context) {
-
-  var called = false;
-  var resolve = function resolve(value) {
-    if (!called) {
-      called = true;
-      onFulfilled.call(context, value);
-    }
-  };
-
-  var reject = function reject(reason) {
-    if (!called) {
-      called = true;
-      onRejected.call(context, reason);
-    }
-  };
-
-  try {
-    then.call(thenable, resolve, reject);
-  } catch (e) {
-    reject(e);
-  }
-};
-
-/**
- * Executes the pending callbacks of a settled Promise after a timeout.
- *
- * Section 2.2.4 of the Promises/A+ specification requires that Promise
- * callbacks must only be invoked from a call stack that only contains Promise
- * implementation code, which we accomplish by invoking callback execution after
- * a timeout. If {@code startExecution_} is called multiple times for the same
- * Promise, the callback chain will be evaluated only once. Additional callbacks
- * may be added during the evaluation phase, and will be executed in the same
- * event loop.
- *
- * All Promises added to the waiting list during the same browser event loop
- * will be executed in one batch to avoid using a separate timeout per Promise.
- *
- * @private
- */
-CancellablePromise.prototype.scheduleCallbacks_ = function () {
-  if (!this.executing_) {
-    this.executing_ = true;
-    _metal.async.run(this.executeCallbacks_, this);
-  }
-};
-
-/**
- * @return {boolean} Whether there are any pending callbacks queued.
- * @private
- */
-CancellablePromise.prototype.hasEntry_ = function () {
-  return !!this.callbackEntries_;
-};
-
-/**
- * @param {CancellablePromise.CallbackEntry_} entry
- * @private
- */
-CancellablePromise.prototype.queueEntry_ = function (entry) {
-  if (this.callbackEntriesTail_) {
-    this.callbackEntriesTail_.next = entry;
-    this.callbackEntriesTail_ = entry;
-  } else {
-    // It the work queue was empty set the head too.
-    this.callbackEntries_ = entry;
-    this.callbackEntriesTail_ = entry;
-  }
-};
-
-/**
- * @return {CancellablePromise.CallbackEntry_} entry
- * @private
- */
-CancellablePromise.prototype.popEntry_ = function () {
-  var entry = null;
-  if (this.callbackEntries_) {
-    entry = this.callbackEntries_;
-    this.callbackEntries_ = entry.next;
-    entry.next = null;
-  }
-  // It the work queue is empty clear the tail too.
-  if (!this.callbackEntries_) {
-    this.callbackEntriesTail_ = null;
-  }
-  return entry;
-};
-
-/**
- * @param {CancellablePromise.CallbackEntry_} previous
- * @private
- */
-CancellablePromise.prototype.removeEntryAfter_ = function (previous) {
-  // If the last entry is being removed, update the tail
-  if (previous.next == this.callbackEntriesTail_) {
-    this.callbackEntriesTail_ = previous;
-  }
-
-  previous.next = previous.next.next;
-};
-
-/**
- * Executes all pending callbacks for this Promise.
- *
- * @private
- */
-CancellablePromise.prototype.executeCallbacks_ = function () {
-  var entry = null;
-  while (entry = this.popEntry_()) {
-    if (CancellablePromise.LONG_STACK_TRACES) {
-      this.currentStep_++;
-    }
-    this.executeCallback_(entry, this.state_, this.result_);
-  }
-  this.executing_ = false;
-};
-
-/**
- * Executes a pending callback for this Promise. Invokes an {@code onFulfilled}
- * or {@code onRejected} callback based on the settled state of the Promise.
- *
- * @param {!CancellablePromise.CallbackEntry_} callbackEntry An entry containing the
- *     onFulfilled and/or onRejected callbacks for this step.
- * @param {CancellablePromise.State_} state The resolution status of the Promise,
- *     either FULFILLED or REJECTED.
- * @param {*} result The settled result of the Promise.
- * @private
- */
-CancellablePromise.prototype.executeCallback_ = function (callbackEntry, state, result) {
-  // Cancel an unhandled rejection if the then/thenVoid call had an onRejected.
-  if (state == CancellablePromise.State_.REJECTED && callbackEntry.onRejected && !callbackEntry.always) {
-    this.removeUnhandledRejection_();
-  }
-
-  if (callbackEntry.child) {
-    // When the parent is settled, the child no longer needs to hold on to it,
-    // as the parent can no longer be canceled.
-    callbackEntry.child.parent_ = null;
-    CancellablePromise.invokeCallback_(callbackEntry, state, result);
-  } else {
-    // Callbacks created with thenAlways or thenVoid do not have the rejection
-    // handling code normally set up in the child Promise.
-    try {
-      callbackEntry.always ? callbackEntry.onFulfilled.call(callbackEntry.context) : CancellablePromise.invokeCallback_(callbackEntry, state, result);
-    } catch (err) {
-      CancellablePromise.handleRejection_.call(null, err);
-    }
-  }
-  CancellablePromise.returnEntry_(callbackEntry);
-};
-
-/**
- * Executes the onFulfilled or onRejected callback for a callbackEntry.
- *
- * @param {!CancellablePromise.CallbackEntry_} callbackEntry
- * @param {CancellablePromise.State_} state
- * @param {*} result
- * @private
- */
-CancellablePromise.invokeCallback_ = function (callbackEntry, state, result) {
-  if (state == CancellablePromise.State_.FULFILLED) {
-    callbackEntry.onFulfilled.call(callbackEntry.context, result);
-  } else if (callbackEntry.onRejected) {
-    callbackEntry.onRejected.call(callbackEntry.context, result);
-  }
-};
-
-/**
- * Records a stack trace entry for functions that call {@code then} or the
- * Promise constructor. May be disabled by unsetting {@code LONG_STACK_TRACES}.
- *
- * @param {!Error} err An Error object created by the calling function for
- *     providing a stack trace.
- * @private
- */
-CancellablePromise.prototype.addStackTrace_ = function (err) {
-  if (CancellablePromise.LONG_STACK_TRACES && (0, _metal.isString)(err.stack)) {
-    // Extract the third line of the stack trace, which is the entry for the
-    // user function that called into Promise code.
-    var trace = err.stack.split('\n', 4)[3];
-    var message = err.message;
-
-    // Pad the message to align the traces.
-    message += Array(11 - message.length).join(' ');
-    this.stack_.push(message + trace);
-  }
-};
-
-/**
- * Adds extra stack trace information to an exception for the list of
- * asynchronous {@code then} calls that have been run for this Promise. Stack
- * trace information is recorded in {@see #addStackTrace_}, and appended to
- * rethrown errors when {@code LONG_STACK_TRACES} is enabled.
- *
- * @param {*} err An unhandled exception captured during callback execution.
- * @private
- */
-CancellablePromise.prototype.appendLongStack_ = function (err) {
-  if (CancellablePromise.LONG_STACK_TRACES && err && (0, _metal.isString)(err.stack) && this.stack_.length) {
-    var longTrace = ['Promise trace:'];
-
-    for (var promise = this; promise; promise = promise.parent_) {
-      for (var i = this.currentStep_; i >= 0; i--) {
-        longTrace.push(promise.stack_[i]);
-      }
-      longTrace.push('Value: ' + '[' + (promise.state_ == CancellablePromise.State_.REJECTED ? 'REJECTED' : 'FULFILLED') + '] ' + '<' + String(promise.result_) + '>');
-    }
-    err.stack += '\n\n' + longTrace.join('\n');
-  }
-};
-
-/**
- * Marks this rejected Promise as having being handled. Also marks any parent
- * Promises in the rejected state as handled. The rejection handler will no
- * longer be invoked for this Promise (if it has not been called already).
- *
- * @private
- */
-CancellablePromise.prototype.removeUnhandledRejection_ = function () {
-  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
-    for (var p = this; p && p.unhandledRejectionId_; p = p.parent_) {
-      clearTimeout(p.unhandledRejectionId_);
-      p.unhandledRejectionId_ = 0;
-    }
-  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
-    for (var p = this; p && p.hadUnhandledRejection_; p = p.parent_) {
-      p.hadUnhandledRejection_ = false;
-    }
-  }
-};
-
-/**
- * Marks this rejected Promise as unhandled. If no {@code onRejected} callback
- * is called for this Promise before the {@code UNHANDLED_REJECTION_DELAY}
- * expires, the reason will be passed to the unhandled rejection handler. The
- * handler typically rethrows the rejection reason so that it becomes visible in
- * the developer console.
- *
- * @param {!CancellablePromise} promise The rejected Promise.
- * @param {*} reason The Promise rejection reason.
- * @private
- */
-CancellablePromise.addUnhandledRejection_ = function (promise, reason) {
-  if (CancellablePromise.UNHANDLED_REJECTION_DELAY > 0) {
-    promise.unhandledRejectionId_ = setTimeout(function () {
-      promise.appendLongStack_(reason);
-      CancellablePromise.handleRejection_.call(null, reason);
-    }, CancellablePromise.UNHANDLED_REJECTION_DELAY);
-  } else if (CancellablePromise.UNHANDLED_REJECTION_DELAY == 0) {
-    promise.hadUnhandledRejection_ = true;
-    _metal.async.run(function () {
-      if (promise.hadUnhandledRejection_) {
-        promise.appendLongStack_(reason);
-        CancellablePromise.handleRejection_.call(null, reason);
-      }
-    });
-  }
-};
-
-/**
- * A method that is invoked with the rejection reasons for Promises that are
- * rejected but have no {@code onRejected} callbacks registered yet.
- * @type {function(*)}
- * @private
- */
-CancellablePromise.handleRejection_ = _metal.async.throwException;
-
-/**
- * Sets a handler that will be called with reasons from unhandled rejected
- * Promises. If the rejected Promise (or one of its descendants) has an
- * {@code onRejected} callback registered, the rejection will be considered
- * handled, and the rejection handler will not be called.
- *
- * By default, unhandled rejections are rethrown so that the error may be
- * captured by the developer console or a {@code window.onerror} handler.
- *
- * @param {function(*)} handler A function that will be called with reasons from
- *     rejected Promises. Defaults to {@code async.throwException}.
- */
-CancellablePromise.setUnhandledRejectionHandler = function (handler) {
-  CancellablePromise.handleRejection_ = handler;
-};
-
-/**
- * Error used as a rejection reason for canceled Promises.
- *
- * @param {string=} opt_message
- * @constructor
- * @extends {Error}
- * @final
- */
-CancellablePromise.CancellationError = function (_Error) {
-  _inherits(_class, _Error);
-
-  function _class(opt_message) {
-    _classCallCheck(this, _class);
-
-    var _this = _possibleConstructorReturn(this, (_class.__proto__ || Object.getPrototypeOf(_class)).call(this, opt_message));
-
-    if (opt_message) {
-      _this.message = opt_message;
-    }
-    return _this;
-  }
-
-  return _class;
-}(Error);
-
-/** @override */
-CancellablePromise.CancellationError.prototype.name = 'cancel';
-
-/**
- * Internal implementation of the resolver interface.
- *
- * @param {!CancellablePromise<TYPE>} promise
- * @param {function((TYPE|CancellablePromise<TYPE>|Thenable)=)} resolve
- * @param {function(*=): void} reject
- * @implements {CancellablePromise.Resolver<TYPE>}
- * @final @struct
- * @constructor
- * @private
- * @template TYPE
- */
-CancellablePromise.Resolver_ = function (promise, resolve, reject) {
-  /** @const */
-  this.promise = promise;
-
-  /** @const */
-  this.resolve = resolve;
-
-  /** @const */
-  this.reject = reject;
-};
-
-exports.CancellablePromise = CancellablePromise;
-exports.default = CancellablePromise;
-
-/***/ }),
-/* 68 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15273,15 +17657,15 @@ exports.WorkflowTaskAvg = exports.WorkflowProcessAvg = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _metalJsx = __webpack_require__(29);
+var _metalJsx = __webpack_require__(30);
 
 var _metalJsx2 = _interopRequireDefault(_metalJsx);
 
-var _charts = __webpack_require__(69);
+var _charts = __webpack_require__(83);
 
 var _metalState = __webpack_require__(1);
 
-var _metalAjax = __webpack_require__(97);
+var _metalAjax = __webpack_require__(67);
 
 var _metalAjax2 = _interopRequireDefault(_metalAjax);
 
@@ -15404,7 +17788,7 @@ exports.WorkflowTaskAvg = WorkflowTaskAvg;
 exports.default = WorkflowProcessAvg;
 
 /***/ }),
-/* 69 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15415,19 +17799,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.StepChart = exports.SplineChart = exports.ScatterChart = exports.PieChart = exports.LineChart = exports.GaugeChart = exports.DonutChart = exports.d3 = exports.Chart = exports.bb = exports.BarChart = exports.AreaStepChart = exports.AreaSplineChart = exports.AreaLineChart = undefined;
 
-var _AreaLineChart = __webpack_require__(70);
+var _AreaLineChart = __webpack_require__(84);
 
 var _AreaLineChart2 = _interopRequireDefault(_AreaLineChart);
 
-var _AreaSplineChart = __webpack_require__(77);
+var _AreaSplineChart = __webpack_require__(91);
 
 var _AreaSplineChart2 = _interopRequireDefault(_AreaSplineChart);
 
-var _AreaStepChart = __webpack_require__(79);
+var _AreaStepChart = __webpack_require__(93);
 
 var _AreaStepChart2 = _interopRequireDefault(_AreaStepChart);
 
-var _BarChart = __webpack_require__(81);
+var _BarChart = __webpack_require__(95);
 
 var _BarChart2 = _interopRequireDefault(_BarChart);
 
@@ -15435,35 +17819,35 @@ var _Chart = __webpack_require__(4);
 
 var _Chart2 = _interopRequireDefault(_Chart);
 
-var _DonutChart = __webpack_require__(83);
+var _DonutChart = __webpack_require__(97);
 
 var _DonutChart2 = _interopRequireDefault(_DonutChart);
 
-var _GaugeChart = __webpack_require__(85);
+var _GaugeChart = __webpack_require__(99);
 
 var _GaugeChart2 = _interopRequireDefault(_GaugeChart);
 
-var _LineChart = __webpack_require__(87);
+var _LineChart = __webpack_require__(101);
 
 var _LineChart2 = _interopRequireDefault(_LineChart);
 
-var _PieChart = __webpack_require__(89);
+var _PieChart = __webpack_require__(103);
 
 var _PieChart2 = _interopRequireDefault(_PieChart);
 
-var _ScatterChart = __webpack_require__(91);
+var _ScatterChart = __webpack_require__(105);
 
 var _ScatterChart2 = _interopRequireDefault(_ScatterChart);
 
-var _SplineChart = __webpack_require__(93);
+var _SplineChart = __webpack_require__(107);
 
 var _SplineChart2 = _interopRequireDefault(_SplineChart);
 
-var _StepChart = __webpack_require__(95);
+var _StepChart = __webpack_require__(109);
 
 var _StepChart2 = _interopRequireDefault(_StepChart);
 
-var _ChartBase = __webpack_require__(65);
+var _ChartBase = __webpack_require__(66);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -15485,7 +17869,7 @@ exports.default = _Chart2.default;
 //# sourceMappingURL=charts.js.map
 
 /***/ }),
-/* 70 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15500,7 +17884,7 @@ var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _AreaLineChart = __webpack_require__(73);
+var _AreaLineChart = __webpack_require__(87);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -15533,7 +17917,7 @@ exports.default = AreaLineChart;
 //# sourceMappingURL=AreaLineChart.js.map
 
 /***/ }),
-/* 71 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
@@ -15547,7 +17931,7 @@ exports.default = AreaLineChart;
  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(true)
-		module.exports = factory(__webpack_require__(72));
+		module.exports = factory(__webpack_require__(86));
 	else if(typeof define === 'function' && define.amd)
 		define(["d3"], factory);
 	else {
@@ -26055,7 +28439,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=billboard.js.map
 
 /***/ }),
-/* 72 */
+/* 86 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44974,7 +47358,7 @@ function defaultConstrain(transform, extent, translateExtent) {
 
 
 /***/ }),
-/* 73 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45051,7 +47435,7 @@ exports.default = AreaLineChart;
 //# sourceMappingURL=AreaLineChart.js.map
 
 /***/ }),
-/* 74 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49689,7 +52073,7 @@ __webpack_require__(10);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 75 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49779,7 +52163,7 @@ var SoyAop = {
 exports.default = SoyAop;
 
 /***/ }),
-/* 76 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49794,7 +52178,7 @@ var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(66);
+var _metalSoy = __webpack_require__(81);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -50305,7 +52689,7 @@ exports.default = templates;
 //# sourceMappingURL=Chart.soy.js.map
 
 /***/ }),
-/* 77 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50320,7 +52704,7 @@ var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _AreaSplineChart = __webpack_require__(78);
+var _AreaSplineChart = __webpack_require__(92);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -50353,7 +52737,7 @@ exports.default = AreaSplineChart;
 //# sourceMappingURL=AreaSplineChart.js.map
 
 /***/ }),
-/* 78 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50430,7 +52814,7 @@ exports.default = AreaSplineChart;
 //# sourceMappingURL=AreaSplineChart.js.map
 
 /***/ }),
-/* 79 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50445,7 +52829,7 @@ var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _AreaStepChart = __webpack_require__(80);
+var _AreaStepChart = __webpack_require__(94);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -50478,7 +52862,7 @@ exports.default = AreaStepChart;
 //# sourceMappingURL=AreaStepChart.js.map
 
 /***/ }),
-/* 80 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50555,7 +52939,7 @@ exports.default = AreaStepChart;
 //# sourceMappingURL=AreaStepChart.js.map
 
 /***/ }),
-/* 81 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50570,7 +52954,7 @@ var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _BarChart = __webpack_require__(82);
+var _BarChart = __webpack_require__(96);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -50603,7 +52987,7 @@ exports.default = BarChart;
 //# sourceMappingURL=BarChart.js.map
 
 /***/ }),
-/* 82 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50684,7 +53068,7 @@ exports.default = BarChart;
 //# sourceMappingURL=BarChart.js.map
 
 /***/ }),
-/* 83 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50699,7 +53083,7 @@ var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _DonutChart = __webpack_require__(84);
+var _DonutChart = __webpack_require__(98);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -50732,7 +53116,7 @@ exports.default = DonutChart;
 //# sourceMappingURL=DonutChart.js.map
 
 /***/ }),
-/* 84 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50813,7 +53197,7 @@ exports.default = DonutChart;
 //# sourceMappingURL=DonutChart.js.map
 
 /***/ }),
-/* 85 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50828,7 +53212,7 @@ var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _GaugeChart = __webpack_require__(86);
+var _GaugeChart = __webpack_require__(100);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -50861,7 +53245,7 @@ exports.default = GaugeChart;
 //# sourceMappingURL=GaugeChart.js.map
 
 /***/ }),
-/* 86 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50942,7 +53326,7 @@ exports.default = GaugeChart;
 //# sourceMappingURL=GaugeChart.js.map
 
 /***/ }),
-/* 87 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50957,7 +53341,7 @@ var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _LineChart = __webpack_require__(88);
+var _LineChart = __webpack_require__(102);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -50990,7 +53374,7 @@ exports.default = LineChart;
 //# sourceMappingURL=LineChart.js.map
 
 /***/ }),
-/* 88 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51071,7 +53455,7 @@ exports.default = LineChart;
 //# sourceMappingURL=LineChart.js.map
 
 /***/ }),
-/* 89 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51086,7 +53470,7 @@ var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _PieChart = __webpack_require__(90);
+var _PieChart = __webpack_require__(104);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -51119,7 +53503,7 @@ exports.default = PieChart;
 //# sourceMappingURL=PieChart.js.map
 
 /***/ }),
-/* 90 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51200,7 +53584,7 @@ exports.default = PieChart;
 //# sourceMappingURL=PieChart.js.map
 
 /***/ }),
-/* 91 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51215,7 +53599,7 @@ var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _ScatterChart = __webpack_require__(92);
+var _ScatterChart = __webpack_require__(106);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -51248,7 +53632,7 @@ exports.default = ScatterChart;
 //# sourceMappingURL=ScatterChart.js.map
 
 /***/ }),
-/* 92 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51329,7 +53713,7 @@ exports.default = ScatterChart;
 //# sourceMappingURL=ScatterChart.js.map
 
 /***/ }),
-/* 93 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51344,7 +53728,7 @@ var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _SplineChart = __webpack_require__(94);
+var _SplineChart = __webpack_require__(108);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -51377,7 +53761,7 @@ exports.default = SplineChart;
 //# sourceMappingURL=SplineChart.js.map
 
 /***/ }),
-/* 94 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51458,7 +53842,7 @@ exports.default = SplineChart;
 //# sourceMappingURL=SplineChart.js.map
 
 /***/ }),
-/* 95 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51473,7 +53857,7 @@ var _Chart2 = __webpack_require__(4);
 
 var _Chart3 = _interopRequireDefault(_Chart2);
 
-var _StepChart = __webpack_require__(96);
+var _StepChart = __webpack_require__(110);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -51506,7 +53890,7 @@ exports.default = StepChart;
 //# sourceMappingURL=StepChart.js.map
 
 /***/ }),
-/* 96 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51585,2390 +53969,6 @@ StepChart.STATE = {
 exports.StepChart = StepChart;
 exports.default = StepChart;
 //# sourceMappingURL=StepChart.js.map
-
-/***/ }),
-/* 97 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _metal = __webpack_require__(0);
-
-var _metalUri = __webpack_require__(98);
-
-var _metalUri2 = _interopRequireDefault(_metalUri);
-
-var _metalPromise = __webpack_require__(107);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var Ajax = function () {
-	function Ajax() {
-		_classCallCheck(this, Ajax);
-	}
-
-	_createClass(Ajax, null, [{
-		key: 'parseResponseHeaders',
-
-
-		/**
-   * XmlHttpRequest's getAllResponseHeaders() method returns a string of
-   * response headers according to the format described on the spec:
-   * {@link http://www.w3.org/TR/XMLHttpRequest/#the-getallresponseheaders-method}.
-   * This method parses that string into a user-friendly name/value pair
-   * object.
-   * @param {string} allHeaders All headers as string.
-   * @return {!Array.<Object<string, string>>}
-   */
-		value: function parseResponseHeaders(allHeaders) {
-			var headers = [];
-			if (!allHeaders) {
-				return headers;
-			}
-			var pairs = allHeaders.split('\r\n');
-			for (var i = 0; i < pairs.length; i++) {
-				var index = pairs[i].indexOf(': ');
-				if (index > 0) {
-					var name = pairs[i].substring(0, index);
-					var value = pairs[i].substring(index + 2);
-					headers.push({
-						name: name,
-						value: value
-					});
-				}
-			}
-			return headers;
-		}
-
-		/**
-   * Requests the url using XMLHttpRequest.
-   * @param {!string} url
-   * @param {!string} method
-   * @param {?string} body
-   * @param {MultiMap=} opt_headers
-   * @param {MultiMap=} opt_params
-   * @param {number=} opt_timeout
-   * @param {boolean=} opt_sync
-   * @param {boolean=} opt_withCredentials
-   * @return {Promise} Deferred ajax request.
-   * @protected
-   */
-
-	}, {
-		key: 'request',
-		value: function request(url, method, body, opt_headers, opt_params, opt_timeout, opt_sync, opt_withCredentials) {
-			url = url || '';
-			method = method || 'GET';
-
-			var request = new XMLHttpRequest();
-			var previousReadyState = 0;
-
-			var promise = new _metalPromise.ProgressPromise(function (resolve, reject, progress) {
-				request.onload = function () {
-					if (request.aborted) {
-						request.onerror();
-						return;
-					}
-					resolve(request);
-				};
-				request.onprogress = function (progressEvent) {
-					if (progressEvent.lengthComputable) {
-						progress(progressEvent.loaded / progressEvent.total);
-					}
-				};
-				request.onreadystatechange = function () {
-					if (previousReadyState && previousReadyState < 3 && 4 === request.readyState) {
-						request.terminatedPrematurely = true;
-					}
-					previousReadyState = request.readyState;
-				};
-				request.onerror = function () {
-					var message = 'Request error';
-					if (request.terminatedPrematurely) {
-						message = 'Request terminated prematurely';
-					}
-					var error = new Error(message);
-					error.request = request;
-					reject(error);
-				};
-			}).thenCatch(function (reason) {
-				request.abort();
-				throw reason;
-			}).thenAlways(function () {
-				clearTimeout(timeout);
-			});
-
-			url = new _metalUri2.default(url);
-
-			if (opt_params) {
-				url.addParametersFromMultiMap(opt_params).toString();
-			}
-
-			url = url.toString();
-
-			request.open(method, url, !opt_sync);
-
-			if (opt_withCredentials) {
-				request.withCredentials = true;
-			}
-
-			if (opt_headers) {
-				opt_headers.names().forEach(function (name) {
-					request.setRequestHeader(name, opt_headers.getAll(name).join(', '));
-				});
-			}
-
-			request.send((0, _metal.isDef)(body) ? body : null);
-
-			if ((0, _metal.isDefAndNotNull)(opt_timeout)) {
-				var timeout = setTimeout(function () {
-					promise.cancel('Request timeout');
-				}, opt_timeout);
-			}
-
-			return promise;
-		}
-	}]);
-
-	return Ajax;
-}();
-
-exports.default = Ajax;
-
-/***/ }),
-/* 98 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-
-var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _parse = __webpack_require__(99);
-
-var _parse2 = _interopRequireDefault(_parse);
-
-var _resolvePathname = __webpack_require__(103);
-
-var _resolvePathname2 = _interopRequireDefault(_resolvePathname);
-
-var _metalStructs = __webpack_require__(104);
-
-var _metal = __webpack_require__(0);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var Uri = function () {
-
-	/**
-  * This class contains setters and getters for the parts of the URI.
-  * The following figure displays an example URIs and their component parts.
-  *
-  *                                  path
-  *	                             ┌───┴────┐
-  *	  abc://example.com:123/path/data?key=value#fragid1
-  *	  └┬┘   └────┬────┘ └┬┘           └───┬───┘ └──┬──┘
-  * protocol  hostname  port            search    hash
-  *          └──────┬───────┘
-  *                host
-  *
-  * @param {*=} opt_uri Optional string URI to parse
-  * @constructor
-  */
-	function Uri() {
-		var opt_uri = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-		var opt_addProtocol = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-
-		_classCallCheck(this, Uri);
-
-		this.addProtocol_ = opt_addProtocol;
-
-		opt_uri = opt_addProtocol ? this.maybeAddProtocolAndHostname_(opt_uri) : opt_uri;
-
-		this.url = (0, _parse2.default)(opt_uri);
-		this.ensurePathname_();
-	}
-
-	/**
-  * Adds parameters to uri from a <code>MultiMap</code> as source.
-  * @param {MultiMap} multimap The <code>MultiMap</code> containing the
-  *   parameters.
-  * @protected
-  * @chainable
-  */
-
-
-	_createClass(Uri, [{
-		key: 'addParametersFromMultiMap',
-		value: function addParametersFromMultiMap(multimap) {
-			var _this = this;
-
-			multimap.names().forEach(function (name) {
-				multimap.getAll(name).forEach(function (value) {
-					_this.addParameterValue(name, value);
-				});
-			});
-			return this;
-		}
-
-		/**
-   * Adds the value of the named query parameters.
-   * @param {string} key The parameter to set.
-   * @param {*} value The new value. Will be explicitly casted to String.
-   * @chainable
-   */
-
-	}, {
-		key: 'addParameterValue',
-		value: function addParameterValue(name, value) {
-			this.ensureQueryInitialized_();
-			if ((0, _metal.isDef)(value)) {
-				value = String(value);
-			}
-			this.query.add(name, value);
-			return this;
-		}
-
-		/**
-   * Adds the values of the named query parameter.
-   * @param {string} key The parameter to set.
-   * @param {*} value The new value.
-   * @chainable
-   */
-
-	}, {
-		key: 'addParameterValues',
-		value: function addParameterValues(name, values) {
-			var _this2 = this;
-
-			values.forEach(function (value) {
-				return _this2.addParameterValue(name, value);
-			});
-			return this;
-		}
-
-		/**
-   * Sets default path name if pathname doesn't exist.
-   * @protected
-   */
-
-	}, {
-		key: 'ensurePathname_',
-		value: function ensurePathname_() {
-			if (!this.getPathname()) {
-				this.setPathname('/');
-			}
-		}
-
-		/**
-   * Ensures query internal map is initialized and synced with initial value
-   * extracted from URI search part.
-   * @protected
-   */
-
-	}, {
-		key: 'ensureQueryInitialized_',
-		value: function ensureQueryInitialized_() {
-			var _this3 = this;
-
-			if (this.query) {
-				return;
-			}
-			this.query = new _metalStructs.MultiMap();
-			var search = this.url.query;
-			if (search) {
-				search.substring(1).split('&').forEach(function (param) {
-					var _param$split = param.split('='),
-					    _param$split2 = _slicedToArray(_param$split, 2),
-					    key = _param$split2[0],
-					    value = _param$split2[1];
-
-					if ((0, _metal.isDef)(value)) {
-						value = Uri.urlDecode(value);
-					}
-					_this3.addParameterValue(key, value);
-				});
-			}
-		}
-
-		/**
-   * Gets the hash part of uri.
-   * @return {string}
-   */
-
-	}, {
-		key: 'getHash',
-		value: function getHash() {
-			return this.url.hash || '';
-		}
-
-		/**
-   * Gets the host part of uri. E.g. <code>[hostname]:[port]</code>.
-   * @return {string}
-   */
-
-	}, {
-		key: 'getHost',
-		value: function getHost() {
-			var host = this.getHostname();
-			if (host) {
-				var port = this.getPort();
-				if (port && port !== '80') {
-					host += ':' + port;
-				}
-			}
-			return host;
-		}
-
-		/**
-   * Gets the hostname part of uri without protocol and port.
-   * @return {string}
-   */
-
-	}, {
-		key: 'getHostname',
-		value: function getHostname() {
-			var hostname = this.url.hostname;
-			if (hostname === Uri.HOSTNAME_PLACEHOLDER) {
-				return '';
-			}
-			return hostname;
-		}
-
-		/**
-   * Gets the origin part of uri. E.g. <code>http://[hostname]:[port]</code>.
-   * @return {string}
-   */
-
-	}, {
-		key: 'getOrigin',
-		value: function getOrigin() {
-			var host = this.getHost();
-			if (host) {
-				return this.getProtocol() + '//' + host;
-			}
-			return '';
-		}
-
-		/**
-   * Returns the first value for a given parameter or undefined if the given
-   * parameter name does not appear in the query string.
-   * @param {string} paramName Unescaped parameter name.
-   * @return {string|undefined} The first value for a given parameter or
-   *   undefined if the given parameter name does not appear in the query
-   *   string.
-   */
-
-	}, {
-		key: 'getParameterValue',
-		value: function getParameterValue(name) {
-			this.ensureQueryInitialized_();
-			return this.query.get(name);
-		}
-
-		/**
-   * Returns the value<b>s</b> for a given parameter as a list of decoded
-   * query parameter values.
-   * @param {string} name The parameter to get values for.
-   * @return {!Array<?>} The values for a given parameter as a list of decoded
-   *   query parameter values.
-   */
-
-	}, {
-		key: 'getParameterValues',
-		value: function getParameterValues(name) {
-			this.ensureQueryInitialized_();
-			return this.query.getAll(name);
-		}
-
-		/**
-   * Returns the name<b>s</b> of the parameters.
-   * @return {!Array<string>} The names for the parameters as a list of
-   *   strings.
-   */
-
-	}, {
-		key: 'getParameterNames',
-		value: function getParameterNames() {
-			this.ensureQueryInitialized_();
-			return this.query.names();
-		}
-
-		/**
-   * Gets the pathname part of uri.
-   * @return {string}
-   */
-
-	}, {
-		key: 'getPathname',
-		value: function getPathname() {
-			var pathname = this.url.pathname;
-
-
-			if (pathname && pathname.indexOf('.') > -1) {
-				pathname = (0, _resolvePathname2.default)(pathname);
-			}
-
-			return pathname;
-		}
-
-		/**
-   * Gets the port number part of uri as string.
-   * @return {string}
-   */
-
-	}, {
-		key: 'getPort',
-		value: function getPort() {
-			return this.url.port;
-		}
-
-		/**
-   * Gets the protocol part of uri. E.g. <code>http:</code>.
-   * @return {string}
-   */
-
-	}, {
-		key: 'getProtocol',
-		value: function getProtocol() {
-			return this.url.protocol;
-		}
-
-		/**
-   * Gets the search part of uri. Search value is retrieved from query
-   * parameters.
-   * @return {string}
-   */
-
-	}, {
-		key: 'getSearch',
-		value: function getSearch() {
-			var _this4 = this;
-
-			var search = '';
-			var querystring = '';
-			this.getParameterNames().forEach(function (name) {
-				_this4.getParameterValues(name).forEach(function (value) {
-					querystring += name;
-					if ((0, _metal.isDef)(value)) {
-						querystring += '=' + encodeURIComponent(value);
-					}
-					querystring += '&';
-				});
-			});
-			querystring = querystring.slice(0, -1);
-			if (querystring) {
-				search += '?' + querystring;
-			}
-			return search;
-		}
-
-		/**
-   * Checks if uri contains the parameter.
-   * @param {string} name
-   * @return {boolean}
-   */
-
-	}, {
-		key: 'hasParameter',
-		value: function hasParameter(name) {
-			this.ensureQueryInitialized_();
-			return this.query.contains(name);
-		}
-
-		/**
-   * Returns true if the default protocol (scheme) was added to the original Uri.
-   * @return {boolean} True if a protocol (scheme) was added to the Url, false
-   *   otherwise
-   */
-
-	}, {
-		key: 'isUsingDefaultProtocol',
-		value: function isUsingDefaultProtocol() {
-			return this.usingDefaultProtocol_;
-		}
-
-		/**
-   * Makes this URL unique by adding a random param to it. Useful for avoiding
-   * cache.
-   */
-
-	}, {
-		key: 'makeUnique',
-		value: function makeUnique() {
-			this.setParameterValue(Uri.RANDOM_PARAM, _metal.string.getRandomString());
-			return this;
-		}
-
-		/**
-   * Maybe adds protocol and a hostname placeholder on a partial URI if needed.
-   * Relevant for compatibility with <code>URL</code> native object.
-   * @param {string=} opt_uri
-   * @return {string} URI with protocol and hostname placeholder.
-   */
-
-	}, {
-		key: 'maybeAddProtocolAndHostname_',
-		value: function maybeAddProtocolAndHostname_(opt_uri) {
-			var url = opt_uri;
-			if (opt_uri.indexOf('://') === -1 && opt_uri.indexOf('javascript:') !== 0) {
-				// jshint ignore:line
-
-				url = Uri.DEFAULT_PROTOCOL;
-				this.usingDefaultProtocol_ = true;
-
-				if (opt_uri[0] !== '/' || opt_uri[1] !== '/') {
-					url += '//';
-				}
-
-				switch (opt_uri.charAt(0)) {
-					case '.':
-					case '?':
-					case '#':
-						url += Uri.HOSTNAME_PLACEHOLDER;
-						url += '/';
-						url += opt_uri;
-						break;
-					case '':
-					case '/':
-						if (opt_uri[1] !== '/') {
-							url += Uri.HOSTNAME_PLACEHOLDER;
-						}
-						url += opt_uri;
-						break;
-					default:
-						url += opt_uri;
-				}
-			} else {
-				this.usingDefaultProtocol_ = false;
-			}
-			return url;
-		}
-
-		/**
-   * Removes the named query parameter.
-   * @param {string} name The parameter to remove.
-   * @chainable
-   */
-
-	}, {
-		key: 'removeParameter',
-		value: function removeParameter(name) {
-			this.ensureQueryInitialized_();
-			this.query.remove(name);
-			return this;
-		}
-
-		/**
-   * Removes uniqueness parameter of the uri.
-   * @chainable
-   */
-
-	}, {
-		key: 'removeUnique',
-		value: function removeUnique() {
-			this.removeParameter(Uri.RANDOM_PARAM);
-			return this;
-		}
-
-		/**
-   * Sets the hash.
-   * @param {string} hash
-   * @chainable
-   */
-
-	}, {
-		key: 'setHash',
-		value: function setHash(hash) {
-			this.url.set('hash', hash);
-			return this;
-		}
-
-		/**
-   * Sets the hostname.
-   * @param {string} hostname
-   * @chainable
-   */
-
-	}, {
-		key: 'setHostname',
-		value: function setHostname(hostname) {
-			this.url.set('hostname', hostname);
-			return this;
-		}
-
-		/**
-   * Sets the value of the named query parameters, clearing previous values
-   * for that key.
-   * @param {string} key The parameter to set.
-   * @param {*} value The new value.
-   * @chainable
-   */
-
-	}, {
-		key: 'setParameterValue',
-		value: function setParameterValue(name, value) {
-			this.removeParameter(name);
-			this.addParameterValue(name, value);
-			return this;
-		}
-
-		/**
-   * Sets the values of the named query parameters, clearing previous values
-   * for that key.
-   * @param {string} key The parameter to set.
-   * @param {*} value The new value.
-   * @chainable
-   */
-
-	}, {
-		key: 'setParameterValues',
-		value: function setParameterValues(name, values) {
-			var _this5 = this;
-
-			this.removeParameter(name);
-			values.forEach(function (value) {
-				return _this5.addParameterValue(name, value);
-			});
-			return this;
-		}
-
-		/**
-   * Sets the pathname.
-   * @param {string} pathname
-   * @chainable
-   */
-
-	}, {
-		key: 'setPathname',
-		value: function setPathname(pathname) {
-			this.url.set('pathname', pathname);
-			return this;
-		}
-
-		/**
-   * Sets the port number.
-   * @param {*} port Port number.
-   * @chainable
-   */
-
-	}, {
-		key: 'setPort',
-		value: function setPort(port) {
-			this.url.set('port', port);
-			return this;
-		}
-
-		/**
-   * Sets the protocol. If missing <code>http:</code> is used as default.
-   * @param {string} protocol
-   * @chainable
-   */
-
-	}, {
-		key: 'setProtocol',
-		value: function setProtocol(protocol) {
-			if (protocol[protocol.length - 1] !== ':') {
-				protocol += ':';
-			}
-			this.url.set('protocol', protocol);
-			return this;
-		}
-
-		/**
-   * @return {string} The string form of the url.
-   * @override
-   */
-
-	}, {
-		key: 'toString',
-		value: function toString() {
-			if (!this.addProtocol_) {
-				return this.url.toString();
-			}
-
-			var href = '';
-			var host = this.getHost();
-			if (host) {
-				href += this.getProtocol() + '//';
-			}
-			href += host + this.getPathname() + this.getSearch() + this.getHash();
-			return href;
-		}
-
-		/**
-   * Joins the given paths.
-   * @param {string} basePath
-   * @param {...string} ...paths Any number of paths to be joined with the base url.
-   * @static
-   */
-
-	}], [{
-		key: 'joinPaths',
-		value: function joinPaths(basePath) {
-			for (var _len = arguments.length, paths = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-				paths[_key - 1] = arguments[_key];
-			}
-
-			basePath = (0, _metal.isNumber)(basePath) ? basePath.toString() : basePath;
-			if (basePath.charAt(basePath.length - 1) === '/') {
-				basePath = basePath.substring(0, basePath.length - 1);
-			}
-			paths = paths.map(function (path) {
-				path = (0, _metal.isNumber)(path) ? path.toString() : path;
-				return path.charAt(0) === '/' ? path.substring(1) : path;
-			});
-			return [basePath].concat(paths).join('/').replace(/\/$/, '');
-		}
-
-		/**
-   * URL-decodes the string. We need to specially handle '+'s because
-   * the javascript library doesn't convert them to spaces.
-   * @param {string} str The string to url decode.
-   * @return {string} The decoded {@code str}.
-   */
-
-	}, {
-		key: 'urlDecode',
-		value: function urlDecode(str) {
-			return decodeURIComponent(str.replace(/\+/g, ' '));
-		}
-	}]);
-
-	return Uri;
-}();
-
-/**
- * Default protocol value.
- * @type {string}
- * @default http:
- * @static
- */
-
-
-var isSecure = function isSecure() {
-	return typeof window !== 'undefined' && window.location && window.location.protocol && window.location.protocol.indexOf('https') === 0;
-};
-
-Uri.DEFAULT_PROTOCOL = isSecure() ? 'https:' : 'http:';
-
-/**
- * Hostname placeholder. Relevant to internal usage only.
- * @type {string}
- * @static
- */
-Uri.HOSTNAME_PLACEHOLDER = 'hostname' + Date.now();
-
-/**
- * Name used by the param generated by `makeUnique`.
- * @type {string}
- * @static
- */
-Uri.RANDOM_PARAM = 'zx';
-
-exports.default = Uri;
-
-/***/ }),
-/* 99 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-
-var _urlParse = __webpack_require__(100);
-
-var _urlParse2 = _interopRequireDefault(_urlParse);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var MAX_PORT = 65535;
-
-/**
- * Parses the given uri string into an object.
- * @param {*=} opt_uri Optional string URI to parse
- */
-function parse(opt_uri) {
-	var url = new _urlParse2.default(opt_uri);
-	url.search = url.query;
-	validatePort(url.port);
-	return url;
-}
-
-/**
- * Validates port number and throws `TypeError` if it exceeds `65535`.
- * @param {!number} port Port number from parsed url
- */
-function validatePort(port) {
-	if (port && port > MAX_PORT) {
-		throw TypeError('Port number can\'t exceed 65535');
-	}
-}
-
-exports.default = parse;
-
-/***/ }),
-/* 100 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-var required = __webpack_require__(101)
-  , qs = __webpack_require__(102)
-  , protocolre = /^([a-z][a-z0-9.+-]*:)?(\/\/)?([\S\s]*)/i
-  , slashes = /^[A-Za-z][A-Za-z0-9+-.]*:\/\//;
-
-/**
- * These are the parse rules for the URL parser, it informs the parser
- * about:
- *
- * 0. The char it Needs to parse, if it's a string it should be done using
- *    indexOf, RegExp using exec and NaN means set as current value.
- * 1. The property we should set when parsing this value.
- * 2. Indication if it's backwards or forward parsing, when set as number it's
- *    the value of extra chars that should be split off.
- * 3. Inherit from location if non existing in the parser.
- * 4. `toLowerCase` the resulting value.
- */
-var rules = [
-  ['#', 'hash'],                        // Extract from the back.
-  ['?', 'query'],                       // Extract from the back.
-  ['/', 'pathname'],                    // Extract from the back.
-  ['@', 'auth', 1],                     // Extract from the front.
-  [NaN, 'host', undefined, 1, 1],       // Set left over value.
-  [/:(\d+)$/, 'port', undefined, 1],    // RegExp the back.
-  [NaN, 'hostname', undefined, 1, 1]    // Set left over.
-];
-
-/**
- * These properties should not be copied or inherited from. This is only needed
- * for all non blob URL's as a blob URL does not include a hash, only the
- * origin.
- *
- * @type {Object}
- * @private
- */
-var ignore = { hash: 1, query: 1 };
-
-/**
- * The location object differs when your code is loaded through a normal page,
- * Worker or through a worker using a blob. And with the blobble begins the
- * trouble as the location object will contain the URL of the blob, not the
- * location of the page where our code is loaded in. The actual origin is
- * encoded in the `pathname` so we can thankfully generate a good "default"
- * location from it so we can generate proper relative URL's again.
- *
- * @param {Object|String} loc Optional default location object.
- * @returns {Object} lolcation object.
- * @api public
- */
-function lolcation(loc) {
-  loc = loc || global.location || {};
-
-  var finaldestination = {}
-    , type = typeof loc
-    , key;
-
-  if ('blob:' === loc.protocol) {
-    finaldestination = new URL(unescape(loc.pathname), {});
-  } else if ('string' === type) {
-    finaldestination = new URL(loc, {});
-    for (key in ignore) delete finaldestination[key];
-  } else if ('object' === type) {
-    for (key in loc) {
-      if (key in ignore) continue;
-      finaldestination[key] = loc[key];
-    }
-
-    if (finaldestination.slashes === undefined) {
-      finaldestination.slashes = slashes.test(loc.href);
-    }
-  }
-
-  return finaldestination;
-}
-
-/**
- * @typedef ProtocolExtract
- * @type Object
- * @property {String} protocol Protocol matched in the URL, in lowercase.
- * @property {Boolean} slashes `true` if protocol is followed by "//", else `false`.
- * @property {String} rest Rest of the URL that is not part of the protocol.
- */
-
-/**
- * Extract protocol information from a URL with/without double slash ("//").
- *
- * @param {String} address URL we want to extract from.
- * @return {ProtocolExtract} Extracted information.
- * @api private
- */
-function extractProtocol(address) {
-  var match = protocolre.exec(address);
-
-  return {
-    protocol: match[1] ? match[1].toLowerCase() : '',
-    slashes: !!match[2],
-    rest: match[3]
-  };
-}
-
-/**
- * Resolve a relative URL pathname against a base URL pathname.
- *
- * @param {String} relative Pathname of the relative URL.
- * @param {String} base Pathname of the base URL.
- * @return {String} Resolved pathname.
- * @api private
- */
-function resolve(relative, base) {
-  var path = (base || '/').split('/').slice(0, -1).concat(relative.split('/'))
-    , i = path.length
-    , last = path[i - 1]
-    , unshift = false
-    , up = 0;
-
-  while (i--) {
-    if (path[i] === '.') {
-      path.splice(i, 1);
-    } else if (path[i] === '..') {
-      path.splice(i, 1);
-      up++;
-    } else if (up) {
-      if (i === 0) unshift = true;
-      path.splice(i, 1);
-      up--;
-    }
-  }
-
-  if (unshift) path.unshift('');
-  if (last === '.' || last === '..') path.push('');
-
-  return path.join('/');
-}
-
-/**
- * The actual URL instance. Instead of returning an object we've opted-in to
- * create an actual constructor as it's much more memory efficient and
- * faster and it pleases my OCD.
- *
- * @constructor
- * @param {String} address URL we want to parse.
- * @param {Object|String} location Location defaults for relative paths.
- * @param {Boolean|Function} parser Parser for the query string.
- * @api public
- */
-function URL(address, location, parser) {
-  if (!(this instanceof URL)) {
-    return new URL(address, location, parser);
-  }
-
-  var relative, extracted, parse, instruction, index, key
-    , instructions = rules.slice()
-    , type = typeof location
-    , url = this
-    , i = 0;
-
-  //
-  // The following if statements allows this module two have compatibility with
-  // 2 different API:
-  //
-  // 1. Node.js's `url.parse` api which accepts a URL, boolean as arguments
-  //    where the boolean indicates that the query string should also be parsed.
-  //
-  // 2. The `URL` interface of the browser which accepts a URL, object as
-  //    arguments. The supplied object will be used as default values / fall-back
-  //    for relative paths.
-  //
-  if ('object' !== type && 'string' !== type) {
-    parser = location;
-    location = null;
-  }
-
-  if (parser && 'function' !== typeof parser) parser = qs.parse;
-
-  location = lolcation(location);
-
-  //
-  // Extract protocol information before running the instructions.
-  //
-  extracted = extractProtocol(address || '');
-  relative = !extracted.protocol && !extracted.slashes;
-  url.slashes = extracted.slashes || relative && location.slashes;
-  url.protocol = extracted.protocol || location.protocol || '';
-  address = extracted.rest;
-
-  //
-  // When the authority component is absent the URL starts with a path
-  // component.
-  //
-  if (!extracted.slashes) instructions[2] = [/(.*)/, 'pathname'];
-
-  for (; i < instructions.length; i++) {
-    instruction = instructions[i];
-    parse = instruction[0];
-    key = instruction[1];
-
-    if (parse !== parse) {
-      url[key] = address;
-    } else if ('string' === typeof parse) {
-      if (~(index = address.indexOf(parse))) {
-        if ('number' === typeof instruction[2]) {
-          url[key] = address.slice(0, index);
-          address = address.slice(index + instruction[2]);
-        } else {
-          url[key] = address.slice(index);
-          address = address.slice(0, index);
-        }
-      }
-    } else if ((index = parse.exec(address))) {
-      url[key] = index[1];
-      address = address.slice(0, index.index);
-    }
-
-    url[key] = url[key] || (
-      relative && instruction[3] ? location[key] || '' : ''
-    );
-
-    //
-    // Hostname, host and protocol should be lowercased so they can be used to
-    // create a proper `origin`.
-    //
-    if (instruction[4]) url[key] = url[key].toLowerCase();
-  }
-
-  //
-  // Also parse the supplied query string in to an object. If we're supplied
-  // with a custom parser as function use that instead of the default build-in
-  // parser.
-  //
-  if (parser) url.query = parser(url.query);
-
-  //
-  // If the URL is relative, resolve the pathname against the base URL.
-  //
-  if (
-      relative
-    && location.slashes
-    && url.pathname.charAt(0) !== '/'
-    && (url.pathname !== '' || location.pathname !== '')
-  ) {
-    url.pathname = resolve(url.pathname, location.pathname);
-  }
-
-  //
-  // We should not add port numbers if they are already the default port number
-  // for a given protocol. As the host also contains the port number we're going
-  // override it with the hostname which contains no port number.
-  //
-  if (!required(url.port, url.protocol)) {
-    url.host = url.hostname;
-    url.port = '';
-  }
-
-  //
-  // Parse down the `auth` for the username and password.
-  //
-  url.username = url.password = '';
-  if (url.auth) {
-    instruction = url.auth.split(':');
-    url.username = instruction[0] || '';
-    url.password = instruction[1] || '';
-  }
-
-  url.origin = url.protocol && url.host && url.protocol !== 'file:'
-    ? url.protocol +'//'+ url.host
-    : 'null';
-
-  //
-  // The href is just the compiled result.
-  //
-  url.href = url.toString();
-}
-
-/**
- * This is convenience method for changing properties in the URL instance to
- * insure that they all propagate correctly.
- *
- * @param {String} part          Property we need to adjust.
- * @param {Mixed} value          The newly assigned value.
- * @param {Boolean|Function} fn  When setting the query, it will be the function
- *                               used to parse the query.
- *                               When setting the protocol, double slash will be
- *                               removed from the final url if it is true.
- * @returns {URL}
- * @api public
- */
-function set(part, value, fn) {
-  var url = this;
-
-  switch (part) {
-    case 'query':
-      if ('string' === typeof value && value.length) {
-        value = (fn || qs.parse)(value);
-      }
-
-      url[part] = value;
-      break;
-
-    case 'port':
-      url[part] = value;
-
-      if (!required(value, url.protocol)) {
-        url.host = url.hostname;
-        url[part] = '';
-      } else if (value) {
-        url.host = url.hostname +':'+ value;
-      }
-
-      break;
-
-    case 'hostname':
-      url[part] = value;
-
-      if (url.port) value += ':'+ url.port;
-      url.host = value;
-      break;
-
-    case 'host':
-      url[part] = value;
-
-      if (/:\d+$/.test(value)) {
-        value = value.split(':');
-        url.port = value.pop();
-        url.hostname = value.join(':');
-      } else {
-        url.hostname = value;
-        url.port = '';
-      }
-
-      break;
-
-    case 'protocol':
-      url.protocol = value.toLowerCase();
-      url.slashes = !fn;
-      break;
-
-    case 'pathname':
-    case 'hash':
-      if (value) {
-        var char = part === 'pathname' ? '/' : '#';
-        url[part] = value.charAt(0) !== char ? char + value : value;
-      } else {
-        url[part] = value;
-      }
-      break;
-
-    default:
-      url[part] = value;
-  }
-
-  for (var i = 0; i < rules.length; i++) {
-    var ins = rules[i];
-
-    if (ins[4]) url[ins[1]] = url[ins[1]].toLowerCase();
-  }
-
-  url.origin = url.protocol && url.host && url.protocol !== 'file:'
-    ? url.protocol +'//'+ url.host
-    : 'null';
-
-  url.href = url.toString();
-
-  return url;
-}
-
-/**
- * Transform the properties back in to a valid and full URL string.
- *
- * @param {Function} stringify Optional query stringify function.
- * @returns {String}
- * @api public
- */
-function toString(stringify) {
-  if (!stringify || 'function' !== typeof stringify) stringify = qs.stringify;
-
-  var query
-    , url = this
-    , protocol = url.protocol;
-
-  if (protocol && protocol.charAt(protocol.length - 1) !== ':') protocol += ':';
-
-  var result = protocol + (url.slashes ? '//' : '');
-
-  if (url.username) {
-    result += url.username;
-    if (url.password) result += ':'+ url.password;
-    result += '@';
-  }
-
-  result += url.host + url.pathname;
-
-  query = 'object' === typeof url.query ? stringify(url.query) : url.query;
-  if (query) result += '?' !== query.charAt(0) ? '?'+ query : query;
-
-  if (url.hash) result += url.hash;
-
-  return result;
-}
-
-URL.prototype = { set: set, toString: toString };
-
-//
-// Expose the URL parser and some additional properties that might be useful for
-// others or testing.
-//
-URL.extractProtocol = extractProtocol;
-URL.location = lolcation;
-URL.qs = qs;
-
-module.exports = URL;
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
-
-/***/ }),
-/* 101 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * Check if we're required to add a port number.
- *
- * @see https://url.spec.whatwg.org/#default-port
- * @param {Number|String} port Port number we need to check
- * @param {String} protocol Protocol we need to check against.
- * @returns {Boolean} Is it a default port for the given protocol
- * @api private
- */
-module.exports = function required(port, protocol) {
-  protocol = protocol.split(':')[0];
-  port = +port;
-
-  if (!port) return false;
-
-  switch (protocol) {
-    case 'http':
-    case 'ws':
-    return port !== 80;
-
-    case 'https':
-    case 'wss':
-    return port !== 443;
-
-    case 'ftp':
-    return port !== 21;
-
-    case 'gopher':
-    return port !== 70;
-
-    case 'file':
-    return false;
-  }
-
-  return port !== 0;
-};
-
-
-/***/ }),
-/* 102 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var has = Object.prototype.hasOwnProperty;
-
-/**
- * Decode a URI encoded string.
- *
- * @param {String} input The URI encoded string.
- * @returns {String} The decoded string.
- * @api private
- */
-function decode(input) {
-  return decodeURIComponent(input.replace(/\+/g, ' '));
-}
-
-/**
- * Simple query string parser.
- *
- * @param {String} query The query string that needs to be parsed.
- * @returns {Object}
- * @api public
- */
-function querystring(query) {
-  var parser = /([^=?&]+)=?([^&]*)/g
-    , result = {}
-    , part;
-
-  //
-  // Little nifty parsing hack, leverage the fact that RegExp.exec increments
-  // the lastIndex property so we can continue executing this loop until we've
-  // parsed all results.
-  //
-  for (;
-    part = parser.exec(query);
-    result[decode(part[1])] = decode(part[2])
-  );
-
-  return result;
-}
-
-/**
- * Transform a query string to an object.
- *
- * @param {Object} obj Object that should be transformed.
- * @param {String} prefix Optional prefix.
- * @returns {String}
- * @api public
- */
-function querystringify(obj, prefix) {
-  prefix = prefix || '';
-
-  var pairs = [];
-
-  //
-  // Optionally prefix with a '?' if needed
-  //
-  if ('string' !== typeof prefix) prefix = '?';
-
-  for (var key in obj) {
-    if (has.call(obj, key)) {
-      pairs.push(encodeURIComponent(key) +'='+ encodeURIComponent(obj[key]));
-    }
-  }
-
-  return pairs.length ? prefix + pairs.join('&') : '';
-}
-
-//
-// Expose the module.
-//
-exports.stringify = querystringify;
-exports.parse = querystring;
-
-
-/***/ }),
-/* 103 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-function isAbsolute(pathname) {
-  return pathname.charAt(0) === '/';
-}
-
-// About 1.5x faster than the two-arg version of Array#splice()
-function spliceOne(list, index) {
-  for (var i = index, k = i + 1, n = list.length; k < n; i += 1, k += 1) {
-    list[i] = list[k];
-  }
-
-  list.pop();
-}
-
-// This implementation is based heavily on node's url.parse
-function resolvePathname(to) {
-  var from = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
-
-  var toParts = to && to.split('/') || [];
-  var fromParts = from && from.split('/') || [];
-
-  var isToAbs = to && isAbsolute(to);
-  var isFromAbs = from && isAbsolute(from);
-  var mustEndAbs = isToAbs || isFromAbs;
-
-  if (to && isAbsolute(to)) {
-    // to is absolute
-    fromParts = toParts;
-  } else if (toParts.length) {
-    // to is relative, drop the filename
-    fromParts.pop();
-    fromParts = fromParts.concat(toParts);
-  }
-
-  if (!fromParts.length) return '/';
-
-  var hasTrailingSlash = void 0;
-  if (fromParts.length) {
-    var last = fromParts[fromParts.length - 1];
-    hasTrailingSlash = last === '.' || last === '..' || last === '';
-  } else {
-    hasTrailingSlash = false;
-  }
-
-  var up = 0;
-  for (var i = fromParts.length; i >= 0; i--) {
-    var part = fromParts[i];
-
-    if (part === '.') {
-      spliceOne(fromParts, i);
-    } else if (part === '..') {
-      spliceOne(fromParts, i);
-      up++;
-    } else if (up) {
-      spliceOne(fromParts, i);
-      up--;
-    }
-  }
-
-  if (!mustEndAbs) for (; up--; up) {
-    fromParts.unshift('..');
-  }if (mustEndAbs && fromParts[0] !== '' && (!fromParts[0] || !isAbsolute(fromParts[0]))) fromParts.unshift('');
-
-  var result = fromParts.join('/');
-
-  if (hasTrailingSlash && result.substr(-1) !== '/') result += '/';
-
-  return result;
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (resolvePathname);
-
-/***/ }),
-/* 104 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.TreeNode = exports.MultiMap = undefined;
-
-var _MultiMap = __webpack_require__(105);
-
-var _MultiMap2 = _interopRequireDefault(_MultiMap);
-
-var _TreeNode = __webpack_require__(106);
-
-var _TreeNode2 = _interopRequireDefault(_TreeNode);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.MultiMap = _MultiMap2.default;
-exports.TreeNode = _TreeNode2.default;
-
-/***/ }),
-/* 105 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-
-var _metal = __webpack_require__(0);
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * A cached reference to the create function.
- */
-var create = Object.create;
-
-/**
- * Case insensitive string Multimap implementation. Allows multiple values for
- * the same key name.
- * @extends {Disposable}
- */
-
-var MultiMap = function (_Disposable) {
-	_inherits(MultiMap, _Disposable);
-
-	function MultiMap() {
-		_classCallCheck(this, MultiMap);
-
-		var _this = _possibleConstructorReturn(this, _Disposable.call(this));
-
-		_this.keys = create(null);
-		_this.values = create(null);
-		return _this;
-	}
-
-	/**
-  * Adds value to a key name.
-  * @param {string} name
-  * @param {*} value
-  * @chainable
-  */
-
-
-	MultiMap.prototype.add = function add(name, value) {
-		this.keys[name.toLowerCase()] = name;
-		this.values[name.toLowerCase()] = this.values[name.toLowerCase()] || [];
-		this.values[name.toLowerCase()].push(value);
-		return this;
-	};
-
-	/**
-  * Clears map names and values.
-  * @chainable
-  */
-
-
-	MultiMap.prototype.clear = function clear() {
-		this.keys = create(null);
-		this.values = create(null);
-		return this;
-	};
-
-	/**
-  * Checks if map contains a value to the key name.
-  * @param {string} name
-  * @return {boolean}
-  * @chainable
-  */
-
-
-	MultiMap.prototype.contains = function contains(name) {
-		return name.toLowerCase() in this.values;
-	};
-
-	/**
-  * @inheritDoc
-  */
-
-
-	MultiMap.prototype.disposeInternal = function disposeInternal() {
-		this.values = null;
-	};
-
-	/**
-  * Creates a `MultiMap` instance from the given object.
-  * @param {!Object} obj
-  * @return {!MultiMap}
-  */
-
-
-	MultiMap.fromObject = function fromObject(obj) {
-		var map = new MultiMap();
-		var keys = Object.keys(obj);
-		for (var i = 0; i < keys.length; i++) {
-			map.set(keys[i], obj[keys[i]]);
-		}
-		return map;
-	};
-
-	/**
-  * Gets the first added value from a key name.
-  * @param {string} name
-  * @return {*}
-  * @chainable
-  */
-
-
-	MultiMap.prototype.get = function get(name) {
-		var values = this.values[name.toLowerCase()];
-		if (values) {
-			return values[0];
-		}
-	};
-
-	/**
-  * Gets all values from a key name.
-  * @param {string} name
-  * @return {Array.<*>}
-  */
-
-
-	MultiMap.prototype.getAll = function getAll(name) {
-		return this.values[name.toLowerCase()];
-	};
-
-	/**
-  * Returns true if the map is empty, false otherwise.
-  * @return {boolean}
-  */
-
-
-	MultiMap.prototype.isEmpty = function isEmpty() {
-		return this.size() === 0;
-	};
-
-	/**
-  * Gets array of key names.
-  * @return {Array.<string>}
-  */
-
-
-	MultiMap.prototype.names = function names() {
-		var _this2 = this;
-
-		return Object.keys(this.values).map(function (key) {
-			return _this2.keys[key];
-		});
-	};
-
-	/**
-  * Removes all values from a key name.
-  * @param {string} name
-  * @chainable
-  */
-
-
-	MultiMap.prototype.remove = function remove(name) {
-		delete this.keys[name.toLowerCase()];
-		delete this.values[name.toLowerCase()];
-		return this;
-	};
-
-	/**
-  * Sets the value of a key name. Relevant to replace the current values with
-  * a new one.
-  * @param {string} name
-  * @param {*} value
-  * @chainable
-  */
-
-
-	MultiMap.prototype.set = function set(name, value) {
-		this.keys[name.toLowerCase()] = name;
-		this.values[name.toLowerCase()] = [value];
-		return this;
-	};
-
-	/**
-  * Gets the size of the map key names.
-  * @return {number}
-  */
-
-
-	MultiMap.prototype.size = function size() {
-		return this.names().length;
-	};
-
-	/**
-  * Returns the parsed values as a string.
-  * @return {string}
-  */
-
-
-	MultiMap.prototype.toString = function toString() {
-		return JSON.stringify(this.values);
-	};
-
-	return MultiMap;
-}(_metal.Disposable);
-
-exports.default = MultiMap;
-
-/***/ }),
-/* 106 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-
-var _metal = __webpack_require__(0);
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-/**
- * Generic tree node data structure with arbitrary number of child nodes.
- * @param {V} value Value.
- * @constructor
- */
-var TreeNode = function () {
-	function TreeNode(value) {
-		_classCallCheck(this, TreeNode);
-
-		/**
-   * The value.
-   * @private {V}
-   */
-		this.value_ = value;
-
-		/**
-   * Reference to the parent node or null if it has no parent.
-   * @private {TreeNode}
-   */
-		this.parent_ = null;
-
-		/**
-   * Child nodes or null in case of leaf node.
-   * @private {Array<!TreeNode>}
-   */
-		this.children_ = null;
-	}
-
-	/**
-  * Appends a child node to this node.
-  * @param {!TreeNode} child Orphan child node.
-  */
-
-
-	TreeNode.prototype.addChild = function addChild(child) {
-		assertChildHasNoParent(child);
-		child.setParent(this);
-		this.children_ = this.children_ || [];
-		this.children_.push(child);
-	};
-
-	/**
-  * Tells whether this node is the ancestor of the given node.
-  * @param {!TreeNode} node A node.
-  * @return {boolean} Whether this node is the ancestor of {@code node}.
-  */
-
-
-	TreeNode.prototype.contains = function contains(node) {
-		var current = node.getParent();
-		while (current) {
-			if (current === this) {
-				return true;
-			}
-			current = current.getParent();
-		}
-		return false;
-	};
-
-	/**
-  * @return {!Array<TreeNode>} All ancestor nodes in bottom-up order.
-  */
-
-
-	TreeNode.prototype.getAncestors = function getAncestors() {
-		var ancestors = [];
-		var node = this.getParent();
-		while (node) {
-			ancestors.push(node);
-			node = node.getParent();
-		}
-		return ancestors;
-	};
-
-	/**
-  * Gets the child node of this node at the given index.
-  * @param {number} index Child index.
-  * @return {?TreeNode} The node at the given index
-  * or null if not found.
-  */
-
-
-	TreeNode.prototype.getChildAt = function getChildAt(index) {
-		return this.getChildren()[index] || null;
-	};
-
-	/**
-  * @return {?Array<!TreeNode>} Child nodes or null in case of leaf node.
-  */
-
-
-	TreeNode.prototype.getChildren = function getChildren() {
-		return this.children_ || TreeNode.EMPTY_ARRAY;
-	};
-
-	/**
-  * @return {number} The number of children.
-  */
-
-
-	TreeNode.prototype.getChildCount = function getChildCount() {
-		return this.getChildren().length;
-	};
-
-	/**
-  * @return {number} The number of ancestors of the node.
-  */
-
-
-	TreeNode.prototype.getDepth = function getDepth() {
-		var depth = 0;
-		var node = this;
-		while (node.getParent()) {
-			depth++;
-			node = node.getParent();
-		}
-		return depth;
-	};
-
-	/**
-  * @return {?TreeNode} Parent node or null if it has no parent.
-  */
-
-
-	TreeNode.prototype.getParent = function getParent() {
-		return this.parent_;
-	};
-
-	/**
-  * @return {!TreeNode} The root of the tree structure, i.e. the farthest
-  * ancestor of the node or the node itself if it has no parents.
-  */
-
-
-	TreeNode.prototype.getRoot = function getRoot() {
-		var root = this;
-		while (root.getParent()) {
-			root = root.getParent();
-		}
-		return root;
-	};
-
-	/**
-  * Gets the value.
-  * @return {V} The value.
-  */
-
-
-	TreeNode.prototype.getValue = function getValue() {
-		return this.value_;
-	};
-
-	/**
-  * @return {boolean} Whether the node is a leaf node.
-  */
-
-
-	TreeNode.prototype.isLeaf = function isLeaf() {
-		return !this.getChildCount();
-	};
-
-	/**
-  * Removes the given child node of this node.
-  * @param {TreeNode} child The node to remove.
-  * @return {TreeNode} The removed node if any, null otherwise.
-  */
-
-
-	TreeNode.prototype.removeChild = function removeChild(child) {
-		if (_metal.array.remove(this.getChildren(), child)) {
-			return child;
-		}
-		return null;
-	};
-
-	/**
-  * Sets the parent node of this node. The callers must ensure that the
-  * parent node and only that has this node among its children.
-  * @param {TreeNode} parent The parent to set. If null, the node will be
-  * detached from the tree.
-  * @protected
-  */
-
-
-	TreeNode.prototype.setParent = function setParent(parent) {
-		this.parent_ = parent;
-	};
-
-	/**
-  * Traverses the subtree. The first callback starts with this node,
-  * and visits the descendant nodes depth-first, in preorder.
-  * The second callback, starts with deepest child then visits
-  * the ancestor nodes depth-first, in postorder. E.g.
-  *
-  *  	 A
-  *    / \
-  *   B   C
-  *  /   / \
-  * D   E   F
-  *
-  * preorder -> ['A', 'B', 'D', 'C', 'E', 'F']
-  * postorder -> ['D', 'B', 'E', 'F', 'C', 'A']
-  *
-  * @param {function=} opt_preorderFn The callback to execute when visiting a node.
-  * @param {function=} opt_postorderFn The callback to execute before leaving a node.
-  */
-
-
-	TreeNode.prototype.traverse = function traverse(opt_preorderFn, opt_postorderFn) {
-		if (opt_preorderFn) {
-			opt_preorderFn(this);
-		}
-		this.getChildren().forEach(function (child) {
-			return child.traverse(opt_preorderFn, opt_postorderFn);
-		});
-		if (opt_postorderFn) {
-			opt_postorderFn(this);
-		}
-	};
-
-	return TreeNode;
-}();
-
-/**
- * Constant for empty array to avoid unnecessary allocations.
- * @private
- */
-
-
-TreeNode.EMPTY_ARRAY = [];
-
-/**
- * Asserts that child has no parent.
- * @param {TreeNode} child A child.
- * @private
- */
-var assertChildHasNoParent = function assertChildHasNoParent(child) {
-	if (child.getParent()) {
-		throw new Error('Cannot add child with parent.');
-	}
-};
-
-exports.default = TreeNode;
-
-/***/ }),
-/* 107 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.ProgressPromise = exports.CancellablePromise = undefined;
-
-var _CancellablePromise = __webpack_require__(67);
-
-var _CancellablePromise2 = _interopRequireDefault(_CancellablePromise);
-
-var _ProgressPromise = __webpack_require__(110);
-
-var _ProgressPromise2 = _interopRequireDefault(_ProgressPromise);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.CancellablePromise = _CancellablePromise2.default;
-exports.ProgressPromise = _ProgressPromise2.default;
-exports.default = _CancellablePromise2.default;
-
-/***/ }),
-/* 108 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-// Copyright 2015 The Closure Library Authors. All Rights Reserved.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//      http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS-IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
-
-
-/**
- * @fileoverview Simple freelist.
- *
- * An anterative to goog.structs.SimplePool, it imposes the requirement that the
- * objects in the list contain a "next" property that can be used to maintain
- * the pool.
- */
-
-/**
- * @template ITEM
- */
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var FreeList = function () {
-  /**
-   * @param {function():ITEM} create
-   * @param {function(ITEM):void} reset
-   * @param {number} limit
-   */
-  function FreeList(create, reset, limit) {
-    _classCallCheck(this, FreeList);
-
-    /** @private @const {number} */
-    this.limit_ = limit;
-    /** @private @const {function()} */
-    this.create_ = create;
-    /** @private @const {function(ITEM):void} */
-    this.reset_ = reset;
-
-    /** @private {number} */
-    this.occupants_ = 0;
-    /** @private {ITEM} */
-    this.head_ = null;
-  }
-
-  /**
-   * @return {ITEM}
-   */
-
-
-  _createClass(FreeList, [{
-    key: 'get',
-    value: function get() {
-      var item;
-      if (this.occupants_ > 0) {
-        this.occupants_--;
-        item = this.head_;
-        this.head_ = item.next;
-        item.next = null;
-      } else {
-        item = this.create_();
-      }
-      return item;
-    }
-
-    /**
-     * @param {ITEM} item An item available for possible future reuse.
-     */
-
-  }, {
-    key: 'put',
-    value: function put(item) {
-      this.reset_(item);
-      if (this.occupants_ < this.limit_) {
-        this.occupants_++;
-        item.next = this.head_;
-        this.head_ = item;
-      }
-    }
-
-    /**
-     * Visible for testing.
-     * @package
-     * @return {number}
-     */
-
-  }, {
-    key: 'occupants',
-    value: function occupants() {
-      return this.occupants_;
-    }
-  }]);
-
-  return FreeList;
-}();
-
-exports.default = FreeList;
-
-/***/ }),
-/* 109 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-// Copyright 2013 The Closure Library Authors. All Rights Reserved.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//      http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS-IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
-
-
-/**
- * Provides a more strict interface for Thenables in terms of
- * http://promisesaplus.com for interop with {@see CancellablePromise}.
- *
- * @interface
- * @extends {IThenable.<TYPE>}
- * @template TYPE
- */
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var Thenable = function Thenable() {};
-
-/**
- * Adds callbacks that will operate on the result of the Thenable, returning a
- * new child Promise.
- *
- * If the Thenable is fulfilled, the {@code onFulfilled} callback will be
- * invoked with the fulfillment value as argument, and the child Promise will
- * be fulfilled with the return value of the callback. If the callback throws
- * an exception, the child Promise will be rejected with the thrown value
- * instead.
- *
- * If the Thenable is rejected, the {@code onRejected} callback will be invoked
- * with the rejection reason as argument, and the child Promise will be rejected
- * with the return value of the callback or thrown value.
- *
- * @param {?(function(this:THIS, TYPE):
- *             (RESULT|IThenable.<RESULT>|Thenable))=} opt_onFulfilled A
- *     function that will be invoked with the fulfillment value if the Promise
- *     is fullfilled.
- * @param {?(function(*): *)=} opt_onRejected A function that will be invoked
- *     with the rejection reason if the Promise is rejected.
- * @param {THIS=} opt_context An optional context object that will be the
- *     execution context for the callbacks. By default, functions are executed
- *     with the default this.
- * @return {!CancellablePromise.<RESULT>} A new Promise that will receive the
- *     result of the fulfillment or rejection callback.
- * @template RESULT,THIS
- */
-Thenable.prototype.then = function () {};
-
-/**
- * An expando property to indicate that an object implements
- * {@code Thenable}.
- *
- * {@see addImplementation}.
- *
- * @const
- */
-Thenable.IMPLEMENTED_BY_PROP = '$goog_Thenable';
-
-/**
- * Marks a given class (constructor) as an implementation of Thenable, so
- * that we can query that fact at runtime. The class must have already
- * implemented the interface.
- * Exports a 'then' method on the constructor prototype, so that the objects
- * also implement the extern {@see Thenable} interface for interop with
- * other Promise implementations.
- * @param {function(new:Thenable,...[?])} ctor The class constructor. The
- *     corresponding class must have already implemented the interface.
- */
-Thenable.addImplementation = function (ctor) {
-  ctor.prototype.then = ctor.prototype.then;
-  ctor.prototype.$goog_Thenable = true;
-};
-
-/**
- * @param {*} object
- * @return {boolean} Whether a given instance implements {@code Thenable}.
- *     The class/superclass of the instance must call {@code addImplementation}.
- */
-Thenable.isImplementedBy = function (object) {
-  if (!object) {
-    return false;
-  }
-  try {
-    return !!object.$goog_Thenable;
-  } catch (e) {
-    // Property access seems to be forbidden.
-    return false;
-  }
-};
-
-exports.default = Thenable;
-
-/***/ }),
-/* 110 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _CancellablePromise2 = __webpack_require__(67);
-
-var _CancellablePromise3 = _interopRequireDefault(_CancellablePromise2);
-
-var _metal = __webpack_require__(0);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ProgressPromise = function (_CancellablePromise) {
-	_inherits(ProgressPromise, _CancellablePromise);
-
-	/**
-  * Creates a CancellablePromise that can track progress.
-  * @extends CancellablePromise
-  * @constructor
-  */
-	function ProgressPromise(resolver, opt_context) {
-		_classCallCheck(this, ProgressPromise);
-
-		var progressFn = function progressFn(progress) {
-			_metal.async.nextTick(function () {
-				_this.setProgress_(progress);
-			});
-		};
-
-		var resolverFn = function resolverFn(resolve, reject) {
-			resolver(resolve, reject, progressFn);
-		};
-
-		var _this = _possibleConstructorReturn(this, (ProgressPromise.__proto__ || Object.getPrototypeOf(ProgressPromise)).call(this, resolverFn, opt_context));
-
-		_this.listeners_ = [];
-		_this.progress_ = 0;
-		return _this;
-	}
-
-	/**
-  * Overwrites `CancellablePromise.prototype.addChildPromise_` so that it
-  * implements another `ProgressPromise` as a child.
-  * @inheritdoc
-  */
-
-
-	_createClass(ProgressPromise, [{
-		key: 'addChildPromise_',
-		value: function addChildPromise_(onFulfilled, onRejected, opt_context) {
-			var callbackEntry = _CancellablePromise3.default.getCallbackEntry_(null, null, null);
-
-			callbackEntry.child = new ProgressPromise(function (resolve, reject) {
-				callbackEntry.onFulfilled = onFulfilled ? function (value) {
-					try {
-						var result = onFulfilled.call(opt_context, value);
-						resolve(result);
-					} catch (err) {
-						reject(err);
-					}
-				} : resolve;
-
-				callbackEntry.onRejected = onRejected ? function (reason) {
-					try {
-						var result = onRejected.call(opt_context, reason);
-						if (!(0, _metal.isDef)(result) && reason.IS_CANCELLATION_ERROR) {
-							reject(reason);
-						} else {
-							resolve(result);
-						}
-					} catch (err) {
-						reject(err);
-					}
-				} : reject;
-			});
-
-			callbackEntry.child.parent_ = this;
-			this.addCallbackEntry_(callbackEntry);
-			return callbackEntry.child;
-		}
-
-		/**
-   * Invokes any listeners that have been attached to child promises.
-   * @param {!number} progress A percentage between 0 and 1
-   */
-
-	}, {
-		key: 'callChildProgressListeners_',
-		value: function callChildProgressListeners_(progress) {
-			if (this.callbackEntries_ && this.callbackEntries_.child) {
-				this.callProgressListeners_(progress, this.callbackEntries_.child.listeners_);
-			}
-		}
-
-		/**
-   * Invokes any listeners that have been attached via the `progress` method.
-   * @param {!number} progress A percentage between 0 and 1
-   * @param {!Array} listeners Array of listeners
-   */
-
-	}, {
-		key: 'callProgressListeners_',
-		value: function callProgressListeners_(progress, listeners) {
-			if (listeners.length) {
-				listeners.forEach(function (listener) {
-					listener(progress);
-				});
-			}
-		}
-
-		/**
-   * Returns the current progress of the promise instance.
-   * Progress will be a number between 0 and 1.
-   * @return {number}
-   */
-
-	}, {
-		key: 'getProgress',
-		value: function getProgress() {
-			return this.progress_;
-		}
-
-		/**
-   * Adds a listener that will be called once the progress has been updated.
-   * @param {!Function} listener
-   */
-
-	}, {
-		key: 'progress',
-		value: function progress(listener) {
-			this.listeners_.push(listener);
-
-			return this;
-		}
-
-		/**
-   * Updates the current progress of the promise and calls all listeners.
-   * @param {number} progress
-   */
-
-	}, {
-		key: 'setProgress_',
-		value: function setProgress_(progress) {
-			if (progress > 1 || progress < 0) {
-				throw new TypeError('The progress percentage should be a number between 0 and 1');
-			} else if (progress < this.progress_) {
-				throw new Error('The progress percentage can\'t be lower than the previous percentage');
-			} else if (progress === this.progress_ || progress === 1) {
-				return;
-			}
-
-			this.progress_ = progress;
-
-			this.callProgressListeners_(progress, this.listeners_);
-			this.callChildProgressListeners_(progress);
-		}
-	}]);
-
-	return ProgressPromise;
-}(_CancellablePromise3.default);
-
-exports.default = ProgressPromise;
 
 /***/ })
 /******/ ]);
