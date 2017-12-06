@@ -26,13 +26,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class Main {
 
-    @GetMapping("/")
-    public String welcome() {
-        return "welcome";
+	@GetMapping("/")
+	public String welcome() {
 
-    }
+		return "welcome";
 
-    public static void main(String[] args) throws Exception {
-        SpringApplication.run(Main.class, args);
-    }
+	}
+
+	public static void main(String[] args)
+		throws Exception {
+
+		SpringApplication.run(Main.class, args);
+	}
 }

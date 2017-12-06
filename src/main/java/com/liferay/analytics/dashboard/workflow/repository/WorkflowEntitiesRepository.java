@@ -1,3 +1,4 @@
+
 package com.liferay.analytics.dashboard.workflow.repository;
 
 import org.springframework.data.cassandra.repository.CassandraRepository;
@@ -8,15 +9,14 @@ import com.liferay.analytics.dashboard.workflow.domain.WorkflowEntities;
 
 /**
  * @author Inácio Nery
- *
  */
 public interface WorkflowEntitiesRepository
-    extends CassandraRepository<WorkflowEntities> {
+	extends CassandraRepository<WorkflowEntities> {
 
-    default WorkflowEntities findOne(String entity, long id) {
+	default WorkflowEntities findOne(String entity, long id) {
 
-        MapId mapId = BasicMapId.id("entity", entity).with("id", id);
+		MapId mapId = BasicMapId.id("entity", entity).with("id", id);
 
-        return findOne(mapId);
-    }
+		return findOne(mapId);
+	}
 }

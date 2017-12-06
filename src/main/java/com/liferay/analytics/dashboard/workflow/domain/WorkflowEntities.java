@@ -1,3 +1,4 @@
+
 package com.liferay.analytics.dashboard.workflow.domain;
 
 import java.io.Serializable;
@@ -10,29 +11,31 @@ import com.datastax.driver.mapping.annotations.Table;
 
 /**
  * @author Inácio Nery
- *
  */
 @Table(name = "workflowentities")
 public class WorkflowEntities implements Serializable {
 
-    @PrimaryKeyColumn(ordinal = 0)
-    private String entity;
+	@PrimaryKeyColumn(ordinal = 0)
+	private String entity;
 
-    @PrimaryKeyColumn(ordinal = 1)
-    private long id;
+	@PrimaryKeyColumn(ordinal = 1)
+	private long id;
 
-    @CassandraType(type = DataType.Name.TEXT)
-    private String name;
+	@CassandraType(type = DataType.Name.TEXT)
+	private String name;
 
-    public String getName() {
-        return name;
-    }
+	public String getName() {
 
-    public String getEntity() {
-        return entity;
-    }
+		return name;
+	}
 
-    public long getId() {
-        return id;
-    }
+	public String getEntity() {
+
+		return entity;
+	}
+
+	public long getId() {
+
+		return id;
+	}
 }

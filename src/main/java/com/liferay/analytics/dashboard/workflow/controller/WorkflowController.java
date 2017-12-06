@@ -1,3 +1,4 @@
+
 package com.liferay.analytics.dashboard.workflow.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,35 +8,61 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.liferay.analytics.dashboard.workflow.domain.WorkflowEntities;
 import com.liferay.analytics.dashboard.workflow.domain.WorkflowProcessAvg;
+import com.liferay.analytics.dashboard.workflow.domain.WorkflowTaskAvg;
 import com.liferay.analytics.dashboard.workflow.repository.WorkflowEntitiesRepository;
 import com.liferay.analytics.dashboard.workflow.repository.WorkflowProcessAvgRepository;
+import com.liferay.analytics.dashboard.workflow.repository.WorkflowTaskAvgRepository;
 
 @RestController
 @RequestMapping("/api/workflow")
 public class WorkflowController {
 
-    @Autowired
-    private WorkflowProcessAvgRepository workflowProcessAvgRepository;
+	@Autowired
+	private WorkflowEntitiesRepository workflowEntitiesRepository;
 
-    @Autowired
-    private WorkflowEntitiesRepository workflowEntitiesRepository;
+	@Autowired
+	private WorkflowProcessAvgRepository workflowProcessAvgRepository;
 
-    @GetMapping("/processavg")
-    public Iterable<WorkflowProcessAvg> getWorkflowProcessAvgs() {
-        Iterable<WorkflowProcessAvg> workflowProcessAvgs = workflowProcessAvgRepository
-            .findAll();
+	@Autowired
+	private WorkflowTaskAvgRepository workflowTaskAvgRepository;
 
-        for (WorkflowProcessAvg workflowProcessAvg : workflowProcessAvgs) {
-            WorkflowEntities workflowEntities = workflowEntitiesRepository
-                .findOne("KALEO_DEFINITION_VERSION",
-                    workflowProcessAvg.getKaleoDefinitionVersionId());
+	@GetMapping("/processavg")
+	public Iterable<WorkflowProcessAvg> getWorkflowProcessAvgs() {
 
-            if (workflowEntities != null) {
-                workflowProcessAvg.setName(workflowEntities.getName());
-            }
-        }
+		Iterable<WorkflowProcessAvg> workflowProcessAvgs =
+			workflowProcessAvgRepository.findAll();
 
-        return workflowProcessAvgs;
-    }
+		for (WorkflowProcessAvg workflowProcessAvg : workflowProcessAvgs) {
+			WorkflowEntities workflowEntities =
+				workflowEntitiesRepository.findOne(
+					"KALEO_DEFINITION_VERSION",
+					workflowProcessAvg.getKaleoDefinitionVersionId());
+
+			if (workflowEntities != null) {
+				workflowProcessAvg.setName(workflowEntities.getName());
+			}
+		}
+
+		return workflowProcessAvgs;
+	}
+
+	@GetMapping("/taskavg")
+	public Iterable<WorkflowTaskAvg> getWorkflowTaskAvgs() {
+
+		Iterable<WorkflowTaskAvg> workflowTaskAvgs =
+			workflowTaskAvgRepository.findAll();
+
+		for (WorkflowTaskAvg workflowTaskAvg : workflowTaskAvgs) {
+			WorkflowEntities workflowEntities =
+				workflowEntitiesRepository.findOne(
+					"KALEO_TASK", workflowTaskAvg.getKaleoTaskId());
+
+			if (workflowEntities != null) {
+				workflowTaskAvg.setName(workflowEntities.getName());
+			}
+		}
+
+		return workflowTaskAvgs;
+	}
 
 }
