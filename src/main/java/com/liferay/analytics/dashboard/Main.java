@@ -28,9 +28,12 @@ public class Main {
 
 	@GetMapping("/")
 	public String welcome() {
-
 		return "welcome";
+	}
 
+	@GetMapping("/forms")
+	public String forms() {
+		return "forms";
 	}
 
 	public static void main(String[] args)

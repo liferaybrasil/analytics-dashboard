@@ -50,6 +50,12 @@
 			<groupId>com.datastax.cassandra</groupId>
 			<artifactId>cassandra-driver-mapping</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jdt.core.compiler</groupId>
+			<artifactId>ecj</artifactId>
+			<version>4.6.1</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 	<!-- Package as an executable jar -->
