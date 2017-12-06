@@ -70,6 +70,10 @@ public class FormsAggregatedData implements Serializable {
 	public long getStarted() {
 		return started;
 	}
+	
+	public double getStartedPercent() {
+		return ((double)started / views) * 100;
+	}
 
 	public long getConverted() {
 		return converted;
