@@ -55,7 +55,7 @@ public class WorkflowController {
 		for (WorkflowTaskAvg workflowTaskAvg : workflowTaskAvgs) {
 			WorkflowEntities workflowEntities =
 				workflowEntitiesRepository.findOne(
-					"KALEO_TASK", workflowTaskAvg.getKaleoTaskId());
+					"KALEO_TASK", workflowTaskAvg.getTaskid());
 
 			if (workflowEntities != null) {
 				workflowTaskAvg.setName(workflowEntities.getName());

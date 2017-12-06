@@ -7,6 +7,7 @@ import org.springframework.data.cassandra.mapping.CassandraType;
 import org.springframework.data.cassandra.mapping.PrimaryKeyColumn;
 
 import com.datastax.driver.core.DataType;
+import com.datastax.driver.core.LocalDate;
 import com.datastax.driver.mapping.annotations.Table;
 
 /**
@@ -16,12 +17,20 @@ import com.datastax.driver.mapping.annotations.Table;
 public class WorkflowTaskAvg implements Serializable {
 
 	@PrimaryKeyColumn(ordinal = 0)
-	@CassandraType(type = DataType.Name.BIGINT)
-	private long kaleoDefinitionVersionId;
+	@CassandraType(type = DataType.Name.DATE)
+	private LocalDate date;
 
 	@PrimaryKeyColumn(ordinal = 1)
+	@CassandraType(type = DataType.Name.TEXT)
+	private String analyticskey;
+
+	@PrimaryKeyColumn(ordinal = 2)
 	@CassandraType(type = DataType.Name.BIGINT)
-	private long kaleoTaskId;
+	private long taskid;
+
+	@PrimaryKeyColumn(ordinal = 3)
+	@CassandraType(type = DataType.Name.BIGINT)
+	private long processversionid;
 
 	@CassandraType(type = DataType.Name.BIGINT)
 	private long total;
@@ -31,14 +40,24 @@ public class WorkflowTaskAvg implements Serializable {
 
 	private String name = "Unknown";
 
-	public long getKaleoDefinitionVersionId() {
+	public LocalDate getDate() {
 
-		return kaleoDefinitionVersionId;
+		return date;
 	}
 
-	public long getKaleoTaskId() {
+	public String getAnalyticskey() {
 
-		return kaleoTaskId;
+		return analyticskey;
+	}
+
+	public long getTaskid() {
+
+		return taskid;
+	}
+
+	public long getProcessversionid() {
+
+		return processversionid;
 	}
 
 	public String getName() {
@@ -59,6 +78,15 @@ public class WorkflowTaskAvg implements Serializable {
 	public void setName(String name) {
 
 		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+
+		return "WorkflowTaskAvg [date=" + date + ", analyticskey=" +
+			analyticskey + ", taskid=" + taskid + ", processversionid=" +
+			processversionid + ", total=" + total + ", totalDuration=" +
+			totalDuration + ", name=" + name + "]";
 	}
 
 }
