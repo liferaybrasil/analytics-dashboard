@@ -36,7 +36,7 @@ public class WorkflowController {
 			WorkflowEntities workflowEntities =
 				workflowEntitiesRepository.findOne(
 					"KALEO_DEFINITION_VERSION",
-					workflowProcessAvg.getKaleoDefinitionVersionId());
+					workflowProcessAvg.getProcessversionid());
 
 			if (workflowEntities != null) {
 				workflowProcessAvg.setName(workflowEntities.getName());
