@@ -26,9 +26,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class Main {
 
-	@GetMapping("/")
-	public String welcome() {
-		return "welcome";
+	@GetMapping("/workflow")
+	public String workflow() {
+		return "workflow";
 	}
 
 	@GetMapping("/forms")
