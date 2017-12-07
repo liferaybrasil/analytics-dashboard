@@ -4,12 +4,22 @@ $card-title-font-size: 1.3rem;
 $card-icon-font-size: 1rem;
 $card-number-font-size: 4rem;
 
-$card-icon-color: lighten($color-dark, 10%);
+$card-icon-color: lighten($color-dark, 30%);
+
+.card-dashboard-group {
+    display: flex;
+
+    .card-dashboard {
+        margin: 0 3px;
+    }
+}
 
 .card-dashboard {
     background-color: #F3F3F3;
     text-align: center;
     width: 100%;
+    padding: $baseline 0;
+    margin-bottom: $baseline;
 
     .card-dashboard__title {
         font-size: $card-title-font-size;
