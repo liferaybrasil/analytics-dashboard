@@ -1,0 +1,14 @@
+@import '../../../css/variables';
+
+$footer-title-font-size: 1rem;
+
+.footer {
+    background-color: $color-clean;
+    color: $color-dark;
+
+    .footer__title {
+        margin: 0;
+        padding: $baseline 0;
+        font-size: $footer-title-font-size;
+    }
+}
