@@ -1,9 +1,20 @@
+/**
+ * Copyright (c) 2000-present Liferay, Inc. All rights reserved.
+ *
+ * This library is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Lesser General Public License as published by the Free
+ * Software Foundation; either version 2.1 of the License, or (at your option)
+ * any later version.
+ *
+ * This library is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+ * details.
+ */
 
 package com.liferay.analytics.dashboard.workflow.repository;
 
 import org.springframework.data.cassandra.repository.CassandraRepository;
-import org.springframework.data.cassandra.repository.Query;
-import org.springframework.data.repository.query.Param;
 
 import com.liferay.analytics.dashboard.workflow.domain.WorkflowTaskAvg;
 
@@ -12,9 +23,4 @@ import com.liferay.analytics.dashboard.workflow.domain.WorkflowTaskAvg;
  */
 public interface WorkflowTaskAvgRepository
 	extends CassandraRepository<WorkflowTaskAvg> {
-
-	@Query("SELECT * FROM WorkflowTaskAvg WHERE processversionid = :processversionid and taskid = :taskid ALLOW FILTERING")
-	WorkflowTaskAvg find(
-		@Param("processversionid") Long processversionid,
-		@Param("taskid") Long taskid);
 }

@@ -16,13 +16,12 @@ package com.liferay.analytics.dashboard.workflow.repository;
 
 import org.springframework.data.cassandra.repository.CassandraRepository;
 
-import com.liferay.analytics.dashboard.workflow.domain.WorkflowProcessAvg;
+import com.liferay.analytics.dashboard.workflow.domain.Workflow;
 
 /**
  * @author Inácio Nery
  */
-public interface WorkflowProcessAvgRepository
-	extends CassandraRepository<WorkflowProcessAvg> {
-	
-	Iterable<WorkflowProcessAvg> findByProcessid(long processid);
+public interface WorkflowRepository extends CassandraRepository<Workflow> {
+
+	Iterable<Workflow> findByDeletedFalse();
 }

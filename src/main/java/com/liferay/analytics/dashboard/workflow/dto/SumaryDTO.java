@@ -12,17 +12,32 @@
  * details.
  */
 
-package com.liferay.analytics.dashboard.workflow.repository;
-
-import org.springframework.data.cassandra.repository.CassandraRepository;
-
-import com.liferay.analytics.dashboard.workflow.domain.WorkflowProcessAvg;
+package com.liferay.analytics.dashboard.workflow.dto;
 
 /**
  * @author Inácio Nery
  */
-public interface WorkflowProcessAvgRepository
-	extends CassandraRepository<WorkflowProcessAvg> {
-	
-	Iterable<WorkflowProcessAvg> findByProcessid(long processid);
+public class SumaryDTO {
+
+	private long workflows;
+	private long published;
+	private long unpublished;
+	private long process;
+	private long started;
+	private long inprogress;
+	private long completed;
+
+	public SumaryDTO(
+		long workflows, long published, long unpublished, long process,
+		long started, long inprogress, long completed) {
+
+		this.workflows = workflows;
+		this.published = published;
+		this.unpublished = unpublished;
+		this.process = process;
+		this.started = started;
+		this.inprogress = inprogress;
+		this.completed = completed;
+	}
+
 }
