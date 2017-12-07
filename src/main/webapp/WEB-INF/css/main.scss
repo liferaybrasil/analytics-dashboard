@@ -1,21 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900');
 @import '~clay/src/scss/base.scss';
 @import "variables";
 
-* {
-    box-sizing: border-box;
+html, body {
+    width: 100%;
+    height: 100%;
 }
 
 body {
-    margin: 0;
+    font-family: $font-default;
 }
 
-.header {
-    background: $color-dark;
-    padding: 1.5em;
+#wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 
-    h1 {
-      color: $color-clean;
-      font-size: 1.4em;
+    main {
+        flex: 1 0 auto;
     }
 }
 

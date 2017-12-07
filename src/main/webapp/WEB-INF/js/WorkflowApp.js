@@ -1,106 +1,31 @@
 import JSXComponent from 'metal-jsx';
-import {
-	BarChart
-} from 'clay-charts/lib/jsx/charts';
-import {
-	Config
-} from 'metal-state';
-import Ajax from 'metal-ajax';
+import { Header, Card, Footer } from './components';
 
-class WorkflowProcessAvg extends JSXComponent {
-	attached() {
-		Ajax.request(location.origin + '/api/workflow/processavg')
-			.then((xhr) => {
-				let json = JSON.parse(xhr.response);
-				let columns = [];
+import '../css/main.scss';
 
-				json.forEach(function (value) {
-					let throughput = Math.floor(value.totalDuration / value.total);
+class Dashboard extends JSXComponent {
 
-					columns.push({
-						'id': value.name,
-						'data': [throughput]
-					})
-				});
-
-				this.props.columns = columns;
-			})
-		setTimeout(() => {
-			this.props.columns = this.props.columns;
-		}, 10);
-		setTimeout(() => {
-			this.props.columns = this.props.columns;
-		}, 100);
-	}
 
 	render() {
-		return <BarChart colors = {
-			{}
-		}
-		ref = "bar"
-		columns = {
-			this.props.columns
-		}
-		/>
+		return (
+            <div id="wrapper">
+                <Header title="My Company Site > Workflow"></Header>
+                <main>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <Card title="Workflows" icon="my icon" number="9" />
+                                <Card title="Published" icon="my icon" number="7" />
+                                <Card title="Unpublished" icon="my icon" number="2" />
+                            </div>
+                            <div class="col-sm-6">column2</div>
+                        </div>
+                    </div>
+                </main>
+                <Footer title="© Copyright 2017"></Footer>
+            </div>
+		);
 	}
 }
 
-WorkflowProcessAvg.PROPS = {
-	columns: Config.any()
-		.value([{
-			id: '',
-			data: []
-		}, ])
-}
-
-class WorkflowTaskAvg extends JSXComponent {
-	attached() {
-		Ajax.request(location.origin + '/api/workflow/taskavg')
-			.then((xhr) => {
-				let json = JSON.parse(xhr.response);
-				let columns = [];
-
-				json.forEach(function (value) {
-					let throughput = Math.floor(value.totalDuration / value.total);
-
-					columns.push({
-						'id': value.name,
-						'data': [throughput]
-					})
-				});
-
-				this.props.columns = columns;
-			})
-		setTimeout(() => {
-			this.props.columns = this.props.columns;
-		}, 10);
-		setTimeout(() => {
-			this.props.columns = this.props.columns;
-		}, 100);
-	}
-
-	render() {
-		return <BarChart colors = {
-			{}
-		}
-		ref = "bar"
-		columns = {
-			this.props.columns
-		}
-		/>
-	}
-}
-
-WorkflowTaskAvg.PROPS = {
-	columns: Config.any()
-		.value([{
-			id: '',
-			data: []
-		}, ])
-}
-
-export {
-	WorkflowProcessAvg,
-	WorkflowTaskAvg
-};
-export default WorkflowProcessAvg;
+export { Dashboard };
