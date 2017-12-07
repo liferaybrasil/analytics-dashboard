@@ -1,0 +1,18 @@
+@import '../../../css/variables';
+
+$btn-primary-border-color: lighten($color-dark, 40%);
+
+.btn-dashboard {
+
+    &.btn-primary {
+        color: $color-dark;
+        background-color: $color-clean;
+        border: 1px solid $btn-primary-border-color;
+
+        &:hover {
+            color: $color-clean;
+            background-color: $color-dark;
+            border: 1px solid $color-dark;
+        }
+    }
+}
