@@ -1,0 +1,29 @@
+@import '../../../css/variables';
+
+$card-title-font-size: 1.3rem;
+$card-icon-font-size: 1rem;
+$card-number-font-size: 4rem;
+
+$card-icon-color: lighten($color-dark, 10%);
+
+.card-dashboard {
+    background-color: #F3F3F3;
+    text-align: center;
+    width: 100%;
+
+    .card-dashboard__title {
+        font-size: $card-title-font-size;
+        font-weight: 700;
+    }
+
+    .card-dashboard__icon {
+        font-size: $card-icon-font-size;
+        color: $card-icon-color;
+    }
+
+    .card-dashboard__number {
+        font-size: $card-number-font-size;
+        font-weight: 300;
+        line-height: $baseline * 3;
+    }
+}
