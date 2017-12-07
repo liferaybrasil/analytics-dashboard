@@ -1,0 +1,14 @@
+@import '../../../css/variables';
+
+$header-title: 1.5rem;
+
+.header {
+    background-color: $color-dark;
+    color: $color-clean;
+
+    .header__title {
+        margin: 0;
+        padding: $baseline 0;
+        font-size: $header-title;
+    }
+}
