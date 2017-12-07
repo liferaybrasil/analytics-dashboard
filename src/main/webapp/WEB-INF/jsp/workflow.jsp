@@ -4,20 +4,18 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Analytics Dashboard</title>
-		<link rel="stylesheet" href="/main.css"/>
+		<title>Forms Analytics Dashboard</title>
 		<script src="/build/Workflow.js" type="text/javascript"/></script>
 	</head>
 	<body>
-		<div id="workflowProcessAvg"></div>
-		<div id="workflowTaskAvg"></div>
+		<div id="dashboard"></div>
 		<script type="text/javascript">
-			window.DashBoardWorkflowProcessAvg = new Workflow.WorkflowProcessAvg({
-			  title: 'Dashboard'
-			}, document.querySelector('#workflowProcessAvg'));
-			window.DashBoardWorkflowTaskAvg = new Workflow.WorkflowTaskAvg({
-			  title: 'Dashboard'
-			}, document.querySelector('#workflowTaskAvg'));
+			window.WorkflowDashboard = new Workflow.Dashboard(
+				{
+					title: 'Workflow Dashboard'
+				}, 
+				document.querySelector('#dashboard')
+			);
 		</script>
 	</body>
 </html>
