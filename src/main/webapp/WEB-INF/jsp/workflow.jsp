@@ -4,7 +4,8 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Forms Analytics Dashboard</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Workflow Analytics Dashboard</title>
 		<script src="/build/Workflow.js" type="text/javascript"/></script>
 	</head>
 	<body>
