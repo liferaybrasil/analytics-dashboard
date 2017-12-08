@@ -1,0 +1,63 @@
+@import '../../../css/variables';
+@import '../../../css/mixins';
+
+$arrow-dropdown-dashboard: 8px;
+
+.dropdown-dashboard {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+
+    .dropdown-dashboard__list-group {
+        position: absolute;
+        right: 0;
+        top: 100%;
+        width: 100%;
+        background-color: $color-clean;
+        margin: 0;
+        z-index: 1;
+        padding: 0;
+        list-style: none;
+        box-shadow: 0 10px 40px -10px rgba($color-dark, 0.3);
+        padding: $baseline 0;
+        border-radius: $radius;
+        transform: translateY(2px);
+
+        &:after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%) translateY(-#{$arrow-dropdown-dashboard});
+            top: 0;
+            width: 0;
+            height: 0;
+            border-left: $arrow-dropdown-dashboard solid transparent;
+            border-right: $arrow-dropdown-dashboard solid transparent;
+            border-bottom: $arrow-dropdown-dashboard solid $color-clean;
+        }
+
+        li {
+            @include transition(linear);
+            padding: #{$baseline / 4} $baseline;
+
+            &:first-child {
+                padding-top: 0;
+            }
+
+            &:last-child {
+                padding-bottom: 0;
+            }
+
+            &:hover {
+                background-color: $color-light;
+            }
+        }
+
+        &.dropdown-dashboard__list-group--show {
+            display: block;
+        }
+        &.dropdown-dashboard__list-group--hide {
+            display: none;
+        }
+    }
+}
