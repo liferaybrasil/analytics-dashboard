@@ -1,5 +1,5 @@
 import JSXComponent from 'metal-jsx';
-import {Header, Card, Button, Footer} from './components';
+import {Header, Card, Button, Footer, Dropdown} from './components';
 
 import '../css/main.scss';
 
@@ -7,7 +7,7 @@ class Dashboard extends JSXComponent {
 	render() {
 		return (
             <div id="wrapper">
-                <Header title="My Company Site > Workflow"></Header>
+                <Header icon="page-template" title="My Company Site > Workflow"></Header>
                 <main>
                     <div class="container-fluid">
                         <DropdownSection />
@@ -27,8 +27,15 @@ class DropdownSection extends JSXComponent {
             <div class="row">
                 <div class="col-sm-12 text-right">
 
-                    <span>Dropdown 1</span>
-                    <span>Dropdown 2</span>
+                    <Dropdown 
+                        label="this is a dropdown" 
+                        style="primary" 
+                        list={['item 1', 'item 2', 'item 3']} />
+                    
+                    <Dropdown 
+                        label="this is a dropdown 2" 
+                        style="primary" 
+                        list={['item 1', 'item 2', 'item 3', 'item 4', 'item 5']} />
 
                 </div>
             </div>
@@ -49,7 +56,7 @@ class CardSection extends JSXComponent {
                             <Card title="Published" icon="play" number="7" />
                         </div>
                         <div class="col-md-4 col-sm-12">
-                            <Card title="Unpublished" icon="live" number="2" />
+                            <Card title="Unpublished" icon="live" number="2" percent="6" days="30" />
                         </div>
                     </div>
                         
@@ -88,7 +95,9 @@ class TableSection extends JSXComponent {
                     <td class="text-right">{item.started}</td>
                     <td class="text-right">{item.inProgress}</td>
                     <td class="text-right">{item.completed}</td>
-                    <td class="text-right"><Button label="view report" style="primary" /></td>
+                    <td class="text-right">
+                        <Button label="view report" style="secondary" />
+                    </td>
                 </tr>
             );
         });
