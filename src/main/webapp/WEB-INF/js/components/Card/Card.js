@@ -1,5 +1,5 @@
 import JSXComponent from 'metal-jsx';
-import {CardTitle, CardIcon, CardNumber} from './components';
+import {CardTitle, CardIcon, CardNumber, CardInfo} from './components';
 
 class Card extends JSXComponent {
     render() {
@@ -8,6 +8,7 @@ class Card extends JSXComponent {
                 <CardIcon className={this.props.className} icon={this.props.icon} />
                 <CardNumber className={this.props.className} number={this.props.number} />
                 <CardTitle className={this.props.className} title={this.props.title} />
+                <CardInfo className={this.props.className} percent={`${this.props.percent}%`} days={this.props.days} />
             </div>
         );
     }
