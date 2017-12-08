@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900');
 @import '~clay/src/scss/base.scss';
 @import "variables";
+@import "mixins";
 
 html, body {
     width: 100%;
@@ -50,56 +51,7 @@ body {
  * Customize table clay
  */
 .table-dashboard {
-
+    tbody tr:nth-child(odd) {
+        background-color: $color-light;
+    }
 }
-
-// * {
-//     box-sizing: border-box;
-// }
-
-// body {
-//     margin: 0;
-// }
-
-// .header {
-//     background: $color-dark;
-//     padding: 1.5em;
-
-//     h1 {
-//       color: $color-clean;
-//       font-size: 1.4em;
-//     }
-// }
-
-// .flex {
-//   display: flex;
-// }
-
-// .box {
-//     background: $color-light;
-//     padding: 1.5em;
-//     display: flex;
-
-//     h2 {
-//         color: $color-dark;
-//         display: inline-block;
-//         font-size: 4.5em;
-
-//         span {
-//             font-weight: 200;
-//         }
-//     }
-
-//     h3 {
-//         font-size: 1.50rem;
-//         font-weight: 600;
-//     }
-
-//     .sessions-container {
-//         margin-right: 4rem;
-//     }
-// }
-
-// .analytics-row {
-//     display: flex;
-// }
