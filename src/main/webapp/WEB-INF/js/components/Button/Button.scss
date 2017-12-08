@@ -1,15 +1,28 @@
 @import '../../../css/variables';
 
-$btn-primary-border-color: lighten($color-dark, 40%);
+$btn-secondary-border-color: lighten($color-dark, 40%);
+$btn-primary-hover-color: lighten($color-dark, 20%);
 
-.btn-dashboard {
+.btn.btn-dashboard {
 
     &.btn-primary {
+        color: $color-clean;
+        background-color: $color-dark;
+        border: 1px solid $color-dark;
+
+        &:hover, &:focus, &:not([disabled]):not(.disabled):active {
+            color: $color-clean;
+            background-color: $btn-primary-hover-color;
+            border: 1px solid $btn-primary-hover-color;
+        }
+    }
+
+    &.btn-secondary {
         color: $color-dark;
         background-color: $color-clean;
-        border: 1px solid $btn-primary-border-color;
+        border: 1px solid $btn-secondary-border-color;
 
-        &:hover {
+        &:hover, &:focus, &:not([disabled]):not(.disabled):active {
             color: $color-clean;
             background-color: $color-dark;
             border: 1px solid $color-dark;
