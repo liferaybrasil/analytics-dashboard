@@ -12,7 +12,7 @@ class Icon extends JSXComponent {
 
 Icon.PROPS = {
     spritemap: {
-        value: '/node_modules/clay/build/images/icons/icons.svg'
+        value: '/assets/icons.svg'
     }
 }
 
