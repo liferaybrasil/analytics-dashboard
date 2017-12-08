@@ -1,0 +1,7 @@
+/*
+ * Mixins
+ */
+
+@mixin transition($type) {
+    transition: $type $transition-speed linear;
+}
