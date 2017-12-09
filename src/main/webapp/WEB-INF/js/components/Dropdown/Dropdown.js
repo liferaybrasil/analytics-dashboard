@@ -1,14 +1,54 @@
 import JSXComponent from 'metal-jsx';
+import {EventHandler} from 'metal-events';
+import dom from 'metal-dom';
 import {Button, Icon} from './../../components';
 
 import './Dropdown.scss';
 
 class Dropdown extends JSXComponent {
 
-    onClick() {
-        this.setState({
-            show: !this.state.show
+    created() {
+		this.eventHandler_ = new EventHandler();
+
+		this.eventHandler_.add(
+			dom.on(document, 'click', this.handleClickOutside.bind(this))
+		);
+    }
+    
+    disposed() {
+		this.eventHandler_.removeAllListeners();
+    }
+    
+    detached() {
+		this.eventHandler_.removeAllListeners();
+    }
+    
+    handleClickOutside(event) {
+		if (this.element.contains(event.target)) {
+			return;
+        }
+        
+		this.setState({
+            isOpen: false
         })
+	}
+
+    handleClick() {
+        this.setState({
+            isOpen: !this.state.isOpen
+        })
+    }
+
+    onClickOutside(event) {
+        console.log(Dropdown.state.element);
+
+        if (this.contains(event.target)) {
+            return;
+        } else {
+            this.setState({
+                isOpen: false
+            })
+        }
     }
 
     renderListItems() {
@@ -18,14 +58,16 @@ class Dropdown extends JSXComponent {
 
         return [].map.call(this.props.list, (item, index) => {
             return (
-                <li>{item}</li>
+                <li>
+                    <a href="#">{item}</a>
+                </li>
             );
         });
     }
 
     render() {
         return (
-            <div class="dropdown-dashboard" onClick={this.onClick.bind(this)}>
+            <div class="dropdown-dashboard" onClick={this.handleClick.bind(this)}>
                 <Button 
                     label={this.props.label} 
                     style={`${this.props.style} dropdown-dashboard__btn`} 
@@ -34,7 +76,7 @@ class Dropdown extends JSXComponent {
                     iconAlign="right"
                 />
 
-                <ul class={`${this.state.show ? 'dropdown-dashboard__list-group--show' : 'dropdown-dashboard__list-group--hide'} dropdown-dashboard__list-group`}>
+                <ul class={`${this.state.isOpen ? 'dropdown-dashboard__list-group--isOpen' : 'dropdown-dashboard__list-group--hide'} dropdown-dashboard__list-group`}>
                     {this.renderListItems()}
                 </ul>
             </div>
@@ -43,7 +85,7 @@ class Dropdown extends JSXComponent {
 }
 
 Dropdown.STATE = {
-    show: {
+    isOpen: {
         value: false
     }
 }
