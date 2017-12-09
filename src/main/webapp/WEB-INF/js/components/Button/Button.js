@@ -17,7 +17,7 @@ class Button extends JSXComponent {
     render() {
         return (
             <button type="button" class={`btn btn-dashboard btn-${this.props.style}`}>
-                {this.renderIcon()}
+                <span class="margin-right-half">{this.renderIcon()}</span>
                 {this.props.label}
             </button>
         );
