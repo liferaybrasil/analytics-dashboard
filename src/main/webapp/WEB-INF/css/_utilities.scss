@@ -2,6 +2,8 @@
  * Utilities
  */
 
+
+/* gaps */
 $positions: (null, top, right, bottom, left);
 
 @each $position in $positions {
@@ -22,4 +24,12 @@ $positions: (null, top, right, bottom, left);
     .padding-#{$position}-half { 
         @include gap(padding, $position, #{$baseline / 2});
     }
+}
+
+/* flex positions */
+
+%flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

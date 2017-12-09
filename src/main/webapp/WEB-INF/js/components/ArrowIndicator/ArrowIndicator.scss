@@ -1,0 +1,70 @@
+@import '../../../css/variables';
+@import '../../../css/mixins';
+@import '../../../css/utilities';
+
+$arrow-indicator-w: 40px;
+$arrow-indicator-h: 40px;
+
+@mixin animation($animationName) {
+    animation: $animationName .5s ease-in-out infinite forwards;
+}
+
+%shakeHorizontal {
+    @include animation(shakeHorizontal);
+}
+
+%shakeVertical {
+    @include animation(shakeVertical);
+}
+
+.arrow-indicator {
+    @extend %flex-center;
+    width: $arrow-indicator-w;
+    height: $arrow-indicator-h;
+    background-color: $color-clean;
+    border: 1px solid lighten($color-dark, 70%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    border-radius: 50%;
+
+    &.arrow-indicator--right {
+        right: 0;
+        transform: translateX(50%);
+    }
+
+    &.arrow-indicator--left {
+        left: 0;
+        transform: translateX(-50%);
+    }
+    
+    &.arrow-indicator--angle-left:hover,
+    &.arrow-indicator--angle-right:hover {
+        .arrow-indicator__icon {
+            @extend %shakeHorizontal;
+        }
+    }
+    
+    &.arrow-indicator--angle-up:hover,
+    &.arrow-indicator--angle-down:hover {
+        .arrow-indicator__icon {
+            @extend %shakeVertical;
+        }
+    }
+
+    .arrow-indicator__icon {
+        height: 10px;
+    }
+}
+
+@keyframes shakeHorizontal {
+    25% { transform: translateX(-30%) }
+    75% { transform: translateX(30%) }
+}
+
+@keyframes shakeVertical {
+    25% { transform: translateY(-30%) }
+    75% { transform: translateY(30%) }
+}
