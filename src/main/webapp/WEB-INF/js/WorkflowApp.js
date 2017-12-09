@@ -1,5 +1,5 @@
 import JSXComponent from 'metal-jsx';
-import {Header, Card, Button, Footer, Dropdown} from './components';
+import {Header, Card, Button, Footer, Dropdown, ArrowIndicator} from './components';
 
 import '../css/main.scss';
 
@@ -57,6 +57,7 @@ class CardSection extends JSXComponent {
                         </div>
                         <div class="col-md-4 col-sm-12">
                             <Card title="Unpublished" icon="live" number="2" percent="6" days="30" />
+                            <ArrowIndicator position="right" anglePosition="right" />
                         </div>
                     </div>
                         
