@@ -1,0 +1,25 @@
+/*
+ * Utilities
+ */
+
+$positions: (null, top, right, bottom, left);
+
+@each $position in $positions {
+    $i: index($positions, $position);
+
+    .margin-#{$position} { 
+        @include gap(margin, $position);
+    }
+
+    .margin-#{$position}-half { 
+        @include gap(margin, $position, #{$baseline / 2});
+    }
+
+    .padding-#{$position} { 
+        @include gap(padding, $position);
+    }
+
+    .padding-#{$position}-half { 
+        @include gap(padding, $position, #{$baseline / 2});
+    }
+}
