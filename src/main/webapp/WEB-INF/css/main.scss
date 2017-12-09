@@ -2,6 +2,7 @@
 @import '~clay/src/scss/base.scss';
 @import "variables";
 @import "mixins";
+@import "utilities";
 
 html, body {
     width: 100%;
@@ -24,23 +25,30 @@ body {
 
 
 /*
- * Custom Rows
+ * Custom Clay
  */
+.container-fluid {
+    padding-left: $baseline;
+    padding-right: $baseline;
+}
+
 @media screen and (min-width: 768px) {
+    $padding: $baseline;
+
     .row.row__no-margin {
-        $padding: 15px;
+        padding: 0;
 
         > div {
-            padding: $padding / 3;
+            padding: $padding / 5;
 
             &:first-child {
-                padding-left: $padding;
-                padding-right: $padding / 3;
+                padding-left: 15px;
+                padding-right: $padding / 5;
             }
 
             &:last-child {
-                padding-right: $padding;
-                padding-left: $padding / 3;
+                padding-right: 15px;
+                padding-left: $padding / 5;
             }
         }
     }

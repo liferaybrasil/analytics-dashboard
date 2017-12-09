@@ -1,13 +1,19 @@
+/*
+ * Variables
+ */
+
 $color-dark: #303240;
 $color-clean: #fff;
 $color-light: #f3f3f3;
 
 $font-default: 'Source Sans Pro', sans-serif;
 
-$baseline: 1.5rem;
+$baseline: 1.2rem;
 $radius: 2px;
 
 /*
  * Transitions
  */
-$transition-speed: .2s;
+ $transition-property-default: all;
+ $transition-duration-default: 0.2s;
+ $transition-timing-default  : linear;

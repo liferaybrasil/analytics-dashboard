@@ -7,7 +7,7 @@ class Dashboard extends JSXComponent {
 	render() {
 		return (
             <div id="wrapper">
-                <Header icon="page-template" title="My Company Site > Workflow"></Header>
+                <Header icon="page-template" title="My Company Site > Workflow" />
                 <main>
                     <div class="container-fluid">
                         <DropdownSection />
@@ -15,7 +15,7 @@ class Dashboard extends JSXComponent {
                         <TableSection />
                     </div>
                 </main>
-                <Footer title="© Copyright 2017"></Footer>
+                <Footer title="© 2017 Liferay Inc. All Rights Reserved" />
             </div>
 		);
 	}
@@ -24,12 +24,12 @@ class Dashboard extends JSXComponent {
 class DropdownSection extends JSXComponent {
     render() {
         return (
-            <div class="row">
+            <div class="row margin-top margin-bottom">
                 <div class="col-sm-12 text-right">
 
                     <Dropdown 
                         label="this is a dropdown" 
-                        style="primary" 
+                        style="primary margin-right" 
                         list={['item 1', 'item 2', 'item 3']} />
                     
                     <Dropdown 
