@@ -1,12 +1,16 @@
 @import '../../../css/variables';
+@import '../../../css/mixins';
 
 $card-min-height: 185px;
-$card-icon-color: lighten($color-dark, 30%);
 
 $card-title-font-size: 1.3rem;
 $card-icon-font-size: 1rem;
 $card-number-font-size: 4rem;
 $card-info-font-size: 0.75rem;
+
+%transition-card {
+    @include transition(transform, 0.1s, ease-in-out);
+}
 
 .card-dashboard-group {
     display: flex;
@@ -17,7 +21,7 @@ $card-info-font-size: 0.75rem;
 }
 
 .card-dashboard {
-    background-color: #F3F3F3;
+    background-color: $color-light;
     text-align: center;
     width: 100%;
     padding: $baseline 0;
@@ -27,23 +31,50 @@ $card-info-font-size: 0.75rem;
     flex-direction: column;
     justify-content: center;
 
+    &:hover {
+        @include transition(background-color);
+        background-color: darken($color-light, 5%);
+
+        .card-dashboard__number {
+            transform: scale(1.2);
+        }
+
+        $translateY: 30%;
+
+        .card-dashboard__icon {
+            transform: translateY(-#{$translateY});
+        }
+
+        .card-dashboard__title {
+            transform: translateY($translateY);
+        }
+
+        .card-dashboard__info {
+            transform: translateY($translateY);
+        }
+    }
+
     .card-dashboard__title {
+        @extend %transition-card;
         font-size: $card-title-font-size;
         font-weight: 700;
     }
 
     .card-dashboard__icon {
+        @extend %transition-card;
         font-size: $card-icon-font-size;
-        color: $card-icon-color;
+        color: lighten($color-dark, 30%);
     }
 
     .card-dashboard__number {
+        @extend %transition-card;
         font-size: $card-number-font-size;
         font-weight: 300;
         line-height: $baseline * 3;
     }
 
     .card-dashboard__info {
+        @extend %transition-card;
         font-size: $card-info-font-size;
     }
 }
