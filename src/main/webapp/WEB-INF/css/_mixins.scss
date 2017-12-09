@@ -1,7 +1,40 @@
 /*
+ * @author Adriano Interaminense
  * Mixins
  */
 
-@mixin transition($type) {
-    transition: $type $transition-speed linear;
+/* transition */
+@mixin transition($property: null, $duration: null, $timing: null) {
+    $property_: $transition-property-default;
+    $duration_: $transition-duration-default;
+    $timing_  : $transition-timing-default;
+
+    @if ($property) {
+        $property_: $property;
+    }
+
+    @if ($duration) {
+        $duration_: $duration;
+    }
+
+    @if ($timing) {
+        $timing_: $timing;
+    }
+
+    transition: $property_ $duration_ $timing_;
+}
+
+/* gaps */
+@mixin gap($typeGap, $position: null, $newBaseline: null) {
+    $baseline_: $baseline;
+
+    @if ($newBaseline) {
+        $baseline_: $newBaseline;
+    }
+
+    @if ($position) {
+        #{$typeGap}-#{$position}: $baseline_ !important;
+    } @else {
+        #{$typeGap}: $baseline_ !important;
+    }
 }
