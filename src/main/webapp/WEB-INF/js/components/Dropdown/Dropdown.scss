@@ -36,17 +36,13 @@ $arrow-dropdown-dashboard: 8px;
             border-bottom: $arrow-dropdown-dashboard solid $color-clean;
         }
 
-        li {
+        a {
             @include transition(linear);
             padding: #{$baseline / 4} $baseline;
-
-            &:first-child {
-                padding-top: 0;
-            }
-
-            &:last-child {
-                padding-bottom: 0;
-            }
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            color: $color-dark;
 
             &:hover {
                 background-color: $color-light;
