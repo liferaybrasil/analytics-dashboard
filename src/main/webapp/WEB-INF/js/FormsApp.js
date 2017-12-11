@@ -1,17 +1,27 @@
 import JSXComponent from 'metal-jsx';
-
 import Ajax from 'metal-ajax';
+import {
+	Header, 
+	CardC,
+	CardD,
+	CardE,
+	CardTime,
+	Icon,
+    Button, 
+    Footer, 
+    Dropdown, 
+    ArrowIndicator
+} from './components';
 
 import '../css/main.scss';
 
 class Dashboard extends JSXComponent {
 	attached() {
-		this.callService();
+		// this.callService();
 		
-		setInterval(() => {
-			this.callService();
-		}, 60000);
-		
+		// setInterval(() => {
+		// 	this.callService();
+		// }, 60000);
 	}
 	
 	callService() {
@@ -30,88 +40,111 @@ class Dashboard extends JSXComponent {
 	
 	render() {
 		return (
-			<div>
-				<Header text='Hello'></Header>
-				<div class="container-fluid">
-					<section class="row">
-						<Sessions sessions={this.props.sessions}></Sessions>
-						<div>Leo</div>
-						<div>Leo</div>
-					</section>
+			<div id="wrapper">
+				<Header icon="page-template" title="My Company Site > Paths > Forms" />
+				<main>
+					<div class="container-fluid">
+						<SectionMain />
+						<SectionCard1 />
+						<SectionCard2 />
+					</div>
+				</main>
+				<Footer title="© 2017 Liferay Inc. All Rights Reserved" />
+			</div>
+		);
+	}
+}
+
+class SectionMain extends JSXComponent {
+	render() {
+		return (
+			<div class="row margin-top margin-bottom">
+				<div class="col-sm-12">
+					<div class="flex flex--space-between">
+						<h3 class="title">
+							<Icon symbol="blogs" /> DXP Trial
+						</h3>
+						
+						<Dropdown 
+							label="this is a dropdown" 
+							style="primary margin-right" 
+							list={['item 1', 'item 2', 'item 3']}
+						/>
+					</div>
 				</div>
 			</div>
 		);
 	}
 }
 
-Dashboard.PROPS = {
-	sessions: {
-		value: 0
-	}
-}
-
-var Header = ({ text }) => {
-	return ( 
-		<header class="header">
-			<h1 class="container-fluid">
-				{text}
-			</h1>
-		</header>
-	);
-};
-
-class Sessions extends JSXComponent {
-
+class SectionCard1 extends JSXComponent {
 	render() {
 		return (
-			<article class="col-md-6 box">
-				<div class="sessions-container">
-					<h2>
-						<span>
-							{this.props.sessions}
-						</span>
-					</h2>
-					<h3 class="text-center">
-						SESSIONS
-					</h3>
+			<div class="row">
+				<div class="col-sm-2">
+					<CardC icon="archive" title="11" description="fields" />
 				</div>
-
-				<div class="sessions-container">
-					<h2>
-						<span>
-							{this.props.started}
-						</span>
-					</h2>
-					<h3 class="text-center">
-						STARTED
-					</h3>
+				<div class="col-sm-2">
+					<CardC icon="cards" title="2" description="pages" />
 				</div>
-
-				<div class="sessions-container">
-					<h2>
-						<span>
-							{this.props.converted}
-						</span>
-					</h2>
-					<h3 class="text-center">
-						CONVERTED
-					</h3>
+				<div class="col-sm-2">
+					<CardC icon="live" description="Active" />
 				</div>
-			</article>
-		); 
+			</div>
+		);
 	}
 }
 
-Sessions.PROPS = {
-	sessions: {
-		value: 0
-	},
-	started: {
-		value: 0
-	},
-	converted: {
-		value: 0
+class SectionCard2 extends JSXComponent {
+	render() {
+		return (
+			<div class="row">
+				<div class="col-sm-6">
+					<CardE items={this.state.items} />
+				</div>
+				<div class="col-sm-3">
+					<CardD 
+						icon="check-circle-full" 
+						number="533" 
+						title="DROPOFF" 
+						percent="83.6"
+					/>
+				</div>
+				<div class="col-sm-3">
+					<CardTime 
+						time="2m35s" 
+						message="AVARAGE COMPLETION TIME" 
+					/>
+				</div>
+				
+			</div>
+		);
 	}
+}
+
+SectionCard2.STATE = {
+    items: {
+        value: [
+            {
+                title: 'SESSIONS',
+                icon: 'order-arrow-down',
+                number: 1.000,
+                percent: ''
+            },
+            {
+                title: 'STARTED',
+                icon: 'play',
+                number: 467,
+                percent: 46.7
+            },
+            {
+                title: 'CONVERTED',
+                icon: 'check',
+                number: 164,
+                percent: 16.4
+            }
+        ]
+    }
 }
 
 export { Dashboard };

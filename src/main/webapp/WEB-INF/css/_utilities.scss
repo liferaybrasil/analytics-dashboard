@@ -28,8 +28,15 @@ $positions: (null, top, right, bottom, left);
 
 /* flex positions */
 
-%flex-center {
+.flex {
     display: flex;
-    align-items: center;
-    justify-content: center;
+
+    &.flex--center {
+        align-items: center;
+        justify-content: center;
+    }
+
+    &.flex--space-between {
+        justify-content: space-between;
+    }
 }
