@@ -14,6 +14,12 @@ $radius: 2px;
 /*
  * Transitions
  */
- $transition-property-default: all;
- $transition-duration-default: 0.2s;
- $transition-timing-default  : linear;
+$transition-property-default: all;
+$transition-duration-default: 0.2s;
+$transition-timing-default  : linear;
+
+/*
+ * Title
+ */
+$title-font-size: 1.2rem;
+$title-font-weight: 700;
