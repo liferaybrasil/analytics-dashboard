@@ -1,0 +1,7 @@
+$c-dashboard: '.card-dashboard';
+$c-dashboard-specific: '.card-dashboard--b';
+
+#{$c-dashboard}#{$c-dashboard-specific} {
+    display: flex;
+    justify-content: space-between;
+}
