@@ -6,9 +6,9 @@ import './ArrowIndicator.scss';
 class ArrowIndicator extends JSXComponent {
     render() {
         return (
-            <div class={`arrow-indicator arrow-indicator--${this.props.position} arrow-indicator--angle-${this.props.anglePosition}`}>
+            <div class={`arrow-indicator arrow-indicator--${this.props.align} arrow-indicator--angle-${this.props.side}`}>
                 <span class="arrow-indicator__icon">
-                    <Icon symbol={`angle-${this.props.anglePosition}`} />
+                    <Icon symbol={`angle-${this.props.align}`} />
                 </span>
             </div>
         );
