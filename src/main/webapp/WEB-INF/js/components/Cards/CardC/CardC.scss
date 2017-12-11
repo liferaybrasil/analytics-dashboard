@@ -1,0 +1,9 @@
+@import '../../../../css/variables';
+
+$c-dashboard: '.card-dashboard';
+$c-dashboard-specific: '.card-dashboard--c';
+
+#{$c-dashboard}#{$c-dashboard-specific} {
+    display: flex;
+    align-items: center;
+}

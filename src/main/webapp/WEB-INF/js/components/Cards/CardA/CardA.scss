@@ -1,0 +1,55 @@
+@import '../../../../css/variables';
+@import '../../../../css/mixins';
+
+$c-dashboard: '.card-dashboard';
+$c-dashboard-specific: '.card-dashboard--a';
+
+$card-min-height: 185px;
+
+%transition-card {
+    @include transition(transform, 0.1s, ease-in-out);
+}
+
+#{$c-dashboard}#{$c-dashboard-specific} {
+    text-align: center;
+    padding: $baseline 0;
+    min-height: $card-min-height;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &:hover {
+        @include transition(background-color);
+        background-color: darken($color-light, 5%);
+
+        #{$c-dashboard}__number {
+            transform: scale(1.2);
+        }
+
+        $translateY: 30%;
+
+        #{$c-dashboard}__icon {
+            transform: translateY(-#{$translateY});
+        }
+
+        #{$c-dashboard}__title,
+        #{$c-dashboard}__description {
+            transform: translateY($translateY);
+        }
+    }
+
+    #{$c-dashboard}__title,
+    #{$c-dashboard}__icon,
+    #{$c-dashboard}__number,
+    #{$c-dashboard}__description {
+        @extend %transition-card;
+    }
+
+    #{$c-dashboard}__number {
+        line-height: 5rem;
+    }
+
+    #{$c-dashboard}__icon {
+        color: lighten($color-dark, 30%);
+    }
+}

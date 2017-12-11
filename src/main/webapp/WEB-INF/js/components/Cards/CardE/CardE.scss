@@ -1,0 +1,28 @@
+@import '../../../../css/variables';
+
+$c-dashboard: '.card-dashboard';
+$c-dashboard-specific: '.card-dashboard--e';
+
+#{$c-dashboard}#{$c-dashboard-specific} {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    #{$c-dashboard}__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+
+        > div {
+            display: flex;
+            align-items: center;
+
+            &:first-child {
+                margin-bottom: $baseline / 2;
+            }
+        }
+    }
+}
