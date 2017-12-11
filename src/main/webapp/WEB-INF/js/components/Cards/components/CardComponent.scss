@@ -1,0 +1,41 @@
+@import '../../../../css/variables';
+
+$c-dashboard: '.card-dashboard';
+
+@mixin sizes($classComponent) {
+    &#{$c-dashboard}__#{$classComponent}--size-xs {
+        font-size: 0.8rem;
+    }
+
+    &#{$c-dashboard}__#{$classComponent}--size-sm {
+        font-size: 1rem;
+    }
+
+    &#{$c-dashboard}__#{$classComponent}--size-md {
+        font-size: 1.2rem;
+    }
+
+    &#{$c-dashboard}__#{$classComponent}--size-lg {
+        font-size: 3rem;
+    }
+
+    &#{$c-dashboard}__#{$classComponent}--size-xl {
+        font-size: 4rem;
+    }
+}
+
+#{$c-dashboard}__text {
+    margin: 0;
+
+    @include sizes(text);
+
+    @for $i from 1 through 9 {
+        &#{$c-dashboard}__text--weight-#{$i * 100} {
+            font-weight: #{$i * 100};
+        }
+    }
+}
+
+#{$c-dashboard}__icon {
+    @include sizes(icon);
+}
