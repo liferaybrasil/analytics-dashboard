@@ -1,5 +1,12 @@
 import JSXComponent from 'metal-jsx';
-import {Header, Card, Button, Footer, Dropdown, ArrowIndicator} from './components';
+import {
+    Header, 
+    CardA, 
+    Button, 
+    Footer, 
+    Dropdown, 
+    ArrowIndicator
+} from './components';
 
 import '../css/main.scss';
 
@@ -50,14 +57,14 @@ class CardSection extends JSXComponent {
                 <div class="col-md-5 col-sm-12">
                     <div class="row row__no-margin">
                         <div class="col-md-4 col-sm-12">
-                            <Card title="Workflows" icon="share" number="9" />
+                            <CardA title="Workflows" icon="share" number="9" />
                         </div>
                         <div class="col-md-4 col-sm-12">
-                            <Card title="Published" icon="play" number="7" />
+                            <CardA title="Published" icon="play" number="7" />
                         </div>
                         <div class="col-md-4 col-sm-12">
-                            <Card title="Unpublished" icon="live" number="2" percent="6" days="30" />
-                            <ArrowIndicator position="right" anglePosition="right" />
+                            <CardA title="Unpublished" icon="live" number="2" percent="6" days="30" />
+                            <ArrowIndicator align="right" side="right" />
                         </div>
                     </div>
                         
@@ -65,16 +72,16 @@ class CardSection extends JSXComponent {
                 <div class="col-md-7 col-sm-12">
                     <div class="row row__no-margin">
                         <div class="col-md-3 col-sm-12">
-                            <Card title="Process" icon="organizations" number="185" />
+                            <CardA title="Process" icon="organizations" number="185" />
                         </div>
                         <div class="col-md-3 col-sm-12">
-                            <Card title="Started" icon="check-circle" number="116" />
+                            <CardA title="Started" icon="check-circle" number="116" />
                         </div>
                         <div class="col-md-3 col-sm-12">
-                            <Card title="In Progress" icon="reload" number="66" />
+                            <CardA title="In Progress" icon="reload" number="66" />
                         </div>
                         <div class="col-md-3 col-sm-12">
-                            <Card title="Completed" icon="times" number="3" />
+                            <CardA title="Completed" icon="times" number="3" />
                         </div>
                     </div>
                 </div>
@@ -174,8 +181,5 @@ TableSection.STATE = {
         ]
     }
 }
-
-
-
 
 export { Dashboard };
