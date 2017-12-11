@@ -18,7 +18,9 @@ $arrow-indicator-h: 40px;
 }
 
 .arrow-indicator {
-    @extend %flex-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: $arrow-indicator-w;
     height: $arrow-indicator-h;
     background-color: $color-clean;
