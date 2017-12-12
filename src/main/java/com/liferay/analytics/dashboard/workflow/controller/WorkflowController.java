@@ -93,7 +93,7 @@ public class WorkflowController {
 			for (WorkflowProcessAvg workflowProcessAvg : workflowProcessAvgs) {
 				completedAux += workflowProcessAvg.getTotalcompleted();
 
-				startedAux += workflowProcessAvg.getTotal();
+				startedAux += workflowProcessAvg.getTotalstarted();
 
 				removedAux += workflowProcessAvg.getTotalremoved();
 			}

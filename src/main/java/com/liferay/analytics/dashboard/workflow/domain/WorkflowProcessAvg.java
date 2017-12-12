@@ -40,13 +40,13 @@ public class WorkflowProcessAvg implements Serializable {
 	@PrimaryKeyColumn(ordinal = 3)
 	private long processVersionId;
 
-	private long total;
-
 	private long totalcompleted;
+
+	private long totalduration;
 
 	private long totalremoved;
 
-	private long totalDuration;
+	private long totalstarted;
 
 	private String name = "Unknown";
 
@@ -80,9 +80,9 @@ public class WorkflowProcessAvg implements Serializable {
 		return processVersionId;
 	}
 
-	public long getTotal() {
+	public long getTotalstarted() {
 
-		return total;
+		return totalstarted;
 	}
 
 	public long getTotalcompleted() {
@@ -97,7 +97,7 @@ public class WorkflowProcessAvg implements Serializable {
 
 	public long getTotalDuration() {
 
-		return totalDuration;
+		return totalduration;
 	}
 
 }
