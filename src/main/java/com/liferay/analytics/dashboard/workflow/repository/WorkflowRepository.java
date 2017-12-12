@@ -24,4 +24,7 @@ import com.liferay.analytics.dashboard.workflow.domain.Workflow;
 public interface WorkflowRepository extends CassandraRepository<Workflow> {
 
 	Iterable<Workflow> findByDeletedFalse();
+
+	Workflow findByAnalyticsKeyAndProcessId(
+		String analyticsKey, long processId);
 }

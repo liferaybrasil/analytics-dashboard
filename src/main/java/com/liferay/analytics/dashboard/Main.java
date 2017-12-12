@@ -28,11 +28,13 @@ public class Main {
 
 	@GetMapping("/workflow")
 	public String workflow() {
+
 		return "workflow";
 	}
 
 	@GetMapping("/forms")
 	public String forms() {
+
 		return "forms";
 	}
 

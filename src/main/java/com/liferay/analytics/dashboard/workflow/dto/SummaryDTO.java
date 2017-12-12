@@ -14,10 +14,12 @@
 
 package com.liferay.analytics.dashboard.workflow.dto;
 
+import java.util.List;
+
 /**
  * @author Inácio Nery
  */
-public class SumaryDTO {
+public class SummaryDTO {
 
 	private long workflows;
 	private long published;
@@ -26,10 +28,12 @@ public class SumaryDTO {
 	private long started;
 	private long inprogress;
 	private long completed;
+	private List<WorkflowDTO> workflowDTOs;
 
-	public SumaryDTO(
+	public SummaryDTO(
 		long workflows, long published, long unpublished, long process,
-		long started, long inprogress, long completed) {
+		long started, long inprogress, long completed,
+		List<WorkflowDTO> workflowDTOs) {
 
 		this.workflows = workflows;
 		this.published = published;
@@ -38,6 +42,47 @@ public class SumaryDTO {
 		this.started = started;
 		this.inprogress = inprogress;
 		this.completed = completed;
+		this.workflowDTOs = workflowDTOs;
+	}
+
+	public long getWorkflows() {
+
+		return workflows;
+	}
+
+	public long getPublished() {
+
+		return published;
+	}
+
+	public long getUnpublished() {
+
+		return unpublished;
+	}
+
+	public long getProcess() {
+
+		return process;
+	}
+
+	public long getStarted() {
+
+		return started;
+	}
+
+	public long getInprogress() {
+
+		return inprogress;
+	}
+
+	public long getCompleted() {
+
+		return completed;
+	}
+
+	public List<WorkflowDTO> getWorkflowDTOs() {
+
+		return workflowDTOs;
 	}
 
 }

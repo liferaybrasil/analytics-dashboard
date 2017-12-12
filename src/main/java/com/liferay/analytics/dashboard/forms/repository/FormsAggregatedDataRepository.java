@@ -25,12 +25,11 @@ import com.liferay.analytics.dashboard.forms.domain.FormsAggregatedData;
 /**
  * @author Leonardo Barros
  */
-public interface FormsAggregatedDataRepository extends CassandraRepository<FormsAggregatedData> {
+public interface FormsAggregatedDataRepository
+	extends CassandraRepository<FormsAggregatedData> {
 
-	@Query(
-		"select * from FormsAggregatedData where analyticskey = ?0 "
-			+ "and formid = ?1 and date >= ?2 and date <= ?3")
+	@Query("select * from FormsAggregatedData where analyticskey = ?0 " +
+		"and formid = ?1 and date >= ?2 and date <= ?3")
 	List<FormsAggregatedData> find(
-		String analyticskey, Long formid, 
-		LocalDate start, LocalDate end);
+		String analyticskey, Long formid, LocalDate start, LocalDate end);
 }

@@ -29,10 +29,10 @@ import com.datastax.driver.core.LocalDate;
 public class WorkflowTaskAvg implements Serializable {
 
 	@PrimaryKeyColumn(ordinal = 0, type = PrimaryKeyType.PARTITIONED)
-	private LocalDate date;
+	private String analyticskey;
 
 	@PrimaryKeyColumn(ordinal = 1)
-	private String analyticskey;
+	private LocalDate date;
 
 	@PrimaryKeyColumn(ordinal = 2)
 	private long taskid;

@@ -29,16 +29,16 @@ import com.datastax.driver.core.LocalDate;
 public class WorkflowProcessAvg implements Serializable {
 
 	@PrimaryKeyColumn(ordinal = 0, type = PrimaryKeyType.PARTITIONED)
-	private LocalDate date;
-
-	@PrimaryKeyColumn(ordinal = 1)
 	private String analyticsKey;
 
+	@PrimaryKeyColumn(ordinal = 1)
+	private LocalDate date;
+
 	@PrimaryKeyColumn(ordinal = 2)
-	private long processid;
+	private long processId;
 
 	@PrimaryKeyColumn(ordinal = 3)
-	private long processversionid;
+	private long processVersionId;
 
 	private long total;
 
@@ -70,14 +70,14 @@ public class WorkflowProcessAvg implements Serializable {
 		return analyticsKey;
 	}
 
-	public long getProcessid() {
+	public long getProcessId() {
 
-		return processid;
+		return processId;
 	}
 
-	public long getProcessversionid() {
+	public long getProcessVersionId() {
 
-		return processversionid;
+		return processVersionId;
 	}
 
 	public long getTotal() {

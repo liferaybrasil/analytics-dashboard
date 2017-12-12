@@ -43,8 +43,8 @@ public class FormsController {
 	List<FormsAggregatedData> find(
 		@RequestParam(name = "analyticskey") String analyticskey,
 		@RequestParam(name = "formid") Long formid,
-		@RequestParam(name = "start") @DateTimeFormat(pattern="yyyy-MM-dd") Date start,
-		@RequestParam(name = "end", required = false) @DateTimeFormat(pattern="yyyy-MM-dd") Date end) {
+		@RequestParam(name = "start") @DateTimeFormat(pattern = "yyyy-MM-dd") Date start,
+		@RequestParam(name = "end", required = false) @DateTimeFormat(pattern = "yyyy-MM-dd") Date end) {
 
 		Calendar startCalendar = Calendar.getInstance();
 		startCalendar.setTime(start);
@@ -53,14 +53,14 @@ public class FormsController {
 		endCalendar.setTime(end != null ? end : new Date());
 
 		return repository.find(
-			analyticskey, formid, 
+			analyticskey, formid,
 			LocalDate.fromYearMonthDay(
-				startCalendar.get(Calendar.YEAR), 
-				startCalendar.get(Calendar.MONTH) + 1, 
-				startCalendar.get(Calendar.DAY_OF_MONTH)), 
+				startCalendar.get(Calendar.YEAR),
+				startCalendar.get(Calendar.MONTH) + 1,
+				startCalendar.get(Calendar.DAY_OF_MONTH)),
 			LocalDate.fromYearMonthDay(
-				endCalendar.get(Calendar.YEAR), 
-				endCalendar.get(Calendar.MONTH) + 1, 
+				endCalendar.get(Calendar.YEAR),
+				endCalendar.get(Calendar.MONTH) + 1,
 				endCalendar.get(Calendar.DAY_OF_MONTH)));
 	}
 }

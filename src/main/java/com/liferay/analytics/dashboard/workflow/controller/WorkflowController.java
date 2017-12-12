@@ -14,10 +14,16 @@
 
 package com.liferay.analytics.dashboard.workflow.controller;
 
-import java.util.Optional;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,10 +31,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.google.common.collect.Iterables;
 import com.liferay.analytics.dashboard.workflow.domain.Workflow;
-import com.liferay.analytics.dashboard.workflow.domain.WorkflowEntities;
 import com.liferay.analytics.dashboard.workflow.domain.WorkflowProcessAvg;
-import com.liferay.analytics.dashboard.workflow.domain.WorkflowTaskAvg;
-import com.liferay.analytics.dashboard.workflow.dto.SumaryDTO;
+import com.liferay.analytics.dashboard.workflow.dto.SummaryDTO;
+import com.liferay.analytics.dashboard.workflow.dto.WorkflowDTO;
 import com.liferay.analytics.dashboard.workflow.repository.WorkflowEntitiesRepository;
 import com.liferay.analytics.dashboard.workflow.repository.WorkflowProcessAvgRepository;
 import com.liferay.analytics.dashboard.workflow.repository.WorkflowRepository;
@@ -53,67 +58,102 @@ public class WorkflowController {
 	@Autowired
 	private WorkflowRepository workflowRepository;
 
-	@GetMapping("/sumary/{start}/{end}")
-	public SumaryDTO sumary(
-		@PathVariable(value = "start") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) String start,
-		@PathVariable(value = "end") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) String end) {
+	@GetMapping("/summary/{start}/{end}")
+	public ResponseEntity<SummaryDTO> summary(
+		@PathVariable(value = "start") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate start,
+		@PathVariable(value = "end") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate end) {
 
 		Iterable<Workflow> workflows = workflowRepository.findByDeletedFalse();
 
 		long published = 0;
 		long unpublished = 0;
-		long process = 0;
-		long started = 0;
-		long inprogress = 0;
 		long completed = 0;
+		long removed = 0;
+		long started = 0;
+		List<WorkflowDTO> workflowDTOs = new ArrayList<>();
 
 		for (Workflow workflow : workflows) {
+
 			if (workflow.isActive()) {
 				published++;
 			}
 			else {
 				unpublished++;
 			}
+
 			Iterable<WorkflowProcessAvg> workflowProcessAvgs =
-				WorkflowProcessAvgRepository.findByProcessid(
-					workflow.getProcessid());
+				WorkflowProcessAvgRepository.findByAnalyticsKeyAndDateInAndProcessId(
+					workflow.getAnalyticsKey(),
+					getDatesBetweenUsing(start, end), workflow.getProcessid());
+
+			long completedAux = 0;
+			long removedAux = 0;
+			long startedAux = 0;
 
 			for (WorkflowProcessAvg workflowProcessAvg : workflowProcessAvgs) {
-				process += workflowProcessAvg.getTotal() -
-					workflowProcessAvg.getTotalremoved();
+				completedAux += workflowProcessAvg.getTotalcompleted();
 
-				completed += workflowProcessAvg.getTotalcompleted();
+				startedAux += workflowProcessAvg.getTotal();
+
+				removedAux += workflowProcessAvg.getTotalremoved();
 			}
+
+			removed += removedAux;
+			started += startedAux;
+			completed += completedAux;
+
+			workflowDTOs.add(
+				new WorkflowDTO(
+					workflow.getProcessid(), workflow.getTitle(),
+					workflow.isActive(), startedAux + completedAux - removedAux,
+					startedAux, startedAux - completedAux - removedAux,
+					completedAux));
 		}
 
-		return new SumaryDTO(
-			Iterables.size(workflows), published, unpublished, process, started,
-			inprogress, completed);
+		return ResponseEntity.ok(
+			new SummaryDTO(
+				Iterables.size(workflows), published, unpublished,
+				started + completed - removed, started,
+				started - completed - removed, completed, workflowDTOs));
 	}
 
-	@GetMapping("/list")
-	public Iterable<Workflow> list() {
+	@GetMapping("/process/{id}/{start}/{end}")
+	public void process(
+		@PathVariable(value = "key") String analyticsKey,
+		@PathVariable(value = "id") long processId,
+		@PathVariable(value = "start") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate start,
+		@PathVariable(value = "end") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate end) {
 
-		return workflowRepository.findByDeletedFalse();
-	}
+		Workflow workflow = workflowRepository.findByAnalyticsKeyAndProcessId(
+			analyticsKey, processId);
 
-	@GetMapping("/taskavg")
-	public Iterable<WorkflowTaskAvg> getWorkflowTaskAvgs() {
+		Iterable<WorkflowProcessAvg> workflowProcessAvgs =
+			WorkflowProcessAvgRepository.findByAnalyticsKeyAndDateInAndProcessId(
+				workflow.getAnalyticsKey(), getDatesBetweenUsing(start, end),
+				workflow.getProcessid());
 
-		Iterable<WorkflowTaskAvg> workflowTaskAvgs =
-			workflowTaskAvgRepository.findAll();
+		long completed = 0;
+		long removed = 0;
+		long started = 0;
 
-		for (WorkflowTaskAvg workflowTaskAvg : workflowTaskAvgs) {
-			WorkflowEntities workflowEntities =
-				workflowEntitiesRepository.findOne(
-					"KALEO_TASK", workflowTaskAvg.getTaskid());
+		for (WorkflowProcessAvg workflowProcessAvg : workflowProcessAvgs) {
+			completed += workflowProcessAvg.getTotalcompleted();
 
-			if (workflowEntities != null) {
-				workflowTaskAvg.setName(workflowEntities.getName());
-			}
+			started += workflowProcessAvg.getTotal();
+
+			removed += workflowProcessAvg.getTotalremoved();
 		}
 
-		return workflowTaskAvgs;
+	}
+
+	protected List<LocalDate> getDatesBetweenUsing(
+		LocalDate startDate, LocalDate endDate) {
+
+		long numOfDaysBetween = ChronoUnit.DAYS.between(startDate, endDate) + 1;
+
+		return IntStream.iterate(0, i -> i + 1).limit(
+			numOfDaysBetween).mapToObj(i -> startDate.plusDays(i)).collect(
+				Collectors.toList());
 	}
 
 }

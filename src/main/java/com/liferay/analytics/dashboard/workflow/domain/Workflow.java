@@ -31,16 +31,21 @@ import org.springframework.data.cassandra.mapping.Table;
 public class Workflow implements Serializable {
 
 	@PrimaryKeyColumn(ordinal = 0, type = PrimaryKeyType.PARTITIONED)
-	private long processid;
+	private String analyticsKey;
 
 	@PrimaryKeyColumn(ordinal = 1)
-	private String analyticsKey;
+	private long processid;
 
 	private boolean deleted;
 
 	private boolean active;
 
 	private String title;
+
+	public String getAnalyticsKey() {
+
+		return analyticsKey;
+	}
 
 	public long getProcessid() {
 

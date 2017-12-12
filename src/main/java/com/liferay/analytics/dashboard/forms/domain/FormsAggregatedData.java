@@ -53,39 +53,48 @@ public class FormsAggregatedData implements Serializable {
 	private long dropoffs;
 
 	public String getDate() {
+
 		Calendar c = Calendar.getInstance();
-		c.set(date.getYear(), date.getMonth()-1, date.getDay());
+		c.set(date.getYear(), date.getMonth() - 1, date.getDay());
 
 		return sdf.format(c.getTime());
 	}
 
 	public long getViews() {
+
 		return views;
 	}
 
 	public long getSessions() {
+
 		return sessions;
 	}
 
 	public long getStarted() {
+
 		return started;
 	}
-	
+
 	public double getStartedPercent() {
-		return ((double)started / views) * 100;
+
+		return ((double) started / views) * 100;
 	}
 
 	public long getConverted() {
+
 		return converted;
 	}
 
 	public long getConvertedTotalTime() {
+
 		return convertedTotalTime;
 	}
 
 	public long getDropoffs() {
+
 		return dropoffs;
 	}
-	
-	private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
+	private static final SimpleDateFormat sdf =
+		new SimpleDateFormat("yyyy-MM-dd");
 }
