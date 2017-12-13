@@ -25,6 +25,5 @@ public interface WorkflowRepository extends CassandraRepository<Workflow> {
 
 	Iterable<Workflow> findByDeletedFalse();
 
-	Workflow findByAnalyticsKeyAndProcessId(
-		String analyticsKey, long processId);
+	Workflow findByProcessid(long processId);
 }

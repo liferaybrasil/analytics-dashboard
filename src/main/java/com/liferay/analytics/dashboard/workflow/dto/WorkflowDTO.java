@@ -14,6 +14,8 @@
 
 package com.liferay.analytics.dashboard.workflow.dto;
 
+import java.util.List;
+
 /**
  * @author Inácio Nery
  */
@@ -22,23 +24,41 @@ public class WorkflowDTO {
 	private long id;
 	private String title;
 	private boolean status;
-	private long process;
+	private long total;
 	private long started;
-	private long inprogress;
+	private long progress;
 	private long completed;
+	private long average;
+	private List<TaskDTO> taskDTOs;
 
 	public WorkflowDTO(
-		long id, String title, boolean status, long process, long started,
-		long inprogress, long completed) {
+		long id, String title, boolean status, long total, long started,
+		long progress, long completed) {
 
 		super();
 		this.id = id;
 		this.title = title;
 		this.status = status;
-		this.process = process;
+		this.total = total;
 		this.started = started;
-		this.inprogress = inprogress;
+		this.progress = progress;
 		this.completed = completed;
+	}
+
+	public WorkflowDTO(
+		long id, String title, boolean status, long total, long started,
+		long progress, long completed, long average, List<TaskDTO> taskDTOs) {
+
+		super();
+		this.id = id;
+		this.title = title;
+		this.status = status;
+		this.total = total;
+		this.started = started;
+		this.progress = progress;
+		this.completed = completed;
+		this.average = average;
+		this.taskDTOs = taskDTOs;
 	}
 
 	public long getId() {
@@ -56,9 +76,9 @@ public class WorkflowDTO {
 		return status;
 	}
 
-	public long getProcess() {
+	public long getTotal() {
 
-		return process;
+		return total;
 	}
 
 	public long getStarted() {
@@ -66,14 +86,24 @@ public class WorkflowDTO {
 		return started;
 	}
 
-	public long getInprogress() {
+	public long getProgress() {
 
-		return inprogress;
+		return progress;
 	}
 
 	public long getCompleted() {
 
 		return completed;
+	}
+
+	public long getAverage() {
+
+		return average;
+	}
+
+	public List<TaskDTO> getTaskDTOs() {
+
+		return taskDTOs;
 	}
 
 }

@@ -14,9 +14,6 @@
 
 package com.liferay.analytics.dashboard.workflow.repository;
 
-import java.time.LocalDate;
-import java.util.Collection;
-
 import org.springframework.data.cassandra.repository.CassandraRepository;
 
 import com.liferay.analytics.dashboard.workflow.domain.WorkflowProcessAvg;
@@ -27,6 +24,6 @@ import com.liferay.analytics.dashboard.workflow.domain.WorkflowProcessAvg;
 public interface WorkflowProcessAvgRepository
 	extends CassandraRepository<WorkflowProcessAvg> {
 
-	Iterable<WorkflowProcessAvg> findByAnalyticsKeyAndDateInAndProcessId(
-		String analyticsKey, Collection<LocalDate> dates, long processId);
+	Iterable<WorkflowProcessAvg> findByAnalyticsKeyAndProcessId(
+		String analyticsKey, long processId);
 }

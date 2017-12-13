@@ -24,23 +24,23 @@ public class SummaryDTO {
 	private long workflows;
 	private long published;
 	private long unpublished;
-	private long process;
+	private long total;
 	private long started;
-	private long inprogress;
+	private long progress;
 	private long completed;
 	private List<WorkflowDTO> workflowDTOs;
 
 	public SummaryDTO(
-		long workflows, long published, long unpublished, long process,
-		long started, long inprogress, long completed,
+		long workflows, long published, long unpublished, long total,
+		long started, long progress, long completed,
 		List<WorkflowDTO> workflowDTOs) {
 
 		this.workflows = workflows;
 		this.published = published;
 		this.unpublished = unpublished;
-		this.process = process;
+		this.total = total;
 		this.started = started;
-		this.inprogress = inprogress;
+		this.progress = progress;
 		this.completed = completed;
 		this.workflowDTOs = workflowDTOs;
 	}
@@ -60,9 +60,9 @@ public class SummaryDTO {
 		return unpublished;
 	}
 
-	public long getProcess() {
+	public long getTotal() {
 
-		return process;
+		return total;
 	}
 
 	public long getStarted() {
@@ -70,9 +70,9 @@ public class SummaryDTO {
 		return started;
 	}
 
-	public long getInprogress() {
+	public long getProgress() {
 
-		return inprogress;
+		return progress;
 	}
 
 	public long getCompleted() {

@@ -15,12 +15,11 @@
 package com.liferay.analytics.dashboard.workflow.domain;
 
 import java.io.Serializable;
+import java.time.LocalDate;
 
 import org.springframework.cassandra.core.PrimaryKeyType;
 import org.springframework.data.cassandra.mapping.PrimaryKeyColumn;
 import org.springframework.data.cassandra.mapping.Table;
-
-import com.datastax.driver.core.LocalDate;
 
 /**
  * @author Inácio Nery

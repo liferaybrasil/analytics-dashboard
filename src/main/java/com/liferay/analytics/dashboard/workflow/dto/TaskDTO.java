@@ -12,17 +12,45 @@
  * details.
  */
 
-package com.liferay.analytics.dashboard.workflow.repository;
-
-import org.springframework.data.cassandra.repository.CassandraRepository;
-
-import com.liferay.analytics.dashboard.workflow.domain.WorkflowTaskAvg;
+package com.liferay.analytics.dashboard.workflow.dto;
 
 /**
  * @author Inácio Nery
  */
-public interface WorkflowTaskAvgRepository
-	extends CassandraRepository<WorkflowTaskAvg> {
+public class TaskDTO {
 
-	Iterable<WorkflowTaskAvg> findByprocessversionid(long processversionid);
+	private long id;
+	private String title;
+	private long total;
+	private long average;
+
+	public TaskDTO(long id, String title, long total, long average) {
+
+		super();
+		this.id = id;
+		this.title = title;
+		this.total = total;
+		this.average = average;
+	}
+
+	public long getId() {
+
+		return id;
+	}
+
+	public String getTitle() {
+
+		return title;
+	}
+
+	public long getTotal() {
+
+		return total;
+	}
+
+	public long getAverage() {
+
+		return average;
+	}
+
 }
