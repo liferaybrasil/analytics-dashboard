@@ -154,7 +154,7 @@ class CardPerformanceItem extends JSXComponent {
 				animateFrom={`${p1.x} ${height}, ${p2.x} ${height}, ${p3.x} ${p3.y}, ${p4.x} ${p4.y};`}
 				animateTo={`${p1.x} ${p1.y}, ${p2.x} ${p2.y}, ${p3.x} ${p3.y}, ${p4.x} ${p4.y};`}
 				color="rgba(0, 0, 0, 0.1)"
-				duration="20s"
+				duration="5s"
 			/>
 		);
 	} 

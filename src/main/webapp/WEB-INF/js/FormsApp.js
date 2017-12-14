@@ -124,6 +124,31 @@ class SectionCard2 extends JSXComponent {
 	}
 }
 
+SectionCard2.STATE = {
+    items: {
+        value: [
+            {
+                title: 'SESSIONS',
+                icon: 'order-arrow-down',
+                number: 1.000,
+                percent: ''
+            },
+            {
+                title: 'STARTED',
+                icon: 'play',
+                number: 467,
+                percent: 46.7
+            },
+            {
+                title: 'CONVERTED',
+                icon: 'check',
+                number: 164,
+                percent: 16.4
+            }
+        ]
+    }
+}
+
 class SectionPerformance extends JSXComponent {
 	render() {
 		return (
@@ -272,31 +297,6 @@ SectionPerformance.STATE = {
 			]
 		}
 	}
-}
-
-SectionCard2.STATE = {
-    items: {
-        value: [
-            {
-                title: 'SESSIONS',
-                icon: 'order-arrow-down',
-                number: 1.000,
-                percent: ''
-            },
-            {
-                title: 'STARTED',
-                icon: 'play',
-                number: 467,
-                percent: 46.7
-            },
-            {
-                title: 'CONVERTED',
-                icon: 'check',
-                number: 164,
-                percent: 16.4
-            }
-        ]
-    }
 }
 
 export { Dashboard };
