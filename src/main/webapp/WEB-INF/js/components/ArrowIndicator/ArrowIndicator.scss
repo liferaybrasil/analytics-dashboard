@@ -55,10 +55,6 @@ $arrow-indicator-h: 40px;
             @extend %shakeVertical;
         }
     }
-
-    .arrow-indicator__icon {
-        height: 10px;
-    }
 }
 
 @keyframes shakeHorizontal {
