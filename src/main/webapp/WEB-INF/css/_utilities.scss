@@ -40,3 +40,9 @@ $positions: (null, top, right, bottom, left);
         justify-content: space-between;
     }
 }
+
+/* hide elements */
+
+.hide {
+    display: none !important;
+}
