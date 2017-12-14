@@ -6,6 +6,7 @@ import {
 	CardD,
 	CardE,
 	CardTime,
+	CardPerformance,
 	Icon,
     Button, 
     Footer, 
@@ -47,6 +48,7 @@ class Dashboard extends JSXComponent {
 						<SectionMain />
 						<SectionCard1 />
 						<SectionCard2 />
+						<SectionPerformance />
 					</div>
 				</main>
 				<Footer title="© 2017 Liferay Inc. All Rights Reserved" />
@@ -119,6 +121,156 @@ class SectionCard2 extends JSXComponent {
 				
 			</div>
 		);
+	}
+}
+
+class SectionPerformance extends JSXComponent {
+	render() {
+		return (
+			<div class="row">
+				<div class="col-sm-12">
+					<CardPerformance 
+						title="Page 1 - Personal Information"
+						data={this.state.data} 
+					/>
+				</div>
+				<div class="col-sm-12">
+					<CardPerformance 
+						title="Page 2 - Company Information"
+						data={this.state.data} 
+					/>
+				</div>
+			</div>
+		); 
+	}
+}
+
+SectionPerformance.STATE = {
+	data: {
+		value: {
+			name: 'Sessions',
+			total: 2050,
+			visitors: 533,
+			dropOff: {
+				total: 0, percent: 53.3
+			},
+			fields: [
+				{
+					name: 'Email Address',
+					total: 330,
+					time: {
+						value: 11.24,
+						warning: false
+					},
+					reload: {
+						value: 7.2,
+						warning: true
+					},
+					page: {
+						value: 11.1,
+						warning: true,
+					},
+					dropOff: {
+						total: 0, percent: 0
+					},
+				},
+				{
+					name: 'Password',
+					total: 550,
+					time: {
+						value: 4.77,
+						warning: false
+					},
+					reload: {
+						value: 7.2,
+						warning: false
+					},
+					page: {
+						value: 11.1,
+						warning: true,
+					},
+					dropOff: {
+						total: 14, percent: 1.4
+					},
+				},
+				{
+					name: 'First Name',
+					total: 250,
+					time: {
+						value: 4.17,
+						warning: false
+					},
+					reload: {
+						value: 8.4,
+						warning: false
+					},
+					page: {
+						value: 12.5,
+						warning: true,
+					},
+					dropOff: {
+						total: 88, percent: 8.8
+					},
+				},
+				{
+					name: 'Last Name',
+					total: 30,
+					time: {
+						value: 2.46,
+						warning: true
+					},
+					reload: {
+						value: 5.8,
+						warning: false
+					},
+					page: {
+						value: 11.8,
+						warning: true,
+					},
+					dropOff: {
+						total: 3, percent: 0.3
+					},
+				},
+				{
+					name: 'Number',
+					total: 155,
+					time: {
+						value: 6.91,
+						warning: false
+					},
+					reload: {
+						value: 5.4,
+						warning: false
+					},
+					page: {
+						value: 12.1,
+						warning: true,
+					},
+					dropOff: {
+						total: 2, percent: 0.2
+					},
+				},
+				{
+					name: 'Company',
+					total: 735,
+					time: {
+						value: 4.95,
+						warning: false
+					},
+					reload: {
+						value: 6.8,
+						warning: false
+					},
+					page: {
+						value: 15.6,
+						warning: true,
+					},
+					dropOff: {
+						total: 3, percent: 0.3
+					},
+				}
+			]
+		}
 	}
 }
 
