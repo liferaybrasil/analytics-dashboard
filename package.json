@@ -32,6 +32,7 @@
     "metal-ajax": "^3.1.0",
     "metal-component": "^2.14.0",
     "metal-jsx": "^2.14.1",
+    "metal-position": "^2.1.0",
     "metal-state": "^2.14.0",
     "metal-web-component": "^2.14.0"
   },
@@ -56,6 +57,7 @@
     "lerna": "^2.4.0",
     "lint-staged": "^4.0.0",
     "metal-a11y-checker": "^1.0.5",
+    "metal-debounce": "^2.0.0",
     "metal-dom": "^2.15.0",
     "metal-events": "^2.15.0",
     "metal-jest-serializer": "^1.0.1",
