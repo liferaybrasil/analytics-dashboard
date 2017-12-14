@@ -5,6 +5,7 @@ import CardC from './Cards/CardC';
 import CardD from './Cards/CardD';
 import CardE from './Cards/CardE';
 import CardTime from './Cards/CardTime';
+import CardPerformance from './Cards/CardPerformance';
 import Icon from './Icon';
 import Button from './Button';
 import ArrowIndicator from './ArrowIndicator';
@@ -19,6 +20,7 @@ export {
 	CardD,
 	CardE,
 	CardTime,
+	CardPerformance,
 	Icon,
 	Button,
 	ArrowIndicator,
