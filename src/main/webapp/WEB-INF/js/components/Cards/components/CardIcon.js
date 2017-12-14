@@ -22,9 +22,9 @@ class CardIcon extends JSXComponent {
         }
 
         return (
-            <div class={`${this.state.className} ${this.size()}`}>
+            <span class={`${this.state.className} ${this.size()}`}>
                 <Icon symbol={this.props.icon} />
-            </div>
+            </span>
         );
     }
 }
