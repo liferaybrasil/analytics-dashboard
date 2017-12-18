@@ -13,77 +13,17 @@ class SVGPolygon extends JSXComponent {
 	render() {
 		const {
 			props: {
-				animateFrom,
-				animateTo,
+				points,
 				color,
 				duration
-			},
-			state: {
-				animationFill,
-				attributeType,
-				attributeName,
-				calcMode,
-				fill,
-				height,
-				keySplines,
-				keyTimes,
-				width
 			}
 		} = this;
 
 		return (
 			<svg width="100%" height="100%">
-				<polygon fill={color}>
-					<animate 
-						attributeType={attributeType}
-						attributeName={attributeName}
-						dur={duration}
-						fill={fill}
-						calcMode={calcMode}
-						keySplines={keySplines}
-						keyTimes={keyTimes}
-						from={animateFrom}
-						to={animateTo} />
-				</polygon>
+				<polygon fill={color} points={points}></polygon>
 			</svg>
 		);
-	}
-}
-
-SVGPolygon.STATE = {
-	animationFill: {
-		value: "freeze"
-	},
-	attributeType: {
-		value: "XML"
-	},
-	attributeName: {
-		value: 'points'
-	},
-	calcMode: {
-		value: "spline"
-	},
-	fill: {
-		value: "freeze"
-	},
-	height: {
-		value: "100%"
-	},
-	keySplines: {
-		value: `
-			0.1 0.8 0.2 1;
-			0.1 0.8 0.2 1;
-			0.1 0.8 0.2 1;
-			0.1 0.8 0.2 1;
-			0.1 0.8 0.2 1;
-			0.1 0.8 0.2 1;
-		`
-	},
-	keyTimes: {
-		value: "0; 0.22; 0.33; 0.55; 0.66; 0.88; 1"
-	},
-	width: {
-		value: "100%"
 	}
 }
 
@@ -151,10 +91,8 @@ class CardPerformanceItem extends JSXComponent {
 
 		return (
 			<SVGPolygon 
-				animateFrom={`${p1.x} ${height}, ${p2.x} ${height}, ${p3.x} ${p3.y}, ${p4.x} ${p4.y};`}
-				animateTo={`${p1.x} ${p1.y}, ${p2.x} ${p2.y}, ${p3.x} ${p3.y}, ${p4.x} ${p4.y};`}
+				points={`${p1.x} ${p1.y}, ${p2.x} ${p2.y}, ${p3.x} ${p3.y}, ${p4.x} ${p4.y}`}
 				color="rgba(0, 0, 0, 0.1)"
-				duration="5s"
 			/>
 		);
 	} 
