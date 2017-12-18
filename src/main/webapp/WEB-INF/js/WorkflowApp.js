@@ -1,4 +1,8 @@
 import JSXComponent from 'metal-jsx';
+import Ajax from 'metal-ajax';
+import {MultiMap} from 'metal-structs';
+import {fetch} from './utils';
+
 import {
     Header, 
     CardA, 
@@ -10,22 +14,109 @@ import {
 
 import '../css/main.scss';
 
+const TIME_UPDATE = 6000;
+
 class Dashboard extends JSXComponent {
+    attached() {
+        this.callService();
+
+        setInterval(() => {
+            this.callService();
+        }, TIME_UPDATE);
+    }
+
+    callService() {
+        fetch('workflow', 'summary/2017-12-17').then(json => { 
+            console.log(json);
+
+            this.setState({ 
+                workflows: json.workflows,
+                published: json.published,  
+                unpublished: json.unpublished,  
+                total: json.total,  
+                started: json.started,  
+                progress: json.progress,    
+                completed: json.completed,  
+                workflowDTOs: json.workflowDTOs
+            });
+
+        }).catch(function(error) { 
+            console.log(error); 
+        });
+    }
+
 	render() {
+
+        const {
+            state: {
+                headerTitle,
+                footerTitle,
+                workflows,
+                published,
+                unpublished,
+                total,
+                started,
+                progress,
+                completed,
+                workflowDTOs
+            }
+        } = this;
+
 		return (
             <div id="wrapper">
-                <Header icon="page-template" title="My Company Site > Workflow" />
+                <Header icon="page-template" title={headerTitle} />
                 <main>
                     <div class="container-fluid">
                         <DropdownSection />
-                        <CardSection />
-                        <TableSection />
+                        <CardSection number={{
+                            workflows,
+                            published,
+                            unpublished,
+                            total,
+                            started,
+                            progress,
+                            completed
+                        }} />
+                        <TableSection items={workflowDTOs} />
                     </div>
                 </main>
-                <Footer title="© 2017 Liferay Inc. All Rights Reserved" />
+                {/* <Footer title={footerTitle} /> */}
             </div>
 		);
 	}
+}
+
+Dashboard.STATE = {
+    headerTitle: {
+        value: 'My Company Site > Workflow'
+    },
+    footerTitle: {
+        value: '© 2017 Liferay Inc. All Rights Reserved'
+    },
+    workflows: {
+        value: 0
+    },
+    published: {
+        value: 0
+    },
+    unpublished: {
+        value: 0
+    },
+    total: {
+        value: 0
+    },
+    started: {
+        value: 0
+    },
+    progress: {
+        value: 0
+    },
+    completed: {
+        value: 0
+    },
+    workflowDTOs: {
+        value: []
+    }
 }
 
 class DropdownSection extends JSXComponent {
@@ -51,37 +142,72 @@ class DropdownSection extends JSXComponent {
 }
 
 class CardSection extends JSXComponent {
+
+    getNumber(number) {
+        return number ? number.toString() : '0';
+    }
+
     render() {
+
+        const {number} = this.props;
+
         return (
             <div class="row">
                 <div class="col-md-5 col-sm-12">
                     <div class="row row__no-margin">
                         <div class="col-md-4 col-sm-12">
-                            <CardA title="Workflows" icon="share" number="9" />
+                            <CardA 
+                                title="Workflows" 
+                                icon="share"
+                                number={this.getNumber(number.workflows)} 
+                            />
                         </div>
                         <div class="col-md-4 col-sm-12">
-                            <CardA title="Published" icon="play" number="7" />
+                            <CardA 
+                                title="Published"
+                                icon="share"
+                                number={this.getNumber(number.published)} 
+                            />
                         </div>
                         <div class="col-md-4 col-sm-12">
-                            <CardA title="Unpublished" icon="live" number="2" percent="6" days="30" />
+                            <CardA 
+                                title="Unpublished"
+                                icon="share"
+                                number={this.getNumber(number.unpublished)} 
+                            />
                             <ArrowIndicator align="right" side="right" />
                         </div>
                     </div>
-                        
                 </div>
                 <div class="col-md-7 col-sm-12">
                     <div class="row row__no-margin">
                         <div class="col-md-3 col-sm-12">
-                            <CardA title="Process" icon="organizations" number="185" />
+                            <CardA 
+                                title="Process"
+                                icon="share"
+                                number={this.getNumber(number.total)} 
+                            />
                         </div>
                         <div class="col-md-3 col-sm-12">
-                            <CardA title="Started" icon="check-circle" number="116" />
+                            <CardA 
+                                title="Started"
+                                icon="share"
+                                number={this.getNumber(number.started)} 
+                            />
                         </div>
                         <div class="col-md-3 col-sm-12">
-                            <CardA title="In Progress" icon="reload" number="66" />
+                            <CardA 
+                                title="In Progress"
+                                icon="share"
+                                number={this.getNumber(number.progress)} 
+                            />
                         </div>
                         <div class="col-md-3 col-sm-12">
-                            <CardA title="Completed" icon="times" number="3" />
+                            <CardA 
+                                title="Completed"
+                                icon="share"
+                                number={this.getNumber(number.completed)} 
+                            />
                         </div>
                     </div>
                 </div>
@@ -91,20 +217,34 @@ class CardSection extends JSXComponent {
 }
 
 class TableSection extends JSXComponent {
+
+    getNumber(number) {
+        return number ? number.toString() : '0';
+    }
+
+    getStatus(status) {
+        return status ? 'active' : 'inactive';
+    }
+
     renderTableBody() {
-        let {items} = this.state;
+
+        const {items} = this.props;
 
         return [].map.call(items, (item, index) => {
             return (
                 <tr>
-                    <td class="text-left">{item.workflow}</td>
-                    <td class="text-center">{item.status}</td>
-                    <td class="text-right">{item.process}</td>
-                    <td class="text-right">{item.started}</td>
-                    <td class="text-right">{item.inProgress}</td>
-                    <td class="text-right">{item.completed}</td>
+                    <td class="text-left">{item.title}</td>
+                    <td class="text-center">{this.getStatus(item.status)}</td>
+                    <td class="text-right">{this.getNumber(item.total)}</td>
+                    <td class="text-right">{this.getNumber(item.started)}</td>
+                    <td class="text-right">{this.getNumber(item.progress)}</td>
+                    <td class="text-right">{this.getNumber(item.completed)}</td>
                     <td class="text-right">
-                        <Button label="view report" style="secondary" />
+                        <a href={`/workflow/process?id=${item.id}`}
+                            type="button"
+                            class="btn btn-dashboard btn-secondary">
+                            view report
+                        </a>
                     </td>
                 </tr>
             );
@@ -112,6 +252,11 @@ class TableSection extends JSXComponent {
     }
 
     render() {
+
+        if(this.props.items.length === 0) {
+            return;
+        }
+
         return (
             <div class="row">
                 <div class="col-sm-12">
@@ -132,53 +277,6 @@ class TableSection extends JSXComponent {
                 </div>
             </div>
         );
-    }
-}
-
-TableSection.STATE = {
-    items: {
-        value: [
-            {
-                workflow: 'New Hirings - ENG',
-                status: 'Active',
-                process: 30,
-                started: 20,
-                inProgress: 8,
-                completed: 2
-            },
-            {
-                workflow: 'New Hirings - ENG',
-                status: 'Active',
-                process: 30,
-                started: 20,
-                inProgress: 8,
-                completed: 2
-            },
-            {
-                workflow: 'New Hirings - ENG',
-                status: 'Active',
-                process: 30,
-                started: 20,
-                inProgress: 8,
-                completed: 2
-            },
-            {
-                workflow: 'New Hirings - ENG',
-                status: 'Active',
-                process: 30,
-                started: 20,
-                inProgress: 8,
-                completed: 2
-            },
-            {
-                workflow: 'New Hirings - ENG',
-                status: 'Active',
-                process: 30,
-                started: 20,
-                inProgress: 8,
-                completed: 2
-            }
-        ]
     }
 }
 

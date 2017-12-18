@@ -3,7 +3,8 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: {
-	  Workflow: './src/main/webapp/WEB-INF/js/WorkflowApp.js',
+    Workflow: './src/main/webapp/WEB-INF/js/WorkflowApp.js',
+    WorkflowProcess: './src/main/webapp/WEB-INF/js/WorkflowProcessApp.js',
 	  Forms: './src/main/webapp/WEB-INF/js/FormsApp.js',
   },
   module: {

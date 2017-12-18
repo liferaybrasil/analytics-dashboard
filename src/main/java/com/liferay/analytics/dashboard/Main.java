@@ -32,6 +32,12 @@ public class Main {
 		return "workflow";
 	}
 
+	@GetMapping("/workflow/process")
+	public String workflowProcess() {
+
+		return "workflowProcess";
+	}
+
 	@GetMapping("/forms")
 	public String forms() {
 
