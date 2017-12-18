@@ -20,32 +20,65 @@ import org.springframework.cassandra.core.PrimaryKeyType;
 import org.springframework.data.cassandra.mapping.PrimaryKeyColumn;
 import org.springframework.data.cassandra.mapping.Table;
 
+import com.datastax.driver.core.LocalDate;
+
 /**
  * @author Inácio Nery
  */
-@Table(value = "workflowentities")
-public class WorkflowEntities implements Serializable {
+@Table(value = "workflowtask")
+public class WorkflowTask implements Serializable {
 
 	@PrimaryKeyColumn(ordinal = 0, type = PrimaryKeyType.PARTITIONED)
-	private String entity;
+	private String analyticskey;
 
 	@PrimaryKeyColumn(ordinal = 1)
-	private long id;
+	private LocalDate date;
+
+	@PrimaryKeyColumn(ordinal = 2)
+	private long taskid;
+
+	@PrimaryKeyColumn(ordinal = 3)
+	private long processversionid;
+
+	private long total;
+
+	private long totalDuration;
 
 	private String name;
+
+	public LocalDate getDate() {
+
+		return date;
+	}
+
+	public String getAnalyticskey() {
+
+		return analyticskey;
+	}
+
+	public long getTaskid() {
+
+		return taskid;
+	}
+
+	public long getProcessversionid() {
+
+		return processversionid;
+	}
 
 	public String getName() {
 
 		return name;
 	}
 
-	public String getEntity() {
+	public long getTotal() {
 
-		return entity;
+		return total;
 	}
 
-	public long getId() {
+	public long getTotalDuration() {
 
-		return id;
+		return totalDuration;
 	}
+
 }

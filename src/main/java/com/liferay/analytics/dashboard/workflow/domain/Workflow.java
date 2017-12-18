@@ -27,7 +27,7 @@ import org.springframework.data.cassandra.mapping.Table;
 /**
  * @author Inácio Nery
  */
-@Table(value = "workflows")
+@Table(value = "workflow")
 public class Workflow implements Serializable {
 
 	@PrimaryKeyColumn(ordinal = 0, type = PrimaryKeyType.PARTITIONED)

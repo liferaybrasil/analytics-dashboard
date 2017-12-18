@@ -28,16 +28,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.google.common.collect.Iterables;
 import com.liferay.analytics.dashboard.workflow.domain.Workflow;
-import com.liferay.analytics.dashboard.workflow.domain.WorkflowEntities;
-import com.liferay.analytics.dashboard.workflow.domain.WorkflowProcessAvg;
-import com.liferay.analytics.dashboard.workflow.domain.WorkflowTaskAvg;
+import com.liferay.analytics.dashboard.workflow.domain.WorkflowProcess;
+import com.liferay.analytics.dashboard.workflow.domain.WorkflowTask;
 import com.liferay.analytics.dashboard.workflow.dto.SummaryDTO;
 import com.liferay.analytics.dashboard.workflow.dto.TaskDTO;
 import com.liferay.analytics.dashboard.workflow.dto.WorkflowDTO;
-import com.liferay.analytics.dashboard.workflow.repository.WorkflowEntitiesRepository;
-import com.liferay.analytics.dashboard.workflow.repository.WorkflowProcessAvgRepository;
+import com.liferay.analytics.dashboard.workflow.repository.WorkflowProcessRepository;
 import com.liferay.analytics.dashboard.workflow.repository.WorkflowRepository;
-import com.liferay.analytics.dashboard.workflow.repository.WorkflowTaskAvgRepository;
+import com.liferay.analytics.dashboard.workflow.repository.WorkflowTaskRepository;
 
 /**
  * @author Inácio Nery
@@ -47,13 +45,10 @@ import com.liferay.analytics.dashboard.workflow.repository.WorkflowTaskAvgReposi
 public class WorkflowController {
 
 	@Autowired
-	private WorkflowEntitiesRepository workflowEntitiesRepository;
+	private WorkflowProcessRepository WorkflowProcessRepository;
 
 	@Autowired
-	private WorkflowProcessAvgRepository WorkflowProcessAvgRepository;
-
-	@Autowired
-	private WorkflowTaskAvgRepository workflowTaskAvgRepository;
+	private WorkflowTaskRepository workflowTaskRepository;
 
 	@Autowired
 	private WorkflowRepository workflowRepository;
@@ -82,8 +77,8 @@ public class WorkflowController {
 				unpublished++;
 			}
 
-			Iterable<WorkflowProcessAvg> workflowProcessAvgs =
-				WorkflowProcessAvgRepository.findByAnalyticsKeyAndProcessId(
+			Iterable<WorkflowProcess> workflowProcesses =
+				WorkflowProcessRepository.findByAnalyticsKeyAndProcessId(
 					workflow.getAnalyticsKey(), workflow.getProcessid());
 
 			long completedAux = 0;
@@ -91,21 +86,21 @@ public class WorkflowController {
 			long removedAux = 0;
 			long startedAux = 0;
 
-			for (WorkflowProcessAvg workflowProcessAvg : workflowProcessAvgs) {
-				LocalDate date = workflowProcessAvg.getDate();
+			for (WorkflowProcess workflowProcess : workflowProcesses) {
+				LocalDate date = workflowProcess.getDate();
 
 				if (start.compareTo(date) *
 					date.compareTo(LocalDate.now()) >= 0) {
-					completedAux += workflowProcessAvg.getTotalcompleted();
+					completedAux += workflowProcess.getTotalcompleted();
 
-					startedAux += workflowProcessAvg.getTotalstarted();
+					startedAux += workflowProcess.getTotalstarted();
 
-					removedAux += workflowProcessAvg.getTotalremoved();
+					removedAux += workflowProcess.getTotalremoved();
 				}
 
-				progressAux += (workflowProcessAvg.getTotalstarted() -
-					workflowProcessAvg.getTotalcompleted() -
-					workflowProcessAvg.getTotalremoved());
+				progressAux += (workflowProcess.getTotalstarted() -
+					workflowProcess.getTotalcompleted() -
+					workflowProcess.getTotalremoved());
 			}
 
 			completed += completedAux;
@@ -135,8 +130,8 @@ public class WorkflowController {
 
 		Workflow workflow = workflowRepository.findByProcessid(processId);
 
-		Iterable<WorkflowProcessAvg> workflowProcessAvgs =
-			WorkflowProcessAvgRepository.findByAnalyticsKeyAndProcessId(
+		Iterable<WorkflowProcess> workflowProcesses =
+			WorkflowProcessRepository.findByAnalyticsKeyAndProcessId(
 				workflow.getAnalyticsKey(), workflow.getProcessid());
 
 		long completed = 0;
@@ -148,37 +143,34 @@ public class WorkflowController {
 
 		List<TaskDTO> taskDTOs = new ArrayList<>();
 
-		for (WorkflowProcessAvg workflowProcessAvg : workflowProcessAvgs) {
-			LocalDate date = workflowProcessAvg.getDate();
+		for (WorkflowProcess workflowProcess : workflowProcesses) {
+			LocalDate date = workflowProcess.getDate();
 
 			if (start.compareTo(date) * date.compareTo(LocalDate.now()) >= 0) {
-				completed += workflowProcessAvg.getTotalcompleted();
+				completed += workflowProcess.getTotalcompleted();
 
-				started += workflowProcessAvg.getTotalstarted();
+				started += workflowProcess.getTotalstarted();
 
-				removed += workflowProcessAvg.getTotalremoved();
+				removed += workflowProcess.getTotalremoved();
 
-				duration += workflowProcessAvg.getTotalDuration();
+				duration += workflowProcess.getTotalDuration();
 			}
 
-			progress += (workflowProcessAvg.getTotalstarted() -
-				workflowProcessAvg.getTotalcompleted() -
-				workflowProcessAvg.getTotalremoved());
+			progress += (workflowProcess.getTotalstarted() -
+				workflowProcess.getTotalcompleted() -
+				workflowProcess.getTotalremoved());
 
-			Iterable<WorkflowTaskAvg> workflowTaskAvgs =
-				workflowTaskAvgRepository.findByprocessversionid(
-					workflowProcessAvg.getProcessVersionId());
+			Iterable<WorkflowTask> workflowTasks =
+				workflowTaskRepository.findByprocessversionid(
+					workflowProcess.getProcessVersionId());
 
-			for (WorkflowTaskAvg workflowTaskAvg : workflowTaskAvgs) {
-				WorkflowEntities task = workflowEntitiesRepository.findOne(
-					"KALEO_TASK", workflowTaskAvg.getTaskid());
-
+			for (WorkflowTask workflowTask : workflowTasks) {
 				taskDTOs.add(
 					new TaskDTO(
-						workflowTaskAvg.getTaskid(), task.getName(),
-						workflowTaskAvg.getTotal(),
-						workflowTaskAvg.getTotalDuration() /
-							workflowTaskAvg.getTotal()));
+						workflowTask.getTaskid(), workflowTask.getName(),
+						workflowTask.getTotal(),
+						workflowTask.getTotalDuration() /
+							workflowTask.getTotal()));
 			}
 
 		}

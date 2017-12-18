@@ -24,8 +24,8 @@ import org.springframework.data.cassandra.mapping.Table;
 /**
  * @author Inácio Nery
  */
-@Table(value = "workflowprocessavg")
-public class WorkflowProcessAvg implements Serializable {
+@Table(value = "workflowprocess")
+public class WorkflowProcess implements Serializable {
 
 	@PrimaryKeyColumn(ordinal = 0, type = PrimaryKeyType.PARTITIONED)
 	private String analyticsKey;

@@ -16,13 +16,13 @@ package com.liferay.analytics.dashboard.workflow.repository;
 
 import org.springframework.data.cassandra.repository.CassandraRepository;
 
-import com.liferay.analytics.dashboard.workflow.domain.WorkflowTaskAvg;
+import com.liferay.analytics.dashboard.workflow.domain.WorkflowTask;
 
 /**
  * @author Inácio Nery
  */
-public interface WorkflowTaskAvgRepository
-	extends CassandraRepository<WorkflowTaskAvg> {
+public interface WorkflowTaskRepository
+	extends CassandraRepository<WorkflowTask> {
 
-	Iterable<WorkflowTaskAvg> findByprocessversionid(long processversionid);
+	Iterable<WorkflowTask> findByprocessversionid(long processversionid);
 }
