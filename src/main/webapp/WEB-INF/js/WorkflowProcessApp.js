@@ -30,7 +30,8 @@ class Dashboard extends JSXComponent {
             console.log(json);
 
             this.setState({
-                average: json.average,
+                averageProcess: json.averageProcess,
+                averageTask: json.averageTask,
                 completed: json.completed,
                 pageTitle: json.title,
                 progress: json.progress,
@@ -48,7 +49,8 @@ class Dashboard extends JSXComponent {
 
         const {
             state: {
-                average,
+                averageProcess,
+                averageTask,
                 completed,
                 headerTitle,
                 pageTitle,
@@ -88,7 +90,8 @@ class Dashboard extends JSXComponent {
                             </div>
                             <div class="col-sm-5">
                                 <AverageSection days={{
-                                    average
+                                    averageProcess,
+                                    averageTask
                                 }} />
                             </div>
                         </div>
@@ -105,7 +108,8 @@ class Dashboard extends JSXComponent {
 }
 
 Dashboard.STATE = {
-    average: Config.number().value(0),
+    averageProcess: Config.number().value(0),
+    averageTask: Config.number().value(0),
     completed: Config.number().value(0),
     headerTitle: Config.string().value('My Company Site > Workflow'),
     id: Config.string().value('0'),
@@ -207,12 +211,12 @@ class AverageSection extends JSXComponent {
 
                 <CardB 
                     title="Average Process Duration"
-                    days={days.average}
+                    days={days.averageProcess}
                 />
 
                 <CardB 
                     title="Average Task Duration"
-                    days="2"
+                    	days={days.averageTask}
                 />
             </div>
         );
@@ -221,7 +225,8 @@ class AverageSection extends JSXComponent {
 
 AverageSection.PROPS = {
     days: Config.shapeOf({
-        average: Config.number().value(0)
+    		averageProcess: Config.number().value(0),
+    		averageTask: Config.number().value(0)
     })
 }
 

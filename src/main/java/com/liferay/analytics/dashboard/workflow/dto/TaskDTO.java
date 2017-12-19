@@ -19,11 +19,6 @@ package com.liferay.analytics.dashboard.workflow.dto;
  */
 public class TaskDTO {
 
-	private long id;
-	private String title;
-	private long total;
-	private long average;
-
 	public TaskDTO(long id, String title, long total, long average) {
 
 		super();
@@ -32,12 +27,14 @@ public class TaskDTO {
 		this.total = total;
 		this.average = average;
 	}
+	public long getAverage() {
 
+		return average;
+	}
 	public long getId() {
 
 		return id;
 	}
-
 	public String getTitle() {
 
 		return title;
@@ -48,9 +45,9 @@ public class TaskDTO {
 		return total;
 	}
 
-	public long getAverage() {
-
-		return average;
-	}
+	private long average;
+	private long id;
+	private String title;
+	private long total;
 
 }

@@ -15,6 +15,7 @@
 package com.liferay.analytics.dashboard.workflow.repository;
 
 import org.springframework.data.cassandra.repository.CassandraRepository;
+import org.springframework.data.cassandra.repository.Query;
 
 import com.liferay.analytics.dashboard.workflow.domain.WorkflowProcess;
 
@@ -23,6 +24,14 @@ import com.liferay.analytics.dashboard.workflow.domain.WorkflowProcess;
  */
 public interface WorkflowProcessRepository
 	extends CassandraRepository<WorkflowProcess> {
+
+	@Query("select max(processVersionId) from WorkflowProcess where analyticskey = ?0 and processid = ?1")
+	Long findMaxProcessVersionIdByAnalyticsKeyAndProcessId(
+		String analyticsKey, long processId);
+
+	@Query("select * from WorkflowProcess where analyticskey = ?0 and processid = ?1 and processversionid = ?2 ALLOW FILTERING")
+	Iterable<WorkflowProcess> findByAnalyticsKeyAndProcessIdAndProcessVersionId(
+		String analyticsKey, long processId, long processVersionId);
 
 	Iterable<WorkflowProcess> findByAnalyticsKeyAndProcessId(
 		String analyticsKey, long processId);

@@ -77,8 +77,8 @@ public class WorkflowController {
 				unpublished++;
 			}
 
-			Iterable<WorkflowProcess> workflowProcesses =
-				WorkflowProcessRepository.findByAnalyticsKeyAndProcessId(
+			Long processVersionId =
+				WorkflowProcessRepository.findMaxProcessVersionIdByAnalyticsKeyAndProcessId(
 					workflow.getAnalyticsKey(), workflow.getProcessid());
 
 			long completedAux = 0;
@@ -86,27 +86,34 @@ public class WorkflowController {
 			long removedAux = 0;
 			long startedAux = 0;
 
-			for (WorkflowProcess workflowProcess : workflowProcesses) {
-				LocalDate date = workflowProcess.getDate();
+			if (processVersionId != null) {
+				Iterable<WorkflowProcess> workflowProcesses =
+					WorkflowProcessRepository.findByAnalyticsKeyAndProcessIdAndProcessVersionId(
+						workflow.getAnalyticsKey(), workflow.getProcessid(),
+						processVersionId);
 
-				if (start.compareTo(date) *
-					date.compareTo(LocalDate.now()) >= 0) {
-					completedAux += workflowProcess.getTotalcompleted();
+				for (WorkflowProcess workflowProcess : workflowProcesses) {
+					LocalDate date = workflowProcess.getDate();
 
-					startedAux += workflowProcess.getTotalstarted();
+					if (start.compareTo(date) *
+						date.compareTo(LocalDate.now()) >= 0) {
+						completedAux += workflowProcess.getTotalcompleted();
 
-					removedAux += workflowProcess.getTotalremoved();
+						startedAux += workflowProcess.getTotalstarted();
+
+						removedAux += workflowProcess.getTotalremoved();
+					}
+
+					progressAux += (workflowProcess.getTotalstarted() -
+						workflowProcess.getTotalcompleted() -
+						workflowProcess.getTotalremoved());
 				}
 
-				progressAux += (workflowProcess.getTotalstarted() -
-					workflowProcess.getTotalcompleted() -
-					workflowProcess.getTotalremoved());
+				completed += completedAux;
+				progress += progressAux;
+				started += startedAux;
+				removed += removedAux;
 			}
-
-			completed += completedAux;
-			progress += progressAux;
-			started += startedAux;
-			removed += removedAux;
 
 			workflowDTOs.add(
 				new WorkflowDTO(
@@ -130,20 +137,28 @@ public class WorkflowController {
 
 		Workflow workflow = workflowRepository.findByProcessid(processId);
 
+		Long processVersionId =
+			WorkflowProcessRepository.findMaxProcessVersionIdByAnalyticsKeyAndProcessId(
+				workflow.getAnalyticsKey(), processId);
+
 		Iterable<WorkflowProcess> workflowProcesses =
-			WorkflowProcessRepository.findByAnalyticsKeyAndProcessId(
-				workflow.getAnalyticsKey(), workflow.getProcessid());
+			WorkflowProcessRepository.findByAnalyticsKeyAndProcessIdAndProcessVersionId(
+				workflow.getAnalyticsKey(), processId, processVersionId);
 
 		long completed = 0;
 		long progress = 0;
 		long removed = 0;
 		long started = 0;
 		long duration = 0;
-		long average = 0;
+		long averageProcess = 0;
+		long averageTask = 0;
+		long taskDuration = 0;
+		long taskTotal = 0;
 
 		List<TaskDTO> taskDTOs = new ArrayList<>();
 
 		for (WorkflowProcess workflowProcess : workflowProcesses) {
+
 			LocalDate date = workflowProcess.getDate();
 
 			if (start.compareTo(date) * date.compareTo(LocalDate.now()) >= 0) {
@@ -165,6 +180,9 @@ public class WorkflowController {
 					workflowProcess.getProcessVersionId());
 
 			for (WorkflowTask workflowTask : workflowTasks) {
+				taskDuration += workflowTask.getTotalDuration();
+				taskTotal += workflowTask.getTotal();
+
 				taskDTOs.add(
 					new TaskDTO(
 						workflowTask.getTaskid(), workflowTask.getName(),
@@ -176,14 +194,19 @@ public class WorkflowController {
 		}
 
 		if (duration > 0) {
-			average = duration / completed;
+			averageProcess = duration / completed;
+		}
+
+		if (taskDuration > 0) {
+			averageTask = taskDuration / taskTotal;
 		}
 
 		return ResponseEntity.ok(
 			new WorkflowDTO(
 				workflow.getProcessid(), workflow.getTitle(),
 				workflow.isActive(), progress + completed, started - removed,
-				progress, completed - removed, average, taskDTOs));
+				progress, completed - removed, averageProcess, averageTask,
+				taskDTOs));
 
 	}
 }

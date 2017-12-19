@@ -21,16 +21,6 @@ import java.util.List;
  */
 public class WorkflowDTO {
 
-	private long id;
-	private String title;
-	private boolean status;
-	private long total;
-	private long started;
-	private long progress;
-	private long completed;
-	private long average;
-	private List<TaskDTO> taskDTOs;
-
 	public WorkflowDTO(
 		long id, String title, boolean status, long total, long started,
 		long progress, long completed) {
@@ -44,10 +34,10 @@ public class WorkflowDTO {
 		this.progress = progress;
 		this.completed = completed;
 	}
-
 	public WorkflowDTO(
 		long id, String title, boolean status, long total, long started,
-		long progress, long completed, long average, List<TaskDTO> taskDTOs) {
+		long progress, long completed, long averageProcess, long averageTask,
+		List<TaskDTO> taskDTOs) {
 
 		super();
 		this.id = id;
@@ -57,23 +47,41 @@ public class WorkflowDTO {
 		this.started = started;
 		this.progress = progress;
 		this.completed = completed;
-		this.average = average;
+		this.averageProcess = averageProcess;
+		this.averageTask = averageTask;
 		this.taskDTOs = taskDTOs;
 	}
+	public long getAverageProcess() {
 
+		return averageProcess;
+	}
+	public long getAverageTask() {
+
+		return averageTask;
+	}
+	public long getCompleted() {
+
+		return completed;
+	}
 	public long getId() {
 
 		return id;
 	}
+	public long getProgress() {
 
+		return progress;
+	}
+	public long getStarted() {
+
+		return started;
+	}
+	public List<TaskDTO> getTaskDTOs() {
+
+		return taskDTOs;
+	}
 	public String getTitle() {
 
 		return title;
-	}
-
-	public boolean isStatus() {
-
-		return status;
 	}
 
 	public long getTotal() {
@@ -81,29 +89,20 @@ public class WorkflowDTO {
 		return total;
 	}
 
-	public long getStarted() {
+	public boolean isStatus() {
 
-		return started;
+		return status;
 	}
 
-	public long getProgress() {
-
-		return progress;
-	}
-
-	public long getCompleted() {
-
-		return completed;
-	}
-
-	public long getAverage() {
-
-		return average;
-	}
-
-	public List<TaskDTO> getTaskDTOs() {
-
-		return taskDTOs;
-	}
+	private long averageProcess;
+	private long averageTask;
+	private long completed;
+	private long id;
+	private long progress;
+	private long started;
+	private boolean status;
+	private List<TaskDTO> taskDTOs;
+	private String title;
+	private long total;
 
 }

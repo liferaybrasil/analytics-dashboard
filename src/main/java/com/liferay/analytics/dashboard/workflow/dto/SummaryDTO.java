@@ -21,15 +21,6 @@ import java.util.List;
  */
 public class SummaryDTO {
 
-	private long workflows;
-	private long published;
-	private long unpublished;
-	private long total;
-	private long started;
-	private long progress;
-	private long completed;
-	private List<WorkflowDTO> workflowDTOs;
-
 	public SummaryDTO(
 		long workflows, long published, long unpublished, long total,
 		long started, long progress, long completed,
@@ -44,45 +35,47 @@ public class SummaryDTO {
 		this.completed = completed;
 		this.workflowDTOs = workflowDTOs;
 	}
+	public long getCompleted() {
+
+		return completed;
+	}
+	public long getProgress() {
+
+		return progress;
+	}
+	public long getPublished() {
+
+		return published;
+	}
+	public long getStarted() {
+
+		return started;
+	}
+	public long getTotal() {
+
+		return total;
+	}
+	public long getUnpublished() {
+
+		return unpublished;
+	}
+	public List<WorkflowDTO> getWorkflowDTOs() {
+
+		return workflowDTOs;
+	}
 
 	public long getWorkflows() {
 
 		return workflows;
 	}
 
-	public long getPublished() {
-
-		return published;
-	}
-
-	public long getUnpublished() {
-
-		return unpublished;
-	}
-
-	public long getTotal() {
-
-		return total;
-	}
-
-	public long getStarted() {
-
-		return started;
-	}
-
-	public long getProgress() {
-
-		return progress;
-	}
-
-	public long getCompleted() {
-
-		return completed;
-	}
-
-	public List<WorkflowDTO> getWorkflowDTOs() {
-
-		return workflowDTOs;
-	}
+	private long completed;
+	private long progress;
+	private long published;
+	private long started;
+	private long total;
+	private long unpublished;
+	private List<WorkflowDTO> workflowDTOs;
+	private long workflows;
 
 }
