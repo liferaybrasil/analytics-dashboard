@@ -67,7 +67,7 @@ class Dropdown extends JSXComponent {
 
     render() {
         return (
-            <div class="dropdown-dashboard" onClick={this.handleClick.bind(this)}>
+            <div class="dropdown-dashboard" onClick={this.handleClick}>
                 <Button 
                     label={this.props.label} 
                     style={`${this.props.style} dropdown-dashboard__btn`} 

@@ -1,7 +1,8 @@
 import JSXComponent from 'metal-jsx';
 import Ajax from 'metal-ajax';
 import {MultiMap} from 'metal-structs';
-import {fetch} from './utils';
+import {Config} from 'metal-state';
+import {clock, fetch} from './utils';
 
 import {
     Header, 
@@ -17,6 +18,11 @@ import '../css/main.scss';
 const TIME_UPDATE = 6000;
 
 class Dashboard extends JSXComponent {
+    
+    created() {
+        this.clock = new clock();
+    }
+    
     attached() {
         this.callService();
 
@@ -25,8 +31,16 @@ class Dashboard extends JSXComponent {
         }, TIME_UPDATE);
     }
 
+    handleOnClick(item) {
+        console.log(item);
+    }
+
+    setterDate_() {
+        return this.clock.getDateNow();
+    }
+
     callService() {
-        fetch('workflow', 'summary/2017-12-17').then(json => { 
+        fetch('workflow', `summary/${this.state.date}`).then(json => { 
             console.log(json);
 
             this.setState({ 
@@ -49,16 +63,16 @@ class Dashboard extends JSXComponent {
 
         const {
             state: {
-                headerTitle,
-                footerTitle,
-                workflows,
-                published,
-                unpublished,
-                total,
-                started,
-                progress,
                 completed,
-                workflowDTOs
+                footerTitle,
+                headerTitle,
+                progress,
+                published,
+                started,
+                total,
+                unpublished,
+                workflowDTOs,
+                workflows
             }
         } = this;
 
@@ -67,15 +81,16 @@ class Dashboard extends JSXComponent {
                 <Header icon="page-template" title={headerTitle} />
                 <main>
                     <div class="container-fluid">
+                        {/* <DropdownSection onClick={this.handleOnClick} /> */}
                         <DropdownSection />
                         <CardSection number={{
-                            workflows,
-                            published,
-                            unpublished,
-                            total,
-                            started,
+                            completed,
                             progress,
-                            completed
+                            published,
+                            started,
+                            total,
+                            unpublished,
+                            workflows
                         }} />
                         <TableSection items={workflowDTOs} />
                     </div>
@@ -87,51 +102,33 @@ class Dashboard extends JSXComponent {
 }
 
 Dashboard.STATE = {
-    headerTitle: {
-        value: 'My Company Site > Workflow'
-    },
-    footerTitle: {
-        value: '© 2017 Liferay Inc. All Rights Reserved'
-    },
-    workflows: {
-        value: 0
-    },
-    published: {
-        value: 0
-    },
-    unpublished: {
-        value: 0
-    },
-    total: {
-        value: 0
-    },
-    started: {
-        value: 0
-    },
-    progress: {
-        value: 0
-    },
-    completed: {
-        value: 0
-    },
-    workflowDTOs: {
-        value: []
-    }
+    completed: Config.number().value(0),
+    footerTitle: Config.string().value('© 2017 Liferay Inc. All Rights Reserved'),
+    headerTitle: Config.string().value('My Company Site > Workflow'),
+    progress: Config.number().value(0),
+    published: Config.number().value(0),
+    started: Config.number().value(0),
+    total: Config.number().value(0),
+    unpublished: Config.number().value(0),
+    workflowDTOs: Config.array().value([]),
+    workflows: Config.number().value(0),
+    date: Config.string().setter('setterDate_')
 }
 
 class DropdownSection extends JSXComponent {
     render() {
         return (
-            <div class="row margin-top margin-bottom">
+            <div class="row margin-bottom margin-top">
                 <div class="col-sm-12 text-right">
 
                     <Dropdown 
-                        label="this is a dropdown" 
+                        label="All Status" 
                         style="primary margin-right" 
                         list={['item 1', 'item 2', 'item 3']} />
                     
                     <Dropdown 
-                        label="this is a dropdown 2" 
+                        // events={{click: this.props.onClick}}
+                        label="last 30 days" 
                         style="primary" 
                         list={['item 1', 'item 2', 'item 3', 'item 4', 'item 5']} />
 
@@ -142,10 +139,6 @@ class DropdownSection extends JSXComponent {
 }
 
 class CardSection extends JSXComponent {
-
-    getNumber(number) {
-        return number ? number.toString() : '0';
-    }
 
     render() {
 
@@ -159,21 +152,21 @@ class CardSection extends JSXComponent {
                             <CardA 
                                 title="Workflows" 
                                 icon="share"
-                                number={this.getNumber(number.workflows)} 
+                                number={number.workflows} 
                             />
                         </div>
                         <div class="col-md-4 col-sm-12">
                             <CardA 
                                 title="Published"
                                 icon="share"
-                                number={this.getNumber(number.published)} 
+                                number={number.published} 
                             />
                         </div>
                         <div class="col-md-4 col-sm-12">
                             <CardA 
                                 title="Unpublished"
                                 icon="share"
-                                number={this.getNumber(number.unpublished)} 
+                                number={number.unpublished} 
                             />
                             <ArrowIndicator align="right" side="right" />
                         </div>
@@ -185,28 +178,28 @@ class CardSection extends JSXComponent {
                             <CardA 
                                 title="Process"
                                 icon="share"
-                                number={this.getNumber(number.total)} 
+                                number={number.total} 
                             />
                         </div>
                         <div class="col-md-3 col-sm-12">
                             <CardA 
                                 title="Started"
                                 icon="share"
-                                number={this.getNumber(number.started)} 
+                                number={number.started} 
                             />
                         </div>
                         <div class="col-md-3 col-sm-12">
                             <CardA 
                                 title="In Progress"
                                 icon="share"
-                                number={this.getNumber(number.progress)} 
+                                number={number.progress} 
                             />
                         </div>
                         <div class="col-md-3 col-sm-12">
                             <CardA 
                                 title="Completed"
                                 icon="share"
-                                number={this.getNumber(number.completed)} 
+                                number={number.completed} 
                             />
                         </div>
                     </div>
@@ -216,14 +209,22 @@ class CardSection extends JSXComponent {
     }
 }
 
+CardSection.PROPS = {
+    number: Config.shapeOf({
+        workflows: Config.number().value(0),
+        published: Config.number().value(0),
+        unpublished: Config.number().value(0),
+        total: Config.number().value(0),
+        started: Config.number().value(0),
+        progress: Config.number().value(0),
+        completed: Config.number().value(0)
+    })
+}
+
 class TableSection extends JSXComponent {
 
-    getNumber(number) {
-        return number ? number.toString() : '0';
-    }
-
-    getStatus(status) {
-        return status ? 'active' : 'inactive';
+    setterStatus_(status) {
+        return status ? 'active' : 'inactive'; 
     }
 
     renderTableBody() {
@@ -234,14 +235,13 @@ class TableSection extends JSXComponent {
             return (
                 <tr>
                     <td class="text-left">{item.title}</td>
-                    <td class="text-center">{this.getStatus(item.status)}</td>
-                    <td class="text-right">{this.getNumber(item.total)}</td>
-                    <td class="text-right">{this.getNumber(item.started)}</td>
-                    <td class="text-right">{this.getNumber(item.progress)}</td>
-                    <td class="text-right">{this.getNumber(item.completed)}</td>
+                    <td class="text-center">{item.status}</td>
+                    <td class="text-right">{item.total}</td>
+                    <td class="text-right">{item.started}</td>
+                    <td class="text-right">{item.progress}</td>
+                    <td class="text-right">{item.completed}</td>
                     <td class="text-right">
                         <a href={`/workflow/process?id=${item.id}`}
-                            type="button"
                             class="btn btn-dashboard btn-secondary">
                             view report
                         </a>
@@ -278,6 +278,16 @@ class TableSection extends JSXComponent {
             </div>
         );
     }
+}
+
+TableSection.PROPS = {
+    items: Config.shapeOf({
+        status: Config.string().setter('setterStatus_').value('inactive'),
+        total: Config.number().value(0),
+        started: Config.number().value(0),
+        progress: Config.number().value(0),
+        completed: Config.number().value(0),
+    })
 }
 
 export { Dashboard };

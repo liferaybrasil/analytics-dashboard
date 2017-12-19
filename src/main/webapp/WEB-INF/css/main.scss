@@ -39,7 +39,7 @@ body {
         padding: 0;
 
         > div {
-            padding: $padding / 5;
+            padding: 0 #{$padding / 5};
 
             &:first-child {
                 padding-left: 15px;
@@ -70,4 +70,9 @@ body {
 .title {
     font-size: $title-font-size;
     font-weight: $title-font-weight;
+}
+
+.subtitle {
+    font-size: $subtitle-font-size;
+    font-weight: $subtitle-font-weight;
 }
