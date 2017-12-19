@@ -1,3 +1,4 @@
+import clock from './clock';
 import fetch from './fetch';
 
-export {fetch};
+export {clock, fetch};

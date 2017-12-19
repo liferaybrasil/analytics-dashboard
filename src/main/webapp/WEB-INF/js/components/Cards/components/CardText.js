@@ -34,7 +34,7 @@ class CardText extends JSXComponent {
     }
 
     render() {
-        if (!this.props.text) {
+        if (!this.props.text && this.props.text !== 0) {
             return;
         }
 

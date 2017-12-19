@@ -17,12 +17,20 @@ $positions: (null, top, right, bottom, left);
         @include gap(margin, $position, #{$baseline / 2});
     }
 
+    .no-margin-#{$position} { 
+        @include gap(margin, $position, 0);
+    }
+
     .padding-#{$position} { 
         @include gap(padding, $position);
     }
 
     .padding-#{$position}-half { 
         @include gap(padding, $position, #{$baseline / 2});
+    }
+
+    .no-padding-#{$position} { 
+        @include gap(padding, $position, 0);
     }
 }
 
